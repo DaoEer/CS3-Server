@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营追兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004537|20004538|20004543", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004537|20004538|20004543#L_BQXB_Planes003"
+                }
+            }, 
+            "title": "消灭追兵，救下晏龙"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "轩辕族人的下落"
+}

@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "在边缘处找到幻心开启幻阵迷宫起飞玩法！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找幻心", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-89510 7390 5670:2", 
+                    "param2": "6670|5470", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开启玩法"
+        }, 
+        "3": {
+            "comment": "完成幻阵迷宫玩法飞到终点！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到达终点", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "319920 -220710 10130:5", 
+                    "param2": "10530|10030", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "到达终点"
+        }, 
+        "2": {
+            "comment": "起飞已经就位，队长点击开始飞行", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "飞行就位", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-88170 8390 6270:2", 
+                    "param2": "6370|6170", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "起飞就位"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "幻阵迷宫"
+}

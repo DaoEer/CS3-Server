@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "为祖巫祝融护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3", 
+                    "param2": "20008681", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "抽取金乌真火"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回摩诃殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(5910.0 -25450.0 3640.0)#L_HX_02_Planes101"
+                }
+            }, 
+            "title": "返回摩诃殿"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "神灯取火"
+}

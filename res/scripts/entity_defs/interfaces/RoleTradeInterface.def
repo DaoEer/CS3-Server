@@ -1,0 +1,185 @@
+﻿<root>
+	<Properties>
+		<roleTradeState>
+			<!-- 玩家之间交易状态记录 -->
+			<Type>		INT8				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0					</Default>
+			<Persistent>	false			</Persistent>
+		</roleTradeState>
+
+		<anotherRoleTradeEntity>
+			<!-- 交易对象的entity -->
+			<Type>		ENTITYCALL				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0					</Default>
+			<Persistent>	false			</Persistent>
+		</anotherRoleTradeEntity>
+
+		<srcRoleTradeMoney>
+			<!-- 我方交易设置的金币 -->
+			<Type>		INT64				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0					</Default>
+			<Persistent>	false			</Persistent>
+		</srcRoleTradeMoney>
+
+		<dstRoleTradeMoney>
+			<!-- 对方交易设置的金币 -->
+			<Type>		INT64				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0					</Default>
+			<Persistent>	false			</Persistent>
+		</dstRoleTradeMoney>
+
+		<srcRoleTradeItem>
+			<!-- 我方交易设置的物品 -->
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0					</Default>
+			<Persistent>	false			</Persistent>
+		</srcRoleTradeItem>
+
+		<dstRoleTradeItem>
+			<!-- 对方交易设置的物品 -->
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0					</Default>
+			<Persistent>	false			</Persistent>
+		</dstRoleTradeItem>
+
+		<forbidRoleTrade>
+			<!-- 拒绝交易申请-->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</forbidRoleTrade>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_onRoleTrade>
+			<Arg>	INT32			</Arg>	<!-- entityID -->
+			<Arg>	UNICODE			</Arg>	<!-- 玩家名称 -->
+		</CLIENT_onRoleTrade>
+
+		<CLIENT_tradeOvertime>
+		</CLIENT_tradeOvertime>
+
+		<CLIENT_onTradeState>
+			<Arg>	INT32			</Arg>	<!-- 当前交易状态 -->
+		</CLIENT_onTradeState>
+
+		<!-- 对方是否锁定交易 -->
+		<CLIENT_onDstTradeLock>
+			<Arg>	INT32			</Arg>	<!-- 是否状态 -->
+		</CLIENT_onDstTradeLock>
+		<!--对方是否确定交易-->
+		<CLIENT_onDstTradeSure>
+			<Arg>	INT32			</Arg>	<!-- 是否状态 -->
+		</CLIENT_onDstTradeSure>
+
+		<CLIENT_onMoneyChange>
+			<Arg>	INT64			</Arg>	<!-- 金币数量 -->
+		</CLIENT_onMoneyChange>
+
+		<CLIENT_onDstMoneyChange>
+			<Arg>	INT64			</Arg>	<!-- 金币数量 -->
+		</CLIENT_onDstMoneyChange>
+
+		<CLIENT_onItemAdd>
+			<Arg>	INT32			</Arg>	<!-- 格子位置 -->
+			<Arg>	INT32			</Arg>	<!-- 背包所在位置 -->
+			<Arg>	INT32			</Arg>	<!-- 物品数量 -->
+		</CLIENT_onItemAdd>
+		<CLIENT_onDstItemAdd>
+			<Arg>	INT32			</Arg>	<!-- 格子位置 -->
+			<Arg>	STRING			</Arg>	<!-- 物品 -->
+		</CLIENT_onDstItemAdd>
+
+		<CLIENT_onItemRemove>
+			<Arg>	INT32			</Arg>	<!-- 格子位置 -->
+		</CLIENT_onItemRemove>
+		<CLIENT_onDstItemRemove>
+			<Arg>	INT32			</Arg>	<!-- 格子位置 -->
+		</CLIENT_onDstItemRemove>
+
+		<CLIENT_onItemSwap>
+			<Arg>	INT32			</Arg>	<!-- 格子位置 -->
+			<Arg>	INT32			</Arg>	<!-- 背包所在位置 -->
+			<Arg>	INT32			</Arg>	<!-- 物品数量 -->
+		</CLIENT_onItemSwap>
+		<CLIENT_onDstItemSwap>
+			<Arg>	INT32			</Arg>	<!-- 格子位置 -->
+			<Arg>	STRING			</Arg>	<!-- 物品 -->
+		</CLIENT_onDstItemSwap>
+
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_requestRoleTrade>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</CELL_requestRoleTrade>
+
+		<CELL_agreeRoleTrade>
+			<Exposed/>
+		</CELL_agreeRoleTrade>
+
+		<CELL_onLeaveTarget>
+			<Exposed/>
+		</CELL_onLeaveTarget>
+		<CELL_onLeaveTargetByRequest>
+			<Exposed/>
+		</CELL_onLeaveTargetByRequest>
+		<CELL_cancelRoleTrade>
+			<Exposed/>
+		</CELL_cancelRoleTrade>
+
+		<CELL_requestRoleTradeMoneyChange>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+		</CELL_requestRoleTradeMoneyChange>
+
+		<CELL_requestRoleTradeItemAdd>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</CELL_requestRoleTradeItemAdd>
+
+		<CELL_requestRoleTradeItemRemove>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+		</CELL_requestRoleTradeItemRemove>
+
+		<CELL_requestRoleTradeLock>
+			<Exposed/>
+		</CELL_requestRoleTradeLock>
+
+		<!-- 取消交易锁定 -->
+		<CELL_cancelRoleTradeLock>
+			<Exposed/>
+		</CELL_cancelRoleTradeLock>
+
+		<CELL_requestRoleTradeSure>
+			<Exposed/>
+		</CELL_requestRoleTradeSure>
+		
+		<changeDstRoleTradeState>
+			<Arg>	INT8			</Arg>
+			<Arg>	ENTITYCALL			</Arg>
+		</changeDstRoleTradeState>
+
+		<CELL_setForbidRoleTradeFC>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_setForbidRoleTradeFC>
+		<onOppositeCantTrade>
+			<Exposed/>
+		</onOppositeCantTrade>
+	</CellMethods>
+</root>

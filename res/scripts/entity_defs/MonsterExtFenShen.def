@@ -1,0 +1,32 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<ownerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		0			</Persistent>
+		</ownerID>
+	</Properties>
+
+	<ClientMethods>
+		<BeginPosSyncServer>
+		</BeginPosSyncServer>
+		<EndPosSyncServer>
+		</EndPosSyncServer>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

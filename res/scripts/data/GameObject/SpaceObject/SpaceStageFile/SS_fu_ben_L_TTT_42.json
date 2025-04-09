@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击杀五行傀儡", 
+                    "reqVal": 4, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013358|20013359|20013360|20013361|20013362", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "41级试炼层"
+        }
+    }, 
+    "describe": "通天塔41级试炼层", 
+    "beginOnSpaceInit": 1, 
+    "name": "通天塔41级试炼层"
+}

@@ -1,0 +1,119 @@
+{
+    "20101741": {
+        "tasks": [
+            {
+                "navigateData": "30000173#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "探查飞溅崖"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002006"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3013"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101741, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101726|20101727"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "99"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10018", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1052", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "4056", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "975", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102080003|102080007|102080011|102080015", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q030875|Q030876", 
+        "finish_by": "10000029#L_XYM", 
+        "taskLogDes": "@S{4}飞来石锁灵塔北面有一飞溅崖，同样地处灵脉之源，鲲鹏此前为了加快先天灵气的收集，已派弟子前去占领此地，却不料他们适才竟传来求援信号，请斗士快去查看一番。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030891", 
+        "nextQuest": "20101728|20101729|20101728|20101728", 
+        "taskCompleteFunctions": {}, 
+        "level": 26, 
+        "title": "飞溅崖（废弃）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000029#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

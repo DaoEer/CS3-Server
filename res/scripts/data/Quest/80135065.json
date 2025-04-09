@@ -1,0 +1,90 @@
+{
+    "80135065": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "进入传送门，前往西域妖境"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "潜入妖境并解救灵魂"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001269", 
+                "id": 3, 
+                "name": "回禀海云帆"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000797"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135065, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "25"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0.0 0.0 87.08", 
+                "param2": "5962.0 27561.0 11021.0", 
+                "param1": "L_FMC"
+            }
+        ], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000798|Cy000799", 
+        "finish_by": "10000277#L_FMC", 
+        "taskLogDes": "Cy000798|Cy000799", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 25, 
+        "title": "虚空探宝", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 0
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天岚道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005311", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005311#L_BQDB_Planes104"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救恶来", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "333", 
+                    "param2": "20005310", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005310#L_BQDB_Planes104"
+                }
+            }, 
+            "title": "营救恶来"
+        }
+    }, 
+    "describe": "魔道34级", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救恶来"
+}

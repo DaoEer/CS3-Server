@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopyStory",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_WSD",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_WSD",
+"NavmeshPath"	: "space\\L_WSD_NAVMESH",
+"PatrolRouteFile": "P_L_WSD",
+"belongType"	: "1",
+"SpaceAoi"	: 500,
+"ExitSpace"	:{
+	"ScriptID"	: "L_ZLY",
+	"Position"	: "72350 97700 3110",
+	"Direction"	: "0 0 -150"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_WSD",
+	"eventFile":"SE_L_WSD"
+	},
+"DomainData"	:{
+	}
+}

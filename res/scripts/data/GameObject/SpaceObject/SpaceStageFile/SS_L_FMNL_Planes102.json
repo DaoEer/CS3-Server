@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭飞凤族管事", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011662", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011327|20011330|20011662|20011331|20011328#L_FMNL_Planes102"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭飞凤族守卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011327|20011330|20011331|20011328", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011327|20011330|20011662|20011331|20011328#L_FMNL_Planes102"
+                }
+            }, 
+            "title": "进入飞凤府"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "制服白翎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20002789#L_FMNL_Planes102"
+                }
+            }, 
+            "title": "飞凤族长"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭飞凤族守卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002785|20002786", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002785|20002786#L_FMNL_Planes102"
+                }
+            }, 
+            "title": "深入飞凤府"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "大破飞凤府"
+}

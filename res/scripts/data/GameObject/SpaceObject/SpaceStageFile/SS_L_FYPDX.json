@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫真", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009764", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取回夸父魂珠", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010121", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "真相"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回有穷部落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(18143.0 -13358.000000000002 551.0)#L_FYPDX"
+                }
+            }, 
+            "title": "回复"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 0, 
+    "name": "飞云坡地穴"
+}

@@ -1,0 +1,25 @@
+<root>
+	<Interfaces>
+		<Interface> 	SceneObject	</Interface>
+	</Interfaces>
+	<Properties>
+		<entityScript>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</entityScript>
+		<spawnIndex>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		-1				</Default>
+		</spawnIndex>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

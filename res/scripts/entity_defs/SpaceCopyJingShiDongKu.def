@@ -1,0 +1,103 @@
+<root>
+	<Parent>
+		SpaceCopyRingTask
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<spiritCrystalPoint>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			{}			</Default>
+			<Persistent>		false		</Persistent>
+		</spiritCrystalPoint>
+		<coordXList>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</coordXList>
+		<coordYList>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</coordYList>
+		<coordZList>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</coordZList>
+		<colorNumList>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</colorNumList>
+		<spiritCrystalNum>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</spiritCrystalNum>
+		<colorNum>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</colorNum>
+		<crystalCount1>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</crystalCount1>
+		<crystalCount2>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</crystalCount2>
+		<crystalCount3>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</crystalCount3>
+		<redCounts>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</redCounts>
+		<yellowCounts>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</yellowCounts>
+		<blueCounts>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</blueCounts>
+		<SpiritCrystalPos>
+			<Type>			PYTHON_LIST		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</SpiritCrystalPos>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

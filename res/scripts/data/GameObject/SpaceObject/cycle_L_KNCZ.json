@@ -1,0 +1,26 @@
+{
+"SpaceName"	: "狂牛冲撞",
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyRingTaskChild",
+"scriptID"	: "cycle_L_KNCZ",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"NavmeshPath"	: "space\\L_KNCZ_NAVMESH",
+"PatrolRouteFile": "P_L_KNCZ",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"760 -160 361",
+	"enterDirection":"0 0 -90",
+	"eventFile":"SE_L_KNCZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

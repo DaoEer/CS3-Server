@@ -1,0 +1,108 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "靠近石门探寻线索", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(7.522993 430.517975 130.000031)#L_QMSZ"
+                }
+            }, 
+            "title": "奇阵"
+        }, 
+        "3": {
+            "comment": "请仔细观察，找出最特别的石像。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找出石门阵眼，打开石门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到灵气源头", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(172.504593 -6044.800293 187.224136)#L_QMSZ"
+                }
+            }, 
+            "title": "破阵"
+        }, 
+        "2": {
+            "comment": "按照石像点亮的顺序，依次转动石像。正确转动两次，方可开启石门。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回石像面前", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(37.749863 2494.116943 209.981842)#L_QMSZ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解除阵法，打开石门", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(37.749863 2494.116943 209.981842)#L_QMSZ"
+                }
+            }, 
+            "title": "破阵"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败飞灵梭器灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014804", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(172.504593 -5282.162598 140.312561)#L_QMSZ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "封印灵泉", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(172.504593 -6044.800293 187.224136)#L_QMSZ"
+                }
+            }, 
+            "title": "灵泉"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "奇门石阵"
+}

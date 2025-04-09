@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_THG",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_THG",
+"NavmeshPath"	: "space\\L_HKY_03_NAVMESH",
+"PatrolRouteFile": "P_L_THG",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_XYM",
+	"Position"	: "52172.371094 7684.609375 17173.572266",
+	"Direction"	: "0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_THG",
+	"eventFile":"SE_L_THG"
+	},
+"DomainData"	:{
+	}
+}

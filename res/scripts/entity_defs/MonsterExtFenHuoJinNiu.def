@@ -1,0 +1,29 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<destPosition>
+			<Type>			POSITION			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0 0.0 0.0			</Default>
+			<Persistent>	false				</Persistent>
+		</destPosition>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

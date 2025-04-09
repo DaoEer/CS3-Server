@@ -1,0 +1,27 @@
+<root>
+	<Parent>
+		SpellBox
+	</Parent>
+	
+	<Interfaces>
+	</Interfaces>
+	
+	<Properties>
+		<spellBoxItemList>
+			<Type>			ITEMLIST			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		[]			</Default>
+		</spellBoxItemList>
+		<openEntityID>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+		</openEntityID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

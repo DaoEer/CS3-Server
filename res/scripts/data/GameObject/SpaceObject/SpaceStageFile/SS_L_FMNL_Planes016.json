@@ -1,0 +1,258 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "跟随陆压前往五行石阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "kaishi", 
+                    "param2": "20012686", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-2838.067383 97743.515625 1491.549561)#L_FMNL_Planes016"
+                }
+            }, 
+            "title": "五行石阵"
+        }, 
+        "3": {
+            "comment": "激活石阵后，莫名的天降陨石", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭太古石妖", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012698|20012699|20012700", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012692#L_FMNL_Planes016"
+                }
+            }, 
+            "title": "石阵之怒"
+        }, 
+        "2": {
+            "comment": "按照陆压描述的激活顺序“金、土、木、水、火”激活五行石阵", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“金”阵石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "11", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000781#L_FMNL_Planes016"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“木”阵石", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "12", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000782#L_FMNL_Planes016"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“土”阵石", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "15", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000785#L_FMNL_Planes016"
+                }, 
+                "5": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“火”阵石", 
+                    "reqVal": 1, 
+                    "priority": 4, 
+                    "param3": "14", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000784#L_FMNL_Planes016"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“水”阵石", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "13", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000783#L_FMNL_Planes016"
+                }
+            }, 
+            "title": "激活石阵"
+        }, 
+        "5": {
+            "comment": "激活石阵后，出现金甲巨傀", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭金甲巨傀", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012790", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-2838.067383 97743.515625 1491.549561)#L_FMNL_Planes016"
+                }
+            }, 
+            "title": "金甲巨傀"
+        }, 
+        "4": {
+            "comment": "陆压记错顺序，请按照新的顺序“金、水、土、木、火”激活石阵", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“金”阵石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "21", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000786#L_FMNL_Planes016"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“土”阵石", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "25", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000790#L_FMNL_Planes016"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“水”阵石", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "23", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000788#L_FMNL_Planes016"
+                }, 
+                "5": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“火”阵石", 
+                    "reqVal": 1, 
+                    "priority": 4, 
+                    "param3": "24", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000789#L_FMNL_Planes016"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“木”阵石", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "22", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000787#L_FMNL_Planes016"
+                }
+            }, 
+            "title": "激活石阵"
+        }, 
+        "7": {
+            "comment": "终于激活五行石阵，请通过传送门前往鸿蒙天", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往鸿蒙天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-2840.902344 97825.390625 1589.485229:4", 
+                    "param2": "5000|0", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20012701#L_FMNL_Planes016"
+                }
+            }, 
+            "title": "前往鸿蒙天"
+        }, 
+        "6": {
+            "comment": "陆压记错顺序，请按照新的顺序“金、火、水、木、土”激活石阵", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“金”阵石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "31", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000791#L_FMNL_Planes016"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“水”阵石", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "33", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000793#L_FMNL_Planes016"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“火”阵石", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "34", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000794#L_FMNL_Planes016"
+                }, 
+                "5": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“土”阵石", 
+                    "reqVal": 1, 
+                    "priority": 4, 
+                    "param3": "35", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000795#L_FMNL_Planes016"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活“木”阵石", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "32", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000792#L_FMNL_Planes016"
+                }
+            }, 
+            "title": "激活石阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 0, 
+    "name": "鸿蒙崖破阵"
+}

@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭门口的仙道精兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004607|20004609", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4536.1 57108.6 -29.6)#L_BQDB_Planes105"
+                }
+            }, 
+            "title": "迎战仙道精兵"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "突破中庭的轩辕族精锐", 
+                    "reqVal": 20, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006166|20006167|20006168|20004621|20004623|20004624|20005372|20005371|20006270|20006367|20006366", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(33480.0 42190.0 1250.9)#L_BQDB_Planes105"
+                }
+            }, 
+            "title": "突破中庭"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击溃侧院的轩辕族卫兵", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006162|20006163|20004613|20004614|20004615|20004616|20004617|20004618|20004620|20006269", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16080.0 46480.0 630.4)#L_BQDB_Planes105"
+                }
+            }, 
+            "title": "穿过侧院"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到女娲圣像面前", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "37902.0 38025.4 1230.9:10", 
+                    "param2": "2000|-2000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(37902.0 38025.4 1230.9)#L_BQDB_Planes105"
+                }
+            }, 
+            "title": "到女娲圣像面前"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败碎魂真人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005439", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005439#L_BQDB_Planes105"
+                }
+            }, 
+            "title": "向女娲圣像行进"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入圣像内部", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "37846.3 38930.3 1229.6:3", 
+                    "param2": "1730|730", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(37846.3 38930.3 1229.6)#L_BQDB_Planes105"
+                }
+            }, 
+            "title": "进入女娲圣像内部"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "魔化圣像"
+}

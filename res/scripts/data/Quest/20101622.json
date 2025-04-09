@@ -1,0 +1,120 @@
+{
+    "20101622": {
+        "tasks": [
+            {
+                "navigateData": "30000077#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "击败饕餮"
+            }, 
+            {
+                "navigateData": "20002691|20002692|20002693|20002694#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002691|20002692|20002693|20002694|20002695|20002696|20002697|20002698|20002699|20002700|20002701|20002702", 
+                "id": 2, 
+                "name": "消灭拦路的凶煞灵妖"
+            }, 
+            {
+                "navigateData": "20002695|20002696|20002697|20002698#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002695|20002696|20002697|20002698", 
+                "id": 3, 
+                "name": "消灭拦路的煞灵妖兽"
+            }, 
+            {
+                "navigateData": "20002699|20002700|20002701|20002702#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002699|20002700|20002701|20002702", 
+                "id": 4, 
+                "name": "消灭拦路的煞灵魔兽"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101622, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101642"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1987", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "590", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "959", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "375", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020550", 
+        "finish_by": "10000279#L_FMNL", 
+        "taskLogDes": "@S{4}经飞凤族长白翎告知，饕餮栖身在凶煞之地，请你速速前往凶煞之地降服饕餮。|@S{4}经飞凤族长白翎告知，饕餮栖身在凶煞之地，请你速速前往凶煞之地降服饕餮。|@S{4}经飞凤族长白翎告知，饕餮栖身在凶煞之地，请你速速前往凶煞之地降服饕餮。|@S{4}经飞凤族长白翎告知，饕餮栖身在凶煞之地，请你速速前往凶煞之地降服饕餮。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020563|Q020564", 
+        "nextQuest": "20101623", 
+        "taskCompleteFunctions": {}, 
+        "level": 12, 
+        "title": "凶兽饕餮", 
+        "isAutoCommit": 1, 
+        "start_by": "10000286#L_FMNL", 
+        "isAutoAccept": 1
+    }
+}

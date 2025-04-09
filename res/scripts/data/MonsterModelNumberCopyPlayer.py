@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+datas = {
+	'MonsterExtXinMo':{
+		1:{
+			1:{
+				1:'SK_M_01KunLun_XinMo',2:'SK_M_02YuXu_XinMo',3:'SK_M_03PengLai_XinMo',4:'SK_M_04TaiQing_XinMo',
+			},
+			2:{
+				1:'SK_M_05XiuLuo_XinMo',2:'SK_M_06XiaoYao_XinMo',3:'SK_M_07PiaoMiao_XinMo',4:'SK_M_08MoHe_XinMo',
+			},
+		},
+		2:{
+			1:{
+				1:'SK_F_01KunLun_XinMo',2:'SK_F_02YuXu_XinMo',3:'SK_F_03PengLai_XinMo',4:'SK_F_04TaiQing_XinMo',
+			},
+			2:{
+				1:'SK_F_05XiuLuo_XinMo',2:'SK_F_06XiaoYao_XinMo',3:'SK_F_07PiaoMiao_XinMo',4:'SK_F_08MoHe_XinMo',
+			},
+		},
+	},
+	'MonsterExtTiShen':{
+		1:{
+			1:{
+				1:'SK_M_01KunLun_XinMo',2:'SK_M_02YuXu_XinMo',3:'SK_M_03PengLai_XinMo',4:'SK_M_04TaiQing_XinMo',
+			},
+			2:{
+				1:'SK_M_05XiuLuo_XinMo',2:'SK_M_06XiaoYao_XinMo',3:'SK_M_07PiaoMiao_XinMo',4:'SK_M_08MoHe_XinMo',
+			},
+		},
+		2:{
+			1:{
+				1:'SK_F_01KunLun_XinMo',2:'SK_F_02YuXu_XinMo',3:'SK_F_03PengLai_XinMo',4:'SK_F_04TaiQing_XinMo',
+			},
+			2:{
+				1:'SK_F_05XiuLuo_XinMo',2:'SK_F_06XiaoYao_XinMo',3:'SK_F_07PiaoMiao_XinMo',4:'SK_F_08MoHe_XinMo',
+			},
+		},
+	},
+}

@@ -1,0 +1,24 @@
+<root>
+	<Parent>
+		SpaceCopyHomeBarracksBHZB
+	</Parent>
+
+	<Properties>
+		<npcHomeBarracksEntitys>
+			<Type>			ARRAY_CELL_ENTITYCALL		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</npcHomeBarracksEntitys>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<onRequestBHZBPointDatasCB>
+			<Arg>	BHZBPOINTDATAS	</Arg>
+		</onRequestBHZBPointDatasCB>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

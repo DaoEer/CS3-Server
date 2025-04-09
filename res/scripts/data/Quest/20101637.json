@@ -1,0 +1,126 @@
+{
+    "20101637": {
+        "tasks": [
+            {
+                "navigateData": "20000322|20000323#L_WSS", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000322|20000323", 
+                "id": 1, 
+                "name": "消灭星宿小妖"
+            }, 
+            {
+                "navigateData": "20000348|20000349#L_WSS", 
+                "goal": 8, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000348|20000349", 
+                "id": 2, 
+                "name": "消灭七星小妖"
+            }, 
+            {
+                "navigateData": "30000084#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "前往星辰阁"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002020"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3010"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101637, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101635|20101636"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3900", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "694", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1128", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "510", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020748|Q020749|Q020750", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}听闻混元星斗图就藏在万寿山的星宿氏族中。逍遥子让你去星宿阁打探一下虚实。|@S{4}听闻混元星斗图就藏在万寿山的星宿氏族中。逍遥子让你去星宿阁打探一下虚实。|@S{4}听闻混元星斗图就藏在万寿山的星宿氏族中。逍遥子让你去星宿阁打探一下虚实。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101643", 
+        "taskCompleteFunctions": {}, 
+        "level": 16, 
+        "title": "（废弃）星宿氏族（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000236#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

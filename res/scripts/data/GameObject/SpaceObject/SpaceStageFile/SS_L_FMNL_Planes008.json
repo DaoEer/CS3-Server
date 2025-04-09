@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打破箭塔，破除箭阵", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002093|20002092|20002104", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "落星箭阵"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到传送门，深入探索秘境", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1234", 
+                    "param2": "20002094", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入探索"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败上古石像", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002091", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002091#L_FMNL_Planes008"
+                }
+            }, 
+            "title": "上古石像"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "大战浮黎真人，探查盘古秘宝下落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "666", 
+                    "param2": "20002097", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002097#L_FMNL_Planes008"
+                }
+            }, 
+            "title": "大战浮黎真人"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "上古秘境"
+}

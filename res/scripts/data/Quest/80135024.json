@@ -1,0 +1,119 @@
+{
+    "80135024": {
+        "tasks": [
+            {
+                "navigateData": "10000635#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "通过火海秘境"
+            }, 
+            {
+                "navigateData": "10000635#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000635", 
+                "id": 2, 
+                "name": "与红鸾对话"
+            }, 
+            {
+                "navigateData": "10000635#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000635", 
+                "id": 3, 
+                "name": "回禀红鸾"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000170"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135024, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010070"
+            }, 
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0 0 100", 
+                "param2": "6139 26797 11021", 
+                "param1": "L_FMC"
+            }
+        ], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000170", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Cy000343|Cy000345", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "3": [
+                {
+                    "script": "QuestFuncRemoveItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010070"
+                }
+            ], 
+            "2": [
+                {
+                    "script": "QuestFuncTeleportSpace", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "0 0 -147.25", 
+                    "param2": "5110.0 47380.0 2320.00", 
+                    "param1": "cycle_L_HHMJ"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "火海秘境", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "20101638": {
+        "tasks": [
+            {
+                "navigateData": "(-140370.0 43936.0 3475.0)#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "5", 
+                "param2": "-140370.0 43936.0 3475.0", 
+                "param1": "L_WSS", 
+                "id": 1, 
+                "name": "前往明清观"
+            }, 
+            {
+                "navigateData": "20002178|20002179#L_WSS", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002178|20002179", 
+                "id": 2, 
+                "name": "消灭明清观守卫"
+            }, 
+            {
+                "navigateData": "20002180|20002181|20002182|20002183#L_WSS", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002180|20002181|20002182|20002183", 
+                "id": 3, 
+                "name": "消灭明清观侍卫"
+            }, 
+            {
+                "navigateData": "30000080#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "击败明月，打探混元星斗图的下落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3011"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101638, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101644"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "4976", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "723", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1174", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "547", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020629|Q020630|Q020632", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}@F{fc=c41}混元星斗图@D已被星辰子交给地仙之祖镇元子，祖巫祝融让你先前往万寿山明清观，降服镇元子之徒明月，打探宝图的下落。|@S{4}@F{fc=c41}混元星斗图@D已被星辰子交给地仙之祖镇元子，祖巫祝融让你先前往万寿山明清观，降服镇元子之徒明月，打探宝图的下落。|@S{4}@F{fc=c41}混元星斗图@D已被星辰子交给地仙之祖镇元子，祖巫祝融让你先前往万寿山明清观，降服镇元子之徒明月，打探宝图的下落。|@S{4}@F{fc=c41}混元星斗图@D已被星辰子交给地仙之祖镇元子，祖巫祝融让你先前往万寿山明清观，降服镇元子之徒明月，打探宝图的下落。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101645", 
+        "taskCompleteFunctions": {}, 
+        "level": 17, 
+        "title": "（废弃）降服明月", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

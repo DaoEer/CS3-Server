@@ -1,0 +1,104 @@
+{
+    "20102513": {
+        "tasks": [
+            {
+                "navigateData": "10000413#L_BQXB#2", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-46420 18090 1421.71", 
+                "param1": "L_BQXB", 
+                "id": 1, 
+                "name": "前往浑天营会见蓐收"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002062"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3015"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102513, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102509|20102510|20102511|20102512"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12141", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "568", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6383", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1232", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041505|Q045546|Q040042", 
+        "finish_by": "10000413#L_BQXB", 
+        "taskLogDes": "@S{4}仙道女娲在下界创造了新的生灵——人类。此生灵仿仙人姿态而成，前途不可估量。祖巫蓐收正驻守阪泉西部的浑天营，监视人类动向。请斗士速去与他会合，共谋收服人类之事！", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045547", 
+        "nextQuest": "20102564", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "会见蓐收", 
+        "isAutoCommit": 1, 
+        "start_by": "10000029#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭幽冥火灵", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002398|20002399", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002398|20002399#L_HYDK"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭烈焰火灵", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002400|20002401|20002402|20002403|20002404|20002405", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(11886.0 -15496.0 1673.0)#L_HYDK"
+                }
+            }, 
+            "title": "勇闯火焰洞窟"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追击火麒麟", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(7090 -25260 3653.222412)#L_HYDK"
+                }
+            }, 
+            "title": "追击火麒麟"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败火麒麟，取得源生火焰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "20002406", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(8655.0 -24897.0 3654.9)#L_HYDK"
+                }
+            }, 
+            "title": "灭妖取宝"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "消灭火麒麟"
+}

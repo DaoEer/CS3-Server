@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入真龙棋局", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1650 -1260|1650 7810|-7740 7810|-7740 -1260", 
+                    "param2": "1760|-760", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "进入棋局"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "战胜棋魂", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002492", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败棋魂"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破解真龙棋局", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "485", 
+                    "param2": "20002485", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "破解棋局"
+        }
+    }, 
+    "describe": "25级小副本", 
+    "beginOnSpaceInit": 1, 
+    "name": "真龙棋局"
+}

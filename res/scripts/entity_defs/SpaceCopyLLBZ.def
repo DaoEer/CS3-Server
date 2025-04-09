@@ -1,0 +1,37 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<spaceRewards>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceRewards>
+		<diffcultyDatas>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</diffcultyDatas>
+		<gameCount>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</gameCount>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

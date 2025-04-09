@@ -1,0 +1,67 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 请记住五行蜃妖各自遁入的画卷。@B• 荷花阵会周期性改变功击属性，请伺机诱导其攻击藏有同属性蜃妖的画卷。@B• 荷花阵攻击画卷的法术与蜃妖的属性不同，画中蜃妖会被激怒。@B• 荷花阵攻击到空白画卷，画卷中会新生出蜃妖分身。@B• 每隔一段时间，蜃妖所在的画卷前会亮起对应属性的光圈。@B• 最终击杀五行蜃妖消耗的时间越短获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "消灭蜃妖金：", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "101", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "3": {
+                    "title": "消灭蜃妖水：", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "103", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "2": {
+                    "title": "消灭蜃妖木：", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "102", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "5": {
+                    "title": "消灭蜃妖土：", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "105", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "4": {
+                    "title": "消灭蜃妖火：", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "104", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "消灭五行蜃妖"
+        }
+    }, 
+    "name": "五行画卷"
+}

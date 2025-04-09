@@ -1,0 +1,15 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<registerSpace>
+			<Arg>		UNICODE				</Arg>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+		</registerSpace>
+	</BaseMethods>
+</root>

@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将土灵引至对应水晶处，碎水晶，破护盾，消灭土灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007184", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "拾取破火符，使用对应技能，消灭火灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007185", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "拾取破雷符，使用对应技能，消灭雷灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007186", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败三阵灵"
+        }, 
+        "2": {
+            "comment": "风雷上人的护盾已被破除，击败他，完成挑战", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败风雷上人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007187", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败风雷上人"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "雷池阵"
+}

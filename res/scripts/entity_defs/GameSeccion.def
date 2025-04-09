@@ -1,0 +1,99 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+	
+	<Properties>
+		<accountName>		<!-- 账号名 -->
+			<Type>				UNICODE		</Type>
+			<Flags>				BASE		</Flags>
+			<Persistent>		true		</Persistent>
+			<DatabaseLength>	255			</DatabaseLength>
+			<Index> 			UNIQUE		</Index>
+		</accountName>
+		
+		<password>		<!-- 密码 -->
+			<Type>				UNICODE		</Type>
+			<Flags>				BASE		</Flags>
+			<Persistent>		true		</Persistent>
+			<DatabaseLength>	255			</DatabaseLength>
+		</password>
+		
+		<ip>			<!-- IP -->
+			<Type>				UNICODE		</Type>
+			<Flags>				BASE		</Flags>
+			<Persistent>		true		</Persistent>
+			<DatabaseLength>	255			</DatabaseLength>
+		</ip>
+		
+		<adult>			<!-- 成年人标识(“1” 为成年人，”0”为否，缺省为”1”) -->
+			<Type>				INT8		</Type>
+			<Flags>				BASE		</Flags>
+			<Default>			1			</Default>
+			<Persistent>		true		</Persistent>
+		</adult>
+		
+		<presentee>		<!-- 有无推广人(“1”为有推广人，”0”为没有推广人，缺省为“0”) -->
+			<Type>				INT8		</Type>
+			<Flags>				BASE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>		true		</Persistent>
+		</presentee>
+		
+		<trusteeshipTime>	<!-- 托管时间 -->
+			<Type>			DOUBLE		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</trusteeshipTime>
+		
+		<trusteeshipPasswd>	<!-- 托管密码 -->
+			<Type>				UNICODE	</Type>
+			<Flags>				BASE	</Flags>
+			<Persistent>		true	</Persistent>
+			<DatabaseLength>	255		</DatabaseLength>
+		</trusteeshipPasswd>
+		
+		<lockEndTime>	<!-- 封存结束时间 -->
+			<Type> 		 DOUBLE		</Type>
+			<Flags>		 BASE		</Flags>
+			<Default>	 0			</Default>
+			<Persistent> true		</Persistent>
+		</lockEndTime>
+		
+		<lockReason>	<!-- 封存原因 -->
+			<Type> 		 UNICODE	</Type>
+			<Flags>		 BASE		</Flags>
+			<Persistent> true		</Persistent>
+			<DatabaseLength> 255	</DatabaseLength>
+		</lockReason>
+		
+		<lockGMUser>	<!-- 操作封存的GM -->
+			<Type> 		 UNICODE	</Type>
+			<Flags>		 BASE		</Flags>
+			<Persistent> true		</Persistent>
+			<DatabaseLength> 255	</DatabaseLength>
+		</lockGMUser>
+		
+		<qCode>	<!-- 扫码登录回来的二维码信息 -->
+			<Type> 		 UNICODE	</Type>
+			<Flags>		 BASE		</Flags>
+			<Persistent> true		</Persistent>
+			<DatabaseLength> 32	</DatabaseLength>
+		</qCode>
+		
+		<qCodeValidTime>	<!-- 扫码登录有效登录时间 -->
+			<Type> 		 DOUBLE	</Type>
+			<Flags>		 BASE		</Flags>
+			<Persistent> true		</Persistent>
+		</qCodeValidTime>
+		
+		<registerTime>	<!-- 注册时间，即激活时间 -->
+			<Type>		SERVER_TIME	</Type>
+			<Flags>	BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</registerTime>
+	</Properties>
+	
+	<BaseMethods>
+	</BaseMethods>
+</root>

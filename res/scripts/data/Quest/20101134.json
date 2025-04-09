@@ -1,0 +1,83 @@
+{
+    "20101134": {
+        "tasks": [], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101134, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101132"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "4"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1379", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "340", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "552", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "474", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10000080#L_KLZ", 
+        "taskLogDes": "@S{4}女娲有事要与你相商，请你速速前往昆仑宗拜见女娲。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020152", 
+        "nextQuest": "20101135", 
+        "taskCompleteFunctions": {}, 
+        "level": 15, 
+        "title": "女娲召见", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

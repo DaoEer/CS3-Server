@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击杀醉罗汉", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014001", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "40级试炼层"
+        }
+    }, 
+    "describe": "通天塔40级试炼层", 
+    "beginOnSpaceInit": 1, 
+    "name": "通天塔40级试炼层"
+}

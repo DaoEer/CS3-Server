@@ -1,0 +1,104 @@
+{
+    "20101254": {
+        "tasks": [
+            {
+                "navigateData": "10000010#L_YXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskLearnSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "200201001", 
+                "id": 1, 
+                "name": "学习天剑心法"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002065"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101254, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101243"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13230", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "925", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1773", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032317", 
+        "finish_by": "10000010#L_YXG", 
+        "taskLogDes": "@S{4}女娲让你回到玉虚宫找你大师兄玄天行，学习心法。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032322|Q032330", 
+        "nextQuest": "20101258", 
+        "taskCompleteFunctions": {}, 
+        "level": 25, 
+        "title": "再习心法", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

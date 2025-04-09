@@ -1,0 +1,108 @@
+{
+    "20101639": {
+        "tasks": [
+            {
+                "navigateData": "20002668#L_BHD_2", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "重炼混元星斗图"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101639, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101640|20101641"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10896", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "784", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1273", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "627", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102010004|102010011|102010018|102010025", 
+                "script": "QuestRewardItemByProfession"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010003", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010014", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10000029#L_XYM", 
+        "taskLogDes": "@S{4}混元星斗图被一片鸿蒙气息遮掩，鲲鹏命你前往九幽冥河取得相伴而生的@F{fc=c41}冥河之水@D和@F{fc=c41}焚天魔火@D助他重炼混元星斗图。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020820", 
+        "nextQuest": "20101706", 
+        "taskCompleteFunctions": {}, 
+        "level": 19, 
+        "title": "（废弃）重炼宝图", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

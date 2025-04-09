@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭狴犴亲卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004006|20004019", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004006|20004019#L_YLG_Planes102"
+                }
+            }, 
+            "title": "深入隐龙谷"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败兽王狴犴", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "333", 
+                    "param2": "20004022", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20004022#L_YLG_Planes102"
+                }
+            }, 
+            "title": "收服兽王狴犴"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "收服狴犴(二)"
+}

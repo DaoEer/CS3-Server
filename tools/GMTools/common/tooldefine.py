@@ -1,0 +1,236 @@
+# -*- coding: utf-8 -*-
+from . import csdefine
+
+
+CS3GAME_SERVER_BASEAPP_GM_INTERFACE_PORT = 39000	#游戏服务器GM接口进程端口号
+
+CURR_SERVER = "curr_server"
+GAME_SERVER_PORT = "game_server_port"	#游戏服务器端口号关键字
+LOG_SERVER_PORT = "log_server_port"	#日志服务器端口号关键字
+
+
+tool_default_db_key = "default"
+
+SUPER_ADMIN_NUM = 1 #超级管理员数量
+
+#entity类型在entities.xml的序号
+ENTITY_TYPE_ACCOUNT = 3
+ENTITY_TYPE_ROLE = 4
+
+
+#----------------------------------------------
+#GM工具功能
+#----------------------------------------------
+GM_TOOL_FUNCTION_TYPE_USER_MGR = 1			#工具账号管理
+GM_TOOL_FUNCTION_TYPE_ACCOUNT_MGR = 2		#游戏账号管理
+GM_TOOL_FUNCTION_TYPE_ROLE_MGR = 3			#游戏角色管理
+GM_TOOL_FUNCTION_TYPE_ACTIVITY_MGR = 4		#活动管理
+GM_TOOL_FUNCTION_TYPE_ITEM_MGR = 5			#物品管理
+GM_TOOL_FUNCTION_TYPE_MAIL_MGR = 6			#邮件管理
+GM_TOOL_FUNCTION_TYPE_NOTICE_MGR = 7		#公告管理
+GM_TOOL_FUNCTION_TYPE_ROLE_INFO = 8			#角色查询
+GM_TOOL_FUNCTION_TYPE_DATA_MONITOR = 9	#数据监控
+
+#------------------------------
+#GM工具账号管理
+#------------------------------
+USER_MGR_ADD = 1 #新建账号
+USER_MGR_DEL = 2 #删除账号
+USER_MGR_EDIT = 3 #编辑账号
+USER_MGR_MODIFY_PWD = 4 #修改密码
+
+#------------------------------
+#游戏账号管理
+#------------------------------
+ACCOUNT_MGR_QUERY = 1 #查看账号信息
+ACCOUNT_MGR_EXPORT_ROLE_INFO = 2 #导出角色信息
+ACCOUNT_MGR_EXPORT_COST_DATA = 3 #导出消费排行
+ACCOUNT_MGR_LOCK_ACCOUNT = 4 #封锁账号
+ACCOUNT_MGR_UNLOCK_ACCOUNT = 5 #解封账号
+ACCOUNT_MGR_ACCOUNT_TRUSTEESHIP = 6 #账号托管
+ACCOUNT_MGR_ACCOUNT_TRUSTEESHIP_CANCEL = 7 #取消账号托管
+
+#------------------------------
+#游戏角色管理
+#------------------------------
+ROLE_MGR_KICK_ROLE = 1 #踢人
+ROLE_MGR_QUERY_INFO = 2 #角色信息查询
+ROLE_MGR_QUERY_ACTIVITY_PART = 3 #活动参与查询
+ROLE_MGR_QUERY_COIN = 4 #货币查询
+ROLE_MGR_QUERY_PET = 5 #幻兽查询
+ROLE_MGR_QUERY_ITEM = 6 #道具查询
+ROLE_MGR_FREEZE_ROLE = 7 #冻结角色
+ROLE_MGR_UNFREEZE_ROLE = 8 #解冻角色
+ROLE_MGR_GAG = 9 #禁言
+ROLE_MGR_UNGAG = 10 #解除禁言
+ROLE_MGR_TRAN_TO_REVIVE_POS = 11 #拉到绑定复活点
+
+#------------------------------
+#活动管理
+#------------------------------
+ACTIVITY_MGR_ACTITY_OPEN = 1 #开启活动
+ACTIVITY_MGR_ACTITY_CLOSE = 2 #关闭活动
+ACTIVITY_MGR_ACTITY_DELAY_ADD = 3 #添加预约活动
+ACTIVITY_MGR_ACTITY_DELAY_DEL = 4 #取消预约活动
+ACTIVITY_MGR_ACTITY_DELAY_QUERY = 5 #查看预约活动
+
+#------------------------------
+#物品管理
+#------------------------------
+ITEM_MGR_ITEM_QUERY = 1 #物品查询（数据支持）
+ITEM_MGR_ITEM_ISSUE_APPLICATION = 2 #申请发奖
+ITEM_MGR_ITEM_ISSUE_SEND = 3 #审核通过发奖
+ITEM_MGR_ITEM_ISSUE_RETURN = 4 #退回发奖申请
+ITEM_MGR_ITEM_ISSUE_DEL = 5 #删除被退回的发奖申请
+
+#------------------------------
+#邮件管理
+#------------------------------
+MAIL_MGR_MAIL_SEND = 1 #发送邮件
+
+#------------------------------
+#公告管理
+#------------------------------
+NOTICE_MGR_NOTICE_SEND_INSTANT = 1 #发送即时公告
+NOTICE_MGR_NOTICE_SEND_DELAY = 2 #发送定时公告
+NOTICE_MGR_NOTICE_SEND_MULTIPLE = 3 #发送多条公告
+NOTICE_MGR_NOTICE_TIMEING_DEL = 4 #删除定时功告（包括定时公告和多条公告）
+
+#------------------------------
+#角色查询
+#------------------------------
+ROLE_INFO_QUERY_ROLE_UPGRADE = 1 #升级信息
+ROLE_INFO_QUERY_SKILL_LEARN = 2 #技能学习信息
+ROLE_INFO_QUERY_MAIL_RECORD = 3 #邮件记录信息
+ROLE_INFO_QUERY_VEND_TRADE = 4 #摆摊交易信息
+ROLE_INFO_QUERY_ITEM_FLOW = 5 #物品流向信息
+ROLE_INFO_QUERY_ITEM_RECORD = 6 #物品记录信息
+ROLE_INFO_QUERY_ROLE_POS = 7 #玩家当前位置信息
+ROLE_INFO_QUERY_ROLE_EQUIP = 8 #玩家装备信息
+ROLE_INFO_QUERY_ROLE_ATTRIBUTE = 9 #玩家属性信息
+ROLE_INFO_QUERY_ROLE_TASK = 10 #玩家任务信息
+ROLE_INFO_QUERY_ROLE_COIN = 11 #玩家金钱（货币）信息
+ROLE_INFO_QUERY_ROLE_RECHARGE = 12 #玩家充值记录信息
+
+#------------------------------
+#数据监控
+#------------------------------
+DATA_MONITOR_ONLINE_DATA = 1 #在线数据监控
+DATA_MONITOR_ROLE_COST_DATA = 2 #消费数据监控
+DATA_MONITOR_RECHARGE_DATA = 3 #充值数据监控
+DATA_MONITOR_ROLE_COIN_ADD = 4 #货币收入监控
+
+
+#-----------------------------------
+#操作结果
+#-----------------------------------
+_MSG_ERROR   = 1
+_MSG_SUCCEED = 2
+
+#-----------------------------------
+#查询数目
+#-----------------------------------
+QUERY_ONCE_NUM_ = 15
+
+
+
+#----------------------------------------------
+#充值(消费)
+#----------------------------------------------
+#订单查询方式
+CHARGE_ORDER_QUERY_TYPE_ACCOUNT = 1 #账号查询
+CHARGE_ORDER_QUERY_TYPE_TOTALCHARGE = 2 #总充值查询
+CHARGE_ORDER_QUERY_TYPE_SINGLECHARGE = 3 #单笔充值查询
+#充值类型
+CHARGE_TYPE_GY_COIN = 0 #光宇币兑换
+CHARGE_TYPE_SCORE = 1 #积分兑换
+CHARGE_TYPE_POINT_CARD = 2 #点卡交易
+
+
+#----------------------------------------------
+#工具账号权限等级
+#----------------------------------------------
+USER_LEVEL_ONE = 1 #第一等级，可使用全部功能
+USER_LEVEL_TWO = 2 #第二等级，除用户名管理、发奖审核的所有功能均开放。
+USER_LEVEL_THREE = 3 #第三等级，只有GM操作板块中的查询信息中的使用权限。
+
+#工具账号编辑
+USER_EDIT_GRADE_MODIFY = 1 #修改权限
+USER_EDIT_UP_ADNIM = 2 #升级为管理员
+USER_EDIT_CHANGE_ORDINARY_USER = 3 #改为普通账号
+
+
+GM_USER_ACTION_GRADE_LEVEL_DICT = {
+	GM_TOOL_FUNCTION_TYPE_USER_MGR: {
+		USER_MGR_ADD: USER_LEVEL_ONE, #新建账号
+		USER_MGR_DEL: USER_LEVEL_ONE, #删除账号
+		USER_MGR_EDIT: USER_LEVEL_ONE, #编辑账号
+		USER_MGR_MODIFY_PWD: USER_LEVEL_ONE, #修改密码
+	},
+	GM_TOOL_FUNCTION_TYPE_ACCOUNT_MGR: {
+		ACCOUNT_MGR_LOCK_ACCOUNT: USER_LEVEL_TWO, #封锁账号
+		ACCOUNT_MGR_UNLOCK_ACCOUNT: USER_LEVEL_TWO, #解封账号
+		ROLE_MGR_GAG: USER_LEVEL_TWO, #禁言
+		ROLE_MGR_UNGAG: USER_LEVEL_TWO, #解除禁言
+		ACCOUNT_MGR_ACCOUNT_TRUSTEESHIP: USER_LEVEL_TWO, #账号托管
+		ACCOUNT_MGR_ACCOUNT_TRUSTEESHIP_CANCEL: USER_LEVEL_TWO, #取消账号托管
+		ACCOUNT_MGR_QUERY: USER_LEVEL_THREE, #查看账号信息
+		ACCOUNT_MGR_EXPORT_ROLE_INFO: USER_LEVEL_THREE, #导出角色信息
+		ACCOUNT_MGR_EXPORT_COST_DATA: USER_LEVEL_THREE, #导出消费排行
+	},
+	GM_TOOL_FUNCTION_TYPE_ROLE_MGR: {
+		ROLE_MGR_KICK_ROLE: USER_LEVEL_TWO, #踢人
+		ROLE_MGR_QUERY_INFO: USER_LEVEL_THREE, #角色信息查询
+		ROLE_MGR_QUERY_ACTIVITY_PART: USER_LEVEL_THREE, #活动参与查询
+		ROLE_MGR_QUERY_COIN: USER_LEVEL_THREE, #货币查询
+		ROLE_MGR_FREEZE_ROLE: USER_LEVEL_TWO,#冻结角色
+		ROLE_MGR_UNFREEZE_ROLE: USER_LEVEL_TWO,#解冻角色
+		ROLE_MGR_QUERY_PET: USER_LEVEL_THREE, #幻兽查询
+		ROLE_MGR_QUERY_ITEM: USER_LEVEL_THREE, #道具查询
+		ROLE_MGR_TRAN_TO_REVIVE_POS: USER_LEVEL_TWO, #拉到绑定复活点
+	},
+	GM_TOOL_FUNCTION_TYPE_ACTIVITY_MGR: {
+		ACTIVITY_MGR_ACTITY_OPEN: USER_LEVEL_TWO, #开启活动
+		ACTIVITY_MGR_ACTITY_CLOSE: USER_LEVEL_TWO, #关闭活动
+		ACTIVITY_MGR_ACTITY_DELAY_ADD: USER_LEVEL_TWO, #添加预约活动
+		ACTIVITY_MGR_ACTITY_DELAY_DEL: USER_LEVEL_TWO, #取消预约活动
+		ACTIVITY_MGR_ACTITY_DELAY_QUERY: USER_LEVEL_THREE, #查看预约活动
+	},
+	GM_TOOL_FUNCTION_TYPE_ITEM_MGR: {
+		ITEM_MGR_ITEM_QUERY: USER_LEVEL_TWO, #物品查询（数据支持）
+		ITEM_MGR_ITEM_ISSUE_APPLICATION: USER_LEVEL_TWO, #申请发奖
+		ITEM_MGR_ITEM_ISSUE_SEND: USER_LEVEL_ONE,#审核通过发奖
+		ITEM_MGR_ITEM_ISSUE_RETURN: USER_LEVEL_ONE,#退回发奖申请
+		ITEM_MGR_ITEM_ISSUE_DEL: USER_LEVEL_TWO,#删除被退回的发奖申请
+
+	},
+	GM_TOOL_FUNCTION_TYPE_MAIL_MGR: {
+		MAIL_MGR_MAIL_SEND: USER_LEVEL_TWO, #发送邮件
+	},
+	GM_TOOL_FUNCTION_TYPE_NOTICE_MGR: {
+		NOTICE_MGR_NOTICE_SEND_INSTANT: USER_LEVEL_TWO, #发送即时公告
+		NOTICE_MGR_NOTICE_SEND_DELAY: USER_LEVEL_TWO, #发送定时公告
+		NOTICE_MGR_NOTICE_SEND_MULTIPLE: USER_LEVEL_TWO, #发送多条公告
+		NOTICE_MGR_NOTICE_TIMEING_DEL: USER_LEVEL_TWO, #删除定时功告（包括定时公告和多条公告）
+	},
+	GM_TOOL_FUNCTION_TYPE_ROLE_INFO: {
+		ROLE_INFO_QUERY_ROLE_UPGRADE: USER_LEVEL_THREE, #升级信息
+		ROLE_INFO_QUERY_SKILL_LEARN: USER_LEVEL_THREE, #技能学习信息
+		ROLE_INFO_QUERY_MAIL_RECORD: USER_LEVEL_THREE, #邮件记录信息
+		ROLE_INFO_QUERY_VEND_TRADE: USER_LEVEL_THREE, #摆摊交易信息
+		ROLE_INFO_QUERY_ITEM_FLOW:  USER_LEVEL_THREE, #物品流向信息
+		ROLE_INFO_QUERY_ITEM_RECORD: USER_LEVEL_THREE, #物品记录信息
+		ROLE_INFO_QUERY_ROLE_POS:  USER_LEVEL_THREE, #玩家当前位置信息
+		ROLE_INFO_QUERY_ROLE_EQUIP: USER_LEVEL_THREE, #玩家装备信息
+		ROLE_INFO_QUERY_ROLE_ATTRIBUTE: USER_LEVEL_THREE, #玩家属性信息
+		ROLE_INFO_QUERY_ROLE_TASK: USER_LEVEL_THREE, #玩家任务信息
+		ROLE_INFO_QUERY_ROLE_COIN: USER_LEVEL_THREE, #玩家金钱（货币）信息
+		ROLE_INFO_QUERY_ROLE_RECHARGE: USER_LEVEL_THREE, #玩家充值记录信息
+	},
+	GM_TOOL_FUNCTION_TYPE_DATA_MONITOR: {
+		DATA_MONITOR_ONLINE_DATA: USER_LEVEL_THREE, #在线数据监控
+		DATA_MONITOR_ROLE_COST_DATA: USER_LEVEL_THREE, #消费数据监控
+		DATA_MONITOR_RECHARGE_DATA: USER_LEVEL_THREE, #充值数据监控
+		DATA_MONITOR_ROLE_COIN_ADD: USER_LEVEL_THREE, #货币收入监控
+	},
+}

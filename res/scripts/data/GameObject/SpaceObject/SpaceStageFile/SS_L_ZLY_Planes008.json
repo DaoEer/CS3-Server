@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭乾风，夺取风煞魂石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010098", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20006756#L_ZLY_Planes008"
+                }
+            }, 
+            "title": "消灭乾风，夺取风煞魂石"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "阴煞之地"
+}

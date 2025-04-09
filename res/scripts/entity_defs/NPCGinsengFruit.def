@@ -1,0 +1,25 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Parent>
+		NPC
+	</Parent>
+	<Interfaces>
+		<Interface>	NPCAmbulantInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<onCollisionBegin>
+			<Exposed/>
+		</onCollisionBegin>
+	</CellMethods>
+</root>

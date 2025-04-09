@@ -1,0 +1,115 @@
+{
+    "20101680": {
+        "tasks": [
+            {
+                "navigateData": "(-155777.0 44498.0 8853.0)#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往五庄观"
+            }, 
+            {
+                "navigateData": "(-155777.0 44498.0 8853.0)#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "击败明月，打探混元星斗图的下落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3011"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointClose", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3046|3047"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101680, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101679"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "5687", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "780", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1296", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "547", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}@F{fc=c41}混元星斗图@D已被星辰子交给地仙之祖镇元子，祖巫祝融让你先前往万寿山五庄观，降服镇元子之徒明月，打探宝图的下落。|@S{4}@F{fc=c41}混元星斗图@D已被星辰子交给地仙之祖镇元子，祖巫祝融让你先前往万寿山五庄观，降服镇元子之徒明月，打探宝图的下落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101681", 
+        "taskCompleteFunctions": {}, 
+        "level": 17, 
+        "title": "降服明月", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

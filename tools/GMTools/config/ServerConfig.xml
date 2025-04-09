@@ -1,0 +1,98 @@
+﻿<root>
+	<serverConfigs>
+		<server>
+			<name>本地测试1</name>	<!--区服名称-->
+			<key>server_1</key>	<!--区服配置识别关键字，名字没特殊要求，但不能相同。建议仅使用26个字符、下划线、数字的组合-->
+			<baseappHosts>	<!-->一个服务器的baseapp进程可能启动在多个机器上，这里需要配置所有的baseapp进程的IP<-->
+				<host>127.0.0.1</host>
+				<host>127.0.0.1</host>
+			</baseappHosts>
+			<gameDatabaseInfo>	<!--游戏数据库配置-->
+				<host>127.0.0.1</host>			<!--数据库所在机器IP-->
+				<port>3306</port>				<!--数据库端口号，默认都是3306-->
+				<database>csol3</database>	<!--数据库名字-->
+				<user>root</user>				<!--数据库用户名-->
+				<password>123456</password>	<!--数据库用户对应访问密码-->
+				<charset>utf8</charset>		<!--数据库编码-->
+			</gameDatabaseInfo>
+			<logDatabaseInfo>	<!--日志数据库配置-->
+				<host>127.0.0.1</host>			<!--数据库所在机器IP-->
+				<port>3306</port>				<!--数据库端口号，默认都是3306-->
+				<database>csol3_log</database>	<!--数据库名字-->
+				<user>root</user>				<!--数据库用户名-->
+				<password>123456</password>	<!--数据库用户对应访问密码-->
+				<charset>utf8</charset>		<!--数据库编码-->
+			</logDatabaseInfo>
+		</server>
+		<server>
+			<name>本地测试2</name>	<!--区服名称-->
+			<key>server_2</key>	<!--区服配置识别关键字，名字没特殊要求，但不能相同。建议仅使用26个字符、下划线、数字的组合-->
+			<baseappHosts>	<!-->一个服务器的baseapp进程可能启动在多个机器上，这里需要配置所有的baseapp进程的IP<-->
+				<host>127.0.0.1</host>
+				<host>127.0.0.1</host>
+			</baseappHosts>
+			<gameDatabaseInfo>	<!--游戏数据库配置-->
+				<host>127.0.0.1</host>			<!--数据库所在机器IP-->
+				<port>3306</port>				<!--数据库端口号，默认都是3306-->
+				<database>csol3</database>	<!--数据库名字-->
+				<user>root</user>				<!--数据库用户名-->
+				<password>123456</password>	<!--数据库用户对应访问密码-->
+				<charset>utf8</charset>		<!--数据库编码-->
+			</gameDatabaseInfo>
+			<logDatabaseInfo>	<!--日志数据库配置-->
+				<host>127.0.0.1</host>			<!--数据库所在机器IP-->
+				<port>3306</port>				<!--数据库端口号，默认都是3306-->
+				<database>csol3_log</database>	<!--数据库名字-->
+				<user>root</user>				<!--数据库用户名-->
+				<password>123456</password>	<!--数据库用户对应访问密码-->
+				<charset>utf8</charset>		<!--数据库编码-->
+			</logDatabaseInfo>
+		</server>
+		<server>
+			<name>王尧松服务器</name>	<!--区服名称-->
+			<key>server_4</key>	<!--区服配置识别关键字，名字没特殊要求，但不能相同。建议仅使用26个字符、下划线、数字的组合-->
+			<baseappHosts>	<!-->一个服务器的baseapp进程可能启动在多个机器上，这里需要配置所有的baseapp进程的IP<-->
+				<host>172.16.6.69</host>
+			</baseappHosts>
+			<gameDatabaseInfo>	<!--游戏数据库配置-->
+				<host>172.16.6.69</host>			<!--数据库所在机器IP-->
+				<port>3306</port>				<!--数据库端口号，默认都是3306-->
+				<database>csol3</database>	<!--数据库名字-->
+				<user>root</user>				<!--数据库用户名-->
+				<password>123456</password>	<!--数据库用户对应访问密码-->
+				<charset>utf8</charset>		<!--数据库编码-->
+			</gameDatabaseInfo>
+			<logDatabaseInfo>	<!--日志数据库配置-->
+				<host>172.16.6.69</host>			<!--数据库所在机器IP-->
+				<port>3306</port>				<!--数据库端口号，默认都是3306-->
+				<database>csol3_log</database>	<!--数据库名字-->
+				<user>root</user>				<!--数据库用户名-->
+				<password>123456</password>	<!--数据库用户对应访问密码-->
+				<charset>utf8</charset>		<!--数据库编码-->
+			</logDatabaseInfo>
+		</server>
+		<server>
+			<name>张振华服务器</name>	<!--区服名称-->
+			<key>server_3</key>	<!--区服配置识别关键字，名字没特殊要求，但不能相同。建议仅使用26个字符、下划线、数字的组合-->
+			<baseappHosts>	<!-->一个服务器的baseapp进程可能启动在多个机器上，这里需要配置所有的baseapp进程的IP<-->
+				<host>172.16.6.64</host>
+			</baseappHosts>
+			<gameDatabaseInfo>	<!--游戏数据库配置-->
+				<host>172.16.6.64</host>			<!--数据库所在机器IP-->
+				<port>3306</port>				<!--数据库端口号，默认都是3306-->
+				<database>csol3</database>	<!--数据库名字-->
+				<user>root</user>				<!--数据库用户名-->
+				<password>123456</password>	<!--数据库用户对应访问密码-->
+				<charset>utf8</charset>		<!--数据库编码-->
+			</gameDatabaseInfo>
+			<logDatabaseInfo>	<!--日志数据库配置-->
+				<host>172.16.6.64</host>			<!--数据库所在机器IP-->
+				<port>3306</port>				<!--数据库端口号，默认都是3306-->
+				<database>csol3_log</database>	<!--数据库名字-->
+				<user>root</user>				<!--数据库用户名-->
+				<password>123456</password>	<!--数据库用户对应访问密码-->
+				<charset>utf8</charset>		<!--数据库编码-->
+			</logDatabaseInfo>
+		</server>
+	</serverConfigs>
+</root>

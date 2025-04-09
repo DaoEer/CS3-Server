@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "使用变身符，避开道场守卫", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到九天息壤", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "6342.576172 -12637.810547 2030.351563:15", 
+                    "param2": "7030|-2970", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20002475#L_TLDC"
+                }
+            }, 
+            "title": "潜入"
+        }, 
+        "3": {
+            "comment": "趁此机会，快去上前取得宝物", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得九天息壤", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010038", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(6361.470703 -13765.618164 2014.215332)#L_TLDC"
+                }
+            }, 
+            "title": "取宝"
+        }, 
+        "2": {
+            "comment": "消灭守卫九天息壤的魔道弟子", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "退敌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001492", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(6361.470703 -13765.618164 2014.215332)#L_TLDC"
+                }
+            }, 
+            "title": "临危"
+        }, 
+        "4": {
+            "comment": "消灭追击而来的天罗弟子，携带九天息壤，离开天罗道场", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "全身而退", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005915|20005916|20005917|20005918|20005919|20005920|20002470|20002472|20002473|20002474|20002471|20002476|20002477|20002478|20002479", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "离去"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "智取九天息壤"
+}

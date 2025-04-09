@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "荒月庄园",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_fengmingxunbao1_1",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "L_FMXB_001_spawn",
+"NavmeshPath"	: "space\\L_FMXB_001_NAVMESH",
+"PatrolRouteFile": "P_L_FMXB_001",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_1_1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C000000"},
+	"enterPosition":"9290 7510 215",
+	"enterDirection":"0 0 -108",
+	"stageFile":"SS_L_FMXB_001",
+	"eventFile":"SE_L_FMXB_001",
+	"clientUseCharacterMovment" : 1,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1,
+	"spaceHPModifyRatio":"0.3",
+	"spaceDamageModifyRatio":"0.3"
+	},
+"DomainData"	:{
+	}
+}

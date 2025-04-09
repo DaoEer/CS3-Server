@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "找出三个精英，并逐一消灭", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭红衣", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011559", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭水袖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011561", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭长剑", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011560", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "突破重围"
+        }, 
+        "2": {
+            "comment": "找出妖族头目并击毙之", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭余良", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011562", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "一决高下"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "夜袭凤栖镇"
+}

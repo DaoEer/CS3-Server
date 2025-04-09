@@ -1,0 +1,109 @@
+{
+    "80135038": {
+        "tasks": [
+            {
+                "navigateData": "10000361#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "修复阵法"
+            }, 
+            {
+                "navigateData": "10000361#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000361", 
+                "id": 2, 
+                "name": "与灵飞对话"
+            }, 
+            {
+                "navigateData": "10000361#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000361", 
+                "id": 3, 
+                "name": "回禀灵飞"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000203"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135038, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010074"
+            }, 
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0 0 100", 
+                "param2": "6139 26797 11021", 
+                "param1": "L_FMC"
+            }
+        ], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000203", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncTeleportSpace", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "0.0 0.0 -111.72", 
+                    "param2": "1009.0 3674.0 7822.0", 
+                    "param1": "cycle_L_PSDBGZ"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "破碎的八卦阵", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

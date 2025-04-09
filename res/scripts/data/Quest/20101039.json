@@ -1,0 +1,87 @@
+{
+    "20101039": {
+        "tasks": [
+            {
+                "navigateData": "30000760#L_PGDT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010140", 
+                "id": 1, 
+                "name": "搜索飞廉尸体获得解药"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101039, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101038"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "659", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "93", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "103", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "208", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}飞廉已死，你且探查飞廉尸身，找寻解药。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101040|20101041|20101042|20101043", 
+        "taskCompleteFunctions": {}, 
+        "level": 6, 
+        "title": "搜寻解药", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

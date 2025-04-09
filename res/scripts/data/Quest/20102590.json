@@ -1,0 +1,104 @@
+{
+    "20102590": {
+        "tasks": [
+            {
+                "navigateData": "10000413#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "11", 
+                "param2": "-46420.0 18090.0 1431.7", 
+                "param1": "L_BQXB", 
+                "id": 1, 
+                "name": "会合蓐收"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002062"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102590, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102586"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "14926", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "669", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "7507", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1542", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041767|Q041772|Q040042", 
+        "finish_by": "10000413#L_BQXB", 
+        "taskLogDes": "@S{4}仙道太阳宫饲有十只金乌，它们身具太阳真火，每日为阪泉大地提供光热。鲲鹏和准提道人欲将十金乌捕获为魔道所用，让你即刻前往阪泉西部的浑天营找祖巫蓐收，与他配合抓捕十金乌。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041775", 
+        "nextQuest": "20102591", 
+        "taskCompleteFunctions": {}, 
+        "level": 34, 
+        "title": "前往浑天营", 
+        "isAutoCommit": 1, 
+        "start_by": "10000029#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

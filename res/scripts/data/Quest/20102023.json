@@ -1,0 +1,87 @@
+{
+    "20102023": {
+        "tasks": [
+            {
+                "navigateData": "30000215#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往翻天洞"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102023, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102021"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16532", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "669", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "7510", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1232", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q040157|Q040154|Q040153", 
+        "finish_by": "10000455#L_BQXB", 
+        "taskLogDes": "@S{4}从少典处得知，翻天兽的洞窟就在苍泽林地的遗迹里，请你速闯入洞窟救回族人。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q040177|Q040179|Q040215", 
+        "nextQuest": "20102024", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "前往翻天洞", 
+        "isAutoCommit": 1, 
+        "start_by": "10000454#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

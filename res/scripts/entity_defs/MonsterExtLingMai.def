@@ -1,0 +1,40 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<xianDamage>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Persistent>		false		</Persistent>
+		</xianDamage>
+		<moDamage>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Persistent>		false		</Persistent>
+		</moDamage>
+		<damageObj>
+			<Type>			DICT_INT_INT	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>		false		</Persistent>
+		</damageObj>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

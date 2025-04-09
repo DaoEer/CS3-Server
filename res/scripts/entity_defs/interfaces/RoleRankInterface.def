@@ -1,0 +1,80 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<OpenGameRank>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		LEVEL_RANK_DICT	</Arg>
+		</OpenGameRank>
+
+		<OnRequestLevelRankFirstTime>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		LEVEL_RANK_DICT	</Arg>
+		</OnRequestLevelRankFirstTime>
+		<OnRequestCombatRankFirstTime>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		COMBAT_RANK_DICT</Arg>
+		</OnRequestCombatRankFirstTime>
+		<OnRequestMoneyRankFirstTime>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		MONEY_RANK_DICT	</Arg>
+		</OnRequestMoneyRankFirstTime>
+		<OnRequestWeaponRankFirstTime>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		WEAPON_COMBAT_DICT</Arg>
+		</OnRequestWeaponRankFirstTime>
+
+		<OnRequestLevelRank>
+			<Arg>		INT32		</Arg>
+			<Arg>		LEVEL_RANK_DICT	</Arg>
+		</OnRequestLevelRank>
+		<OnRequestCombatRank>
+			<Arg>		INT32		</Arg>
+			<Arg>		COMBAT_RANK_DICT</Arg>
+		</OnRequestCombatRank>
+		<OnRequestMoneyRank>
+			<Arg>		INT32		</Arg>
+			<Arg>		MONEY_RANK_DICT	</Arg>
+		</OnRequestMoneyRank>
+		<OnRequestWeaponRank>
+			<Arg>		INT32		</Arg>
+			<Arg>		WEAPON_COMBAT_DICT</Arg>
+		</OnRequestWeaponRank>
+
+		<OnRequestRankStoreMoney>
+			<Arg>		STRING		</Arg>
+		</OnRequestRankStoreMoney>
+
+		<Client_updateRankData>
+		    <Arg>		UINT8		</Arg>
+		</Client_updateRankData>
+	</ClientMethods>
+
+	<BaseMethods>
+		<updateMoneyRank>
+			<Arg>		INT64		</Arg>
+			<Arg>		BOOL		</Arg>
+		</updateMoneyRank>
+		<requestGameRankFirstTime>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</requestGameRankFirstTime>
+	</BaseMethods>
+	<CellMethods>
+		<updateGameRank>
+			<Arg>		UINT8		</Arg>
+		</updateGameRank>
+	</CellMethods>
+</root>

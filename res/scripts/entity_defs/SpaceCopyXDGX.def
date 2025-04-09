@@ -1,0 +1,51 @@
+<root>
+	<Parent>
+		SpaceCopyRingTask
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<floorIDList>
+			<Type>			PYTHON_LIST		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		[]			</Default>
+			<Persistent>	false		</Persistent>
+		</floorIDList>
+		<destroyFloorIDList>
+			<Type>			PYTHON_LIST		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		[]			</Default>
+			<Persistent>	false		</Persistent>
+		</destroyFloorIDList>
+		<firstFloorPos>
+			<Type>			POSITION		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</firstFloorPos>
+		<gridWidth>
+			<Type>			FLOAT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</gridWidth>
+		<gridLength>
+			<Type>			FLOAT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</gridLength>
+		<randomDestroyFloorTimerID>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</randomDestroyFloorTimerID>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

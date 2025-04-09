@@ -1,0 +1,16 @@
+<root>
+	<Parent>
+		SpellBoxSpecial
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

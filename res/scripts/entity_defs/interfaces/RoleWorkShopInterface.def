@@ -1,0 +1,172 @@
+<root>
+	<Properties>
+		<toolComposeType>
+			<Type>				UINT8			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</toolComposeType>
+		<toolComposeEndTime>
+			<Type>				TIME			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</toolComposeEndTime>
+		<toolComposeItemID>
+			<Type>				INT32			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</toolComposeItemID>
+		<tripodComposeItemID>
+			<Type>				INT32			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</tripodComposeItemID>
+		<toolFreeNum>
+			<Type>				UINT16			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</toolFreeNum>
+		<toolUnlockNum>
+			<Type>				UINT16			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</toolUnlockNum>
+		<recordToolNPCID>
+			<Type>				OBJECT_ID		</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</recordToolNPCID>
+		<recordTripodNPCID>
+			<Type>				OBJECT_ID		</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</recordTripodNPCID>
+		<tripodComposeEndTime>
+			<Type>				TIME			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</tripodComposeEndTime>
+		<tripodFreeNum>
+			<Type>				UINT16			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</tripodFreeNum>
+		<tripodUnlockNum>
+			<Type>				UINT16			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</tripodUnlockNum>
+		<greenEquipComposeSuccess>
+			<Type>				FLOAT			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+		</greenEquipComposeSuccess>
+
+		<reflashTime>
+			<Type>				TIME			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+			<Persistent>			true			</Persistent>
+		</reflashTime>
+		<proyTimeList>
+			<Type>				ARRAY_UINT8		</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+			<Persistent>			true			</Persistent>
+		</proyTimeList>
+		<proyNum>
+			<Type>				UINT8			</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+			<Persistent>			true			</Persistent>
+		</proyNum>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_onRequestGEComposeData>
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</CLIENT_onRequestGEComposeData>
+		<CLIENT_onRequestComposeData>
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</CLIENT_onRequestComposeData>
+		<CLIENT_OnFinishCompose>
+			<Arg>		UINT8			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+		</CLIENT_OnFinishCompose>
+		<CLIENT_onMeltingtEquip>
+			<Arg>		STRING			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_onMeltingtEquip>
+		<CLIENT_OnRequestPrayTimes>
+			<Arg>		ARRAY_UINT8		</Arg>
+			<Arg>		UINT8			</Arg>
+		</CLIENT_OnRequestPrayTimes>
+		<CLIENT_OnPrayTime>
+			<Arg>		UINT8			</Arg>
+		</CLIENT_OnPrayTime>
+		<CLIENT_OnQuenchingEquip>
+			<Arg>		STRING			</Arg>
+		</CLIENT_OnQuenchingEquip>
+		<CLIENT_beginComposeTool>
+			<Arg>		UINT8			</Arg>
+			<Arg>		ITEM_ID			</Arg>
+			<Arg>		UINT32			</Arg>
+		</CLIENT_beginComposeTool>
+		<CLIENT_beginGEComposeTool>
+			<Arg>		UINT8			</Arg>
+			<Arg>		ITEM_ID			</Arg>
+			<Arg>		UINT32			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_beginGEComposeTool>
+		<CLIENT_OpenQuenchingEquip>
+			<Arg>		INT32			</Arg>
+		</CLIENT_OpenQuenchingEquip>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onRequestComposeData>
+			<Arg>		UINT8			</Arg>
+			<Arg>		TIME			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		UINT16			</Arg>
+			<Arg>		UINT16			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</onRequestComposeData>
+		<CELL_composeTool>
+			<Exposed/>
+			<Arg>		UINT8			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+		</CELL_composeTool>
+		<onFinishCompose>
+			<Arg>		UINT8			</Arg>
+			<Arg>		BOOL			</Arg>
+		</onFinishCompose>
+		<CELL_composeGreedEquip>
+			<Exposed/>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+			<Arg>		STRING			</Arg>
+		</CELL_composeGreedEquip>
+		<CELL_meltingEquip>
+			<Exposed/>
+			<Arg>		STRING			</Arg>
+			<Arg>		ARRAY_STRING		</Arg>
+		</CELL_meltingEquip>
+		<CELL_requestPrayTimes>
+			<Exposed/>
+		</CELL_requestPrayTimes>
+		<CELL_prayComposeTime>
+			<Exposed/>
+		</CELL_prayComposeTime>
+		<CELL_quenchingEquip>
+			<Exposed/>
+			<Arg>		STRING			</Arg>
+		</CELL_quenchingEquip>
+		<CELL_requestTakeToolItem>
+			<Exposed/>
+			<Arg>		INT32			</Arg>
+		</CELL_requestTakeToolItem>
+		<onRequestTakeToolItem>
+			<Arg>		UINT8			</Arg>
+			<Arg>		ITEM			</Arg>
+		</onRequestTakeToolItem>
+	</CellMethods>
+</root>

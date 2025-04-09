@@ -1,0 +1,102 @@
+{
+    "20101538": {
+        "tasks": [
+            {
+                "navigateData": "(-57711.3 -13180.6 12591.5)#L_HDDT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20010606", 
+                "id": 1, 
+                "name": "追击多闻天"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101538, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|2|3|4"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101537"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1462", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "127", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "142", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "182", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102050001|102050004|102050007|102050010", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}多闻天携解药遁走，请你追击多闻天，切勿让其逃脱。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101539", 
+        "taskCompleteFunctions": {}, 
+        "level": 5, 
+        "title": "追击多闻天", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

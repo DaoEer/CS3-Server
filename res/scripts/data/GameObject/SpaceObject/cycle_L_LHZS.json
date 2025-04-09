@@ -1,0 +1,54 @@
+{
+"SpaceName"	: "灵魂之誓",
+"EntityType"	: "SpaceCopyLingHunZhiShi",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyLingHunZhiShi",
+"scriptID"	: "cycle_L_LHZS",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_LHZS",
+"NavmeshPath"	: "space\\L_LHZS_2_NAVMESH",
+"PatrolRouteFile": "P_L_LHZS",
+"SpaceHoldEffect"	:"999001013",
+"SpaceHoldEffect"	:"101010106",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_BHLD",
+	"Position"	: "4058.0 -5510.0 212.0",
+	"Direction"	: "0.0 0.0 -1.71"
+	},
+"SpaceData"	:{
+	"enterPosition":"2905.0 -244.0 721.0",
+	"enterDirection":"0.0 0.0 -116.3",
+	"stageFile":"SS_L_LHZS",
+	"eventFile":"SE_L_LHZS",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"clientShowSpaceLife" : 1,
+	"monsterUseSpaceLevel":1,
+	"logoutCloseTime":1,
+	"reqLevel":20,
+	"startLifeOnInit" : 0,
+	"weakBuffID"	:14007001,
+	"monsterData":{
+			"20005602":{"grade":1, "buffIDs":[14005802,14007401,14008001,15001807]},
+			"20005603":{"grade":1, "buffIDs":[14005806,14007401,14008005,15001807]},
+			"20005604":{"grade":1, "buffIDs":[14005807,14007401,14008006,15001807]},
+			"20005605":{"grade":2, "buffIDs":[14005803,14007501,14008002,15001808]},
+			"20005606":{"grade":2, "buffIDs":[14005808,14007501,14008007,15001808]},
+			"20005607":{"grade":2, "buffIDs":[14005809,14007501,14008008,15001808]},
+			"20005608":{"grade":3, "buffIDs":[14005804,14007601,14008003,15001809]},
+			"20005609":{"grade":3, "buffIDs":[14005810,14007601,14008009,15001809]},
+			"20005610":{"grade":4, "buffIDs":[14005805,14007701,14008004]},
+			"20005611":{"grade":4, "buffIDs":[14005811,14007701,14008010]}
+			},
+	"soulNumList":[1,2,3,3],
+	"clearCDBuffID":14005904,
+	"doorData":[
+		{"scriptID":40000228, "position":"1516.0 -1363.0 729.0", "direction":"0 0 -55"},
+		{"scriptID":40000229, "position":"2658.0 -2191.0 722.0", "direction":"0 0 -55"}
+		      ]
+		},
+"DomainData"	:{
+
+	}
+}

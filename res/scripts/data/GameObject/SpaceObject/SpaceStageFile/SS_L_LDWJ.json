@@ -1,0 +1,220 @@
+{
+    "stages": {
+        "1": {
+            "comment": "突破灵岛守卫", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵妖卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003841|20003843|20003845|20003846", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵刺客", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003851|20003852", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵法师", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003849", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "初登灵岛"
+        }, 
+        "3": {
+            "comment": "消灭灵岛妖族", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵刺客", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003855|20003854|20003853|20003856", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵法师", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003850", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵妖卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003842|20003843", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "突入灵岛"
+        }, 
+        "2": {
+            "comment": "利用掉落的爆炸金丹摧毁阵柱", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁阵柱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003864", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "噬灵阵柱"
+        }, 
+        "5": {
+            "comment": "冲破妖族封锁", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵妖卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003857", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵刺客", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003856", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵法师", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003847|20003858", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "灵岛深处"
+        }, 
+        "4": {
+            "comment": "拾取火灵符摧毁空中的阵法水晶", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁阵法水晶", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003868", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "噬灵水晶"
+        }, 
+        "7": {
+            "comment": "消灭妖族余孽", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵妖卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003846", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "噬灵法师", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003848|20003849", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "灵岛之巅"
+        }, 
+        "6": {
+            "comment": "推动滚石摧毁阵眼", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁阵眼", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003871", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "噬灵阵眼"
+        }, 
+        "8": {
+            "comment": "消灭上古战灵", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "上古战灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003861", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "灵岛之巅"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵岛危机"
+}

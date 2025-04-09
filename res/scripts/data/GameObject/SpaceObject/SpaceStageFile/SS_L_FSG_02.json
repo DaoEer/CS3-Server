@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败风神宫守卫", 
+                    "reqVal": 16, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010100|20010087|20010088|20010089", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4424.0 8523.0 2261.0)#L_FSG_02"
+                }
+            }, 
+            "title": "再入风神宫"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败风神将", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010094", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-20990.000000 8600.000000 4883.002441)#L_FSG_02"
+                }
+            }, 
+            "title": "斩将"
+        }, 
+        "2": {
+            "comment": "摧毁机关破除神风阵", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续深入", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-9630.0 8562.0 3570.0000000000005:10", 
+                    "param2": "4070|3070", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-9630.0 8562.0 3570.0000000000005)#L_FSG_02"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击碎机关", 
+                    "reqVal": 2, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010090|20010091|20010092|20010093", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "过关"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败祖巫天吴", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010083", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-40030.085938 8550.042969 5203.097656)#L_FSG_02"
+                }
+            }, 
+            "title": "决战天吴"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "救回小金乌"
+}

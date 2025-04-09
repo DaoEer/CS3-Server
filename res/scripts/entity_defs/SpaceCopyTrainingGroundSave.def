@@ -1,0 +1,27 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<belongDBID>
+			<Type>		DBID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</belongDBID>
+	</Properties>
+
+	<CellMethods>
+		<onRequestSpaceNPCInfo>
+			<Arg>	SPACE_NPC_INFO_LIST	</Arg>
+		</onRequestSpaceNPCInfo>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

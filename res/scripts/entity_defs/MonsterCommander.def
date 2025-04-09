@@ -1,0 +1,20 @@
+<root>
+	<Parent>
+		MonsterOptimize
+	</Parent>
+
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		MonsterCommander	</ClientName>-->
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

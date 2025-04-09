@@ -1,0 +1,47 @@
+{% extends "gmtools/role/role.html" %}
+{% load custom_filter %}
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">踢人</h2>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/role/kick/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class="row">
+					<div class="from-group col-sm-5">
+						<div class="col-sm-3 control-label">
+							<select name="roleType" class="roleType form-control" id="roleType">
+								<option value="roleName" class="c_roleName">玩家名字</option>
+							</select>
+						</div>
+						<div class="col-sm-1">
+							<th class="text-center">==</th>
+						</div>
+						<div class="col-sm-5">
+							<input name="roleName" type="text" class="form-control" id="roleName" value="{{ roleName }}" maxlength="30" />
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default">确 定</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+{% endblock %}

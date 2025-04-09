@@ -1,0 +1,39 @@
+﻿{
+"EntityType"	: "SpaceCopyHomeBarracksBHZB",
+"DomainType"	: "SpaceDomainCopyHomeBarracksBHZB",
+"EntityScript"	: "SpaceCopyHomeBarracksBHZB",
+"scriptID"	: "fu_ben_L_BHZB_DBY",
+"spaceChildType":"SPACE_TYPE_CHILD_BHZB_HOME_BARRACKS",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_BHZB_DBY",
+"NavmeshPath": "space\\L_BHZYZ_DBY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType": "3",
+"ExitSpace"	:{
+	"ScriptID"	: "L_BHLD",
+	"Position"	: "-12327.0 -182.0 213.0",
+	"Direction"	: "0.0 0.0 0.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 120,
+	"reviveType"	: "0|1",
+	"delyCloseTime":30,
+	"enterCenterPos":"313.0 -19604.0 219.0",
+	"enterDir":"0.0 0.0 -111.0",
+	"stageFile":"SS_L_BHZB_DBY",
+	"eventFile":"",
+	"firstRankRewardGifts": ["300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001","300301001"],
+	"secondRankRewardGifts":["300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002","300301002"],
+	"thirdRankRewardGifts":["300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003","300301003"],
+	"rankRewardTongMoneys":[200000,100000,50000,20000],
+	"rankRewardContributionGifts":["300301004","300301005","300301006","300301007"],
+	"xianFirstTongLeaderReward":"300301008",
+	"moFirstTongLeaderReward":"300301010",
+	"xianSecondTongLeaderReward":"300301009",
+	"moSecondTongLeaderReward":"300301011",
+	"needTongNum":1,
+	"radius":8
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,125 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭狂暴火妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005842|20005841", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(40804 -906 -111.5)#L_THG"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蛇炎星烈火妖", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003805|20003806", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003805|20003806#L_THG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭梵烈火妖", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003800|20003801", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(31531 -685 -273)#L_THG"
+                }
+            }, 
+            "title": "重重阻碍"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到火魁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-54299.0 87.0 3863.0:20", 
+                    "param2": "4500|3500", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-56299.0 107.0 3863.0)#L_THG"
+                }
+            }, 
+            "title": "机关大阵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭炎虹及其弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003818|20003819|20003820", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003818|20003819|20003820#L_THG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭烈修", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003823", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003823#L_THG"
+                }
+            }, 
+            "title": "两大护法"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "随祖巫帝江一起前往星核禁地", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-59580.99999999999 4923.0 3814.0:3", 
+                    "param2": "9814|-3814", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-59580.99999999999 4923.0 3814.0)#L_THG"
+                }
+            }, 
+            "title": "星核禁地"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败火魁，得知星核禁地所在", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "207", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-59910 130 3910.408691)#L_THG"
+                }
+            }, 
+            "title": "星核之谜"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "魔鼎吞星（二）"
+}

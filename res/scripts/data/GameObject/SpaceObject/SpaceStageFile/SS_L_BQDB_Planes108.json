@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待金乌加持太阳真火", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(6056.6 55938.30 156.5)#L_BQDB_Planes108"
+                }
+            }, 
+            "title": "到达蓐收处"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭玉华真人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20007092", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20007092#L_BQDB_Planes108"
+                }
+            }, 
+            "title": "消灭玉华真人"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "烧毁投石车", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007438", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 1, 
+                    "title": "烧毁战车", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007439", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "烧毁战争器械"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "调虎离山"
+}

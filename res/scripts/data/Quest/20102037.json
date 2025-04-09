@@ -1,0 +1,114 @@
+{
+    "20102037": {
+        "tasks": [
+            {
+                "navigateData": "(-1712.0 5538.0 5695.0)#L_DBDT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010077", 
+                "id": 1, 
+                "name": "夺取先天纯阳玉"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002057"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102037, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010077"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102065|20102066"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010077"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17360", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "696", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "7821", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1304", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q040353|Q040354|Q040432", 
+        "finish_by": "10001123#L_KLZ_1", 
+        "taskLogDes": "@S{4}女娲决意在轩辕部落竖立一尊青玉圣像守护人族。让你前往多宝洞天取得@F{fc=c41}先天纯阳玉@D以炼制圣像。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102038|20102036|20102036|20102036", 
+        "taskCompleteFunctions": {}, 
+        "level": 31, 
+        "title": "炼制圣像（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,47 @@
+{
+"SpaceName"	: "洞府",
+"EntityType"	: "SpaceCopyDongFu",
+"DomainType"	: "SpaceDomainCopyDongFu",
+"EntityScript"	: "SpaceCopyDongFu",
+"scriptID"	: "L_LHMJDF",
+"spaceType"	: "SPACE_TYPE_DONG_FU",
+"SpawnFile"	: "S_L_HLSYDF",
+"NavmeshPath"	: "space\\L_XDGX_02_NAVMESH",
+"PatrolRouteFile": "P_L_XDGX_02",
+"belongType"	: "1",
+"SpaceAoi"	: "100",
+"EnfityRelationMode":"RelationGCZ",
+"RoleRelationRule":"ROLE_RELATION_RULE_BLONG_SIDE",
+"disableAssistJump":"1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_LHMJ_1",
+	"Position"	: "-40680 26470 266",
+	"Direction"	: "0 0 90"
+	},
+"SpaceData"	:{
+	"originPetEggItems":"204050001|204050002|204050003|204050004|204050005|204050006|204050007|204050008|204050009|204050010|204050011|204050012|204050013|204050014|204050015",
+	"attackEntityScriptIDs":"20014295|20014296|20014297|20014298|20014299|20014300|20014301|20014302|20014303|20014304", 
+	"guardPos":"-820 -2530 11227", 
+	"batteryScriptID":"20014316", 
+	"batteryScriptIDList":"20014316|20014317|20014318|20014319", 
+	"batteryPosList":"-2000 1020 11270|450 1050 11270",
+	"batteryDirList":"0 0 -90|0 0 -90", 
+	"petCorralScriptID":"20014477",
+	"petCorralPosList":"-6354 1275 11304|-6354 1594 11304|-7030 1260 11304|-7030 1600 11304|-7710 1268 11304|-7710 1594 11304", 
+	"petCorralDir":"0 0 -90",
+	"challengeAStageFile":"SS_zhengduo_gong_L_LHMJDF",
+	"challengePStageFile":"SS_zhengduo_shou_L_LHMJDF",
+	"plunderPStageFile":"SS_lueduo_shou_L_LHMJDF", 
+	"plunderAStageFile":"SS_lueduo_gong_L_LHMJDF",
+	"eventFile":"SE_lueduo_gong_L_LHMJDF",
+	"originPetEggItems":"204050001|204050002|204050003|204050004|204050005|204050006|204050007|204050008|204050009|204050010|204050011|204050012|204050013|204050014|204050015",
+	"disableAssistJump":1,
+	"enterPosition":"-760 -8350 11234",
+	"enterDirection":"0 0 90",
+	"reviveType":"0|5|20",
+	"activeRevivePos":"-3860 3029 11208",
+	"activeReviveDir":"0 0 -90"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "歼灭天魔战傀，解除秘藏封印！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "歼灭天魔战傀", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014020", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "歼灭天魔战傀"
+        }, 
+        "3": {
+            "comment": "恭喜道友取得奖励，前往传送门即可离开副本!", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "离开副本", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "40001033", 
+                    "type": "SStageTask_triggerBox", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "离开副本"
+        }, 
+        "2": {
+            "comment": "秘藏封印已解除，快前往开启吧！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得秘藏", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "40001036", 
+                    "type": "SStageTask_triggerBox", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "取得秘藏"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "天魔秘藏"
+}

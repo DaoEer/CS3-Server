@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "使用驱魔神水", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "748", 
+                    "param2": "20006865", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20006866#L_QYSX"
+                }
+            }, 
+            "title": "驱魔神水"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败六欲心魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006867", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006867#L_QYSX"
+                }
+            }, 
+            "title": "六欲心魔"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "净化圣像"
+}

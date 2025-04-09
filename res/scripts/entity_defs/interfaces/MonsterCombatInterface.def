@@ -1,0 +1,70 @@
+<root>
+	<Interfaces>
+		<Interface> 		MonsterStateInterface		</Interface>
+		<Interface> 		CombatInterface		</Interface>
+		<Interface>		MonsterAIInterface		</Interface>
+		<Interface>		MonsterOwnerInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<firstBruise>	<!-- 状态：0 == 没有受击；1 == 已经受击；-->
+			<Type>			BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0		</Default>
+			<Persistent>	false		</Persistent>
+		</firstBruise>
+		<callSign>
+			<Type>			BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0		</Default>
+			<Persistent>	false		</Persistent>
+		</callSign>
+		<hpModifyRatio>
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false		</Persistent>
+		</hpModifyRatio>
+		<damageModifyRatio>
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Persistent>	false		</Persistent>
+		</damageModifyRatio>
+		<xiuwei>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	1		</Default>
+			<Persistent>	false		</Persistent>
+		</xiuwei>
+		<xiuweiLevel>
+			<Type>		INT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	1		</Default>
+			<Persistent>	false		</Persistent>
+		</xiuweiLevel>
+		<attrSkills>
+			<Type>			ARRAY_INT32			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		[]				</Default>
+			<Persistent>		false				</Persistent>
+		</attrSkills>
+		<hatredList>		<!-- 仇恨列表 dic 	Role: like { entityID:value } -->
+			<Type>		FIGHT_RECORD		</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Persistent>	false			</Persistent>
+		</hatredList>
+	</Properties>
+
+	<CellMethods>
+		<onFightCall>	<!-- 呼叫同伴 -->
+			<Arg>		OBJECT_ID 		</Arg>	<!-- enemyID  -->
+		</onFightCall>
+	</CellMethods>
+
+	<ClientMethods>
+		<CLIENT_PlayDeadEffect>	<!-- 播放暴尸效果 -->
+		</CLIENT_PlayDeadEffect>
+		<PlayDeadMortuaryEffect>	<!-- 播放停尸效果 -->
+		</PlayDeadMortuaryEffect>
+	</ClientMethods>
+</root>
+ 

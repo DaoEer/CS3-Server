@@ -1,0 +1,41 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<levelYCJMD>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+			<Persistent>		false			</Persistent>
+		</levelYCJMD>
+		<itemDict>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}			</Default>
+			<Persistent>		false			</Persistent>
+		</itemDict>
+		<recordLevelYCJMD>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+			<Persistent>		false			</Persistent>
+		</recordLevelYCJMD>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭魔化的族人", 
+                    "reqVal": 9, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004680|20004679", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004681#L_BQDB_Planes006"
+                }
+            }, 
+            "title": "消灭魔化的族人"
+        }
+    }, 
+    "describe": "34仙道", 
+    "beginOnSpaceInit": 1, 
+    "name": "魔化"
+}

@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败帝月", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "202", 
+                    "param2": "20005612", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "找到帝月"
+        }, 
+        "3": {
+            "comment": "控制伤害，将妖卫血量削弱至30%以下使其虚弱，避免直接击杀。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "附身虚弱状态的妖卫", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "", 
+                    "param1": "LHZS", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "附身妖卫"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "附身虚弱状态的妖兵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "", 
+                    "param1": "LHZS", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "附身妖兵"
+        }, 
+        "5": {
+            "comment": "引诱妖王踩中摄魂陷阱，并削弱其血量至30%以下。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "附身虚弱状态的妖王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "4", 
+                    "param2": "", 
+                    "param1": "LHZS", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "附身妖王"
+        }, 
+        "4": {
+            "comment": "引诱妖将踩中摄魂陷阱，使其虚弱。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "附身虚弱状态的妖将", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3", 
+                    "param2": "", 
+                    "param1": "LHZS", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "附身妖将"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败妖尊，重塑肉身", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12346", 
+                    "param2": "279", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "对战妖尊"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵魂之誓"
+}

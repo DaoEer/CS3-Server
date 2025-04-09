@@ -1,0 +1,32 @@
+﻿{
+"SpaceName"	: "奇门玄宫",
+"EntityType"	: "SpaceCopyJiYuan",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJiYuan",
+"scriptID"	: "fu_ben_L_QMXG",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_QMXG",
+"NavmeshPath"	: "space\\L_DGSYZ01_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_QMXG",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"spaceIntroduce":{"voiceID":"C001975|C001976"},
+	"enterPosition":"3057 -514 -94",
+	"enterDirection":"0 0 0",
+	"stageFile":"SS_fu_ben_L_QMXG",
+	"eventFile":"SE_fu_ben_L_QMXG",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

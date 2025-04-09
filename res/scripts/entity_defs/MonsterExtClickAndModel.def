@@ -1,0 +1,26 @@
+<root>
+	<Parent>
+		MonsterExtClick
+	</Parent>
+	<Interfaces>
+		<Interface>	ModelInterface	</Interface>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

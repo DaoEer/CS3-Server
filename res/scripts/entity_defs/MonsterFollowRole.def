@@ -1,0 +1,51 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position>  0 	</position>
+		<yaw>		0 	</yaw>
+		<pitch> 	20 	</pitch>
+	</Volatile>
+
+	<Properties>
+		<enemyID>
+			<Type>		OBJECT_ID	</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	0			</Default>
+		</enemyID>
+		
+		<curPosition>	<!-- 坐标 -->
+			<Type>		POSITION		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</curPosition>
+		
+		<curDirection>		<!-- 朝向 -->
+			<Type>		DIRECTION		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</curDirection>
+		
+		<controlEntityID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</controlEntityID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_onSetControlledBy>
+			<Exposed/>
+		</CELL_onSetControlledBy>
+		
+		<syncEntityTarget>
+			<Exposed/>
+			<Arg> OBJECT_ID	</Arg>
+		</syncEntityTarget>
+	</CellMethods>
+</root>
+

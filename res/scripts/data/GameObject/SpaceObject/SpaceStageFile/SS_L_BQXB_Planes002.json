@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭毕锋", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004529", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(19050.1 81675.8 685.2)#L_BQXB_Planes002"
+                }
+            }, 
+            "title": "消灭毕锋"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击碎牢笼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(16632.7 82660.0 682.3)#L_BQXB_Planes002"
+                }
+            }, 
+            "title": "解救少典"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救少典"
+}

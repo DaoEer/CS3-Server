@@ -1,0 +1,115 @@
+{
+    "20102018": {
+        "tasks": [
+            {
+                "navigateData": "(-47440.000000 15120.000000 -1606.348145)#L_BQDB", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010071", 
+                "id": 1, 
+                "name": "前往清水泊收集甘草"
+            }, 
+            {
+                "navigateData": "(-51660.000000 10420.000000 -1604.000000)#L_BQDB", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010072", 
+                "id": 2, 
+                "name": "消灭清水泊附近的蛇妖，收集蛇妖精血"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102018, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "3", 
+                "param1": "301010071"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "5", 
+                "param1": "301010072"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102017"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18202", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "725", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8144", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1380", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045051|Q045052", 
+        "finish_by": "10000442#L_BQDB", 
+        "taskLogDes": "@S{4}医师药尘已查明是蛇妖在水源中投下了离魂奇毒，请你消灭清水泊的蛇妖，取来五份蛇妖精血，并在附近采集三株甘草以炼制祛毒甘露。|@S{4}医师药尘已查明是蛇妖在水源中投下了离魂奇毒，请你消灭清水泊的蛇妖，取来五份蛇妖精血，并在附近采集三株甘草以炼制祛毒甘露。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045053|Q045055|Q045056", 
+        "nextQuest": "20102019", 
+        "taskCompleteFunctions": {}, 
+        "level": 32, 
+        "title": "祛毒甘露", 
+        "isAutoCommit": 1, 
+        "start_by": "10000442#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

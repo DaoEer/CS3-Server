@@ -1,0 +1,35 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁斥候", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000851", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000851#L_YSC_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁先锋", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000243", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000243#L_YSC_Planes001"
+                }
+            }, 
+            "title": "救援灵珠子"
+        }
+    }, 
+    "describe": "1-10级仙道", 
+    "beginOnSpaceInit": 1, 
+    "name": "下界试炼"
+}

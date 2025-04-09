@@ -1,0 +1,81 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<belongDBID>
+			<Type>		DBID		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</belongDBID>
+		<battleFormationID>
+			<Type>		OBJECT_ID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</battleFormationID>
+		<trapList>
+			<Type>		ARRAY_INT32	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</trapList>
+
+		<attackSpaceStages>
+			<Type>		SPACE_STAGE	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</attackSpaceStages>
+	</Properties>
+
+	<CellMethods>
+		<createBattleformation>
+			<Arg>		STRING			</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+		</createBattleformation>
+		<destroyBattleformation>
+		</destroyBattleformation>
+
+		<onRequestSpaceNPCInfo>
+			<Arg>	SPACE_NPC_INFO_LIST	</Arg>
+		</onRequestSpaceNPCInfo>
+		<onRequestDFDatas>
+			<Arg>	DICT_INT_INT		</Arg>
+			<Arg>	LINGTIANDATA_ARRY	</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ORIGIN_PET_SIMPLE_DATA_LIST</Arg>
+			<Arg>		BOOL		</Arg>
+		</onRequestDFDatas>
+
+		<onChallengeActiveStart>
+		</onChallengeActiveStart>
+		<onChallengeCheckStage>
+		</onChallengeCheckStage>
+		<onChallengeActiveEnd>
+			<Arg>		BOOL		</Arg>
+		</onChallengeActiveEnd>
+
+		<onAddOriginPet>
+			<Arg>		ORIGIN_PET_SIMPLE_DATA		</Arg>
+		</onAddOriginPet>
+		<onRemoveOriginPet>
+			<Arg>			UID			</Arg>
+			<Arg>			BOOL			</Arg>
+		</onRemoveOriginPet>
+		<onExChangeOriginPet>
+			<Arg>		ORIGIN_PET_SIMPLE_DATA		</Arg>
+			<Arg>			UID			</Arg>
+		</onExChangeOriginPet>
+		<onBuildRepair>
+			<Arg>		INT32 		</Arg>
+		</onBuildRepair>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

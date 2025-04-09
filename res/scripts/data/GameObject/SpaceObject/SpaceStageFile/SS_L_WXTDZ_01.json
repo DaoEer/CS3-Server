@@ -1,0 +1,113 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭锐金阵灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006182", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006182#L_WXTDZ_01"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭沌火阵灵", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006185", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006185#L_WXTDZ_01"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭溢水阵灵", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006184", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006184#L_WXTDZ_01"
+                }, 
+                "5": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭楠木阵灵", 
+                    "reqVal": 1, 
+                    "priority": 4, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006183", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006183#L_WXTDZ_01"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭厚土阵灵", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006251", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006251#L_WXTDZ_01"
+                }
+            }, 
+            "title": "消灭五行阵灵"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "魔化圣像（选中魔像后使用技能魔化圣像）", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-1050.0 -1670.0 152.012939)#L_WXTDZ_01"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回阪泉西部", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-460.0 -810.0 152.0)#L_WXTDZ_01"
+                }
+            }, 
+            "title": "魔化圣像"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败万象阵灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006257", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006257#L_WXTDZ_01"
+                }
+            }, 
+            "title": "击败万象阵灵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "万象天斗大阵"
+}

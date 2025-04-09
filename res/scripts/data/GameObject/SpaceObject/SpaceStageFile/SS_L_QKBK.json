@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "击败宝库守卫，并开启宝箱找到混元星斗图", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败乾坤宝库守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002593|20002595|20002596", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002593|20002595|20002596#L_QKBK"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败宝库护法", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011477", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找混元星斗图", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010043", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "探宝"
+        }, 
+        "2": {
+            "comment": "返回后山禁地，与祖巫祝融汇合", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "离开乾坤宝库", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "汇合"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "乾坤宝图"
+}

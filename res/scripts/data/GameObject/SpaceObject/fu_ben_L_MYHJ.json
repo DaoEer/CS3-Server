@@ -1,0 +1,42 @@
+{
+"SpaceName"	: "梦魇画卷",
+"EntityType"	: "SpaceCopyMagicMazeChildMYHJ",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildMYHJ",
+"scriptID"	: "fu_ben_L_MYHJ",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_MYHJ",
+"NavmeshPath"	: "space\\L_MYHJ_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 10,
+	"teleportSkillID" : 121544013,
+	"spaceIntroduce":{"voiceID":"C001496|C001497"},
+	"enterPosition":"-494 -3870 400 ",
+	"enterDirection":"0 0 -97.4",
+	"stageFile":"SS_fu_ben_L_MYHJ",
+	"eventFile":"SE_fu_ben_L_MYHJ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1,
+	"originPos":"-221|-18522|1389",
+	"unitLength":"587",
+	"clubID":"40000224",
+	"orchidID":"40000225",
+	"banbooID":"40000226",
+	"chryID":"40000227",
+	"meiBossID":"20008531",
+	"lanBossID":"20008532", 
+	"zhuBossID":"20008533",
+	"juBossID":"20008534",
+	"damageSkillID":"121341004"
+	},
+"DomainData"	:{
+	}
+}

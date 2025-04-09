@@ -1,0 +1,67 @@
+{
+    "80135002": {
+        "tasks": [
+            {
+                "navigateData": "10000048#L_JSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000048", 
+                "id": 1, 
+                "name": "拜访计蒙长老"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000004"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135002, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000004", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "拜访", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

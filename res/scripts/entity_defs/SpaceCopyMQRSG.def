@@ -1,0 +1,55 @@
+<root>
+	<Parent>
+		SpaceCopyRingTask
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<cikuCoordXList>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</cikuCoordXList>
+		<cikuCoordYList>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</cikuCoordYList>
+		<cikuCoordZList>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</cikuCoordZList>
+		<cikuCoordXList1>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</cikuCoordXList1>
+		<cikuCoordYList1>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</cikuCoordYList1>
+		<cikuCoordZList1>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</cikuCoordZList1>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

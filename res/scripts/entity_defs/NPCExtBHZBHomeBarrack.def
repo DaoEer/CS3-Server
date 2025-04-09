@@ -1,0 +1,24 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Parent>
+		NPC
+	</Parent>
+
+	<Properties>
+		<belongTongDBID>
+			<Type>	DBID		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</belongTongDBID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

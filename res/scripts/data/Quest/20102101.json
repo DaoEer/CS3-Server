@@ -1,0 +1,121 @@
+{
+    "20102101": {
+        "tasks": [
+            {
+                "navigateData": "20007388|20007389|20007390#L_TMDC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010105", 
+                "id": 1, 
+                "name": "收集风雨苍穹"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002078"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102101, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010105"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102100"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010105"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "21700", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "853", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9578", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1721", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102100004|102100009|102100004|102100009", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q042157", 
+        "finish_by": "10000716#L_YGG", 
+        "taskLogDes": "@S{4}十神天绝灯已被魔道夺去，魔道夺走此灯定是想布十日天绝大阵，让十日同出炙烤阪泉大地。帝俊让你前往天沐道场，从雨魁老祖手中夺下风雨苍穹，用来抵挡十金乌的太阳真火。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042171", 
+        "nextQuest": "20102138", 
+        "taskCompleteFunctions": {}, 
+        "level": 36, 
+        "title": "风雨苍穹", 
+        "isAutoCommit": 1, 
+        "start_by": "10000716#L_YGG", 
+        "isAutoAccept": 1
+    }
+}

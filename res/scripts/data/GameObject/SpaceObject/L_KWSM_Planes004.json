@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_KWSM_Planes004",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_KWSM_Planes004",
+"NavmeshPath"	: "space\\L_KWSM_Planes004_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_KWSM_1",
+	"Position"	: "-85565 -95240 -4060",
+	"Direction"	: "0 0 -90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_KWSM_Planes004",
+	"eventFile":"SE_L_KWSM_Planes004"
+	},
+"DomainData"	:{
+	}
+}

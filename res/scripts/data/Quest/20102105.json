@@ -1,0 +1,96 @@
+{
+    "20102105": {
+        "tasks": [
+            {
+                "navigateData": "(23952.0 -37531.0 515.0)#L_MXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "寻找谛听"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002004"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102105, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102103|20102104"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22606", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "888", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9975", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045438|Q045439|Q045440|Q042188", 
+        "finish_by": "10000738#L_MXG", 
+        "taskLogDes": "@S{4}老君的@F{fc=c41}太清符篆@D可驱除金乌的魔化，不过金乌周身遍布太阳真火，唯有身具玄月神力之人方能靠近金乌使用此符篆。冥仙谷有一神兽谛听，可聆听世间万物。老君让你向他打听玄月神力的下落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042199|Q045451", 
+        "nextQuest": "20102106", 
+        "taskCompleteFunctions": {}, 
+        "level": 37, 
+        "title": "冥仙谷（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126#L_TQG", 
+        "isAutoAccept": 1
+    }
+}

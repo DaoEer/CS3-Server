@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "速速援助少典", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-9390 57890 -1113:15", 
+                    "param2": "5000|-5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20004673#L_BQDB_Planes004"
+                }
+            }, 
+            "title": "解救少典"
+        }
+    }, 
+    "describe": "34级仙道主线，圣物失窃", 
+    "beginOnSpaceInit": 1, 
+    "name": "圣物失窃"
+}

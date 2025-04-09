@@ -1,0 +1,136 @@
+{
+    "20101108": {
+        "tasks": [
+            {
+                "navigateData": "10000452#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000452", 
+                "id": 1, 
+                "name": "前往天机谷，拜见虬云"
+            }, 
+            {
+                "navigateData": "30000819#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20005679", 
+                "id": 2, 
+                "name": "前往西境荷塘，消灭太古荷妖"
+            }, 
+            {
+                "navigateData": "(49369.957031 2259.974609 -15126.581055)#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 2, 
+                "param3": "10", 
+                "param2": "49369.957031 2259.974609 -15126.581055", 
+                "param1": "L_FMNL", 
+                "id": 3, 
+                "name": "回禀虬云"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2010"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101108, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101107"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "4787", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "671", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1089", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "407", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102100001|102100006|102100001|102100006", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q020111|Q020112|Q020113", 
+        "finish_by": "10000452#L_FMNL", 
+        "taskLogDes": "@S{4}无极道祖允许你进入天机谷，但你必须先通过天机谷入口守将虬云的考验。|@S{4}无极道祖允许你进入天机谷，但你必须先通过天机谷入口守将虬云的考验。|@S{4}无极道祖允许你进入天机谷，但你必须先通过天机谷入口守将虬云的考验。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020431", 
+        "nextQuest": "20101144", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncTeleportSpace", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "0 0 0", 
+                    "param2": "-7209.0 20.0 269.0", 
+                    "param1": "L_HHFZ"
+                }
+            ]
+        }, 
+        "level": 13, 
+        "title": "虬云的考验", 
+        "isAutoCommit": 1, 
+        "start_by": "10000173#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

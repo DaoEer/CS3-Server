@@ -1,0 +1,2282 @@
+[
+	{
+		"Name": "bigmap_1",
+		"LevelName": "bigmap_1",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "bigmap_1_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_Empty",
+		"LevelName": "L_Empty",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "L_EmptyLogic",
+		"Description": ""
+	},
+	{
+		"Name": "SpaceCopy_1",
+		"LevelName": "SpaceCopy_1",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "SpaceCopy_1_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_Login",
+		"LevelName": "L_Login",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "L_Login_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_SelectRole",
+		"LevelName": "L_JSXZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "L_SelectRole_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_CreateRole",
+		"LevelName": "L_JSXZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "L_CreateRole_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_FM_YW_youxia",
+		"LevelName": "L_HYG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "L_FM_YW_youxia_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "FM_ceshi002",
+		"LevelName": "L_FMYW_DOWN3",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "FM_ceshi002_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "NieLian",
+		"LevelName": "NieLian",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "NieLian_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_ZYXZ",
+		"LevelName": "L_ZYXZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, true ],
+		"LogicLevelName": "L_ZYXZ_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_FightDemo",
+		"LevelName": "L_FightDemo",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FightDemo_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "FM_ceshi001",
+		"LevelName": "FM_ceshi001",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "FM_ceshi001_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_KWSM_ceshi",
+		"LevelName": "L_FMYW_DOWN3",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_KWSM_ceshi_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_WSS_ceshi",
+		"LevelName": "L_FMYW_UP3",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WSS_ceshi_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "L_FMNL_ceshi",
+		"LevelName": "L_FM_XYW",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FMNL_ceshi_Logic",
+		"Description": ""
+	},
+	{
+		"Name": "fu_ben_L_HKY_Boss",
+		"LevelName": "L_HKY_04",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HKY_Boss_Logic",
+		"Description": "boss战demo"
+	},
+	{
+		"Name": "L_M_E_Profile",
+		"LevelName": "L_M_E_Profile",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_M_E_Profile_Logic",
+		"Description": "程序测试"
+	},
+	{
+		"Name": "fu_ben_L_ZLQJ_Boss",
+		"LevelName": "L_ZLQJ_03",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_ZLQJ_Boss_Logic",
+		"Description": "boss战demo新地图"
+	},
+	{
+		"Name": "L_PLG_1",
+		"LevelName": "L_BYG_03",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_PLG_1_Logic",
+		"Description": "测试地图"
+	},
+	{
+		"Name": "ClientEffectMap",
+		"LevelName": "ClientEffectMap",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "ClientEffectMap_Logic",
+		"Description": "程序测试-客户端效果"
+	},
+	{
+		"Name": "L_KLZ_1",
+		"LevelName": "L_KLZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_KLZ_1_Logic",
+		"Description": "昆仑宗"
+	},
+	{
+		"Name": "L_YXG",
+		"LevelName": "L_YXG_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YXG_Logic",
+		"Description": "玉虚宫"
+	},
+	{
+		"Name": "L_PLG",
+		"LevelName": "L_BYG_03",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_PLG_Logic",
+		"Description": "蓬莱阁"
+	},
+	{
+		"Name": "L_TQG",
+		"LevelName": "L_BJG_03",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TQG_Logic",
+		"Description": "太清宫"
+	},
+	{
+		"Name": "L_XLD_01",
+		"LevelName": "L_HYG_05",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XLD_01_Logic",
+		"Description": "修罗殿"
+	},
+	{
+		"Name": "L_XYM",
+		"LevelName": "L_WJD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XYM_Logic",
+		"Description": "逍遥门"
+	},
+	{
+		"Name": "L_PMG",
+		"LevelName": "L_LYS",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_PMG_Logic",
+		"Description": "缥缈阁"
+	},
+	{
+		"Name": "L_MHD",
+		"LevelName": "L_XLD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_MHD_Logic",
+		"Description": "摩诃殿"
+	},
+	{
+		"Name": "L_PGDT",
+		"LevelName": "L_PGDT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_PGDT_Logic",
+		"Description": "盘古洞天"
+	},
+	{
+		"Name": "L_HDDT",
+		"LevelName": "L_HDDT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HDDT_Logic",
+		"Description": "混沌洞天"
+	},
+	{
+		"Name": "L_TSHJ_2",
+		"LevelName": "L_BJG_ZG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TSHJ_2_Logic",
+		"Description": "天书幻境（新版）"
+	},
+	{
+		"Name": "L_TXHJ_2",
+		"LevelName": "L_TXHJ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TXHJ_2_Logic",
+		"Description": "太虚幻境（新版）"
+	},
+	{
+		"Name": "L_FMC",
+		"LevelName": "L_XFMC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FMC_Logic",
+		"Description": "凤鸣城"
+	},
+	{
+		"Name": "L_FMNL",
+		"LevelName": "L_FM_XYW|L_FMYW_DOWN|L_FMYW_UP",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FMNL_Logic",
+		"Description": "凤鸣南麓"
+	},
+	{
+		"Name": "L_HHFZ",
+		"LevelName": "L_HHFZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HHFZ_Logic",
+		"Description": "幻莲大阵（新旧共同用）"
+	},
+	{
+		"Name": "L_YYQZ",
+		"LevelName": "L_ZLQJ_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YYQZ_Logic",
+		"Description": "阴阳棋局（新旧共同用）"
+	},
+	{
+		"Name": "L_TJG",
+		"LevelName": "L_QLLD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TJG_Logic",
+		"Description": "天机谷(新版仙道)"
+	},
+	{
+		"Name": "L_LXG",
+		"LevelName": "L_JGDT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LXG_Logic",
+		"Description": "落霞谷(新版魔道)"
+	},
+	{
+		"Name": "L_KWSM_1",
+		"LevelName": "L_KWSM",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_KWSM_1_Logic",
+		"Description": "昆吾山脉"
+	},
+	{
+		"Name": "L_WSS",
+		"LevelName": "L_WSS",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WSS_Logic",
+		"Description": "万寿山"
+	},
+	{
+		"Name": "L_HYHZ_01",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYHZ_01_Logic",
+		"Description": "狐妖幻阵"
+	},
+	{
+		"Name": "L_HYHZ_02",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYHZ_02_Logic",
+		"Description": "狐妖幻阵"
+	},
+	{
+		"Name": "L_HYHZ_03",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYHZ_03_Logic",
+		"Description": "狐妖幻阵"
+	},
+	{
+		"Name": "L_HYHZ_04",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYHZ_04_Logic",
+		"Description": "狐妖幻阵"
+	},
+	{
+		"Name": "L_HYHZ_05",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYHZ_05_Logic",
+		"Description": "狐妖幻阵"
+	},
+	{
+		"Name": "L_HYHZ_06",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYHZ_06_Logic",
+		"Description": "狐妖幻阵"
+	},
+	{
+		"Name": "L_HYHZ_07",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYHZ_07_Logic",
+		"Description": "狐妖幻阵"
+	},
+	{
+		"Name": "L_HYHZ_08",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYHZ_08_Logic",
+		"Description": "狐妖幻阵"
+	},
+	{
+		"Name": "L_WZGHZ_01",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WZGHZ_01_Logic",
+		"Description": "五庄观幻阵"
+	},
+	{
+		"Name": "L_WZGHZ_02",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WZGHZ_02_Logic",
+		"Description": "五庄观幻阵"
+	},
+	{
+		"Name": "L_WZGHZ_03",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WZGHZ_03_Logic",
+		"Description": "五庄观幻阵"
+	},
+	{
+		"Name": "L_WZGHZ_04",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WZGHZ_04_Logic",
+		"Description": "五庄观幻阵"
+	},
+	{
+		"Name": "L_WZGHZ_05",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WZGHZ_05_Logic",
+		"Description": "五庄观幻阵"
+	},
+	{
+		"Name": "L_WZGHZ_06",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WZGHZ_06_Logic",
+		"Description": "五庄观幻阵"
+	},
+	{
+		"Name": "L_WZGHZ_07",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WZGHZ_07_Logic",
+		"Description": "五庄观幻阵"
+	},
+	{
+		"Name": "L_WZGHZ_08",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WZGHZ_08_Logic",
+		"Description": "五庄观幻阵"
+	},
+	{
+		"Name": "L_QKBK",
+		"LevelName": "L_BWK",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_QKBK_Logic",
+		"Description": "乾坤宝库"
+	},
+	{
+		"Name": "L_XCHJ",
+		"LevelName": "L_XCHJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XCHJ_Logic",
+		"Description": "四象星阵"
+	},
+	{
+		"Name": "L_BHD_1",
+		"LevelName": "L_BHD_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BHD_1_Logic",
+		"Description": "冰火玄境"
+	},
+	{
+		"Name": "L_BHD_2",
+		"LevelName": "L_BHD_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BHD_2_Logic",
+		"Description": "冰火灵岛"
+	},
+	{
+		"Name": "L_YCDC",
+		"LevelName": "L_SLMJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YCDC_Logic",
+		"Description": "元辰道场（原魔道17级追逐玩法，有迷雾，被老板否定，但先保留内容待后人借鉴）"
+	},
+	{
+		"Name": "L_FLS",
+		"LevelName": "L_FLS_XD_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FLS_Logic",
+		"Description": "飞来石"
+	},
+	{
+		"Name": "L_YZD",
+		"LevelName": "L_FLS_MD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YZD_Logic",
+		"Description": "瑶泽岛"
+	},
+	{
+		"Name": "L_TLDC",
+		"LevelName": "L_QYDC_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TLDC_Logic",
+		"Description": "天罗道场"
+	},
+	{
+		"Name": "L_SMZZ",
+		"LevelName": "L_SMZZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SMZZ_Logic",
+		"Description": "神脉沼泽"
+	},
+	{
+		"Name": "L_XHL",
+		"LevelName": "L_HKY_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XHL_Logic",
+		"Description": "玄火岭"
+	},
+	{
+		"Name": "L_SLT_01",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SLT_01_Logic",
+		"Description": "锁灵塔（第一层）"
+	},
+	{
+		"Name": "L_SLT_02",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SLT_02_Logic",
+		"Description": "锁灵塔（第二层）"
+	},
+	{
+		"Name": "L_SLT_03",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SLT_03_Logic",
+		"Description": "锁灵塔（第三层）"
+	},
+	{
+		"Name": "L_DYG",
+		"LevelName": "L_DYG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_DYG_Logic",
+		"Description": "地焱宫"
+	},
+	{
+		"Name": "L_JYDT",
+		"LevelName": "L_SYX_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JYDT_Logic",
+		"Description": "九焱洞天"
+	},
+	{
+		"Name": "L_JYDT_2",
+		"LevelName": "L_SYX_03",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JYDT_2_Logic",
+		"Description": "九焱洞天（第二层）"
+	},
+	{
+		"Name": "L_LXD",
+		"LevelName": "L_DJD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LXD_Logic",
+		"Description": "龙汐岛"
+	},
+	{
+		"Name": "L_TSYJ",
+		"LevelName": "L_YLF",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TSYJ_Logic",
+		"Description": "土神遗迹"
+	},
+	{
+		"Name": "L_MKZ",
+		"LevelName": "L_QLZ3",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_MKZ_Logic",
+		"Description": "木傀寨"
+	},
+	{
+		"Name": "L_SLT_04",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SLT_04_Logic",
+		"Description": "锁灵塔（第一层）"
+	},
+	{
+		"Name": "L_SLT_05",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SLT_05_Logic",
+		"Description": "锁灵塔（第二层）"
+	},
+	{
+		"Name": "L_SLT_06",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SLT_06_Logic",
+		"Description": "锁灵塔（第三层）"
+	},
+	{
+		"Name": "L_SYX",
+		"LevelName": "L_SYX_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SYX_Logic",
+		"Description": "蛇炎星"
+	},
+	{
+		"Name": "L_HYDK",
+		"LevelName": "L_HYDK",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HYDK_Logic",
+		"Description": "火焰洞窟"
+	},
+	{
+		"Name": "L_QLMJ",
+		"LevelName": "L_BHD_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_QLMJ_Logic",
+		"Description": "麒麟秘境"
+	},
+	{
+		"Name": "L_QYDC",
+		"LevelName": "L_QYDC_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_QYDC_Logic",
+		"Description": "青云道场"
+	},
+	{
+		"Name": "L_FZSY",
+		"LevelName": "L_FST_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FZSY_Logic",
+		"Description": "放逐深渊"
+	},
+	{
+		"Name": "L_THG",
+		"LevelName": "L_HKY_03",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_THG_Logic",
+		"Description": "天火谷"
+	},
+	{
+		"Name": "L_XHJD",
+		"LevelName": "L_SYX_03",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XHJD_Logic",
+		"Description": "星核禁地"
+	},
+	{
+		"Name": "L_BQDB",
+		"LevelName": "L_BQDB",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BQDB_Logic",
+		"Description": "阪泉东部"
+	},
+	{
+		"Name": "L_BQXB",
+		"LevelName": "L_BQXB",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BQXB_Logic",
+		"Description": "阪泉西部"
+	},
+	{
+		"Name": "L_TYG",
+		"LevelName": "L_TYG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TYG_Logic",
+		"Description": "太阳宫"
+	},
+	{
+		"Name": "L_DBDT",
+		"LevelName": "L_DBDT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_DBDT_Logic",
+		"Description": "多宝洞天"
+	},
+	{
+		"Name": "L_YLF",
+		"LevelName": "L_YLF",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YLF_Logic",
+		"Description": "阎龙谷"
+	},
+	{
+		"Name": "L_QYSX",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_QYSX_Logic",
+		"Description": "青玉圣像"
+	},
+	{
+		"Name": "L_YGD",
+		"LevelName": "L_TGLX",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YGD_Logic",
+		"Description": "云光洞"
+	},
+	{
+		"Name": "L_XLFZ_DYC",
+		"LevelName": "L_XLFZ_DYC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XLFZ_DYC_Logic",
+		"Description": "降龙法阵（第一层）"
+	},
+	{
+		"Name": "L_XLFZ_DEC",
+		"LevelName": "L_XLFZ_DEC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XLFZ_DEC_Logic",
+		"Description": "降龙法阵（第二层）"
+	},
+	{
+		"Name": "L_XLFZ_DSC",
+		"LevelName": "L_XLFZ_DSC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XLFZ_DSC_Logic",
+		"Description": "降龙法阵（第三层）"
+	},
+	{
+		"Name": "L_ZLY",
+		"LevelName": "L_ZLY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_ZLY_Logic",
+		"Description": "涿鹿原"
+	},
+	{
+		"Name": "L_WSD",
+		"LevelName": "L_WSD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WSD_Logic",
+		"Description": "巫神殿"
+	},
+	{
+		"Name": "L_JX",
+		"LevelName": "L_JX",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JX_Logic",
+		"Description": "金星"
+	},
+	{
+		"Name": "L_YGG",
+		"LevelName": "L_WSD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YGG_Logic",
+		"Description": "耀光阁"
+	},
+	{
+		"Name": "L_TMDC",
+		"LevelName": "L_YLDC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TMDC_Logic",
+		"Description": "天沐道场"
+	},
+	{
+		"Name": "L_TLXS",
+		"LevelName": "L_BHD_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TLXS_Logic",
+		"Description": "天麓雪山"
+	},
+	{
+		"Name": "L_MXG",
+		"LevelName": "L_MXG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_MXG_Logic",
+		"Description": "冥仙谷"
+	},
+	{
+		"Name": "L_FSG",
+		"LevelName": "L_WSD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FSG_Logic",
+		"Description": "风神宫"
+	},
+	{
+		"Name": "L_CYG",
+		"LevelName": "L_SXK",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SXK_Logic",
+		"Description": "朝阳谷"
+	},
+	{
+		"Name": "L_FYP",
+		"LevelName": "L_FYP",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FYP_Logic",
+		"Description": "飞云坡"
+	},
+	{
+		"Name": "L_DLDC",
+		"LevelName": "L_JGDT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_DLDC_Logic",
+		"Description": "灵都道场"
+	},
+	{
+		"Name": "L_YHS",
+		"LevelName": "L_JSYH",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YHS_Logic",
+		"Description": "幽河山"
+	},
+	{
+		"Name": "L_LTMJ",
+		"LevelName": "L_SMZZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LTMJ_Logic",
+		"Description": "灵土秘境"
+	},
+	{
+		"Name": "L_JSD_XIAN",
+		"LevelName": "L_SXG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JSD_XIAN_Logic",
+		"Description": "巨神殿"
+	},
+	{
+		"Name": "L_HXG",
+		"LevelName": "L_YLDC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HXG_Logic",
+		"Description": "幻星阁"
+	},
+	{
+		"Name": "L_LYT_01",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LYT_01_Logic",
+		"Description": "凌云塔（第一层）"
+	},
+	{
+		"Name": "L_LYT_02",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LYT_02_Logic",
+		"Description": "凌云塔（第二层）"
+	},
+	{
+		"Name": "L_LYT_03",
+		"LevelName": "L_SLT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LYT_03_Logic",
+		"Description": "凌云塔（第三层）"
+	},
+	{
+		"Name": "L_TS",
+		"LevelName": "L_TS",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TS_Logic",
+		"Description": "汤山"
+	},
+	{
+		"Name": "L_YLG",
+		"LevelName": "L_YLF",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YLG_Logic",
+		"Description": "隐龙谷"
+	},
+	{
+		"Name": "L_TGLX",
+		"LevelName": "L_TGLX",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TGLX_Logic",
+		"Description": "太古灵穴"
+	},
+	{
+		"Name": "L_DBDT_mo",
+		"LevelName": "L_DBDT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_DBDT_mo_Logic",
+		"Description": "多宝洞天"
+	},
+	{
+		"Name": "L_SXK",
+		"LevelName": "L_SXK",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SXK_Logic",
+		"Description": "失心窟"
+	},
+	{
+		"Name": "L_WXTDZ_01",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WXTDZ_01_Logic",
+		"Description": "圣像空间"
+	},
+	{
+		"Name": "L_YMGJ",
+		"LevelName": "L_YMGJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YMGJ_Logic",
+		"Description": "幽魔古境"
+	},
+	{
+		"Name": "L_LYG",
+		"LevelName": "L_JGDT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LYG_Logic",
+		"Description": "烈阳谷"
+	},
+	{
+		"Name": "L_GMZD",
+		"LevelName": "L_FST_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_GMZD_Logic",
+		"Description": "鬼魅之地"
+	},
+	{
+		"Name": "L_JX_02",
+		"LevelName": "L_JX",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JX_02_Logic",
+		"Description": "金星"
+	},
+	{
+		"Name": "L_YGG_01",
+		"LevelName": "L_WSD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YGG_01_Logic",
+		"Description": "耀光阁"
+	},
+	{
+		"Name": "L_HX_02",
+		"LevelName": "L_HYDK",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HX_02_Logic",
+		"Description": "火星"
+	},
+	{
+		"Name": "L_TMG",
+		"LevelName": "L_TMG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TMG_Logic",
+		"Description": "天魔宫"
+	},
+	{
+		"Name": "L_JYHD",
+		"LevelName": "L_JYHD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JYHD_Logic",
+		"Description": "九幽寒洞"
+	},
+	{
+		"Name": "L_JSYH",
+		"LevelName": "L_JSYH",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JSYH_Logic",
+		"Description": "九煞阴河"
+	},
+	{
+		"Name": "L_BJXK",
+		"LevelName": "L_BJXK",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BJXK_Logic",
+		"Description": "北极虚空"
+	},
+	{
+		"Name": "L_XCMJ",
+		"LevelName": "L_XCMJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XCMJ_Logic",
+		"Description": "星辰秘境"
+	},
+	{
+		"Name": "L_LKG",
+		"LevelName": "L_YLDC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LKG_Logic",
+		"Description": "翎坤宫"
+	},
+	{
+		"Name": "L_JSD",
+		"LevelName": "L_SXG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JSD_Logic",
+		"Description": "巨神殿"
+	},
+	{
+		"Name": "L_PLD",
+		"LevelName": "L_PLD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_PLD_Logic",
+		"Description": "蟠龙道"
+	},
+	{
+		"Name": "L_JTXH",
+		"LevelName": "L_BHD_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JTXH_Logic",
+		"Description": "九天星河"
+	},
+	{
+		"Name": "L_YMG",
+		"LevelName": "L_YLF",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YMG_Logic",
+		"Description": "幽冥谷"
+	},
+	{
+		"Name": "L_CGD",
+		"LevelName": "L_MHCS",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_CGD_Logic",
+		"Description": "藏功殿"
+	},
+	{
+		"Name": "L_FSG_02",
+		"LevelName": "L_WSD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FSG_02_Logic",
+		"Description": "风神宫"
+	},
+	{
+		"Name": "L_WNHS",
+		"LevelName": "L_HYDK",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_WNHS_Logic",
+		"Description": "万年火山"
+	},
+	{
+		"Name": "L_SYSM",
+		"LevelName": "L_TGLX",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SYSM_Logic",
+		"Description": "深岩山脉"
+	},
+	{
+		"Name": "L_TXDF",
+		"LevelName": "L_TGLX",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TGLX_Logic",
+		"Description": "天邪洞府"
+	},
+	{
+		"Name": "L_PGSD",
+		"LevelName": "L_PGSD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_PGSD_Logic",
+		"Description": "盘古神殿（外）"
+	},
+	{
+		"Name": "L_PGSD_SN",
+		"LevelName": "L_PGSD_DG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_PGSD_SN_Logic",
+		"Description": "盘古神殿（内）"
+	},
+	{
+		"Name": "L_KLZ",
+		"LevelName": "L_WHG_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_KLZ_Logic",
+		"Description": "昆仑宗（待废弃）"
+	},
+	{
+		"Name": "L_XLD",
+		"LevelName": "L_HYG_05",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XLD_Logic",
+		"Description": "修罗殿（待废弃）"
+	},
+	{
+		"Name": "L_YSC",
+		"LevelName": "L_YSC_001",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YSC_Logic",
+		"Description": "银沙村（废弃）"
+	},
+	{
+		"Name": "L_JSC",
+		"LevelName": "L_JSC_001",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JSC_Logic",
+		"Description": "金沙村（废弃）"
+	},
+	{
+		"Name": "L_DJD",
+		"LevelName": "L_YXG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_DJD_Logic",
+		"Description": "东极岛（废弃）"
+	},
+	{
+		"Name": "L_HLD",
+		"LevelName": "L_BJG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HLD_Logic",
+		"Description": "火灵岛（废弃）"
+	},
+	{
+		"Name": "L_HLD_01",
+		"LevelName": "L_HLD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HLD_01_Logic",
+		"Description": "火灵岛（废弃）"
+	},
+	{
+		"Name": "L_TSHJ",
+		"LevelName": "L_BJG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TSHJ_Logic",
+		"Description": "天书幻境（废弃）"
+	},
+	{
+		"Name": "L_TSHJ_001",
+		"LevelName": "L_TXHJ_002",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TSHJ_001_Logic",
+		"Description": "天书幻境（废弃）"
+	},
+	{
+		"Name": "L_TXHJ",
+		"LevelName": "L_YXG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TXHJ_Logic",
+		"Description": "太虚幻境（废弃）"
+	},
+	{
+		"Name": "L_TXHJ_01",
+		"LevelName": "L_TXHJ_002",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TXHJ_01_Logic",
+		"Description": "太虚幻境（废弃）"
+	},
+	{
+		"Name": "L_TSHJ_1",
+		"LevelName": "L_BJG_ZG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TSHJ_1_Logic",
+		"Description": "天书幻境--追逐（废弃）"
+	},
+	{
+		"Name": "L_TXHJ_1",
+		"LevelName": "L_TXHJ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TXHJ_1_Logic",
+		"Description": "太虚幻境--追逐（废弃）"
+	},
+	{
+		"Name": "L_SGMJ",
+		"LevelName": "L_SGMJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SGMJ_Logic",
+		"Description": "上古秘境（废弃）"
+	},
+	{
+		"Name": "L_SGMJ_XIAN_01",
+		"LevelName": "L_SGMJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SGMJ_XIAN_01_Logic",
+		"Description": "上古秘境（废弃）"
+	},
+	{
+		"Name": "L_LXGJD",
+		"LevelName": "L_QLLD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LXGJD_Logic",
+		"Description": "落霞谷禁地（废弃）"
+	},
+	{
+		"Name": "L_TJGJD",
+		"LevelName": "L_QLLD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TJGJD_Logic",
+		"Description": "天机谷禁地（废弃）"
+	},
+	{
+		"Name": "L_BHD",
+		"LevelName": "L_BHD_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BHD_Logic",
+		"Description": "冰火岛（废弃）"
+	},
+	{
+		"Name": "L_BHD_3",
+		"LevelName": "L_BHD_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BHD_3_Logic",
+		"Description": "冰火灵岛（废弃）"
+	},
+	{
+		"Name": "L_KWSM",
+		"LevelName": "L_FMYW_DOWN3",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_KWSM_Logic",
+		"Description": "昆吾山脉（废弃）"
+	},
+	{
+		"Name": "L_SMZZ_mo",
+		"LevelName": "L_SMZZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SMZZ_mo_Logic",
+		"Description": "神脉沼泽"
+	},
+	{
+		"Name": "fu_ben_fengmingxunbao1",
+		"LevelName": "L_FMXB_001",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_fengmingxunbao1_Logic",
+		"Description": "副本金殿探宝"
+	},
+	{
+		"Name": "fu_ben_qinglong1",
+		"LevelName": "L_QLZ3",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_qinglong1_Logic",
+		"Description": "副本剿灭赤龙寨"
+	},
+	{
+		"Name": "fu_ben_L_HKY",
+		"LevelName": "L_HKY_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HKY_Logic",
+		"Description": "副本火奎崖"
+	},
+	{
+		"Name": "fu_ben_L_HYZY",
+		"LevelName": "L_HYZY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HYZY_Logic",
+		"Description": "副本荒月庄园"
+	},
+	{
+		"Name": "fu_ben_L_ZLQJ",
+		"LevelName": "L_ZLQJ_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_ZLQJ_Logic",
+		"Description": "副本真龙棋局"
+	},
+	{
+		"Name": "fu_ben_L_TTY",
+		"LevelName": "L_TTY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_TTY_Logic",
+		"Description": "副本通天崖"
+	},
+	{
+		"Name": "fu_ben_L_HYZY_1",
+		"LevelName": "L_HYZY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HYZY_Logic",
+		"Description": "副本荒月庄园(单人)"
+	},
+	{
+		"Name": "fu_ben_L_ZLQJ_1",
+		"LevelName": "L_ZLQJ_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_ZLQJ_Logic",
+		"Description": "副本真龙棋局(单人)"
+	},
+	{
+		"Name": "fu_ben_L_TTY_1",
+		"LevelName": "L_TTY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_TTY_Logic",
+		"Description": "副本通天崖(单人)"
+	},
+	{
+		"Name": "fu_ben_L_FST",
+		"LevelName": "L_FST_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_FST_Logic",
+		"Description": "副本风煞坛"
+	},
+	{
+		"Name": "L_HLSY",
+		"LevelName": "L_HLSY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HLSY_Logic",
+		"Description": "幻灵神域"
+	},
+	{
+		"Name": "fu_ben_fengmingxunbao1_1",
+		"LevelName": "L_FMXB_001",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_fengmingxunbao1_1_Logic",
+		"Description": "副本金殿探宝"
+	},
+	{
+		"Name": "fu_ben_L_HKY_1",
+		"LevelName": "L_HKY_02",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HKY_1_Logic",
+		"Description": "副本火奎崖"
+	},
+	{
+		"Name": "fu_ben_qinglong1_1",
+		"LevelName": "L_QLZ3",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_qinglong1_1_Logic",
+		"Description": "副本剿灭赤龙寨"
+	},
+	{
+		"Name": "fu_ben_L_LYZT",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_LYZT",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "副本炼狱之塔"
+	},
+	{
+		"Name": "fu_ben_L_LZG",
+		"LevelName": "L_LZG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_LZG_Logic",
+		"Description": "副本雷泽谷"
+	},
+	{
+		"Name": "fu_ben_L_LZG_1",
+		"LevelName": "L_LZG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_LZG_Logic",
+		"Description": "副本雷泽谷"
+	},
+	{
+		"Name": "fu_ben_L_BHMY",
+		"LevelName": "L_BHMY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BHMY_Logic",
+		"Description": "副本冰火魔狱"
+	},
+	{
+		"Name": "L_JAIL",
+		"LevelName": "L_SXY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JAIL_Logic",
+		"Description": "监狱"
+	},
+	{
+		"Name": "fu_ben_L_LDWJ",
+		"LevelName": "L_LDWJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_LDWJ_Logic",
+		"Description": "副本灵岛危机"
+	},
+	{
+		"Name": "fu_ben_L_XYHY",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_XYHY",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "副本仙隐画院"
+	},
+	{
+		"Name": "fu_ben_L_QFGT",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_QFGT_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "副本琴风古亭"
+	},
+	{
+		"Name": "fu_ben_L_JTLY",
+		"LevelName": "L_JTLY1",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_JTLY_Logic",
+		"Description": "副本九天灵狱"
+	},
+	{
+		"Name": "fu_ben_JSSLC",
+		"LevelName": "L_JSSLC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_JSSLC_Logic",
+		"Description": "副本晶石狩猎场"
+	},
+	{
+		"Name": "fu_ben_L_ZLMJ",
+		"LevelName": "L_ZLMJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_ZLMJ_Logic",
+		"Description": "副本烛龙秘境"
+	},
+	{
+		"Name": "fu_ben_L_WFSZ",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_WFSZ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "副本五方石阵"
+	},
+	{
+		"Name": "fu_ben_L_HZMG",
+		"LevelName": "L_HZMG_Effect|L_HZMG_Evn|L_HZMG_InstanceMesh|L_HZMG_Light|L_HZMG_Mesh",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HZMG_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_HLG",
+		"LevelName": "L_HLG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HLG_Logic",
+		"Description": "副本浩灵谷"
+	},
+	{
+		"Name": "fu_ben_L_TCDL",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_TCDL",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "逃出丹炉"
+	},
+	{
+		"Name": "fu_ben_L_LCZ",
+		"LevelName": "L_LCZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_LCZ_Logic",
+		"Description": "雷池阵"
+	},
+	{
+		"Name": "fu_ben_JSSLC1",
+		"LevelName": "L_JSSLC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_JSSLC_Logic",
+		"Description": "副本晶石狩猎场"
+	},
+	{
+		"Name": "fu_ben_L_CBK",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_CBK",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "副本藏宝库"
+	},
+	{
+		"Name": "L_BHLD",
+		"LevelName": "L_JXY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_BHLD_Logic",
+		"Description": "帮会地图"
+	},
+	{
+		"Name": "fu_ben_L_HZMG_CSG",
+		"LevelName": "L_HZMG_CSG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HZMG_CSG_Logic",
+		"Description": "藏书阁"
+	},
+	{
+		"Name": "fu_ben_L_HZMG_BWK",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_BWK",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "宝物库"
+	},
+	{
+		"Name": "fu_ben_L_HZMG_TMZP",
+		"LevelName": "L_TMZP",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HZMG_TMZP_Logic",
+		"Description": "天命"
+	},
+	{
+		"Name": "fu_ben_L_HZMG_YLXF",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_YLXF_FB",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "云岚仙峰"
+	},
+	{
+		"Name": "fu_ben_L_LMZC",
+		"LevelName": "L_LMZC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_LMZC_Logic",
+		"Description": "灵脉战场"
+	},
+	{
+		"Name": "fu_ben_L_HLTC",
+		"LevelName": "L_HLTC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HLTC_Logic",
+		"Description": "幻莲天池"
+	},
+	{
+		"Name": "fu_ben_L_HLTC1",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HLTC1",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻莲天池PLUS"
+	},
+	{
+		"Name": "fu_ben_L_HZMG_QYZP",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_QYZP",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "气运"
+	},
+	{
+		"Name": "fu_ben_YZFQ",
+		"LevelName": "L_FXZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_FXZ_Logic",
+		"Description": "凤栖镇（个人竞技）"
+	},
+	{
+		"Name": "fu_ben_YZFQ_01",
+		"LevelName": "L_YXFXZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YXFXZ_Logic",
+		"Description": "凤栖镇（个人竞技）"
+	},
+	{
+		"Name": "fu_ben_YZFQ_02",
+		"LevelName": "L_YXFXZ1",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YXFXZ1_Logic",
+		"Description": "凤栖镇（个人竞技）"
+	},
+	{
+		"Name": "fu_ben_L_LCZ_1",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_LCZ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "雷池阵"
+	},
+	{
+		"Name": "fu_ben_SFC",
+		"LevelName": "L_SFC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SFC_Logic",
+		"Description": "十方城个人竞技"
+	},
+	{
+		"Name": "fu_ben_L_BXZZ",
+		"LevelName": "L_BXZZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_BXZZ_Logic",
+		"Description": "冰雪之战"
+	},
+	{
+		"Name": "fu_ben_L_HZMG_JSGC",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_JSGC",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "金沙古城"
+	},
+	{
+		"Name": "fu_ben_L_ZSG",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_ZSG",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "镇煞宫"
+	},
+	{
+		"Name": "fu_ben_L_HZMG1",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_HZMG2",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_HZMG3",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_HZMG4",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_MDLX",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_QY_MDLX",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "密道历险"
+	},
+	{
+		"Name": "fu_ben_L_LYSL",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_LYSL_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "临渊试炼"
+	},
+	{
+		"Name": "fu_ben_L_MHCS",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_MHCS",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "迷幻丛书"
+	},
+	{
+		"Name": "fu_ben_L_MYHJ",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_MYHJ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "梦魇画卷"
+	},
+	{
+		"Name": "fu_ben_L_JTLY_XC",
+		"LevelName": "L_JTLY_XC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JTLY_XC_Logic",
+		"Description": "副本九天灵狱-下层"
+	},
+	{
+		"Name": "fu_ben_L_JTLY_SC",
+		"LevelName": "L_JTLY_SC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JTLY_SC_Logic",
+		"Description": "副本九天灵狱-上层"
+	},
+	{
+		"Name": "fu_ben_L_GYMZ",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_GYMZ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "鬼域迷阵"
+	},
+	{
+		"Name": "fu_ben_L_DGSYZ",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_DGSYZ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "帝宫石印阵"
+	},
+	{
+		"Name": "fu_ben_L_BHZBZ_03",
+		"LevelName": "L_BHZBZ_03",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_BHZBZ_03_Logic",
+		"Description": "帮会争霸战第三场"
+	},
+	{
+		"Name": "L_HLSY_01",
+		"LevelName": "L_HLSY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HLSY_01_Logic",
+		"Description": "幻灵神域"
+	},
+	{
+		"Name": "L_HLSY_02",
+		"LevelName": "L_HLSY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HLSY_02_Logic",
+		"Description": "幻灵神域"
+	},
+	{
+		"Name": "fu_ben_L_MYJX_Y",
+		"LevelName": "L_MYJX_Y",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_MYJX_Y_Logic",
+		"Description": "冥域缉凶-山"
+	},
+	{
+		"Name": "fu_ben_L_MYJX_E",
+		"LevelName": "L_MYJX_E",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_MYJX_E_Logic",
+		"Description": "冥域缉凶-谷"
+	},
+	{
+		"Name": "fu_ben_L_PLMJ",
+		"LevelName": "L_ZLMJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_PLMJ_Logic",
+		"Description": "副本蟠龙秘境"
+	},
+	{
+		"Name": "fu_ben_L_HZMG5",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_HZMG6",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_HZMG7",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_HZMG8",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫"
+	},
+	{
+		"Name": "fu_ben_L_BMHG",
+		"LevelName": "L_BMHG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_BMHG_Logic",
+		"Description": "副本北冥寒宫"
+	},
+	{
+		"Name": "fu_ben_L_TGS",
+		"LevelName": "L_TGS",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_TGS_Logic",
+		"Description": "副本天公山"
+	},
+	{
+		"Name": "fu_ben_L_YCJMD",
+		"LevelName": "L_YCJMD_FZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_YCJMD_FZ_Logic",
+		"Description": "副本勇闯绝命岛（远程）"
+	},
+	{
+		"Name": "fu_ben_L_YCJMD_jinzhan",
+		"LevelName": "L_YCJMD_FZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "fu_ben_L_YCJMD_FZ_Logic",
+		"Description": "副本勇闯绝命岛（近战）"
+	},
+	{
+		"Name": "fu_ben_L_HZMG9",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HZMG_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻阵迷宫单人"
+	},
+	{
+		"Name": "fu_ben_L_HLTC2",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_HLTC1",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "幻莲天池PLUS(单人)"
+	},
+	{
+		"Name": "fu_ben_L_MDLX1",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_QY_MDLX",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "密道历险单人"
+	},
+	{
+		"Name": "fu_ben_L_LYSL1",
+		"LevelName": "L_HZMG_01",
+		"SubStreamLevelName": "L_LYSL_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "fu_ben_L_HZMG1_Logic",
+		"Description": "临渊试炼单人"
+	},
+	{
+		"Name": "fu_ben_L_SGMZ",
+		"LevelName": "L_SGMZ",
+		"SubStreamLevelName": "L_SGMZ",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SGMZ_Logic",
+		"Description": "上古密阵"
+	},
+	{
+		"Name": "fu_ben_L_GCZ",
+		"LevelName": "L_GCZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_GCZ_Logic",
+		"Description": "副本攻城战"
+	},
+	{
+		"Name": "cycle_L_JSZZ_1",
+		"LevelName": "L_HLSY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_JSZZ_1_Logic",
+		"Description": "金树种子2"
+	},
+	{
+		"Name": "cycle_L_LLBZ",
+		"LevelName": "L_LLBZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_LLBZ_Logic",
+		"Description": "玲珑宝珠"
+	},
+	{
+		"Name": "L_JZYT",
+		"LevelName": "L_JZYT",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JZYT_Logic",
+		"Description": "金枝玉庭"
+	},
+	{
+		"Name": "cycle_L_HRWMJ01",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_BSSM_01",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "冰霜山脉（环任务秘境）"
+	},
+	{
+		"Name": "cycle_L_HRWMJ02",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_SFXJ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "神风仙境（环任务秘境）"
+	},
+	{
+		"Name": "cycle_L_HRWMJ03",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_RYSJ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "熔岩神境（环任务秘境）"
+	},
+	{
+		"Name": "cycle_L_MQRSG",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_RSGY",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "冥气人参果"
+	},
+	{
+		"Name": "cycle_L_FHJN",
+		"LevelName": "L_FHJN",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_FHJN_Logic",
+		"Description": "焚火金牛"
+	},
+	{
+		"Name": "L_HLSY_LOOP",
+		"LevelName": "L_HLSY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_HLSY_LOOP_Logic",
+		"Description": "环任务用幻灵神域"
+	},
+	{
+		"Name": "cycle_L_JSCS",
+		"LevelName": "L_JSCS",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_JSCS_Logic",
+		"Description": "急速穿梭"
+	},
+	{
+		"Name": "cycle_L_XMYY",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_XMYY",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "消灭影妖"
+	},
+	{
+		"Name": "cycle_L_KNCZ",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_KNCZ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "狂牛冲撞"
+	},
+	{
+		"Name": "cycle_L_XDGX",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_XDGX",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "仙岛归墟"
+	},
+	{
+		"Name": "cycle_L_XTBL",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_XTBL",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "玄天宝录"
+	},
+	{
+		"Name": "cycle_L_QRYJ",
+		"LevelName": "L_YJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_YJ_Logic",
+		"Description": "妖境"
+	},
+	{
+		"Name": "cycle_L_LQMG",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_LQMG",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "青墟灵宫"
+	},
+	{
+		"Name": "cycle_L_QQRYJ",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_QQRYJ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "巧取熔岩晶"
+	},
+	{
+		"Name": "cycle_L_MXSJ",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_MXSJ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "魔像水晶"
+	},
+	{
+		"Name": "cycle_L_WXHJ",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_WXHJ",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "五行画卷"
+	},
+	{
+		"Name": "cycle_L_JSDK",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_JSDK",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "琉璃洞窟"
+	},
+	{
+		"Name": "L_SYDX",
+		"LevelName": "L_HRWMJ",
+		"SubStreamLevelName": "L_SYDX",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "cycle_L_HRWMJ01_Logic",
+		"Description": "神乐雕像"
+	},
+	{
+		"Name": "L_TZHJ",
+		"LevelName": "L_TZHJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_TZHJ_Logic",
+		"Description": "天之幻境"
+	},
+	{
+		"Name": "L_SFMJ",
+		"LevelName": "L_SFMJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SFMJ_Logic",
+		"Description": "神风秘径"
+	},
+	{
+		"Name": "cycle_L_LYSH",
+		"LevelName": "L_LYSH",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_LYSH_Logic",
+		"Description": "灵域狩魂"
+	},
+	{
+		"Name": "L_XG_01",
+		"LevelName": "L_XG",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_XG_01_Logic",
+		"Description": "穿越峡谷"
+	},
+	{
+		"Name": "cycle_L_HHMJ",
+		"LevelName": "L_HHMJ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_HHMJ_Logic",
+		"Description": "火海秘境"
+	},
+	{
+		"Name": "cycle_L_HQLZ",
+		"LevelName": "L_LZMD",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_HQLZ_Logic",
+		"Description": "龙珠密岛"
+	},
+	{
+		"Name": "cycle_L_LYSL",
+		"LevelName": "L_LYSL_LY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_LYSL_Logic",
+		"Description": "雷域危机"
+	},
+	{
+		"Name": "cycle_L_PSDBGZ",
+		"LevelName": "L_PSDBGZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_PSDBGZ_Logic",
+		"Description": "破碎的八卦阵"
+	},
+	{
+		"Name": "L_SJFBSP",
+		"LevelName": "L_SJFBSP",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_SJFBSP_Logic",
+		"Description": "收集法宝碎片"
+	},
+	{
+		"Name": "cycle_L_YXFXZ",
+		"LevelName": "L_YXFXZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_YXFXZ_Logic",
+		"Description": "夜袭凤栖镇"
+	},
+	{
+		"Name": "L_JZZY",
+		"LevelName": "L_JZZY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JZZY_Logic",
+		"Description": "九字真言"
+	},
+	{
+		"Name": "L_ZSGY",
+		"LevelName": "L_ZSGY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_ZSGY_Logic",
+		"Description": "追杀鱼怪"
+	},
+	{
+		"Name": "cycle_L_LHZS",
+		"LevelName": "L_LHZS",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_LHZS_Logic",
+		"Description": "灵魂之誓"
+	},
+	{
+		"Name": "cycle_L_JSZZ",
+		"LevelName": "L_LSMC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_JSZZ_Logic",
+		"Description": "金树种子（废弃）"
+	},
+	{
+		"Name": "cycle_L_LSMC",
+		"LevelName": "L_LSMC",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_LSMC_Logic",
+		"Description": "灵兽牧场（废弃）"
+	},
+	{
+		"Name": "L_JXY_01",
+		"LevelName": "L_JXY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_JXY_01_Logic",
+		"Description": "化身妖魔（废弃）"
+	},
+	{
+		"Name": "cycle_L_LJHY",
+		"LevelName": "L_WZGHZ_01",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_LJHY_Logic",
+		"Description": "灵箭化元（废弃）"
+	},
+	{
+		"Name": "fu_ben_L_YXWZ",
+		"LevelName": "L_YXWZ",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "L_YXWZ_Logic",
+		"Description": "英雄王座（废弃）"
+	},
+	{
+		"Name": "cycle_L_RSGY",
+		"LevelName": "L_RSGY",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ true, true ],
+		"LogicLevelName": "cycle_L_RSGY_Logic",
+		"Description": "人参果园（废弃）"
+	},
+	{
+		"Name": "fu_ben_bigmap",
+		"LevelName": "bigmap_1",
+		"SubStreamLevelName": "None",
+		"IsNeedLoad": [ false, false ],
+		"LogicLevelName": "bigmap_1_Logic",
+		"Description": "程序测试用"
+	}
+]

@@ -1,0 +1,32 @@
+{
+"SpaceName"	: "玲珑宝珠",
+"EntityType"	: "SpaceCopyLLBZ",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyLLBZ",
+"scriptID"	: "cycle_L_LLBZ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_LLBZ",
+"NavmeshPath"	: "space\\L_LLBZ_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 4,
+	"enterPosition":"-2200.000000 -1500.000000 680.000000",
+	"enterDirection":"0 0 0",
+	"stageFile":"",
+	"eventFile":"SE_L_LLBZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0,
+	"NPCToMonster":"10001257:20011499|10001258:20011500|10001259:20011501|10001260:20011502|10001261:20011503|10001262:20011504|10001263:20011505|10001264:20011506",
+	"isShowFailedUI":"1"
+	},
+"DomainData"	:{
+	}
+}

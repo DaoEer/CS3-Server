@@ -1,0 +1,26 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<RecordTutorialIndexs>
+			<!-- 记录只会触发一次的事件，并且已经触发-->
+			<Type>			UNICODE			</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</RecordTutorialIndexs>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<AddTrigger>
+			<Exposed/>
+			<Arg>			STRING		</Arg>	<!-- Index -->
+		</AddTrigger>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

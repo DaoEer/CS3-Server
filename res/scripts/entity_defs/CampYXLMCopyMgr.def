@@ -1,0 +1,48 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<yingXiong_reqPerson>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</yingXiong_reqPerson>
+		<yingXiong_reqTeam>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</yingXiong_reqTeam>
+		<yingXiong_cancelSignUp>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</yingXiong_cancelSignUp>
+		<yingXiong_onPlayerLoginOff>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</yingXiong_onPlayerLoginOff>
+		<yingXiong_onTeamChange>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</yingXiong_onTeamChange>
+		<yingXiong_onAffirm>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	BOOL			</Arg>
+		</yingXiong_onAffirm>
+		<yingXiong_OnCreateTeam>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</yingXiong_OnCreateTeam>
+		<yingXiong_onMemberJoinTeam>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</yingXiong_onMemberJoinTeam>
+	</BaseMethods>
+</root>

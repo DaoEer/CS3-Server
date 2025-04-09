@@ -1,0 +1,107 @@
+{
+    "20102161": {
+        "tasks": [
+            {
+                "navigateData": "(6192.0 8511.0 2078.0)#L_FSG_02", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往风神宫"
+            }, 
+            {
+                "navigateData": "(6192.0 8511.0 2078.0)#L_FSG_02", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "救回小金乌"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002159"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102161, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102160"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "26353", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1330", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18122", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050431|Q050433", 
+        "finish_by": "10000126#L_TQG", 
+        "taskLogDes": "@S{4}魔道祖巫天吴将最后一只小金乌带走了，请你追往祖巫天吴的道场风神宫，将小金乌夺回。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050457", 
+        "nextQuest": "20102162", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "救回小金乌", 
+        "isAutoCommit": 1, 
+        "start_by": "10001350#L_TS", 
+        "isAutoAccept": 1
+    }
+}

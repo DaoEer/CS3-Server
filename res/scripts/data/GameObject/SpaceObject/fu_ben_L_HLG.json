@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "浩灵谷",
+"EntityType"	: "SpaceCopyHLG",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_HLG",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_HLG",
+"NavmeshPath"	: "space\\L_HLG_NAVMESH",
+"PatrolRouteFile": "P_L_HLG",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_5",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C001474|C001475|C001476"},
+	"enterPosition":"-47471 3670 289",
+	"enterDirection":"0 0 19",
+	"stageFile":"SS_L_HLG",
+	"eventFile":"SE_L_HLG",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

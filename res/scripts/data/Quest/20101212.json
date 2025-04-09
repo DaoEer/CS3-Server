@@ -1,0 +1,95 @@
+{
+    "20101212": {
+        "tasks": [
+            {
+                "navigateData": "10000265#L_KLZ_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-209390.0 -212410.0 19032.0", 
+                "param1": "L_KLZ_1", 
+                "id": 1, 
+                "name": "找到灵珠子"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101212, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101257"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13230", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "925", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1773", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032000|Q032001|Q032002", 
+        "finish_by": "10000265#L_KLZ_1", 
+        "taskLogDes": "@S{4}女娲命你前去殿前会合灵珠子，一同前去飞来石锁灵塔，取得@F{fc=c41}胆灵@D、@F{fc=c41}毅灵@D、@F{fc=c41}恒灵@D三道先天灵气。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032006", 
+        "nextQuest": "20101213", 
+        "taskCompleteFunctions": {}, 
+        "level": 25, 
+        "title": "会合灵珠子", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

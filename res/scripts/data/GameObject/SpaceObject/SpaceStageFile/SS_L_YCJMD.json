@@ -1,0 +1,90 @@
+{
+    "stages": {
+        "1": {
+            "comment": "恢复实力，消灭BOSS", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻得并使用百炼珠", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "302010022", 
+                    "type": "SStageTask_UseItem", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭赤蝠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011819", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭青蝠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011818", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "5": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭血蝠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011850", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭黑蝠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011820", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "7": {
+                    "isShowByProgressbar": 0, 
+                    "title": "额外目标：32分钟内通关副本", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "jingsu", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }, 
+                "6": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭鬼蝠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011851", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "消灭BOSS团伙"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "勇闯绝命岛"
+}

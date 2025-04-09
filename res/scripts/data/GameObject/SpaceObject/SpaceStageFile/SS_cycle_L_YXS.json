@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "利用轻功尽快攀爬到绝壁顶端，将焰心石交予崖顶的荆莳", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "90秒内将焰心石交予荆莳", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "将焰心石交予荆莳"
+        }
+    }, 
+    "describe": "送宝环任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "焰心石"
+}

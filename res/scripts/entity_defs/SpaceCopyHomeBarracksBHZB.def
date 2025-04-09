@@ -1,0 +1,105 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+		<Interface> 	SpaceBHZBWarDetailInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<spaceMemberMgr>
+			<Type>		BHZBSPACETONGMEMBERMGR		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+		</spaceMemberMgr>
+		<pointDataMgr>
+			<Type>			BHZBPOINTDATAMGR		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</pointDataMgr>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<callTeamToProtect>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</callTeamToProtect>
+		<callTeamToAttack>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</callTeamToAttack>
+		<changeMemberGroup>
+			<Arg>	DBID		</Arg>
+			<Arg>	PYTHON_DICT		</Arg>
+		</changeMemberGroup>
+		<initNPCPointDatas>
+			<Arg>	BHZBPOINTDATAS		</Arg>
+		</initNPCPointDatas>
+		<updataNPCPointRestEndTime>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</updataNPCPointRestEndTime>
+		<updataNPCPointReadyEndTime>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</updataNPCPointReadyEndTime>
+		<updataNPCPointDeclareWarState>
+			<Arg>	INT32		</Arg>
+			<Arg>	UINT8		</Arg>
+		</updataNPCPointDeclareWarState>
+		<updateNPCPointAttackGroupTeamID>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	DBID		</Arg>
+		</updateNPCPointAttackGroupTeamID>
+		<updataNPCPointOccupyData>
+			<Arg>	INT32		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</updataNPCPointOccupyData>
+		<updataHomeBarracksDataToAllMember>
+			<Arg>	BHZBMAPHOMEBARRACKSDATAS		</Arg>
+		</updataHomeBarracksDataToAllMember>
+		<updataMemberPositionToClient>
+			<Arg>	DBID		</Arg>
+			<Arg>	BHZBMAPMEMBERPOSITIONDATAS		</Arg>
+		</updataMemberPositionToClient>
+		<updataBHZBPointJoinAttackMembers>
+			<Arg>	INT32		</Arg>
+			<Arg>	ARRAY_DBID		</Arg>
+		</updataBHZBPointJoinAttackMembers>
+		<updataBHZBPointJoinProtectMembers>
+			<Arg>	INT32		</Arg>
+			<Arg>	ARRAY_DBID		</Arg>
+		</updataBHZBPointJoinProtectMembers>
+		<updataBHZBPointJoinProtectTeamID>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</updataBHZBPointJoinProtectTeamID>
+		<onEnterBHZBPointWar>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PYTHON_DICT		</Arg>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onEnterBHZBPointWar>
+		<defenseBHZBPoint>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PYTHON_DICT		</Arg>
+			<Arg>	ARRAY_DBID		</Arg>
+		</defenseBHZBPoint>
+		<statusMsgToMember>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</statusMsgToMember>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

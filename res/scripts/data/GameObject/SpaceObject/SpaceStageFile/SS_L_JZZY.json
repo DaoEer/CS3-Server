@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "尽可能多的占领真言", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "阻止妖蝉控制真言", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "OCCUPYEND", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "占领真言"
+        }, 
+        "2": {
+            "comment": "力战强敌", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭妖蝉", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012639", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "决一胜负"
+        }
+    }, 
+    "describe": "九字真言", 
+    "beginOnSpaceInit": 1, 
+    "name": "九字真言"
+}

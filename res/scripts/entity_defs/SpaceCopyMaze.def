@@ -1,0 +1,25 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<dynamicDatas>
+			<Type>		DICT_STR_INT_LIST	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	{}			</Default>
+			<Persistent>	false			</Persistent>
+		</dynamicDatas>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

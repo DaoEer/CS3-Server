@@ -1,0 +1,113 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败昊山", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008799", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(10300.000000 6185.277832 -12430.839844)#L_LTMJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打开宝箱", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "初入灵土秘境"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追击万年山灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008807", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-12750.000000 19550.000000 -12201.642578)#L_LTMJ"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回太清宫", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-8151.000000000001 17967.0 -12363.0)#L_LTMJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得续骨神壤", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010110", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "决战万年山灵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败灵土卫兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008800|20008801", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-3970.000244 6180.000000 -12439.201172)#L_LTMJ"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打开宝箱", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败镇海", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008798", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8695.109375 11905.706055 -12414.132813)#L_LTMJ"
+                }
+            }, 
+            "title": "深入灵土秘境"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵土秘境"
+}

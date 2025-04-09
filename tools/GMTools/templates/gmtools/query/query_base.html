@@ -1,0 +1,47 @@
+{% extends "gmtools/base.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+    <link rel="stylesheet" type="text/css" media="all" href="/static/jscalendar-1.0/calendar-win2k-cold-1.css" title="win2k-cold-1"/>
+
+    <script type="text/javascript" src="/static/jscalendar-1.0/calendar.js"></script>
+    <script type="text/javascript" src="/static/jscalendar-1.0/lang/calendar-en.js"></script>
+    <script type="text/javascript" src="/static/jscalendar-1.0/calendar-setup.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="page-header">玩家信息查询</h2>
+            <table class="table table-striped table-condensed">
+                <tbody>
+                 <tr>
+                 <td>
+                    <div id = "navbar" class = "navbar-collapse collapse">
+                         <ul class="nav navbar-nav navbar-left">
+                            <li class="q_role_upgrade"><a href="/gmtools/query/role_upgrade">升级信息</a> </li>
+                            <li class="q_role_skillLearn"><a href="/gmtools/query/role_skillLearn">技能学习信息</a> </li>
+                            <li class="q_role_mali"><a href="/gmtools/query/role_mail">邮件记录信息</a> </li>
+                            <li class="q_role_vend"><a href="/gmtools/query/role_vend">摆摊交易记录信息</a> </li>
+                            <li class="q_role_item"><a href="/gmtools/query/role_item">物品流向信息</a> </li>
+                             <li class="q_role_itemRecord"><a href="/gmtools/query/role_itemRecord">物品记录信息</a> </li>
+                            <li class="q_role_position"><a href="/gmtools/query/role_position">当前位置</a> </li>
+                            <li class="q_role_equip"><a href="/gmtools/query/role_equip">装备信息</a> </li>
+                            <li class="q_role_attribute"><a href="/gmtools/query/role_attribute">属性面板信息</a> </li>
+                            <li class="q_role_task"><a href="/gmtools/query/role_task">任务信息</a> </li>
+                            <li class="q_role_money"><a href="/gmtools/query/role_money">金钱信息</a> </li>
+                            <li class="q_role_recharge"><a href="/gmtools/query/role_recharge">充值记录</a> </li>
+                         </ul>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+{% endblock %}
+
+{% block tail_js %}
+    <script>$(".m_query").addClass("active");</script>
+
+{% endblock %}

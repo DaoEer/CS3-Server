@@ -1,0 +1,104 @@
+{
+    "20102041": {
+        "tasks": [
+            {
+                "navigateData": "10000010#L_YXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskLearnSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "200323001", 
+                "id": 1, 
+                "name": "学习青龙伏魔"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002057"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102041, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102039"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12152", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "488", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "5474", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1304", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q040408", 
+        "finish_by": "10000010#L_YXG", 
+        "taskLogDes": "@S{4}女娲让你回到玉虚宫找你大师兄玄天行，学习新的功法。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q040413", 
+        "nextQuest": "20102048", 
+        "taskCompleteFunctions": {}, 
+        "level": 31, 
+        "title": "学习功法", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

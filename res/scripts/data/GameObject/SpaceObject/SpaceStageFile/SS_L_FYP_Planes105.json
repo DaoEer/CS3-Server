@@ -1,0 +1,165 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往天龙族", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "29090.0 3165.0 2252.1:5", 
+                    "param2": "5252|-748", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(29090.0 3165.0 2252.1)#L_FYP_Planes105"
+                }
+            }, 
+            "title": "前往天龙族"
+        }, 
+        "3": {
+            "comment": "观看天龙族人切磋", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "观看切磋", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(28839.1 8395.2 2412.3)#L_FYP_Planes105"
+                }
+            }, 
+            "title": "天龙族擂台战"
+        }, 
+        "2": {
+            "comment": "前方似乎有打斗，上前看看", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "上前看看", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "28839.1 8395.2 2412.3:5", 
+                    "param2": "5252|-748", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(28839.1 8395.2 2412.3)#L_FYP_Planes105"
+                }
+            }, 
+            "title": "天龙族擂台战"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天龙族守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009878|20009879|20009880", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(28968.3 9035.1 2462.8)#L_FYP_Planes105"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败腾山", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009893", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(28968.3 9035.1 2462.8)#L_FYP_Planes105"
+                }
+            }, 
+            "title": "降服天龙族"
+        }, 
+        "4": {
+            "comment": "看来他们并不知道魔道功法的厉害，与腾青切磋，让他们见识见识。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "走到指定切磋点", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "886", 
+                    "param2": "20009895", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(28589.2 8986.0 2457.1)#L_FYP_Planes105"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败腾青", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009887", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(28968.3 9035.1 2462.8)#L_FYP_Planes105"
+                }
+            }, 
+            "title": "初试身手"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天龙族族长伯奕", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(16030.0 22160.0 3840.0)#L_FYP_Planes105"
+                }
+            }, 
+            "title": "降服族长"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天龙族战士", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009883|20009884|20009885|20009886", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(26692.5 20179.1 3045.8)#L_FYP_Planes105"
+                }
+            }, 
+            "title": "降服天龙族"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往神龙道", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(15350.0 21770.0 3852.2)#L_FYP_Planes105"
+                }
+            }, 
+            "title": "前往藏书阁"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "天龙族"
+}

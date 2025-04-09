@@ -1,0 +1,90 @@
+[
+    {
+        "undoneNotice": "104", 
+        "probability": 3000, 
+        "type": 1, 
+        "fifteensNotice": "102", 
+        "difficulty": 1, 
+        "amount": 2, 
+        "twentysNotice": "103", 
+        "tensNotice": "101", 
+        "speed": 1
+    }, 
+    {
+        "undoneNotice": "114", 
+        "probability": 5000, 
+        "type": 1, 
+        "fifteensNotice": "112", 
+        "difficulty": 2, 
+        "amount": 4, 
+        "twentysNotice": "113", 
+        "tensNotice": "111", 
+        "speed": 2
+    }, 
+    {
+        "undoneNotice": "124", 
+        "probability": 2000, 
+        "type": 1, 
+        "fifteensNotice": "122", 
+        "difficulty": 3, 
+        "amount": 4, 
+        "twentysNotice": "123", 
+        "tensNotice": "121", 
+        "speed": 3
+    }, 
+    {
+        "undoneNotice": "134", 
+        "probability": 0, 
+        "type": 1, 
+        "fifteensNotice": "132", 
+        "difficulty": 4, 
+        "amount": 6, 
+        "twentysNotice": "133", 
+        "tensNotice": "131", 
+        "speed": 4
+    }, 
+    {
+        "undoneNotice": "204", 
+        "probability": 3000, 
+        "type": 2, 
+        "fifteensNotice": "202", 
+        "difficulty": 1, 
+        "amount": 3, 
+        "twentysNotice": "203", 
+        "tensNotice": "201", 
+        "speed": 0
+    }, 
+    {
+        "undoneNotice": "214", 
+        "probability": 5000, 
+        "type": 2, 
+        "fifteensNotice": "212", 
+        "difficulty": 2, 
+        "amount": 5, 
+        "twentysNotice": "213", 
+        "tensNotice": "211", 
+        "speed": 0
+    }, 
+    {
+        "undoneNotice": "224", 
+        "probability": 2000, 
+        "type": 2, 
+        "fifteensNotice": "222", 
+        "difficulty": 3, 
+        "amount": 6, 
+        "twentysNotice": "223", 
+        "tensNotice": "221", 
+        "speed": 0
+    }, 
+    {
+        "undoneNotice": "234", 
+        "probability": 0, 
+        "type": 2, 
+        "fifteensNotice": "232", 
+        "difficulty": 4, 
+        "amount": 7, 
+        "twentysNotice": "233", 
+        "tensNotice": "231", 
+        "speed": 0
+    }
+]

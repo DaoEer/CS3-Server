@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "躲在石墙后避开吹风，看准时机穿过吹风之路，将冥蛇果交予无涯子", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "1分钟内将冥蛇果交予无涯子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "将冥蛇果交予无涯子"
+        }
+    }, 
+    "describe": "送宝环任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "冥蛇果"
+}

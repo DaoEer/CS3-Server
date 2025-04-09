@@ -1,0 +1,29 @@
+﻿{
+"SpaceName"	: "穿越峡谷",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_XG_01",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_XG_01",
+"NavmeshPath"	: "space\\L_JXY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"         : 150.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "38417.0 28515.0 14515.0",
+	"Direction"	: "0.0 0.0 147.2"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"statisticsFile":"ST_L_XG_01",
+	"eventFile":"SE_L_XG_01",
+	"logoutCloseTime":1,
+	"clientUseCharacterMovment" : 0,
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0
+	},
+"DomainData"	:{
+	}
+}

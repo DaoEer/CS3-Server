@@ -1,0 +1,218 @@
+﻿{
+	"comment": {
+		"comment1": "这部分仅仅是用来描述字段配置方式，DefaultInfo数跨服前同步到目标服务器的默认数据信息，SyncFieldsInfo是跨服前需要从原服务器同步到目标服务器的数据信息，",
+		"comment2": "DeleteTableInfos是跨服完成后回到原服务器前需要删除目标服务器的数据信息",
+		"tablename": "数据库表名",
+		"fieldkey": "用来查询玩家信息条件的字段",
+		"keytype": "查询玩家信息条件的字段的类型，即fieldkey字段的类型，0:账号名字，1:账号DBID，2:角色名字，3:角色DBID",
+		"fields": {
+			"general": ["需要同步数据的字段名字"],
+			"special": [{
+				"comment1": "特殊字段，不需要同步原服务器的数据，但是需要写入本地数据库相关数据的字段信息，比如tbl_Role的sm_parentDBID字段是玩家账号的",
+				"comment2": "DBID不需要从原服务器的tbl_Role表中读取该字段数据同步到目标服务器tbl_Role表中，但是需要从目标服务器的tbl_Account表中读取id",
+				"comment3": "写入到目标服务器的tbl_Role表中",
+				"name": "字段名字",
+				"type": "字段类型，0:账号名字，1:账号DBID，2:角色名字，3:角色DBID，和keytype配置方式一样"
+				}
+			],
+			"childtables": 
+			[
+				{
+					"tablename": "子表表名",
+					"fields": "需要同步数据的字段名字，和父表一样",
+					"childtables": "子表的子表，配置方式和子表一样"
+				}
+			]
+		}
+	},
+	"DefaultInfo": [
+		{
+			"tablename": "tbl_Role",
+			"fieldkey": "sm_playerName",
+			"keytype": 2,
+			"fields": ["sm_spaceScriptID", "sm_0_position", "sm_1_position", "sm_2_position", "sm_0_direction", "sm_1_direction", "sm_2_direction", "sm_isCrossServiceLogon"],
+			"data": ["L_FMC", 180, 125, 236, 0, 0, -1.64616, 1]
+		},
+		{
+			"tablename": "tbl_Account",
+			"fieldkey": "sm_playerName",
+			"keytype": 0,
+			"fields": ["sm_isCrossServiceAccount"],
+			"data": [1]
+		}
+	],
+	"SyncFieldsInfo": [
+		{
+			"tablename": "kbe_accountinfos",
+			"fieldkey": "accountName",
+			"keytype": 0,
+			"fields": {
+				"general": ["accountName", "password", "email"],
+				"special": [{
+					"name": "entityDBID",
+					"type": 1
+					}
+				]
+			},
+			"childtables": []
+		},
+		{
+			"tablename": "tbl_GameSeccion",
+			"fieldkey": "sm_accountName",
+			"keytype": 0,
+			"fields": {
+				"general": ["sm_accountName", "sm_password", "sm_adult", "sm_presentee"],
+				"special": []
+			},
+			"childtables": []
+		},
+		{
+			"tablename": "tbl_Role",
+			"fieldkey": "sm_playerName",
+			"keytype": 2,
+			"fields": 
+			{
+				"general": ["sm_autoLoad", "sm_playerName", "sm_isFirstRole", "sm_roleState", "sm_createTime", "sm_deleteTime", "sm_offlineTime", 
+					"sm_gender", "sm_camp", "sm_money", "sm_bindMoney", "sm_grade", "sm_feats", "sm_potential", "sm_rewardRecord", 
+					"sm_actionNumber", "sm_lifetime", "sm_materialAreaSpaceScriptID", "sm_modelNumber", "sm_skillPosture", "sm_skillPostureLevel", 
+					"sm_spaceBelongType", "sm_gagTime", "sm_firstGagTime", "sm_makePageTimes", "sm_updChatNumTime", 
+					"sm_unLockGridNum", "sm_kitbagPassword", "sm_requestresetKBPWTime", "sm_storeMoney", "sm_resetKBPWStatus", "sm_headModel", 
+					"sm_faceModel", "sm_faceStyle", "sm_cloakModel", "sm_bodyModel", "sm_hairModel", "sm_adornModel", "sm_suitsModel", "sm_hatModel", 
+					"sm_coatModel", "sm_wristModel", "sm_handModel", "sm_waistModel", "sm_pantsModel", "sm_shoesModel", "sm_necklaceModel", 
+					"sm_lringModel", "sm_rringModel", "sm_weaponModel", "sm_skeletalWeaponModel", "sm_fabaoModel", "sm_relationCatalogName", 
+					"sm_relationCatalog", "sm_teamID", "sm_allocation", "sm_quality", "sm_forbidTeamInvite", "sm_loopQuest_loopQuestNum", 
+					"sm_loopQuest_loopQuestBeginTime", "sm_loopQuest_isRewardMoney", "sm_loopQuest_isAbandonQuest", "sm_loopQuest_taskCompleteNum", 
+					"sm_dailyQuest_randTime", "sm_dailyQuest_acceptTime", "sm_dailyQuest_finishQuestDailyNum", "sm_loopQuestProgress", "sm_totalEquipDamage", 
+					"sm_pkMode", "sm_killingValue", "sm_HP", "sm_MP", "sm_profession", "sm_HP_Max", "sm_MP_Max", "sm_strength", "sm_xiuwei", "sm_exp", 
+					"sm_level", "sm_spaceEventLastSpace", "sm_intensifySaveSlotNum", "sm_reviveSpaceScriptID", "sm_0_revivePosition", "sm_1_revivePosition", 
+					"sm_2_revivePosition", "sm_0_reviveDirection", "sm_1_reviveDirection", "sm_2_reviveDirection", "sm_nextUseItemToReviveTime", 
+					"sm_reviveByCostItemNumber", "sm_lastTimeReviveByCostMoney", "sm_lastTimeReviveByCostItem", "sm_nextUseMoneyToReviveTime", 
+					"sm_reviveByCostMoneyNumber", "sm_crondRemindDatas", "sm_forbidRoleTrade", "sm_lingshi", "sm_facadeItemOrders", "sm_unLockWaistGridNum", 
+					"sm_unLockBackGridNum", "sm_unLockNecklaceGridNum", "sm_unLockBraceletGridNum", "sm_unLockFootGridNum", "sm_unLockAircraftGridNum", 
+					"sm_petCageMax", "sm__activePetUID", "sm_petExtraHP", "sm_petExtraMP", "sm_petExtraHP_Max", "sm_petExtraMP_Max", "sm_title", 
+					"sm_teleportPointNPCs", "sm_RecordTutorialIndexs", "sm_tongDBID", "sm_onLineTime", "sm_tongName", "sm_lastQuitTongTime", 
+					"sm_gainGiftDay", "sm_gainGiftCount", "sm_gainGiftTime", "sm_signInNum", "sm_signInRewardNum", "sm_dayCampMorale", 
+					"sm_isGetCampReward", "sm_lastStoreGiftIndex", "sm_barracksExp", "sm_exploit", "sm_maxMilitaryRank", "sm_reflashTime", "sm_proyNum",
+					"sm_prevServerkey", "sm_followedServerkey"
+				],
+				"special":
+				[
+					{
+						"name": "sm_parentDBID",
+						"type": 1
+					}
+				]
+			},
+			"childtables": 
+			[
+				{
+					"tablename": "tbl_Role_attrSkills",
+					"fields": {
+						"general": ["sm_value"],
+						"special": []
+					},
+					"childtables":[]
+				},
+				{
+					"tablename": "tbl_Role_itemsBag_items",
+					"fields": {
+						"general": ["sm_id", "sm_uid", "sm_order", "sm_amount", "sm_bindType", "sm_dynamicData", "sm_itemEndTime"],
+						"special": [
+							{
+								"name": "sm_ownerID",
+								"type": 3
+							}
+						]
+					},
+					"childtables":[]
+				},
+				{
+					"tablename": "tbl_Role_qbItems",
+					"fields": {
+						"general": ["sm_index", "sm_qbtype", "sm_id", "sm_bindType", "sm_page"],
+						"special": []
+					},
+					"childtables":[]
+				},
+				{
+					"tablename": "tbl_Role_petPersistentDatas_pets",
+					"fields": {
+						"general": ["sm_autoLoad", "sm_uid", "sm_scriptID", "sm_name", "sm_uname", "sm_camp", "sm_level", "sm_takeLevel", "sm_ability", 
+							"sm_ability_Max", "sm_step", "sm_quality", "sm_sleepTime", "sm_corporeity", "sm_strength", "sm_intellect", "sm_discern", 
+							"sm_dexterity", "sm_HP", "sm_MP", "sm_HP_Max", "sm_MP_Max", "sm_damage", "sm_magic_damage", "sm_armor", 
+							"sm_magic_armor", "sm_criticalstrike", "sm_parry", "sm_speed", "sm_hitrate", "sm_dodgerate", "sm_gangQiValue", 
+							"sm_gangQiValue_Max", "sm_gangQiState", "sm_gangQi_damagePoint", "sm_gangQi_armorPoint", "sm_gangQi_qiJieRevive", 
+							"sm_gangQi_qiYingRevive", "sm_combatPower", "sm_exp"],
+						"special": []
+					},
+					"childtables":[
+						{
+							"tablename": "tbl_Role_petPersistentDatas_pets_attrSkillBox",
+							"fields": {
+								"general": ["sm_value"],
+								"special": []
+							},
+							"childtables":[]
+						},
+						{
+							"tablename": "tbl_Role_petPersistentDatas_pets_noLearnedSkillBox",
+							"fields": {
+								"general": ["sm_value"],
+								"special": []
+							},
+							"childtables":[]
+						},
+						{
+							"tablename": "tbl_Role_petPersistentDatas_pets_passiveSkillBox",
+							"fields": {
+								"general": ["sm_value"],
+								"special": []
+							},
+							"childtables":[]
+						}
+					]
+				}
+			]
+		}
+	],
+	"DeleteTableInfos": [
+		{
+			"tablename": "tbl_Role",
+			"fieldkey": "sm_playerName",
+			"keytype": 2,
+			"childtables":
+			[
+				{	
+					"tablename": "tbl_Role_attrSkills",
+					"childtables":[]
+				},
+				{
+					"tablename": "tbl_Role_itemsBag_items",
+					"childtables":[]
+				},
+				{
+					"tablename": "tbl_Role_qbItems",
+					"childtables": []
+				},
+				{
+					"tablename": "tbl_Role_petPersistentDatas_pets",
+					"childtables": 
+					[
+						{
+							"tablename": "tbl_Role_petPersistentDatas_pets_attrSkillBox",
+							"childtables": []
+						},
+						{
+							"tablename": "tbl_Role_petPersistentDatas_pets_noLearnedSkillBox",
+							"childtables": []
+						},
+						{
+							"tablename": "tbl_Role_petPersistentDatas_pets_passiveSkillBox",
+							"childtables": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

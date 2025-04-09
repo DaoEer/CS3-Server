@@ -1,0 +1,142 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往查探", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-21698.3 16872.2 -1705.0)#L_MLY"
+                }
+            }, 
+            "title": "初入木灵崖"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭木灵妖护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013060", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-24320.1 -609.9 690.1)#L_MLY"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭木灵妖", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013061", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-24320.1 -609.9 690.1)#L_MLY"
+                }
+            }, 
+            "title": "消灭木灵妖和护法"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "避开滚石，继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-20982.4 2916.5 325.1:10", 
+                    "param2": "5325|-4675", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-20982.4 2916.5 325.1)#L_MLY"
+                }
+            }, 
+            "title": "再破滚石阵"
+        }, 
+        "5": {
+            "comment": "击败三元战神夺得精华", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得庚金精华", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010131", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(9359.9 -6340.1 4053.2)#L_MLY"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得艮土精华", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010133", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(9359.9 -6340.1 4053.2)#L_MLY"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得甲木精华", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010132", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(9359.9 -6340.1 4053.2)#L_MLY"
+                }
+            }, 
+            "title": "夺得三元精华"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "8080.0 -6220.0 3940.0:20", 
+                    "param2": "8940|-1060", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(8080.0 -6220.0 3940.0)#L_MLY"
+                }
+            }, 
+            "title": "继续前进"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回飘渺阁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(11080.0 -6780.0 3951.0)#L_MLY"
+                }
+            }, 
+            "title": "返回飘渺阁"
+        }
+    }, 
+    "describe": "20010410", 
+    "beginOnSpaceInit": 1, 
+    "name": "五灵山(二)"
+}

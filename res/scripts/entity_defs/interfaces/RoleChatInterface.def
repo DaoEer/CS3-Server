@@ -1,0 +1,226 @@
+<root>
+	<Properties>
+		<gagData>  <!-- 禁言数据 -->
+			<Type>				CHAT_TIME_LIST			</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Persistent>		true					</Persistent>
+		</gagData>	
+
+		<gagTime>  <!-- 禁言记录(次数) -->
+			<Type>				INT32					</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Default>	 		0		 				</Default>
+			<Persistent>		true					</Persistent>
+		</gagTime>
+
+		<firstGagTime>  <!-- 禁言记录第一次的时间 -->
+			<Type>				DOUBLE					</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Persistent>		true					</Persistent>
+		</firstGagTime>		
+
+		<quickSettings>
+			<!-- 聊天快捷键设置 -->
+			<Type>				CHAT_QUICKSETTINGS_LIST	</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Persistent>		true					</Persistent>
+		</quickSettings>		
+
+		<pageSettings>
+			<!-- 聊天页签设置 -->
+			<Type>				CHAT_PAGESETTINGS_LIST	</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Persistent>		true					</Persistent>
+		</pageSettings>	
+
+		<makePageTimes>  <!-- 可使用的自定义页签次数 -->
+			<Type>				INT8					</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Default>	 		2		 				</Default>
+			<Persistent>		true					</Persistent>
+		</makePageTimes>
+
+		<chatTime>
+			<!-- 发言时间 -->
+			<Type>				CHAT_TIME_LIST			</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Persistent>		true					</Persistent>
+		</chatTime>
+
+		<chatNum>
+			<!-- 发言数量 -->
+			<Type>				DICT_INT_INT			</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Persistent>		true					</Persistent>
+		</chatNum>
+		<updChatNumTime>
+			<!-- 更新发言数量时间 -->
+			<Type>				UINT64					</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+			<Default>				0					</Default>
+			<Persistent>		true					</Persistent>
+		</updChatNumTime>
+	</Properties>
+
+	<ClientMethods>
+		<!-- 接收消息 -->
+		<onReceiveChatMessageCB>
+			<Arg>	CHAT_DATA	</Arg> <!-- 聊天数据 -->
+		</onReceiveChatMessageCB>
+
+		<!-- 玩家操作过程中产生的提示消息 -->
+		<onStatusMessage>
+			<Arg>	INT32	</Arg> <!-- 提示消息内容 -->
+			<Arg>	UNICODE	</Arg> <!-- 提示消息内容 -->
+		</onStatusMessage>
+
+		<!-- 玩家聊天快捷键设置数据回调 -->
+		<onReceiveQuickSettings>
+			<Arg>	CHAT_QUICKSETTINGS_DATAS	</Arg> <!-- 聊天快捷键设置数据 -->
+		</onReceiveQuickSettings>
+
+		<!-- 玩家聊天快捷键修改回调 -->
+		<onChangeQuickSettings>
+			<Arg>	CHAT_QUICKSETTINGS_DATAS	</Arg> <!-- 聊天快捷键设置数据 -->
+		</onChangeQuickSettings>
+
+		<!-- 玩家自定义页签设置回调 -->
+		<onReceivePageSettings>
+			<Arg>	CHAT_PAGESETTINGS_DATAS	</Arg> <!-- 页签设置数据 -->
+		</onReceivePageSettings>
+
+		<!-- 玩家自定义页签删除回调 -->
+		<onReceiveDeletePage>
+			<Arg>	INT32	</Arg> <!-- 被删除页签类型 -->
+		</onReceiveDeletePage>
+
+		<!-- 页签信息改变回调(单个页签数据回调) -->
+		<onReceivePageData>
+			<Arg>	CHAT_PAGESETTINGS	</Arg> <!-- 页签数据 -->
+		</onReceivePageData>
+
+		<!-- 页签创建回调 -->
+		<onReceiveNewPageData>
+			<Arg>	UNICODE	</Arg> <!-- 页签数据 -->
+		</onReceiveNewPageData>
+
+		<!-- 查询玩家回调 -->
+		<CLINT_onChatQueryRoleExist>
+			<Arg>	BOOL 	</Arg>
+		</CLINT_onChatQueryRoleExist>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<!-- 发送消息 -->
+		<onRoleSendChatMessage>
+			<Exposed/>
+			<Arg>	UNICODE	</Arg> <!-- 玩家名称 -->
+			<Arg>	STRING	</Arg> <!-- 聊天类型 -->
+			<Arg>	UNICODE	</Arg> <!-- 聊天数据 -->
+			<Arg>	STRING	</Arg> <!-- 富文本 -->
+		</onRoleSendChatMessage>
+
+		<onRoleSendGMCommandMessage>
+			<Exposed/>
+			<Arg>   STRING  </Arg> <!--目标entityID-->
+			<Arg>	STRING	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</onRoleSendGMCommandMessage>
+
+		<!-- 接收消息 -->
+		<onReceiveChatMessage>
+			<Arg>	CHAT_DATA	</Arg> <!-- 聊天数据 -->
+		</onReceiveChatMessage>
+
+		<!-- 发送讨论组消息 -->
+		<onRoleSendGroupMessage>
+			<Exposed/>
+			<Arg>	UINT32	</Arg> <!--目标entityID-->
+			<Arg>	UNICODE	</Arg> <!-- 玩家名称 -->
+			<Arg>	STRING	</Arg> <!--聊天类型 -->
+			<Arg>	UNICODE	</Arg> <!--聊天数据 -->
+			<Arg>	STRING	</Arg> <!--富文本 -->
+			<Arg>	UINT32	</Arg> <!-- 讨论组uid -->
+		</onRoleSendGroupMessage>
+
+		<!-- 接收讨论组消息 -->
+		<onReceiveGroupMessage>
+			<Arg>	CHAT_DATA	</Arg> <!-- 聊天数据 -->
+		</onReceiveGroupMessage>
+
+		<!-- 回调：玩家不存在 -->
+		<onChatErrorByNoPlayer>
+		</onChatErrorByNoPlayer>
+
+		<!-- 回调：玩家在线 -->
+		<onChatErrorByPlayerNoOnline>
+		</onChatErrorByPlayerNoOnline>
+
+		<!-- 请求玩家的快捷键设置 -->
+		<receiveQuickSettings>
+			<Exposed/>
+		</receiveQuickSettings>
+
+		<!-- 请求玩家的快捷键设置 -->
+		<receiveResetQuickSettings>
+			<Exposed/>
+		</receiveResetQuickSettings>
+
+		<!-- 请求玩家的快捷键设置 -->
+		<receiveReviseQS>
+			<Exposed/>
+			<Arg>	STRING	</Arg> <!-- 快捷键数据 -->
+		</receiveReviseQS>		
+
+		<!-- 请求自定义页签数据 -->
+		<receivePageSettings>
+			<Exposed/>
+		</receivePageSettings>		
+
+		<!-- 请求重置自定义页签 -->
+		<receiveResetPageSettings>
+			<Exposed/>
+			<Arg>	STRING	</Arg> 					<!-- 页签类型 -->
+		</receiveResetPageSettings>		
+
+
+		<!-- 请求创建自定义页签 -->
+		<receiveMakeNewPage>
+			<Exposed/>
+			<Arg>	STRING	</Arg> 					<!-- 页签数据 -->
+			<Arg>	UNICODE	</Arg> 					<!-- 页签数据 -->
+			<Arg>	STRING	</Arg> 					<!-- 页签数据 -->
+		</receiveMakeNewPage>		
+
+		<!-- 请求删除自定义页签 -->
+		<receiveDeletePage>
+			<Exposed/>
+			<Arg>	STRING	</Arg> 					<!-- 页签类型 -->
+		</receiveDeletePage>
+
+		<!-- 请求更改页签内所含的频道信息 -->
+		<receiveChangePageData>
+			<Exposed/>
+			<Arg>	UNICODE	</Arg> 					<!-- 页签数据 -->
+		</receiveChangePageData>
+		
+		<!-- 刷新所有频道的聊天数量 -->
+		<updateChatNum>
+		</updateChatNum>
+		
+		<!-- 查询数据库有没有该玩家 -->
+		<CELL_chatQueryRoleIsInTable>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</CELL_chatQueryRoleIsInTable>
+		
+		<!-- 接收消息 -->
+		<onReceiveChatMessageWithDBID>
+			<Arg>	DBID		</Arg> <!--目标DBID-->
+			<Arg>	CHAT_DATA	</Arg> <!-- 聊天数据 -->
+		</onReceiveChatMessageWithDBID>
+	</CellMethods>
+</root>

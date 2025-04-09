@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天狗妖兽", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001910|20001911", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001910|20001911#L_FMNL_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭埋伏的天狗妖兽", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001916|20001917", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001916|20001917#L_FMNL_Planes002"
+                }
+            }, 
+            "title": "前往望月窟"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败哮天犬", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "54321", 
+                    "param2": "53", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20001894#L_FMNL_Planes002"
+                }
+            }, 
+            "title": "降服哮天犬"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找哮天犬", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "158009.468750 2853.146484 -16974.398438:18", 
+                    "param2": "-16000|-18000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(158009.468750 2853.146484 -16974.398438)#L_FMNL_Planes002"
+                }
+            }, 
+            "title": "深入望月窟"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "望月窟"
+}

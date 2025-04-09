@@ -1,0 +1,39 @@
+<root>
+	<Interfaces>
+		<Interface> 	CombatInterface		</Interface>
+		<Interface> 	VehiclePetStateInterface		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<attrSkills>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		[]			</Default>
+		</attrSkills>
+		<timeBack>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>			0		</Default>
+			<Persistent>	false		</Persistent>
+		</timeBack>
+		<combatPower>	<!--战斗力-->
+			<Type>			INT32		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</combatPower>
+		<hintOver>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</hintOver>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>
+ 

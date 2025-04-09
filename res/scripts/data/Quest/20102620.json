@@ -1,0 +1,104 @@
+{
+    "20102620": {
+        "tasks": [
+            {
+                "navigateData": "30000633#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010116", 
+                "id": 1, 
+                "name": "获得幽月精华"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102620, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010115"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010116"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102619"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "38883", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1170", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13135", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2023", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045660", 
+        "finish_by": "10001007#L_FYP", 
+        "taskLogDes": "@S{4}依照巫真信中所言，炼制化月丹的第二味材料乃是紫灵山的幽月精华，请你速去将其取来交予祖巫玄冥。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042620|Q042622", 
+        "nextQuest": "20102621", 
+        "taskCompleteFunctions": {}, 
+        "level": 39, 
+        "title": "幽月精华", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

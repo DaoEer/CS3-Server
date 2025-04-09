@@ -1,0 +1,85 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败灵源谷魔卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014411|20014412|20014413|20014414|20014415", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(109756.992188 88445.187500 -2841.098877)#L_LYG_01"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败虎钧", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014839", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(109503.343750 70402.507813 -5212.450195)#L_LYG_01"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败灵源谷魔兵", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014416|20014417|20014418|20014419|20014420", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(109708.375000 79111.914063 -4182.491211)#L_LYG_01"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败灵源谷鬼士", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014781|20014782|20014783|20014784|20014785", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(109503.343750 70402.507813 -5212.450195)#L_LYG_01"
+                }
+            }, 
+            "title": "重兵守卫"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败阴阳魔虎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014786", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(111095.781250 63320.132813 -6448.710449)#L_LYG_01"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入奇门石阵", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(110943.0 57565.0 -6232.0)#L_LYG_01"
+                }
+            }, 
+            "title": "深入灵源谷"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵源谷"
+}

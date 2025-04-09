@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_FYPDX",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_FYPDX",
+"NavmeshPath"	: "space\\L_FYPDX_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FYP",
+	"Position"	: "-25555.779297 -18159.080078 738.670410",
+	"Direction"	: "0 0 -80"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_FYPDX",
+	"eventFile":"SE_L_FYPDX"
+	},
+"DomainData"	:{
+	}
+}

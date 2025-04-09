@@ -1,0 +1,95 @@
+{
+    "20101253": {
+        "tasks": [
+            {
+                "navigateData": "10000106#L_KLZ_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskLearnSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "190201001", 
+                "id": 1, 
+                "name": "学习神威心法"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101253, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101242"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13230", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "925", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1773", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032316", 
+        "finish_by": "10000106#L_KLZ_1", 
+        "taskLogDes": "@S{4}女娲让你前去找你大师姐洪青雪，学习心法。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032320|Q032328", 
+        "nextQuest": "20101257", 
+        "taskCompleteFunctions": {}, 
+        "level": 25, 
+        "title": "再习心法", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

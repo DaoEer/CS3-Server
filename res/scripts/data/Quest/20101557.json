@@ -1,0 +1,125 @@
+{
+    "20101557": {
+        "tasks": [
+            {
+                "navigateData": "(-10779 579 13877)#L_TXHJ_2", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010139", 
+                "id": 1, 
+                "name": "进入幻境，通过试炼"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101557, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010139"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101553"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2800", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "150", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "167", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "288", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102010017", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010002", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010013", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}为探知魔君留于后世的天机，师尊将你送入太虚幻境探寻。|魔君幻像乃是混沌魔君神念所化，他已确认你为有缘之人，将记有无上天机的@F{fc=c41}太虚符篆@D交给你，请你带着符篆回天宫向师尊复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q010857", 
+        "nextQuest": "20101648", 
+        "taskCompleteFunctions": {}, 
+        "level": 9, 
+        "title": "太虚幻境", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

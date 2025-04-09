@@ -1,0 +1,176 @@
+<root>
+	<Properties>
+		<intensifySaveSlot>
+			<Type>			EQUIP_INTENSIFY_SAVES	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}			</Default>
+			<Persistent>		true			</Persistent>
+		</intensifySaveSlot>
+		<intensifySaveSlotNum>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		3			</Default>
+			<Persistent>		true			</Persistent>
+		</intensifySaveSlotNum>
+		<equipBPrint>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		[]			</Default>
+			<Persistent>		true			</Persistent>
+		</equipBPrint>
+		<itemHoldEffectIndexDict>
+			<Type>			DICT_STR_INT_LIST	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}			</Default>
+			<Persistent>		false			</Persistent>
+		</itemHoldEffectIndexDict>
+		<shuffleEquipProDict>
+			<Type>			DICT_STR_STR		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}			</Default>
+			<Persistent>		false			</Persistent>
+		</shuffleEquipProDict>
+	</Properties>
+
+	<ClientMethods>
+		<OnIntensifySuccess>
+			<Arg>		STRING		</Arg>
+		</OnIntensifySuccess>
+		<OnBackfireSuccess>
+			<Arg>		STRING		</Arg>
+		</OnBackfireSuccess>
+		<OnIntensifySaveSuccess>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</OnIntensifySaveSuccess>
+		<OnIntensifyRestoreSuccess>
+			<Arg>		STRING		</Arg>
+		</OnIntensifyRestoreSuccess>
+
+		<CLIENT_OnRequestIntensifySaveSlotInfo>
+			<Arg>		INT32		</Arg>
+			<Arg>	EQUIP_INTENSIFY_SAVES	</Arg>
+		</CLIENT_OnRequestIntensifySaveSlotInfo>
+		<OpenIntensifySaveSlotSuccess/>
+
+		<OnShuffleEquip>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</OnShuffleEquip>
+		<OnShuffleEquipSuccess>
+			<Arg>		STRING		</Arg>
+		</OnShuffleEquipSuccess>
+		<OnRecastEquipSuccess>
+			<Arg>		STRING		</Arg>
+		</OnRecastEquipSuccess>
+
+		<OnBiographyEquipSuccess/>
+		<OpenForgeEquip>
+			<Arg>		OBJECT_ID	</Arg>
+		</OpenForgeEquip>
+
+		<CLIENT_onRequestEquipCompose>
+			<Arg>		ARRAY_INT32	</Arg>
+		</CLIENT_onRequestEquipCompose>
+		<CLIENT_onStudyEquipCompose>
+			<Arg>		INT32		</Arg>
+		</CLIENT_onStudyEquipCompose>
+		<CLIENT_onSuccessComposeEquip>
+			<Arg>		INT32		</Arg>
+		</CLIENT_onSuccessComposeEquip>
+
+		<CLIENT_OnQueryTargetEquipInfo>
+			<Arg>		EQUIP_INFO_DICT		</Arg>
+			<Arg>		ROLE_PROPERTY_INFO	</Arg>
+		</CLIENT_OnQueryTargetEquipInfo>
+
+		<CLIENT_onEquipWieldCb>
+			<Arg>		STRING		</Arg>
+		</CLIENT_onEquipWieldCb>
+		<CLIENT_onEquipUnWieldCb>
+			<Arg>		STRING		</Arg>
+		</CLIENT_onEquipUnWieldCb>
+	</ClientMethods>
+
+	<BaseMethods>
+		<BASE_remoteQueryTargetEquipInfo>
+			<Exposed/>
+			<Arg>		UNICODE		</Arg>
+		</BASE_remoteQueryTargetEquipInfo>
+	</BaseMethods>
+
+	<CellMethods>
+		<doEquipIntensify>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</doEquipIntensify>
+		<doEquipBackfire>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		ARRAY_STRING	</Arg>
+		</doEquipBackfire>
+		<doEquipIntensifySave>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</doEquipIntensifySave>
+		<doEquipIntensifyRestore>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</doEquipIntensifyRestore>
+
+		<requestIntensifySaveSlotInfo>
+			<Exposed/>
+		</requestIntensifySaveSlotInfo>
+		<openIntensifySaveSlot>
+			<Exposed/>
+		</openIntensifySaveSlot>
+
+		<shuffleEquip>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		ARRAY_INT32	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</shuffleEquip>
+		<replaceShufflePro>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</replaceShufflePro>
+
+		<recastEquip>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		ARRAY_INT32	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</recastEquip>
+
+		<transferIntensifyEquip>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ARRAY_STRING	</Arg>
+		</transferIntensifyEquip>
+
+		<CELL_requestEquipCompose>
+			<Exposed/>
+		</CELL_requestEquipCompose>
+		<CELL_composeEquip>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CELL_composeEquip>
+
+		<CELL_queryTargetEquipInfo>
+			<Exposed/>
+			<Arg>		OBJECT_ID	</Arg>
+		</CELL_queryTargetEquipInfo>
+		<onQueryEquipInfo>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+		</onQueryEquipInfo>
+	</CellMethods>
+</root>

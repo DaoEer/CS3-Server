@@ -1,0 +1,46 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁卫兵", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001855|20001856|20001857|20001858", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(10926.6 52630.0 2306.6)#L_YZD_Planes002"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭赤霆", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001862", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001862#L_YZD_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001859|20001860|20001861", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(19492.0 60199.0 2290.6)#L_YZD_Planes002"
+                }
+            }, 
+            "title": "消灭山脚的缥缈阁势力"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵源神殿（一）"
+}

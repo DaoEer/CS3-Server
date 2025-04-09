@@ -1,0 +1,92 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭太古魔卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000235|20000239", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000235|20000239#L_LXGJD_Planes101"
+                }
+            }, 
+            "title": "探查禁地"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄蛟", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20000271#L_LXGJD_Planes101"
+                }
+            }, 
+            "title": "大战玄蛟"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续深入", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-1252.0 33413.0 381.0:5", 
+                    "param2": "5000|-5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-1252.0 33413.0 381.0)#L_LXGJD_Planes101"
+                }
+            }, 
+            "title": "深入禁地"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄蛟", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20000272#L_LXGJD_Planes101"
+                }
+            }, 
+            "title": "决战玄蛟"
+        }, 
+        "4": {
+            "comment": "注意躲避水面上的阵法禁制，并摧毁藏在船舫中的阵眼，破除大阵。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找出并破坏阵眼，破除大阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000273", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "破除大阵"
+        }
+    }, 
+    "describe": "魔道15级", 
+    "beginOnSpaceInit": 1, 
+    "name": "落霞谷禁地"
+}

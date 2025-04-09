@@ -1,0 +1,88 @@
+{
+    "20102677": {
+        "tasks": [
+            {
+                "navigateData": "20012929#L_KYDF", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "取得噬灵神石"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002005"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102677, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102675|20102676"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "42071", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1406", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "23939", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2372", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050649|Q050650|Q040042", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}有了魔君遗骨作为剑体，只需再融入上古秘宝噬灵神石，便能令诛仙四剑无坚不摧。冥河老祖命你前去开阳洞府，击败开阳妖王，取得噬灵神石。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102678|20102679|20102679|20102679", 
+        "taskCompleteFunctions": {}, 
+        "level": 42, 
+        "title": "噬灵神石（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10001093#L_XLD_01", 
+        "isAutoAccept": 1
+    }
+}

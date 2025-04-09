@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败飞廉", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20010630#L_PGDT_Planes002"
+                }
+            }, 
+            "title": "前往流云岛"
+        }, 
+        "3": {
+            "comment": "飞廉已无处可逃，速将其消灭，夺取解药", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败飞廉", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010637", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010637#L_PGDT_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜索飞廉尸体，获得解药", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010140", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20010637#L_PGDT_Planes002"
+                }
+            }, 
+            "title": "穷追不舍"
+        }, 
+        "2": {
+            "comment": "飞廉已逃入其中的某个房间中，速将其找出。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "从房间中找出飞廉", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-48816.0 -14902.0 11518.0)#L_PGDT_Planes002"
+                }
+            }, 
+            "title": "乘胜追击"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "回到抱朴子处", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-53553.3 -41845.6 13803.6:5", 
+                    "param2": "18800|8800", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-53553.3 -41845.6 13803.6)#L_PGDT_Planes002"
+                }
+            }, 
+            "title": "解毒"
+        }
+    }, 
+    "describe": "新版仙道4级", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救抱朴子"
+}

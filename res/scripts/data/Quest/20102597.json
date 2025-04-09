@@ -1,0 +1,104 @@
+{
+    "20102597": {
+        "tasks": [
+            {
+                "navigateData": "10000413#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "进攻轩辕部落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002046"
+            }, 
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11034502"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102597, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102596"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22976", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1036", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "11631", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1721", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045745|Q041883", 
+        "finish_by": "10000413#L_BQXB", 
+        "taskLogDes": "@S{4}蓐收计划率大金乌进攻轩辕部落，引诱帝俊率领太阳宫兵马支援，请你跟随蓐收和大金乌攻打轩辕部落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102598|20102598|20102599|20102629", 
+        "taskCompleteFunctions": {}, 
+        "level": 36, 
+        "title": "调虎离山（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000413#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

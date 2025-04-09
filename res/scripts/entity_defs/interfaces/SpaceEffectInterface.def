@@ -1,0 +1,19 @@
+<root>
+	<Properties>
+		<spaceEffectList>
+			<Type>		ARRAY_INT32	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		[]			</Default>
+			<Persistent>	false		</Persistent>
+		</spaceEffectList>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

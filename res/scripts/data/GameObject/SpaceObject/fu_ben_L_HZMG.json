@@ -1,0 +1,209 @@
+﻿{
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeParent",
+"EntityScript"	: "SpaceCopyMagicMazeParent",
+"scriptID"	: "fu_ben_L_HZMG",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_HZMG1",
+"NavmeshPath"	: "space\\L_HZMG_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 250.0,
+"belongType"	: "0",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 60,
+	"spaceIntroduce":{"voiceID":"C000331"},
+	"enterPosition":"-92160 7910 5570",
+	"enterDirection":"0 0 -10",
+	"stageFile":"SS_L_HZMG",
+	"eventFile":"SE_L_HZMG",
+	"maxLine":1,
+	"initLine":1,
+	"reviveType"	: "0|",
+	"maxPlayerAmount":500,
+	"needLevel":1,
+	"children":{
+		"0" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 0,		
+			"enterPos":""
+			},
+		"1" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 1,		
+			"enterPos":"-47154.000000 10698.000000 7624.000000"
+			},
+		"2" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 2,		
+			"enterPos":"-3479.000000 -24339.000000 16530.000000"
+			},
+		"3" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 3,		
+			"enterPos":"23599.000000 6430.000000 32830.000000"
+			},
+		"4" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 4,		
+			"enterPos":"60888.000000 -11406.000000 8287.000000"
+			},
+		"5" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 5,		
+			"enterPos":"88300.000000 5869.000000 22970.000000"
+			},
+		"6" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 6,		
+			"enterPos":"121447.000000 10776.000000 7625.000000"
+			},
+		"7" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 7,		
+			"enterPos":"157000.000000 -11099.000000 16530.000000"
+			},
+		"8" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 8,		
+			"enterPos":"197020.000000 -8250.000000 14400.000000"
+			},
+		"9" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 9,		
+			"enterPos":"230081.000000 2669.000000 7627.000000"
+			},
+		"10" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 10,		
+			"enterPos":"243160.000000 38979.000000 15750.000000"
+			},
+		"11" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 11,		
+			"enterPos":"243512.000000 62157.000000 8279.000000"
+			},
+		"12" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 12,		
+			"enterPos":"224210.000000 78620.000000 13990.000000"
+			},
+		"13" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 13,		
+			"enterPos":"184120.000000 111629.000000 7374.000000"
+			},
+		"14" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 14,		
+			"enterPos":"170388.000000 137577.000000 15949.000000"
+			},
+		"15" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 15,		
+			"enterPos":"190774.000000 169685.000000 -4475.000000"
+			},
+		"16" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 16,		
+			"enterPos":"237020.000000 193629.000000 5941.000000"
+			},
+		"17" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 17,		
+			"enterPos":"287128.000000 197418.000000 2156.000000"
+			},
+		"18" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 18,		
+			"enterPos":"326970.000000 202309.000000 16560.000000"
+			},
+		"19" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 19,		
+			"enterPos":"357373.000000 160468.000000 -4474.000000"
+			},
+		"20" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 20,		
+			"enterPos":"395320.000000 132180.000000 14750.000000"
+			},
+		"21" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 21,		
+			"enterPos":"378650.000000 97889.000000 16560.000000"
+			},
+		"22" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 22,		
+			"enterPos":"405669.000000 71239.000000 27590.000000"
+			},
+		"23" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 23,		
+			"enterPos":"422157.000000 43123.000000 7753.000000"
+			},
+		"24" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 24,		
+			"enterPos":"408999.000000 8379.000000 23260.000000"
+			},
+		"25" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 25,		
+			"enterPos":"405990.000000 -25270.000000 5883.000000"
+			},
+		"26" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 26,		
+			"enterPos":"385990.000000 -54560.000000 12412.000000"
+			},
+		"27" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 27,		
+			"enterPos":"365362.000000 -81885.000000 7412.000000"
+			},
+		"28" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 28,		
+			"enterPos":"316214.000000 -100207.000000 8317.000000"
+			},
+		"29" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 29,		
+			"enterPos":"282179.000000 -96409.000000 23362.000000"
+			},
+		"30" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 30,		
+			"enterPos":"263166.000000 -113092.000000 7405.000000"
+			},
+		"31" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 31,		
+			"enterPos":"252160.000000 -148910.000000 16560.000000"
+			},
+		"32" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 32,		
+			"enterPos":"267990.000000 -183390.000000 5833.000000"
+			},
+		"33" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 33,		
+			"enterPos":"294035.000000 -203068.000000 7454.000000"
+			},
+		"34" :{
+			"flyPatrolID":"42",						
+			"patrolPoint": 34,		
+			"enterPos":"319890.000000 -220710.000000 10430.000000"
+			}
+		}
+	},
+"DomainData"	:{
+	}
+}

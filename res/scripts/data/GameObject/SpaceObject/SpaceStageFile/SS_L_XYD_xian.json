@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "沿路击败火鼠", 
+                    "reqVal": 33, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010460|20010461|20010462|20010463|20010464", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败巨火鼠", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014369", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-784.376892 3554.132568 -1121.564941)#L_XYD_xian"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入大殿", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "-10980.000000 3560.000000 -1561.730713:25", 
+                    "param2": "-1061.730713|-2061.730713", 
+                    "param1": "1", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-10980.000000 3560.000000 -1561.730713)#L_XYD_xian"
+                }
+            }, 
+            "title": "救援羲和"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败火鼠魁首", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010457", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-10980.000000 3560.000000 -1561.730713)#L_XYD_xian"
+                }
+            }, 
+            "title": "激战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "玄阳殿"
+}

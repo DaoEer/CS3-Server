@@ -1,0 +1,32 @@
+<root>
+	<Properties>
+		<memoirIDList>
+			<Type>				ARRAY_STRING			</Type>
+			<Flags>				CELL_PRIVATE					</Flags>
+			<Persistent>		true					</Persistent>
+		</memoirIDList>
+	</Properties>
+	<ClientMethods>
+		<CLIENT_ReceiveMemoirIDList>
+			<Arg>  ARRAY_STRING </Arg>
+		</CLIENT_ReceiveMemoirIDList>
+		<CLIENT_AddMemoirStory>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</CLIENT_AddMemoirStory>
+		<CLIENT_PlayMemoirCG>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</CLIENT_PlayMemoirCG>
+	</ClientMethods>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<addMemoirStory>
+			<Arg> STRING </Arg>
+		</addMemoirStory>
+		<CELL_endPlayMemoirCG>
+			<Exposed/>
+		</CELL_endPlayMemoirCG>
+	</CellMethods>
+</root>

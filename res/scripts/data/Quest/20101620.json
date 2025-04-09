@@ -1,0 +1,109 @@
+{
+    "20101620": {
+        "tasks": [
+            {
+                "navigateData": "30000142#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往皇宫"
+            }, 
+            {
+                "navigateData": "10000173#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "10", 
+                "param2": "23460.0 -19282.0 16019.0", 
+                "param1": "L_FMC", 
+                "id": 2, 
+                "name": "拜见无极道祖"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101620, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101619"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1249", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "567", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "921", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "345", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020674|Q020675|Q020677|Q020678", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}祖巫祝融让你前往凤鸣皇宫拜见无极道祖，向他打探凶兽饕餮的消息。|@S{4}祖巫祝融让你前往凤鸣皇宫拜见无极道祖，向他打探凶兽饕餮的消息。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101621", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000284"
+                }
+            ]
+        }, 
+        "level": 11, 
+        "title": "拜见无极道祖", 
+        "isAutoCommit": 1, 
+        "start_by": "10000235#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

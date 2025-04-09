@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭逍遥门探子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002451|20002452|20002453", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002451|20002452|20002453#L_FLS_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭逍遥门刺客", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002454|20002455|20002456", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002454|20002455|20002456#L_FLS_Planes001"
+                }
+            }, 
+            "title": "寻找灵珠子"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭云空", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002462", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002462#L_FLS_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击破牢笼，救出灵珠子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002464", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002462#L_FLS_Planes001"
+                }
+            }, 
+            "title": "救援灵珠子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵土坡"
+}

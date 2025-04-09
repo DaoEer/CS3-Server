@@ -1,0 +1,55 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<limitItems>  <!--上限物品  -->
+			<Type>		SHOP_LIMIT_ITEMS		</Type>
+			<Flags>			BASE			</Flags>
+		</limitItems>
+		<shareItems>  <!-- 上限共享物品  -->
+			<Type>		SHOP_SHARE_LIMIT_ITEMS		</Type>
+			<Flags>			BASE			</Flags>
+		</shareItems>
+		<randomLimitItems>  <!-- 随机限量物品  -->
+			<Type>		SHOP_RANDOM_LIMIT_ITEMS		</Type>
+			<Flags>			BASE			</Flags>
+		</randomLimitItems>
+	</Properties>
+
+	<BaseMethods>
+		<reload>
+		</reload>
+		<requestShopLimitItemList>
+			<Arg>	STRING	</Arg>
+			<Arg>	ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</requestShopLimitItemList>
+
+		<buyLimintItem>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</buyLimintItem>
+
+		<returnBuyItem>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+		</returnBuyItem>
+
+		<requestTongShopItemList>
+			<Arg>	STRING		</Arg>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</requestTongShopItemList>
+		
+		<GM_openRandomShop/>
+	</BaseMethods>
+</root>

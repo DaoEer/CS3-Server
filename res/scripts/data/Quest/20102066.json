@@ -1,0 +1,120 @@
+{
+    "20102066": {
+        "tasks": [
+            {
+                "navigateData": "10001123#L_KLZ_1#2", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-209419.9 -207050.0 19051.0", 
+                "param1": "L_KLZ_1", 
+                "id": 1, 
+                "name": "回禀女娲娘娘"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "31", 
+                "id": 2, 
+                "name": "到达31级"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102066, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102025"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2|3|4"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12152", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "468", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "5257", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1232", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102040004|102040009|102040014|102040019", 
+                "script": "QuestRewardItemByProfession"
+            }, 
+            {
+                "param2": "3", 
+                "param3": "", 
+                "description": "一星·混元三金丹", 
+                "param1": "202030002", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10001123#L_KLZ_1", 
+        "taskLogDes": "@S{4}九天玄女让你返回昆仑宗向女娲复命。|@S{4}将等级提升至31级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q040014|Q040010", 
+        "nextQuest": "20102037", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "回宗复命", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

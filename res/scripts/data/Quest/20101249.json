@@ -1,0 +1,112 @@
+{
+    "20101249": {
+        "tasks": [
+            {
+                "navigateData": "10001123#L_KLZ_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-209419.9 -207050.0 19050.0", 
+                "param1": "L_KLZ_1", 
+                "id": 1, 
+                "name": "回宗复命"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002026"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101249, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010044"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101233"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "14836", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1003", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1923", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1035", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102010005", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q030352|Q030353", 
+        "finish_by": "10001123#L_KLZ_1", 
+        "taskLogDes": "@S{4}燃灯道人已将@F{fc=c41}灵髓金魄@D交给你，请你返回昆仑宗复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030355", 
+        "nextQuest": "20101235", 
+        "taskCompleteFunctions": {}, 
+        "level": 27, 
+        "title": "回宗复命", 
+        "isAutoCommit": 1, 
+        "start_by": "10000293#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

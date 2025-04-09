@@ -1,0 +1,26 @@
+<root>
+	<Properties>
+		<effectList>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		[]			</Default>
+			<Persistent>	false		</Persistent>
+		</effectList>
+	</Properties>
+
+	<ClientMethods>
+		<OnUpdataEffectData>
+			<Arg>	ARRAY_INT32	</Arg>
+		</OnUpdataEffectData>
+	</ClientMethods>
+
+	<CellMethods>
+        <ChangeFlySpaceEffect>
+            <Exposed/>
+            <Arg>	STRING	</Arg>
+        </ChangeFlySpaceEffect>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

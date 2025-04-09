@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "躲避机关消灭沿途怪物", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭鬼刃血手", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008597|20007562", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭巫灵鬼士", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007561|20008599|20012327", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "闯入荒岛古城"
+        }, 
+        "3": {
+            "comment": "找到场景中的三座镇魂石，摧毁它们", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁镇魂石", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008516|20008517|20009506", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "摧毁三座镇魂石"
+        }, 
+        "2": {
+            "comment": "灵活消灭冤魂关闭祭坛", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "关闭封印祭坛", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007570|20007571|20007572|20007573", 
+                    "type": "SStageTask_NPCObjectDestroy", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "关闭封印祭坛"
+        }, 
+        "4": {
+            "comment": "击败最终BOSS", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败蜃妖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007565", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败魔物蜃妖"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "荒岛古城"
+}

@@ -1,0 +1,54 @@
+<root>
+
+	<Properties>
+		<ownershipIDs>  <!-- 分配的拾取者DBID -->
+			<Type> 			ARRAY_DBID	</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</ownershipIDs>
+
+		<dropTime>  <!-- 掉落时间 -->
+			<Type>			DOUBLE				</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</dropTime>
+
+		<allocationItems>  <!-- 已分配的物品 -->
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</allocationItems>
+
+		<notAllocationItems>  <!-- 未分配的物品 -->
+			<Type>			PYTHON_LIST			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</notAllocationItems>
+
+		<rollResults>  <!-- 掷骰子结果 -->
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</rollResults>
+
+		<allocation>  <!-- 队伍拾取模式-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</allocation>
+
+		<ascriptionID>  <!-- 归属权ID，个人DBID、帮会或队伍的ID-->
+			<Type>			DBID			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</ascriptionID>
+
+		<teamCaptainDBID>  <!-- 归属队伍的队长DBID-->
+			<Type>			DBID			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</teamCaptainDBID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

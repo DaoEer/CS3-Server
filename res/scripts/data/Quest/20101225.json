@@ -1,0 +1,115 @@
+{
+    "20101225": {
+        "tasks": [
+            {
+                "navigateData": "(-14715.277344 19850.000000 -12050.785156)#L_SMZZ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "击败嘟嘟猪王"
+            }, 
+            {
+                "navigateData": "10001123#L_KLZ_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "9", 
+                "param2": "-209420 -207050 19050", 
+                "param1": "L_KLZ_1", 
+                "id": 2, 
+                "name": "回禀女娲"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002001"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101225, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101220|20101221|20101222"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2|3|4"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17786", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1269", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2432", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "864", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032031|Q032032|Q032033", 
+        "finish_by": "10001123#L_KLZ_1", 
+        "taskLogDes": "@S{4}女娲还需寻得八道先天灵气用以汇聚人类灵魂。请你前往神脉沼泽击败嘟嘟猪王取得@F{fc=c41}善灵灵气@D。|@S{4}@F{fc=c41}善灵灵气@D已被嘟嘟猪王交给了赤眼灵猴，你需要返回昆仑宗询问女娲赤眼灵猴的下落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032059", 
+        "nextQuest": "20101243", 
+        "taskCompleteFunctions": {}, 
+        "level": 24, 
+        "title": "善灵灵气（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

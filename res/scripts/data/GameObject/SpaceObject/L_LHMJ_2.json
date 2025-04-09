@@ -1,0 +1,28 @@
+﻿{
+"SpaceName"	: "轮回秘境第二层",
+"EntityType" : "SpaceLunHuiMiJinMultiLine2",
+"DomainType" : "SpaceDomainLunHuiMiJinMultiLine2",
+"EntityScript" : "SpaceLunHuiMiJinMultiLine2", 
+"scriptID"	: "L_LHMJ_2",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "S_L_LHMJ_2",
+"NavmeshPath"	: "space\\L_HLSY_02_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"IsAllowJoinTeam":0,
+"RoleRelationRule": "ROLE_RELATION_RULE_PKMODE",
+"ExitSpace"	:{
+	"ScriptID"	: "L_LHMJ_1",
+	"Position"	: "40968 30536 4046",
+	"Direction"	: "0.0 0.0 90.0"
+	},
+"SpaceData"	:{
+	"disableAssistJump":1,
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|5|19"
+	},
+"DomainData"	:{
+	}
+}

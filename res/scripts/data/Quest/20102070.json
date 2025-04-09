@@ -1,0 +1,107 @@
+{
+    "20102070": {
+        "tasks": [
+            {
+                "navigateData": "(88137.0 85673.0 3350.0)#L_ZLY", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006213|20006214|20006215", 
+                "id": 1, 
+                "name": "击败玄阴小妖"
+            }, 
+            {
+                "navigateData": "(84746.804688 91538.406250 3134.195068)#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "降服玄阴鬼王"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11020701"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102070, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102069"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "20806", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "819", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9198", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1630", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045183", 
+        "finish_by": "10000632#L_ZLY", 
+        "taskLogDes": "@S{4}从九阳神火兽口中得知，十金乌已被魔道引诱至玄阴秘境。望舒让你火速赶往秘境找鬼王查清十金乌的下落。|@S{4}从九阳神火兽口中得知，十金乌已被魔道引诱至玄阴秘境。望舒让你火速赶往秘境找鬼王查清十金乌的下落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045199", 
+        "nextQuest": "20102071", 
+        "taskCompleteFunctions": {}, 
+        "level": 35, 
+        "title": "玄阴秘境", 
+        "isAutoCommit": 1, 
+        "start_by": "10000631#L_ZLY", 
+        "isAutoAccept": 1
+    }
+}

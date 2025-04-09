@@ -1,0 +1,38 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<effectID>  <!-- 效果ID -->
+			<Type> 		STRING		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</effectID>
+	</Properties>
+
+	<ClientMethods>
+		<onDisplayChartlet>
+			<Arg>	STRING	</Arg>
+		</onDisplayChartlet>
+		<onDisappearChartlet>
+			<Arg>	INT32	</Arg>
+		</onDisappearChartlet>
+	</ClientMethods>
+
+	<CellMethods>
+		<onDestroyChartlet>
+			<Exposed/>
+		</onDestroyChartlet>
+	</CellMethods>
+</root>
+

@@ -1,0 +1,107 @@
+{
+    "20101240": {
+        "tasks": [
+            {
+                "navigateData": "10000261#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "与灵飞切磋"
+            }, 
+            {
+                "navigateData": "10000261#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "9", 
+                "param2": "48230.0 -13540.0 822.0", 
+                "param1": "L_FLS", 
+                "id": 2, 
+                "name": "找无涯子对话"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_FLS_Planes009"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101240, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101204|20101232"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3889", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "885", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8837", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "715", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030371|Q032090|Q032091|Q032092|Q032094|Q030372", 
+        "finish_by": "10000261#L_FLS", 
+        "taskLogDes": "@S{4}无涯子的徒弟灵飞对你甚为敬佩，若你能与灵飞切磋指点一番，无涯子便会将三光神水的炼制之法告知与你。|@S{4}无涯子的徒弟灵飞对你甚为敬佩，若你能与灵飞切磋指点一番，无涯子便会将三光神水的炼制之法告知与你。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030381", 
+        "nextQuest": "20101241", 
+        "taskCompleteFunctions": {}, 
+        "level": 21, 
+        "title": "切磋指点", 
+        "isAutoCommit": 1, 
+        "start_by": "10000261#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

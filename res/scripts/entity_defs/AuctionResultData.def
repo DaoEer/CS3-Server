@@ -1,0 +1,58 @@
+<root>
+	<Volatile>
+		<position/>
+		<!--<position> 0 </position> Don't update-->
+		<yaw/>
+		<!--<pitch> 20 </pitch>-->
+		<pitch/>
+		<roll/>
+	</Volatile>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<itemUID>
+			<Type>				STRING			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+			<DatabaseLength>	128				</DatabaseLength>
+			<Index> 			UNIQUE			</Index>
+		</itemUID>
+		
+		<itemID> <!-- 物品uid -->
+			<Type>				UNICODE			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</itemID>
+
+		<auction_roleName> <!-- 竞得者名字 -->
+			<Type>				UNICODE			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+			<DatabaseLength>	128				</DatabaseLength>
+		</auction_roleName>
+		
+		<auction_roleDBID> <!-- 竞得者DBID -->
+			<Type>				UNICODE			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</auction_roleDBID>
+		
+		<auction_money> <!-- 竞拍最终金钱 -->
+			<Type>				INT32			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</auction_money>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

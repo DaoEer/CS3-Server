@@ -1,0 +1,45 @@
+﻿{
+"SpaceName"	: "鬼域迷阵",
+"EntityType"	: "SpaceCopyMagicMazeChildGYMZ",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildGYMZ",
+"scriptID"	: "fu_ben_L_GYMZ",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_GYMZ2",
+"NavmeshPath": "space\\L_GYMZ_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544017,
+	"spaceIntroduce":{"voiceID":"C001490|C001491"},
+	"enterPosition":"766.0 -1283.0 342.0",
+	"enterDirection":"0 0 0",
+	"stageFile":"SS_L_GYMZ",
+	"eventFile":"SE_L_GYMZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType": "0|4",
+	"unitLength": "2900",
+	"redPortalID": "40000239",
+	"greenPortalID": "40000240",
+	"yellowPortalID": "40000241",
+	"oneCenterPos": "-8556.0|-10826.0|236.0",
+	"twoCenterPos": "797.0|-10839.0|342.0",
+	"threeCenterPos": "10278.0|-10847.0|342.0",
+	"fourCenterPos": "-8527.0|-1260.0|342.0",
+	"fiveCenterPos": "766.0|-1283.0|342.0",
+	"sixCenterPos": "10230.0|-1322.0|342.0",
+	"sevenCenterPos": "-8533.0|8243.0|342.0",
+	"eightCenterPos": "752.0|8236.0|342.0",
+	"nineCenterPos": "10258.0|8222.0|342.0",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败饕餮", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(87985.0 -91392.0 -12737.0)#L_FMNL_Planes103"
+                }
+            }, 
+            "title": "降服饕餮"
+        }, 
+        "2": {
+            "comment": "按F与饕餮交互即可骑乘", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "骑乘饕餮前往天极道场", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "饕餮相助"
+        }
+    }, 
+    "describe": "魔道13级任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "降服饕餮"
+}

@@ -1,0 +1,133 @@
+{
+    "20101662": {
+        "tasks": [
+            {
+                "navigateData": "30000841#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000221", 
+                "id": 1, 
+                "name": "与玄通对话"
+            }, 
+            {
+                "navigateData": "30000841#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "与火灵童子一起游历凤鸣城"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_FMC_Planes109"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101662, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101658|20101659|20101660|20101661"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1837", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "428", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "711", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "345", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102060002|102060006|102060010|102060014", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}玉鼎真人吩咐座下金元童子带你在凤鸣城游历，你且随他而行。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101663", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncSetPlayerRevivePos", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "0.0 0.0 -86.5", 
+                    "param2": "23614.0 21573.0 12230.0", 
+                    "param1": "L_FMC"
+                }, 
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110587001"
+                }
+            ]
+        }, 
+        "level": 11, 
+        "title": "游历凤鸣城（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

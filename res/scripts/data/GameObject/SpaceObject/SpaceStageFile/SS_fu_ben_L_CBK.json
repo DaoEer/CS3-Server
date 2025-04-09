@@ -1,0 +1,126 @@
+{
+    "stages": {
+        "1": {
+            "comment": "开启箱子、搜刮钱袋，找寻开启宝库大门的钥匙", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "宝库钥匙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "key02", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "寻找钥匙"
+        }, 
+        "3": {
+            "comment": "开启箱子、搜刮钱袋，找寻开启宝库大门的钥匙", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "宝库钥匙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "key03", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "寻找钥匙"
+        }, 
+        "2": {
+            "comment": "开启藏宝库大门，进入下一区域", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "开启大门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "door02", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开启大门"
+        }, 
+        "5": {
+            "comment": "开启箱子、搜刮钱袋，找寻开启宝库大门的钥匙", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "宝库钥匙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "key04", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "寻找钥匙"
+        }, 
+        "4": {
+            "comment": "开启藏宝库大门，进入下一区域", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "开启大门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "door03", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开启大门"
+        }, 
+        "7": {
+            "comment": "开启宝箱，获得巨额奖励", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "夺取宝物", 
+                    "reqVal": 9, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "40000099", 
+                    "type": "SStageTask_triggerBox", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "夺取宝物"
+        }, 
+        "6": {
+            "comment": "开启藏宝库大门，进入最终区域", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "开启大门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "door04", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开启大门"
+        }
+    }, 
+    "describe": "幻阵迷宫藏宝库", 
+    "beginOnSpaceInit": 1, 
+    "name": "藏宝库"
+}

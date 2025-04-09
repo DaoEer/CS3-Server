@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭地牢守卫", 
+                    "reqVal": 15, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004544|20004545|20004546", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "肃清地牢"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭血崖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004552", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004552#L_BQXB_Planes004"
+                }
+            }, 
+            "title": "鏖战群魔（一）"
+        }, 
+        "2": {
+            "comment": "打破牢笼，救出轩辕族人", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "救出轩辕族人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "103", 
+                    "param2": "20004547|20004548|20004549|20004550|20004558|20004559|20004560", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "解救轩辕族人"
+        }, 
+        "5": {
+            "comment": "打破牢笼，救出轩辕族人", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "救出全部轩辕族人", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "104", 
+                    "param2": "20004547|20004548|20004549|20004550|20004558|20004559|20004560", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "救出轩辕族人"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭大巫巫鸿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004553", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004553#L_BQXB_Planes004"
+                }
+            }, 
+            "title": "鏖战群魔（二）"
+        }, 
+        "6": {
+            "comment": "与九天玄女一起返回轩辕族", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往九天玄女身边", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-40480 55099 1433:10", 
+                    "param2": "6433|-3567", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-40480 55099 1433)#L_BQXB_Planes004"
+                }
+            }, 
+            "title": "返回轩辕部落"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救轩辕族人"
+}

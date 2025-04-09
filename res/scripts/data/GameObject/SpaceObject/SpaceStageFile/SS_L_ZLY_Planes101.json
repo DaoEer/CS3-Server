@@ -1,0 +1,80 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败虬龙影魂卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008838|20008839|20008901", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008838|20008839|20008901#L_ZLY_Planes101"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败虬龙噬魂卫", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008852|20008853|20008854|20008855|20008856", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008852|20008853|20008854|20008855|20008856#L_ZLY_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败虬龙暗魂卫", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008845|20008846", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008845|20008846#L_ZLY_Planes101"
+                }
+            }, 
+            "title": "深入混灵谷"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入蟠龙道", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(90958.0 34793.0 -57.99999999999999)#L_ZLY_Planes101"
+                }
+            }, 
+            "title": "追入蟠龙道"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败蟠虬", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20008858#L_ZLY_Planes101"
+                }
+            }, 
+            "title": "寻到蟠虬处"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "混灵谷"
+}

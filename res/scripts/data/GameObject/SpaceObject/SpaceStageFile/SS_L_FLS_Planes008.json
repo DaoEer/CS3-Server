@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "使用雷火珠，引出幻鱼精", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003613|20003642|20003643|20003644", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003613|20003642|20003643|20003644#L_FLS_Planes008"
+                }
+            }, 
+            "title": "雷火激将"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭千年幻鱼精，取得幻鱼精血", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010063", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20003633#L_FLS_Planes008"
+                }
+            }, 
+            "title": "幻鱼精血"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭幻鱼精", 
+                    "reqVal": 18, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003615|20003616|20003617|20003618|20003619|20003620|20003621|20003622|20003623|20003624|20003625|20003626|20003627|20003628|20003629|20003630|20003631|20003632|20003635|20003636|20003637|20003638|20003639|20003640", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003615|20003616|20003617|20003618|20003619|20003620|20003621|20003622|20003623|20003624|20003625|20003626|20003627|20003628|20003629|20003630|20003631|20003632|20003635|20003636|20003637|20003638|20003639|20003640#L_FLS_Planes008"
+                }
+            }, 
+            "title": "惊现鱼精"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将幻鱼精血交给灵珠子师兄", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "19806.0 -32358.9 -134.0:5", 
+                    "param2": "500|-600", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(19806.0 -32358.9 -134.0)#L_FLS_Planes008"
+                }
+            }, 
+            "title": "回禀灵珠子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "绘制变身符"
+}

@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "仙隐画院",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildCopy",
+"scriptID"	: "fu_ben_L_XYHY",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_XYHY",
+"NavmeshPath"	: "space\\L_XYHY_NAVMESH",
+"PatrolRouteFile": "P_L_XYHY",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544008,
+	"spaceIntroduce":{"voiceID":"C001458|C001459|C001460"},
+	"enterPosition":"-10257 -15142 -36.570835",
+	"enterDirection":"0 0 90",
+	"stageFile":"SS_L_XYHY",
+	"eventFile":"SE_L_XYHY",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

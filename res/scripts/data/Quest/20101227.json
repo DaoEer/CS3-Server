@@ -1,0 +1,111 @@
+{
+    "20101227": {
+        "tasks": [
+            {
+                "navigateData": "10000010#L_YXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskLearnSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "200101001", 
+                "id": 1, 
+                "name": "学习幻剑心法"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002001"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101227, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101247"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "26568", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "645", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6442", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "762", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102080007", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q030452", 
+        "finish_by": "10000010#L_YXG", 
+        "taskLogDes": "@S{4}女娲让你回玉虚宫找你大师兄玄天行习得心法，并完成一次试炼秘境和潜能幻境的修炼，再来复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030359|Q030459", 
+        "nextQuest": "20101245", 
+        "taskCompleteFunctions": {}, 
+        "level": 22, 
+        "title": "学习心法", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

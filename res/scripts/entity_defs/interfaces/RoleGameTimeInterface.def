@@ -1,0 +1,30 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<addGameTime>
+			<Arg>		INT32	 	</Arg>
+		</addGameTime>
+		<GMSetPayGameTime>
+			<Arg>		INT32	 	</Arg>
+		</GMSetPayGameTime>
+		<GMSetDefaultGameTime>
+			<Arg>		INT32	 	</Arg>
+		</GMSetDefaultGameTime>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+		<OnGameTimeBalanceCountDown>
+			<Arg>	INT32		</Arg>
+		</OnGameTimeBalanceCountDown>
+		<ShowStartBillingWnd>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</ShowStartBillingWnd>
+		<HideStartBillingWnd>
+		</HideStartBillingWnd>
+	</ClientMethods>
+</root>

@@ -1,0 +1,43 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<memberDatas>
+			<Type>		BING_XUE_KDS_LIST	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</memberDatas>
+		<_campPointInfo>
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}				</Default>
+		</_campPointInfo>
+		<_revivePosInfo>
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}				</Default>
+		</_revivePosInfo>
+		<towerInfo>
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}				</Default>
+		</towerInfo>
+		<_pointInfo>
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}				</Default>
+		</_pointInfo>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路小妖", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004018|20004019|20004020", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004018|20004019|20004020#L_BQXB_Planes102"
+                }
+            }, 
+            "title": "扫除障碍"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "收服兽王狴犴", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2333", 
+                    "param2": "20004022", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20004022#L_BQXB_Planes102"
+                }
+            }, 
+            "title": "收服狴犴"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守将恶魁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004021", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004021#L_BQXB_Planes102"
+                }
+            }, 
+            "title": "勇往直前"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "收服狴犴(二)"
+}

@@ -1,0 +1,27 @@
+
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<firstTongStarcraftSignUp>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST	</Arg>
+		</firstTongStarcraftSignUp>
+		<gotoFirstTongStarcraft>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</gotoFirstTongStarcraft>
+	</BaseMethods>
+</root>

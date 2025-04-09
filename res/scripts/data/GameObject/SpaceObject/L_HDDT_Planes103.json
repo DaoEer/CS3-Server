@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_HDDT_Planes103",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_HDDT_Planes103",
+"NavmeshPath"	: "space\\L_HDDT_Planes103_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_HDDT",
+	"Position"	: "-44700.000000 -28631.376953 11907.427734",
+	"Direction"	: "0 0 20"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_HDDT_Planes103",
+	"eventFile":"SE_L_HDDT_Planes103"
+	},
+"DomainData"	:{
+	}
+}

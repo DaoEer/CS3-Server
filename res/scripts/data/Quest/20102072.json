@@ -1,0 +1,127 @@
+{
+    "20102072": {
+        "tasks": [
+            {
+                "navigateData": "10000639#L_TYG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000639", 
+                "id": 1, 
+                "name": "与羲和汇合"
+            }, 
+            {
+                "navigateData": "10000639#L_TYG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "救援十金乌"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "36", 
+                "id": 3, 
+                "name": "到达36级"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102072, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102071"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "15190", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "819", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9198", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1630", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102030035", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q045222|Q045223|Q045224", 
+        "finish_by": "10001123#L_KLZ_1", 
+        "taskLogDes": "@S{4}十金乌已被魔道准提道人带往金星，欲施以魔化。太阳宫帝俊让你速随羲和赶赴金星营救金乌。|@S{4}十金乌已被魔道准提道人带往金星，欲施以魔化。太阳宫帝俊让你速随羲和赶赴金星营救金乌。|@S{4}将等级提升至36级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045250|Q045251|Q045255|Q045256", 
+        "nextQuest": "20102098", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110002054"
+                }
+            ]
+        }, 
+        "level": 35, 
+        "title": "救援十金乌", 
+        "isAutoCommit": 1, 
+        "start_by": "10000638#L_TYG", 
+        "isAutoAccept": 1
+    }
+}

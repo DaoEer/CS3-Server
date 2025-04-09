@@ -1,0 +1,120 @@
+{
+    "20102561": {
+        "tasks": [
+            {
+                "navigateData": "10000621#L_TMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000621", 
+                "id": 1, 
+                "name": "回禀魔尊"
+            }, 
+            {
+                "navigateData": "10001296#L_TMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001296", 
+                "id": 2, 
+                "name": "与接引道人对话"
+            }, 
+            {
+                "navigateData": "10000341#L_PMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 2, 
+                "param3": "9", 
+                "param2": "-19906 -18774 3866", 
+                "param1": "L_PMG", 
+                "id": 3, 
+                "name": "前往接引道人处"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102561, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102573"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "14008", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "755", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8478", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10000341#L_PMG", 
+        "taskLogDes": "@S{4}罗睺将闭关炼化魔君元神残魂，以获取混沌魔君记忆传承。在此期间，魔道大小事宜皆由接引主管。接引道人另有要事吩咐你，请随他返回缥缈阁复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041387", 
+        "nextQuest": "20102563", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncTeleportSpace", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "0 0 -110", 
+                    "param2": "-18965.0 -16201.0 3990.0", 
+                    "param1": "L_PMG"
+                }
+            ]
+        }, 
+        "level": 37, 
+        "title": "魔尊闭关", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

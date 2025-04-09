@@ -1,0 +1,40 @@
+{
+"SpaceName"	: "玄天宝录",
+"EntityType"	: "SpaceCopyXuanTianBaoLu",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyXuanTianBaoLu",
+"scriptID"	: "cycle_L_XTBL",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_XTBL",
+"NavmeshPath"	: "space\\L_XTBL_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 100.0,
+"SpaceHoldEffect"	:"101010106",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 100,
+	"startLifeOnInit" : 0,
+	"enterPosition":"4040.0 -2240.0 490.0",
+	"enterDirection":"0 0 190",
+	"statisticsFile":"ST_L_XTBL",
+	"eventFile":"SE_L_XTBL",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"stoneScriptID":"20010143|20010144|20010145",
+	"stoneBurstNum":"3",
+	"outBreakBuff":"14019401",
+	"petrifyBuff":"14019301",
+	"intervalTime":"60",
+	"mirrorId":"40000562",
+	"turnSpeed":"0.06",
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+
+	}
+}

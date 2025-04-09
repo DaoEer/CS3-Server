@@ -1,0 +1,29 @@
+{
+    "20101665": {
+        "tasks": [], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101665, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101666", 
+        "taskCompleteFunctions": {}, 
+        "level": 0, 
+        "title": "（废弃）回禀祝融", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

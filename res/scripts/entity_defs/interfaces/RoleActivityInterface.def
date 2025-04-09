@@ -1,0 +1,1014 @@
+<root>
+	<Properties>
+		<enteredBunchRecord>
+			<Type>		ARRAY_STRING	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Persistent>	true		</Persistent>
+		</enteredBunchRecord>
+		<bunchName>
+			<Type>		STRING	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Persistent>	false		</Persistent>
+		</bunchName>
+		<actName>
+			<Type>		STRING	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Persistent>	false		</Persistent>
+		</actName>
+		<activityKey>
+			<Type>		INT32	</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Persistent>	false		</Persistent>
+		</activityKey>
+		<isMatchCampRandomFit>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		false		</Default>
+			<Persistent>	false		</Persistent>
+		</isMatchCampRandomFit>
+		<isMatchBattleActivity>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		false		</Default>
+			<Persistent>	false		</Persistent>
+		</isMatchBattleActivity>
+		<isDeclarePointBHZB>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		false		</Default>
+		</isDeclarePointBHZB>
+		<recordPointIndex>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		0		</Default>
+		</recordPointIndex>
+	</Properties>
+	<ClientMethods>
+		<CLIENT_ShowTongSignSuccessWindow>
+			<Arg>	STRING			</Arg>
+		</CLIENT_ShowTongSignSuccessWindow>
+		<CLIENT_ShowPassFirstTongStarcraft>
+			<Arg>	STRING			</Arg>
+		</CLIENT_ShowPassFirstTongStarcraft>
+		<CLIENT_UpdateMoneyDataToOtherPlayer>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>       UNICODE			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_UpdateMoneyDataToOtherPlayer>
+		<CLIENT_ReceiveOtherMoneyData>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>       UNICODE			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ReceiveOtherMoneyData>
+		<CLIENT_UpdateIntegralDataToOtherClient>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_UpdateIntegralDataToOtherClient>
+		<CLIENT_ReceiveOtherIntegralData>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ReceiveOtherIntegralData>
+		<CLIENT_UpdateBeKillDataToOtherClient>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_UpdateBeKillDataToOtherClient>
+		<CLIENT_ReceiveOtherBeKillData>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ReceiveOtherBeKillData>
+		<CLIENT_UpdateKillDataToOtherClient>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_UpdateKillDataToOtherClient>
+		<CLIENT_ReceiveOtherKillData>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ReceiveOtherKillData>
+		<CLIENT_SetIntegralMax>
+			<Arg>		INT32			</Arg>
+		</CLIENT_SetIntegralMax>
+		<CLIENT_HunTingMemberLeave>
+			<Arg>		INT32			</Arg>
+		</CLIENT_HunTingMemberLeave>
+		<CLIENT_ShowRankList/>
+		<CLIENT_OnGodLike>
+			<Arg>		UNICODE		</Arg>
+		</CLIENT_OnGodLike>
+		<CLIENT_OnFirstKill>
+			<Arg>		UNICODE		</Arg>
+		</CLIENT_OnFirstKill>
+		<CLIENT_OnClearData/>
+		<CLIENT_FengQiMemberLeave>
+			<Arg>		INT32			</Arg>
+		</CLIENT_FengQiMemberLeave>
+		<CLIENT_UpdateFengQiMemberDataToOtherClient>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_UpdateFengQiMemberDataToOtherClient>
+		<CLIENT_ReceiveFengQiOtherMemberData>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ReceiveFengQiOtherMemberData>
+		<CLIENT_UpdateFengQiIntegralToOtherClient>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_UpdateFengQiIntegralToOtherClient>
+		<UpdateFengQiKillDataToOtherClient>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</UpdateFengQiKillDataToOtherClient>
+		<CLIENT_ShowFengQiRank/>
+		<CLIENT_ShowOriginArea>
+			<Arg>		POSITION			</Arg>
+			<Arg>		POSITION			</Arg>
+			<Arg>		POSITION			</Arg>
+			<Arg>		POSITION			</Arg>
+		</CLIENT_ShowOriginArea>
+		<CLIENT_ShowEndArea>
+			<Arg>		POSITION			</Arg>
+			<Arg>		POSITION			</Arg>
+			<Arg>		POSITION			</Arg>
+			<Arg>		POSITION			</Arg>
+		</CLIENT_ShowEndArea>
+		<CLIENT_StartReduceArea>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_StartReduceArea>
+		<CLIENT_UpdateFengQiMemberDataToOtherOnLogin>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_UpdateFengQiMemberDataToOtherOnLogin>
+
+		<CLIENT_OnEnterLingMaiMatchQueue/>
+		<CLIENT_OnEnterLingMaiReadyQueue/>
+		<CLIENT_OnEnterLingMaiTelPortQueue>
+			<Arg>			INT32		</Arg>
+		</CLIENT_OnEnterLingMaiTelPortQueue>
+		<CLIENT_OnLingMaiActivityEnd/>
+		<CLIENT_AddLingMaiMember>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			UNICODE		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_AddLingMaiMember>
+		<CLIENT_OnLeaveLingMai/>
+		<CLIENT_ShowLingMaiLife>
+			<Arg>			STRING		</Arg>
+		</CLIENT_ShowLingMaiLife>
+		<CLIENT_OnKillLingMai>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			OBJECT_ID	</Arg>
+		</CLIENT_OnKillLingMai>
+		<CLIENT_OnAssistsLingMai>
+			<Arg>			ARRAY_INT32	</Arg>
+		</CLIENT_OnAssistsLingMai>
+		<CLIENT_OccupyPagodaBase>
+			<Arg>			OBJECT_ID	</Arg>
+		</CLIENT_OccupyPagodaBase>
+		<CLIENT_OccupyPagoda>
+			<Arg>			STRING		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_OccupyPagoda>
+		<CLIENT_OccupyLingMai>
+			<Arg>			STRING		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			ARRAY_INT32	</Arg>
+		</CLIENT_OccupyLingMai>
+		<CLIENT_OnGrabGourdLeave>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_OnGrabGourdLeave>
+		<CLIENT_OnPowerPointChange>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_OnPowerPointChange>
+		<CLIENT_OnWinGameLingMai>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_OnWinGameLingMai>
+		<CLIENT_OnRequestSameCampPos>
+			<Arg>		BIGMAP_SHOW_INFOS	</Arg>
+		</CLIENT_OnRequestSameCampPos>
+		<CLIENT_OnEndLegendary>
+			<Arg>			UNICODE		</Arg>
+		</CLIENT_OnEndLegendary>
+
+		<CLIENT_ShowShiFangChengPassList>
+			<Arg>			INT32		</Arg>
+			<Arg>			UNICODE		</Arg>
+		</CLIENT_ShowShiFangChengPassList>
+		<CLIENT_ShowEnterActBunchWindow/>
+		<ShowEnterYeZhanFengQiWindow/>
+		<CLIENT_UpdateYXLMMemberDataToOtherClient>
+			<Arg>			INT32		</Arg>
+			<Arg>			UNICODE		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+		</CLIENT_UpdateYXLMMemberDataToOtherClient>
+		<CLIENT_ReceiveYXLMOtherMemberData>
+			<Arg>			INT32		</Arg>
+			<Arg>			UNICODE		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+		</CLIENT_ReceiveYXLMOtherMemberData>
+		<CLIENT_UpdateYXLMKillDataToOtherClient>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_UpdateYXLMKillDataToOtherClient>
+		<CLIENT_UpdateYXLMBeKillDataToOtherClient>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_UpdateYXLMBeKillDataToOtherClient>
+		<CLIENT_UpdateYXLMAddItemToOtherClient>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_UpdateYXLMAddItemToOtherClient>
+		<CLIENT_UpdateYXLMRemoveItemToOtherClient>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_UpdateYXLMRemoveItemToOtherClient>
+		<CLIENT_CampYXLMOnMatchSuccess/>
+		<CLIENT_CampYXLMHideAffirmWindow/>
+		<CLIENT_CampYXLMUpdateWaitAffirmList>
+			<Arg>		ARRAY_INT32		</Arg>
+		</CLIENT_CampYXLMUpdateWaitAffirmList>
+		<CLIENT_CampYXLMShowAffirmData>
+			<Arg>			STRING		</Arg>
+		</CLIENT_CampYXLMShowAffirmData>
+		<CLIENT_UpdateYXLMMemberDataToOtherOnLogin>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_UpdateYXLMMemberDataToOtherOnLogin>
+		<CLIENT_ShowYXLMBattlefieldWin>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_ShowYXLMBattlefieldWin>
+		<CLIENT_CampYXLMSignUpSuccess/>
+		<CLIENT_ShowEnterYXLMTime>
+			<Arg>			FLOAT		</Arg>
+		</CLIENT_ShowEnterYXLMTime>
+		<CLIENT_ShowYXLMSpaceLife>
+			<Arg>			STRING		</Arg>
+		</CLIENT_ShowYXLMSpaceLife>
+		<CLIENT_showYXLMQuickBag/>
+		<CLIENT_hideYXLMQuickBag/>
+		<CLIENT_ShowYXLMRandomScriptIDs>
+			<Arg>			STRING		</Arg>
+		</CLIENT_ShowYXLMRandomScriptIDs>
+		<CLIENT_showEnemyPos>
+			<Arg>			ARRAY_POSITION		</Arg>
+		</CLIENT_showEnemyPos>
+		<CLIENT_HideEnemyPos/>
+
+		<CLIENT_OnEnterFrozenFightMatchQueue/>
+		<CLIENT_OnEnterFrozenFightReadyQueue/>
+		<CLIENT_OnEnterFrozenFightTelPortQueue>
+			<Arg>			INT32		</Arg>
+		</CLIENT_OnEnterFrozenFightTelPortQueue>
+		<CLIENT_OnFrozenFightActivityEnd/>
+		<CLIENT_AddFrozenFightMember>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			UNICODE		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_AddFrozenFightMember>
+		<CLIENT_OnLeaveFrozenFight/>
+		<CLIENT_ShowFrozenFightLife>
+			<Arg>		STRING			</Arg>
+		</CLIENT_ShowFrozenFightLife>
+		<CLIENT_OnAssistsFrozenFight>
+			<Arg>		ARRAY_INT32		</Arg>
+		</CLIENT_OnAssistsFrozenFight>
+		<CLIENT_OnFrozenFightOccupyTower>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		OBJECT_ID	    </Arg>
+		</CLIENT_OnFrozenFightOccupyTower>
+		<CLIENT_OnFrozenFightOccupyRivivePos>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		OBJECT_ID	 	</Arg>
+		</CLIENT_OnFrozenFightOccupyRivivePos>
+		<CLIENT_OnFrozenFightPointChanged>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_OnFrozenFightPointChanged>
+		<CLIENT_OnFrozenFightSubmit>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_OnFrozenFightSubmit> 
+		<CLIENT_OnWinGameFrozenFight>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_OnWinGameFrozenFight> 
+		<CLIENT_OnKillFrozenFight>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			OBJECT_ID	</Arg>
+		</CLIENT_OnKillFrozenFight>
+		<CLIENT_UpdateMemberIntegral>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_UpdateMemberIntegral>
+		<CLIENT_UpdateTongIntegral>
+			<Arg>		UNICODE	 		</Arg>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_UpdateTongIntegral>
+		<CLIENT_OpenSecondTongStarcraftGroup>
+			<Arg>		ARRAY_UNICODE	 		</Arg>
+			<Arg>		ARRAY_UNICODE	 		</Arg>
+		</CLIENT_OpenSecondTongStarcraftGroup>
+		<CLIENT_ShowTongMemberWindow>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_ShowTongMemberWindow>
+		<CLIENT_ShowFirstWindow>
+			<Arg>			UNICODE		</Arg>
+		</CLIENT_ShowFirstWindow>
+		<CLIENT_UpdateThirdTongStarcraftIntegral>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32	 	</Arg>
+		</CLIENT_UpdateThirdTongStarcraftIntegral>
+		<CLIENT_ReceiveAllThirdTongStarcraftIntegral>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32	 	</Arg>
+		</CLIENT_ReceiveAllThirdTongStarcraftIntegral>
+		<CLIENT_ReceiveThirdTongStarcraftAllOccupySpellBox>
+			<Arg>		INT32		</Arg>
+			<Arg>		ARRAY_STRING		</Arg>
+		</CLIENT_ReceiveThirdTongStarcraftAllOccupySpellBox>
+		<CLIENT_AddThirdTongStarcraftOccupySpellBox>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_AddThirdTongStarcraftOccupySpellBox>
+		<CLIENT_RemoveThirdTongStarcraftOccupySpellBox>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_RemoveThirdTongStarcraftOccupySpellBox>
+		<CLIENT_ReceiveAllThirdTongStarcraftMemberData>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ReceiveAllThirdTongStarcraftMemberData>
+		<CLIENT_UpdateThirdTongStarcraftMemToOtherClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateThirdTongStarcraftMemToOtherClient>
+		<CLIENT_UpdateThirdTongStarcraftLoginMemToOtherClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateThirdTongStarcraftLoginMemToOtherClient>
+		<CLIENT_UpdateThirdTongStarcraftMemKill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateThirdTongStarcraftMemKill>
+		<CLIENT_UpdateThirdTongStarcraftMemBeKill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateThirdTongStarcraftMemBeKill>
+		<CLIENT_UpdateThirdTongStarcraftMemAssists>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateThirdTongStarcraftMemAssists>
+		<CLIENT_UpdateThirdTongStarcraftMemOccupy>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateThirdTongStarcraftMemOccupy>
+
+		<CLIENT_ShowWinTong>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowWinTong>
+		<CLIENT_ShowThirdTongStarcraftLife>
+			<Arg>		STRING		</Arg>
+		</CLIENT_ShowThirdTongStarcraftLife>
+		<CLIENT_UpdateYeZhanFengQiMemberNumber>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_UpdateYeZhanFengQiMemberNumber>
+		<CLIENT_UpdateYeZhanFengQiMyKillNumber>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_UpdateYeZhanFengQiMyKillNumber>
+		<ClIENT_ShowYeZhanFengQiOriginArea>
+			<Arg>		POSITION	 		</Arg>
+			<Arg>		FLOAT	 		</Arg>
+		</ClIENT_ShowYeZhanFengQiOriginArea>
+		<ClIENT_ShowYeZhanFengQiEndArea>
+			<Arg>		POSITION	 		</Arg>
+			<Arg>		FLOAT	 		</Arg>
+		</ClIENT_ShowYeZhanFengQiEndArea>
+		<ClIENT_StartReduceYeZhanFengQiArea>
+			<Arg>		FLOAT	 		</Arg>
+		</ClIENT_StartReduceYeZhanFengQiArea>
+		<CLIENT_ShowGoldTreeCompass>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowGoldTreeCompass>
+		<CLIENT_AddActivityCircleArea>
+			<Arg>		STRING		</Arg>
+			<Arg>		POSITION	</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_AddActivityCircleArea>	
+		<CLIENT_ClearActivityCircleArea/>
+		<CLIENT_ShowAreaInBigMapUI>
+			<Arg>		STRING		</Arg>
+			<Arg>		POSITION	</Arg>
+			<Arg>		FLOAT		</Arg>
+		</CLIENT_ShowAreaInBigMapUI>
+		<CLIENT_ShowYeZhanFengQiMemberRank>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowYeZhanFengQiMemberRank>
+		<CLIENT_ShowFirstPassShiFangCheng>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowFirstPassShiFangCheng>
+		<CLIENT_ShowPassShiFangChengNumber>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowPassShiFangChengNumber>
+		<CLIENT_beginJZYT>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_beginJZYT>
+		<ShowTongStarcraftFirstSignUpTong>
+			<Arg>  ARRAY_UNICODE </Arg>
+			<Arg>  ARRAY_UNICODE </Arg>
+		</ShowTongStarcraftFirstSignUpTong>
+		<UpdateTongStarcraftLoginMemToOtherClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</UpdateTongStarcraftLoginMemToOtherClient>
+		<OnNotifyStartXKTB>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</OnNotifyStartXKTB>
+		<NotifyRechargeableValue>
+			<Arg>		FLOAT		</Arg>
+		</NotifyRechargeableValue>
+		<CampSGMZSignUpSuccess/>
+		<CampSGMZOnMatchSuccess/>
+		<CampSGMZHideAffirmWindow/>
+		<CampSGMZShowAffirmData>
+			<Arg>			STRING		</Arg>
+		</CampSGMZShowAffirmData>
+		<ShowEnterSGMZTime>
+			<Arg>			FLOAT		</Arg>
+		</ShowEnterSGMZTime>
+		<OnQueryTongSignUpData>
+			<Arg>  ARRAY_UNICODE </Arg>
+			<Arg>	INT32			</Arg>
+		</OnQueryTongSignUpData>
+		<CLIENT_beginTJP>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_beginTJP>
+		<OnEnterFHLTMatchQueue>
+			<Arg>			INT32		</Arg>
+		</OnEnterFHLTMatchQueue>
+		<OnFHLTActivityEnd/>
+		<OnEnterFHLTReadyQueue/>
+		<OnEnterFHLTTelPortQueue>
+			<Arg>			INT32		</Arg>
+		</OnEnterFHLTTelPortQueue>
+		<OnAddFHLTMember>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			UNICODE		</Arg>
+			<Arg>			INT32		</Arg>
+		</OnAddFHLTMember>
+		<OnLeaveFHLT/>
+		<OnKillFHLT>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			OBJECT_ID	</Arg>
+		</OnKillFHLT>
+		<OnAssistsFHLT>
+			<Arg>			ARRAY_INT32	</Arg>
+		</OnAssistsFHLT>
+		<OnIntegralChange>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</OnIntegralChange>
+		<OnWinGameFHLT>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</OnWinGameFHLT>
+		<ShowFHLTLife>
+			<Arg>			STRING		</Arg>
+		</ShowFHLTLife>
+		<CLIENT_beginJXLC>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_beginJXLC>
+		<CLIENT_AddCampYCJMDMember>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			UNICODE		</Arg>
+			<Arg>			INT32		</Arg>
+		</CLIENT_AddCampYCJMDMember>
+		<CLIENT_OnLeaveCampYCJMD/>
+		<CLIENT_OnKillCampYCJMD>
+			<Arg>			OBJECT_ID	</Arg>
+			<Arg>			OBJECT_ID	</Arg>
+		</CLIENT_OnKillCampYCJMD>
+		<CLIENT_OnAssistsCampYCJMD>
+			<Arg>			ARRAY_INT32	</Arg>
+		</CLIENT_OnAssistsCampYCJMD>
+		<OnCampRandomFitStart/>
+		<OnBattleMatchStart/>
+		<OnCampRandomFitSuccess/>
+		<OnCampRandomFitInterrupt/>
+		<ShowEnterRandomFitTime>
+			<Arg>			FLOAT		</Arg>
+		</ShowEnterRandomFitTime>
+		<ShowPublicActRecordUI>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+		</ShowPublicActRecordUI>
+		<OpenBHZBIntegralRank>
+			<Arg>		BHZBTONGINTEGRALDATAS		</Arg>
+		</OpenBHZBIntegralRank>
+		<OpenSignUpBHZBRankWin>
+			<Arg>		BHZBSINGUPTONGDATAS		</Arg>
+		</OpenSignUpBHZBRankWin>
+		<UpdataToTongMemberClientProtectData>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</UpdataToTongMemberClientProtectData>
+		<UpdataToTongMemberClientAttackData>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</UpdataToTongMemberClientAttackData>
+		<OpenNPCExtPointDetails>
+			<Arg>			UNICODE		</Arg>
+			<Arg>			UINT8		</Arg>
+			<Arg>			UINT8		</Arg>
+			<Arg>		ARRAY_UNICODE </Arg>
+			<Arg>		ARRAY_INT32 </Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			STRING		</Arg>
+			<Arg>			ARRAY_STRING		</Arg>
+			<Arg>			ARRAY_STRING		</Arg>
+			<Arg>			ARRAY_STRING		</Arg>
+		</OpenNPCExtPointDetails>
+		<InitBHZBNPCPointDatas>
+			<Arg>			BHZBPOINTDATAS		</Arg>
+		</InitBHZBNPCPointDatas>
+		<UpdataNPCPointRestEndTime>
+			<Arg>			INT32		</Arg>
+			<Arg>			STRING		</Arg>
+		</UpdataNPCPointRestEndTime>
+		<UpdataNPCPointReadyEndTime>
+			<Arg>			INT32		</Arg>
+			<Arg>			STRING		</Arg>
+		</UpdataNPCPointReadyEndTime>
+		<UpdataNPCPointDeclareWarState>
+			<Arg>			INT32		</Arg>
+			<Arg>			UINT8		</Arg>
+		</UpdataNPCPointDeclareWarState>
+		<UpdateNPCPointAttackGroupTeamID>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			DBID		</Arg>
+		</UpdateNPCPointAttackGroupTeamID>
+		<UpdataBHZBPointJoinProtectTeamID>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</UpdataBHZBPointJoinProtectTeamID>
+		<UpdataNPCPointOccupyData>
+			<Arg>			INT32		</Arg>
+			<Arg>			DBID		</Arg>
+			<Arg>			DBID		</Arg>
+			<Arg>			UNICODE		</Arg>
+			<Arg>			UNICODE		</Arg>
+		</UpdataNPCPointOccupyData>
+		<UpdataBHZBPointJoinAttackMembers>
+			<Arg>	INT32		</Arg>
+			<Arg>	ARRAY_STRING		</Arg>
+		</UpdataBHZBPointJoinAttackMembers>
+		<UpdataBHZBPointJoinProtectMembers>
+			<Arg>	INT32		</Arg>
+			<Arg>	ARRAY_STRING		</Arg>
+		</UpdataBHZBPointJoinProtectMembers>
+		<UpdataHomeBarracksMapDataToAllMember>
+			<Arg>	BHZBMAPHOMEBARRACKSDATAS		</Arg>
+		</UpdataHomeBarracksMapDataToAllMember>
+		<UpdataMemberPositionToClient>
+			<Arg>			BHZBMAPMEMBERPOSITIONDATAS		</Arg>
+		</UpdataMemberPositionToClient>
+		<UpdataMyGroupIDToClient>
+			<Arg>			INT32		</Arg>
+		</UpdataMyGroupIDToClient>
+		<ShowExitPointSaveSpaceBtn>
+		</ShowExitPointSaveSpaceBtn>
+		<HideExitPointSaveSpaceBtn/>
+		<ShowGroupIDAttackPointSign>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</ShowGroupIDAttackPointSign>
+		<HideGroupIDAttackPointSign>
+			<Arg>			INT32		</Arg>
+		</HideGroupIDAttackPointSign>
+		<ShowBHZBIntegralRankWin>
+			<Arg>		BHZBTONGINTEGRALDATAS		</Arg>
+			<Arg>			INT32		</Arg>
+		</ShowBHZBIntegralRankWin>
+		<InitBHZBWarDetailData>
+			<Arg>			BHZBTONGWARDETAIL		</Arg>
+		</InitBHZBWarDetailData>
+		<UpdateBHZBWarDetailIntegralData>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</UpdateBHZBWarDetailIntegralData>
+		<UpdateBHZBWarDetailOccupyNumber>
+			<Arg>			INT32		</Arg>
+		</UpdateBHZBWarDetailOccupyNumber>
+		<UpdateBHZBWarDetailTeamData>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			UNICODE		</Arg>
+		</UpdateBHZBWarDetailTeamData>
+		<RemoveBHZBWarDetailTeamData>
+			<Arg>			INT32		</Arg>
+		</RemoveBHZBWarDetailTeamData>
+		<UpdateBHZBWarDetailOccupyPointData>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			UNICODE		</Arg>
+		</UpdateBHZBWarDetailOccupyPointData>
+		<RemoveBHZBWarrDetailOccupyPoint>
+			<Arg>			INT32		</Arg>
+		</RemoveBHZBWarrDetailOccupyPoint>
+		<AddBHZBWarMsgData>
+			<Arg>			INT32		</Arg>
+			<Arg>			UNICODE		</Arg>
+		</AddBHZBWarMsgData>
+		<QueryAllBHZBIntegralData>
+			<Arg>			ALLBHZBTONGINTEGRALDATAS		</Arg>
+			<Arg>			INT32		</Arg>
+		</QueryAllBHZBIntegralData>
+		<ClearYXLMMemberData/>
+		<OpenJoinGCZWin>
+			<Arg>	ARRAY_INT32	</Arg>
+			<Arg>	ARRAY_STRING	</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+			<Arg>		INT32		</Arg>
+		</OpenJoinGCZWin>
+		<NotifyToStartMatchGCZ>
+			<Arg>			INT32		</Arg>
+		</NotifyToStartMatchGCZ>
+		<NotifyCancelMatchGCZ/>
+
+	</ClientMethods>
+
+	<BaseMethods>
+		<campYXLMOnJoin/>
+		<campYXLMOnQuit/>
+		<campYXLMCreateTeam/>
+		<signInLingMai/>
+		<cancelMatchLingMai>
+			<Exposed/>
+		</cancelMatchLingMai>
+		<onLingMaiActivityEnd/>
+		<beginEnterLingMai>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</beginEnterLingMai>
+		<telportLMZCActivity>
+			<Arg>	INT32			</Arg>
+		</telportLMZCActivity>
+		<campYXLMonAffirm>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</campYXLMonAffirm>
+		<campYXLMCancelSignUp>
+			<Exposed/>
+		</campYXLMCancelSignUp>
+		<signInFrozenFight/>
+		<cancelMatchFrozenFight>
+			<Exposed/>
+		</cancelMatchFrozenFight>
+		<onFrozenFightActivityEnd/>
+		<beginEnterFrozenFight>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</beginEnterFrozenFight>
+		<telportFrozenFightActivity>
+			<Arg>	INT32			</Arg>
+		</telportFrozenFightActivity>
+		<campYXLMJoinTeam>
+			<Arg> OBJECT_ID </Arg>
+			<Arg> BASE_ENTITYCALL </Arg>
+		</campYXLMJoinTeam>
+		<campSGMZCancelSignUp>
+  			<Exposed/>
+ 		</campSGMZCancelSignUp>
+ 		<campSGMZOnAffirm>
+  			<Exposed/>
+  			<Arg>	INT32			</Arg>
+ 		</campSGMZOnAffirm>
+ 		<campSGMZOnJoin/>
+ 		<campSGMZOnQuit/>
+ 		<signUpFHLT/>
+ 		<cancelMatchFHLT>
+			<Exposed/>
+		</cancelMatchFHLT>
+		<onFHLTActivityEnd/>
+		<telportFHLTActivity>
+			<Arg>	INT32			</Arg>
+		</telportFHLTActivity>
+		<beginEnterFHLT>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</beginEnterFHLT>
+		<campRandomFitInterrupt>
+			<Exposed/>
+		</campRandomFitInterrupt>
+ 		<campRandomFitJoin/>
+ 		<campRandomFitQuit/>
+ 		<battleActivityInterrupt>
+			<Exposed/>
+		</battleActivityInterrupt>
+		<battleActivitySignUp/>
+		<battleActivitySignOut/>
+ 		<onEnterBHZBCreateTeam/>
+ 		<onBHZBJoinTeam>
+			<Arg>	INT32			</Arg>
+			<Arg> BASE_ENTITYCALL </Arg>
+		</onBHZBJoinTeam>
+ 		<onBHZBChangeCaptain>
+ 			<Arg> BASE_ENTITYCALL </Arg>
+ 		</onBHZBChangeCaptain>
+ 		<notfiyToJoinGCZ>
+ 			<Arg>	ARRAY_DBID			</Arg>
+		</notfiyToJoinGCZ>
+		<GCZCreateTeam/>
+		<GCZOnJoinTeam>
+			<Arg>	INT32			</Arg>
+			<Arg> BASE_ENTITYCALL </Arg>
+		</GCZOnJoinTeam>
+		<notifyToStartMatchGCZ>
+			<Arg>	INT32			</Arg>
+		</notifyToStartMatchGCZ>
+		<notifyCancelMatchGCZ>
+		</notifyCancelMatchGCZ>
+		<cancelMatchGCZ>
+			<Exposed/>
+		</cancelMatchGCZ>
+	</BaseMethods>
+	<CellMethods>
+		<addActivityDegree>
+			<Arg>	INT32			</Arg>
+		</addActivityDegree>
+		<onEnterBunchSpace>
+			<Arg>	STRING			</Arg>
+			<Arg>	BOOL			</Arg>
+			<Arg>	INT32			</Arg>
+		</onEnterBunchSpace>
+		<onEnterMagicMazeSpace>
+			<Arg>	INT32			</Arg>
+		</onEnterMagicMazeSpace>
+		<actBunch_joinNotarize>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</actBunch_joinNotarize>
+		<actBunch_join>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</actBunch_join>
+		<actBunch_abandon>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</actBunch_abandon>
+
+		<telportLMZCActivity>
+			<Arg>	INT32	</Arg>
+		</telportLMZCActivity>
+		<CELL_requestSameCampPos>
+			<Exposed/>
+		</CELL_requestSameCampPos>
+
+		<enterActBunch>
+			<Exposed/>
+		</enterActBunch>
+		<abandonActBunch>
+			<Exposed/>
+		</abandonActBunch>
+		<actBunch_onAddJoinner>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32	</Arg>
+		</actBunch_onAddJoinner>
+		<tongStarcraft_firstSignUp>
+			<Exposed/>
+			<Arg>	ARRAY_STRING			</Arg>
+			<Arg>	ARRAY_STRING			</Arg>
+			<Arg>	ARRAY_STRING			</Arg>
+			<Arg>	ARRAY_STRING			</Arg>
+		</tongStarcraft_firstSignUp>
+		<tongStarcraft_SecondSignUp>
+			<Exposed/>
+			<Arg>	ARRAY_STRING			</Arg>
+		</tongStarcraft_SecondSignUp>
+		<telportFrozenFightActivity>
+			<Arg>	INT32			</Arg>
+		</telportFrozenFightActivity>
+		<leaveFrozenFight>
+			<Exposed/>
+		</leaveFrozenFight>
+		<CELL_YXLMBackToCity>
+			<Exposed/>
+		</CELL_YXLMBackToCity>
+		<CELL_YXLMBuyRandomScriptID>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</CELL_YXLMBuyRandomScriptID>
+		<shiFangChengJoinNotice>
+			<Arg>	INT32			</Arg>
+		</shiFangChengJoinNotice>
+		<CELL_enterShiFangCheng>
+			<Exposed/>
+		</CELL_enterShiFangCheng>
+		<CELL_abandonShiFangeCheng>
+			<Exposed/>
+		</CELL_abandonShiFangeCheng>
+		<yeZhanFengQiJoinNotice>
+		</yeZhanFengQiJoinNotice>
+		<enterYeZhanFengQi>
+			<Exposed/>
+		</enterYeZhanFengQi>
+		<CELL_onEnterActivityCircleArea>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</CELL_onEnterActivityCircleArea>
+		<CELL_onLeaveActivityCircleArea>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</CELL_onLeaveActivityCircleArea>
+		<CELL_leaveYeZhanFengQi>
+			<Exposed/>
+		</CELL_leaveYeZhanFengQi>
+		<CELL_onUseItemJZYT>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</CELL_onUseItemJZYT>
+		<firstTongStarcraftSignUp>
+			<Exposed/>
+			<Arg> ARRAY_UNICODE </Arg>
+		</firstTongStarcraftSignUp>
+		<onUseItemXKTB>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</onUseItemXKTB>
+		<onManMachineData>
+ 			<Arg>	PYTHON			</Arg>
+ 			<Arg>	INT32			</Arg>
+  		</onManMachineData>
+  		<tongCampWarSignUp>
+  			<Exposed/>
+  			<Arg> ARRAY_UNICODE </Arg>
+  		</tongCampWarSignUp>
+  		<CELL_onUseItemTJP>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</CELL_onUseItemTJP>
+		<telportFHLTActivity>
+			<Arg>	INT32	</Arg>
+		</telportFHLTActivity>
+		<onLeaveActivityFHLTCopy>
+			<Exposed/>
+		</onLeaveActivityFHLTCopy>
+  		<CELL_onUseItemWSYC>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</CELL_onUseItemWSYC>
+ 		<campRandomFitJoin/>
+ 		<campRandomFitQuit/>
+ 		<declareBHZBPoint>
+ 			<Exposed/>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</declareBHZBPoint>
+ 		<cancelDeclareBHZBPoint>
+ 			<Exposed/>
+ 			<Arg>	INT32			</Arg>
+ 		</cancelDeclareBHZBPoint>
+ 		<joinBHZBPointFight>
+ 			<Exposed/>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</joinBHZBPointFight>
+ 		<cancelJoinBHZBPointFight>
+ 			<Exposed/>
+ 			<Arg>	INT32			</Arg>
+ 		</cancelJoinBHZBPointFight>
+ 		<requestGotoNPCExtPointWar>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 			<Arg>	CELL_ENTITYCALL	</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 		</requestGotoNPCExtPointWar>
+ 		<callTeamToProtect>
+ 			<Exposed/>
+			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	UNICODE		</Arg>
+ 		</callTeamToProtect>
+ 		<callTeamToAttack>
+ 			<Exposed/>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	UNICODE		</Arg>
+ 		</callTeamToAttack>
+ 		<requestGotoBHZBHomeBarrack>
+ 			<Exposed/>
+ 			<Arg>	STRING			</Arg>
+ 		</requestGotoBHZBHomeBarrack>
+ 		<setIsDeclarePointBHZB>
+ 			<Arg>	BOOL			</Arg>
+ 		</setIsDeclarePointBHZB>
+ 		<requestPointDetails>
+ 			<Exposed/>
+ 			<Arg>	INT32			</Arg>
+ 		</requestPointDetails>
+ 		<onEnterBHZBPointWar>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	PYTHON_DICT			</Arg>
+ 		</onEnterBHZBPointWar>
+ 		<defenseBHZBPoint>
+ 			<Exposed/>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</defenseBHZBPoint>
+ 		<requestOpenBHZBIntegralRank>
+			<Exposed/>
+		</requestOpenBHZBIntegralRank>
+		<requestOpenBHZBNpcPointMap>
+			<Exposed/>
+		</requestOpenBHZBNpcPointMap>
+		<signUpGCZ>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</signUpGCZ>
+		<matchGCZSuccess>
+			<Arg>	STRING			</Arg>
+		</matchGCZSuccess>
+		<onEnterGCZSpace>
+			<Arg>	STRING			</Arg>
+		</onEnterGCZSpace>
+		<battleActivitySignUp/>
+		<battleActivitySignOut/>
+		<isHasMatchBattleActivity/>
+		<onEnterLMZC/>
+	</CellMethods>
+</root>

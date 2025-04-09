@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopyStory",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_DLDC",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_DLDC",
+"NavmeshPath"	: "space\\L_JGDT_NAVMESH",
+"PatrolRouteFile": "P_L_DLDC",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_TQG",
+	"Position"	: "2920.0 -12430.0 624.0",
+	"Direction"	: "0.0 0.0 -147"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_DLDC",
+	"eventFile":"SE_L_DLDC"
+	},
+"DomainData"	:{
+	}
+}

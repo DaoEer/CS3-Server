@@ -1,0 +1,36 @@
+﻿{
+"SpaceName"	: "十方城",
+"EntityType"	: "SpaceCopyShiFangCheng",
+"DomainType"	: "SpaceDomainCopyShiFangCheng",
+"EntityScript"	: "SpaceCopyShiFangCheng",
+"scriptID"	: "fu_ben_SFC_01",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_SFC_01",
+"NavmeshPath"	: "space\\L_SFC_NAVMESH",
+"PatrolRouteFile": "P_SFC_01",
+"belongType"	: "1",
+"bunchSpaceScriptID" : "",
+"spaceChildType":"SPACE_CHILD_TYPE_SFC",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C001502|C001503"},
+	"enterPosition":"-273 55025 827",
+	"enterDirection":"0 0 -90",
+	"stageFile":"SS_L_SFC_01",
+	"eventFile":"SE_L_SFC_01",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+	"doorPos":"-390 -41400 11181",
+	"doorDir":"0 0 0",
+	"doorScriptID":"40000166",
+	"stageListStr":"1 3 4|1 3 4",
+	"wallID":"20008059"
+	},
+"DomainData"	:{
+	}
+}

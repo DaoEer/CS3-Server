@@ -1,0 +1,34 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 使用金击子击中冥气爆发的人参果，会出现弱化的冥妖，并可阻止人参果掉落。@B• 使用金击子击中正常的人参果，会出现强化的冥妖，但人参果会掉落。@B• 累积掉落15个人参果则任务失败。@B• 达到要求后，消灭的冥妖越多获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "消灭冥妖：", 
+                    "postfix": "个", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "add", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "2": {
+                    "title": "人参果掉落：", 
+                    "postfix": "个", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "AddCiKuCount", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "至少消灭6个冥妖"
+        }
+    }, 
+    "name": "冥气人参果"
+}

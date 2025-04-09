@@ -1,0 +1,95 @@
+{
+    "20101716": {
+        "tasks": [
+            {
+                "navigateData": "10000053#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "51552.0 9052.0 17175.0", 
+                "param1": "L_XYM", 
+                "id": 1, 
+                "name": "拜见帝江"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101716, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|3|4"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101759|20101761|20101762"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8544", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "624", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1192", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032565|Q032566|Q030505", 
+        "finish_by": "10000053#L_XYM", 
+        "taskLogDes": "@S{4}炼制魔鼎的九天息壤被仙道夺去，鲲鹏让你找祖巫帝江相助，设法取得燃灯道人手中的星辰之石以替代九天息壤。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032570|Q032574|Q030759", 
+        "nextQuest": "20101718", 
+        "taskCompleteFunctions": {}, 
+        "level": 25, 
+        "title": "星辰之石", 
+        "isAutoCommit": 1, 
+        "start_by": "10000029#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

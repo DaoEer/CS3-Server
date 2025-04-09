@@ -1,0 +1,153 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退缥缈阁守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001864|20001865|20001866|20001867", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(33700.2 64044.5 2743.2)#L_YZD_Planes003"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁护法", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003653|20003654", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(41617.1 68906.8 6090.9)#L_YZD_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退缥缈阁士兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001869|20001870|20001871|20001872", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(35436.6 71375.9 5002.8)#L_YZD_Planes003"
+                }
+            }, 
+            "title": "前往神殿"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁所有吞灵柱", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003656|20003657|20003658|20003659", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003656|20003657|20003658|20003659#L_YZD_Planes003"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁三煞", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002159|20002160|20002161", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002159|20002160|20002161#L_YZD_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁弟子", 
+                    "reqVal": 24, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003668|20003669|20003670|20003671|20003672|20003673|20003674|20003675", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003668|20003669|20003670|20003671|20003672|20003673|20003674|20003675#L_YZD_Planes003"
+                }
+            }, 
+            "title": "四方吞灵阵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "登上神殿平台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "42670 62100|46880 64540|48150 64160|42420 60970", 
+                    "param2": "12800|2800", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(47833.0 58603.0 7928.0)#L_YZD_Planes003"
+                }
+            }, 
+            "title": "进入神殿"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与女娲汇合", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "157", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(49228.0 55678.0 7951.0)#L_YZD_Planes003"
+                }
+            }, 
+            "title": "汇合女娲"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭金虚长老", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003676", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003676#L_YZD_Planes003"
+                }
+            }, 
+            "title": "大战金虚"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "清理神殿内所有的魔道势力", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "4", 
+                    "param2": "20003662", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20003668|20003669|20003670|20003671|20003672|20003673|20003674|20003675|20002159|20002160|20002161#L_YZD_Planes003"
+                }
+            }, 
+            "title": "占领神殿"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 0, 
+    "name": "灵源神殿（二）"
+}

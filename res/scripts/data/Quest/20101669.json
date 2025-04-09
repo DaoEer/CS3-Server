@@ -1,0 +1,90 @@
+{
+    "20101669": {
+        "tasks": [
+            {
+                "navigateData": "(113725.0 -59854.0 -17014.0)#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "击败天极神君"
+            }, 
+            {
+                "navigateData": "(113725.0 -59854.0 -17014.0)#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "取得吞天珠"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "饕餮体内的吞天珠被仙道天极神君夺走，无法施展神通找寻魔君秘宝，饕餮请你前往凤鸣南麓的天极道场击败天极神君，夺回吞天珠。", 
+        "id": 20101669, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101667"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3351", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "663", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1102", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "407", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}饕餮体内的吞天珠被仙道天极神君夺走，无法施展神通找寻魔君秘宝，饕餮请你前往凤鸣南麓的天极道场击败天极神君，夺回吞天珠。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101670", 
+        "taskCompleteFunctions": {}, 
+        "level": 13, 
+        "title": "吞天珠", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

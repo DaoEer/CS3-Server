@@ -1,0 +1,148 @@
+{
+    "20102543": {
+        "tasks": [
+            {
+                "navigateData": "(-5316.0 -32549.4 -2107.2)#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "-5316.0 -32549.4 -2107.2", 
+                "param1": "L_BQXB", 
+                "id": 1, 
+                "name": "到达阴风岗"
+            }, 
+            {
+                "navigateData": "20005353|20005354#L_BQXB", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20005353", 
+                "id": 2, 
+                "name": "消灭四翼幽灵"
+            }, 
+            {
+                "navigateData": "20005353|20005354#L_BQXB", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20005354", 
+                "id": 3, 
+                "name": "消灭裂刃幽灵"
+            }, 
+            {
+                "navigateData": "30000296#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "收服魑魅魍魉"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3094"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102543, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102531"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "31484", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "881", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9889", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1380", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045588|Q045589|Q040042", 
+        "finish_by": "10000630#L_BQXB", 
+        "taskLogDes": "@S{4}蓐收已指派丹朱为九黎族族长，日后便由他统领族人发扬魔门信仰。不过目下族中的守备力量较为薄弱，请斗士前去收服东面阴风岗和风嚎鬼林的势力，作为九黎族守备军。|@S{4}蓐收已指派丹朱为九黎族族长，日后便由他统领族人发扬魔门信仰。不过目下族中的守备力量较为薄弱，请斗士前去收服东面阴风岗和风嚎鬼林的势力，作为九黎族守备军。|@S{4}蓐收已指派丹朱为九黎族族长，日后便由他统领族人发扬魔门信仰。不过目下族中的守备力量较为薄弱，请斗士前去收服东面阴风岗和风嚎鬼林的势力，作为九黎族守备军。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102544", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncRemoveBuffer", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "14005202"
+                }, 
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "Q045590"
+                }
+            ]
+        }, 
+        "level": 32, 
+        "title": "阴风岗", 
+        "isAutoCommit": 1, 
+        "start_by": "10000630#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

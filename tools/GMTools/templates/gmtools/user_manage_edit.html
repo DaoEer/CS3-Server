@@ -1,0 +1,116 @@
+{% load staticfiles %}
+{% load custom_filter %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="views" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/static/images/favicon.ico">
+	<link rel="stylesheet" href="/static/dashboard.css">
+	<title>activities editor</title>
+	<link rel="stylesheet" href="/static/bootstrap-3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/jscalendar-1.0/calendar-win2k-cold-1.css" media="all" title="win2k-cold-1">
+
+	<script type="text/javascript" src="/static/jscalendar-1.0/calendar.js"></script>
+	<script type="text/javascript" src="/static/jacalendar-1.0/lang/calendar-en.js"></script>
+	<script type="text/javascript" src="/static/jacalendar-1.0/calendar-setup.js"></script>
+	<script type="text/javascript" src="/static/js/jquery-1.11.3.min.js"></script>
+	<script src="/static/js/jquery-1.11.3.min.js"></script>
+	<script src="/static/layer-2.1/layer.js"></script>
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+		}
+	</script>
+</head>
+<style>
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		width: 300px;
+		background-color: #555000;
+		color: #fff;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px 0;
+
+		/* 定位 */
+		position: absolute;
+		z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
+	}
+</style>
+<body>
+	{% if request.session.gm_level != 1 %}
+		你没有权限管理这个页面
+	{% else %}
+		<div class="col-sm-12 user-new">
+			<form name="form-horizontal" method="post" action="/gmtools/user_manage/edit/{{id}}/">
+				{% csrf_token %}
+				<input type="hidden" name="send_flag" id="hiddenField" value="1">
+				<div class = "row" style="margin: 1px 0px 0px 5px">
+					<div style="float:left;margin: 1px 0px 0px 10px">
+						<label style="width:70px;margin-top:5px;margin-bottom:20px;">用户账号:</label>
+					</div>
+					<div style="margin: 0px 0px 0px 95px;">
+						<div style="width:200px;float:left;">
+							<input type="text" name="userID" class="form-control" id="id_name" readonly = "true" value="{{userID|escape}}" />
+						</div>
+					</div>	
+					<div style="float:left;margin: 1px 0px 0px 40px">
+						<label style="width:70px;margin-top:5px;margin-bottom:20px;">用户名:</label>
+					</div>
+					<div style="margin: 0px 0px 0px 0px;">
+						<div style="width:200px;float:left;">
+						<input type="text" name="userName" class="form-control" id="id_name" readonly = "true" value="{{userName|escape}}"/>
+						</div>
+					</div>
+				</div>
+				<div class = "row" style="margin: 30px 0px 0px 5px; width: 500px">
+					<div style="margin: 0px 0px 0px 10px">
+						<div style = "width:120px;float:left;">
+							<label>修改管理员等级:</label>
+						</div>
+					</div>
+					<div style="margin: 0px 0px 0px 100px">
+						<label id="level_direction" data-toggle="tooltip" data-placement="right" title="第1等级用户可使用全部功能"><input type="radio" name="levelRadio" value="1" style = "zoom:112%;vertical-align:middle;margin:auto;height:20px;" {% if level == 1 %}checked{% endif %} />第1等级</label>
+						<label id="level_direction" data-toggle="tooltip" data-placement="right" title="第2等级用户除用户名管理、发奖审核的所有功能均开放"><input type="radio" name="levelRadio" value="2" style = "margin: 0px 0px 0px 15px;zoom:112%;vertical-align:middle;height:20px;" {% if level == 2 %}checked{% endif %} />第2等级</label>
+						<label id="level_direction" data-toggle="tooltip" data-placement="right" title="第3等级用户只有GM操作板块中的查询信息中的使用权限"><input type="radio" name="levelRadio" value="3" style = "margin: 0px 0px 0px 15px;zoom:112%;vertical-align:middle;height:20px;" {% if level == 3 %}checked{% endif %} />第3等级</label>
+					</div>
+				</div>
+				<div class="col-sm-2 col-sm-offset-4" style="margin: 0px 0px 0px 400px">
+					<button type="submit" class="btn btn-default">提交修改</button>
+				</div>
+			</div>
+			</form>
+			<p>&nbsp;</p>
+		</div>
+		<script src="/static/js/jquery-1.11.3.min.js"></script>
+		<script src="/static/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".level_direction").hover(function(){
+					$('[data-toggle="tooltip"]').tooltip()
+				});
+			});
+		</script>
+	{% endif %}
+</body>
+</html>

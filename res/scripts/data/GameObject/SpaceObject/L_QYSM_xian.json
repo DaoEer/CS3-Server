@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_QYSM_xian",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_QYSM_xian",
+"NavmeshPath"	: "space\\L_QYSM_NAVMESH",
+"PatrolRouteFile": "P_L_QYSM_xian",
+"belongType"	: "1",
+"SpaceAoi"	: 200.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_TYG",
+	"Position"	: "-1437.0 -12768.0 -185648.0",
+	"Direction"	: "0 0 -90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_QYSM_xian",
+	"eventFile":"SE_L_QYSM_xian"
+	},
+"DomainData"	:{
+	}
+}

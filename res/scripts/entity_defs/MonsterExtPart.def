@@ -1,0 +1,27 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<ownerID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		0				</Persistent>
+		</ownerID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

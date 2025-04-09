@@ -1,0 +1,91 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败荒火营卫士", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009355|20009356|20009357", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009355|20009356|20009357#L_FYP_Planes002"
+                }
+            }, 
+            "title": "攻入有穷部落"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败荒火营精卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009461|20009462", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4309.0 -16719.0 2548.0)#L_FYP_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败虚云", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009463", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009463#L_FYP_Planes002"
+                }
+            }, 
+            "title": "夺回有穷部落"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败血河", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009374", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8260.000000 -19875.287109 2225.157715)#L_FYP_Planes002"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击破牢笼，解救有穷部落族人", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009365", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-7260.000000 -20530.000000 2221.094238)#L_FYP_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败荒火营卫士", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009373", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8260.000000 -19875.287109 2225.157715)#L_FYP_Planes002"
+                }
+            }, 
+            "title": "营救有穷部落族人"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "夺回有穷部落"
+}

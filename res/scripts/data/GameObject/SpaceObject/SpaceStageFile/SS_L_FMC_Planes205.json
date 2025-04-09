@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "调皮灵兽小狐就在这商业区到处乱跑，速将它驱赶回小莲处。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将灵兽小狐驱赶回小莲处", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "驱赶灵兽"
+        }
+    }, 
+    "describe": "环任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "驱赶灵兽"
+}

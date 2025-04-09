@@ -1,0 +1,102 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭异兽妖卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009900|20009901|20009902", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009900|20009901|20009902#L_TXDF"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭异兽守卫", 
+                    "reqVal": 7, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009905|20009906|20009903|20009904", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009903|20009904#L_TXDF"
+                }
+            }, 
+            "title": "初探洞府"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败望天犼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009914", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009914#L_TXDF"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "营救珑月公主", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20009915#L_TXDF"
+                }
+            }, 
+            "title": "营救珑月公主"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败黑玄", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009909", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009909#L_TXDF"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败异兽灵卫", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009912|20009913", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009912|20009913#L_TXDF"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败异兽守卫", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009910|20009911", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009910|20009911#L_TXDF"
+                }
+            }, 
+            "title": "深入洞府"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "天邪洞府"
+}

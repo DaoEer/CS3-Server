@@ -1,0 +1,108 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭魔灵卫兵", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004565", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004565#L_TGLX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭魔灵妖卫", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004566", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004566#L_TGLX"
+                }
+            }, 
+            "title": "初探灵穴"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭魔灵斧手", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004571", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004571#L_TGLX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭魔灵长弓", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004572", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004572#L_TGLX"
+                }
+            }, 
+            "title": "孤军深入"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭赤承", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004573", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004573#L_TGLX"
+                }
+            }, 
+            "title": "扫除障碍"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败阴阳领主", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20004577#L_TGLX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往多宝洞天", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "27080 -16480 84.641113:2", 
+                    "param2": "3384.641113|-3384.641113", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20005018#L_TGLX"
+                }
+            }, 
+            "title": "奋战抗敌"
+        }
+    }, 
+    "describe": "魔道32级——阴阳晶石", 
+    "beginOnSpaceInit": 1, 
+    "name": "太古灵穴"
+}

@@ -1,0 +1,254 @@
+{
+    "39": {
+        "topo": {
+            "money": 1614, 
+            "rewardID": 571101, 
+            "exp": 4452
+        }, 
+        "xiulian": {
+            "money": 1614, 
+            "rewardID": 571101, 
+            "exp": 4452
+        }
+    }, 
+    "38": {
+        "topo": {
+            "money": 1550, 
+            "rewardID": 571101, 
+            "exp": 4273
+        }, 
+        "xiulian": {
+            "money": 1550, 
+            "rewardID": 571101, 
+            "exp": 4273
+        }
+    }, 
+    "43": {
+        "topo": {
+            "money": 1882, 
+            "rewardID": 571101, 
+            "exp": 5190
+        }, 
+        "xiulian": {
+            "money": 1882, 
+            "rewardID": 571101, 
+            "exp": 5190
+        }
+    }, 
+    "48": {
+        "topo": {
+            "money": 2235, 
+            "rewardID": 571201, 
+            "exp": 6164
+        }, 
+        "xiulian": {
+            "money": 2235, 
+            "rewardID": 571201, 
+            "exp": 6164
+        }
+    }, 
+    "49": {
+        "topo": {
+            "money": 2308, 
+            "rewardID": 571201, 
+            "exp": 6365
+        }, 
+        "xiulian": {
+            "money": 2308, 
+            "rewardID": 571201, 
+            "exp": 6365
+        }
+    }, 
+    "33": {
+        "topo": {
+            "money": 1240, 
+            "rewardID": 571001, 
+            "exp": 3419
+        }, 
+        "xiulian": {
+            "money": 1240, 
+            "rewardID": 571001, 
+            "exp": 3419
+        }
+    }, 
+    "32": {
+        "topo": {
+            "money": 1180, 
+            "rewardID": 571001, 
+            "exp": 3256
+        }, 
+        "xiulian": {
+            "money": 1180, 
+            "rewardID": 571001, 
+            "exp": 3256
+        }
+    }, 
+    "31": {
+        "topo": {
+            "money": 1122, 
+            "rewardID": 571001, 
+            "exp": 3095
+        }, 
+        "xiulian": {
+            "money": 1122, 
+            "rewardID": 571001, 
+            "exp": 3095
+        }
+    }, 
+    "30": {
+        "topo": {
+            "money": 1065, 
+            "rewardID": 571001, 
+            "exp": 2937
+        }, 
+        "xiulian": {
+            "money": 1065, 
+            "rewardID": 571001, 
+            "exp": 2937
+        }
+    }, 
+    "37": {
+        "topo": {
+            "money": 1486, 
+            "rewardID": 571001, 
+            "exp": 4097
+        }, 
+        "xiulian": {
+            "money": 1486, 
+            "rewardID": 571001, 
+            "exp": 4097
+        }
+    }, 
+    "36": {
+        "topo": {
+            "money": 1423, 
+            "rewardID": 571001, 
+            "exp": 3924
+        }, 
+        "xiulian": {
+            "money": 1423, 
+            "rewardID": 571001, 
+            "exp": 3924
+        }
+    }, 
+    "35": {
+        "topo": {
+            "money": 1361, 
+            "rewardID": 571001, 
+            "exp": 3753
+        }, 
+        "xiulian": {
+            "money": 1361, 
+            "rewardID": 571001, 
+            "exp": 3753
+        }
+    }, 
+    "34": {
+        "topo": {
+            "money": 1300, 
+            "rewardID": 571001, 
+            "exp": 3585
+        }, 
+        "xiulian": {
+            "money": 1300, 
+            "rewardID": 571001, 
+            "exp": 3585
+        }
+    }, 
+    "46": {
+        "topo": {
+            "money": 2091, 
+            "rewardID": 571201, 
+            "exp": 5768
+        }, 
+        "xiulian": {
+            "money": 2091, 
+            "rewardID": 571201, 
+            "exp": 5768
+        }
+    }, 
+    "40": {
+        "topo": {
+            "money": 1680, 
+            "rewardID": 571101, 
+            "exp": 4633
+        }, 
+        "xiulian": {
+            "money": 1680, 
+            "rewardID": 571101, 
+            "exp": 4633
+        }
+    }, 
+    "47": {
+        "topo": {
+            "money": 2163, 
+            "rewardID": 571201, 
+            "exp": 5965
+        }, 
+        "xiulian": {
+            "money": 2163, 
+            "rewardID": 571201, 
+            "exp": 5965
+        }
+    }, 
+    "45": {
+        "topo": {
+            "money": 2021, 
+            "rewardID": 571201, 
+            "exp": 5573
+        }, 
+        "xiulian": {
+            "money": 2021, 
+            "rewardID": 571201, 
+            "exp": 5573
+        }
+    }, 
+    "41": {
+        "topo": {
+            "money": 1746, 
+            "rewardID": 571101, 
+            "exp": 4816
+        }, 
+        "xiulian": {
+            "money": 1746, 
+            "rewardID": 571101, 
+            "exp": 4816
+        }
+    }, 
+    "44": {
+        "topo": {
+            "money": 1951, 
+            "rewardID": 571101, 
+            "exp": 5380
+        }, 
+        "xiulian": {
+            "money": 1951, 
+            "rewardID": 571101, 
+            "exp": 5380
+        }
+    }, 
+    "42": {
+        "topo": {
+            "money": 1814, 
+            "rewardID": 571101, 
+            "exp": 5002
+        }, 
+        "xiulian": {
+            "money": 1814, 
+            "rewardID": 571101, 
+            "exp": 5002
+        }
+    }, 
+    "50": {
+        "topo": {
+            "money": 2382, 
+            "rewardID": 571201, 
+            "exp": 6569
+        }, 
+        "xiulian": {
+            "money": 2382, 
+            "rewardID": 571201, 
+            "exp": 6569
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭鬼灵守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006872|20006873", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006872|20006873#L_BQXB_Planes012"
+                }
+            }, 
+            "title": "初闯敌寨"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "决战魑魅魍魉", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006876|20006877", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-3440.0 -5530.0 -2660.0)#L_BQXB_Planes012"
+                }
+            }, 
+            "title": "决战到底"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭鬼灵伏兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006879|20006880", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006879|20006880#L_BQXB_Planes012"
+                }
+            }, 
+            "title": "深入敌营"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "攻占天风寨"
+}

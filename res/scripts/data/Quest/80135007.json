@@ -1,0 +1,89 @@
+{
+    "80135007": {
+        "tasks": [
+            {
+                "navigateData": "10001010#L_FYP#2", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "5", 
+                "param2": "-26360.0 -51040.0 2174.0", 
+                "param1": "L_FYP", 
+                "id": 1, 
+                "name": "前往飞云坡找到广成子"
+            }, 
+            {
+                "navigateData": "10001010#L_FYP", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskGuessGame", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "发起猜大小挑战并赢3次"
+            }, 
+            {
+                "navigateData": "10001010#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001010", 
+                "id": 3, 
+                "name": "与广成子交谈"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000089"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135007, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000089", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "猜大小", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

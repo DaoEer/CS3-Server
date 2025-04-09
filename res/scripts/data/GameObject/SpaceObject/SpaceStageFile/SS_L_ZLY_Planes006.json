@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄阴小妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006217|20006218|20006219|20006220|20006221", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006217|20006218|20006219|20006220|20006221#L_ZLY_Planes006"
+                }
+            }, 
+            "title": "剿灭玄阴小妖"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "对战玄阴鬼王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "touxiang", 
+                    "param2": "20006226", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20006226#L_ZLY_Planes006"
+                }
+            }, 
+            "title": "降服玄阴鬼王"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "玄阴秘境"
+}

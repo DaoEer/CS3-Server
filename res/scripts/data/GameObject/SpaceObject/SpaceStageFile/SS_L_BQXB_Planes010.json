@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟战士", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005378|20005379|20005377", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-26680 -34590 108)#L_BQXB_Planes010"
+                }
+            }, 
+            "title": "援助被围攻的九黎族人"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救姜吼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20005393", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005393#L_BQXB_Planes010"
+                }
+            }, 
+            "title": "解救姜吼"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭云峰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005381", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005381#L_BQXB_Planes010"
+                }
+            }, 
+            "title": "消灭云峰"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "九黎之危"
+}

@@ -1,0 +1,32 @@
+﻿{
+"SpaceName"	: "追击鱼怪",
+"EntityType"	: "SpaceCopyTong",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyTong",
+"scriptID"	: "L_ZSGY",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_ZSGY",
+"NavmeshPath"	: "space\\L_ZSGY_NAVMESH",
+"PatrolRouteFile": "P_L_ZSGY",
+"SpaceHoldEffect"	:"101010106",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_BHLD",
+	"Position"	: "4058.0 -5510.0 212.0",
+	"Direction"	: "0.0 0.0 -1.71"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_ZSGY",
+	"eventFile":"SE_L_ZSGY",
+	"monsterUseSpaceLevel":1,
+	"logoutCloseTime":1,
+	"reqLevel":20,
+	"doorData":[
+		{"scriptID":40000228, "position":"-29020.0 -54810.0 130.0", "direction":"0 0 -55"},
+		{"scriptID":40000229, "position":"-28790.0 -56510.0 130.0", "direction":"0 0 -55"}
+		      ]
+	},
+"DomainData"	:{
+	}
+}

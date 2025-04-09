@@ -1,0 +1,72 @@
+[
+    {
+        "NextLevelID": 181101002, 
+        "Level": 1, 
+        "Quality": 1, 
+        "ID": "181101001", 
+        "Name": "181101001"
+    }, 
+    {
+        "NextLevelID": 181101003, 
+        "Level": 2, 
+        "Quality": 1, 
+        "ID": "181101002", 
+        "Name": "181101002"
+    }, 
+    {
+        "NextLevelID": 181101004, 
+        "Level": 3, 
+        "Quality": 1, 
+        "ID": "181101003", 
+        "Name": "181101003"
+    }, 
+    {
+        "NextLevelID": 181101005, 
+        "Level": 4, 
+        "Quality": 1, 
+        "ID": "181101004", 
+        "Name": "181101004"
+    }, 
+    {
+        "NextLevelID": 181101006, 
+        "Level": 5, 
+        "Quality": 1, 
+        "ID": "181101005", 
+        "Name": "181101005"
+    }, 
+    {
+        "NextLevelID": 181101007, 
+        "Level": 6, 
+        "Quality": 1, 
+        "ID": "181101006", 
+        "Name": "181101006"
+    }, 
+    {
+        "NextLevelID": 181101008, 
+        "Level": 7, 
+        "Quality": 1, 
+        "ID": "181101007", 
+        "Name": "181101007"
+    }, 
+    {
+        "NextLevelID": 181101009, 
+        "Level": 8, 
+        "Quality": 1, 
+        "ID": "181101008", 
+        "Name": "181101008"
+    }, 
+    {
+        "NextLevelID": 181101010, 
+        "Level": 9, 
+        "Quality": 1, 
+        "ID": "181101009", 
+        "Name": "181101009"
+    }, 
+    {
+        "NextLevelID": 0, 
+        "Level": 10, 
+        "Quality": 1, 
+        "ID": "181101010", 
+        "Name": "181101010"
+    }
+]

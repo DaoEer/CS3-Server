@@ -1,0 +1,29 @@
+<root>
+	<Parent>
+		SpellBox
+	</Parent>
+	
+	<Interfaces>
+	</Interfaces>
+	
+	<Properties>
+		<keeperDBID>			<!--第一个归属者DBID-->
+			<Type>			DBID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</keeperDBID>
+		<keepTime>			<!--第一个归属者DBID-->
+			<Type>			TIME		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+			<Persistent>	false		</Persistent>
+		</keepTime>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

@@ -1,0 +1,36 @@
+<root>
+	<Volatile>
+		<position>-1</position>
+		<yaw>-1</yaw>
+		<pitch>-1</pitch>
+		<roll>-1</roll>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	GhostReceiverObject		</Interface>
+	</Interfaces>
+
+	<Properties>
+                <scriptID>
+			<Type>		SCRIPT_ID			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Persistent>	false				</Persistent>
+		</scriptID>
+		<deathTime>			<!--  销毁事件 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1.0			</Default>
+		</deathTime>
+		<ownerID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>		0				</Persistent>
+		</ownerID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

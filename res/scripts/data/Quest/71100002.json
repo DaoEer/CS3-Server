@@ -1,0 +1,97 @@
+{
+    "71100002": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestBuildDongFu", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "建造洞府"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "C001816"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 71100002, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [], 
+        "script": "QuestScriptQiYuan", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestQiYuan", 
+        "rewards": [
+            {
+                "param2": "30", 
+                "param3": "", 
+                "description": "木材", 
+                "param1": "203020058", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "30", 
+                "param3": "", 
+                "description": "石材", 
+                "param1": "203020059", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "30", 
+                "param3": "", 
+                "description": "玄铁石", 
+                "param1": "203020060", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "10", 
+                "param3": "", 
+                "description": "初级伐木斧", 
+                "param1": "303020001", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "10", 
+                "param3": "", 
+                "description": "初级鹤嘴锄", 
+                "param1": "303020005", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}总算找到洞府地基了，赶紧开始建造自己的洞府吧。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "C001828|C001999"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "建造洞府", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 0
+    }
+}

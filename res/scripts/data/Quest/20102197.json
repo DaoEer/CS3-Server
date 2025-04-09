@@ -1,0 +1,58 @@
+{
+    "20102197": {
+        "tasks": [
+            {
+                "navigateData": "(-10873.341797 5969.546875 529.850220)#L_MWD_xian", 
+                "goal": 0, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "击败祖巫帝江，救回帝俊元神"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102197, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102196"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "10000000#L_YXG", 
+        "taskLogDes": "@S{4}请你随太一闯入魔王殿，消灭祖巫帝江，救回帝俊元神。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q051299|Q051301", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "魔王殿之战", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "99999992": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "18115.595703 81375.328125 657.412109", 
+                "param1": "L_BQXB", 
+                "id": 1, 
+                "name": "前往荒火营"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 99999992, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "42"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q010411|Q010413", 
+        "finish_by": "10000001", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102605", 
+        "taskCompleteFunctions": {}, 
+        "level": 42, 
+        "title": "巨龙族", 
+        "isAutoCommit": 1, 
+        "start_by": "10000001", 
+        "isAutoAccept": 1
+    }
+}

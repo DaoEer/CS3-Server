@@ -1,0 +1,146 @@
+{% extends "gmtools/notice/notice_base.html" %}
+{% load custom_filter %}
+{% block head_js %}
+	<script src="/static/laydate/laydate.js"></script> 
+{% endblock %}
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">定时公告</h2>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/notice/timingnotice/">{% csrf_token %}
+			<input type="hidden" name="sendFlag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class = "row">
+					<div style="width:100px;float:left;">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">发送时间:</label>
+					</div>
+					<div style="width:1000px;">
+						<div style="width:130px;float:left;">
+							<input type="text" name="sendDate" style="width:125px" class="form-control" id="id_send_date" placeholder="请选择发送日期" readonly="readonly" value="{{ noticeInfo.sendDate }}"/>
+						</div>
+						<div style="width:150px;float:left;">
+							<input type="text" name="sendTime" style="width:125px" class="form-control" id="id_send_time" placeholder="请选择发送时间" readonly="readonly" value="{{ noticeInfo.sendTime }}"/>
+						</div>
+					</div>
+				</div>
+				<div class = "row">
+					<div style="width:1000px;">
+						<div style="width:100px;float:left;">
+							<label style="width:100px;margin-top:5px;margin-bottom:20px;">发送次数:</label>
+						</div>
+						<div style="width:125px;float:left;">
+							<input type="text" name="sendNumber" style="width:80px" class="form-control" value="{{ noticeInfo.sendNumber }}"/>
+						</div>
+					</div>
+					<div style="width:1000px;">
+						<div style="width:100px;float:left;">
+							<label style="width:100px;margin-top:5px;margin-bottom:20px;">时间间隔:</label>
+						</div>
+						<div style="width:125px;float:left;">
+							<input type="text" name="timeInterval" style="width:80px" class="form-control" value="{{ noticeInfo.timeInterval }}"/>
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" name="timingSendBtn" class="btn btn-default">定时发送</button>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" name="queryTimingNoticeInfoBtn" class="btn btn-default">查看定时公告</button>
+					</div>
+				</div>
+				<div class="row">
+					<div style="width:100px;float:left;">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">公告标题:</label>
+					</div>
+					<div style="width:125px;float:left;">
+						<input type="text" name="noticeName" style="width:300px" class="form-control" value="{{ noticeInfo.noticeName }}"/>
+					</div>
+				</div>
+				<div class="row">
+					<div style="width:1000px;">
+						<div style="width:100px;float:left;">
+							<label style="width:100px;margin-top:5px;margin-bottom:20px;">公告内容:</label>
+						</div>
+						<div style="width:600px;float:left;">
+							<textarea name="noticeContent" rows="10" maxlength="100" class="form-control" id="id_notice_content">{{noticeInfo.noticeContent}}</textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	{% if queryflag %}
+		<div class="table-responsive">
+			<div class="form-group col-sm-12">
+				<h4 class="sub-header">查询结果                                            </h4>
+				<table class="table table-striped table-condensed">
+					<thead>
+						<tr>
+							<th>公告标题</th>
+							<th>发送次数</th>
+							<th>条间隔</th>
+							<th>发布时间</th>
+							<th>编辑</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for data in datas %}
+							<tr>
+								<td>{{ data.name }}</td>
+								<td>{{ data.sendNumber }}</td>
+								<td>{{ data.itemInterval }}</td>
+								<td>{{ data.cmd_str }}</td>
+								<td>
+									<button type="button" class="btn btn-default" onClick="activity_delete('{{ data.name }}', '{{ data.key }}', '{{ data.cmd }}', '{{ data.cmd_str }}', '{{ data.sendNumber }}', '{{ data.itemInterval }}', '{{ data.groupInterval }}', '{{ data.noticeContent }}')">删除</button>
+								</td>
+							 </tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	{% endif %}
+{% endblock %}
+
+{% block tail_js %}
+	<script>$(".m_notice_manage").addClass("active");</script>
+	<script>
+		laydate.render({
+			elem: '#id_send_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_send_time', //指定元素
+			type: "time"
+		});
+	</script>
+	<script>
+		function activity_delete(name, key, cmd, cmd_str, sendNumber, itemInterval, groupInterval, content)
+		{
+			href="/gmtools/notice/delete/?key="+ key + "&cmd=" + cmd + "&name=" + name + "&sendNumber=" + sendNumber + "&itemInterval=" + itemInterval + "&groupInterval=" +groupInterval + "&content=" + content+ "&cmd_str=" + cmd_str;
+			layer.confirm('确定要删除【'+ cmd_str + '】发布的公告【'+ name + '】?',{
+				btn:['确定','取消'],//按钮
+				title: "删除公告",
+				shade:0,
+			}, function(){
+				$.get(href,function(){
+					window.location.reload();
+				});
+			});
+		}
+	</script>
+{% endblock %}

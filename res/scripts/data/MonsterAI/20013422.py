@@ -1,0 +1,496 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 1, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {
+            1: {
+                "name": "通用战斗状态", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "呼叫同伴", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [
+                            1
+                        ], 
+                        "Conditions": [], 
+                        "id": 1
+                    }, 
+                    {
+                        "comment": "每隔3秒，将伤害最高的目标设为攻击目标", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction8", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition3", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "3"
+                            }
+                        ], 
+                        "id": 2
+                    }, 
+                    {
+                        "comment": "距离玩家超过2米开始追击", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction73", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "2"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition23", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "2"
+                            }
+                        ], 
+                        "id": 3
+                    }, 
+                    {
+                        "comment": "永久霸体", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction75", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "10000001"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "10000001"
+                            }
+                        ], 
+                        "id": 4
+                    }, 
+                    {
+                        "comment": "记录时间t1+喊话", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "t1"
+                            }, 
+                            {
+                                "script": "AIAction21", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "8"
+                            }, 
+                            {
+                                "script": "AIAction30", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "C001726", 
+                                "param1": "79|20"
+                            }
+                        ], 
+                        "EID": [
+                            7
+                        ], 
+                        "Conditions": [], 
+                        "id": 7
+                    }, 
+                    {
+                        "comment": "波浪+清除时间t1+EAI+喊话", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction23", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "1149.9 3709.9 1530.0", 
+                                "param1": "20013433"
+                            }, 
+                            {
+                                "script": "AIAction18", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "t1"
+                            }, 
+                            {
+                                "script": "AIAction21", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "7"
+                            }, 
+                            {
+                                "script": "AIAction30", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "C001730", 
+                                "param1": "79|20"
+                            }
+                        ], 
+                        "EID": [
+                            8
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition12", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "30", 
+                                "param1": "t1"
+                            }
+                        ], 
+                        "id": 8
+                    }, 
+                    {
+                        "comment": "记录时间t2", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "t2"
+                            }, 
+                            {
+                                "script": "AIAction21", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "10"
+                            }
+                        ], 
+                        "EID": [
+                            9
+                        ], 
+                        "Conditions": [], 
+                        "id": 9
+                    }, 
+                    {
+                        "comment": "雷球+清除时间t2+EAI", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction18", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "t2"
+                            }, 
+                            {
+                                "script": "AIAction21", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "9"
+                            }, 
+                            {
+                                "script": "AIAction85", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "20013434"
+                            }
+                        ], 
+                        "EID": [
+                            10
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition12", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "20", 
+                                "param1": "t2"
+                            }
+                        ], 
+                        "id": 10
+                    }, 
+                    {
+                        "comment": "目标位置", 
+                        "odds": 0.20000000298, 
+                        "Actions": [
+                            {
+                                "script": "AIAction4", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "122304002"
+                            }, 
+                            {
+                                "script": "AIAction21", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "13"
+                            }, 
+                            {
+                                "script": "AIAction18", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "t3"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition12", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "6", 
+                                "param1": "t3"
+                            }
+                        ], 
+                        "id": 12
+                    }, 
+                    {
+                        "comment": "t3", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "t3"
+                            }
+                        ], 
+                        "EID": [
+                            13
+                        ], 
+                        "Conditions": [], 
+                        "id": 13
+                    }, 
+                    {
+                        "comment": "距离玩家小于3米攻击或者远离", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction71", 
+                                "param5": "20", 
+                                "param4": "122304001|122305001|122306001", 
+                                "param3": "2.5", 
+                                "param2": "1", 
+                                "param1": "0.9"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition24", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "3"
+                            }
+                        ], 
+                        "id": 5
+                    }
+                ], 
+                "eventsAI": {
+                    9: [
+                        {
+                            "comment": "收到666变成中立", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction38", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "2"
+                                }
+                            ], 
+                            "EID": [
+                                18
+                            ], 
+                            "Conditions": [
+                                {
+                                    "script": "AICondition25", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "666", 
+                                    "param1": ""
+                                }
+                            ], 
+                            "id": 18
+                        }
+                    ], 
+                    5: [
+                        {
+                            "comment": "攻击下一个目标", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction13", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": ""
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [], 
+                            "id": 6
+                        }
+                    ], 
+                    22: [
+                        {
+                            "comment": "开启光墙", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction135", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "5"
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [], 
+                            "id": 17
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "0.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {
+            1: {
+                "name": "销毁小怪", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "销毁小弟", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction94", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "50", 
+                                "param2": "20013433|20013434|20010512", 
+                                "param1": "Monster"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [], 
+                        "id": 11
+                    }
+                ], 
+                "eventsAI": {
+                    21: [
+                        {
+                            "comment": "关闭光墙", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction136", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": ""
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [], 
+                            "id": 16
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }
+}

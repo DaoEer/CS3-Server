@@ -1,0 +1,20 @@
+<root>
+	<Parent>		MovingPlatform		</Parent>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<OnReadyToMoveBack/>
+		<OnReadyToMove/>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

@@ -1,0 +1,137 @@
+<root>
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<upAllBaseApps>
+			<Arg>	ARRAY_BASE_ENTITYCALL	</Arg>
+		</upAllBaseApps>
+
+		<broadcastChat>
+			<Arg>	CHAT_DATA	</Arg>
+		</broadcastChat>
+
+		<globalChat>
+			<Arg>	CHAT_DATA	</Arg>
+		</globalChat>
+
+		<receiveRelationUID>
+			<Arg>	INT32		</Arg>
+		</receiveRelationUID>
+
+		<remoteLookupRoleBaseByName>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</remoteLookupRoleBaseByName>
+		<remoteLookupRoleBaseByNameCB>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+		</remoteLookupRoleBaseByNameCB>
+		<kickRole>
+			<Arg>		UNICODE		</Arg>
+		</kickRole>		
+		<kickAction>
+			<Arg>		UNICODE		</Arg>
+		</kickAction>	
+		<gm_doActionForPlayer>
+ 			<Arg>		STRING	</Arg>
+ 			<Arg>		INT32	 	</Arg>
+		</gm_doActionForPlayer>
+		<globalWold>
+			<Arg>	INT32	</Arg> <!-- 参数 -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</globalWold>
+		<broadCastWoldMsg>
+			<Arg>	INT32	</Arg> <!-- 参数 -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</broadCastWoldMsg>
+		<broadAllPlayerUpdateRank>
+			<Arg>	UINT8	</Arg> <!-- 参数 -->
+		</broadAllPlayerUpdateRank>
+		<broadAllPlayerRankUpdateMsg>
+		    <Arg>	UINT8	</Arg> <!-- 参数 -->
+		</broadAllPlayerRankUpdateMsg>
+		<showCurBaseAppRole>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</showCurBaseAppRole>
+		<callBaseMethod>
+			<Arg>	STRING		</Arg>
+			<Arg>	PYTHON_TUPLE	</Arg>
+		</callBaseMethod>
+		<remoteCallCampPlayerMoraleCell>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT64	</Arg>
+			<Arg>	UINT64	</Arg>
+			<Arg>	UINT64	</Arg>
+			<Arg>	INT32	</Arg>
+		</remoteCallCampPlayerMoraleCell>
+		<playerClearCampKillerList>
+		</playerClearCampKillerList>
+		<playerResetCampData>
+		</playerResetCampData>
+		<remoteCallCampVenOline>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</remoteCallCampVenOline>
+		<remoteCallOnSetCampSwitch>
+			<Arg>	BOOL	</Arg>		
+		</remoteCallOnSetCampSwitch>
+		<!-- 聊天事件方法 		-->
+		<broadcastChatCamp>
+			<Arg>	CHAT_DATA	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</broadcastChatCamp>
+
+		<globalChatCamp>
+			<Arg>	CHAT_DATA	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</globalChatCamp>
+
+		<broadcastChatSchool>
+			<Arg>	CHAT_DATA	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</broadcastChatSchool>
+
+		<globalChatSchool>
+			<Arg>	CHAT_DATA	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</globalChatSchool>
+
+		<updateCellChatNum>
+		</updateCellChatNum>
+
+		<globalUpdateChatNum>
+		</globalUpdateChatNum>
+
+		<broadcastActivityRemind>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		UINT8		</Arg>
+		</broadcastActivityRemind>
+
+		<onRequestCrossServiceResult>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		STRING		</Arg>
+		</onRequestCrossServiceResult>
+		<onRequestReturnServerResult>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		STRING		</Arg>
+		</onRequestReturnServerResult>
+		
+		<fixedTimeUpdate>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</fixedTimeUpdate>
+		<broadcastLbcStatus>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT8	</Arg>
+		</broadcastLbcStatus>
+	</BaseMethods>
+</root>

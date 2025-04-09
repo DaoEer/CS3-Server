@@ -1,0 +1,119 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭白杨树妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001918|20001919", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001918|20001919#L_FMNL_Planes003"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭银杏妖树", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001926|20001927", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001926|20001927#L_FMNL_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭梧桐树魔", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001924|20001925", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001924|20001925#L_FMNL_Planes003"
+                }
+            }, 
+            "title": "消灭树妖"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭松树妖", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001912|20001913|20001914|20001915", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001912|20001913|20001914|20001915#L_FMNL_Planes003"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭暗魔树妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001899|20001900", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001899|20001900#L_FMNL_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭幻树妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001897|20001898", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001897|20001898#L_FMNL_Planes003"
+                }
+            }, 
+            "title": "消灭深处树妖"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "跟随哮天犬，找寻盘古气息", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "97761.007813 31370.587891 -9422.469727:12", 
+                    "param2": "-8000|-18000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(97761.007813 31370.587891 -9422.469727)#L_FMNL_Planes003"
+                }
+            }, 
+            "title": "探寻踪迹"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前方盘古气息浓烈，需探查一番", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "73370.000000 26060.000000 -7390.000000:10", 
+                    "param2": "-6000|-16000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(73370.000000 26060.000000 -7390.000000)#L_FMNL_Planes003"
+                }
+            }, 
+            "title": "继续深入"
+        }
+    }, 
+    "describe": "仙道10-12级任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "千妖万魔林"
+}

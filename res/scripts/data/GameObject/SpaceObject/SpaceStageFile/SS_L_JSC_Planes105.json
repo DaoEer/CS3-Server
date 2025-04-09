@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "阻止玄机子逃跑", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "238", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(28431.0 15366.0 21907.0)#L_JSC_Planes105"
+                }
+            }, 
+            "title": "追击玄机子"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄机子，夺回太虚境", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "37", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-33462.0 7934.999999999999 12338.0)#L_JSC_Planes105"
+                }
+            }, 
+            "title": "击败玄机子"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "阻止玄机子恢复体力", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "239", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-1164.0 49330.0 17605.0)#L_JSC_Planes105"
+                }
+            }, 
+            "title": "拦截玄机子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "追击玄机子"
+}

@@ -1,0 +1,142 @@
+<root>
+	<Interfaces>
+		<Interface> 	GameObject	</Interface>
+		<Interface>	TeamSpaceRelationInterface	</Interface>
+	</Interfaces>
+	<Properties>
+
+	</Properties>
+
+	<BaseMethods>
+		<join>
+			<Arg>	DBID		</Arg>	<!-- playerDBID -->
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- playerBase -->
+			<Arg>	INT32		</Arg>	<!-- playerProfession -->
+			<Arg>	INT32		</Arg>	<!-- eMetaClass -->
+			<Arg>	UINT8		</Arg>	<!-- level -->
+			<Arg>	BOOL		</Arg>
+			<Arg>	INT32		</Arg>	<!-- camp -->
+		</join>
+
+		<leave>
+			<Arg>	OBJECT_ID	</Arg>	<!-- srcEntityID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- dstEntityID -->
+		</leave>
+
+		<changeCaptain>
+			<Arg>	OBJECT_ID	</Arg>	<!-- newCaptainID -->
+		</changeCaptain>
+
+		<teammateLogout>
+			<Arg>	DBID		</Arg>	<!-- playerDBID -->
+		</teammateLogout>
+
+		<teammateLogin>
+			<Arg>	DBID		</Arg>	<!-- playerDBID -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- playerBase -->
+		</teammateLogin>
+
+		<setAllocation>
+			<Arg>	INT32		</Arg>	<!-- allocation -->
+		</setAllocation>
+
+		<setQuality>
+			<Arg>	INT32		</Arg>	<!-- quality -->
+		</setQuality>
+
+		<addTeamSign>
+			<Arg>	ENTITYCALL		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT32		</Arg>
+		</addTeamSign>
+
+		<changeTeamSigner>
+			<Arg>	OBJECT_ID	</Arg>
+		</changeTeamSigner>
+
+		<sendMessageToMember>
+			<Arg>	ARRAY_INT32	</Arg>	<!-- ids -->
+			<Arg>	INT32		</Arg>	<!-- msgType -->
+			<Arg>	STRING		</Arg>	<!-- msg -->
+		</sendMessageToMember>
+
+		<disband/>
+
+		<requestLeadTeamFollow>
+			<Arg>	ENTITYCALL		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</requestLeadTeamFollow>
+
+		<cancelLeadTeamFollow>
+			<Arg>	ENTITYCALL		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</cancelLeadTeamFollow>
+
+		<memberAcceptTeamFollow>
+			<Arg>	ENTITYCALL		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	ENTITYCALL		</Arg>
+		</memberAcceptTeamFollow>
+
+		<memberCancelTeamFollow>
+			<Arg>	ENTITYCALL		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UINT8		</Arg>
+		</memberCancelTeamFollow>
+		<memberShareBigMapCustomMarker>
+			<Arg>	ENTITYCALL		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION		</Arg>
+			<Arg>	INT32			</Arg>
+		</memberShareBigMapCustomMarker>
+		<setIsReqCopyCampYXLM>
+			<Arg>	BOOL			</Arg>
+		</setIsReqCopyCampYXLM>
+		<fastTeamOnReq>
+			<Arg>	STRING		</Arg>
+		</fastTeamOnReq>
+		<fastTeamOnCancel/>
+		<fastTeamReqTeam>
+			<Arg> BASE_ENTITYCALL </Arg>
+			<Arg>	STRING		</Arg>
+		</fastTeamReqTeam>
+		<setIsReqCopyCampSGMZ>
+			<Arg>	BOOL			</Arg>
+		</setIsReqCopyCampSGMZ>
+		<signUpSGMZ>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</signUpSGMZ>
+		<setIsReqCampRandomFit>
+			<Arg>	BOOL			</Arg>
+		</setIsReqCampRandomFit>
+
+		<onBHZBLeaveTeam>
+			<Arg>	OBJECT_ID	</Arg>	<!-- srcEntityID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- dstEntityID -->
+		</onBHZBLeaveTeam>
+
+		<setFastTeamMaxMemberNum>
+			<Arg>	INT32			</Arg>
+		</setFastTeamMaxMemberNum>
+		<onReceiveRemoteTeamApply>
+			<Arg> BASE_ENTITYCALL </Arg>
+			<Arg> UNICODE </Arg>
+			<Arg> DBID </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</onReceiveRemoteTeamApply>
+		<popOfflineTimeKey>
+		</popOfflineTimeKey>
+		<onDisbandTeamNotifyCallback>
+			<Arg>	DBID	</Arg>
+		</onDisbandTeamNotifyCallback>
+		<setIsReqBattle>
+			<Arg>	BOOL			</Arg>
+		</setIsReqBattle>			
+	</BaseMethods>
+</root>

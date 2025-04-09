@@ -1,0 +1,33 @@
+{
+"SpaceName"	: "急速穿梭",
+"EntityType"	: "SpaceCopyJiSuChuanSuo",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "cycle_L_JSCS",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_JSCS",
+"NavmeshPath"	: "space\\L_JSCS_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 80.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"startLifeOnInit" : 0,
+	"enterPosition":"720.0 4770.0 610.0",
+	"enterDirection":"0 0 -170",
+	"stageFile":"SS_L_JSCS",
+	"statisticsFile":"",
+	"eventFile":"SE_L_JSCS",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"clientShowSpaceLife" : 1
+	},
+"DomainData"	:{
+
+	}
+}

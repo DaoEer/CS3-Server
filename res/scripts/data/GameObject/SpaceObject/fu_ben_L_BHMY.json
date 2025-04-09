@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "冰火灵脉",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_BHMY",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_fu_ben_L_BHMY",
+"NavmeshPath"	: "space\\L_BHMY_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_BHMY",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_5",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C001477|C001478|C001479"},
+	"enterPosition":"-7430 15400 1708",
+	"enterDirection":"0 0 -150",
+	"stageFile":"SS_fu_ben_L_BHMY",
+	"eventFile":"SE_fu_ben_L_BHMY",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

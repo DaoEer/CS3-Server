@@ -1,0 +1,176 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+.navbar-brand-custom {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+.placeholders .from-group{
+  margin-bottom: 10px;
+}
+.userdata div{
+  margin-bottom: 0.5em;
+}
+.mail-style div{
+  margin-bottom: 0.5em;
+}
+.msg-broadcast div{
+  margin-bottom: 1em;
+}
+.msg-new div{
+  margin-bottom: 1em;
+}
+.goods-new div{
+  margin-bottom: 1em;
+}
+.act-edit div{
+  margin-bottom: 1em;
+}
+.act-new div{
+  margin-bottom: 1em;
+}
+.start-end-time button{
+  width: 8%;
+  margin-right: 1%;
+}
+.start-end-time .form-control{
+  width: 90%;
+  display:inline-block;
+}
+.user-new div{
+  margin-bottom: 1em;
+}
+
+.query-background{
+  width: 100%;
+  height: 100%;
+}
+.query-background img {
+  margin-top:7%;
+  z-index: -1;
+
+}
+.user-new div{
+  margin-bottom: 1em;
+}
+.navbar-fixed-top .container-fluid .navbar-header .navbar-brand-custom a{
+  text-decoration:none;
+  color:#FFFFFF;
+}
+.navbar-fixed-top .container-fluid .navbar-collapse .navbar-text a{
+  text-decoration:none;
+}
+
+.direction{
+  display: none;
+}
+
+.checkbox .auth_direction span{
+  margin-left: 4em;
+}

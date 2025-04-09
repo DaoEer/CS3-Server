@@ -1,0 +1,55 @@
+<root>
+	<Properties>
+		<entityEventSubscriptions>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+		</entityEventSubscriptions>
+		<entityEventNotices>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+		</entityEventNotices>		
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<entityEventSubscribe>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</entityEventSubscribe>
+		<entityEventUnsubscribe>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</entityEventUnsubscribe>
+		<entityEventRecieveNotify>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		PYTHON_LIST		</Arg>
+		</entityEventRecieveNotify>
+		<entityEventNotify>
+			<Arg>		INT32		</Arg>
+			<Arg>		PYTHON_LIST		</Arg>
+		</entityEventNotify>
+		<triggerEntityEvent>
+			<Arg>		INT32		</Arg>
+			<Arg>		PYTHON_LIST		</Arg>
+		</triggerEntityEvent>
+		<entityEventAttach>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</entityEventAttach>
+		<entityEventDetach>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</entityEventDetach>
+		<entityEventUnsubscribeAllEvents/>
+	</CellMethods>
+</root>

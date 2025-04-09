@@ -1,0 +1,115 @@
+{
+    "20102021": {
+        "tasks": [
+            {
+                "navigateData": "20004525|20004526#L_BQXB", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20004525|20004526", 
+                "id": 1, 
+                "name": "消灭翻天小妖"
+            }, 
+            {
+                "navigateData": "(21356.7 83005.9 732.8)#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "营救少典"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002036"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3082"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102021, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102013|20102140"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16532", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "669", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "7510", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1232", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045103|Q045104|Q040146|Q040148|Q040008", 
+        "finish_by": "10000454#L_BQXB", 
+        "taskLogDes": "@S{4}上古翻天兽闯入轩辕部落掳走了多名族人，公孙盘请你前往阪泉西部的苍泽林地，会合少典，一同救回族人。|@S{4}上古翻天兽闯入轩辕部落掳走了多名族人，公孙盘请你前往阪泉西部的苍泽林地，会合少典，一同救回族人。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q040156|Q040151", 
+        "nextQuest": "20102023", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "族人被掳", 
+        "isAutoCommit": 1, 
+        "start_by": "10000438#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

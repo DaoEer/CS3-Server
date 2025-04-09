@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "为饕餮护法", 
+                    "reqVal": 26, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011666|20011667|20011668|20011669|20011670|20011671|20011672|20011673|20011674|20011675|20011676|20011677|20011678|20011679|20011680|20011681|20011682|20011683|20011684|20011685|20011686|20011687|20011895|20011896|20011897|20011898", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011665#L_FMNL_Planes108"
+                }
+            }, 
+            "title": "为饕餮护法"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "骑乘饕餮", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20011665#L_FMNL_Planes108"
+                }
+            }, 
+            "title": "骑乘饕餮"
+        }
+    }, 
+    "describe": "饕餮已将天极神君吞入了腹中炼化，请你为饕餮护法。", 
+    "beginOnSpaceInit": 1, 
+    "name": "为饕餮护法"
+}

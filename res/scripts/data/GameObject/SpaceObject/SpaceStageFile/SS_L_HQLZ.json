@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入方形石格", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-311840.0 88270.0|-309409.8125 90018.046875|-307949.8125 87998.046875|-310379.8125 86238.046875", 
+                    "param2": "8295|-1705", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开启阵法"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得龙珠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "40000051", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "获取龙珠"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活阵灵", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "111", 
+                    "param2": "40000050", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "破解阵法"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "获取龙珠"
+}

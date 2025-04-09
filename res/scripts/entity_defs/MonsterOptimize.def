@@ -1,0 +1,93 @@
+<root>
+	<Parent> Monster </Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+
+	<Properties>
+		<_clientMovingIDIdx>
+			<Type>		UINT64			</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</_clientMovingIDIdx>
+		<clientMovingID>
+			<Type>		UINT64			</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</clientMovingID>
+		<clientMovingPathPoints>
+			<Type>		ARRAY_POSITION	</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</clientMovingPathPoints>
+		<clientMovingPathIdx>
+			<Type>		UINT8			</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</clientMovingPathIdx>
+		<clientMovingToEntityID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</clientMovingToEntityID>
+		<clientMovingToEntityDis>
+			<Type>		FLOAT		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</clientMovingToEntityDis>
+		<useRVOAvoidance>
+			<Type>			BOOL		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</useRVOAvoidance>
+		<rvoRadius>
+			<Type>			FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		300.0			</Default>
+		</rvoRadius>
+	</Properties>
+
+	<ClientMethods>
+		<movingToPointReady>
+			<Arg>	UINT64		</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	FLOAT		</Arg>
+		</movingToPointReady>
+	</ClientMethods>
+
+	<CellMethods>
+		<clientMovingAheadOver>
+			<Exposed/>
+			<Arg>	UINT64			</Arg>
+			<Arg>	POSITION	</Arg>
+		</clientMovingAheadOver>
+		<clientMovingOver>
+			<Exposed/>
+			<Arg>	UINT64			</Arg>
+		</clientMovingOver>
+		<clientMovingPointReadyCB>
+			<Exposed/>
+			<Arg>	UINT64			</Arg>
+			<Arg>	ARRAY_POSITION	</Arg>
+		</clientMovingPointReadyCB>
+		<clientMovingPointUpNodeIdx>
+			<Exposed/>
+			<Arg>	UINT8			</Arg>
+		</clientMovingPointUpNodeIdx>
+		<clientMovingPointUpWait>
+			<Exposed/>
+			<Arg>	POSITION	</Arg>
+		</clientMovingPointUpWait>
+		<clientMovingToEntityTickUp>
+			<Exposed/>
+			<Arg>	POSITION </Arg>
+		</clientMovingToEntityTickUp>
+	</CellMethods>
+</root>
+

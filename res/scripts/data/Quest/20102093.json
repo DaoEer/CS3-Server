@@ -1,0 +1,104 @@
+{
+    "20102093": {
+        "tasks": [
+            {
+                "navigateData": "(-18169.0 -22868.0 7303.0)#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "夺回六螭神车"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002054"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3031"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102093, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102092"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19925", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "787", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8832", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1542", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q042014|Q042015", 
+        "finish_by": "10000626#L_BQDB", 
+        "taskLogDes": "@S{4}帝俊请你前往云岚峰，从魔道手中夺回六螭神车。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042032|Q045120|Q042035", 
+        "nextQuest": "20102094", 
+        "taskCompleteFunctions": {}, 
+        "level": 34, 
+        "title": "云岚峰", 
+        "isAutoCommit": 1, 
+        "start_by": "10000638#L_TYG", 
+        "isAutoAccept": 1
+    }
+}

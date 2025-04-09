@@ -1,0 +1,96 @@
+{
+    "20101740": {
+        "tasks": [
+            {
+                "navigateData": "(47753.0 -7939.0 1056.0)#L_THG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "找到火魁长老"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002022"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101740, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101734|20101735"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19415", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1048", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2002", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1163", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032732|Q030900|Q030901", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}想要吞噬蛇炎星，必须先找到它的星核禁地所在。祖巫帝江请你先前往蛇炎星天火谷，降服火魁长老，获悉星核禁地的入口。|@S{4}想要吞噬蛇炎星，必须先找到它的星核禁地所在。祖巫帝江请你先前往蛇炎星天火谷，降服火魁长老，获悉星核禁地的入口。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030921", 
+        "nextQuest": "20101736|20101737|20101736|20101736", 
+        "taskCompleteFunctions": {}, 
+        "level": 29, 
+        "title": "魔鼎吞星（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000053#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

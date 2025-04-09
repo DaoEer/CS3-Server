@@ -1,0 +1,59 @@
+{
+    "20102688": {
+        "tasks": [
+            {
+                "navigateData": "10000342#L_PMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-21849.7 -19418.6 3976.7", 
+                "param1": "L_PMG", 
+                "id": 1, 
+                "name": "前往缥缈阁会合不动明王"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002047"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102688, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102687"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q059500|Q059501|Q059502|Q059503", 
+        "finish_by": "10000342#L_PMG", 
+        "taskLogDes": "@S{4}魔尊罗睺命你前去缥缈阁，会合不动明王，一同率兵攻打东极天。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q059504", 
+        "nextQuest": "20102689", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "会合明王", 
+        "isAutoCommit": 1, 
+        "start_by": "10000621#L_TMG", 
+        "isAutoAccept": 1
+    }
+}

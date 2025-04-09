@@ -1,0 +1,69 @@
+{
+    "20102194": {
+        "tasks": [
+            {
+                "navigateData": "(108954.820313 91315.039063 -2797.872070)#L_LYG_01", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往灵源谷"
+            }, 
+            {
+                "navigateData": "(108954.820313 91315.039063 -2797.872070)#L_LYG_01", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "找到灵气源头"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102194, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102193"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}要塞后方有两条路，太一让你往通往山底的路而行，找到飞魔岭的灵气源头，并使用封灵符进行封印。|@S{4}此处乃是灵源谷，请你消灭魔道的守军，找到灵气源头所在。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102195", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "攻打飞魔岭（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

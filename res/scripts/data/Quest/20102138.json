@@ -1,0 +1,122 @@
+{
+    "20102138": {
+        "tasks": [
+            {
+                "navigateData": "20009236|20009237|20009238#L_TLXS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010113", 
+                "id": 1, 
+                "name": "为风雨苍穹注入水系灵气"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002078"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010112"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102138, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1|1", 
+                "param1": "301010113|301010112"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102101"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1|1", 
+                "param1": "301010113|301010112"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "21700", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "853", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9578", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1721", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q042538|Q042539|Q042540", 
+        "finish_by": "10000716#L_YGG", 
+        "taskLogDes": "@F{fc=c41}风雨苍穹@D还需注入庞大的水系灵气，方能化作苍穹天幕遮挡十金乌的太阳真火。帝俊让你前往天麓雪山，为@F{fc=c41}风雨苍穹@D收取灵气。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042555", 
+        "nextQuest": "20102102", 
+        "taskCompleteFunctions": {}, 
+        "level": 36, 
+        "title": "雪山取灵", 
+        "isAutoCommit": 1, 
+        "start_by": "10000716#L_YGG", 
+        "isAutoAccept": 1
+    }
+}

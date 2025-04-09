@@ -1,0 +1,114 @@
+{
+	"1":{
+		"id":1,
+		"mallType":"0",
+		"itemID": 101040122,
+		"itemType"	: 1,
+		"subType":0,
+		"amount":-1,
+		"price"	:{
+				"xianShi":50,
+				"lingShi":100
+		},
+		"description":"",
+		"IsCoupons":0,
+		"openRule":
+			{
+				"timeLimit":[[2016,8,8,8,0,0,2018,9,9,9,0,0]]			
+			}	
+	},
+	"2":{
+		"id":2,
+		"mallType":"0",
+		"itemID": 101040123,
+		"itemType"	: 2,
+		"subType":0,
+		"IsCoupons":1,
+		"amount":-1,
+		"price"	:{
+			"xianShi":50,
+			"lingShi":100
+		},
+		"description":"",
+		"IsCoupons":1,
+		"openRule":
+			{
+				"amountLimit":5
+			}	
+	},
+	"3":{
+		"id":1,
+		"mallType":"1",
+		"itemID": 101040123,
+		"itemType"	: 1,
+		"subType":0,
+		"amount":-1,
+		"price"	:{
+				"xianShi":50,
+				"lingShi":100
+		},
+		"description":"",
+		"IsCoupons":0,
+		"openRule":
+			{
+				"timeLimit": [[2016,8,8,8,0,0,2018,9,9,9,0,0]],
+				"amountLimit":8
+			}	
+	},
+	"4":{
+		"id":2,
+		"mallType":"1",
+		"itemID": 101040122,
+		"itemType"	: 2,
+		"subType":0,
+		"IsCoupons":1,
+		"amount":-1,
+		"price"	:{
+			"xianShi":50,
+			"lingShi":100
+		},
+		"description":"",
+		"IsCoupons":1,
+		"openRule":
+			{
+
+			}	
+	},
+	"5":{
+		"id":1,
+		"mallType":"2",
+		"itemID": 101040123,
+		"itemType"	: 1,
+		"subType":0,
+		"amount":-1,
+		"price"	:{
+				"xianShi":50,
+				"lingShi":100
+		},
+		"description":"",
+		"IsCoupons":0,
+		"openRule":
+			{
+				"timeLimit": [[2016,8,8,8,0,0,2018,9,9,9,0,0]]
+			}	
+	},
+	"6":{
+		"id":2,
+		"mallType":"2",
+		"itemID": 101040124,
+		"itemType"	: 2,
+		"subType":0,
+		"IsCoupons":1,
+		"amount":-1,
+		"price"	:{
+			"xianShi":50,
+			"lingShi":100
+		},
+		"description":"",
+		"IsCoupons":1,
+		"openRule":
+			{
+				"amountLimit":10
+			}	
+	}
+}

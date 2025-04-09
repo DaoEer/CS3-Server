@@ -1,0 +1,22 @@
+<root>
+	<Interfaces>
+		<Interface>	PlatformObject		</Interface>
+		<Interface>	NPCAmbulantInterface	</Interface>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

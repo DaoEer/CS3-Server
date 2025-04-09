@@ -1,0 +1,94 @@
+{
+    "20101642": {
+        "tasks": [
+            {
+                "navigateData": "30000095#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往羽翎道场，制服白翎"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101642, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101621"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1249", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "567", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "921", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "345", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102080002|102080006|102080010|102080014", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q020694|Q020857", 
+        "finish_by": "10000286#L_FMNL", 
+        "taskLogDes": "@S{4}从飞凤族重明长老处得知，白翎族长已经投靠仙道，如今正在仙道羽翎道场中修行。请你前去踏平羽翎道场，制伏白翎。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020707", 
+        "nextQuest": "20101622", 
+        "taskCompleteFunctions": {}, 
+        "level": 11, 
+        "title": "羽翎道场", 
+        "isAutoCommit": 1, 
+        "start_by": "10000372#L_FMNL", 
+        "isAutoAccept": 1
+    }
+}

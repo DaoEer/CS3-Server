@@ -1,0 +1,63 @@
+{% extends "gmtools/notice/notice_base.html" %}
+{% load custom_filter %}
+
+
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">即时公告</h2>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/notice/instantnotice/">{% csrf_token %}
+			<input type="hidden" name="sendFlag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class = "row">
+					<div style="width:1000px;">
+						<div style="width:100px;float:left;">
+							<label style="width:100px;margin-top:5px;margin-bottom:20px;">发送次数:</label>
+						</div>
+						<div style="width:125px;float:left;">
+							<input type="text" name="sendNumber" style="width:80px" class="form-control" value="{{ noticeInfo.sendNumber }}"/>
+						</div>
+					</div>
+					<div style="width:1000px;">
+						<div style="width:100px;float:left;">
+							<label style="width:100px;margin-top:5px;margin-bottom:20px;">时间间隔:</label>
+						</div>
+						<div style="width:125px;float:left;">
+							<input type="text" name="timeInterval" style="width:80px" class="form-control" value="{{ noticeInfo.timeInterval }}"/>
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default">立即发送</button>
+					</div>
+				</div>
+				<div class="row">
+					<div style="width:1000px;">
+						<div style="width:100px;float:left;">
+							<label style="width:100px;margin-top:5px;margin-bottom:20px;">公告内容:</label>
+						</div>
+						<div style="width:600px;float:left;">
+							<textarea name="noticeContent" rows="10" maxlength="100" class="form-control" id="id_notice_content">{{noticeInfo.noticeContent}}</textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+{% endblock %}

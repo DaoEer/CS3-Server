@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "击退拦路的嘟嘟猪", 
+                    "reqVal": 17, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002253|20002254|20002255|20002256|20002257|20002258|20002260|20002261|20002262|20002263|20002264|20002265|20002266", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-6770.0 10540.0 -12430.0)#L_SMZZ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败嘟嘟猪王", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "233", 
+                    "param2": "20002270", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002270#L_SMZZ"
+                }
+            }, 
+            "title": "探索神脉沼泽"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回复命", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-12645.2 17810.0 -12175.3)#L_SMZZ"
+                }
+            }, 
+            "title": "返回复命"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "神脉沼泽"
+}

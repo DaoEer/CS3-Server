@@ -1,0 +1,102 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败水妖守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008769|20008770", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(38560.000000 48580.000000 -22498.439453)#L_YHS"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入幽河山", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "29230.000000 40850.000000 -22489.845703:30", 
+                    "param2": "-21900|-22998", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(29230.000000 40850.000000 -22489.845703)#L_YHS"
+                }
+            }, 
+            "title": "初探幽河山"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败万年山灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20008788#L_YHS"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往灵土秘境", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(15275.0 19445.0 -21754.0)#L_YHS"
+                }
+            }, 
+            "title": "勇斗山灵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败水妖守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008774|20008775", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(29230.000000 40850.000000 -22489.845703)#L_YHS"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败石冥及石奎", 
+                    "reqVal": 2, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008785|20008787", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008785|20008786|20008787#L_YHS"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续深入", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "23254.103516 30119.029297 -22478.283203:30", 
+                    "param2": "-21900|-22998", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(23254.103516 30119.029297 -22478.283203)#L_YHS"
+                }
+            }, 
+            "title": "深入幽河山"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "幽河山"
+}

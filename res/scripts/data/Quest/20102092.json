@@ -1,0 +1,96 @@
+{
+    "20102092": {
+        "tasks": [
+            {
+                "navigateData": "(-11349.0 3572.0 -186239.0)#L_TYG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "拷问守卫查出六螭神车下落"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102092, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010095"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102091"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13948", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "551", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6183", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1542", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045112|Q042008|Q042009", 
+        "finish_by": "10000638#L_TYG", 
+        "taskLogDes": "@S{4}帝俊已从看守神车的守卫中，发现了一个太阳宫叛徒。请你使用法宝戮神鞭拷问他，获悉六螭神车的下落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042012", 
+        "nextQuest": "20102093", 
+        "taskCompleteFunctions": {}, 
+        "level": 34, 
+        "title": "六螭神车", 
+        "isAutoCommit": 1, 
+        "start_by": "10000638#L_TYG", 
+        "isAutoAccept": 1
+    }
+}

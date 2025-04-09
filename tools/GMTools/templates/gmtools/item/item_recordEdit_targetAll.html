@@ -1,0 +1,71 @@
+{% load staticfiles %}
+{% load custom_filter %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="views" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/static/images/favicon.ico">
+	<link rel="stylesheet" href="/static/dashboard.css">
+	<title>activities editor</title>
+	<link rel="stylesheet" href="/static/bootstrap-3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/jscalendar-1.0/calendar-win2k-cold-1.css" media="all" title="win2k-cold-1">
+
+	<script type="text/javascript" src="/static/jscalendar-1.0/calendar.js"></script>
+	<script type="text/javascript" src="/static/jacalendar-1.0/lang/calendar-en.js"></script>
+	<script type="text/javascript" src="/static/jacalendar-1.0/calendar-setup.js"></script>
+	<script type="text/javascript" src="/static/js/jquery-1.11.3.min.js"></script>
+	<script src="/static/layer-2.1/layer.js"></script>
+</head>
+<body>
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+		}
+	</script>
+	<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+		<div id="target_specify" class="tab-pane">
+			<form id = "reg-form2" name="form-horizontal" method="post" action="/gmtools/item/item_issue/award_record_edit/">{% csrf_token %}
+				<div class="row" style="margin-top:20px;">
+					<h4 class="col-sm-2" style="line-height:14px;margin-left:15px;">标题：</h4>
+					<div class="col-sm-6" style="margin-left:-45px;">
+							<input name="title" type="text" class="form-control" value="{{title}}" maxlength="10" placeholder="请输入标题"/>
+					</div>
+				</div>
+				<div class="row" style="margin-top:20px;">
+					<h4 class="col-sm-2" style="line-height:14px;margin-left:15px;">内容：</h4>
+					<div class="col-sm-6" style="margin-left:-45px;">
+						<textarea name="content" rows="5" class="form-control" placeholder="请输入内容">{{content}}</textarea>
+					</div>
+				</div>
+				<div class="row" style="margin-top:20px;">
+					<h4 class="col-sm-2" style="line-height:14px;margin-left:15px;">物品：</h4>
+					<div class="col-sm-6" style="margin-left:-45px;">
+						<textarea name="item_info" rows="5" class="form-control" placeholder="请输入物品ID:数量">{{item_info}}</textarea>
+					</div>
+				</div>
+				<div class="col-sm-6 col-sm-offset-0" style="margin:10px 120px;">
+					<input type="hidden" name="target_type" value="target_all">
+					<input type="hidden" name="pk" value="{{pk}}">
+					<input name="submit_application" type="submit" value="确定" class="btn btn-default"style="width:100px;">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

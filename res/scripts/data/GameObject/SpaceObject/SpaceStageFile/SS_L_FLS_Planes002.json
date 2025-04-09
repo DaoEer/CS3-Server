@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭飞盗门弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003715|20003716", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003715|20003716#L_FLS_Planes002"
+                }
+            }, 
+            "title": "扫清障碍"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "从影风手中取回紫精魂", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010034", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20003723#L_FLS_Planes002"
+                }
+            }, 
+            "title": "夺回宝物"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "紫精魂"
+}

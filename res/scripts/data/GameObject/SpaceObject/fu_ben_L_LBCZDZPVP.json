@@ -1,0 +1,39 @@
+﻿{
+"EntityType"	: "SpaceCopyTrainingGround",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyTrainingGround",
+"scriptID"	: "fu_ben_L_LBCZDZPVP",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"spaceChildType": "SPACE_CHILD_TYPE_LBC",
+"SpawnFile"	: "fu_ben_L_BHZYZ_ZFBZDPVP",
+"NavmeshPath"	: "space\\L_BHZYZ_ZFBZD_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 200.0,
+"belongType"	: "0",
+"EnfityRelationMode":"RelationGCZ",
+"RoleRelationRule":"ROLE_RELATION_RULE_BLONG_SIDE",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "341 21841 10864",
+	"Direction"	: "0.0 0.0 -91"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 20,
+	"spaceIntroduce":{"voiceID":""},
+	"belongAttackScriptIDs":"30001083",
+	"belongProtectScriptIDs":"30001084|30001085|30001086|20013020|20013022|20013225",
+	"reviveType"	: "18|",
+	"forbidJumpSkillIDs":"240003001|240002001",
+	"teleportCD" :60,
+	"teleportPos":"-19798 -13180 2572|-6848 -24545 2471|-383 -19076 1680|13771 -27023 1798",
+	"teleportDir":"0 0 154|0 0 -167|0 0 149|0 0 120",
+	"enterPos":"-31035 10789 1156|-15479.0 -20014.0 2432.0",
+	"enterDir":"0 0 -89|0 0 177.6",
+	"stageFile":"",
+	"eventFile":"SE_L_BHZYZ_ZFBZDPVP",
+	"rewardExploitID":"620268"
+	},
+"DomainData"	:{
+	}
+}

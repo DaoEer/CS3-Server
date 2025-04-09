@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "前往前方高台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12500 -2970 2840:46", 
+                    "param2": "4000|2500", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "前往前方高台"
+        }, 
+        "3": {
+            "comment": "跳过前方深渊，到达对面高台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到达高台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "35510 -5860 6530:28", 
+                    "param2": "10000|5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "继续前进"
+        }, 
+        "2": {
+            "comment": "到达前方平台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "10948 -7919 3148:15", 
+                    "param2": "10000|3000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "继续前进"
+        }, 
+        "5": {
+            "comment": "通过前方阵柱，到达最后的平台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往最后的平台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "68040 -5580 13120:18", 
+                    "param2": "14000|10000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "到达最终平台"
+        }, 
+        "4": {
+            "comment": "通过隐身石柱，跳上前方高台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过隐身石柱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "49460.0 -6100 10110:24", 
+                    "param2": "12000|9000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "跳上高台"
+        }, 
+        "6": {
+            "comment": "通过前方石柱，开启控制机关，关闭石阵", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "关闭石阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "40001003", 
+                    "type": "SStageTask_triggerBox", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "关闭石阵，通关副本"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "奇门玄宫"
+}

@@ -1,0 +1,49 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<storyEffectIndex>		<!-- 镜头持有效果index -->
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</storyEffectIndex>
+	</Properties>
+
+	<ClientMethods>
+		<StartBuffPlayStory>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</StartBuffPlayStory>
+		<StopBuffStory>
+			<Arg>		INT32		</Arg>
+		</StopBuffStory>
+	</ClientMethods>
+
+	<CellMethods>
+		<onNotifyDoStoryEvent>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</onNotifyDoStoryEvent>
+		<onStopPlayStory>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</onStopPlayStory>
+		<onNotifyAddEffectList>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</onNotifyAddEffectList>
+		<onNotifyRemoveEffectList>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</onNotifyRemoveEffectList>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

@@ -1,0 +1,112 @@
+{
+    "20102169": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "将冰心安魂丹交给后羿"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0 0 0", 
+                "param2": "-15601.6 -15754.8 2202.8", 
+                "param1": "L_FYP"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102169, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "4"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "40"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102154|20102168"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17779", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "4135", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9424", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2134", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050207", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}太上老君命你将冰心安魂丹带往飞云坡有穷部落，交予后羿服下，助他炼化夸父魂珠。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050211", 
+        "nextQuest": "20102156", 
+        "taskCompleteFunctions": {}, 
+        "level": 40, 
+        "title": "冰心安魂丹", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126", 
+        "isAutoAccept": 0
+    }
+}

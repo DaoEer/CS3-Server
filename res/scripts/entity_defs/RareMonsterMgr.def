@@ -1,0 +1,23 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onSpaceInitOver>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</onSpaceInitOver>
+		<onStartRefreshNotice>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		SCRIPT_ID	</Arg>
+		</onStartRefreshNotice>
+		<onBossOnEnterDead>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>		SCRIPT_ID	</Arg>
+		</onBossOnEnterDead>
+	</BaseMethods>
+</root>

@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "击败击败熬承，解除仙藏封印！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败熬承", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014019", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败熬承"
+        }, 
+        "3": {
+            "comment": "恭喜道友取得奖励，前往传送门即可离开副本!", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "离开副本", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "40001032", 
+                    "type": "SStageTask_triggerBox", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "离开副本"
+        }, 
+        "2": {
+            "comment": "仙藏封印已解除，快前往开启吧！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得仙藏", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "40001035", 
+                    "type": "SStageTask_triggerBox", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "取得仙藏"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "龙王仙藏"
+}

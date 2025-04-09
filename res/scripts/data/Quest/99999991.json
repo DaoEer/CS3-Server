@@ -1,0 +1,111 @@
+{
+    "99999991": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "29900001", 
+                "id": 1, 
+                "name": "杀怪29900001"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "29900002", 
+                "id": 2, 
+                "name": "杀怪29900002"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "202010012", 
+                "id": 3, 
+                "name": "给物品：202010013"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 99999991, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "99999992"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "100", 
+                "param1": "100"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q010411|Q010413", 
+        "finish_by": "10000001", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q010414", 
+        "nextQuest": "99999999", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "202010012"
+                }
+            ], 
+            "3": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "202010014"
+                }
+            ], 
+            "2": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "202010013"
+                }
+            ]
+        }, 
+        "level": 100, 
+        "title": "皮皮虾我们走9", 
+        "isAutoCommit": 0, 
+        "start_by": "0", 
+        "isAutoAccept": 0
+    }
+}

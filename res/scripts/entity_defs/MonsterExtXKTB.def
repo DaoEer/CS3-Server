@@ -1,0 +1,30 @@
+<root>
+	<Parent>
+		MonsterExtMachine
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		MonsterExtMachine	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<CancelDisplyCurrentText/>
+		<DisplyCurrentText>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+		</DisplyCurrentText>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

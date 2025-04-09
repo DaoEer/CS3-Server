@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "此地蕴藏丰富的矿产资源，盛产稀有矿石", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "磐石洞天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "磐石洞天"
+        }
+    }, 
+    "describe": "磐石洞天", 
+    "beginOnSpaceInit": 1, 
+    "name": "磐石洞天"
+}

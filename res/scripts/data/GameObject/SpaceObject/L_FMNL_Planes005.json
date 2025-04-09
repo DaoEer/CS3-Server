@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_FMNL_Planes005",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_FMNL_Planes005",
+"NavmeshPath"	: "space\\L_FMNL_Planes005_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 250.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMNL",
+	"Position"	: "10441.580078 -49580.789063 -16868.904297",
+	"Direction"	: "0.0 0.0 -160.0"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_FMNL_Planes005",
+	"eventFile":"SE_L_FMNL_Planes005"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,35 @@
+﻿	{
+"EntityType"	: "SpaceCopyTrainingGround",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyTrainingGround",
+"scriptID"	: "fu_ben_L_LBCZDZ_XD",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"spaceChildType": "SPACE_CHILD_TYPE_LBC",
+"SpawnFile"	: "fu_ben_L_BHZYZ_ZFBZD",
+"NavmeshPath"	: "space\\L_BHZYZ_ZFBZD_XD_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_BHZYZ_ZFBZD",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"EnfityRelationMode":"RelationGCZ",
+"RoleRelationRule":"ROLE_RELATION_RULE_BLONG_SIDE",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "341 21841 10864",
+	"Direction"	: "0.0 0.0 -91"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 20,
+	"bossName":"斩月飞将",
+	"spaceIntroduce":{"voiceID":"C001565|C001834|C001835"},
+	"belongAttackScriptIDs":"30001083",
+	"belongProtectScriptIDs":"30001084|30001085|20013020|20013021|20013022|20013024|20013025|20013026|20013027|20013028|20013029|20013030||20013031|20013032|20013033|20013034|20013035|20013036|20013037|20013038|20013039|20013040|20013225|20013226|20013227|20013228|20013229|20013230|20013231|20013232|20013233|20013234|20013235|20013236|20013237|20013238|20013239|20013240",
+	"reviveType"	: "18|",
+	"enterPos": "-31035 10789 1156",
+	"enterDir": "0 0 -89",
+	"stageFile":"SS_L_BHZYZ_ZFBZD",
+	"eventFile":"SE_L_BHZYZ_ZFBZD"
+	},
+"DomainData"	:{
+	}
+}

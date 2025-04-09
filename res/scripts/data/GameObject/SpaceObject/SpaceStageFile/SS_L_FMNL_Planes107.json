@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找魔君遗留气息", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "40294.222656 77120.796875|39408.796875 73582.539063|38680.25 72767.820313|37171.757813 72498.0|34564.84375 72847.570313|36124.242188 79094.195313", 
+                    "param2": "1000|-9000", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(37737.0 75157.0 -4425.0)#L_FMNL_Planes107"
+                }
+            }, 
+            "title": "深入落霞谷"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败毕方", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "110", 
+                    "param2": "20002834", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002834#L_FMNL_Planes107"
+                }
+            }, 
+            "title": "突遭暗算"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "落霞谷"
+}

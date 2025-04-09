@@ -1,0 +1,163 @@
+{
+    "20101646": {
+        "tasks": [
+            {
+                "navigateData": "(-5201.0 -14469.0 2703.0)#L_XLD_01", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "8", 
+                "param2": "-5201.0 -14469.0 2703.0", 
+                "param1": "L_XLD_01", 
+                "id": 1, 
+                "name": "前往聚灵阵"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestRemoveUseItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "205020004", 
+                "id": 2, 
+                "name": "炼化内丹"
+            }, 
+            {
+                "navigateData": "(-4760.0 -18820.0 2698.0)#L_XLD_01", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "10", 
+                "param2": "-4760.0 -18820.0 2698.0", 
+                "param1": "L_XLD_01", 
+                "id": 3, 
+                "name": "回禀师尊"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "205020004"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101646, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101555"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "205020004"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1599", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "109", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "121", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "316", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102100001", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}师尊将他精心炼制的魔门内丹赐于你，并让你去殿前的聚灵阵上将其炼化。|@S{4}师尊将他精心炼制的魔门内丹赐于你，并让你去殿前的聚灵阵上将其炼化。|@S{4}你已成功炼化内丹，请回禀师尊。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101650", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "Q022011"
+                }
+            ], 
+            "3": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000630"
+                }
+            ]
+        }, 
+        "level": 10, 
+        "title": "炼化内丹", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "20102015": {
+        "tasks": [
+            {
+                "navigateData": "10001123#L_KLZ_1#2", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-209419.99999999997 -207050.0 19050.0", 
+                "param1": "L_KLZ_1", 
+                "id": 1, 
+                "name": "回禀女娲娘娘"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "33", 
+                "id": 2, 
+                "name": "到达33级"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002036"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102015, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102020"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13340", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "508", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "5701", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1380", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102070003", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "3", 
+                "param3": "", 
+                "description": "一星·龙力转魂丹", 
+                "param1": "202030003", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q045082|Q045083", 
+        "finish_by": "10001123#L_KLZ_1", 
+        "taskLogDes": "@S{4}从公孙盘处得知，轩辕族人已服下祛毒甘露，中毒族人皆已苏醒。你可返回昆仑宗向女娲复命。|@S{4}将等级提升至33级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045085", 
+        "nextQuest": "20102079", 
+        "taskCompleteFunctions": {}, 
+        "level": 32, 
+        "title": "回宗复命", 
+        "isAutoCommit": 1, 
+        "start_by": "10000438#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

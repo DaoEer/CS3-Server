@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_LXD_Planes001",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_LXD_Planes001",
+"NavmeshPath"	: "space\\L_DJD_NAVMESH",
+"PatrolRouteFile": "P_L_LXD_Planes001",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_LXD",
+	"Position"	: "-1882.0 -20048.0 518.0",
+	"Direction"	: "0.000000 0.000000 92"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_LXD_Planes001",
+	"eventFile":"SE_L_LXD_Planes001"
+	},
+"DomainData"	:{
+	}
+}

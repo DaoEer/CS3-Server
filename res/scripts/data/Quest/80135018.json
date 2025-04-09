@@ -1,0 +1,126 @@
+{
+    "80135018": {
+        "tasks": [
+            {
+                "navigateData": "10000173#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往凤鸣城皇宫"
+            }, 
+            {
+                "navigateData": "10000173#L_FMC", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002838|20002839", 
+                "id": 2, 
+                "name": "击杀抢宝刺客"
+            }, 
+            {
+                "navigateData": "10000173#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000173", 
+                "id": 3, 
+                "name": "将冥蛇果送予无极道祖"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000057"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010046"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135018, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010046"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010046"
+            }
+        ], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000057", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncLeavePlane", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "L_FMC"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "送宝凤鸣", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

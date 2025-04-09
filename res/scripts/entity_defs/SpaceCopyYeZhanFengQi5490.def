@@ -1,0 +1,73 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<originCenterPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</originCenterPos>
+		<endCenterPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</endCenterPos>
+		<originRadius>
+			<Type>		FLOAT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</originRadius>
+		<endRadius>
+			<Type>		FLOAT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</endRadius>
+		<reduceAreaTimer>
+			<Type>		TIMER_ID	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</reduceAreaTimer>
+		<checkAreaTimer>
+			<Type>		TIMER_ID	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</checkAreaTimer>
+		<startReduceTime>
+			<Type>		FLOAT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</startReduceTime>
+		<totalUseTime>
+			<Type>		FLOAT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</totalUseTime>
+	</Properties>
+
+	<CellMethods>
+		<tickReduceYeZhanFengQiArea>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</tickReduceYeZhanFengQiArea>
+		<removeYeZhanFengQiAreaTimer/>
+		<tickCheckPlayerIsInSaveArea>
+			<Arg>		INT32		</Arg>
+		</tickCheckPlayerIsInSaveArea>
+		<showYeZhanFengQiMemberRank>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+		</showYeZhanFengQiMemberRank>
+		<checkSpaceRoleNumber/>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<activityEnd/>
+	</BaseMethods>
+</root>

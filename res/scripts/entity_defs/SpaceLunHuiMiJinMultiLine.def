@@ -1,0 +1,43 @@
+<root>
+	<Parent>
+		SpaceMultiLine
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<openActivitySpawn>
+			<Type>		BOOL				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</openActivitySpawn>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<activityStart/>
+		<activityEnd/>
+
+		<createCellEntityByScriptID>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		INT32			</Arg>
+		</createCellEntityByScriptID>
+		<noticeMECPEnter>
+			<Arg>		INT32			</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</noticeMECPEnter>
+		<destroyCellEntityByScriptID>
+			<Arg>		OBJECT_ID		</Arg>
+		</destroyCellEntityByScriptID>
+	</CellMethods>
+
+	<BaseMethods>
+		<activityStart/>
+		<activityEnd/>
+	</BaseMethods>
+</root>

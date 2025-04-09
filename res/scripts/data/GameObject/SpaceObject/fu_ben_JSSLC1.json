@@ -1,0 +1,41 @@
+﻿{
+"SpaceName"	: "晶石狩猎场",
+"EntityType"	: "SpaceCopySparHunTing",
+"DomainType"	: "SpaceDomainCopySparHunTing",
+"EntityScript"	: "SpaceCopySparHunTing",
+"scriptID"	: "fu_ben_JSSLC1",
+"spaceType"	: "SPACE_TYPE_COPY",
+"spaceChildType":"SPACE_CHILD_TYPE_SPAR_HUNTING",
+"SpawnFile"	: "S_L_JSSLC",
+"NavmeshPath"	: "space\\L_JSSLC_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_CAMP",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 45,
+	"spaceIntroduce":{"voiceID":"C001831|C001832|C001833"},
+	"stageFile":"SS_L_JSSLC",
+	"eventFile":"SE_L_JSSLC",
+	"clientUseCharacterMovment" : 0,
+	"enterPosition":"",
+	"enterDirection":"",
+	"reviveType"	: "0|4|5",
+	"minLevel":40,
+	"maxLevel":49,
+	"maxCampEnter":100, 
+	"exchange":0.0738592105263158, 
+	"buffID":12247401,
+	"luckySpaceTimes":3, 
+	"startLifeOnInit":0, 
+	"startNotify":"start",	
+ 	"storyID":"788"
+	},
+"DomainData"	:{
+	}
+}

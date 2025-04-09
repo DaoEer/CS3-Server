@@ -1,0 +1,14 @@
+<root>
+	<Properties>
+	</Properties>
+	<ClientMethods>
+		<GMTestOpenEffect>
+			<Arg>	STRING		</Arg>
+			<Arg>	BOOL	</Arg>
+		</GMTestOpenEffect>
+	</ClientMethods>
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+</root>

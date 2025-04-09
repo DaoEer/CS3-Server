@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往青月林", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "33295.5 -172.0|31595.5 -3382.0|30015.5 -2532.0|32025.5 557.9", 
+                    "param2": "1362|62", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(31695.597656 -1302.014404 200.001953)#L_FLS_Planes011"
+                }
+            }, 
+            "title": "到达青月林"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭鬼手及飞盗门弟子", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003711|20003712|20003713", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003711|20003712|20003713#L_FLS_Planes011"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "查看周阳伤势", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "100", 
+                    "param2": "20003714", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(11550.0 4320.0 388.0)#L_FLS_Planes011"
+                }
+            }, 
+            "title": "飞盗门精英"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭飞盗门伏兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003705|20003706|20003707|20003708|20003709|20003710", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003705|20003706|20003707|20003708|20003709|20003710#L_FLS_Planes011"
+                }
+            }, 
+            "title": "飞盗门伏兵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "青月林"
+}

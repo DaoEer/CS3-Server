@@ -1,0 +1,131 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天沐守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007388|20007389|20007390", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007388|20007389|20007390#L_TMDC"
+                }
+            }, 
+            "title": "初入道场"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天沐守将", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007542", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007542#L_TMDC"
+                }
+            }, 
+            "title": "深入道场"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天沐幽魂", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007393|20007394|20007395", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007393|20007394|20007395#L_TMDC"
+                }
+            }, 
+            "title": "真假幽魂"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天沐法师", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007952|20007953", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007952|20007953#L_TMDC"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭雨魁老祖，获得风雨苍穹", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007544", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007544#L_TMDC"
+                }
+            }, 
+            "title": "风雨苍穹"
+        }, 
+        "4": {
+            "comment": "收集守将掉落的金丹，置于禁制前破除禁制。若错过守将金丹，可拾取守卫掉落的金丹。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "收集金丹", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "556", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20007540|20007541#L_TMDC"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "抱起金丹破除禁制", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "552", 
+                    "param2": "20007543", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20007543#L_TMDC"
+                }
+            }, 
+            "title": "金丹破门"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回耀光阁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-149.857422 -30449.767578 3470.179688:5", 
+                    "param2": "8470.179688|-3470.179688", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20007954#L_TMDC"
+                }
+            }, 
+            "title": "返回耀光阁"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "天沐道场"
+}

@@ -1,0 +1,140 @@
+{
+    "20101550": {
+        "tasks": [
+            {
+                "navigateData": "(-7280.000000 -22000.000000 17589.679688)#L_HDDT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往坐忘峰"
+            }, 
+            {
+                "navigateData": "(-7280.000000 -22000.000000 17589.679688)#L_HDDT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "协助计蒙对战年值功曹和玉蟾仙子"
+            }, 
+            {
+                "navigateData": "(-7280.000000 -22000.000000 17589.679688)#L_HDDT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010137", 
+                "id": 3, 
+                "name": "抢夺太虚镜"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3028"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101550, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|2|3|4"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101549"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1890", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "144", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "160", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "260", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102030002|102030007|102030012|102030017", 
+                "script": "QuestRewardItemByProfession"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "190001001|200001001|210001001|220001001", 
+                "script": "QuestRewardSkillByProfession"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}仙道玉蟾仙子和年值功曹两大高手对付计蒙，计蒙恐不敌，你且与计蒙一同对抗仙道高手，全力以赴抢夺@F{fc=c41}太虚镜@D。|@S{4}仙道玉蟾仙子和年值功曹两大高手对付计蒙，计蒙恐不敌，你且与计蒙一同对抗仙道高手，全力以赴抢夺@F{fc=c41}太虚镜@D。|@S{4}仙道玉蟾仙子和年值功曹两大高手对付计蒙，计蒙恐不敌，你且与计蒙一同对抗仙道高手，全力以赴抢夺@F{fc=c41}太虚镜@D。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101551|20101552|20101553|20101554", 
+        "taskCompleteFunctions": {}, 
+        "level": 8, 
+        "title": "坐忘峰之战", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_YQBLMS",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_YQBLMS",
+"NavmeshPath"	: "space\\L_YQBLMS_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FYP",
+	"Position"	: "-8247.0 -19525.0 2257.0",
+	"Direction"	: "0 0 -90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_YQBLMS",
+	"eventFile":"SE_L_YQBLMS"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,28 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	
+	<Properties>
+	</Properties>
+	
+	<BaseMethods>
+		<requestLogoutRole>
+			<Arg>	DBID			</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</requestLogoutRole>
+		
+		<requestLoginRole>
+			<Arg>	BOOL			</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</requestLoginRole>
+		
+		<removeLoginQueue>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</removeLoginQueue>
+		
+		<removeLoginAcc>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</removeLoginAcc>
+	</BaseMethods>
+</root>

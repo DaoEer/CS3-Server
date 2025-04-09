@@ -1,0 +1,107 @@
+<root>
+	<!--
+		这是一张订单编号表，外部的服务器在充值成功时往这张表写入订单，
+		游戏服务器在有需要时，从此表中获取充值金额。
+	-->
+	
+	<Volatile>
+		<position/>
+		<!--<position> 0 </position> Don't update-->
+		<yaw/>
+		<!--<pitch> 20 </pitch>-->
+		<pitch/>
+		<roll/>
+	</Volatile>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<account> <!-- 充值者的账号（userid） -->
+			<Type>				UNICODE			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+			<DatabaseLength>	128				</DatabaseLength>
+			<Index>				INDEX			</Index>
+		</account>
+
+		<gy_orderId> <!-- 光宇订单号 -->
+			<Type>				UNICODE			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+			<DatabaseLength>	128				</DatabaseLength>
+			<Index> 			UNIQUE			</Index>
+		</gy_orderId>
+		
+		<chargeType> <!-- 兑换类型（0是光宇币兑换问道元宝，1是积分兑换问道元宝，2是点卡交易） -->
+			<Type>				INT8			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</chargeType>
+
+		<goodType> <!-- 物品类型（onlinetime是在线时长，xianshi是仙石，monthcard是月卡） -->
+			<Type>				STRING			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</goodType>
+		
+		<amount> <!-- 充值数量 -->
+			<Type>				INT32			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</amount>
+		
+		<orders_time> <!-- 订单生成时间（时间戳） -->
+			<Type>				INT64			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</orders_time>
+
+		<pickup_status> <!-- 提取状态：已提取/未提取(1/0) -->
+			<Type>				BOOL			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</pickup_status>
+
+		<pickup_time> <!-- 提取时间（时间戳） -->
+			<Type>				INT64			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</pickup_time>
+		
+		<pickup_count> <!-- 提取次数，用于和rollback_count做校验，以防有bug时不知道 -->
+			<Type>				INT32			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</pickup_count>
+
+		<rollback_count> <!-- 回滚次数记录，除了一些极端情况，大多数情况下这个值都应该是0 -->
+			<Type>				INT32			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</rollback_count>
+		
+		<last_rollback_time> <!-- 最后一次回滚的时间戳 -->
+			<Type>				INT64			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</last_rollback_time>
+		
+		<pickup_orderId> <!-- 提取时生成的号码（这个有可能是重复的，多条订单一次性提取的时此处是一样的，之所以加这个是用来追踪元宝数量变化，消费流水日志中的订单号使用的就是这个号码） -->
+			<Type>				UNICODE			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+			<DatabaseLength>	50				</DatabaseLength>
+		</pickup_orderId>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

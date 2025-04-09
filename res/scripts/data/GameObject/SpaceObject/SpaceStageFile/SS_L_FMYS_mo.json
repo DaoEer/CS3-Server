@@ -1,0 +1,130 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫弟子", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014705|20014706|20014707|20014708", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(92705.375000 165102.218750 -4497.328613)#L_FMYS_mo"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入飞魔要塞", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "96372.0 146995.0 -2046.0:20", 
+                    "param2": "-1546|-2546", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(96371.726563 146995.468750 -2046.187500)#L_FMYS_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫精锐", 
+                    "reqVal": 8, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014709|20014710|20014711|20014712", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(98265.414063 157640.593750 -2868.771729)#L_FMYS_mo"
+                }
+            }, 
+            "title": "飞魔要塞"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫精锐", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014709", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(96449.515625 138062.421875 -2000.326660)#L_FMYS_mo"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "操作阵眼，解除阵法", 
+                    "reqVal": 2, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014729|20014730", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(96437.773438 130762.156250 -1984.196045)#L_FMYS_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败北阳道人", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014723", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(96413.203125 132063.000000 -1967.245605)#L_FMYS_mo"
+                }
+            }, 
+            "title": "进攻要塞"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "使用炮车轰击城门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014700", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(96371.726563 146995.468750 -2046.187500)#L_FMYS_mo"
+                }
+            }, 
+            "title": "攻城"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续深入", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(96027.187500 104436.195313 -887.188965)#L_FMYS_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往飞魔岭", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(72546.3 85528.7 4392.0)#L_FMYS_mo"
+                }
+            }, 
+            "title": "深入飞魔岭"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "飞魔要塞"
+}

@@ -1,0 +1,353 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	
+	<Properties>
+		<lineNumberDict>
+			<Type>	DICT_INT_INT_LIST	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</lineNumberDict>
+
+		<composeTimer>
+			<Type>			TIMER_ID	</Type>
+			<Flags>			BASE		</Flags>
+		</composeTimer>
+		<toolComposeScheme>
+			<Type>	COMPOSE_CRAFTSMAN	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</toolComposeScheme>
+		<pauseToolComposeScheme>
+			<Type>	COMPOSE_CRAFTSMAN	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</pauseToolComposeScheme>
+		<toolAlchemist>
+			<Type>	ALCHEMIST_BAGS		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</toolAlchemist>
+		<tripodAlchemist>
+			<Type>	ALCHEMIST_BAGS		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</tripodAlchemist>
+		<occupiedFoundation>
+			<Type>	DONGFUDATAMGR		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</occupiedFoundation>
+		<lingTianData>
+			<Type>	LINGTIANDATAMGR		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</lingTianData>
+		<shouLanData>
+			<Type>	PLAYER_PET_FENCE_DICT		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</shouLanData>
+
+		<BFOutLineDatas>
+			<Type>	BATTELE_FORMATIONS_DICT		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</BFOutLineDatas>
+		<loseDFPlayer>
+			<Type>		DONG_FU_LOSE_DATAS	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</loseDFPlayer>
+	</Properties>
+	<BaseMethods>
+		<incPlayerAmount>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</incPlayerAmount>
+		<decPlayerAmount>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</decPlayerAmount>
+		<requestLineNumberDataOnLogin>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		INT32			</Arg> 
+			<Arg>		PYTHON_DICT		</Arg>
+		</requestLineNumberDataOnLogin>
+		<requestLineNumberData>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+		</requestLineNumberData>
+
+		<requestComposeData>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		UINT8			</Arg>
+		</requestComposeData>
+		<addToolComposeScheme>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		COMPOSE_SCHEME		</Arg>
+		</addToolComposeScheme>
+		<reduceComposeTime>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32			</Arg>
+		</reduceComposeTime>
+		<requestTakeToolItem>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		UINT8			</Arg>
+			<Arg>		UINT16			</Arg>
+		</requestTakeToolItem>
+		<GM_finishCompose>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+		</GM_finishCompose>
+
+		<requestPlayerDFDatas>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT8			</Arg>
+		</requestPlayerDFDatas>
+		<requestDFDatas>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT8			</Arg>
+		</requestDFDatas>
+		<requestDFDatasByPage>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT8			</Arg>
+		</requestDFDatasByPage>
+
+		<gmSetOccupiedFoundation>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</gmSetOccupiedFoundation>
+		<requestOccupiedFoundation>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</requestOccupiedFoundation>
+		<addOccupiedFoundationPos>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		INT32			</Arg>
+		</addOccupiedFoundationPos>
+		<requestOccupyBuild>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		OBJECT_NAME		</Arg>
+		</requestOccupyBuild>
+		<requestOccupyBuildData>
+			<Arg>		INT32			</Arg>
+			<Arg>		DICT_INT_POS		</Arg>
+		</requestOccupyBuildData>
+		<saveLingTianInfo>
+			<Arg>		DBID				</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+		</saveLingTianInfo>
+		<removeLingTianInfo>
+			<Arg>		DBID				</Arg>
+			<Arg>		STRING				</Arg>
+		</removeLingTianInfo>
+		<requestSpaceNPCInfo>
+			<Arg>		CELL_ENTITYCALL			</Arg>
+			<Arg>		DBID				</Arg>
+			<Arg>		SCRIPT_ID			</Arg>
+		</requestSpaceNPCInfo>
+
+		<onPlayerOnline>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+		</onPlayerOnline>
+		<onPlayerOffLine>
+			<Arg>		DBID			</Arg>
+		</onPlayerOffLine>
+		<onChallengePlayerOnLine>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		DBID			</Arg>
+		</onChallengePlayerOnLine>
+		<onChallengePlayerOffLine>
+			<Arg>		DBID			</Arg>
+		</onChallengePlayerOffLine>
+		<onOpenBFPlayerOutLine>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</onOpenBFPlayerOutLine>
+		<closeBattleFormations>
+			<Arg>		DBID			</Arg>
+		</closeBattleFormations>
+		<activeBatteleFormations>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+		</activeBatteleFormations>
+		<onBuildDongFuFinish>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		DBID			</Arg>
+		</onBuildDongFuFinish>
+		<updateDongFuLevel>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT8			</Arg>
+		</updateDongFuLevel>
+
+		<requestLHMJChallenge>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT16			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT16			</Arg>
+		</requestLHMJChallenge>
+		<replayLHMJChallenge>
+			<Arg>		DBID			</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+		</replayLHMJChallenge>
+		<onFinishDFActive>
+			<Arg>		DBID			</Arg>
+		</onFinishDFActive>
+
+		<onDFBuildDestroy>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		STRING			</Arg>
+		</onDFBuildDestroy>
+		<beginRepairDFBuild>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT32			</Arg>
+		</beginRepairDFBuild>
+		<GM_setBuildRepairTime>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT32			</Arg>
+		</GM_setBuildRepairTime>
+		<addDFActiveStage>
+			<Arg>		DBID			</Arg>
+		</addDFActiveStage>
+		<doActiveReward>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		SERVER_TIME		</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</doActiveReward>
+		<onOccupyPlayerDF>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		DBID			</Arg>
+		</onOccupyPlayerDF>
+
+		<changeGuardType>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT8			</Arg>
+		</changeGuardType>
+
+		<requestOriginPet>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+		</requestOriginPet>
+		<generateOriginPet>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		UINT8	 		</Arg>
+			<Arg>		UINT8	 		</Arg>
+			<Arg>		UINT8	 		</Arg>
+		</generateOriginPet>
+		<activePetEnterFence>
+			<Arg>		DBID			</Arg>
+			<Arg>		ORIGIN_PET_DATA		</Arg>
+		</activePetEnterFence>
+		<freePetFromFence>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		UID	 		</Arg>
+		</freePetFromFence>
+		<petOutsideFromFence>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		UID	 		</Arg>
+		</petOutsideFromFence>
+		<exChangePetFromFence>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		ORIGIN_PET_DATA		</Arg>
+			<Arg>		UID	 		</Arg>
+		</exChangePetFromFence>
+		<feedOriginPet>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		UID	 		</Arg>
+			<Arg>		INT32	 		</Arg>
+			<Arg>		UINT8	 		</Arg>
+			<Arg>		UINT8	 		</Arg>
+		</feedOriginPet>
+		<GM_clearPetCDTime>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+		</GM_clearPetCDTime>
+		<evolutionOriginPet>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		UID	 		</Arg>
+		</evolutionOriginPet>
+		<onPetCorralDestroy>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		UID	 		</Arg>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		DICT_INT_INT		</Arg>
+		</onPetCorralDestroy>
+		<onMonsterCoverBeAttack>
+			<Arg>		DBID			</Arg>
+			<Arg>		UNICODE	 		</Arg>
+		</onMonsterCoverBeAttack>
+		<onMonsterCoverBeKill>
+			<Arg>		DBID			</Arg>
+			<Arg>		INT8	 		</Arg>
+		</onMonsterCoverBeKill>
+		<noticeAPlayerEnter>
+			<Arg>		DBID			</Arg>
+			<Arg>		UNICODE	 		</Arg>
+		</noticeAPlayerEnter>
+		<onGuardDead>
+			<Arg>		DBID			</Arg>
+		</onGuardDead>
+
+		<GM_doDefaultDFChallenge>
+		</GM_doDefaultDFChallenge>
+		<GM_clearDFData>
+		</GM_clearDFData>
+	</BaseMethods>
+</root>

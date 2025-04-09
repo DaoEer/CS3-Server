@@ -1,0 +1,95 @@
+{
+    "20101701": {
+        "tasks": [
+            {
+                "navigateData": "10000030#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskLearnSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "200101001", 
+                "id": 1, 
+                "name": "学习幻剑心法"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101701, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101711"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "26568", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1223", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12235", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "762", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030988", 
+        "finish_by": "10000030#L_XYM", 
+        "taskLogDes": "@S{4}鲲鹏让你找大师兄陆飞羽习得心法，并完成一次试炼秘境和潜能幻境的历练，再来复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030618|Q030991", 
+        "nextQuest": "20101705", 
+        "taskCompleteFunctions": {}, 
+        "level": 22, 
+        "title": "学习心法", 
+        "isAutoCommit": 1, 
+        "start_by": "10000029#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

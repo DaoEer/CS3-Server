@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败多闻天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20002646#L_JSC_Planes102"
+                }
+            }, 
+            "title": "寻找下落"
+        }, 
+        "3": {
+            "comment": "多闻天已无处可逃，速将其消灭，夺取解药", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败多闻天，夺取解药", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010106", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20002648#L_JSC_Planes102"
+                }
+            }, 
+            "title": "穷追不舍"
+        }, 
+        "2": {
+            "comment": "多闻天已逃入其中的某个房间中，速将其找出。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "从房间中找出多闻天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-48816.0 -14902.0 11518.0)#L_JSC_Planes102"
+                }
+            }, 
+            "title": "乘胜追击"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "赶回风橙身边", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-53553.3 -41845.6 13803.6:5", 
+                    "param2": "18800|8800", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-53553.3 -41845.6 13803.6)#L_JSC_Planes102"
+                }
+            }, 
+            "title": "回归解毒"
+        }
+    }, 
+    "describe": "魔道4级", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救风橙"
+}

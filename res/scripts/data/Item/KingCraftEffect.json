@@ -1,0 +1,5042 @@
+[
+    {
+        "EnterEffect": 0, 
+        "Name": 101010070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101010147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101010224, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101010301, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101010071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101010148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101010225, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101010302, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101020070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101020147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101020224, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101020301, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101020071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101020148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101020225, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101020302, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101030070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101030147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101030224, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101030301, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101030071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101030148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101030225, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101030302, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101040070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101040147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101040224, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101040301, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101040071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101040148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101040225, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101040302, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101050070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101050147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101050224, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101050301, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101050071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101050148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101050225, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101050302, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101060070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101060147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101060224, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101060301, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101060071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101060148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101060225, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101060302, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101070070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101070147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101070224, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101070301, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101070071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101070148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101070225, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101070302, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101080070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101080147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101080224, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101080301, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101080071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101080148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101080225, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101080302, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101090070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101090071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101100070, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101100147, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101100071, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 101100148, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104011011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104012011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104013011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104014011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104015011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104016011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104017011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104018011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104021011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104022011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104023011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104024011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104025011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104026011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104027011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104028011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104031011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104032011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104033011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104034011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104035011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104036011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104037011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104038011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104041011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104042011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104043011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104044011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104045011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104046011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104047011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104048011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104051011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104052011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104053011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104054011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104055011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104056011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104057011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104058011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104061011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104062011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104063011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104064011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104065011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104066011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104067011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104068011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104071011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104072011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104073011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104074011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104075011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104076011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104077011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104078011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104081011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104082011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104083011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104084011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104085011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104086011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104087011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104088011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104091011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104092011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104101011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104102011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104103011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104001, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104002, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104003, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104004, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104005, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104006, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104007, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104008, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104009, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104010, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }, 
+    {
+        "EnterEffect": 0, 
+        "Name": 104104011, 
+        "HoldEffect": 0, 
+        "LeaveEffect": 0
+    }
+]

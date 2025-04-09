@@ -1,0 +1,68 @@
+<root>
+	<Interfaces>
+		<Interface>	MonsterHasBaseObject	</Interface>
+	</Interfaces>
+
+	<!--<ClientName>		MonsterExtCall	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>	
+		<owner>
+			<Type>	ENTITYCALL		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+			<Persistent>	false	</Persistent>
+		</owner>
+		<enableSpace>
+			<Type>			PYTHON_LIST		</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		[]				</Default>
+			<Persistent>	false			</Persistent>
+		</enableSpace>
+		<chaseOwnerDistance>
+			<Type>	FLOAT		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+			<Persistent>	false	</Persistent>
+		</chaseOwnerDistance>
+
+		<moveArgs>
+			<Type>			PYTHON_LIST		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</moveArgs>
+		<_navigateParentArgs>
+			<Type>			PYTHON_LIST		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</_navigateParentArgs>
+		<_navigateParentPoints>
+			<Type>			PYTHON_LIST		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</_navigateParentPoints>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<followOwner>
+			<Arg>		SCRIPT_ID				</Arg>	<!-- spaceScriptID -->
+			<Arg>		CELL_ENTITYCALL			</Arg>	<!-- cellMB -->
+			<Arg>		POSITION				</Arg>	<!-- position -->
+			<Arg>		DIRECTION				</Arg>	<!-- direction -->
+		</followOwner>
+
+		<mExtCallCopyOwnerEnemyList/>
+		<cancelMonsterAIQuitPead/>
+		<addMonsterExtCallProtect/>
+		<removeMonsterExtCallProtect/>
+
+		<onMExtCallEnterSpaceNotify>
+			<Arg>		SPACE_ID	 	</Arg>
+			<Arg>		STRING		 	</Arg>
+		</onMExtCallEnterSpaceNotify>
+	</CellMethods>
+</root>
+

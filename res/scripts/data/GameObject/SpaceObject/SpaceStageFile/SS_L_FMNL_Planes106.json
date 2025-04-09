@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败烈穹，取得烈阳木", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002350#L_FMNL_Planes106"
+                }
+            }, 
+            "title": "夺取烈阳木"
+        }
+    }, 
+    "describe": "14级魔道任务《烈阳木》", 
+    "beginOnSpaceInit": 1, 
+    "name": "烈阳木"
+}

@@ -1,0 +1,103 @@
+{
+    "20101007": {
+        "tasks": [
+            {
+                "navigateData": "30000009#L_YSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010001", 
+                "id": 1, 
+                "name": "夺回无字天书"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "鬼枭在道场入口布下封印禁制，请你消灭镇守封印的两大鬼将，闯入道场夺回无字天书。", 
+        "id": 20101007, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010001"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101028|20101006|20101029|20101030"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1952", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "149", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "187", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "234", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102070001|102070004|102070007|102070010", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10000072#L_YSC", 
+        "taskLogDes": "@S{4}魔道鬼枭抢走了仙道至宝@F{fc=c41}无字天书@D逃向瑶光岛，试剑台的南极仙翁施法将你送往瑶光岛，请你追回@F{fc=c41}无字天书@D。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q010511", 
+        "nextQuest": "20101008", 
+        "taskCompleteFunctions": {}, 
+        "level": 7, 
+        "title": "（废弃）追踪鬼枭", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

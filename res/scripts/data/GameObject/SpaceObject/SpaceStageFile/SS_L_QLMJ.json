@@ -1,0 +1,130 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过锁链桥", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "79830 6740 -10828.775391:14", 
+                    "param2": "-5828.775391|-15828.775391", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(79830 6740 -10828.775391)#L_QLMJ"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过锁链桥", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "91880 -6810 -9965.345703:25", 
+                    "param2": "-5828.775391|-15828.775391", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(91880 -6810 -9965.345703)#L_QLMJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭烈焰之魂", 
+                    "reqVal": 4, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010378|20010379", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010378|20010379#L_QLMJ"
+                }
+            }, 
+            "title": "铁索连环"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过升降台前往宝塔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "98720.0 -14540.0 -2350.0:18", 
+                    "param2": "350|-2850", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往塔顶", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "100160.0 -16300.0 1602.428467:20", 
+                    "param2": "2602.428467|602.428467", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(100160.0 -16300.0 1602.428467)#L_QLMJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭烈焰之魂", 
+                    "reqVal": 4, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010385|20010386", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010385|20010386#L_QLMJ"
+                }
+            }, 
+            "title": "机关重重"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭焚天护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010380", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010380#L_QLMJ"
+                }
+            }, 
+            "title": "焚天护法"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭火麒麟，夺取源生火焰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010054", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20010390#L_QLMJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回逍遥门", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(100160.0 -16300.0 1602.428467)#L_QLMJ"
+                }
+            }, 
+            "title": "决一死战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "麒麟秘境"
+}

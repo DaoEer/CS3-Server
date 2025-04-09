@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭磐灵木妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012750|20012751", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012750|20012751#L_QS_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭木灵守卫", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012752|20012753", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012752|20012753#L_QS_Planes001"
+                }
+            }, 
+            "title": "初入岐山"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭磐灵树精", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012755|20012758|20012759|20012760", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012755|20012758|20012759|20012760#L_QS_Planes001"
+                }
+            }, 
+            "title": "继续深入"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭苍面树魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012754", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012754#L_QS_Planes001"
+                }
+            }, 
+            "title": "苍面树魔"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "占领岐山之巅", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012761", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1487.0 2459.0 10195.0)#L_QS_Planes001"
+                }
+            }, 
+            "title": "岐山之巅"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "前往岐山"
+}

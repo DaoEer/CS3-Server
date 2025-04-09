@@ -1,0 +1,104 @@
+{
+    "20102165": {
+        "tasks": [
+            {
+                "navigateData": "10001308#L_ZXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-4063.0000000000005 4486.0 10854.0", 
+                "param1": "L_ZXG", 
+                "id": 1, 
+                "name": "拜见仙祖鸿钧"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002060"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3057"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102165, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102163|20102164"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18447", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "931", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12686", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050497", 
+        "finish_by": "10001308#L_ZXG", 
+        "taskLogDes": "@S{4}太上老君让你前往紫霄宫，拜见仙祖鸿钧。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050498|Q051000", 
+        "nextQuest": "20102166", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "拜见仙祖", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126#L_TQG", 
+        "isAutoAccept": 1
+    }
+}

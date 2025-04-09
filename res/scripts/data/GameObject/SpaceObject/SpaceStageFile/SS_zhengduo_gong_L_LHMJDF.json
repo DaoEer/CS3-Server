@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "攻破所有炮台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "第一阶段"
+        }, 
+        "2": {
+            "comment": "攻破灵泉", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "第二阶段"
+        }
+    }, 
+    "describe": "洞府争夺战攻方副本阶段", 
+    "beginOnSpaceInit": 1, 
+    "name": "洞府争夺战攻方"
+}

@@ -1,0 +1,50 @@
+{
+    "20102692": {
+        "tasks": [
+            {
+                "navigateData": "(11690.5 11129.5 5490.4)#L_FMF_mo", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "突破仙道封锁，抵达飞魔峰顶"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102692, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102691"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}请你跟随不动明王登上飞魔峰，支援祖巫帝江。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102693", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "驰援飞魔岭（三）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

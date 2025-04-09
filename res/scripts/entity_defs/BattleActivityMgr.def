@@ -1,0 +1,37 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<signUpSingle>
+			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	INT32			</Arg>
+		</signUpSingle>
+		<signUpTeam>
+			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST		</Arg>
+			<Arg>	INT32			</Arg>
+		</signUpTeam>
+		<cancelSignUp>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</cancelSignUp>
+		<onPlayerLoginOff>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</onPlayerLoginOff>
+		<onTeamChange>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</onTeamChange>
+		<onJoinTeam>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</onJoinTeam>
+	</BaseMethods>
+</root>

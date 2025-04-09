@@ -1,0 +1,74 @@
+{
+    "stages": {
+        "1": {
+            "comment": "魔王殿已经被仙道完全占领了，得先尽快扫除这群仙道贼子", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014761|20014762|20014763|20014764", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8387.987305 5968.986328 298.885773)#L_MWD_mo"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫精锐", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014769|20014770|20014771|20014772", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(2319.060303 10859.369141 314.521118)#L_MWD_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫近卫", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014765|20014766|20014767|20014768", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1288.572510 5921.967285 298.885559)#L_MWD_mo"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太一亲卫", 
+                    "reqVal": 5, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014773|20014774|20014775|20014776", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(6655.838379 16849.687500 621.040894)#L_MWD_mo"
+                }
+            }, 
+            "title": "攻入魔王殿"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协助帝江击败太一", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(15066.669922 16937.994141 740.884583)#L_MWD_mo"
+                }
+            }, 
+            "title": "决战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "决战魔王殿"
+}

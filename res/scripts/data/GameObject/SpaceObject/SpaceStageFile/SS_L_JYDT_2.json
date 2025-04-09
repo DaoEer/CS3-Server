@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭九焱守卫", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010319|20010320|20010321", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010319|20010320|20010321#L_JYDT_2"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭九焱魔兵", 
+                    "reqVal": 10, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010326|20010327|20010328|20010329|20010330|20010331|20010332|20010333", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010326|20010327|20010328|20010329|20010330|20010331|20010332|20010333#L_JYDT_2"
+                }
+            }, 
+            "title": "深入追击"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得生命之火", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010047", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20002861#L_JYDT_2"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回昆仑宗", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "30000893#L_JYDT_2"
+                }
+            }, 
+            "title": "生命之火"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "九焱祭坛"
+}

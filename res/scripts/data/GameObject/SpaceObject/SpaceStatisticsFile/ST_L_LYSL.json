@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 交互雷泉将其激活，释放暴乱的雷球。@B• 按照雷泉显示的符文，双击相同的雷球，使其被雷泉吸收。@B• 雷球周围会随机出现加速法阵，踩到后可获得短时间加速效果。@B• 双击错误雷球或超时，会有雷兽突破封印。@B• 达到要求后，最终雷泉吸收的雷球越多获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "吸收的雷球数：", 
+                    "postfix": "个", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "jishu", 
+                    "param2": "", 
+                    "param1": "AI", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "至少吸收6个雷球"
+        }
+    }, 
+    "name": "雷域危机"
+}

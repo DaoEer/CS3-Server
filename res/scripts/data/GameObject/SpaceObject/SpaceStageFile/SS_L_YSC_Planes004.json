@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "登临试剑台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-8070.008301 -19709.978516 17600.013672:50", 
+                    "param2": "27490|7490", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-8070.008301 -19709.978516 17600.013672)#L_YSC_Planes004"
+                }
+            }, 
+            "title": "驰援试剑台"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退来临的鬼枭和天青", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1x6", 
+                    "param2": "20000022", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000021|20000022#L_YSC_Planes004"
+                }
+            }, 
+            "title": "击退来敌"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭地蓝及其亲卫，化解南极仙翁的危机", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "222", 
+                    "param2": "20000076", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000020|20000023#L_YSC_Planes004"
+                }
+            }, 
+            "title": "化解危局"
+        }
+    }, 
+    "describe": "仙道6级", 
+    "beginOnSpaceInit": 1, 
+    "name": "试剑台之战"
+}

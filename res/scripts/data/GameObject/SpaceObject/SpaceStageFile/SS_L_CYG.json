@@ -1,0 +1,142 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭逍遥门侍从", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007701|20007702", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007701|20007702#L_CYG"
+                }
+            }, 
+            "title": "初探朝阳谷"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭逍遥门亲卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007721|20007722", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-5544.1 2.4 45592.8)#L_CYG"
+                }
+            }, 
+            "title": "深入朝阳谷"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫咸", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007714", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007714#L_CYG"
+                }
+            }, 
+            "title": "击败大巫巫咸"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏人宝核心", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-5950.0 -10200.0 46433.9)#L_CYG"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏天宝核心", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(6500.0 -10250.0 46459.0)#L_CYG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏地宝核心", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-160.1 -17189.8 46435.5)#L_CYG"
+                }
+            }, 
+            "title": "依次破三才阵"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "营救谛听", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-117.0 -9589 46622)#L_CYG"
+                }
+            }, 
+            "title": "营救谛听"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "营救谛听", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(387 -9766 46622.9)#L_CYG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回太清宫", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-900.0 -10420.0 46670.9)#L_CYG"
+                }
+            }, 
+            "title": "营救谛听"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "朝阳谷"
+}

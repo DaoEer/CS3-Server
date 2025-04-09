@@ -1,0 +1,29 @@
+<root>
+	<Interfaces>
+		<Interface> 	GameObject					</Interface>
+		<Interface> 	NPCAmbulantInterface				</Interface>
+		<Interface> 	VehiclePetCombatInterface			</Interface>
+		<Interface> 	VehiclePetAIInterface				</Interface>
+	</Interfaces>
+
+	<Properties>
+		<level>
+			<Type>		INT16		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>		1		</Default>
+		</level>
+		<modelNumber>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</modelNumber>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

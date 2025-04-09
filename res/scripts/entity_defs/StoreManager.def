@@ -1,0 +1,261 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<serverLimits>  <!-- 全服限数量商品 -->
+			<Type>		SERVERLIMIT_GOODS_LIST		</Type>
+			<Flags>				BASE				</Flags>
+		</serverLimits>
+		<playerLimits>  <!-- 个人限数量商品  -->
+			<Type>		PLAYERLIMIT_GOODS_LIST		</Type>
+			<Flags>				BASE				</Flags>
+		</playerLimits>
+		<configTime>    <!-- 配置时间 -->
+			<Type>				SERVER_TIME			</Type>
+			<Flags>				BASE				</Flags>
+		</configTime>
+		<giftBoxSendDatas>		<!-- 赠送礼品盒 -->
+			<Type>			STORE_GIFT_BOX_SEND_DATAS		</Type>
+			<Flags>				BASE						</Flags>
+			<Persistent>		true						</Persistent>
+		</giftBoxSendDatas>
+		<giftBoxReceiveDatas>	<!-- 收取礼品盒 -->
+			<Type>			STORE_GIFT_BOX_RECEIVE_DATAS		</Type>
+			<Flags>				BASE							</Flags>
+			<Persistent>		true							</Persistent>
+		</giftBoxReceiveDatas>
+
+		<lingShiTradeData>			
+			<Type>		LINGSHITRADE_DATAS		</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</lingShiTradeData>
+		<lingShiTradeSuccessDatas>	
+			<Type>	LINGSHITRADE_SUCCESS_DATAS	</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>	true				</Persistent>
+		</lingShiTradeSuccessDatas>
+		<sendPresentRecords>
+			<Type>			STORE_SEND_PRESENT_RECORDS		</Type>
+			<Flags>			BASE							</Flags>
+			<Default>		{}								</Default>
+			<Persistent>	true							</Persistent>
+		</sendPresentRecords>
+		<receivePresentRecords>
+			<Type>			STORE_RECEIVE_PRESENT_RECORDS	</Type>
+			<Flags>			BASE							</Flags>
+			<Default>		{}								</Default>
+			<Persistent>	true							</Persistent>
+		</receivePresentRecords>
+		<beRefuseGiftID>
+			<Type>				ARRAY_STRING		</Type>
+			<Flags>				BASE				</Flags>
+			<Default>			[]					</Default>
+			<Persistent>		true				</Persistent>
+		</beRefuseGiftID>
+		<presentRedPointList>  <!-- 赠礼界面显示小红点 -->
+			<Type>				ARRAY_DBID			</Type>
+			<Flags>				BASE				</Flags>
+			<Default>			[]					</Default>
+			<Persistent>		true				</Persistent>
+		</presentRedPointList>
+		<receiveRedPointList>	<!-- 收礼界面显示小红点 -->
+			<Type>				ARRAY_DBID			</Type>
+			<Flags>				BASE				</Flags>
+			<Default>			[]					</Default>
+			<Persistent>		true				</Persistent>
+		</receiveRedPointList>
+	</Properties>
+
+		
+	<BaseMethods>
+		<reload>
+		</reload>
+		<initClientData>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID			</Arg>
+		</initClientData>
+		<onUpdateStoreGoods>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	CLIENT_TIME		</Arg>
+		</onUpdateStoreGoods>
+		<getStoreNewGoods>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	CLIENT_TIME		</Arg>
+		</getStoreNewGoods>
+		<requestStoreLimitGoodsList>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID			</Arg>
+		</requestStoreLimitGoodsList>
+		<requestBuyStoreGoods>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</requestBuyStoreGoods>
+		<onBuyStoreGoods>
+			<Arg>	DBID			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</onBuyStoreGoods>
+		<requestPresentGift>			<!-- 赠送申请 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>  
+			<Arg>	STORE_GIFT_BOX_DATA	</Arg>	 <!-- 礼品盒 -->
+		</requestPresentGift>
+		<acceptGift>					<!-- 收取礼品 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>  
+			<Arg>	STRING				</Arg>
+			<Arg>	STRING				</Arg>
+		</acceptGift>
+		<acceptGifts>					<!-- 全部收取礼品 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>  
+			<Arg>	STRING				</Arg>
+		</acceptGifts>
+		<getBackGift>			 		<!-- 取回礼品 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>  
+			<Arg>	STRING				</Arg>
+			<Arg>	STRING				</Arg>
+		</getBackGift>
+		<getBackGifts>			 <!-- 全部取回礼品 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+		</getBackGifts>
+		<onAcceptGiftOver>			 	<!-- 收礼完成 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	STRING				</Arg>
+		</onAcceptGiftOver>
+		<onAcceptGiftOvers>			 <!-- 全部收礼完成 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+		</onAcceptGiftOvers>
+		<refuseGift>			 	<!-- 拒绝礼品 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	STRING				</Arg>
+		</refuseGift>
+		<refuseGifts>			 <!-- 拒绝全部礼品 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+		</refuseGifts>
+		<onGetBackGiftOver>			 	<!-- 取回礼品完成 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	STRING				</Arg>
+		</onGetBackGiftOver>
+		<onGetBackGiftsOver>			 <!-- 全部取回礼品完成 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+		</onGetBackGiftsOver>
+		<setGiftBoxState>			 	<!-- 设置礼品盒状态 -->
+			<Arg>	INT32				</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	INT32				</Arg>
+		</setGiftBoxState>
+		<setAllGiftBoxState>			 <!-- 设置所有默认状态的礼品盒状态 -->
+			<Arg>	INT32				</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	INT32				</Arg>
+		</setAllGiftBoxState>
+		<removeGiftBoxRecord>			 <!-- 删除礼品盒记录 -->
+			<Arg>	INT32				</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+			<Arg>	STRING				</Arg>
+		</removeGiftBoxRecord>
+		<removeAllGiftBoxRecord>		<!-- 删除所有礼品盒记录 -->
+			<Arg>	INT32				</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	STRING				</Arg>
+		</removeAllGiftBoxRecord>
+
+		<requestGetOrder>				<!-- 获得订单 -->
+			<Arg> 	BASE_ENTITYCALL		</Arg>
+			<Arg> 	DBID				</Arg>
+		</requestGetOrder>
+		<addLingShiTradeData>			<!-- 增加寄售数据 -->
+			<Arg> 	LINGSHITRADE_DATA	</Arg>
+			<Arg> 	BASE_ENTITYCALL		</Arg>
+		</addLingShiTradeData>
+		<dealLinShiTradeOrder>			<!-- 购买或出让寄售订单 -->
+			<Arg>  	INT32 				</Arg>
+			<Arg> 	INT64				</Arg>
+			<Arg>  	STRING 				</Arg>
+			<Arg>	INT32 				</Arg>
+			<Arg> 	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID				</Arg>
+		</dealLinShiTradeOrder>
+		<removeLingShiTradeOrder>		<!-- 下架订单 -->
+			<Arg>  	STRING 				</Arg>
+			<Arg> 	BASE_ENTITYCALL		</Arg>
+		</removeLingShiTradeOrder>
+		<refreshPlayerOrder>			<!-- 更新玩家订单 -->
+			<Arg> 	BASE_ENTITYCALL		</Arg>
+			<Arg> 	DBID				</Arg>
+		</refreshPlayerOrder>
+		<takeOutMoney>					<!-- 取出收益 -->
+			<Arg> 	BASE_ENTITYCALL		</Arg>
+			<Arg> 	DBID				</Arg>
+		</takeOutMoney>
+		<takeOutMoneyCB>				<!-- 取出收益回调 -->
+			<Arg>	INT32 				</Arg>
+			<Arg>	INT32 				</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+		</takeOutMoneyCB>
+		<refreshAllSellOrder>			<!-- 刷新所有出售订单 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID				</Arg>
+		</refreshAllSellOrder>
+		<refreshAllCollectOrder>		<!-- 刷新所有收购订单 -->
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID				</Arg>
+		</refreshAllCollectOrder>
+		<buyStoreCartGoods>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</buyStoreCartGoods>
+		<requestOpenGiftBox>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	STRING			</Arg>
+		</requestOpenGiftBox>
+		<transferPresent>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</transferPresent>
+		<setPresentRecords>
+			<Arg>	BASE_ENTITYCALL					</Arg>
+			<Arg>	ARRAY_STORE_PRESENT_RECORD		</Arg>
+		</setPresentRecords>
+		<queryPresentRecords>
+			<Arg>			BASE_ENTITYCALL			</Arg>
+			<Arg>			STRING					</Arg>
+		</queryPresentRecords>
+		<deletePresentRecord>
+			<Arg>			STRING					</Arg>
+			<Arg>			STRING					</Arg>
+		</deletePresentRecord>
+		<deletePresentRecords>
+			<Arg>			STRING					</Arg>
+		</deletePresentRecords>
+		<onShowGiftBoxRedPoint>			<!-- 玩家礼品盒显示完红点后 -->
+			<Arg> 	BASE_ENTITYCALL		</Arg>
+			<Arg> 	DBID				</Arg>
+			<Arg>	INT32 				</Arg>
+		</onShowGiftBoxRedPoint>
+	</BaseMethods>
+
+</root>

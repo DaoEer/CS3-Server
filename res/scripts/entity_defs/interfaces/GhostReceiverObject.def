@@ -1,0 +1,23 @@
+<root>
+	<Interfaces>
+		<Interface> 	GameObject	</Interface>
+		<Interface> 	SkillInterface	</Interface>
+		<Interface> 	ActionFlagInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<modelNumber>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</modelNumber>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

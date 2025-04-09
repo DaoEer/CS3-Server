@@ -1,0 +1,147 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往赤阳岗", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "亢阳星之危"
+        }, 
+        "3": {
+            "comment": "请使用飞鸢法器的远程法术，对地面敌军进行轰击。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "使用技能“崩山术”轰击山石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014321", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开路先锋"
+        }, 
+        "2": {
+            "comment": "与帝江一同乘坐飞鸢法器，为大军开路！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "骑上飞鸢", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(45489.0 -8953.0 2924.0)#L_KYX_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭仙卫", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "空袭"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败雷阳道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014605", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-44585.496094 -19374.138672 13084.385742)#L_KYX_mo"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往七阳山脉", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-46677.574219 -25942.488281 13584.602539)#L_KYX_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "给阵塔注入仙力", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-45997.781250 -23397.361328 13633.648438)#L_KYX_mo"
+                }
+            }, 
+            "title": "夺回阵塔"
+        }, 
+        "4": {
+            "comment": "请使用飞鸢法器的远程法术，对地面敌军进行轰击。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭昆仑宗弟子", 
+                    "reqVal": 200, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014589|20014590|20014591|20014592|20014593", 
+                    "type": "SStageTask_NPCObjectDestroy", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往赤阳岗山巅", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击溃镇山魔傀，清除道路阻碍", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014600|20014601", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开路先锋"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 0, 
+    "name": "攻打亢阳星（一）"
+}

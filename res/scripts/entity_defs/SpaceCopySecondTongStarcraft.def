@@ -1,0 +1,31 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<warInfos>
+			<Type>		TONG_STARCRAFT_INFOS		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</warInfos>
+		<camp>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</camp>
+	</Properties>
+
+	<CellMethods>
+
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+
+	</BaseMethods>
+</root>

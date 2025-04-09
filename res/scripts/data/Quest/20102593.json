@@ -1,0 +1,107 @@
+{
+    "20102593": {
+        "tasks": [
+            {
+                "navigateData": "10000658#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000658", 
+                "id": 1, 
+                "name": "协助蓐收炼制玄煞阵旗"
+            }, 
+            {
+                "navigateData": "40000145#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "将冰魄与魂石注入阵旗"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3092"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102593, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102592"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "21324", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "955", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10725", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1542", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041813|Q041814", 
+        "finish_by": "10000658#L_ZLY", 
+        "taskLogDes": "@S{4}夕风告知，青麓原的玄阴鬼王与我魔门交好，他所在的玄阴秘境便是一处上古极阴之地。蓐收师尊和鬼王已在那做好布阵准备，请斗士带着布阵材料与他们会合。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041818", 
+        "nextQuest": "20102594", 
+        "taskCompleteFunctions": {}, 
+        "level": 34, 
+        "title": "炼制阵旗", 
+        "isAutoCommit": 1, 
+        "start_by": "10000657#L_ZLY", 
+        "isAutoAccept": 1
+    }
+}

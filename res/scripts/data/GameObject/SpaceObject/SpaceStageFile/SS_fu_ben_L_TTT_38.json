@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击杀不死刑天", 
+                    "reqVal": 3, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013444|20013445|20013446", 
+                    "type": "SStageTask_NPCObjectDestroy", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "38级试炼层"
+        }
+    }, 
+    "describe": "通天塔38级试炼层", 
+    "beginOnSpaceInit": 1, 
+    "name": "通天塔38级试炼层"
+}

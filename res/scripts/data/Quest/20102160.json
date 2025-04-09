@@ -1,0 +1,104 @@
+{
+    "20102160": {
+        "tasks": [
+            {
+                "navigateData": "(33.09266602 82.34758789 161.54070313)#L_TS_Planes003", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "协助后羿射落金乌"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002060"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3038"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102160, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102158|20102159"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "26353", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1330", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18122", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050401|Q050402|Q050403|Q050404", 
+        "finish_by": "10001350#L_TS", 
+        "taskLogDes": "@S{4}太清宫密探已传来消息。魔道将十金乌从汤山转移至附近的落日峰，并汲取地火灵气以维持十日天绝大阵。太上老君命你和后羿赶往落日峰，消灭十金乌。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050430", 
+        "nextQuest": "20102161", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "后羿射日", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126#L_TQG", 
+        "isAutoAccept": 1
+    }
+}

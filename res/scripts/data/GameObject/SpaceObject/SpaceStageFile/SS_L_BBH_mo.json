@@ -1,0 +1,210 @@
+{
+    "stages": {
+        "10": {
+            "comment": "大阵将成，阻挡帝俊", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "抵挡帝俊", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "抵挡帝俊"
+        }, 
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败北冰河禁卫", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013526|20013527", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-13825.0 -26647.9 -1994.4)#L_BBH_mo"
+                }
+            }, 
+            "title": "初至北冰河"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-985.6 -7037.5 -6496.6:15", 
+                    "param2": "-1496|-11496", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-985.6 -7037.5 -6496.6)#L_BBH_mo"
+                }
+            }, 
+            "title": "继续前进"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "清除北冰河守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013524|20013525", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1145.2 -18439.1 -4727.6)#L_BBH_mo"
+                }
+            }, 
+            "title": "拦路冰雕"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败冰鲨妖王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-11790.0 14350.0 -6620.0)#L_BBH_mo"
+                }
+            }, 
+            "title": "切磋冰鲨妖王"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "避开鲨鱼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-10430.0 11400.0 -6620.0:5", 
+                    "param2": "-1496|-11496", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-10430.0 11400.0 -6620.0)#L_BBH_mo"
+                }
+            }, 
+            "title": "避开游动的鲨鱼"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "向祖巫帝江禀告", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2380.0 30780.0 -6604.7:10", 
+                    "param2": "-1604|-13208", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(2450.0 30330.0 -6620.0)#L_BBH_mo"
+                }
+            }, 
+            "title": "禀告祖巫帝江"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败冰鲨妖王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013532", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(3160.0 28400.0 -6620.0)#L_BBH_mo"
+                }
+            }, 
+            "title": "追击冰鲨妖王"
+        }, 
+        "9": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退太阳宫援兵", 
+                    "reqVal": 14, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013536|20013537|20013538|20013541", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(2430.0 28950.0 -6604.7)#L_BBH_mo"
+                }
+            }, 
+            "title": "击退太阳宫援兵"
+        }, 
+        "8": {
+            "comment": "与剑交互将剑插入地下吸取灵气", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "插入陷仙剑", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "201", 
+                    "param2": "40000855", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(650.0 27180.0 -6624.7)#L_BBH_mo"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待帝江插入戮仙剑", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "203", 
+                    "param2": "20013552", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "插入绝仙剑", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "202", 
+                    "param2": "40000856", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(4270.0 27160.0 -6624.7)#L_BBH_mo"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待帝江插入诛仙剑", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "204", 
+                    "param2": "20013552", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "起阵准备"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "北冰河"
+}

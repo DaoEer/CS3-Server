@@ -1,0 +1,288 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "show": {
+        "subStateDatas": {
+            1: {
+                "name": "", 
+                "tickTimer": 0.10000000149, 
+                "statesAI": [
+                    {
+                        "comment": "", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "k"
+                            }, 
+                            {
+                                "script": "AIAction5", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "Role", 
+                                "param1": "60|60"
+                            }
+                        ], 
+                        "EID": [
+                            6
+                        ], 
+                        "Conditions": [], 
+                        "id": 6
+                    }, 
+                    {
+                        "comment": "", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction89", 
+                                "param5": "100009", 
+                                "param4": "1", 
+                                "param3": "", 
+                                "param2": "3|6", 
+                                "param1": "Show_Stage_01|Show_Stage_02|Show_Stage_03"
+                            }
+                        ], 
+                        "EID": [
+                            7
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition12", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "0.5", 
+                                "param1": "k"
+                            }
+                        ], 
+                        "id": 7
+                    }, 
+                    {
+                        "comment": "", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction19", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "Role", 
+                                "param1": "100"
+                            }, 
+                            {
+                                "script": "AIAction13", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }, 
+                            {
+                                "script": "AIAction80", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [
+                            9
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition12", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "3", 
+                                "param1": "k"
+                            }
+                        ], 
+                        "id": 9
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 2, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {
+            1: {
+                "name": "", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "呼叫同伴", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [], 
+                        "id": 2
+                    }, 
+                    {
+                        "comment": "使用技能", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction4", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "100113001"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition10", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "100113001"
+                            }
+                        ], 
+                        "id": 3
+                    }, 
+                    {
+                        "comment": "每隔3秒，将伤害最高的目标设为攻击目标", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction8", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition3", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "3"
+                            }
+                        ], 
+                        "id": 4
+                    }, 
+                    {
+                        "comment": "重设出生点", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction22", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [
+                            14
+                        ], 
+                        "Conditions": [], 
+                        "id": 14
+                    }
+                ], 
+                "eventsAI": {
+                    5: [
+                        {
+                            "comment": "攻击下一个目标", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction13", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": ""
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [], 
+                            "id": 5
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {
+            2: {
+                "name": "", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction61", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [], 
+                        "id": 13
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }
+}

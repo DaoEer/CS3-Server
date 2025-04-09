@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭华成及其弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006396|20006397|20006398", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006396|20006397|20006398#L_BQDB_Planes107"
+                }
+            }, 
+            "title": "追上华成"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击碎囚车，就出丹朱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006399", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006399#L_BQDB_Planes107"
+                }
+            }, 
+            "title": "营救丹朱"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天岚道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006401", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006396#L_BQDB_Planes107"
+                }
+            }, 
+            "title": "天岚道人"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "和丹朱一起返回九黎部落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "31909.205078 -8996.820313 1290.504395:5", 
+                    "param2": "6290.504395|-4290", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20006402#L_BQDB_Planes107"
+                }
+            }, 
+            "title": "返回九黎族"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救丹朱"
+}

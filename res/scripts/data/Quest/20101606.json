@@ -1,0 +1,143 @@
+{
+    "20101606": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskMountPet", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001", 
+                "id": 1, 
+                "name": "骑乘玄冥虎"
+            }, 
+            {
+                "navigateData": "10000341#L_PMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 2, 
+                "param3": "10", 
+                "param2": "-19906.77 -18774.72 3866.20", 
+                "param1": "L_PMG", 
+                "id": 2, 
+                "name": "向师尊复命"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskConjurePet", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001", 
+                "id": 3, 
+                "name": "召唤玄冥虎出战"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "204010001"
+            }, 
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0 0 161", 
+                "param2": "-20857.0 -16420.0 3979.9999999999995", 
+                "param1": "L_PMG"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101606, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101529"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "204010001"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "617", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "295", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "148", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "316", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020510|Q020512|Q020514|Q020515", 
+        "finish_by": "10000341#L_PMG", 
+        "taskLogDes": "@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。|@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。|@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q011118", 
+        "nextQuest": "20101610", 
+        "taskCompleteFunctions": {}, 
+        "level": 10, 
+        "title": "幻兽顽皮", 
+        "isAutoCommit": 1, 
+        "start_by": "10000356#L_PMG", 
+        "isAutoAccept": 1
+    }
+}

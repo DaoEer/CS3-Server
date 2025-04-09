@@ -1,0 +1,53 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<enemyRange> <!--搜索范围-->
+			<Type>				FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0.0			</Default>
+		</enemyRange>
+		<distance>
+			<Type>				FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0.0			</Default>
+		</distance>
+		<wanderRange>
+			<Type>				FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0.0			</Default>
+		</wanderRange>
+		<attcakSkills>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			[]			</Default>
+			<Persistent>		false		</Persistent>
+		</attcakSkills>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_onAttackTarget>
+			<Exposed/>
+		</CELL_onAttackTarget>
+		<CELL_onSetControlledBy>
+			<Exposed/>
+		</CELL_onSetControlledBy>
+		<CELL_startFalling>
+			<Exposed/>
+		</CELL_startFalling>
+	</CellMethods>
+</root>
+

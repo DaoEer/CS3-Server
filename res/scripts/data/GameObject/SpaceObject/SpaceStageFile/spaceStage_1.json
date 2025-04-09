@@ -1,0 +1,35 @@
+{
+	"beginOnSpaceInit":1,
+	"stages":{
+			"1":{
+				"title":"阶段一",
+				"comment":"消灭魔族，营救村民",
+				"tasks":{
+					"1":{
+						"title":"消灭魔族",
+						"type":"SStageTask_killMonster",
+						"reqVal":2,
+						"param1":"100001",
+						"param2":"",
+						"param3":"",
+						"navigateData":""
+					}
+				}
+			},
+			"2":{
+				"title":"阶段二",
+				"comment":"消灭仙道",
+				"tasks":{
+					"1":{
+						"title":"消灭仙道",
+						"type":"SStageTask_killMonster",
+						"reqVal":2,
+						"param1":"100002",
+						"param2":"",
+						"param3":"",
+						"navigateData":""
+					}
+				}
+			}
+	}
+}

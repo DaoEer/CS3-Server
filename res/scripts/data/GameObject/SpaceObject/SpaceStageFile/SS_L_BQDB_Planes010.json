@@ -1,0 +1,137 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭叛乱的轩辕族头领", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004699|20005007|20005009|20005010", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005010#L_BQDB_Planes010"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭齐祖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004701", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004701#L_BQDB_Planes010"
+                }
+            }, 
+            "title": "消灭齐祖"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭广场正中的头领", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005008", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005008#L_BQDB_Planes010"
+                }
+            }, 
+            "title": "消灭广场正中的头领"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭叛乱族人", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005545|20005546", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(38349.992188 27810.000000 611.060242)#L_BQDB_Planes010"
+                }
+            }, 
+            "title": "消灭拦路叛乱族人"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救晏龙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "20004703", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20004703#L_BQDB_Planes010"
+                }
+            }, 
+            "title": "解救晏龙"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭乌名", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004702", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004702#L_BQDB_Planes010"
+                }
+            }, 
+            "title": "消灭乌名"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救公孙盘", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20005000", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005000#L_BQDB_Planes010"
+                }
+            }, 
+            "title": "破除公孙盘身上的封印"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭大巫巫修", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004708", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004708#L_BQDB_Planes010"
+                }
+            }, 
+            "title": "消灭大巫巫修"
+        }
+    }, 
+    "describe": "34级仙道", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救众人，夺回轩辕族营地"
+}

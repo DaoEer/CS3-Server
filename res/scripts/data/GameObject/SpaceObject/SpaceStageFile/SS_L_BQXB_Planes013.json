@@ -1,0 +1,130 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营刀卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006909|20006911", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-33536.3 -7573.6 -418.4)#L_BQXB_Planes013"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营卫兵", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006916|20006917", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-36795.7 -8691.5 -423.3)#L_BQXB_Planes013"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营守卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006914|20006915", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-37606.1 -10443.0 -613.8)#L_BQXB_Planes013"
+                }
+            }, 
+            "title": "长驱直入"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营近卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006949|20006950|20007119|20007120|20007121", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-33839.1 -30591.3 -482.0)#L_BQXB_Planes013"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭七煞鬼王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007164", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-33600.0 -38051.5 -379.2)#L_BQXB_Planes013"
+                }
+            }, 
+            "title": "扫清阻碍"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营弟子", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006924|20006925|20006926|20006927", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-42318.5 -20298.7 -486.1)#L_BQXB_Planes013"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭昊龙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007171", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007171#L_BQXB_Planes013"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营锤卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006939|20006943", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-33916.5 -21517.8 -378.6)#L_BQXB_Planes013"
+                }
+            }, 
+            "title": "攻入敌营"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007170", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007170#L_BQXB_Planes013"
+                }
+            }, 
+            "title": "擒拿丹朱"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "攻打九黎部落"
+}

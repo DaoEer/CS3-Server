@@ -1,0 +1,138 @@
+{
+    "20101707": {
+        "tasks": [
+            {
+                "navigateData": "20003009#L_TSYJ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "协助大巫巫维取得九天息壤"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0 0 -60", 
+                "param2": "-4620 21470 216", 
+                "param1": "L_TSYJ"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3089"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointClose", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3088"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101707, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010038"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101706"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010038"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13566", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "881", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1464", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "670", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032521|Q032522", 
+        "finish_by": "10000029#L_XYM", 
+        "taskLogDes": "@S{4}从龙汐岛的敖汐处得知，@F{fc=c41}九天息壤@D就在土神遗迹之中，请你协助大巫巫维在土神遗迹中夺得@F{fc=c41}九天息壤@D，再回逍遥门向鲲鹏复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032538", 
+        "nextQuest": "20101709", 
+        "taskCompleteFunctions": {}, 
+        "level": 20, 
+        "title": "九天息壤（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000294#L_LXD", 
+        "isAutoAccept": 1
+    }
+}

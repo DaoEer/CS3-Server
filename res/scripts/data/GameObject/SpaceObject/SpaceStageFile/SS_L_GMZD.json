@@ -1,0 +1,102 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败鬼魅狐兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008940|20008941", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-16307.777344 -15103.546875 -1353.763184)#L_GMZD"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败鬼魅妖狐", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008944|20008945", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-9200.901367 -3340.063232 420.358398)#L_GMZD"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败鬼魅妖精", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008942|20008943", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8018.233887 -10456.881836 -489.428223)#L_GMZD"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败猿奎", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008948", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-19270.000000 -2930.000000 2114.468018)#L_GMZD"
+                }
+            }, 
+            "title": "消灭妖狸"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回摩诃殿复命", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "30000573#L_GMZD"
+                }
+            }, 
+            "title": "返回摩诃殿"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤尾妖狸", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008949", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-14320.000000 -7770.000000 1887.032227)#L_GMZD"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得妖狸之心", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010108", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "夺取至宝"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "赤尾妖狸"
+}

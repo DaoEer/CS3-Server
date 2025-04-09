@@ -1,0 +1,432 @@
+<root>
+	<Properties>
+		<itemsBag>
+			<!-- 物品序号 -->
+			<Type>				KITBAG				</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+   			<Default>			{}				</Default>
+			<Persistent>			true				</Persistent>
+		</itemsBag>
+		<systemKitBagLock>
+			<!-- 系统锁定背包 -->
+			<Type>				BOOL			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>		
+		</systemKitBagLock>
+		<unLockGridNum>
+			<!-- 解锁普通格子 -->
+			<Type>				INT32			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			true			</Persistent>
+		</unLockGridNum>
+		<commonCapacity>
+			<!-- 普通格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Persistent>			false			</Persistent>	
+		</commonCapacity>
+		<questCapacity>
+			<!-- 任务格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Persistent>			false			</Persistent>
+		</questCapacity>
+		<crystalCapacity>
+			<!-- 晶石格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Persistent>			false			</Persistent>
+		</crystalCapacity>
+		<canUnLockCapacity>
+			<!-- 普通背包格子可以解锁的格子数 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Persistent>			false			</Persistent>
+		</canUnLockCapacity>
+		<kitbagPassword>
+			<!-- 背包密码 -->
+			<Type>				STRING			</Type>
+			<Flags>				CELL_PRIVATE		</Flags>
+			<Persistent>			true			</Persistent>
+		</kitbagPassword>
+		<kbLockStatus>
+			<!-- 背包密码解锁状态 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>
+		</kbLockStatus>
+		<requestresetKBPWTime>
+			<!-- 请求重置背包密码时间 -->
+			<Type>				INT64			</Type>
+			<Flags>				CELL_PRIVATE		</Flags>
+			<Persistent>			true			</Persistent>			
+		</requestresetKBPWTime>
+		<resetKBPWTimerID>
+			<!-- 请求重置背包密码时间Timer -->
+			<Type>				TIMER_ID		</Type>
+			<Flags>				CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>			
+		</resetKBPWTimerID>
+
+		<storeMoney>
+			<!-- 仓库存储的金钱 -->
+			<Type>				INT64			</Type>
+			<Flags>				BASE			</Flags>
+			<Default>			0			</Default>
+			<Persistent>			true			</Persistent>			
+		</storeMoney>
+		<storeItems>
+			<!-- 仓库存储物品 -->
+			<Type>				STORE_BAGS			</Type>
+			<Flags>				BASE				</Flags>
+      			<Default>			{}				</Default>
+			<Persistent>			true				</Persistent>
+		</storeItems>
+    		<resetKBPWStatus>
+	      		<!-- 重置状态 -->
+		    	<Type>				INT32			</Type>
+		    	<Flags>				OWN_CLIENT		</Flags>
+		    	<Default>			0			</Default>
+		    	<Persistent>			true			</Persistent>
+	 	</resetKBPWStatus>
+		<itemUseAmount>
+		    	<!-- 物品使用限量 -->
+		    	<Type>				DICT_INT_INT_LIST	</Type>
+		    	<Flags>				OWN_CLIENT		</Flags>
+		    	<Persistent>			true			</Persistent>
+		</itemUseAmount>
+		<unLockSpaceCopyGridNum>
+		    	<Type>				INT32			</Type>
+				<Flags>			CELL_PRIVATE	 	</Flags>
+				<Default>		0			</Default>
+				<Persistent>		false			</Persistent>
+		</unLockSpaceCopyGridNum>
+		<itemLimitTimes>	<!-- 限时物品销毁Time -->
+			<Type>				PYTHON_DICT				</Type>
+			<Flags>				CELL_PRIVATE			</Flags>
+      		<Default>				{}					</Default>
+			<Persistent>			false				</Persistent>
+		</itemLimitTimes>
+		<itemLimitTimer>	<!-- 限时物品销毁TimeTimer -->
+			<Type>				TIMER_ID		</Type>
+			<Flags>				CELL_PRIVATE		</Flags>
+			<Default>			0				</Default>
+			<Persistent>			false			</Persistent>			
+		</itemLimitTimer>
+	</Properties>
+
+	<ClientMethods>
+		<kitbagInit>
+			<Arg>	ITEM_FOR_CLIENT_LIST	</Arg>
+		</kitbagInit>
+		<addItem>
+			<Arg>	ITEM_FOR_CLIENT	</Arg>
+			<Arg>	UINT8			</Arg>
+		</addItem>
+
+		<CLIENT_removeItem>
+			<Arg>		INT32		</Arg>
+		</CLIENT_removeItem>
+		<CLIENT_swapItemAC>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_swapItemAC>
+
+		<addStoreItem>
+			<Arg>	ITEM_FOR_CLIENT	</Arg>
+		</addStoreItem>
+		<CLIENT_removeStoreItem>
+			<Arg>		INT32		</Arg>
+		</CLIENT_removeStoreItem>
+		<CLIENT_swapStoreItemAC>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_swapStoreItemAC>
+		<CLIENT_swapItemFromBagToStore>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_swapItemFromBagToStore>
+
+		<updateTongStoreItem>
+			<Arg>		ITEM_FOR_CLIENT		</Arg>
+		</updateTongStoreItem>
+		<CLIENT_removeTongStoreItem>
+			<Arg>		INT32		</Arg>
+		</CLIENT_removeTongStoreItem>
+		<CLIENT_swapTongStoreItemAC>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_swapTongStoreItemAC>
+		<CLIENT_swapItemFromBagToTongStore>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_swapItemFromBagToTongStore>
+
+		<CLIENT_requestSortKitBagCB>
+			<Arg>		INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+		</CLIENT_requestSortKitBagCB>
+		<CLIENT_openInputKBPW>
+		</CLIENT_openInputKBPW>
+		<CLIENT_hideKBLockWin/>
+		<CLIENT_AddToItemUseAmountArray>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_AddToItemUseAmountArray>
+		<CLIENT_UpdateItemUseAmount>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_UpdateItemUseAmount>
+		<CLIENT_endSort>
+		</CLIENT_endSort>
+		<CLIENT_requestOpenStoreWindow>
+			<Arg>		OBJECT_ID	</Arg>	<!-- NPCID -->
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_requestOpenStoreWindow>
+		<CLIENT_OnUnLockStoreGridNumChange>
+			<Arg>		INT32		</Arg>
+		</CLIENT_OnUnLockStoreGridNumChange>
+		<CLIENT_OnStoreMoneyChange>
+			<Arg>		STRING		</Arg>
+		</CLIENT_OnStoreMoneyChange>
+
+		<CLIENT_ShowNextLevelGift>
+			<Arg>		INT32		</Arg>
+			<Arg>		ARRAY_INT32	</Arg>
+			<Arg>		ARRAY_INT32	</Arg>
+		</CLIENT_ShowNextLevelGift>
+		<CLIENT_ShowLevelGift>
+			<Arg>		STRING		</Arg>
+			<Arg>		ARRAY_INT32	</Arg>
+			<Arg>		ARRAY_INT32	</Arg>
+		</CLIENT_ShowLevelGift>
+		<CLIENT_GreyItem>
+			<Arg>		INT32		</Arg>
+		</CLIENT_GreyItem>
+		<CLIENT_ClearGreyItem>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ClearGreyItem>
+		<CLIENT_OnSetGridEnabledByOrderID>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_OnSetGridEnabledByOrderID>
+		<OnBeforeRemoveItemBP>
+			<Arg>		STRING		</Arg>
+		</OnBeforeRemoveItemBP>
+		<CLIENT_ShowItemListIcon>
+			<Arg>		DICT_STR_INT	</Arg>
+		</CLIENT_ShowItemListIcon>
+		<CLIENT_SetGiftItemsDescribe>
+		    <Arg>		STRING		</Arg>
+		    <Arg>		UNICODE		</Arg>
+		</CLIENT_SetGiftItemsDescribe>
+	</ClientMethods>
+
+	<BaseMethods>
+		<unLockGrid>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</unLockGrid>
+  		 <unLockStoreGrid>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+   		</unLockStoreGrid>
+		<setPWKitBagLock>
+			<Arg>		INT32		</Arg>
+		</setPWKitBagLock>
+		<requestSaveMoney>
+			<Arg>		INT64		</Arg>
+		</requestSaveMoney>
+		<requestTakeMoney>
+			<Arg>		INT64		</Arg>
+		</requestTakeMoney>
+		<requestOpenStoreWindow>
+			<Arg>	OBJECT_ID		</Arg>	<!-- NPCID -->
+		</requestOpenStoreWindow>
+  		 <requestSaveItem>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</requestSaveItem>
+  		 <requestTakeItem>
+			<Arg>		INT32		</Arg>
+   		</requestTakeItem>
+  		 <onRequestTakeItemFail>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</onRequestTakeItemFail>
+  		 <swapItemAC>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+   		</swapItemAC>
+  		 <swapItemFromBagToStore>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</swapItemFromBagToStore>
+  		 <swapItemFromStoreToBag>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</swapItemFromStoreToBag>
+  		 <requestRemoveStoreItem>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+   		</requestRemoveStoreItem>
+		<splitStoreItem>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</splitStoreItem>
+		<requestSortStoreBag/>
+		<unLockStoreGridCB>
+			<Arg>		INT32		</Arg>
+		</unLockStoreGridCB>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_swapItem>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CELL_swapItem>
+		<CELL_unWieldEquip>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</CELL_unWieldEquip>
+		<CELL_requestRemoveItemByUID>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</CELL_requestRemoveItemByUID>
+		<CELL_splitItem>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CELL_splitItem>
+		<CELL_useItem>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>			
+		</CELL_useItem>
+		<CELL_uesItemByShortcutBar>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>			
+		</CELL_uesItemByShortcutBar>
+		<CELL_useItemByPos>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		POSITION	</Arg>			
+		</CELL_useItemByPos>
+		<CELL_useItemByPosAndDir>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		POSITION	</Arg>			
+			<Arg>		DIRECTION	</Arg>	
+		</CELL_useItemByPosAndDir>
+		<CELL_useLevelGiftItem>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</CELL_useLevelGiftItem>
+
+		<CELL_unLockGrid>
+			<Exposed/>
+			<Arg>		STRING		</Arg>			
+		</CELL_unLockGrid>
+		<unLockGridCB>
+			<Arg>		INT32		</Arg>
+			<Arg>		BOOL		</Arg>
+		</unLockGridCB>
+		<CELL_requestSortKitBag>
+			<Exposed/>
+			<Arg>		INT32		</Arg>			
+		</CELL_requestSortKitBag>
+		<CELL_requsetSetPW>
+			<Exposed/>
+			<Arg>		STRING		</Arg>		<!--oldpw-->
+			<Arg>		STRING		</Arg>		<!--newpw-->
+		</CELL_requsetSetPW>
+		<CELL_unLockKB>
+			<Exposed/>
+			<Arg>		STRING		</Arg>		<!--newpw-->
+		</CELL_unLockKB>
+		<CELL_cancelPW>
+			<Exposed/>
+			<Arg>		STRING		</Arg>		<!--newpw-->
+		</CELL_cancelPW>		
+		<CELL_resetKBPW>
+			<Exposed/>
+		</CELL_resetKBPW>
+		<CELL_cancelResetKBPW>
+			<Exposed/>
+		</CELL_cancelResetKBPW>
+		<CELL_LockKB>
+			<Exposed/>
+		</CELL_LockKB>
+
+		<CELL_requestSaveMoney>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</CELL_requestSaveMoney>
+		<onRequestSaveMoney>
+			<Arg>		INT64		</Arg>
+		</onRequestSaveMoney>
+		<CELL_requestTakeMoney>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</CELL_requestTakeMoney>
+		<onRequestTakeMoney>
+			<Arg>		INT64		</Arg>
+		</onRequestTakeMoney>
+  		 <CELL_requestSaveItem>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+   		</CELL_requestSaveItem>
+  		 <onRequestSaveItem>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		BOOL		</Arg>
+   		</onRequestSaveItem>
+    		<CELL_requestTakeItem>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+    		</CELL_requestTakeItem>
+  		<onRequestTakeItem>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+			<Arg>		BOOL		</Arg>
+   		</onRequestTakeItem>
+  		 <addItemToStoreClient>
+			<Arg>		ITEM		</Arg>
+   		</addItemToStoreClient>
+  		<CELL_swapStoreItem>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+   		</CELL_swapStoreItem>
+  		 <onStackItemToStore>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</onStackItemToStore>
+  		 <onSwapItemToStore>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</onSwapItemToStore>
+   		<unLockGridRemoveItem>
+   			<Arg>       INT32       </Arg>
+   		</unLockGridRemoveItem>
+   		<CELL_unLockStoreGrid>
+   			<Arg>       INT32       </Arg>
+   			<Arg>       INT32       </Arg>
+   		</CELL_unLockStoreGrid>
+	</CellMethods>
+</root>

@@ -1,0 +1,24 @@
+﻿{
+"SpaceName"	: "天书幻境",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStoryExit",
+"scriptID"	: "L_TSHJ_2",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_TSHJ_2",
+"NavmeshPath"	: "space\\L_BJG_ZG_NAVMESH",
+"PatrolRouteFile": "P_L_TSHJ_2",
+"belongType"	: "1",
+"SpaceCopyStoryExit"	:{
+	"ScriptID"	: "L_KLZ_1|L_YXG|L_PLG|L_TQG",
+	"Position"	: "-207804.0 -207040.0 19062.0|-1832.698242 -16246.607422 1957.184814|-299052.125 -639615 56085.621094|2939.995605 -12385.109375 636.152283",
+	"Direction"	: "0 0 -178|0 0 160|0 0 -87|0.0 0.0 -137.50987083139756"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_TSHJ_2",
+	"eventFile":"SE_L_TSHJ_2"
+	},
+"DomainData"	:{
+	}
+}

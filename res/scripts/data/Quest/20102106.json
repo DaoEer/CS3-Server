@@ -1,0 +1,98 @@
+{
+    "20102106": {
+        "tasks": [
+            {
+                "navigateData": "(25557.2 -22619.2 1804.1)#L_MXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "6", 
+                "param2": "25557.2 -22619.2 1804.1", 
+                "param1": "L_MXG", 
+                "id": 1, 
+                "name": "前往冥仙谷禁地"
+            }, 
+            {
+                "navigateData": "(18254.0 -7943.0 -2188.0)#L_MXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "营救朝天犼"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102106, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102105"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22606", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "888", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9975", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045453|Q042203", 
+        "finish_by": "10000739#L_MXG", 
+        "taskLogDes": "@S{4}从听天兽这里得知，谛听和朝天犼就在冥仙谷深处，但魔道大军已将那里包围，请你快去营救他们。|@S{4}从听天兽这里得知，谛听和朝天犼就在冥仙谷深处，但魔道大军已将那里包围，请你快去营救他们。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045466|Q042220", 
+        "nextQuest": "20102107|20102107|20102107|20102108", 
+        "taskCompleteFunctions": {}, 
+        "level": 37, 
+        "title": "冥仙谷（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000738#L_MXG", 
+        "isAutoAccept": 1
+    }
+}

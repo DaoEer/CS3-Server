@@ -1,0 +1,27 @@
+<root>
+	<Parent>		MovingPlatform		</Parent>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+		
+	<Properties>
+		<shadeTime>			<!--  渐变时间 -->
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</shadeTime>
+		<isShadeing>			<!--  渐变时间 -->
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+		</isShadeing>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

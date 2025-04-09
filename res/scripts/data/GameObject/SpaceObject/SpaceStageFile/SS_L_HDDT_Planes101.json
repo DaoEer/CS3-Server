@@ -1,0 +1,35 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败莫肖及蓬莱阁弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010597|20010600|20010825", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "救援玄冥子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20010597", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "救援玄冥子"
+        }
+    }, 
+    "describe": "1-10级新版魔道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "下界"
+}

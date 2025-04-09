@@ -1,0 +1,126 @@
+{
+    "stages": {
+        "1": {
+            "comment": "跳上台阶，继续前进", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12500 -2970 2840:46", 
+                    "param2": "4000|2500", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "1.跳上台阶"
+        }, 
+        "3": {
+            "comment": "跳跃浮台，越上高台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "20420 -5920 6500:12", 
+                    "param2": "8000|2500", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "3.跳上高台"
+        }, 
+        "2": {
+            "comment": "跳过山涧，到达对岸", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "15700 -8000 3020:10", 
+                    "param2": "4000|2500", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "2.跳过山涧"
+        }, 
+        "5": {
+            "comment": "跳过石阵，到达高台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "48180 -5820 10010:9", 
+                    "param2": "12000|2500", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "5.跳过石阵"
+        }, 
+        "4": {
+            "comment": "击败龙魂守卫，继续前进", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭龙魂守卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008670", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "4.击败龙魂守卫"
+        }, 
+        "7": {
+            "comment": "击败上古龙灵，完成历练", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "完成历练", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008660", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "7.击败上古龙灵"
+        }, 
+        "6": {
+            "comment": "跃过间或突出的石阵，到达对岸平台", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "67850 -5570 13120:27", 
+                    "param2": "20000|2500", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "6.跃过石阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "帝宫石印阵"
+}

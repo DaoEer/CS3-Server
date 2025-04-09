@@ -1,0 +1,129 @@
+{
+    "20101232": {
+        "tasks": [
+            {
+                "navigateData": "10000261#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "48230 -13540 812", 
+                "param1": "L_FLS", 
+                "id": 1, 
+                "name": "前往九州仙府，拜访无涯子"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3085"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101232, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "14005202"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2|3|4"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101203"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "14005202"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2723", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "620", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6186", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "715", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102020003|102020007|102020011|102020015", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q030296|Q030297|Q032088", 
+        "finish_by": "10000261#L_FLS", 
+        "taskLogDes": "@S{4}九天息壤需以@F{fc=c41}三光神水@D加以调和，方能塑造人类血肉之躯。灵珠子让你前往飞来石九州仙府拜访仙府之主无涯子，打听神水一事。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030298|Q030301", 
+        "nextQuest": "20101240", 
+        "taskCompleteFunctions": {}, 
+        "level": 21, 
+        "title": "三光神水", 
+        "isAutoCommit": 1, 
+        "start_by": "10000269#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

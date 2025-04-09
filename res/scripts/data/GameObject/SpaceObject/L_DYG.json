@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopyStory",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_DYG",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_DYG",
+"NavmeshPath"	: "space\\L_DYG_NAVMESH",
+"PatrolRouteFile": "P_L_DYG",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FLS",
+	"Position"	: "-29635.000000000004 -66657.0 14083.000000000002",
+	"Direction"	: "0 0 -20"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_DYG",
+	"eventFile":"SE_L_DYG"
+	},
+"DomainData"	:{
+	}
+}

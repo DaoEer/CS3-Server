@@ -1,0 +1,26 @@
+﻿{
+	"Server_Local" : {
+		"name": "本地服务器",
+		"key"	: "Server_Local",
+		"dbInfo": {
+			"database": "csol3",
+			"user": "root",
+			"password": "123456",
+			"host": "127.0.0.1",
+			"port": "3306",
+			"charset": "utf8"
+		}
+	},
+	"Server_Test" : {
+		"name": "测试服务器",
+		"key"	: "Server_Test",
+		"dbInfo": {
+			"database": "csol3",
+			"user": "root",
+			"password": "123456",
+			"host": "172.16.6.47",
+			"port": "32770",
+			"charset": "utf8"
+		}
+	}
+}

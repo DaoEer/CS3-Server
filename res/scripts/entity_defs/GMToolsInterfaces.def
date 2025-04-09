@@ -1,0 +1,20 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<Interfaces>
+	</Interfaces>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<sendMsg>	<!-- 向socket发送消息 -->
+			<Arg>	UNICODE		</Arg>	<!-- json msg -->
+		</sendMsg>
+
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

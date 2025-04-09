@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭冰霜妖卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009236|20009237|20009238", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009236|20009237|20009238#L_TLXS"
+                }
+            }, 
+            "title": "初登雪山"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭寒冰暗卫", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009247|20009248|20009249|20009250|20009251|20009252|20009253", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009247|20009248|20009249|20009250|20009251|20009252|20009253#L_TLXS"
+                }
+            }, 
+            "title": "深入雪山"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭雪山守将寒真", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009246", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009246#L_TLXS"
+                }
+            }, 
+            "title": "雪山守将"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭冰山魔女", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009254", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(7450.000000 15070.000000 460.000000)#L_TLXS"
+                }
+            }, 
+            "title": "冰山魔女"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "放置风雨苍穹", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "748", 
+                    "param2": "20009257", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(7450.000000 15070.000000 460.000000)#L_TLXS"
+                }
+            }, 
+            "title": "雪山之巅"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回耀光阁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "8776.0 15878.0 492.0:3", 
+                    "param2": "1500|-1000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(8776.0 15878.0 492.0)#L_TLXS"
+                }
+            }, 
+            "title": "返回耀光阁"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "雪山取灵"
+}

@@ -1,0 +1,96 @@
+{
+    "20102088": {
+        "tasks": [
+            {
+                "navigateData": "(-4631.0 -4890.0 -2661.566895)#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "攻打九黎部落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_BQXB_Planes013"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102088, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102087"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19057", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "755", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8481", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1459", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041467", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}公孙盘的轩辕族大军已备战就绪。请你随他一同闯入九黎部落，铲除魔道救回族人。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102089|20102090|20102090|20102090", 
+        "taskCompleteFunctions": {}, 
+        "level": 33, 
+        "title": "攻打九黎部落", 
+        "isAutoCommit": 1, 
+        "start_by": "10000636#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "天公山",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_TGS",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_TGS",
+"NavmeshPath"	: "space\\L_TGS_NAVMESH",
+"PatrolRouteFile": "P_L_TGS",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 60,
+	"spaceIntroduce":{"voiceID":"C000663"},
+	"enterPosition":"-18058 7076 -1091",
+	"enterDirection":"0 0 19",
+	"stageFile":"SS_fu_ben_L_TGS",
+	"eventFile":"SE_fu_ben_L_TGS",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

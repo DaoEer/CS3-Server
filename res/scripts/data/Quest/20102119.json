@@ -1,0 +1,96 @@
+{
+    "20102119": {
+        "tasks": [
+            {
+                "navigateData": "(1390.0 -13680.000000000002 626.0)#L_TQG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "1390.0 -13680.000000000002 626.0", 
+                "param1": "L_TQG", 
+                "id": 1, 
+                "name": "前往太清宫找太上老君"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002123"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102119, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102118"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|2|3"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16467", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "648", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "7271", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045352|Q045353", 
+        "finish_by": "10000126#L_TQG", 
+        "taskLogDes": "@S{4}夸父体内的玄月神力尚未觉醒，他族中有一映月宝典，记载着唤醒玄月神力之法，但此宝典乃巨人族先祖以先天古文所著，难以辨识。他让你将宝典交予太上老君，请老君破解其中玄妙。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045354", 
+        "nextQuest": "20102121", 
+        "taskCompleteFunctions": {}, 
+        "level": 38, 
+        "title": "觉醒神力之法", 
+        "isAutoCommit": 1, 
+        "start_by": "10001001#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

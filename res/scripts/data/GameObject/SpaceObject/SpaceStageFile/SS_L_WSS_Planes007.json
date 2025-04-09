@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "靠近宝库门口，使用钥匙进入宝库", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入乾坤宝库", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-174966.0 13082.0 14541.0)#L_WSS_Planes007"
+                }
+            }, 
+            "title": "开启宝库"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "乾坤宝库"
+}

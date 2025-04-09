@@ -1,0 +1,109 @@
+{
+    "20102019": {
+        "tasks": [
+            {
+                "navigateData": "40000071#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "净化东边水源"
+            }, 
+            {
+                "navigateData": "40000075#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "净化南边水源"
+            }, 
+            {
+                "navigateData": "40000074#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "净化西边水源"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102019, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102018"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18202", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "725", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8144", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1380", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045057", 
+        "finish_by": "10000442#L_BQDB", 
+        "taskLogDes": "@S{4}医师药尘已将祛毒甘露炼成，让你前去将水源净化以免更多生灵遭受毒害。|@S{4}医师药尘已将祛毒甘露炼成，让你前去将水源净化以免更多生灵遭受毒害。|@S{4}医师药尘已将祛毒甘露炼成，让你前去将水源净化以免更多生灵遭受毒害。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045059", 
+        "nextQuest": "20102020", 
+        "taskCompleteFunctions": {}, 
+        "level": 32, 
+        "title": "净化水源", 
+        "isAutoCommit": 1, 
+        "start_by": "10000442#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

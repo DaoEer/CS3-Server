@@ -1,0 +1,37 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<buyPointCard>							<!-- 购买点卡 -->
+			<Arg>	STRING		</Arg> 			<!-- cardNo -->
+			<Arg>	UINT32		</Arg> 			<!-- money -->
+			<Arg>	ENTITYCALL	</Arg>
+			<Arg>	STRING		</Arg>			<!-- playerName -->
+			<Arg>	STRING		</Arg>			<!-- accountName -->
+		</buyPointCard>
+
+		<sellPointCard>							<!-- 玩家寄售点卡 -->
+			<Arg>	POINTCARDINFO	</Arg>
+			<Arg>	ENTITYCALL			</Arg>		<!-- 寄售玩家 -->
+		</sellPointCard>
+		
+		<queryPointCards>
+			<Arg>	ENTITYCALL	</Arg>			<!-- 查询玩家 -->
+			<Arg>	UINT32		</Arg> 			<!-- page -->
+		</queryPointCards>
+		
+		<queryPointCardsByValue>
+			<Arg>		ENTITYCALL	</Arg>		<!-- 查询玩家 -->
+			<Arg>		UINT32		</Arg>		<!-- page -->
+			<Arg>		STRING		</Arg>		<!-- value -->
+		</queryPointCardsByValue>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

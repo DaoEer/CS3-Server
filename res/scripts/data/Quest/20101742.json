@@ -1,0 +1,114 @@
+{
+    "20101742": {
+        "tasks": [
+            {
+                "navigateData": "20003098#L_MKZ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010064", 
+                "id": 1, 
+                "name": "取得破界石"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002022"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101742, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010064"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101709"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010064"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10911", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1678", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16784", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "715", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032686|Q032687|Q032688", 
+        "finish_by": "10000053#L_XYM", 
+        "taskLogDes": "@S{4}锁灵塔乃是木傀族的试炼圣地，塔的入口设有结界守护，祖巫帝江请你先去木傀寨中取得@F{fc=c41}破界石@D，用以破除锁灵塔结界。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032703", 
+        "nextQuest": "20101710|20101711|20101710|20101710", 
+        "taskCompleteFunctions": {}, 
+        "level": 21, 
+        "title": "木傀寨", 
+        "isAutoCommit": 1, 
+        "start_by": "10000053#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

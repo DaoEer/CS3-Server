@@ -1,0 +1,46 @@
+{
+    "20009308": {
+        "wanderRange": 3.0, 
+        "enemyRange": 15.0, 
+        "Param5": "", 
+        "Param4": "", 
+        "Param3": "", 
+        "Param2": "", 
+        "Param1": "", 
+        "useSkills": "140184001|140184002|140184003", 
+        "distance": 3.0
+    }, 
+    "20009309": {
+        "wanderRange": 3.0, 
+        "enemyRange": 15.0, 
+        "Param5": "", 
+        "Param4": "", 
+        "Param3": "", 
+        "Param2": "", 
+        "Param1": "", 
+        "useSkills": "140185001|140185002|140185003", 
+        "distance": 3.0
+    }, 
+    "20010168": {
+        "wanderRange": 0.0, 
+        "enemyRange": 100.0, 
+        "Param5": "-250 2320 855", 
+        "Param4": "3", 
+        "Param3": "8", 
+        "Param2": "Show_08", 
+        "Param1": "C000704|C000710|C000703|C000720", 
+        "useSkills": "120052001|120053001|120054001|120055001", 
+        "distance": 2.0
+    }, 
+    "20009307": {
+        "wanderRange": 3.0, 
+        "enemyRange": 15.0, 
+        "Param5": "", 
+        "Param4": "", 
+        "Param3": "", 
+        "Param2": "", 
+        "Param1": "", 
+        "useSkills": "140183001|140183002|140183003", 
+        "distance": 3.0
+    }
+}

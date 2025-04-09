@@ -1,0 +1,635 @@
+{% extends "gmtools/role/role.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+	<script src="/static/laydate/laydate.js"></script>
+{% endblock %}
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">角色信息查询</h2>
+	<h3 class="sub-header" style = "margin:0.1px;">账号信息查询</h3>
+	<div class="row">
+		<form name="form-horizontal" method="post" action="/gmtools/role/query_info/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class="row" style="margin-top:10px;">
+					<div class="from-group col-sm-3">
+						<div class="col-sm-5 control-label">
+							<select name="queryType" class="queryType form-control" id="queryType">
+								<option value="accountName" {% if queryType == 'accountName' %} selected {% endif %} class="c_roleName">账号名称</option>
+							</select>
+						</div>
+						<div class="col-sm-7">
+							<input name="queryValue" type="text" class="form-control" id="id_roleName"
+								   {% if queryType == 'accountName' %} value = "{{ roleInfo.accountName }}" {% else %} value = "{{ roleInfo.roleName }}" {% endif %} maxlength="30" />
+						</div>
+					</div>
+				</div>
+				<div class="row" style="margin-top:10px;">
+					<div class="from-group col-sm-5">
+						<div class="col-sm-3 control-label">
+							<select name="timeType" class="form-control" id="timeType">
+								<option value="time" class="c_time">查询时间</option>
+							</select>
+						</div>
+						<div class="col-sm-3 control-label">
+							<input type="text" name="date" class="form-control" id="id_date" placeholder="默认为开服日期" readonly="readonly" value="{{ date }}"/>
+						</div>
+						<div class="col-sm-3 control-label">
+							<input type="text" name="time" class="form-control" id="id_time" placeholder="默认为开服时间" readonly="readonly" value="{{ time }}"/>
+						</div>
+					</div>
+					<div class="from-group col-sm-4" style="margin-left:-190px">
+						<p class="col-sm-1 control-label text-center" style="line-height:30px;">
+							至
+						</p>
+						<div class="col-sm-4 control-label">
+							<input type="text" name="endDate" class="form-control" id="id_endDate" placeholder="默认为当前日期" readonly="readonly" value="{{ endDate }}"/>
+						</div>
+						<div class="col-sm-4 control-label">
+							<input type="text" name="endTime" class="form-control" id="id_endTime" placeholder="默认为当前时间" readonly="readonly" value="{{ endTime }}"/>
+						</div>
+					</div>
+					<div class="form-group col-sm-1" style="margin-left:-150px;">
+						<button type="submit" name="queryAccount" class="btn btn-default">查 询</button>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin:10px;">
+				<p class="navbar-text">总充值：{{ roleInfo.recharge_amount }}</p>
+				<p class="navbar-text">
+
+					所在服务器：{% if roleList %}
+											{% for key, sc in request.serverInfos.items %}
+												 {% if key == request.session.curr_server %}
+													{{sc}}
+												{% endif %}
+											{% endfor %}
+										{% endif %}
+				</p>
+				<p class="navbar-text">是否在线：{{ roleInfo.state }}</p>
+			</div>
+			<input type="hidden" name="accountName" value="{{ roleInfo.accountName }}">
+			<input type="hidden" name="roleList" value="{{roleList}}">
+			<h3 class="sub-header" style = "margin:15px">角色信息</h3>
+			<div class="btn-group from-group" style="padding:20px;width:600px;">
+				{% for role in roleList %}
+				<button type="submit" name="roleSelected" value="{{role.playerName}}" class="btn {% if roleSelected == role.playerName %}btn-info{% else %}btn-default{% endif %}" style="margin-left:20px;margin-bottom:20px;width:250px;">
+					{{role.playerName}}（{{role.level}}级 {{role.gender}} {{role.camp}} {{role.menpai}}）
+				</button>
+				{% endfor %}
+			</div>
+		</form>
+	</div>
+	<h3 class="sub-header" style = "margin:0.1px">详细信息</h3>
+	<div class="row" style = "margin:10px;width:700px;">
+		<p class="navbar-text">角色名：{{ roleInfo.roleName }}</p>
+		<p class="navbar-text">状态：{{ roleInfo.state }}</p>
+		<p class="navbar-text">阵营：{{ roleInfo.camp }}</p>
+		<p class="navbar-text">性别：{{ roleInfo.gender }}</p>
+		<p class="navbar-text">门派：{{ roleInfo.menpai }}</p>
+		<p class="navbar-text">等级：{{ roleInfo.level }}</p>
+		<p class="navbar-text">战力：{{ roleInfo.combatPower }}</p>
+		<p class="navbar-text">境界：{{ roleInfo.jingjie }}</p>
+		<p class="navbar-text">洞府等级：无</p>
+		<p class="navbar-text">帮会：{{ roleInfo.tongName }}</p>
+	</div>
+	<ul id="myTab" class="nav nav-tabs" style="font-size:16px;font-weight:bold;">
+		<li class="active">
+			<a href="#roleProperty" data-toggle="tab">角色属性</a>
+		</li>
+		<li>
+			<a href="#equipInfos" data-toggle="tab">装备信息</a>
+		</li>
+		<li>
+			<a href="#bagItemInfos" data-toggle="tab">背包道具</a>
+		</li>
+		<li>
+			<a href="#storeItemInfos" data-toggle="tab">仓库道具</a>
+		</li>
+		<li>
+			<a href="#moneyInfos" data-toggle="tab">货币信息</a>
+		</li>
+		<li>
+			<a href="#petInfos" data-toggle="tab">幻兽信息</a>
+		</li>
+		<li>
+			<a href="#skillInfos" data-toggle="tab">技能信息</a>
+		</li>
+		<li>
+			<a href="#militaryRankInfos" data-toggle="tab">军衔信息</a>
+		</li>
+		<li>
+			<a href="#titleInfos" data-toggle="tab">称号信息</a>
+		</li>
+		<li>
+			<a href="#questInfos" data-toggle="tab">任务信息</a>
+		</li>
+		<li>
+			<a href="#expInfos" data-toggle="tab">经验值信息</a>
+		</li>
+		<li>
+			<a href="#otherInfos" data-toggle="tab">其他信息</a>
+		</li>
+	</ul>
+	<div id="myTabContent" class="tab-content">
+		<div id="roleProperty" class="tab-pane fade in active">
+			<h5 class="sub-header" style = "margin:10px">基础属性</h5>
+			<div class="row" style = "margin:10px">
+				<p class="navbar-text">根骨：{{ roleInfo.corporeity }}</p>
+				<p class="navbar-text">内力：{{ roleInfo.intellect }}</p>
+				<p class="navbar-text">洞察：{{ roleInfo.discern }}</p>
+				<p class="navbar-text">移速：{{ roleInfo.moveSpeed }}</p>
+				<p class="navbar-text">身法：{{ roleInfo.dexterity }}</p>
+				<p class="navbar-text">筋力：{{ roleInfo.strength }}</p>
+				<p class="navbar-text">气血：{{ roleInfo.HP_Max }}</p>
+				<p class="navbar-text">内息：{{ roleInfo.MP_Max }}</p>
+				<p class="navbar-text">罡气：{{ roleInfo.gangQiValue_Max }}</p>
+				<p class="navbar-text">体力：{{ roleInfo.tiLi }}</p>
+			</div>
+			<h5 class="sub-header" style = "margin:10px">攻击属性</h5>
+			<div class="row" style = "margin:10px">
+				<p class="navbar-text">外功攻击：{{ roleInfo.damage }}</p>
+				<p class="navbar-text">内功攻击：{{ roleInfo.magic_damage }}</p>
+				<p class="navbar-text">外功防御：{{ roleInfo.armor }}</p>
+				<p class="navbar-text">内功防御：{{ roleInfo.magic_armor }}</p>
+				<p class="navbar-text">罡气攻击：{{ roleInfo.gangQi_damagePoint }}</p>
+				<p class="navbar-text">罡气防御：{{ roleInfo.gangQi_armorPoint }}</p>
+			</div>
+			<h5 class="sub-header" style = "margin:10px">进阶属性</h5>
+			<div class="row" style = "margin:10px">
+				<p class="navbar-text">命中率：{{ roleInfo.hitrate }}</p>
+				<p class="navbar-text">会心：{{ roleInfo.criticalstrike }}</p>
+				<p class="navbar-text">招架：{{ roleInfo.parry }}</p>
+				<p class="navbar-text">闪避率：{{ roleInfo.dodgerate }}</p>
+				<p class="navbar-text">自愈率：{{ roleInfo.healingrate }}</p>
+			</div>
+			<h5 class="sub-header" style = "margin:10px">元素属性</h5>
+			<div class="row" style = "margin:10px">
+				<p class="navbar-text">冰攻：{{ roleInfo.bingGong }}</p>
+				<p class="navbar-text">冰抗：{{ roleInfo.bingKang }}</p>
+				<p class="navbar-text">雷攻：{{ roleInfo.leiGong }}</p>
+				<p class="navbar-text">雷抗：{{ roleInfo.leiKang }}</p>
+				<p class="navbar-text">火攻：{{ roleInfo.huoGong }}</p>
+				<p class="navbar-text">火抗：{{ roleInfo.huoKang }}</p>
+				<p class="navbar-text">玄攻：{{ roleInfo.xuanGong }}</p>
+				<p class="navbar-text">玄抗：{{ roleInfo.xuanKang }}</p>
+			</div>
+		</div>
+		<div id="equipInfos" class="table-responsive tab-pane fade" style="margin:20px;">
+			<table class="table table-striped table-condensed" border="1">
+				<thead>
+					<tr>
+						<th>装备名称</th>
+						<th>装备等级</th>
+						<th>装备品质</th>
+						<th>战力</th>
+						<th>耐久度</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for equip in roleInfo.equipDatas %}
+						<tr>
+							<td>
+								<button type="button" class="btn btn-default tooltip-options" data-toggle="tooltip" data-placement="right" title="
+								<h5 class='text-left'>名称：{{ equip.equipName }}</h5>
+								<h5 class='text-left'>等级：{{ equip.level }}</h5>
+								<h5 class='text-left'>品质：{{ equip.quality }}</h5>
+								<h5 class='text-left'>战力：{{ equip.combatPower }}</h5>
+								<h5 class='text-left'>耐久度：{{ equip.hardiness }}</h5>
+								<h5 class='text-left'>门派：{{ equip.classes }}</h5>
+								<h5 class='text-left'>部位：{{ equip.order }}</h5>
+								<h5 class='text-left'>价格：{{ equip.price }}</h5>
+								<h5 class='text-left'>是否绑定：{{ equip.bindType }}</h5>
+								<h5 class='text-left'>附加属性：{{ equip.attributeAddition }}</h5>">
+									{{ equip.equipName }}
+								</button>
+							</td>
+							<td>{{ equip.level }}</td>
+							<td>{{ equip.quality }}</td>
+							<td>{{ equip.combatPower }}</td>
+							<td>{{ equip.hardiness }}</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+		<div id="bagItemInfos" class="row col-sm-15 control-label tab-pane fade">
+			<div class="row col-sm-8 control-label" style = "margin:0.1px;">
+				<table class="table table-striped table-condensed" border="1" style="margin-left:20px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+					<thead>
+					<tr>
+						<th>道具名称</th>
+						<th>道具等级</th>
+						<th>道具单价</th>
+						<th>道具数量</th>
+					</tr>
+					</thead>
+					<tbody>
+					{% for equip in roleInfo.bagItems_equip %}
+						<tr>
+							<td>
+								<button type="button" class="btn btn-default tooltip-options" data-toggle="tooltip" data-placement="right" title="
+								<h5 class='text-left'>名称：{{ equip.equipName }}</h5>
+								<h5 class='text-left'>等级：{{ equip.level }}</h5>
+								<h5 class='text-left'>品质：{{ equip.quality }}</h5>
+								<h5 class='text-left'>战力：{{ equip.combatPower }}</h5>
+								<h5 class='text-left'>耐久度：{{ equip.hardiness }}</h5>
+								<h5 class='text-left'>门派：{{ equip.classes }}</h5>
+								<h5 class='text-left'>部位：{{ equip.order }}</h5>
+								<h5 class='text-left'>价格：{{ equip.price }}</h5>
+								<h5 class='text-left'>是否绑定：{{ equip.bindType }}</h5>
+								<h5 class='text-left'>附加属性：{{ equip.attributeAddition }}</h5>">
+									{{ equip.equipName }}
+								</button>
+							</td>
+							<td>{{ equip.level }}</td>
+							<td>{{ equip.price }}</td>
+							<td>1</td>
+						</tr>
+					{% endfor %}
+					{% for item in roleInfo.bagItems_item %}
+						<tr>
+							<td>
+								<button type="button" class="btn btn-default tooltip-options" data-toggle="tooltip" data-placement="right" title="
+								<h5 class='text-left'>名称：{{ item.itemName }}</h5>
+								<h5 class='text-left'>需求等级：{{ item.ReqLevel }}</h5>
+								<h5 class='text-left'>是否绑定：{{ item.bindType }}</h5>
+								<h5 class='text-left'>品类：{{ item.Type }}</h5>
+								<h5 class='text-left'>描述：{{ item.Describe }}</h5>
+								<h5 class='text-left'>叠加上限：{{ item.StackAmount }}</h5>
+								<h5 class='text-left'>单价：{{ item.Price }}</h5>
+								<h5 class='text-left'>数量：{{ item.amount }}</h5>">
+									{{ item.itemName }}
+								</button>
+							</td>
+							<td>{{ item.ReqLevel }}</td>
+							<td>{{ item.Price }}</td>
+							<td>{{ item.amount }}</td>
+						</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="storeItemInfos" class="row col-sm-15 control-label tab-pane fade">
+			<div class="row col-sm-8 control-label" style = "margin:0.1px;">
+				<h5 style="margin:20px;font-size:16px;font-weight:bold;">仓库金钱：{{roleInfo.storeMoney}}</h5>
+				<table class="table table-striped table-condensed" border="1" style="margin-left:20px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+					<thead>
+					<tr>
+						<th>道具名称</th>
+						<th>道具等级</th>
+						<th>道具单价</th>
+						<th>道具数量</th>
+					</tr>
+					</thead>
+					<tbody>
+					{% for equip in roleInfo.storeItems_equip %}
+						<tr>
+							<td>
+								<button type="button" class="btn btn-default tooltip-options" data-toggle="tooltip" data-placement="right" title="
+								<h5 class='text-left'>名称：{{ equip.equipName }}</h5>
+								<h5 class='text-left'>等级：{{ equip.level }}</h5>
+								<h5 class='text-left'>品质：{{ equip.quality }}</h5>
+								<h5 class='text-left'>战力：{{ equip.combatPower }}</h5>
+								<h5 class='text-left'>耐久度：{{ equip.hardiness }}</h5>
+								<h5 class='text-left'>门派：{{ equip.classes }}</h5>
+								<h5 class='text-left'>部位：{{ equip.order }}</h5>
+								<h5 class='text-left'>价格：{{ equip.price }}</h5>
+								<h5 class='text-left'>是否绑定：{{ equip.bindType }}</h5>
+								<h5 class='text-left'>附加属性：{{ equip.attributeAddition }}</h5>">
+									{{ equip.equipName }}
+								</button>
+							</td>
+							<td>{{ equip.level }}</td>
+							<td>{{ equip.price }}</td>
+							<td>1</td>
+						</tr>
+					{% endfor %}
+					{% for item in roleInfo.storeItems_item %}
+						<tr>
+							<td>
+								<button type="button" class="btn btn-default tooltip-options" data-toggle="tooltip" data-placement="right" title="
+								<h5 class='text-left'>名称：{{ item.itemName }}</h5>
+								<h5 class='text-left'>需求等级：{{ item.ReqLevel }}</h5>
+								<h5 class='text-left'>是否绑定：{{ item.bindType }}</h5>
+								<h5 class='text-left'>品类：{{ item.Type }}</h5>
+								<h5 class='text-left'>描述：{{ item.Describe }}</h5>
+								<h5 class='text-left'>叠加上限：{{ item.StackAmount }}</h5>
+								<h5 class='text-left'>单价：{{ item.Price }}</h5>
+								<h5 class='text-left'>数量：{{ item.amount }}</h5>">
+									{{ item.itemName }}
+								</button>
+							</td>
+							<td>{{ item.ReqLevel }}</td>
+							<td>{{ item.Price }}</td>
+							<td>{{ item.amount }}</td>
+						</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="moneyInfos" class="row tab-pane fade" style = "margin:10px">
+			<p class="navbar-text">充值数额：{{ roleInfo.recharge_amount }}</p>
+			<p class="navbar-text">现有仙石：{{ roleInfo.xianshi }}</p>
+			<p class="navbar-text">现有灵石：{{ roleInfo.lingshi }}</p>
+			<p class="navbar-text">现有玄石：{{ roleInfo.xuanshi }}</p>
+			<p class="navbar-text">现有金钱：{{ roleInfo.money }}</p>
+			<p class="navbar-text">绑定金钱：{{ roleInfo.bindMoney }}</p>
+			<p class="navbar-text">潜能：{{ roleInfo.potential }}</p>
+			<p class="navbar-text">灵能：{{ roleInfo.psionic }}</p>
+			<p class="navbar-text">功勋：{{ roleInfo.feats }}</p>
+		</div>
+		<div id="petInfos" class="from-group row col-sm-15 control-label tab-pane fade">
+
+		<form name="form-horizontal" method="post" action="/gmtools/role/query_info/">{% csrf_token %}
+			<input  type="hidden" name="context" value="{{context}}">
+			<input type="hidden" name="send_flag" id="hiddenField2" value="1">
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;">
+				<div class="row col-sm-10 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>幻兽名字</th>
+								<th>幻兽品种型名</th>
+								<th>幻兽UID</th>
+								<th>状态</th>
+								<th>品质</th>
+								<th>等级</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for pet in roleInfo.petListInfos %}
+								<tr>
+									<td>
+										<button name="queryPetInfos" type="submit" class="btn btn-default" value="{{pet.uid}}">{{ pet.name}}</button>
+									</td>
+									<td>{{ pet.uname}}</td>
+									<td>{{ pet.uid}}</td>
+									<td>{{ pet.state}}</td>
+									<td>{{ pet.quality }}</td>
+									<td>{{ pet.level }}</td>
+								</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</form>
+
+		{%if roleInfo.petInfos%}
+			<p style = "margin:0.1px;text-indent: 1em;text-align:left;">1.基础信息</p>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;">
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>幻兽名字</th>
+								<th>幻兽UID</th>
+								<th>品质</th>
+								<th>等级</th>
+								<th>成长度</th>
+								<th>品类</th>
+								<th>移动速度</th>
+								<th>携带等级</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>{{ roleInfo.petInfos.name }}</td>
+								<td>{{ roleInfo.petInfos.uid }}</td>
+								<td>{{ roleInfo.petInfos.quality }}</td>
+								<td>{{ roleInfo.petInfos.level }}</td>
+								<td>{{ roleInfo.petInfos.ability }}</td>
+								<td>{{ roleInfo.petInfos.uname }}</td>
+								<td>{{ roleInfo.petInfos.speed }}</td>
+								<td>{{ roleInfo.petInfos.takelevel }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<p style = "margin:0.1px;text-indent: 1em;text-align:left;">2.幻兽属性</p>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;">
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>根骨</th>
+								<th>内力</th>
+								<th>洞察</th>
+								<th>身法</th>
+								<th>筋力</th>
+								<th>气血</th>
+								<th>内息</th>
+								<th>罡气</th>
+								<th>战力</th>
+								<th>等阶</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>{{ roleInfo.petInfos.corporeity }}</td>
+								<td>{{ roleInfo.petInfos.intellect }}</td>
+								<td>{{ roleInfo.petInfos.discern }}</td>
+								<td>{{ roleInfo.petInfos.dexterity }}</td>
+								<td>{{ roleInfo.petInfos.strength }}</td>
+								<td>{{ roleInfo.petInfos.HP_Max }}</td>
+								<td>{{ roleInfo.petInfos.MP_Max }}</td>
+								<td>{{ roleInfo.petInfos.gangQiValue_Max }}</td>
+								<td>{{ roleInfo.petInfos.combatPower }}</td>
+								<td>{{ roleInfo.petInfos.step }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<p style = "margin:0.1px;text-indent: 1em;text-align:left;">3.战斗属性</p>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;">
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>外攻</th>
+								<th>外攻防御</th>
+								<th>内攻</th>
+								<th>内攻防御</th>
+								<th>会心</th>
+								<th>命中率</th>
+								<th>招架</th>
+								<th>闪避</th>
+								<th>罡气攻击</th>
+								<th>罡气防御</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>{{ roleInfo.petInfos.damage }}</td>
+								<td>{{ roleInfo.petInfos.armor }}</td>
+								<td>{{ roleInfo.petInfos.magic_damage }}</td>
+								<td>{{ roleInfo.petInfos.magic_armor }}</td>
+								<td>{{ roleInfo.petInfos.criticalstrike }}</td>
+								<td>{{ roleInfo.petInfos.hitrate }}</td>
+								<td>{{ roleInfo.petInfos.parry }}</td>
+								<td>{{ roleInfo.petInfos.dodgerate }}</td>
+								<td>{{ roleInfo.petInfos.gangQi_damagePoint }}</td>
+								<td>{{ roleInfo.petInfos.gangQi_armorPoint }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<p style = "margin:0.1px;text-indent: 1em;text-align:left;">4.幻兽技能</p>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;">
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>主动技能1</th>
+								<th>主动技能2</th>
+								<th>主动技能3</th>
+								<th>主动技能4</th>
+								<th>主动技能5</th>
+								<th>被动技能1</th>
+								<th>被动技能2</th>
+								<th>被动技能3</th>
+								<th>被动技能4</th>
+								<th>被动技能5</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>{{ roleInfo.petInfos.attrSkillInfo.0 }}</td>
+								<td>{{ roleInfo.petInfos.attrSkillInfo.1 }}</td>
+								<td>{{ roleInfo.petInfos.attrSkillInfo.2 }}</td>
+								<td>{{ roleInfo.petInfos.attrSkillInfo.3 }}</td>
+								<td>{{ roleInfo.petInfos.attrSkillInfo.4 }}</td>
+								<td>{{ roleInfo.petInfos.passiveSkillInfo.0 }}</td>
+								<td>{{ roleInfo.petInfos.passiveSkillInfo.1 }}</td>
+								<td>{{ roleInfo.petInfos.passiveSkillInfo.2 }}</td>
+								<td>{{ roleInfo.petInfos.passiveSkillInfo.3 }}</td>
+								<td>{{ roleInfo.petInfos.passiveSkillInfo.4 }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		{%endif%}
+		</div>
+
+		<div id="skillInfos" class="row col-sm-15 control-label tab-pane fade">
+			<div class="row col-sm-8 control-label" style = "margin:0.1px;">
+				<table class="table table-striped table-condensed" border="1" style="margin-left:20px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+					<thead>
+					<tr>
+						<th>技能名称</th>
+						<th>技能类型</th>
+						<th>技能等级</th>
+						<th>是否装备</th>
+					</tr>
+					</thead>
+					<tbody>
+					{% for skill in roleInfo.skillInfos %}
+						<tr>
+							<td>{{ skill.name }}</td>
+							<td>{{ skill.type }}</td>
+							<td>{{ skill.level }}</td>
+							<td>{{ skill.state }}</td>
+						</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div id="titleInfos" class="row col-sm-15 control-label tab-pane fade">
+			<h5 style="margin:10px 40px;font-size:16px;">{% if roleInfo.titles %}已拥有称号：{% for data in roleInfo.titles %} {{data}}  {% endfor %}{% endif %}</h5>
+			<h5 style="margin:10px 40px;font-size:16px;">{% if roleInfo.title %}当前装备称号：{{roleInfo.title}} {% endif %}</h5>
+		</div>
+
+		<div id="questInfos" class="row col-sm-15 control-label tab-pane fade">
+			<div class="row col-sm-8 control-label" style = "margin:0.1px;">
+				<table class="table table-striped table-condensed" border="1" style="margin-left:20px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+					<thead>
+					<tr>
+						<th>任务名称</th>
+						<th>任务类型</th>
+						<th>任务ID</th>
+						<th>任务等级</th>
+					</tr>
+					</thead>
+					<tbody>
+					{% for quest in roleInfo.questInfos %}
+						<tr>
+							<td>{{ quest.title }}</td>
+							<td>{{ quest.QuestClass }}</td>
+							<td>{{ quest.id }}</td>
+							<td>{{ quest.level }}</td>
+						</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<div id="militaryRankInfos" class="row col-sm-15 control-label tab-pane fade">
+			<h5 style="margin:10px 40px;font-size:16px;">{% if roleInfo.militaryRankInfo %}角色当前军衔：{{roleInfo.militaryRankInfo}} {% endif %}</h5>
+		</div>
+
+		<div id="expInfos" class="row col-sm-15 control-label tab-pane fade">
+			<h5 style="margin:10px 40px;font-size:16px;">角色当前经验总值：{{roleInfo.exp}}</h5>
+			<h5 style="margin:10px 40px;font-size:16px;">角色当前修为总值：{{roleInfo.xiuwei}}</h5>
+		</div>
+
+		<div id="otherInfos" class="row tab-pane fade" style = "margin:10px">
+			<p class="navbar-text">首登时间：{{ roleInfo.firstLoginTime }}</p>
+			{% if roleInfo.state == '下线' %}
+			<p class="navbar-text">末登时间：{{ roleInfo.lastLoginTime }}</p>
+			{% endif %}
+			<p class="navbar-text">所在场景名称：{{ roleInfo.loginSpaceName }}</p>
+			<p class="navbar-text">场景内坐标：{{ roleInfo.loginPosition }}</p>
+		</div>
+	</div>
+{% endblock %}
+
+{% block tail_js %}
+	<script>
+		$(".m_role_manage").addClass("active");
+		$(function () { $(".tooltip-options").tooltip({html : true });});
+		{%if roleInfo.petInfos %}
+		$(function () {
+			$('#myTab li:eq(5) a').tab('show');
+		});
+		{% endif %}
+	</script>
+	<script>
+		laydate.render({
+			elem: '#id_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_time', //指定元素
+			type: "time"
+		});
+		laydate.render({
+			elem: '#id_endDate' //指定元素
+		});
+		laydate.render({
+			elem: '#id_endTime', //指定元素
+			type: "time"
+		});
+
+	</script>
+{% endblock %}

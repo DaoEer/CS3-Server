@@ -1,0 +1,24 @@
+[
+    {
+        "Name": "181211001", 
+        "Level": 1, 
+        "Money": 0, 
+        "UName": "血战八方·高级", 
+        "ReqLevel": 1, 
+        "NextLevelID": 181211002, 
+        "ID": "181211001", 
+        "ReqPotential": 0, 
+        "ReqSkill": 0
+    }, 
+    {
+        "Name": "181211002", 
+        "Level": 2, 
+        "Money": 2, 
+        "UName": "血战八方·高级", 
+        "ReqLevel": 1, 
+        "NextLevelID": 0, 
+        "ID": "181211002", 
+        "ReqPotential": 1, 
+        "ReqSkill": 181211001
+    }
+]

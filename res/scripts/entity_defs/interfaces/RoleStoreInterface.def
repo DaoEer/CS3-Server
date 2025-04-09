@@ -1,0 +1,422 @@
+<root>
+	<Properties>
+		<buyRecords>
+			<Type>			ARRAY_STORE_BUY_RECORD		</Type>
+			<Flags>			BASE						</Flags>
+			<Default>		[]							</Default>
+			<Persistent>	true						</Persistent>
+		</buyRecords>
+		<lastStoreGiftIndex>
+			<Type>			INT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</lastStoreGiftIndex>
+		<storeCart>
+			<Type>			STORE_CART_DATAS					</Type>
+			<Flags>				BASE							</Flags>
+			<Default>			{}								</Default>
+			<Persistent>		true							</Persistent>
+		</storeCart>
+		<hasStoreAppearances> <!-- 拥有商城外观总数 -->
+			<Type>			ARRAY_INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			[]				</Default>
+			<Persistent>		true			</Persistent>
+		</hasStoreAppearances>
+		<storeAppearances>	<!-- 已经穿上商城外观 -->
+			<Type>			ARRAY_INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			[]				</Default>
+			<Persistent>		true			</Persistent>
+		</storeAppearances>
+		<storeBackAdornParam>	<!-- 商城外观背饰的参数 -->
+			<Type>			DICT_STR_STR		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+		</storeBackAdornParam>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_OnUpdateStoreGoodsOver>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+		</CLIENT_OnUpdateStoreGoodsOver>
+		<CLIENT_OnUpdateStoreGoods>    				<!-- 更新数据到客户端 -->
+			<Arg>		CLIENT_TIME		 	</Arg>	<!-- 客户端时间 -->	
+			<Arg>		STOREGOODS_DICT	 	</Arg>  <!-- 商品数据 -->
+		</CLIENT_OnUpdateStoreGoods>
+		<CLIENT_OnGetGoodsListByIDList> 			 <!-- 通过ID列表获得商品列表 -->
+			<Arg>		STOREGOODS_DICT	 	</Arg>  <!-- 商品数据 -->
+		</CLIENT_OnGetGoodsListByIDList>
+		<CLIENT_OnGetStoreNewGoods>
+			<Arg>		CLIENT_TIME		 	</Arg>	<!-- 客户端时间 -->	
+			<Arg>		STOREGOODS_DICT	 	</Arg>  <!-- 商品数据 -->
+		</CLIENT_OnGetStoreNewGoods>
+		<CLIENT_OnUpdateStoreNewGoodsOver>
+			<Arg>		INT32				</Arg>
+		</CLIENT_OnUpdateStoreNewGoodsOver>
+		<CLIENT_OnRequestStoreLimitGoodsList>  		<!-- 通知客户端查询数量限制 -->
+			<Arg>	ARRAY_INT32		</Arg>			<!-- 商品ID列表 -->
+			<Arg>	ARRAY_INT32		</Arg>			<!-- 商品可购买数量列表 -->
+		</CLIENT_OnRequestStoreLimitGoodsList>
+		<CLIENT_OnUpdateBuyRecords>					<!-- 通知客户端购买记录 -->
+			<Arg>	STORE_BUY_RECORD_DICT			</Arg>
+		</CLIENT_OnUpdateBuyRecords>
+		<CLIENT_StoreNotEnoughMoney>           		<!-- 通知客户端钱少 -->
+			<Arg>	INT32		</Arg>
+		</CLIENT_StoreNotEnoughMoney>
+		<CLIENT_OnRequestPresentGift>           	<!-- 赠送成功回调 -->
+			<Arg>	STORE_GIFT_BOX_DATA		</Arg>
+		</CLIENT_OnRequestPresentGift>
+		<CLIENT_OnUpdateGiftBox>           				<!-- 查询礼品盒回调 -->
+			<Arg>	STORE_GIFT_BOX_DATA_DICT	</Arg>  <!-- 赠送礼品盒数据 -->
+			<Arg>	STORE_GIFT_BOX_DATA_DICT	</Arg>  <!-- 收取礼品盒数据 -->
+		</CLIENT_OnUpdateGiftBox>
+		<CLIENT_OnUpdatePresentRecords>
+			<Arg>	STORE_PRESENT_RECORD_DICT	</Arg>
+		</CLIENT_OnUpdatePresentRecords>
+		<CLIENT_UpdateStoreCart> 						<!-- 更新购物车数据到客户端 -->	
+			<Arg>	STORE_CART_DATA_DICT	</Arg>
+		</CLIENT_UpdateStoreCart>
+		<CLIENT_OnAddStoreCartGoods>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</CLIENT_OnAddStoreCartGoods>
+		<CLIENT_OnDeleteStoreCartGoods>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</CLIENT_OnDeleteStoreCartGoods>
+		<CLIENT_OnClearStoreCartGoods>
+			<Arg>	INT32			</Arg>
+		</CLIENT_OnClearStoreCartGoods>
+		<CLINET_OnDeleteBuyRecord>
+			<Arg>	STRING		</Arg>
+		</CLINET_OnDeleteBuyRecord>
+		<CLINET_OnDeleteBuyRecords>
+		</CLINET_OnDeleteBuyRecords>
+		<CLINET_OnDeletePresentRecord>
+			<Arg>	STRING		</Arg>
+		</CLINET_OnDeletePresentRecord>
+		<CLINET_OnDeletePresentRecords>
+		</CLINET_OnDeletePresentRecords>
+		<CLINET_OnDeleteGiftBoxReceiveRecord>
+			<Arg>	STRING		</Arg>
+		</CLINET_OnDeleteGiftBoxReceiveRecord>
+		<CLINET_OnDeleteGiftBoxReceiveRecords>
+		</CLINET_OnDeleteGiftBoxReceiveRecords>
+		<CLINET_OnDeleteGiftBoxSendRecord>
+			<Arg>	STRING		</Arg>
+		</CLINET_OnDeleteGiftBoxSendRecord>
+		<CLINET_OnDeleteGiftBoxSendRecords>
+		</CLINET_OnDeleteGiftBoxSendRecords>
+		<OnDeleteSoldOutStoreCartGoods>
+			<Arg>	INT32			</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</OnDeleteSoldOutStoreCartGoods>
+		<CLIENT_OnGetRecommentGoods>
+			<Arg>		STOREGOODS_DICT	 	</Arg>  <!-- 商品数据 -->
+		</CLIENT_OnGetRecommentGoods>
+		<CLINET_GiftBoxShowRedPoint>
+			<Arg>	INT32		</Arg>
+		</CLINET_GiftBoxShowRedPoint>
+		<AddHasStoreAppearance>
+			<Arg>	INT32		</Arg>
+		</AddHasStoreAppearance>
+		<AddStoreAppearance>
+			<Arg>	INT32		</Arg>
+		</AddStoreAppearance>
+		<RemoveStoreAppearance>
+			<Arg>	INT32		</Arg>
+		</RemoveStoreAppearance>
+		<UpdateStoreBackAdornParam>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</UpdateStoreBackAdornParam>
+		<OnUpdateStoreAppearance>
+			<Arg>	INT32		</Arg>
+		</OnUpdateStoreAppearance>
+		<OnStoreBuyComplete>					<!-- 通知客户端购买完成 -->
+		</OnStoreBuyComplete>
+	</ClientMethods>
+
+	<BaseMethods>
+		<requestOpenStoreUI>			 	<!-- 申请打开某一页商城 -->
+			<Exposed/>
+			<Arg>	INT32			</Arg>   <!-- 商品类型 -->
+			<Arg>	INT32			</Arg>   <!-- 物品类型 -->
+			<Arg>	CLIENT_TIME		</Arg>   <!-- 客户端配置时间 -->
+		</requestOpenStoreUI>
+		<getGoodsListByIDList>				<!-- 通过ID列表获得商品列表 -->
+			<Exposed/>
+			<Arg>	ARRAY_INT32		</Arg>   <!-- 商品ID -->
+		</getGoodsListByIDList>
+		<requestStoreLimitGoodsList>		 <!-- 查询数量限制 -->
+			<Exposed/>
+		</requestStoreLimitGoodsList>
+		<onRequestStoreLimitGoodsList>		 <!-- 查询数量限制的回调 -->
+			<Arg>	ARRAY_INT32		</Arg>   <!-- 商品ID列表 -->
+			<Arg>	ARRAY_INT32		</Arg>   <!-- 可购买数量列表  -->
+		</onRequestStoreLimitGoodsList>
+		<requestBuyStoreGoods>			 <!-- 申请购买 -->
+			<Exposed/>
+			<Arg>	INT32		</Arg>   <!-- 商品ID -->
+			<Arg>	INT32		</Arg>	 <!-- 商品数量  -->
+		</requestBuyStoreGoods>
+		<onRequestBuyStoreGoods>		 <!-- 申请购买回调 -->
+			<Arg>	INT32		</Arg>   <!-- 商品ID -->
+			<Arg>	INT32		</Arg>	 <!-- 商品数量  -->
+		</onRequestBuyStoreGoods>
+		<paymentByXianShi>  			 <!-- 用仙石付款 -->
+			<Arg>	INT32		</Arg>   <!-- 数量 -->
+			<Arg>	INT32		</Arg>	 <!-- 购买原因  -->
+		</paymentByXianShi>
+		<queryBuyRecords>
+			<Exposed/>
+		</queryBuyRecords>
+		<deleteBuyRecord>					<!-- 删除购买记录 -->
+			<Exposed/>
+			<Arg>	STRING			</Arg> 	<!-- uid -->			
+		</deleteBuyRecord>
+		<deleteBuyRecords>			<!-- 清空购买记录 -->
+			<Exposed/>
+		</deleteBuyRecords>
+		<onBuyStoreGoods>
+			<Arg>	INT32		</Arg>   <!-- 商品ID -->
+			<Arg>	INT32		</Arg>	 <!-- 商品数量  -->
+			<Arg>	INT32		</Arg>	 <!-- 商品总价  -->
+			<Arg>	INT32		</Arg>	 <!-- 价格类型  -->
+		</onBuyStoreGoods>
+		<requestPresentGift>			 <!-- 赠送申请 -->
+			<Exposed/>
+			<Arg>	INT32			</Arg>   <!-- 商品ID -->
+			<Arg>	INT32			</Arg>	 <!-- 商品数量  -->
+			<Arg>	UNICODE			</Arg>   <!-- 收礼者名字 -->
+			<Arg>	STRING			</Arg>   <!-- 收礼者DBID -->
+			<Arg>	UNICODE			</Arg>   <!-- 留言 -->
+		</requestPresentGift>
+		<requestOpenGiftBox>			 	<!-- 申请打开礼品盒 -->
+			<Exposed/>
+		</requestOpenGiftBox>
+		<acceptGift>			 			<!-- 接受礼品 -->
+			<Exposed/>
+			<Arg>	STRING			</Arg> 	<!-- uid -->
+		</acceptGift>
+		<acceptGifts>			 			<!-- 全部接受礼品 -->
+			<Exposed/>
+		</acceptGifts>
+		<onAcceptGift>			 			<!-- 接受礼品回调 -->
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg> 	<!-- uid -->
+		</onAcceptGift>
+		<onAcceptGifts>			 			<!-- 接受礼品回调 -->
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</onAcceptGifts>
+		<onAcceptGiftOver>
+			<Arg>	STRING			</Arg> 	<!-- uid -->		
+		</onAcceptGiftOver>
+		<onAcceptGiftsOver>		
+		</onAcceptGiftsOver>
+		<refuseGift>				 		<!-- 拒礼 -->
+			<Exposed/>
+			<Arg>	STRING			</Arg> 	<!-- uid -->		
+		</refuseGift>
+		<refuseGifts>						<!-- 全部拒礼 -->
+			<Exposed/>
+		</refuseGifts>
+		<deleteGiftBoxReceiveRecord>		<!-- 删除收礼记录 -->
+			<Exposed/>
+			<Arg>	STRING			</Arg> 	<!-- uid -->		
+		</deleteGiftBoxReceiveRecord>
+		<deleteGiftBoxReceiveRecords>		<!-- 清空收礼记录 -->
+			<Exposed/>
+		</deleteGiftBoxReceiveRecords>
+		<getBackGift>						<!-- 取回礼品 -->
+			<Exposed/>
+			<Arg>	STRING			</Arg> 	<!-- uid -->			
+		</getBackGift>
+		<getBackGifts>						<!-- 取回礼品 -->	
+			<Exposed/>
+		</getBackGifts>
+		<onGetBackGift>			 			<!-- 取回礼品回调 -->
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg> 	<!-- 礼品过期时间 -->
+		</onGetBackGift>
+		<onGetBackGifts>			 		<!-- 全部取回礼品回调 -->
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</onGetBackGifts>
+		<onGetBackGiftOver>					<!-- 取回礼品完成回调 -->
+			<Arg>	STRING			</Arg> 	<!-- 礼品过期时间 -->			
+		</onGetBackGiftOver>
+		<onGetBackGiftsOver>		
+		</onGetBackGiftsOver>
+		<deleteGiftBoxSendRecord>			<!-- 删除送礼记录 -->
+			<Exposed/>
+			<Arg>	STRING			</Arg> 	<!-- uid -->			
+		</deleteGiftBoxSendRecord>
+		<deleteGiftBoxSendRecords>			<!-- 清空送礼记录 -->
+			<Exposed/>
+		</deleteGiftBoxSendRecords>
+		<transferPresent>				<!-- 转增 -->
+			<Exposed/>
+			<Arg>	STRING			</Arg> 	<!-- uid -->
+			<Arg>	UNICODE			</Arg>   <!-- 收礼者名字 -->
+			<Arg>	STRING			</Arg>   <!-- 收礼者DBID -->
+			<Arg>	UNICODE			</Arg>   <!-- 留言 -->
+		</transferPresent>
+		<onTransferPresent>			<!-- 转增回调 -->
+			<Arg>	STORE_GIFT_BOX_DATA	</Arg>	 <!-- 礼品盒 -->
+		</onTransferPresent>
+		<queryPresentRecords>
+			<Exposed/>
+		</queryPresentRecords>
+		<deletePresentRecord>				<!-- 删除赠送记录 -->
+			<Exposed/>
+			<Arg>	STRING			</Arg> 	<!-- uid -->
+		</deletePresentRecord>
+		<deletePresentRecords>				<!-- 清空赠送记录 -->
+			<Exposed/>
+		</deletePresentRecords>
+		<buyStoreCartGoods>			 		<!-- 购物车批量购买商品 -->
+			<Exposed/>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</buyStoreCartGoods>
+		<onBuyStoreCartGoods>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</onBuyStoreCartGoods>
+		<onBuyStoreCartGoodsOver>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>					
+		</onBuyStoreCartGoodsOver>
+		<presentStoreCartGoods>			 	 <!-- 购物车批量赠送商品 -->
+			<Exposed/>
+			<Arg>	ARRAY_INT32		</Arg>   <!-- 商品ID -->
+			<Arg>	ARRAY_INT32		</Arg>	 <!-- 商品数量  -->
+			<Arg>	UNICODE			</Arg>   <!-- 收礼者名字 -->
+			<Arg>	STRING			</Arg>   <!-- 收礼者DBID -->
+			<Arg>	UNICODE			</Arg>   <!-- 留言 -->
+		</presentStoreCartGoods>
+		<addStoreCartGoods>
+			<Exposed/>
+			<Arg>	INT32			</Arg> 	<!-- 商品类型 -->
+			<Arg>	INT32			</Arg> 	<!-- 商品ID -->
+			<Arg>	INT32			</Arg> 	<!-- 商品数量  -->
+		</addStoreCartGoods>
+		<deleteStoreCartGoods>
+			<Exposed/>
+			<Arg>	INT32			</Arg> 	<!-- 商品类型 -->
+			<Arg>	INT32			</Arg> 	<!-- 商品ID -->
+		</deleteStoreCartGoods>
+		<clearStoreCartGoods>
+			<Exposed/>
+			<Arg>	INT32			</Arg> 	<!-- 商品类型 -->
+		</clearStoreCartGoods>
+		<synStoreCartGoods>
+			<Exposed/>
+			<Arg>	INT32			</Arg> 	<!-- 商品类型 -->
+			<Arg>	ARRAY_INT32		</Arg>   <!-- 商品ID -->
+			<Arg>	ARRAY_INT32		</Arg>	 <!-- 商品数量  -->
+		</synStoreCartGoods>
+		<openStoreCart>
+			<Exposed/>
+		</openStoreCart>
+		<getStoreNewGoods>
+			<Exposed/>
+			<Arg>	INT32			</Arg> 	<!-- 商品类型 -->
+			<Arg>	CLIENT_TIME		</Arg>   <!-- 客户端配置时间 -->
+		</getStoreNewGoods>
+		<deleteSoldOutStoreCartGoods>
+			<Exposed/>
+			<Arg>	INT32			</Arg> 	<!-- 商品类型 -->
+			<Arg>	ARRAY_INT32		</Arg>   <!-- 商品ID -->
+		</deleteSoldOutStoreCartGoods>
+		<getRecommentGoods>				<!-- 通过ID列表获得推荐首页商品列表 -->
+			<Exposed/>
+			<Arg>	ARRAY_INT32		</Arg>   <!-- 商品ID -->
+		</getRecommentGoods>
+		<onShowGiftBoxRedPoint>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</onShowGiftBoxRedPoint>
+		<onStoreFailureDeal>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</onStoreFailureDeal>
+	</BaseMethods>
+
+	<CellMethods>
+		<buyStoreGoods>  			   	 	<!-- 购买物品 -->
+			<Arg>	INT32		</Arg>   	<!-- 商品ID -->
+			<Arg>	INT32		</Arg>   	<!-- 物品ID -->
+			<Arg>	INT32		</Arg>	 	<!-- 商品数量  -->
+			<Arg>	INT32		</Arg>	 	<!-- 商品总价  -->
+			<Arg>	INT32		</Arg>	 	<!-- 商品总价类型  -->
+		</buyStoreGoods>
+		<isEnoughMoney>  			   	 	<!-- 金币是否足够 -->
+			<Arg>	INT32		</Arg>   	<!-- 商品ID -->
+			<Arg>	INT32		</Arg>   	<!-- 物品ID -->
+			<Arg>	INT32		</Arg>	 	<!-- 商品数量  -->
+			<Arg>	INT32		</Arg>	 	<!-- 商品总价  -->
+		</isEnoughMoney>
+		<onAcceptGift>			 			<!-- 接受礼品回调 -->
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg> 	<!-- uid -->
+		</onAcceptGift>
+		<onAcceptGifts>			 			<!-- 接受礼品回调 -->
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</onAcceptGifts>
+		<onGetBackGift>			 			<!-- 取回礼品回调 -->
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg> 	<!-- 礼品过期时间 -->
+		</onGetBackGift>
+		<onGetBackGifts>			 		<!-- 全部取回礼品回调 -->
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</onGetBackGifts>
+		<buyStoreCartGoods>			 		<!-- 购物车批量购买商品 -->
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</buyStoreCartGoods>
+		<isEnoughMoneyByCart>			 	<!-- 金币是否足够 -->
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	INT32			</Arg>
+		</isEnoughMoneyByCart>
+		<setStoreBackAdornParam>
+			<Exposed/>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+		</setStoreBackAdornParam>
+		<putOnStoreAppearance>
+			<Exposed/>	
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</putOnStoreAppearance>
+		<takeOffStoreAppearance>
+			<Exposed/>	
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</takeOffStoreAppearance>
+	</CellMethods>
+</root>

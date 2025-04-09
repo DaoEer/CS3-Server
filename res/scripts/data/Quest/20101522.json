@@ -1,0 +1,129 @@
+{
+    "20101522": {
+        "tasks": [
+            {
+                "navigateData": "20000763|20000764|20000784|20000785#L_JSC", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000763|20000764|20000784|20000785", 
+                "id": 3, 
+                "name": "消灭蓬莱阁追兵"
+            }, 
+            {
+                "navigateData": "30000002#L_JSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "闯入荒木道场，救出谷风长老"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101522, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3016"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101504"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1218", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "344", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "172", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "182", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "190303001", 
+                "script": "QuestRewardSkill"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102060001", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q010752|Q010753", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}风橙长老向你告知了太虚洞天的战况，情况危急，请速速驰援前方荒木道场的谷风长老。|@S{4}风橙长老向你告知了太虚洞天的战况，情况危急，请速速驰援前方荒木道场的谷风长老。|@S{4}风橙长老向你告知了太虚洞天的战况，情况危急，请速速驰援前方荒木道场的谷风长老。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101525", 
+        "taskCompleteFunctions": {}, 
+        "level": 5, 
+        "title": "救援道场", 
+        "isAutoCommit": 1, 
+        "start_by": "10000044#L_JSC", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "20102592": {
+        "tasks": [
+            {
+                "navigateData": "20006749|20006750#L_ZLY", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006749|20006750", 
+                "id": 1, 
+                "name": "消灭血妖散兵"
+            }, 
+            {
+                "navigateData": "20006753|20006754#L_ZLY", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006753|20006754", 
+                "id": 2, 
+                "name": "消灭血妖蛮兵"
+            }, 
+            {
+                "navigateData": "20006755#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006755", 
+                "id": 3, 
+                "name": "消灭古径血妖"
+            }, 
+            {
+                "navigateData": "30000390#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "取得风煞魂石"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11014102"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102592, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010098"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102591"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11014102"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010098"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "21324", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "955", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10725", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1542", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041786|Q041787|Q041798", 
+        "finish_by": "10000657#L_ZLY", 
+        "taskLogDes": "@S{4}从夕风处得知，布置九阴玄煞大阵还需以@F{fc=c41}风煞魂石@D相辅。请跟随夕风前往风魁林取得@F{fc=c41}风煞魂石@D。|@S{4}从夕风处得知，布置九阴玄煞大阵还需以@F{fc=c41}风煞魂石@D相辅。请跟随夕风前往风魁林取得@F{fc=c41}风煞魂石@D。|@S{4}从夕风处得知，布置九阴玄煞大阵还需以@F{fc=c41}风煞魂石@D相辅。请跟随夕风前往风魁林取得@F{fc=c41}风煞魂石@D。|@S{4}从夕风处得知，布置九阴玄煞大阵还需以@F{fc=c41}风煞魂石@D相辅。请跟随夕风前往风魁林取得@F{fc=c41}风煞魂石@D。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041811", 
+        "nextQuest": "20102593", 
+        "taskCompleteFunctions": {}, 
+        "level": 34, 
+        "title": "风煞魂石", 
+        "isAutoCommit": 1, 
+        "start_by": "10000656#L_ZLY", 
+        "isAutoAccept": 1
+    }
+}

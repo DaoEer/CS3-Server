@@ -1,0 +1,45 @@
+<root>
+	<Interfaces>
+		<Interface> SpaceObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<tongDBID>
+			<Type>		DBID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+		</tongDBID>
+		<nagual>
+			<Type>		CELL_ENTITYCALL	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</nagual>	
+	</Properties>
+
+	<CellMethods>
+		<tongOnDismiss/>
+		<createTongNagual>
+			<Arg>	STRING		</Arg>
+		</createTongNagual>
+		<destroyTongNagual/>
+		<changeTongNagual>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</changeTongNagual>
+		<createBHDropBox>
+			<Arg>	DBID		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	ARRAY_DBID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</createBHDropBox>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<tongOnDismiss/>
+	</BaseMethods>
+</root>

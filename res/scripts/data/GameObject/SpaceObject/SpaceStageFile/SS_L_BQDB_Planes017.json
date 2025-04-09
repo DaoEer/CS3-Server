@@ -1,0 +1,97 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营斧卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007309", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007309|20007310#L_BQDB_Planes017"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营射手", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007310", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007309|20007310#L_BQDB_Planes017"
+                }
+            }, 
+            "title": "营地解围"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "大战金乌", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "333", 
+                    "param2": "20007359", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20007359#L_BQDB_Planes017"
+                }
+            }, 
+            "title": "大战金乌"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭玄金", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007315", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007315#L_BQDB_Planes017"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营斧卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007320|20007321|20007322|20007323|20007336|20007337|20007338|20007339", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007320|20007321|20007322|20007323|20007336|20007337|20007338|20007339#L_BQDB_Planes017"
+                }
+            }, 
+            "title": "剿灭来敌"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "驰援耀光阁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "25271.0 54526.0 367.0:2", 
+                    "param2": "4367.0|-4367", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(25271.0 54526.0 367.0)#L_BQDB_Planes017"
+                }
+            }, 
+            "title": "驰援耀光阁"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "阻止金乌作乱"
+}

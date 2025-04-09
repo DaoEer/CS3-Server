@@ -1,0 +1,28 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<XLCamount>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</XLCamount>
+	</Properties>
+
+	<CellMethods>
+		<randomRefreshXLC>
+			<Arg>		INT32		</Arg>
+		</randomRefreshXLC>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

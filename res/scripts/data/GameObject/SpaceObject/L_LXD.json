@@ -1,0 +1,25 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "L_LXD",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "S_L_LXD",
+"NavmeshPath"	: "space\\L_DJD_NAVMESH",
+"PatrolRouteFile": "P_L_LXD",
+"belongType"	: "0",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "L_LXD",
+	"Position"	: "-967.443115 -25587.443359 1079.279785",
+	"Direction"	: "0 0 110"
+	},
+"SpaceData"	:{
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|1"
+	},
+"DomainData"	:{
+	}
+}

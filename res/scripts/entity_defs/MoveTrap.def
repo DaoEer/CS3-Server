@@ -1,0 +1,27 @@
+<root>
+	<Parent>		Trap         	</Parent>
+
+        <Interfaces>
+		<Interface>		NPCAmbulantInterface		</Interface>
+	</Interfaces>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<accVelocity>	<!--巡逻加速度-->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0.0				</Default>
+			<Persistent>	false			</Persistent>
+		</accVelocity>
+	</Properties>
+	<ClientMethods>
+		<CLIENT_ChangeProgressBar> <!--CST-3740-->
+			<Arg>	FLOAT		</Arg>
+		</CLIENT_ChangeProgressBar>
+	</ClientMethods>
+</root>
+

@@ -1,0 +1,59 @@
+{
+    "71100003": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往轮回秘境"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "C001603|C001786"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 71100003, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "40", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptQiYuan", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestQiYuan", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}快去凤鸣城中寻找水楚楚，她似乎有事情在找你！", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "71100004", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "轮回秘境（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

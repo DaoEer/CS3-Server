@@ -1,0 +1,21 @@
+<root>
+	<Parent>
+		SpaceMultiLine
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+	
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<onNotifyCloseSpace/>
+	</CellMethods>
+
+	<BaseMethods>
+		<onControlClose/>
+	</BaseMethods>
+</root>

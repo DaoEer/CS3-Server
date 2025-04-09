@@ -1,0 +1,34 @@
+{
+"SpaceName"	: "灵气迷宫",
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyLQMG",
+"scriptID"	: "cycle_L_LQMG",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_LQMG",
+"NavmeshPath"	: "space\\L_LQMG_NAVMESH",
+"PatrolRouteFile": "P_L_LQMG",
+"SpaceAoi"	: 80.0,
+"belongType"	: "1",
+"ExitSpace"	:{  
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 4,
+	"enterPosition":"1770.0 -6280.0 200.0",
+	"enterDirection":"0 0 90",
+	"stageFile":"",
+	"statisticsFile":"ST_L_LQMG",
+	"eventFile":"SE_L_LQMG",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|4",
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0,
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+
+	}
+}

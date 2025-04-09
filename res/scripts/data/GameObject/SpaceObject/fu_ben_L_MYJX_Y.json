@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "冥域缉凶-山",
+"EntityType"	: "SpaceCopyHLG",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyMYJX_Y",
+"scriptID"	: "fu_ben_L_MYJX_Y",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_fu_ben_L_MYJX_Y",
+"NavmeshPath"	: "space\\L_MYJX_Y_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_MYJX_Y",
+"SpaceAoi"	: 150.0,
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_5",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C001480|C001481|C001482"},
+	"enterPosition":"19559.69 39563.96 1081.71",
+	"enterDirection":"0 0 -117.33",
+	"stageFile":"SS_fu_ben_L_MYJX_Y",
+	"eventFile":"SE_fu_ben_L_MYJX_Y",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+	"monsterUseSpaceLevel": 1,
+	"delayToNextSpaceTime":12
+	},
+"DomainData"	:{
+	}
+}

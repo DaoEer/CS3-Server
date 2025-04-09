@@ -1,0 +1,80 @@
+{
+    "stages": {
+        "1": {
+            "comment": "这禁地火焰冲天，想必前方就是星核之所。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蛇炎星梵火妖", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003208|20003209|20003210", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003208|20003209|20003210#L_XHJD"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到达星核之所", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-3029.171631 -12653.673828|-1929.244263 -13726.451172|-1929.244263 -15418.492188|-4070.94043 -12624.498047", 
+                    "param2": "35000|25000", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-5406.293945 -16091.927734 30036.574219)#L_XHJD"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蛇炎星赫火妖", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003214|20003215|20003216", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003214|20003215|20003216#L_XHJD"
+                }
+            }, 
+            "title": "深入星核"
+        }, 
+        "3": {
+            "comment": "万事具备，快随帝江前辈一同施法，获取星辰之力。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协助帝江施法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "193", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20003217#L_XHJD"
+                }
+            }, 
+            "title": "魔鼎吞星"
+        }, 
+        "2": {
+            "comment": "没想到这星核禁地内竟有这般大妖，幸好有帝江前辈相助，不然未必胜得了他。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协同帝江，消灭赤帝", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003217", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003217#L_XHJD"
+                }
+            }, 
+            "title": "蛇炎妖王"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "星核禁地"
+}

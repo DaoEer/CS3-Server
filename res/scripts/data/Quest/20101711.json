@@ -1,0 +1,160 @@
+{
+    "20101711": {
+        "tasks": [
+            {
+                "navigateData": "30000105#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往锁灵塔"
+            }, 
+            {
+                "navigateData": "30000219#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "闯入锁灵塔"
+            }, 
+            {
+                "navigateData": "30000219#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "占领锁灵塔"
+            }, 
+            {
+                "navigateData": "10000029#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 3, 
+                "param3": "9", 
+                "param2": "52160.000 9430.00 17435.232422", 
+                "param1": "L_XYM", 
+                "id": 4, 
+                "name": "回禀鲲鹏"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002022"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1002"
+            }, 
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11000813"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101711, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101742"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10911", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1678", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16784", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "715", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102060007", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q032705", 
+        "finish_by": "10000029#L_XYM", 
+        "taskLogDes": "@S{4}请你和祖巫帝江一同前去飞来石，破除锁灵塔入口结界。|@S{4}锁灵塔大门已破，请跟随祖巫帝江一同攻占锁灵塔。|@S{4}已成功占领锁灵塔，请你返回逍遥门找鲲鹏复命。|@S{4}已成功占领锁灵塔，请你返回逍遥门找鲲鹏复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032726", 
+        "nextQuest": "20101701", 
+        "taskCompleteFunctions": {}, 
+        "level": 21, 
+        "title": "锁灵塔", 
+        "isAutoCommit": 1, 
+        "start_by": "10000053#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

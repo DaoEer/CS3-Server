@@ -1,0 +1,112 @@
+{
+    "20101008": {
+        "tasks": [
+            {
+                "navigateData": "20000036#L_DJD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010002", 
+                "id": 1, 
+                "name": "成功借得辟魔珠"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002009"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101008, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010002"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101007"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2363", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "155", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "194", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "260", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102030002|102030007|102030012|102030017", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q010513|Q010514|Q010515|Q010517|Q010518", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}无字天书被魔道气息侵蚀，镇守试剑台的南极仙翁让你前往东极岛寻找龙王敖云讨要@F{fc=c41}辟魔珠@D，以净化无字天书。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101022|20101009|20101023|20101024", 
+        "taskCompleteFunctions": {}, 
+        "level": 8, 
+        "title": "（废弃）辟魔珠", 
+        "isAutoCommit": 1, 
+        "start_by": "10000072#L_YSC", 
+        "isAutoAccept": 1
+    }
+}

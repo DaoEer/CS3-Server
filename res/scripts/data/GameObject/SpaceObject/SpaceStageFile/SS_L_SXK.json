@@ -1,0 +1,136 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬心剑客", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004591", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004591#L_SXK"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬心锤妖", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005013|20006339|20006340|20006341", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005013|20006339|20006340|20006341#L_SXK"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬心法师", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004592", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004592#L_SXK"
+                }
+            }, 
+            "title": "初入失心窟"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬心斧卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005011", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005011#L_SXK"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬心射手", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005012", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005012#L_SXK"
+                }
+            }, 
+            "title": "深入失心窟"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败妖将勾奇", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004600", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004600#L_SXK"
+                }
+            }, 
+            "title": "勇闯失心窟"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回逍遥门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-56.713501 -12690.831055 46485.832031:2", 
+                    "param2": "51485.8320312|41485.8320312", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20004594#L_SXK"
+                }
+            }, 
+            "title": "返回逍遥门"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败九阴噬心兽", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005016", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005016#L_SXK"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获取噬心之魂", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010076", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20005016#L_SXK"
+                }
+            }, 
+            "title": "九阴噬心兽"
+        }
+    }, 
+    "describe": "31级魔道主线--失心窟", 
+    "beginOnSpaceInit": 1, 
+    "name": "失心窟"
+}

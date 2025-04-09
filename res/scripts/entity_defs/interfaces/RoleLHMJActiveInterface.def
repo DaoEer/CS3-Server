@@ -1,0 +1,150 @@
+<root>
+	<Properties>
+		<challengeDBID>
+			<Type>		DBID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	true			</Persistent>
+		</challengeDBID>
+		<challengeLineNumber>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</challengeLineNumber>
+	</Properties>
+
+	<CellMethods>
+		<requestLHMJChallenge>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32 		</Arg>
+		</requestLHMJChallenge>
+		<onRequestLHMJChallenge>
+			<Arg>		INT32 		</Arg>
+		</onRequestLHMJChallenge>
+		<onRequestLHMJChallengeReplyNo>
+		</onRequestLHMJChallengeReplyNo>
+		<onRequestLHMJChallengeReplyYes>
+			<Arg>		INT32 		</Arg>
+		</onRequestLHMJChallengeReplyYes>
+		<autoGoToChallengeSpaceDongFu>
+			<Exposed/>
+		</autoGoToChallengeSpaceDongFu>
+		<autoGoToLHMJSpace>
+			<Exposed/>
+		</autoGoToLHMJSpace>
+		<replayLHMJChallenge>
+			<Exposed/>
+			<Arg>		BOOL 		</Arg>
+		</replayLHMJChallenge>
+		<onCliskEnterChallengeCaveHouse>
+			<Exposed/>
+			<Arg>		OBJECT_ID	</Arg>
+		</onCliskEnterChallengeCaveHouse>
+
+		<doActiveReward>
+			<Arg>		INT8			</Arg>
+			<Arg>		INT8			</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		SERVER_TIME		</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</doActiveReward>
+		<onOccupyPlayerDF>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</onOccupyPlayerDF>
+		<onOccupyPlayerDFCallBack>
+		</onOccupyPlayerDFCallBack>
+
+		<upgradeDFGuard>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT8 		</Arg>
+		</upgradeDFGuard>
+		<updateDFActiveStage>
+			<Arg>		INT8 		</Arg>
+			<Arg>		INT8 		</Arg>
+			<Arg>		INT8 		</Arg>
+			<Arg>		SERVER_TIME 	</Arg>
+		</updateDFActiveStage>
+		<onDFActiveEnd>
+		</onDFActiveEnd>
+
+		<onDFBeingOccupy>
+			<Arg>		INT32 		</Arg>
+		</onDFBeingOccupy>
+	</CellMethods>
+
+	<BaseMethods>
+
+	</BaseMethods>
+
+	<ClientMethods>
+		<OnRequestLHMJChallenge>
+			<Arg>		INT32 		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</OnRequestLHMJChallenge>
+		<ShowChallenge>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		UINT8 		</Arg>
+		</ShowChallenge>
+		<onRequestLHMJChallengeReply>
+			<Arg>		UINT8 		</Arg>
+			<Arg>		UNICODE	  	</Arg>
+			<Arg>		UINT8 		</Arg>
+		</onRequestLHMJChallengeReply>
+		<ShowChallengeMsg>
+			<Arg>	CLIENT_DONGFUDATA	</Arg>
+			<Arg>		INT32 		</Arg>
+			<Arg>		POSITION 	</Arg>
+		</ShowChallengeMsg>
+
+		<OnEnterOtherCaveHouse>
+			<Arg>		OBJECT_ID	</Arg>
+		</OnEnterOtherCaveHouse>
+
+		<OnShowDFActtiveResult>
+			<Arg>		INT8		</Arg>
+			<Arg>		INT8		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32 		</Arg>
+			<Arg>		ARRAY_INT32	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnShowDFActtiveResult>
+
+		<ShowUpgradeGuardMsg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT8 		</Arg>
+		</ShowUpgradeGuardMsg>
+
+		<updateLHMJChanllengeRelation>
+			<Arg>		OBJECT_ID	</Arg>
+		</updateLHMJChanllengeRelation>
+		<onDFActiveStart>
+			<Arg>		BOOL		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</onDFActiveStart>
+		<onDFActiveEnd>
+		</onDFActiveEnd>
+		<OnDFBeingOccupy>
+		</OnDFBeingOccupy>
+
+		<NoticeMECEnter>
+			<Arg>		OBJECT_ID	</Arg>
+		</NoticeMECEnter>
+		<initDFMonsterInfo>
+			<Arg>		ARRAY_INT32	</Arg>
+		</initDFMonsterInfo>
+		<addDFMonsterInfo>
+			<Arg>		OBJECT_ID	</Arg>
+		</addDFMonsterInfo>
+		<OnOccupyPlayerDFCB>
+			<Arg>		UINT16		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</OnOccupyPlayerDFCB>
+	</ClientMethods>
+</root>

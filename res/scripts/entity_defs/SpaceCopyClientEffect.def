@@ -1,0 +1,43 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<spaceRewards>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceRewards>
+		<spaceRewardAmount>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceRewardAmount>
+		<spaceJZYTStage>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceJZYTStage>
+		<spaceRewardRate>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		1.0				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceRewardRate>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

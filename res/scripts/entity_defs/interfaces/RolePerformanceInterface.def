@@ -1,0 +1,415 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<guessGameQuestID>
+			<Type>		QUESTID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</guessGameQuestID>
+		<winMsg>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</winMsg>
+		<lostMsg>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</lostMsg>
+		<finishMsg>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</finishMsg>
+		<guessSize>
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</guessSize>
+		<playSoundRecords>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</playSoundRecords>
+	</Properties>
+
+	<ClientMethods>
+		<ShowMessagePlaySound>
+			<Arg>	STRING	</Arg>
+		</ShowMessagePlaySound>
+		<ShowSpaceLife>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+		</ShowSpaceLife>
+		<ShowStopSpaceLife>
+			<Arg>	INT32	</Arg>
+		</ShowStopSpaceLife>
+		<HideSpaceLife>
+		</HideSpaceLife>
+		<OnChangeBodyStart/>
+		<OnChangeBodyEnd/>
+		<onXinMoCtrlStart>
+			<Arg>	ARRAY_INT32	</Arg>
+			<Arg>	ARRAY_UINT8	</Arg>
+		</onXinMoCtrlStart>
+		<onXinMoCtrlEnd/>
+		<OnBeginTrapSuck>
+			<Arg>	POSITION	</Arg>
+			<Arg>	FLOAT		</Arg>
+		</OnBeginTrapSuck>
+		<OnEndTrapSuck/>
+		<onBeginConfusion/>
+		<onEndConfusion/>
+		<ShowSpellBoxResultMessage>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</ShowSpellBoxResultMessage>
+		<ShowPrompetOper>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</ShowPrompetOper>
+		<HidePrompetOper>
+		</HidePrompetOper>
+		<StartGuessGame>
+			<Arg>	STRING	</Arg>
+		</StartGuessGame>
+		<RightGuess>
+			<Arg>	STRING	</Arg>
+		</RightGuess>
+		<WrongGuess>
+			<Arg>	STRING	</Arg>
+		</WrongGuess>
+		<FinishGuess>
+			<Arg>	STRING	</Arg>
+		</FinishGuess>
+		<CreateLightWallBP>
+			<Arg>	STRING 	</Arg>
+			<Arg>	INT32 	</Arg>  				<!-- 0为位面光墙，1为Boss光墙 -->
+		</CreateLightWallBP>
+		<RemoveLightWallBP>
+			<Arg>	STRING 	</Arg>
+		</RemoveLightWallBP>
+		<ShowEquipHardiness>
+			<Arg>	STRING	</Arg>
+		</ShowEquipHardiness>
+		<ShowSwordAmount>
+			<Arg>	INT32	</Arg>
+		</ShowSwordAmount>
+		<HLDCanStart/>
+		<HoldPet>
+			<Arg>	STRING	</Arg>
+		</HoldPet>
+		<DownPet>
+			<Arg>	STRING	</Arg>
+		</DownPet>
+		<HLDEnd/>
+		<StartFish/>
+		<ChangeWrestlingWidget/>
+		<PlayBindEffect>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+		</PlayBindEffect>
+		<EndPlayBindEffect>
+			<Arg>		INT32			</Arg>
+		</EndPlayBindEffect>
+		<EnterAimStatus/>
+		<LeaveAimStatus/>
+		<EnterShootModel>
+			<Arg>		INT32			</Arg>
+		</EnterShootModel>
+		<LeaveShootModel/>
+		<EnterFlyModel/>
+		<LeaveFlyModel/>
+		<HoldJinDan>
+			<Arg>		STRING			</Arg>	<!-- 模型ID -->
+			<Arg>		FLOAT			</Arg>	<!-- 剩余时间 -->
+			<Arg>		FLOAT			</Arg>	<!-- 回调时间间隔 -->
+		</HoldJinDan>
+		<DownJinDan>
+			<Arg>		STRING			</Arg>	<!-- 模型ID -->		
+		</DownJinDan>
+		<ShowPutDownJinDanBtn/>
+		<HidePutDownJinDanBtn/>
+		<OnStartThroughCanyon>
+			<Arg>		STRING			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</OnStartThroughCanyon>
+		<OnEndThroughCanyon/>
+		<AddFlyForce>
+			<Arg>		INT32			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</AddFlyForce>
+		<onStartMoveByMoveTrap>
+			<Arg>		INT32			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</onStartMoveByMoveTrap>
+		<onStopMoveByMoveTrap/>
+		<RoleCameraMoveToEntity>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</RoleCameraMoveToEntity>
+		<RoleCameraMoveToEntityCB>
+			<Arg>		STRING			</Arg>
+		</RoleCameraMoveToEntityCB>
+		<GetMovingPlatFormControl/>
+		<LoseMovingPlatFormControl/>
+		<EnterModelTPS/>                       	<!-- 进入射击模式 -->
+		<LeaveModelTPS/>						<!-- 离开射击模式 -->
+		<ShowMessageUpPlayerHead>				<!-- 玩家头顶冒字 -->
+			<Arg>		INT8			</Arg>
+		</ShowMessageUpPlayerHead>
+		<UpdateScoreForLHSL>					<!-- 玩家头顶冒字 -->
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</UpdateScoreForLHSL>
+		<AlchemyStart>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</AlchemyStart>	
+		<CopyRemainTime>
+			<Arg>		INT32			</Arg>
+		</CopyRemainTime>
+		<OpenAreaWall>
+			<Arg>		STRING			</Arg>
+		</OpenAreaWall>
+		<CloseAreaWall>
+			<Arg>		STRING			</Arg>
+		</CloseAreaWall>
+		<SendRandomList>
+			<Arg>		ARRAY_INT32		</Arg>
+		</SendRandomList>
+		<FabaoPlayEffect>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</FabaoPlayEffect>
+		<FabaoPlayEffectEnd/>
+		<CreateFaBao>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</CreateFaBao>
+		<RemoveFaBao>
+		</RemoveFaBao>
+		<ExpelTheSoul>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</ExpelTheSoul>
+		<AbsorbTheSoul>
+			<Arg>		INT32		</Arg>
+		</AbsorbTheSoul>
+		<CLIENT_CreateAircraft>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_CreateAircraft>
+		<CLIENT_RemoveAircraft>
+			<Arg>		INT32		</Arg>
+		</CLIENT_RemoveAircraft>
+		<CLIENT_AircraftUseSkill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_AircraftUseSkill>
+		<AircraftUseSkill>
+			<Arg>		INT32		</Arg>
+		</AircraftUseSkill>
+		<RoleCameraShake>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		INT32		</Arg>
+		</RoleCameraShake>
+		<SendGameCopyTime>
+			<Arg>		INT32		</Arg>
+			<Arg>		SCRIPT_ID	</Arg>
+		</SendGameCopyTime>
+		<OnTauntBegin/>
+		<OnTauntEnd/>
+		<CLIENT_ResetJump/>
+		<OnSetViewTarget>
+			<Arg>		INT32 		</Arg>
+			<Arg> 		STRING 		</Arg>
+			<Arg> 		FLOAT 		</Arg>
+			<Arg> 		STRING 		</Arg>
+			<Arg> 		STRING 		</Arg>
+			<Arg> 		BOOL 		</Arg>
+		</OnSetViewTarget>
+		<CLIENT_ThrowJinDan>
+			<Arg>		STRING			</Arg>	<!-- 模型ID -->
+			<Arg>		FLOAT			</Arg>	<!-- 剩余时间 -->
+			<Arg>		FLOAT			</Arg>	<!-- 回调时间间隔 -->
+		</CLIENT_ThrowJinDan>
+		<CLIENT_OnThrowJinDan>
+			<Arg>		STRING			</Arg>	<!-- 模型ID -->	
+		</CLIENT_OnThrowJinDan>
+		<OnDialogWithNPCTaskScriptID>
+			<Arg>		STRING			</Arg>	<!-- NPC的ScriptID -->	
+		</OnDialogWithNPCTaskScriptID>
+		<CLIENT_EnterModelTPSParam>                 <!-- 进入射击模式 -->
+			<Arg>		STRING			</Arg>
+		</CLIENT_EnterModelTPSParam>
+		<CLIENT_LeaveModelTPSParam/>						<!-- 离开射击模式 -->
+		<CLIENT_AddTrapVortex>
+			<Arg>		INT32			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_AddTrapVortex>
+		<CLIENT_RemoveTrapVortex>
+			<Arg>		INT32			</Arg>
+		</CLIENT_RemoveTrapVortex>
+		<CLIENT_ShowSpaceSettlementWin>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ShowSpaceSettlementWin>
+		<SGMZOnWinGame>
+			<Arg>	SGMZ_TEAM_DATAS		</Arg>
+		</SGMZOnWinGame>
+		<SGMZMonsterHPChange>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</SGMZMonsterHPChange>
+		<SGMZSendMonsterHp>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</SGMZSendMonsterHp>
+		<SGMZSendScoreChange>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</SGMZSendScoreChange>
+		<SGMZSendScore>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</SGMZSendScore>
+		<CLIENT_SGMZBossKilled>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_SGMZBossKilled>
+		<SGMZLeadTeamChange>
+			<Arg>		INT32			</Arg>
+		</SGMZLeadTeamChange>
+		<CLIENT_showSurvivalTime>
+			<Arg>		INT32			</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+			<Arg>		ARRAY_INT32		</Arg>
+		</CLIENT_showSurvivalTime>
+		<CLIENT_startSurvivalTime>
+		</CLIENT_startSurvivalTime>
+		<CLIENT_endSurvivalTime>
+			<Arg>		INT32			</Arg>
+		</CLIENT_endSurvivalTime>
+		<CLIENT_ClearChasePosInfo/>
+		<CLIENT_AddPerspectiveTarget>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_AddPerspectiveTarget>
+		<CLIENT_RemovePerspectiveTarget>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_RemovePerspectiveTarget>
+		<CLIENT_ShowHPPercentAboveQuestBar>
+			<Arg> 		OBJECT_ID 		</Arg>
+		</CLIENT_ShowHPPercentAboveQuestBar>
+		<CLIENT_CloseHPPercentAboveQuestBar/>
+		<CLIENT_SetMiniMapViewDefaultScale>
+			<Arg>	FLOAT		</Arg>
+		</CLIENT_SetMiniMapViewDefaultScale>
+		<CameraLookAtTarget>
+			<Arg>		INT32 		</Arg>
+			<Arg> 		STRING 		</Arg>
+			<Arg> 		STRING 		</Arg>
+			<Arg> 		STRING 		</Arg>
+		</CameraLookAtTarget>
+		<EnterYCJMDModelTPS>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32 		</Arg>
+		</EnterYCJMDModelTPS>
+		<LeaveYCJMDModelTPS/>
+		<ChangeYCJMDModelTPSSkillID>
+			<Arg>		INT32 		</Arg>
+		</ChangeYCJMDModelTPSSkillID>
+		<ShowSkillBarsHighLigh>
+			<Arg>		INT32 		</Arg>
+		</ShowSkillBarsHighLigh>
+		<SetSkillBarEnabled>
+			<Arg>		BOOL		</Arg>
+		</SetSkillBarEnabled>
+	</ClientMethods>
+
+	<CellMethods>
+		<guessGameSize>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</guessGameSize>
+		<guessGameRoll>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</guessGameRoll>
+		<endGuessGame>
+			<Exposed/>
+		</endGuessGame>
+		<ldwj_putDownJinDan>
+			<Exposed/>
+		</ldwj_putDownJinDan>
+		<onSwordCollisionBegin>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	POSITION	</Arg>
+		</onSwordCollisionBegin>
+		<onObtainCountAddList>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</onObtainCountAddList>
+		<onBaGuaJigsawCompleted>
+			<Exposed/>
+		</onBaGuaJigsawCompleted>
+		<onRoleCameraMoveToEntity>
+			<Exposed/>
+		</onRoleCameraMoveToEntity>
+		<createMonsterExtLightWall>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</createMonsterExtLightWall>
+		<CELL_requestRandomDice>
+			<Exposed/>
+		</CELL_requestRandomDice>
+		<triggerQuestDialogWithNPC>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</triggerQuestDialogWithNPC>
+		<stopPlaySound>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</stopPlaySound>
+
+		<selectMonsterMenu>
+			<Exposed/>
+			<Arg>	OBJECT_ID</Arg>
+			<Arg>	INT32</Arg>
+		</selectMonsterMenu>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

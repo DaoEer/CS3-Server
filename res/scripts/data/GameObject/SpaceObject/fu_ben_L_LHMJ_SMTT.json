@@ -1,0 +1,32 @@
+﻿{
+"SpaceName"	: "神木洞天",
+"EntityType"	: "SpaceCopyJiYuan",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJiYuan",
+"scriptID"	: "fu_ben_L_LHMJ_SMTT",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_LHMJ_SMDT",
+"NavmeshPath"	: "space\\L_HLSY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 400.0,
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_LHMJ_1",
+	"Position"	: "40968 30536 4046",
+	"Direction"	: "0.0 0.0 90.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 8,
+	"spaceIntroduce":{"voiceID":""},
+	"enterPosition":"8664 14128 2062",
+	"enterDirection":"0 0 180",
+	"eventFile":"SE_fu_ben_L_LHMJ_SMTT",
+	"stageFile":"SS_fu_ben_L_LHMJ_SMTT",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 0
+	},
+"DomainData"	:{
+	}
+}

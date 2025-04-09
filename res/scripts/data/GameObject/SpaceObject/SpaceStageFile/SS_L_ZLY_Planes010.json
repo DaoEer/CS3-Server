@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "大战金乌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "6", 
+                    "param2": "348", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20006794#L_ZLY_Planes010"
+                }
+            }, 
+            "title": "大战金乌"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协助祖巫蓐收，捕获十金乌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "6", 
+                    "param2": "249", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20007060#L_ZLY_Planes010"
+                }
+            }, 
+            "title": "九阴玄煞大阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "诱捕金乌-玄阴秘境"
+}

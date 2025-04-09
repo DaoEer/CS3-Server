@@ -1,0 +1,96 @@
+{
+    "20102095": {
+        "tasks": [
+            {
+                "navigateData": "(-65015.0 -42659.0 5340.0)#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "-65015.0 -42659.0 5340.0", 
+                "param1": "L_FLS", 
+                "id": 1, 
+                "name": "前往浮屠古寺"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002053"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102095, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102094"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19925", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "787", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8832", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1542", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045122|Q045123|Q042048|Q042050", 
+        "finish_by": "10000293#L_FLS", 
+        "taskLogDes": "@S{4}羲和让你前往浮屠古寺，请燃灯道人炼制日月神灯。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042051|Q042053|Q042054|Q045124", 
+        "nextQuest": "20102096", 
+        "taskCompleteFunctions": {}, 
+        "level": 34, 
+        "title": "浮屠古寺", 
+        "isAutoCommit": 1, 
+        "start_by": "10000626#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

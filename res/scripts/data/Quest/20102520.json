@@ -1,0 +1,151 @@
+{
+    "20102520": {
+        "tasks": [
+            {
+                "navigateData": "2089.21582 28050 46159.1875#L_SXK", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "1991.600708 27394.001953 46163.523438", 
+                "param1": "L_SXK", 
+                "id": 1, 
+                "name": "前往失心窟"
+            }, 
+            {
+                "navigateData": "20005016#L_SXK", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010076", 
+                "id": 2, 
+                "name": "获取噬心之魂"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "32", 
+                "id": 3, 
+                "name": "到达32级"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002062"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102520, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010076"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102570"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010076"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "31484", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "846", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9496", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1304", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102050006", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q045500|Q040677|Q030721", 
+        "finish_by": "10000029#L_XYM", 
+        "taskLogDes": "@S{4}鲲鹏让你前往失心窟从太古魔物九阴噬心兽体内夺取@F{fc=c41}噬心之魂@D。|@S{4}鲲鹏让你前往失心窟从太古魔物九阴噬心兽体内夺取@F{fc=c41}噬心之魂@D。|@S{4}将等级提升至32级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041623|Q041627", 
+        "nextQuest": "20102530", 
+        "taskCompleteFunctions": {}, 
+        "level": 31, 
+        "title": "失心窟", 
+        "isAutoCommit": 1, 
+        "start_by": "10000029#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

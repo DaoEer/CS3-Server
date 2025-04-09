@@ -1,0 +1,36 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+	
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<OnStartBuffQTE>
+			<Arg>		STRING			</Arg>
+		</OnStartBuffQTE>
+		<OnEndBuffQTE>
+			<Arg>		STRING			</Arg>
+		</OnEndBuffQTE>
+		<OnStartStoryQTE>
+			<Arg>		STRING			</Arg>
+		</OnStartStoryQTE>	
+	</ClientMethods>
+	
+	<CellMethods>
+		<onCompleteQTEBuffEvent>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</onCompleteQTEBuffEvent>
+		<onCompleteBuffQTE>
+			<Exposed/>
+		</onCompleteBuffQTE>
+		<onCompleteQTEStoryEvent>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</onCompleteQTEStoryEvent>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

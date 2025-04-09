@@ -1,0 +1,6 @@
+﻿# -*- coding: utf-8 -*-
+
+#当前活动状态
+ACTIVITY_STATE_FREE		= 1
+ACTIVITY_STATE_SIGNUP	= 2
+ACTIVITY_STATE_START	= 3

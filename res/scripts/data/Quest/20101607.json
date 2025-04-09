@@ -1,0 +1,83 @@
+{
+    "20101607": {
+        "tasks": [], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101607, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "4"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101530"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "617", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "295", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "148", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "316", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "0", 
+        "taskLogDes": "@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。|@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。|@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101611", 
+        "taskCompleteFunctions": {}, 
+        "level": 10, 
+        "title": "幻兽顽皮", 
+        "isAutoCommit": 1, 
+        "start_by": "0", 
+        "isAutoAccept": 1
+    }
+}

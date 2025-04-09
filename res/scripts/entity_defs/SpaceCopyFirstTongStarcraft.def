@@ -1,0 +1,45 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<warInfos>
+			<Type>		TONG_STARCRAFT_INFOS		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</warInfos>
+		<spaceStageList>
+			<Type>		SPACE_STAGE_LIST	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</spaceStageList>
+		<tongDBID>
+			<Type>		DBID		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</tongDBID>
+		<camp>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</camp>
+		<startTime>
+			<Type>		TIME		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</startTime>
+	</Properties>
+
+	<CellMethods>
+		<activeStart/>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<activeStart/>
+	</BaseMethods>
+</root>

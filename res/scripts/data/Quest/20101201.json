@@ -1,0 +1,126 @@
+{
+    "20101201": {
+        "tasks": [
+            {
+                "navigateData": "10000206#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEnterChuanChengCopy", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "进入雷泽谷"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "23", 
+                "id": 2, 
+                "name": "到达23级"
+            }, 
+            {
+                "navigateData": "10000206#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000206", 
+                "id": 3, 
+                "name": "与凤鸣城段飞鸿对话"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002049"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101201, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101200"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "11687", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "922", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9202", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "762", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030455|Q032305|Q032309", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}大师姐让你前往凤鸣城找段飞鸿，通关一次试炼秘境。|@S{4}将等级提升至23级。|@S{4}你已通关试炼秘境，请前往凤鸣城找段飞鸿交谈。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101210", 
+        "taskCompleteFunctions": {}, 
+        "level": 22, 
+        "title": "试炼秘境", 
+        "isAutoCommit": 1, 
+        "start_by": "10000106#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

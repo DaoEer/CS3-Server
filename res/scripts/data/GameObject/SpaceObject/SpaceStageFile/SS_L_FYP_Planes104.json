@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与巫真碰面", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-8283.0 -20859.0 2373.0:15", 
+                    "param2": "7500|-2500", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "与巫真碰面"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将化月丹交予巫真后返回荒火营", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-9350.00000 -20000.000000 2221.094238)#L_FYP_Planes104"
+                }
+            }, 
+            "title": "返回荒火营"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "化月之毒"
+}

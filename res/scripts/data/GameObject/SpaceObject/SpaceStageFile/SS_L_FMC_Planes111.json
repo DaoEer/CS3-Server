@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "根据马夕变成的样子，立刻使用变身卡变成相同的样子", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "变身正确", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "变身挑战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "变身挑战"
+}

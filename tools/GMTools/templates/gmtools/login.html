@@ -1,0 +1,75 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang = "zh_CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=dege">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，其他任何内容都*必须*跟随其后！ -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="/static/images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/static/login.css">
+
+		<title>创世GM工具</title>
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="/static/bootstrap-3.3.5/css/bootstrap.min.css"> <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="/static/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="/static/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	</head>
+
+	<body>
+		<div class="col-sm-3"></div>
+		<div class="col-sm-5 center-block text-center login-block-background">
+			<h1 id="site-name"></h1>
+			<form class="form-horizontal" action="/gmtools/login" method="post" id="login-form">{% csrf_token %}
+			<div class="col-sm-10">
+				<div class="form-group">
+					<label class="col-sm-4 control-label login-font" for="id_username">账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：</label>
+					<div class="col-sm-6 input-bg">
+					 	<input class="form-control" id="id_username" maxlength="64" name="name" type="text" />
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-4 control-label login-font" for="id_password">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+					<div class="col-sm-6 input-bg">
+						<input class="form-control" id="id_password" name="password" type="password" />
+						<input type="hidden" name="next" value="{{next_uri}}" />
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-4 control-label login-font" for="id_server_select">服务器选择：</label>
+					<div class="col-sm-6 control-label">
+						<select name="server_select" class="server_select form-control" id="id_server_select">
+							{% for key, sc in request.serverInfos.items %}
+								<option value="{{key}}" {% if key == request.session.curr_server %} selected {% endif %} class="c_userid">{{sc}}</option>
+							{% endfor %}
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="login-btn">
+					<button type="sumbit" class="btn">登录</button>
+				</div>
+			</div>
+			{% if error %}
+				<div class="col-sm-12">
+					<p class="text-danger center-block" style="width: 60%;background: rgba(255,255,255,0.5);color: red;box-shadow: 0px 0px 15px #fff;">{{ error }}</p>
+				</div>
+			{% endif %}
+			</form>
+			<script type="text/javascript">
+				document.getElementByld('id_username').focus()
+			</script>
+		</div>
+		<script src="/static/js/jquery-1.11.3.min.js"></script>
+		<static src="/static/bootstrap-3.3.5/js/bootstrap.min.js"></static>
+		
+	</body>
+</html>

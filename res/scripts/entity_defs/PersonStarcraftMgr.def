@@ -1,0 +1,63 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<FQZMemberListDict>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true		</Persistent>
+		</FQZMemberListDict>
+	</Properties>
+
+	<BaseMethods>
+		<shiFangChengSignUp>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</shiFangChengSignUp>
+		<gotoShiFangCheng>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+		</gotoShiFangCheng>
+		<abandonShiFangeCheng>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+		</abandonShiFangeCheng>
+		<addYeZhanFengQiMember>
+			<Arg>  STRING 	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+		</addYeZhanFengQiMember>
+		<completeShiFangChengStage>
+			<Arg>  STRING 	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</completeShiFangChengStage>
+		<gotoYeZhanFengQi>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+		</gotoYeZhanFengQi>
+		<yeZhanFengQiKickOutMember>
+			<Arg>	DBID	</Arg>
+		</yeZhanFengQiKickOutMember>
+		<sendWoldMsg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</sendWoldMsg>
+		<showPassShiFangChengByLogin>
+			<Arg>  STRING 	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</showPassShiFangChengByLogin>
+	</BaseMethods>
+</root>

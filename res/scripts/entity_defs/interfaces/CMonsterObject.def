@@ -1,0 +1,161 @@
+<root>
+	<Interfaces>
+		<Interface> 	NPCBaseObject			</Interface>
+		<Interface>		MonsterChatInterface	</Interface>
+		<Interface>		CMonsterCombatInterface	</Interface>
+		<Interface>		MonsterModelInterface	</Interface> 
+		<Interface>		MonsterAppearInterface	</Interface>
+		<Interface>		NPCAmbulantInterface		</Interface>
+	</Interfaces>
+	<Properties>
+		<territoryRange>	<!-- 领域范围 -->
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		false			</Persistent>
+		</territoryRange>
+		<attackRange>						<!--  攻击范围 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0.0				</Default>
+		</attackRange>
+		<isServerAttackTrap>				<!--  主动攻击陷阱类型 -->
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		FALSE			</Default>
+		</isServerAttackTrap>
+		<attackTrapShape>					<!--  主动攻击陷阱形状 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		2				</Default>
+		</attackTrapShape>
+		<viewRange>			<!-- 视野范围 -->
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		false			</Persistent>
+		</viewRange>
+		<spawnPos>	<!-- 出生位置，由出生点置其值，用于某些功能判断 -->
+			<Type>			POSITION			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0 0.0 0.0			</Default>
+			<Persistent>	false				</Persistent>
+		</spawnPos>
+		<spawnDir>
+			<Type>			DIRECTION			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0 0.0 0.0			</Default>
+			<Persistent>	false				</Persistent>
+		</spawnDir>
+		<createType>	<!-- 怪物创建的类型 -->
+			<Type>			UINT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+			<Persistent>	false				</Persistent>
+		</createType>
+		<minHPPercent>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0.0				</Default>
+		</minHPPercent>
+		<chaseDistance>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</chaseDistance>
+		<lastRandomSkillID>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</lastRandomSkillID>
+		<monsterType>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		1				</Default>
+		</monsterType>
+		<spawnRoute>	<!-- 巡逻路线ID 此属性作用于取离指定巡逻路线最近点作为出生点-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		-1				</Default>
+		</spawnRoute>	
+		<wallCountDownTime> <!--光墙倒计时-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		-1				</Default>
+		</wallCountDownTime>
+		<isSetServerPosFilter>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+		</isSetServerPosFilter>
+		<resetKeepBuffs>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		[]			</Default>
+		</resetKeepBuffs>
+		<ishasLightWall>
+			<Type>			UINT8			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		false			</Default>
+		</ishasLightWall>
+		<windID>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</windID>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_CreateFightArea/>
+		<CLIENT_OnLeaveFightArea/>
+		<CLIENT_PlayerReTriggerTrap/>
+		<CLIENT_FaceToPlayer>
+			<Arg>	BOOL	</Arg>
+		</CLIENT_FaceToPlayer>
+		<CLIENT_onPlaySpeechBubbles>
+			<Arg>	STRING	</Arg>
+		</CLIENT_onPlaySpeechBubbles>
+		<CLIENT_AddClientAttackTrap>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</CLIENT_AddClientAttackTrap>
+		<CLIENT_CancelClientAttackTrap/>
+		<CLIENT_AddClientInitiativeTrap>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</CLIENT_AddClientInitiativeTrap>
+		<CLIENT_CancelClientInitiativeTrap/>
+		<CLIENT_OpenInitiactiveTrapEffect>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</CLIENT_OpenInitiactiveTrapEffect>
+		<CLIENT_SimulationCircle>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	INT32	</Arg>
+		</CLIENT_SimulationCircle>
+		<CLIENT_StopSimulationCircle/>
+		<CLIENT_CloseInitiactiveTrapEffect/>
+		<CLIENT_addMonsterBlow>
+			<Arg>	DIRECTION	</Arg>
+			<Arg>	FLOAT		</Arg>
+		</CLIENT_addMonsterBlow>
+		<CLIENT_endMonsterBlow/>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onLightWallCountDown>
+		</onLightWallCountDown>
+		<CELL_notifyChangeMonsterDirection>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</CELL_notifyChangeMonsterDirection>
+	</CellMethods>
+</root>

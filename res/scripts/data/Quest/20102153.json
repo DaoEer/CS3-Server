@@ -1,0 +1,115 @@
+{
+    "20102153": {
+        "tasks": [
+            {
+                "navigateData": "10001322#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "通知冰火雷三卫开启云幕大阵"
+            }, 
+            {
+                "navigateData": "10001322#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "为后羿护法"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_FYP_Planes006"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102153, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "40"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102152"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "25398", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1277", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17402", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2134", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050268|Q050269", 
+        "finish_by": "10001322#L_FYP", 
+        "taskLogDes": "@S{4}后羿准备开始炼化夸父魂珠，请你去通知有穷部落的冰火雷三卫前来守阵。|@S{4}请你为后羿护法，击退来犯的魔道弟子。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050294", 
+        "nextQuest": "20102154|20102154|20102154|20102155", 
+        "taskCompleteFunctions": {}, 
+        "level": 40, 
+        "title": "炼化魂珠", 
+        "isAutoCommit": 1, 
+        "start_by": "10001322#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

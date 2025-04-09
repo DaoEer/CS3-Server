@@ -1,0 +1,187 @@
+{
+    "stages": {
+        "1": {
+            "comment": "击败玄武战傀，通过反噬之力击破保护罩", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破解玄武星石保护罩", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-2376.0 3215.0 21720.0)#L_XCHJ"
+                }
+            }, 
+            "title": "玄武星阵"
+        }, 
+        "3": {
+            "comment": "利用玄武星石熄灭正确的星石阵眼", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破解朱雀星火阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-8959.0 -4616.0 22100.0)#L_XCHJ"
+                }
+            }, 
+            "title": "朱雀星阵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得玄武星石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010149", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(-2376.0 3215.0 21720.0)#L_XCHJ"
+                }
+            }, 
+            "title": "破解玄武星阵"
+        }, 
+        "5": {
+            "comment": "使用朱雀星石驱散瘴气，找到青龙星石藏身之处", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找青龙星石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-5646.0 -13166.0 21984.0)#L_XCHJ"
+                }
+            }, 
+            "title": "青龙星阵"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得朱雀星石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010150", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(-8959.0 -4616.0 22100.0)#L_XCHJ"
+                }
+            }, 
+            "title": "破解朱雀星阵"
+        }, 
+        "7": {
+            "comment": "将四象星石放入阵中，开启通往阵法深处的传送门", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "放置玄武星石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(1071.088623 -6357.542969 22082.388672)#L_XCHJ"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "放置青龙星石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(550.000000 -4880.000000 22082.388672)#L_XCHJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "放置朱雀星石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(70.907684 -5874.229980 22082.388672)#L_XCHJ"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门进入四象星阵深处", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(807.828003 -5606.422363 21990.914063)#L_XCHJ"
+                }
+            }, 
+            "title": "开启法门"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得青龙星石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010151", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "破解青龙星阵"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天机星傀", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011806", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待祖巫祝融使用搜魂大法得知宝图下落", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "追问星辰子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "四象星阵"
+}

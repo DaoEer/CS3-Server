@@ -1,0 +1,117 @@
+{
+    "80135063": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "进入传送门，前往临渊试炼"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001335", 
+                "id": 2, 
+                "name": "将菩提子送予燃灯道人"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001269", 
+                "id": 3, 
+                "name": "回禀海云帆"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010163"
+            }, 
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000847"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135063, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "25"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010163"
+            }
+        ], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "10001269", 
+        "taskLogDes": "Cy000848|Cy000849", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncRemoveItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010163"
+                }, 
+                {
+                    "script": "QuestFuncRingTaskEnterParentScene", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "cycle_L_HRWMJ01|cycle_L_HRWMJ02|cycle_L_HRWMJ03"
+                }
+            ]
+        }, 
+        "level": 25, 
+        "title": "菩提子", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 0
+    }
+}

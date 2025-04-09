@@ -1,0 +1,58 @@
+{
+    "20102192": {
+        "tasks": [
+            {
+                "navigateData": "10000000#L_YXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "-4010.000000 -15570.000000 1956.060059", 
+                "param1": "L_YXG", 
+                "id": 1, 
+                "name": "前往玉虚宫求助元始天尊"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102192, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102190"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "10000000#L_YXG", 
+        "taskLogDes": "@S{4}太阳宫羲和与太一请你前往玉虚宫，求助元始天尊。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q051201|Q051203|Q051204|Q051208", 
+        "nextQuest": "20102193", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "求助玉虚宫", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

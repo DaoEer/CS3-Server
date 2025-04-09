@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "烛火可以驱散周围瘴气", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "触发灯台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "dt", 
+                    "param2": "40000680", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "激活烛火"
+        }, 
+        "3": {
+            "comment": "借助冥河上的船只，穿过冥河", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "冥河尽头", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "36720 23290 -2980:20", 
+                    "param2": "-2400|-2600", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "冥河漂流"
+        }, 
+        "2": {
+            "comment": "跟随烛火穿过迷雾，小心迷雾中的怪物", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "56874.2 50974.8 884.3:12", 
+                    "param2": "890|880", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "穿过迷雾"
+        }, 
+        "5": {
+            "comment": "诡异的影子，伤人无形", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "诡异的影子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010734", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "漆黑通道"
+        }, 
+        "4": {
+            "comment": "间断向上喷发的死气，夺人魂魄伤人性命", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深渊之侧", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "47224.0 26717.9 -2916.7:12", 
+                    "param2": "-2650|-3000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "死气深渊"
+        }, 
+        "6": {
+            "comment": "深渊地底，邪魔作祟", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭梼杌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010736", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "梼杌邪魔"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "冥域缉凶二"
+}

@@ -1,0 +1,35 @@
+<root>
+	<Properties>
+		<behaviours>
+			<Type>		MONSTER_BEHAVIOURS		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</behaviours>
+		<clientRoleID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+		</clientRoleID>
+	</Properties>
+	<CellMethods>
+		<behControlReset>
+			<Arg>	INT32	</Arg>
+		</behControlReset>
+		<behClientSpellCB>
+			<Exposed/>
+			<Arg>	SKILL_ID	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	BOOL		</Arg>
+			<Arg>	INT32		</Arg>
+		</behClientSpellCB>
+		<behClientSpellOver>
+			<Exposed/>
+			<Arg>	SKILL_ID	</Arg>
+		</behClientSpellOver>
+	</CellMethods>
+	<ClientMethods>
+		<BehClientSpell>
+			<Arg>	SKILL_ID	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	BOOL		</Arg>
+		</BehClientSpell>
+	</ClientMethods>
+</root>

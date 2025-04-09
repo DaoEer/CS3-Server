@@ -1,0 +1,225 @@
+{
+    "99999999": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "29900001", 
+                "id": 1, 
+                "name": "杀怪"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010080", 
+                "id": 2, 
+                "name": "获得道具"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskLearnSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "190003001", 
+                "id": 3, 
+                "name": "学习技能"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "完成某事件"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "5", 
+                "param2": "0 0 0", 
+                "param1": "L_YSC", 
+                "id": 5, 
+                "name": "到达某地"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskXiuweiLevel", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1", 
+                "id": 6, 
+                "name": "满足修为等级"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEnterPotentialCopy", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 7, 
+                "name": "进入潜能副本"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskUseSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "190003001", 
+                "id": 8, 
+                "name": "使用技能"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGuessGame", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 9, 
+                "name": "猜大小游戏"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskConjurePet", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10002", 
+                "id": 10, 
+                "name": "某幻兽出战"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskMountPet", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10002", 
+                "id": 11, 
+                "name": "幻兽在骑乘状态"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000001", 
+                "id": 12, 
+                "name": "与NPC对话"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEnterChuanChengCopy", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 13, 
+                "name": "进入传承副本"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestUseCommitItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010080", 
+                "id": 14, 
+                "name": "使用物品达成任务目标"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1", 
+                "id": 15, 
+                "name": "满足等级"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 99999999, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "100", 
+                "param1": "100"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q010411|Q010413", 
+        "finish_by": "10000001", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q010414", 
+        "nextQuest": "20101013|20101001|20101014|20101015", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "202010003"
+                }
+            ], 
+            "2": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "202010004"
+                }
+            ]
+        }, 
+        "level": 1, 
+        "title": "自动交接任务测试", 
+        "isAutoCommit": 1, 
+        "start_by": "10000001", 
+        "isAutoAccept": 1
+    }
+}

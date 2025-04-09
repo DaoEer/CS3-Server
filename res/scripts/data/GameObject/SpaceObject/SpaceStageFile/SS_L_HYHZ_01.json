@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "消灭所有幻阵狐妖，并根据八卦顺序通过对应的传送门", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破解狐妖幻阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3", 
+                    "param2": "20001820", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "狐妖幻阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "昆吾山寻妖"
+}

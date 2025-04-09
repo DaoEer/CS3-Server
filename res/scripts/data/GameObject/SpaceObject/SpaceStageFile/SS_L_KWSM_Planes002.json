@@ -1,0 +1,91 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭赤猿道场巡逻卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001306|20001307|20001308|20001309", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-63220.0 -21470.0 -14642.3)#L_KWSM_Planes002"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭道场内门教头", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001305", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-68513.2 -26235.9 -14516.4)#L_KWSM_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭道场内门弟子", 
+                    "reqVal": 9, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001290|20001291|20001292", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-68513.2 -26235.9 -14516.4)#L_KWSM_Planes002"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭道场守卫", 
+                    "reqVal": 6, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001296|20001297|20001282|20001283|20001284|20001285", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-73170.0 -26240.0 -14040.0)#L_KWSM_Planes002"
+                }
+            }, 
+            "title": "闯入道场腹地"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "上前取宝", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-80165.281250 -26200 -12937.425781:5", 
+                    "param2": "-12437.425781| -13337.425781", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-79801.0 -26210.0 -12995.0)#L_KWSM_Planes002"
+                }
+            }, 
+            "title": "取山河社稷图"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭朱厌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001302", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001302#L_KWSM_Planes002"
+                }
+            }, 
+            "title": "消灭大妖朱厌"
+        }
+    }, 
+    "describe": "10-19级仙道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "赤猿道场"
+}

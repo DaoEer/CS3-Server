@@ -1,0 +1,103 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭阴风小妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006051|20006052|20006053", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006051|20006052|20006053#L_JSYH"
+                }
+            }, 
+            "title": "初探阴河"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭阴河护法厄来", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007232", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007232#L_JSYH"
+                }
+            }, 
+            "title": "阴河护法"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭阴风妖卫", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006187|20006188|20006190|20006364|20006365|20006553", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006187|20006188|20006190|20006364|20006365|20006553#L_JSYH"
+                }
+            }, 
+            "title": "艰难重重"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "夺取阴河之沙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010092", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "40000774#L_JSYH"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "离开九幽寒洞", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20007247#L_JSYH"
+                }
+            }, 
+            "title": "阴河之沙"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭阴罗邪煞", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007233", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007233#L_JSYH"
+                }
+            }, 
+            "title": "阴河之主"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "炼制天罗幡（二）"
+}

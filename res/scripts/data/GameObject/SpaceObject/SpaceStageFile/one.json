@@ -1,0 +1,38 @@
+{
+	"stages":{
+		"1":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"title":"杀死明怪",
+					"reqVal":3,
+					"param3":"",
+					"param2":"",
+					"param1":"20002248",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"打明怪"
+		},
+		"2":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"title":"杀死暗怪",
+					"reqVal":2,
+					"param3":"",
+					"param2":"",
+					"param1":"20002249",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"打暗怪"
+		}
+		
+	},
+	"describe":"",
+	"beginOnSpaceInit":1,
+	"name":"酿造神水"
+}

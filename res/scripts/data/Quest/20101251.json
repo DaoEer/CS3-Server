@@ -1,0 +1,113 @@
+{
+    "20101251": {
+        "tasks": [], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110000711"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101251, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101219"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "11572", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1088", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2085", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1163", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102100020", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010004", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010015", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q032349", 
+        "finish_by": "10001123#L_KLZ_1", 
+        "taskLogDes": "@S{4}女娲造人功德圆满，证圣契机已至，请你在一旁观法。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032292", 
+        "nextQuest": "20102000", 
+        "taskCompleteFunctions": {}, 
+        "level": 29, 
+        "title": "女娲成圣", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

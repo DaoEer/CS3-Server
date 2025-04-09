@@ -1,0 +1,35 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败鬼手药王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20005201#L_ZLY_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得万年参精", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010083", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20005201#L_ZLY_Planes003"
+                }
+            }, 
+            "title": "取得万年参精"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "万年参精"
+}

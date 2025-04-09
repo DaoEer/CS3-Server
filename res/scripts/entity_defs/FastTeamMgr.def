@@ -1,0 +1,76 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<fastTeam_reqPerson>
+			<Arg>	STRING	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</fastTeam_reqPerson>
+		<fastTeam_reqTeam>
+			<Arg>	STRING	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST	</Arg>
+		</fastTeam_reqTeam>
+		<fastTeam_onCreateTeam>
+			<Arg>	STRING	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</fastTeam_onCreateTeam>
+		<fastTeam_onUseCurrTeam>
+			<Arg>	STRING	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</fastTeam_onUseCurrTeam>
+		<fastTeam_OnMemberLeave>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</fastTeam_OnMemberLeave>
+		<fastTeam_teamCancelSignUp>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID		</Arg>
+		</fastTeam_teamCancelSignUp>
+		<fastTeam_perSonCancelSignUp>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID		</Arg>
+		</fastTeam_perSonCancelSignUp>
+		<fastTeam_OnMemberLogin>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</fastTeam_OnMemberLogin>
+		<fastTeam_OnTeamDisband>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	STRING		</Arg>
+		</fastTeam_OnTeamDisband>
+		<fastTeam_OnMemberJoin>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+		</fastTeam_OnMemberJoin>
+		<fastTeam_matchFastTeamOnJoinTeam>
+			<Arg>	STRING		</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST	</Arg>
+		</fastTeam_matchFastTeamOnJoinTeam>
+		<setTeamMemberMaxNum>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32	</Arg>
+		</setTeamMemberMaxNum>
+	</BaseMethods>
+</root>

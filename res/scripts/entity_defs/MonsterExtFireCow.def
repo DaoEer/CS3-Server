@@ -1,0 +1,26 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Properties>	
+		<angerValue>
+			<Type>			INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</angerValue>
+		<recoverTimer>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</recoverTimer>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

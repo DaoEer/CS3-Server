@@ -1,0 +1,28 @@
+﻿{
+"SpaceName"	: "落霞谷禁地",
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"scriptID"	: "L_LXGJD_Planes101",
+"SpawnFile"	: "S_L_LXGJD_Planes101",
+"NavmeshPath"	: "space\\L_LXGJD_Planes101_NAVMESH",
+"PatrolRouteFile": "P_L_TJGJD_Planes001",
+"belongType"	: "1",
+"SpaceAoi"	: 80.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_LXGJD",
+	"Position"	: "-4884.4 32509.0 234.3",
+	"Direction"	: "0.0 0.0 15.0"
+	},
+"SpaceData"	:{
+	"maxLine":1,
+	"initLine":1,
+	"maxPlayerAmount":500,
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_LXGJD_Planes101",
+	"eventFile":"SE_L_LXGJD_Planes101"
+	},
+"DomainData"	:{
+	}
+}

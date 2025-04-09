@@ -1,0 +1,51 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<memberDatas>
+			<Type>		SPAR_HUN_TING_MEMBER_MGR	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</memberDatas>
+		<integralMax>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	500			</Default>
+			<Persistent>	false			</Persistent>
+		</integralMax>
+		<exchMoneyScale>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</exchMoneyScale>
+		<buffID>
+			<Type>		BUFF_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</buffID>
+	</Properties>
+
+	<CellMethods>
+		<addCampMoney>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</addCampMoney>
+		<activeStart/>
+		<activeEnd/>
+		<clearData/>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<activeStart/>
+		<activeEnd/>
+	</BaseMethods>
+</root>

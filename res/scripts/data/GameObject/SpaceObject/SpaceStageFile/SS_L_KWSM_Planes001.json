@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "玄蜂妖王就在前方！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "从玄蜂妖王手中夺得山河社稷图", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20001276#L_KWSM_Planes001"
+                }
+            }, 
+            "title": "深入沼泽"
+        }
+    }, 
+    "describe": "10-19级仙道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "玄蜂沼泽"
+}

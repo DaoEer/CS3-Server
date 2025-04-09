@@ -1,0 +1,18 @@
+<root>
+	<Interfaces>
+		<Interface> 	GameObject	</Interface>
+	</Interfaces>
+	<Properties>
+		<bPosSync>
+			<Type>			UINT8		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>	    1	 		</Default>
+		</bPosSync>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

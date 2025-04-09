@@ -1,0 +1,74 @@
+{
+    "stages": {
+        "1": {
+            "comment": "跟随帝俊清除七阳山脉的魔道势力", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败逍遥门魔兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010469|20010470|20010471|20010472|20010473", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-6014.78613 -5594.967773 1775.453857)#L_QYSM_xian"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败逍遥门鬼士", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014372|20014373|20014374|20014375|20014376", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(11730.559570 -6020.955078 3119.531494)#L_QYSM"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败逍遥门妖兵", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010474|20010475|20010476|20010477|20010478", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(974.263672 -5850.907715 2463.910400)#L_QYSM_xian"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败陆炳", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014368", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(20717.027344 -5938.471680 3218.520752)#L_QYSM"
+                }
+            }, 
+            "title": "救援羲和"
+        }, 
+        "2": {
+            "comment": "跟随帝俊清除七阳山脉的魔道势力", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入玄阳殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(27533.062500 -6072.633789 3517.818848)#L_QYSM_xian"
+                }
+            }, 
+            "title": "玄阳殿外"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "七阳山脉"
+}

@@ -1,0 +1,24 @@
+<root>
+	<Interfaces>
+		<Interface>	MonsterHasBaseObject	</Interface>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Properties>
+		<ownTongDBID> 
+			<Type>			DBID			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>		false				</Persistent>
+		</ownTongDBID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

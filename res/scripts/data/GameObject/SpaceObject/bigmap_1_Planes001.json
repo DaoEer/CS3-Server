@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "bigmap_1_Planes001",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_bigmap_1_Planes001",
+"NavmeshPath"	: "space\\BIGMAP_1_NAVIMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "bigmap_1",
+	"Position"	: "44250 -51730 -1300",
+	"Direction"	: "0 0 -80"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"",
+	"eventFile":"SE_bigmap_1_Planes001"
+	},
+"DomainData"	:{
+	}
+}

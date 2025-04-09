@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败昧水台守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000312|20000313", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000312|20000313#L_YZD_Planes001"
+                }
+            }, 
+            "title": "击败拦路者"
+        }, 
+        "3": {
+            "comment": "援助灵珠子突破重围", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败昧水台士兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000315|20000316|20000321", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-3004.0 -6494.0 594.0)#L_YZD_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败护法巫九奇", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000314", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-3004.0 -6494.0 594.0)#L_YZD_Planes001"
+                }
+            }, 
+            "title": "勇斗巫九奇"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往较武场找到灵珠子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "89.999344 -6730.000000 556.340576:12", 
+                    "param2": "1056|56", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(89.999344 -6730.000000 556.340576)#L_YZD_Planes001"
+                }
+            }, 
+            "title": "汇合灵珠子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "昧水台"
+}

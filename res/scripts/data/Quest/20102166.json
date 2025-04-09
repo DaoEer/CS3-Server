@@ -1,0 +1,107 @@
+{
+    "20102166": {
+        "tasks": [
+            {
+                "navigateData": "10001308#L_ZXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往荒兽谷"
+            }, 
+            {
+                "navigateData": "10001308#L_ZXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "找寻陆压遗骸"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002157"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102166, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102165"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "26353", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1330", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18122", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q051001|Q051002|Q051003|Q051004|Q051005", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}鸿钧欲复活陆压找寻太古四大至宝中的封神榜。请你前去荒兽谷找寻陆压遗骸。|@S{4}荒兽谷中有火犀妖王一脉势力，请你击败他们获悉陆压遗骸的下落。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102167", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "找寻遗骸", 
+        "isAutoCommit": 1, 
+        "start_by": "10001308#L_ZXG", 
+        "isAutoAccept": 1
+    }
+}

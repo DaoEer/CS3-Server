@@ -1,0 +1,32 @@
+<root>
+	<Properties>
+		<level>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	1		</Default>
+			<Persistent>	true		</Persistent>
+		</level>
+		<activity>
+			<Type>		UINT32				</Type>
+			<Flags>		BASE				</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true				</Persistent>
+		</activity>
+		<grow>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</grow>
+	</Properties>
+	<BaseMethods>
+		<tongUpGrade>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID		</Arg>
+		</tongUpGrade>
+		<buildUpgrade>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT16		</Arg>
+		</buildUpgrade>
+	</BaseMethods>
+</root>

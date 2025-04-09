@@ -1,0 +1,27 @@
+<root>
+	<Interfaces>
+		<Interface>	ECBProximityInterface</Interface>
+	</Interfaces>
+	<Properties>
+		<entityFlag>
+			<Type>		UINT8		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+		</entityFlag>
+		<entityFlagExt>
+			<Type>		UINT8		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+		</entityFlagExt>
+		<isSpaceGone>
+			<Type>		BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</isSpaceGone>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+</root>

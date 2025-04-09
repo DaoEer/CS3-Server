@@ -1,0 +1,135 @@
+{
+    "20102096": {
+        "tasks": [
+            {
+                "navigateData": "(1026 -934 7570)#L_XLFZ_DYC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "通关降龙法阵第一层"
+            }, 
+            {
+                "navigateData": "(8144 14149 229)#L_XLFZ_DEC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "通关降龙法阵第二层"
+            }, 
+            {
+                "navigateData": "20007006#L_XLFZ_DSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20007006", 
+                "id": 3, 
+                "name": "消灭鬼龙"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0 0 82", 
+                "param2": "1026 -934 7570", 
+                "param1": "L_XLFZ_DYC"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102096, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110171021"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010164"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102095"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19925", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "787", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8832", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1542", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q042056|Q042057|Q042058|Q042060", 
+        "finish_by": "10000293#L_FLS", 
+        "taskLogDes": "@S{4}燃灯道人让你在他炼制神灯期间，暂时守住降龙法阵的封印，不能让古寺镇压的鬼龙趁机逃脱。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042081", 
+        "nextQuest": "20102097", 
+        "taskCompleteFunctions": {}, 
+        "level": 34, 
+        "title": "降龙法阵", 
+        "isAutoCommit": 1, 
+        "start_by": "10000293#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭火灵妖", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013043|20013042|20013044", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(29450.0 -10380.0 -6150.0)#L_WLS"
+                }
+            }, 
+            "title": "初踏火灵山"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败先天火灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013045", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12680.0 3949.2 -8099.6)#L_WLS"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败先天火灵亲信", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013046", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12680.0 3949.2 -8099.6)#L_WLS"
+                }
+            }, 
+            "title": "击败先天火灵及亲信"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找先天火灵与水灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12680.0 3949.2 -8099.6:5", 
+                    "param2": "-3099|-13099", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(12680.0 3949.2 -8099.6)#L_WLS"
+                }
+            }, 
+            "title": "继续深入"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往木灵崖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(9026.0 3680.7 -8038.6)#L_WLS"
+                }
+            }, 
+            "title": "前往木灵崖"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败先天水灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(12680.0 3949.2 -8099.6)#L_WLS"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败先天水灵亲信", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013048", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12680.0 3949.2 -8099.6)#L_WLS"
+                }
+            }, 
+            "title": "击败先天水灵及亲信"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "五灵山（一）"
+}

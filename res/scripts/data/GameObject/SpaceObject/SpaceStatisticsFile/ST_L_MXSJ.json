@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 记住各魔像位置，交互水晶可使其变回魔像。@B• 连续两次交互产生的魔像相同则消除魔像。@B• 连续两次交互产生的魔像不同，魔像则幻化为妖物。@B• 达到要求后，最终消除的魔像越多获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "消除魔像：", 
+                    "postfix": "对", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "k2", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "至少消除6对魔像"
+        }
+    }, 
+    "name": "魔像水晶"
+}

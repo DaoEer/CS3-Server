@@ -1,0 +1,221 @@
+<root>
+	<Properties>
+		<playerName>
+			<Type>			UNICODE		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>		true		</Persistent>
+			<DatabaseLength>	255		</DatabaseLength>
+		</playerName>
+
+		<avatar>
+			<Type>			ENTITYCALL		</Type>
+			<Flags>			BASE		</Flags>
+		</avatar>
+
+		<lastClientIpAddr>
+			<Type>			UINT32		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</lastClientIpAddr>
+
+		<xianshi>
+			<!-- 仙石 -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</xianshi>
+		<xuanshi>
+			<!-- 玄石 -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</xuanshi>
+		
+		<lastLogonDBID>
+			<!-- 最近登录的角色的DBID -->
+			<Type>		DBID			</Type>
+			<Flags>		BASE_AND_CLIENT	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</lastLogonDBID>
+		
+		<isVIP>
+			<!-- 是否是高付费用户 -->
+			<Type>		BOOL			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</isVIP>
+
+		<isCrossService>
+			<!-- 是否为跨服请求登录账号 -->
+			<Type>		BOOL			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</isCrossService>
+
+		<payTimeBalance>
+			<!-- 付费剩余时长 -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</payTimeBalance>
+
+		<defaultTimeBalance>
+			<!-- 系统默认赠送游戏剩余时长 -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</defaultTimeBalance>
+
+		<isGetDefaultTime>
+			<!-- 是否已经获取系统默认赠送的时间 -->
+			<Type>		BOOL			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</isGetDefaultTime>
+
+		<loginTime>
+			<!-- 登录时间 -->
+			<Type>		SERVER_TIME		</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	true			</Persistent>
+		</loginTime>
+
+		<fastLoginTime>
+			<!-- 首次登录时间 -->
+			<Type>		SERVER_TIME		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</fastLoginTime>
+
+		<fastLoginMacAddr>
+			<!-- 首次登录mac -->
+			<Type>		STRING		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</fastLoginMacAddr>
+		<currLoginMacAddr>
+			<!-- 本次登录mac -->
+			<Type>		STRING		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</currLoginMacAddr>
+		<recordTime>
+			<!-- 数据记录时间，即数据保存到数据库的时间 -->
+			<Type>		SERVER_TIME		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</recordTime>
+		<hasActivation>
+			<Type>		BOOL		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true	</Persistent>
+			<Default>	0			</Default>
+		</hasActivation>
+	</Properties>
+
+	<ClientMethods>
+		<OnStatusMessageCB>
+			<Arg>	INT32		</Arg><!-- 提示消息内容 -->
+			<Arg>	UNICODE		</Arg><!-- 提示消息内容 -->
+		</OnStatusMessageCB>
+		<AccountCreateCB>
+		</AccountCreateCB>
+		<RequestInitRolesCB>
+			<Arg>	ROLEINFO_T	</Arg>	
+		</RequestInitRolesCB>
+		<TimeSynchronization>
+			<Arg>	STRING	</Arg>	
+		</TimeSynchronization>
+		<AddRoleCB>
+			<Arg>	ROLEINFO	</Arg>	
+		</AddRoleCB>
+		<DeleteRoleCB>
+			<Arg>	DBID	</Arg>	
+		</DeleteRoleCB> 
+		<CreateRoleCallback/>
+
+		<ReceiveWattingInfo>			<!-- 通知登录排名信息 -->
+			<Arg>	INT32	</Arg>		<!-- 排名 -->
+			<Arg>	FLOAT	</Arg>		<!-- 平均登陆耗时 -->
+			<Arg>	INT32	</Arg>		<!-- 总排队人数 -->
+		</ReceiveWattingInfo>
+		
+		<OnCancelLoginQueue>
+		   <Arg>	INT32	</Arg>
+		</OnCancelLoginQueue>
+
+		<SetAccountInfo>
+			<Arg>	ACCOUNTINFO	</Arg>
+		</SetAccountInfo>
+		<GameTimeHasUsedUp>
+		</GameTimeHasUsedUp>
+		<RoleFrozenNotification>
+			<Arg>	UNICODE		</Arg>
+		</RoleFrozenNotification>
+		
+		<onActivationKeyResult>
+			<Arg>	INT8	</Arg>
+		</onActivationKeyResult>
+	</ClientMethods>
+
+	<BaseMethods>
+		<requestInitRoles>
+			<Exposed/>
+		</requestInitRoles>
+		<createRole>
+			<Exposed/>
+			<Arg>	UNICODE	</Arg>	<!-- roleName -->
+			<Arg>	INT32	</Arg>	<!-- profession -->
+			<Arg>	INT32	</Arg>	<!-- camp -->
+			<Arg>	INT32	</Arg>	<!-- gender -->
+		</createRole>
+		<deleteRole>
+			<Exposed/>
+			<Arg>	DBID	</Arg>	
+		</deleteRole>
+		<logoff>
+			<Exposed/>
+		</logoff>
+		<login>
+			<Exposed/>
+			<Arg>	DBID	</Arg>	
+			<Arg>	STRING	</Arg>	
+		</login>
+		<onAvatarDeath>
+		</onAvatarDeath>
+		
+		<loginRole/>
+		
+		<kickAction>
+			<Arg>	ENTITYCALL		</Arg>
+		</kickAction>
+		
+		<pickUpChargeOrder/>
+		<modifyFace>
+		    <Exposed/>
+		    <Arg>	FACEINFO_L	</Arg>
+		    <Arg>	FACESTYLE	</Arg>
+		    <Arg>	MODEL_L	    </Arg>
+		</modifyFace>
+		
+		<reqCancelLoginQueue>
+		    <Exposed/>
+		</reqCancelLoginQueue>
+		
+		<requestActivationKey>
+		    <Exposed/>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</requestActivationKey>
+	</BaseMethods>
+</root>

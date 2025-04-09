@@ -1,0 +1,58 @@
+<root>
+	<Volatile>
+		<position/>
+		<!--<position> 0 </position> Don't update-->
+		<yaw/>
+		<!--<pitch> 20 </pitch>-->
+		<pitch/>
+		<roll/>
+	</Volatile>
+
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<roleDBID> <!-- 充值者的账号（userid） -->
+			<Type>				DBID			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</roleDBID>
+		
+		<auction_uid> <!-- 物品uid -->
+			<Type>				UNICODE			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</auction_uid>
+
+		<auction_orderId> <!-- 订单号 -->
+			<Type>				UNICODE			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+			<DatabaseLength>	128				</DatabaseLength>
+			<Index> 			UNIQUE			</Index>
+		</auction_orderId>
+		
+		<money> <!-- 金钱 -->
+			<Type>				INT32			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</money>
+		
+		<pickup_status> <!-- 提取状态：已提取/未提取(1/0) -->
+			<Type>				BOOL			</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>		true			</Persistent>
+			<Default>			1				</Default>
+		</pickup_status>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

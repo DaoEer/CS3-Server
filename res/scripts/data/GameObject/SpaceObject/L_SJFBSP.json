@@ -1,0 +1,32 @@
+﻿{
+"SpaceName"	: "两仪界",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "L_SJFBSP",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_SJFBSP",
+"NavmeshPath"	: "space\\L_SJFBSP_NAVMESH",
+"PatrolRouteFile": "P_L_SJFBSP",
+"belongType"	: "1",
+"SpaceHoldEffect"	:"101010106",
+"ExitSpace"	:{
+	"ScriptID"	: "L_YZD",
+	"Position"	: "7167.0 -7851.0 92.0",
+	"Direction"	: "0.0 0.0 -4.5"
+	},
+"SpaceData"	:{
+	"enterPosition":"1890 11277 203",
+	"enterDirection":"0 0 -90",
+	"statisticsFile":"ST_L_SJFBSP",
+	"eventFile":"SE_L_SJFBSP",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0,
+	"logoutCloseTime":1,
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

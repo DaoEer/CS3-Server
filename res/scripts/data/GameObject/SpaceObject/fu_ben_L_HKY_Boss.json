@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "火奎崖",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_HKY_Boss",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_fu_ben_L_HKY_Boss",
+"NavmeshPath"	: "space\\L_HKY_02_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"RoleRelationRule": "",
+"ExitSpace"	:{
+	"ScriptID"	: "bigmap_1",
+	"Position"	: "45790 -53720 -1300",
+	"Direction"	: "0.0 0.0 0.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 60,
+	"spaceIntroduce":{"voiceID":"C000008"},
+	"enterPosition":"-42980 -40 3330",
+	"enterDirection":"0 0 -180",
+	"stageFile":"SS_fu_ben_L_HKY_Boss",
+	"eventFile":"SE_fu_ben_L_HKY_Boss",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1 
+	},
+"DomainData"	:{
+	}
+}

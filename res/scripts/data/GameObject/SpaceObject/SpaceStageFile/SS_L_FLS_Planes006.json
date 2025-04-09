@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败古寺弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000655|20000656", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-61150 -17925 4264)#L_FLS_Planes006"
+                }
+            }, 
+            "title": "闯山门入古寺"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得灵髓金魄", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-66098.0 -42695.0 5340.0)#L_FLS_Planes006"
+                }
+            }, 
+            "title": "换取灵髓金魄"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵髓金魄"
+}

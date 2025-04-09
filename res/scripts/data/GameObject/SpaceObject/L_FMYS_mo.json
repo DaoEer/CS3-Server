@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_FMYS_mo",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_FMYS_mo",
+"NavmeshPath"	: "space\\L_FMYS_NAVMESH",
+"PatrolRouteFile": "P_L_FMYS_mo",
+"belongType"	: "1",
+"SpaceAoi"	: 500.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_PMG",
+	"Position"	: "-18979.0 -16208.000000000002 3990.0",
+	"Direction"	: "0.0 0.0 -108"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_FMYS_mo",
+	"eventFile":"SE_L_FMYS_mo"
+	},
+"DomainData"	:{
+	}
+}

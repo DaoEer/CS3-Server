@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 请将凤鸣真火送至玄风灵池净化，躲避玄风防止真火熄灭。@B• 请将天宝琉璃送至雷罡灵池净化，避开玄铁球和落雷防止琉璃破碎。@B• 请选中守阁金牛用捆仙绳将其送至幻象灵池净化，消灭灵池幻象防止金牛死亡。@B• 达到要求后，最终净化的灵宝或金牛越多获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "已净化金牛/灵宝：", 
+                    "postfix": "", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "add", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "净化至少2件灵宝"
+        }
+    }, 
+    "name": "灵池净化"
+}

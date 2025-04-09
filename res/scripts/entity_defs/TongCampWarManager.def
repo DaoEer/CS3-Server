@@ -1,0 +1,25 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<queryTongSignUpData>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</queryTongSignUpData>
+		<tongCampWarSignUp>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST	</Arg>
+			<Arg> 	UNICODE </Arg>
+			<Arg> 	INT32 	</Arg>
+		</tongCampWarSignUp>
+	</BaseMethods>
+</root>

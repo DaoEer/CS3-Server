@@ -1,0 +1,122 @@
+<root>
+	<Properties>
+		<facadeItemOrders>
+			<!-- 物品序号 -->
+			<Type>				PYTHON_DICT			</Type>
+			<Flags>				CELL_PRIVATE					</Flags>
+			<Default>			{}				</Default>
+			<Persistent>		true					</Persistent>
+		</facadeItemOrders>
+		<facadeItemList>
+			<!-- 物品 -->
+			<Type>				ITEMLIST			</Type>
+			<Flags>				CELL_PRIVATE		</Flags>
+			<Persistent>		true				</Persistent>
+		</facadeItemList>
+		<unLockWaistGridNum>
+			<!-- 解锁腰部挂件背包格子 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		true				</Persistent>
+		</unLockWaistGridNum>
+		<unLockBackGridNum>
+			<!-- 解锁背包挂件背包格子 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		true				</Persistent>
+		</unLockBackGridNum>
+		<unLockNecklaceGridNum>
+			<!-- 解锁项链背包格子 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		true				</Persistent>
+		</unLockNecklaceGridNum>
+		<unLockBraceletGridNum>
+			<!-- 解锁手环背包格子 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		true				</Persistent>
+		</unLockBraceletGridNum>
+		<unLockFootGridNum>
+			<!-- 解锁脚饰格子 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		true				</Persistent>
+		</unLockFootGridNum>
+		
+		<unLockAircraftGridNum>
+			<!-- 解锁飞行器背包格子 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		true				</Persistent>
+		</unLockAircraftGridNum>
+
+		<waistPendantBagCapacity>
+			<!-- 腰部挂件背包格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			40				</Default>
+			<Persistent>		false			</Persistent>	
+		</waistPendantBagCapacity>
+		<backPendantBagCapacity>
+			<!-- 背部挂件背包格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			40				</Default>
+			<Persistent>		false			</Persistent>	
+		</backPendantBagCapacity>
+		<necklaceBagCapacity>
+			<!-- 项链背包格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			40				</Default>
+			<Persistent>		false			</Persistent>	
+		</necklaceBagCapacity>
+		<braceletBagCapacity>
+			<!-- 手环背包格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			40				</Default>
+			<Persistent>		false			</Persistent>	
+		</braceletBagCapacity>
+		<footBagCapacity>
+			<!-- 脚饰背包格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			40				</Default>
+			<Persistent>		false			</Persistent>	
+		</footBagCapacity>
+		<aircraftBagCapacity>
+			<!-- 飞行器背包格子容量 -->
+			<Type>				INT32			</Type>
+			<Flags>				OWN_CLIENT		</Flags>
+			<Default>			40				</Default>
+			<Persistent>		false			</Persistent>	
+		</aircraftBagCapacity>
+
+	</Properties>
+
+	<ClientMethods>
+		<ReceiveFacadeBagItem>
+			<Arg>		STRING		</Arg>
+		</ReceiveFacadeBagItem>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<unLockFacadeBagGrid>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</unLockFacadeBagGrid>
+	</CellMethods>
+</root>

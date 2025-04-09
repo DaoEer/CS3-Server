@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "BHZB_CJJDBF",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_BHZYZ_ZFBZDL_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 50.0,
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_ENEMY",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"reviveType"	: "0|"
+	},
+"DomainData"	:{
+	}
+}

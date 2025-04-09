@@ -1,0 +1,22 @@
+﻿{
+"EntityType"	: "SpaceCopyStandMapBHZB",
+"DomainType"	: "SpaceDomainCopyStandMapBHZB",
+"EntityScript"	: "SpaceCopyStandMapBHZB",
+"scriptID"	: "fu_ben_L_BHZB_XDSP",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_BHZB_SP",
+"NavmeshPath": "space\\L_BHZBZ_ZCJ_NAVMESH",
+"PatrolRouteFile": "",
+"belongType": "0",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 120,
+	"reviveType"	: "0|1"
+	},
+"DomainData"	:{
+	}
+}

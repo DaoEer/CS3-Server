@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭道场守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000369|20000370|20000371|20000372|20000373", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000369|20000370|20000371|20000372|20000373#L_WSS_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭道场侍卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000375|20000374", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000374|20000375#L_WSS_Planes003"
+                }
+            }, 
+            "title": "前往道场腹地"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败星辰子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "101", 
+                    "param2": "20000368", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000368#L_WSS_Planes003"
+                }
+            }, 
+            "title": "逼问宝物下落"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "星河道场"
+}

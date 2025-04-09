@@ -1,0 +1,80 @@
+{
+    "stages": {
+        "1": {
+            "comment": "沿路清扫敌军", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败飞魔峰守卫", 
+                    "reqVal": 20, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014812|20014813|20014814|20014815", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败黑辰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014844", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(2216.364746 -4638.914551 7960.667969)#L_FMF_xian"
+                }
+            }, 
+            "title": "深入飞魔峰"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "牵制魔傀，等待太一前辈破除结界", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-4784.409668 -7123.628418 8583.792969)#L_FMF_xian"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往魔王殿", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-9811.400391 -8811.113281 8881.500000)#L_FMF_xian"
+                }
+            }, 
+            "title": "魔王殿结界"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与太一前辈汇合", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-4784.409668 -7123.628418 8583.792969)#L_FMF_xian"
+                }
+            }, 
+            "title": "血战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "飞魔峰"
+}

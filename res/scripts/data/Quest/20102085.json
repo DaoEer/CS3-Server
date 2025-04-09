@@ -1,0 +1,107 @@
+{
+    "20102085": {
+        "tasks": [
+            {
+                "navigateData": "20006861#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "37470.0 45790.0 1242.382568", 
+                "param1": "L_BQDB", 
+                "id": 1, 
+                "name": "会合九天玄女"
+            }, 
+            {
+                "navigateData": "20006862#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "净化圣像"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102085, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010096"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102084"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19057", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "755", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8481", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1459", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041435|Q041436", 
+        "finish_by": "10000438#L_BQDB", 
+        "taskLogDes": "@S{4}公孙族长已救下，快使用女娲赐下的驱魔神水，前去净化女娲圣像，重新恢复万象天斗大阵。|@S{4}公孙族长已救下，快使用女娲赐下的驱魔神水，前去净化女娲圣像，重新恢复万象天斗大阵。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041447", 
+        "nextQuest": "20102086", 
+        "taskCompleteFunctions": {}, 
+        "level": 33, 
+        "title": "净化圣像", 
+        "isAutoCommit": 1, 
+        "start_by": "10000438#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

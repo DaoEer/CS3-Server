@@ -1,0 +1,114 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败灵都守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008741|20008742", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(10562.281250 10141.164063 103.655762)#L_DLDC"
+                }
+            }, 
+            "title": "初探灵都道场"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败灵都弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008753|20008754", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(5163.0 -14088.999999999998 998.0)#L_DLDC"
+                }
+            }, 
+            "title": "深入灵都道场"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败鹤山", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008748", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008748#L_DLDC"
+                }
+            }, 
+            "title": "击败鹤山"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫屏翳", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008761", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008761#L_DLDC"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回太清宫", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(20026.0 -37449.0 2121.0)#L_DLDC"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "收集重生之水", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010109", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20008761#L_DLDC"
+                }
+            }, 
+            "title": "夺取重生之水"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败乌玄", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008757", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008757#L_DLDC"
+                }
+            }, 
+            "title": "击败乌玄"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵都道场"
+}

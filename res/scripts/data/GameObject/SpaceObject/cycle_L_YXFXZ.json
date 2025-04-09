@@ -1,0 +1,29 @@
+{
+"SpaceName"	: "凤栖镇",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "cycle_L_YXFXZ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_YXFXZ",
+"NavmeshPath"	: "space\\L_YXFXZ_NAVMESH",
+"PatrolRouteFile": "P_L_YXFXZ",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"5110.000000 47380.000000 2320.000000",
+	"enterDirection":"0 0 140",
+	"stageFile":"SS_L_YXFXZ",
+	"eventFile":"SE_L_YXFXZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0
+	},
+"DomainData"	:{
+	}
+}

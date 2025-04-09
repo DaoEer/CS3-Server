@@ -1,0 +1,120 @@
+{
+    "80135035": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "完成灵箭化元考验"
+            }, 
+            {
+                "navigateData": "10000225#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000225", 
+                "id": 2, 
+                "name": "找到武器商林神逸"
+            }, 
+            {
+                "navigateData": "10000225#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000225", 
+                "id": 3, 
+                "name": "将灵箭之力交给林神逸"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000175"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135035, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010073"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "100"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010073"
+            }
+        ], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "10000225#L_FMC", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010073"
+                }
+            ], 
+            "2": [
+                {
+                    "script": "QuestFuncTeleportSpace", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "0 0 100", 
+                    "param2": "-360 -2150 240", 
+                    "param1": "cycle_L_LJHY"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "灵箭化元", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

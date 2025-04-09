@@ -1,0 +1,779 @@
+{
+    "40000403": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "4000040301"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "4000040302"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "0.965000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000403", 
+        "ModelNumber": "SK_ZW0247_7_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000295": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "232"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "233"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000295", 
+        "ModelNumber": "SK_ZW0247_6_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000297": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "234"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "236"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000297", 
+        "ModelNumber": "SK_ZW0247_9_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000298": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "235"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "237"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000298", 
+        "ModelNumber": "SK_ZW0247_9_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000280": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "217"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1", 
+                        "param1": "2"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "380"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "窗", 
+        "scriptID": "40000280", 
+        "ModelNumber": "SK_ZW0261_7_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000202": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_03"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "102375", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_08"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "10"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "3"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": "Show_05"
+            }, 
+            "3": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_03"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "4"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "102375", 
+                "gossipCondition": [
+                    {
+                        "scriptName": "SpellGossipConditionReceiveCopyNotify", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "11"
+                    }
+                ], 
+                "holdAction": "Show_01"
+            }, 
+            "4": {
+                "gossipResult": [], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": "Show_05"
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.050000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000202", 
+        "ModelNumber": "SK_ZW0247_1_NPC", 
+        "Flags": [
+            9, 
+            24, 
+            28
+        ]
+    }, 
+    "40000543": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "4000054301"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "4000054302"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000543", 
+        "ModelNumber": "SK_ZW0291_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000669": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_03"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "500"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "102375", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_08"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "10"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "3"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": "Show_05"
+            }, 
+            "3": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_03"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "4"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "102375", 
+                "gossipCondition": [
+                    {
+                        "scriptName": "SpellGossipConditionReceiveCopyNotify", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "11"
+                    }
+                ], 
+                "holdAction": "Show_01"
+            }, 
+            "4": {
+                "gossipResult": [], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": "Show_05"
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.050000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000669", 
+        "ModelNumber": "SK_ZW0247_1_NPC", 
+        "Flags": [
+            9, 
+            24, 
+            28
+        ]
+    }, 
+    "40000596": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "217"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1", 
+                        "param1": "2"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "380"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "窗", 
+        "scriptID": "40000596", 
+        "ModelNumber": "SK_ZW0261_7_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000594": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "234"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "236"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000594", 
+        "ModelNumber": "SK_ZW0247_9_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000595": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "235"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "237"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000595", 
+        "ModelNumber": "SK_ZW0247_9_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }, 
+    "40000592": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_03"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "500"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "102375", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_08"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "10"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "3"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": "Show_05"
+            }, 
+            "3": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultPlayAction", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "Show_03"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "4"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "102375", 
+                "gossipCondition": [
+                    {
+                        "scriptName": "SpellGossipConditionReceiveCopyNotify", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "11"
+                    }
+                ], 
+                "holdAction": "Show_01"
+            }, 
+            "4": {
+                "gossipResult": [], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": "Show_05"
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.050000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000592", 
+        "ModelNumber": "SK_ZW0247_1_NPC", 
+        "Flags": [
+            9, 
+            24, 
+            28
+        ]
+    }, 
+    "40000593": {
+        "Area": {
+            "1": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSwitchArea", 
+                        "param3": "", 
+                        "param2": "1.3", 
+                        "param1": "2"
+                    }, 
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "232"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }, 
+            "2": {
+                "gossipResult": [
+                    {
+                        "scriptName": "SpellGossipResultSendAICmdToSpace", 
+                        "param3": "", 
+                        "param2": "", 
+                        "param1": "233"
+                    }
+                ], 
+                "holdEffectID": "", 
+                "effectID": "", 
+                "gossipCondition": [], 
+                "holdAction": ""
+            }
+        }, 
+        "EntityScript": "MultiAreaSpellBox", 
+        "ModelScale": "1.000000", 
+        "EntityType": "MultiAreaSpellBox", 
+        "Uname": "门", 
+        "scriptID": "40000593", 
+        "ModelNumber": "SK_ZW0247_6_NPC", 
+        "Flags": [
+            8, 
+            9
+        ]
+    }
+}

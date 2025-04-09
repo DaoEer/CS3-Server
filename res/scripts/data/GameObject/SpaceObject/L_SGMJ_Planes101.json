@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_SGMJ_Planes101",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_SGMJ_Planes101",
+"NavmeshPath"	: "space\\L_SGMJ_Planes101_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 150.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_SGMJ",
+	"Position"	: "-13590.412109 15095.585938 -2797.396484",
+	"Direction"	: "0 0 -120"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_SGMJ_Planes101",
+	"eventFile":"SE_L_SGMJ_Planes101"
+	},
+"DomainData"	:{
+	}
+}

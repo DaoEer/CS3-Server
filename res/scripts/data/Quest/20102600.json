@@ -1,0 +1,113 @@
+{
+    "20102600": {
+        "tasks": [
+            {
+                "navigateData": "10000717#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-19170 -22958 7304", 
+                "param1": "L_BQDB", 
+                "id": 1, 
+                "name": "会合蓐收"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002008"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3031"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102600, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010107"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102612|20102630|20102631"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16084", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "725", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8141", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1721", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q042529|Q042530", 
+        "finish_by": "10000717#L_BQDB", 
+        "taskLogDes": "@S{4}准提让你带着十金乌和@F{fc=c41}十神天绝灯@D前往阪泉东部的云岚峰会合祖巫蓐收，一同布下十日天绝大阵，以十日同出炙烤轩辕族！", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042532", 
+        "nextQuest": "20102632|20102632|20102601|20102602", 
+        "taskCompleteFunctions": {}, 
+        "level": 36, 
+        "title": "前往云岚峰", 
+        "isAutoCommit": 1, 
+        "start_by": "10000062#L_MHD", 
+        "isAutoAccept": 1
+    }
+}

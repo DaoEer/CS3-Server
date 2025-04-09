@@ -1,0 +1,71 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<followerID>
+			<Type>	OBJECT_ID		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+			<Persistent>	false	</Persistent>
+		</followerID>
+		<ladderState>
+			<Type>	INT32		</Type>
+			<Flags>	ALL_CLIENTS	</Flags>
+			<Persistent>	false	</Persistent>
+		</ladderState>
+		<ladderPosIndex>
+			<Type>	INT32		</Type>
+			<Flags>	CELL_PUBLIC	</Flags>
+			<Persistent>	false	</Persistent>
+		</ladderPosIndex>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_AerialLadderMoveFinish>
+			<Arg>	STRING	</Arg>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</CLIENT_AerialLadderMoveFinish>
+		<CLIENT_AerialLadderReadyToFall>
+			<Arg>	STRING	</Arg>
+		</CLIENT_AerialLadderReadyToFall>
+		<CLIENT_EnterAerialLadderAOI>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</CLIENT_EnterAerialLadderAOI>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_LadderBuildComplete>
+			<Exposed/>
+		</CELL_LadderBuildComplete>
+		<CELL_LadderFallDead>
+			<Exposed/>
+			<Arg>	ARRAY_INT32	</Arg>
+		</CELL_LadderFallDead>
+		<CELL_LadderFallActionFinish>
+			<Exposed/>
+		</CELL_LadderFallActionFinish>
+		<CELL_EntityEnterLadder>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_EntityEnterLadder>
+		<CELL_EntityExitLadder>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_EntityExitLadder>
+		<CELL_RoleReadyClimbLadder>
+			<Exposed/>
+		</CELL_RoleReadyClimbLadder>
+	</CellMethods>
+</root>
+

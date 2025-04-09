@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_TLXS",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_TLXS",
+"NavmeshPath"	: "space\\L_BHD_01_NAVMESH",
+"PatrolRouteFile": "P_L_TLXS",
+"SpaceAoi"	: 120.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_YGG",
+	"Position"	: "-39939.0 8387.0 5185.0",
+	"Direction"	: "0.0 0.0 108"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_TLXS",
+	"eventFile":"SE_L_TLXS"
+	},
+"DomainData"	:{
+	}
+}

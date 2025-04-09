@@ -1,0 +1,56 @@
+<root>
+	<Interfaces>
+		<Interface> 	ActionFlagInterface		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<state>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		1		</Default>
+			<Persistent>		false			</Persistent>
+		</state>
+		<lastState>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</lastState>
+		<stateMethodMap>
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</stateMethodMap>	
+		<stateActionFlags>
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</stateActionFlags>	
+		<effectCounter>
+			<Type>			ARRAY_INT8		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>			
+		</effectCounter>
+		<effectState>			<!-- 效果状态 眩晕等 -->
+			<Type>			UINT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</effectState>			
+	</Properties>
+	
+	<CellMethods>
+		<changeState>
+			<Arg>			INT32			</Arg>
+		</changeState>	
+		<effectStateInc>
+			<Arg>			UINT32		</Arg>		<!-- effectstate -->
+		</effectStateInc>
+		<effectStateDec>
+			<Arg>			UINT32		</Arg>		<!-- effectstate -->
+		</effectStateDec>
+		<hasEffectState>
+			<Arg>			UINT32		</Arg>		<!-- effectstate -->
+		</hasEffectState>	
+	</CellMethods>
+</root>

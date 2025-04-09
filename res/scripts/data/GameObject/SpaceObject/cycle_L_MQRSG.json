@@ -1,0 +1,36 @@
+{
+"SpaceName"	: "冥气人参果",
+"EntityType"	: "SpaceCopyMQRSG",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyMQRSG",
+"scriptID"	: "cycle_L_MQRSG", 
+"spaceType"	: "SPACE_TYPE_COPY", 
+"SpawnFile"	: "S_L_MQRSG",
+"NavmeshPath"	: "space\\L_RSGY_NAVMESH", 
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"ExitSpace"	:{  
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"-156 9289 -142",
+	"enterDirection":"0 0 -90",
+	"SpaceHoldEffect"	:"101010106",
+               "monsterScriptIDList":"20011289|20011287", 
+               "cikuCoordList":"-2290 2050 1130|-1830 2050 1040|-2857 2400 1090|1800 1380 870|-500 3020 880|2230 1440 810|842.9 1611 919.8|1730 1950 1500|2380 2600 1510|1120 460 680|-1380 1730 790|-370 3660 630|1460 220 610|-2870 920 1140|-2720 -50 710|-2290 1180 1200|550 -580 1230|-480 -570 1000|-230 -1070 970|-800 300 1080|297 90.42 1005.97|2175.734375 191.340805 749.859924", 
+             "cikuCoordList1":"1460 160 1670|790 730 1520|1360 1320 1320|2480 930 1560|-140 3000 1410|400 2620 1400|-1160 2240 1410|-450 590 1630|-2690 280 1510|1030 1650 1160|-1584 1320 1260", 
+
+
+	"stageFile":"", 
+	"statisticsFile":"ST_L_MQRSG",
+	"eventFile":"SE_L_MQRSG",   
+	"clientUseCharacterMovment" : 0, 
+	"reviveType"	: "1|2",  
+	"monsterUseSpaceLevel":1    
+	},
+"DomainData"	:{
+
+	}
+}

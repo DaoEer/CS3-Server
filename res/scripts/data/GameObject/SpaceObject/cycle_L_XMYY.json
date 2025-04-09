@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "灵元宫",
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyRingTaskChild",
+"scriptID"	: "cycle_L_XMYY",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_XMYY",
+"NavmeshPath"	: "space\\L_XMYY_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "6139 26797 11021",
+	"Direction"	: "0.0 0.0 100"
+	},
+"SpaceData"	:{
+	"enterPosition":"-0.000141 -18969.998047 -2049.999512",
+	"enterDirection":"0 0 90",
+	"stageFile":"",
+	"statisticsFile":"ST_L_XMYY",
+	"eventFile":"SE_L_XMYY",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+
+	}
+}

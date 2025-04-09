@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败警戒雷兽", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004494|20004491", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004491#L_BQDB_Planes001"
+                }
+            }, 
+            "title": "初入雷鸣窟"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击碎牢笼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20005986#L_BQDB_Planes001"
+                }
+            }, 
+            "title": "解救少典"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜寻少典与药尘", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-16458.0 -14180.000000000002 -67.0:10", 
+                    "param2": "400|-567", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-16458.0 -14180.000000000002 -67.0)#L_BQDB_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄天雷兽", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004497", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004497#L_BQDB_Planes001"
+                }
+            }, 
+            "title": "探索雷鸣窟"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "雷鸣窟"
+}

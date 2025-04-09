@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "金枝玉庭",
+"EntityType"	: "SpaceCopyJinZhiYuTing",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJinZhiYuTing",
+"scriptID"	: "L_JZYT",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"NavmeshPath"	: "space\\L_JZYT_NAVMESH",
+"SpawnFile"	: "S_L_JZYT",
+"PatrolRouteFile": "P_L_JZYT",
+"SpaceAoi"	: 100.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+               "startLifeOnInit"	: 0,
+	"enterPosition":"-632.0 -2014.0 560.0",
+	"enterDirection":"0 0 0",
+	"eventFile":"SE_L_JZYT",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "rewards": "2:180:10500:C001885|1:120:6300:C001884",
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

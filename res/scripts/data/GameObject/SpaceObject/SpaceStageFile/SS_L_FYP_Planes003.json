@@ -1,0 +1,85 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫范", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009707", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4475.916504 -16475.035156 2566.094727)#L_FYP_Planes003"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往西面清除魔道弟子", 
+                    "reqVal": 8, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009720|20009722|20009724|20009737|20009738", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-4400.000000 -20650.000000 2546.094238)#L_FYP_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往西南角清除魔道弟子", 
+                    "reqVal": 9, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009711|20009712|20009714|20009716|20009718", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-2759.999268 -15650.000000 2548.199219)#L_FYP_Planes003"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往北面清除魔道弟子", 
+                    "reqVal": 8, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009708|20009709|20009728|20009732", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-298.869446 -23951.152344 2654.230225)#L_FYP_Planes003"
+                }
+            }, 
+            "title": "救援后羿，剿灭敌军"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与后羿汇合", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(7729.148926 -28198.232422 2568.232422)#L_FYP_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫河", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009746", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(7729.148926 -28198.232422 2568.232422)#L_FYP_Planes003"
+                }
+            }, 
+            "title": "协助后羿，抵御巫河"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "后羿之危"
+}

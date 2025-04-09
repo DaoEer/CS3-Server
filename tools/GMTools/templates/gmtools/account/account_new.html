@@ -1,0 +1,82 @@
+{% extends "gmtools/account/account.html" %}
+{% load custom_filter %}
+
+{% block content %}
+{% if request.session.gm_level != 1 %}
+	你没有权限管理这个页面!
+{% else %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+		}
+	</script>
+	<div class="row container-fluid user-new">
+		<h2 class="page-header">新建游戏账号</h2>
+		<form id = "reg-form" name="form-horizontal" method="post" action="/gmtools/account/register/">
+			{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="form-group col-sm-12">
+				<label class="col-sm-3 control-label">用户名</label>
+				<div class="col-sm-5">
+					<input type="text" name="name" class="form-control" id="id_name" easyform="length:4-16;char-normal;real-time;" message="用户账号必须4-16位的英文字母或者数字" easytip="disappear:lost-focus;theme:red;" value="{{request.POST.name}}"/>
+				</div>
+			</div>
+			<div class="form-group col-sm-12">
+				<label class="col-sm-3 control-label" for="id_password">密码</label>
+				<div class="col-sm-5">
+					<input name="password" type="password" class="form-control" id="id_password" easyform="length:6-16;char-normal;real-time;" message="密码必须为6-16位" easytip="disappear:lost-focus;theme:red;" value="{{request.POST.password}}"/>
+				</div>
+			</div>
+			<div class="form-group col-sm-12">
+				<label class="col-sm-3 control-label" for="id_password_again">确认密码</label>
+				<div class="col-sm-5">
+					<input name="password_again" type="password" class="form-control" id="id_password_again" easyform="length:6-16;equal:#id_password;char-normal;real-time;" message="两次密码输入要一致" easytip="disappear:lost-focus;theme:red;" value="{{request.POST.password_again}}"/>
+				</div>
+			</div>
+			<div class="form-group col-sm-12">
+				<div class="col-sm-4 col-sm-offset-4 text-right">
+					<input type="submit" value="确认创建" class="btn btn-default">
+				</div>
+			</div>
+		</form>
+		<p>&nbsp;</p>
+	</div>
+{% endif %}
+{% endblock %}
+
+{% block tail_js %}
+    <script>
+        $(".m_account_manage").addClass("active");
+    </script>
+    <script src="/static/js/jquery-1.11.3.min.js"></script>
+    <script src="/static/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="/static/js/easyform.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".auth_direction").hover(function() {
+                $(this).find('span').removeClass('direction');
+            },
+            function(){
+                $(this).find('span').addClass('direction');
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function()
+        {
+            $('#reg-form').easyform();
+        });
+    </script>
+{% endblock %}

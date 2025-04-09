@@ -1,0 +1,105 @@
+{
+    "20101205": {
+        "tasks": [
+            {
+                "navigateData": "10000362#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "9", 
+                "param2": "11550.0 4320.0 375.0", 
+                "param1": "L_FLS", 
+                "id": 2, 
+                "name": "与周阳对话"
+            }, 
+            {
+                "navigateData": "30000141#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往青月林"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "你怎么回来了？那盗宝贼人抓到了吗？", 
+        "id": 20101205, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101241"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3889", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "885", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8837", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "715", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102060003|102060007|102060011|102060015", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q030398|Q032095|Q032273|Q030399|Q030401", 
+        "finish_by": "10000362#L_FLS", 
+        "taskLogDes": "@S{4}飞盗门的贼人夺走了宝库内的至宝 ，周阳长老已前往青月林追击盗贼，灵飞请你前去支援长老。|@S{4}飞盗门的贼人夺走了宝库内的至宝 ，周阳长老已前往青月林追击盗贼，灵飞请你前去支援长老。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030406|Q030408|Q030409", 
+        "nextQuest": "20101206", 
+        "taskCompleteFunctions": {}, 
+        "level": 21, 
+        "title": "青月林", 
+        "isAutoCommit": 1, 
+        "start_by": "10000361#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

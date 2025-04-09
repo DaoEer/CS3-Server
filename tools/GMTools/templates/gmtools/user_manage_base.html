@@ -1,0 +1,77 @@
+{% autoescape on %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+	<!--上述3个meta标签必须放在最前面!-->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/static/images/favicon.ico">
+	<title>{% block title %}Game Master Tools{% endblock %}</title>
+	<link rel="stylesheet" href="/static/bootstrap-3.3.5/css/bootstrap.min.css">
+	<script src="/static/js/jquery-1.11.3.min.js"></script>
+	<script src="/static/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+	<script src="/static/layer-2.1/layer.js"></script>
+	<link rel="stylesheet" href="/static/dashboard.css">
+	{% block head_js %}{% endblock %}
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<span class="navbar-brand-custom"><a href="/gmtools/index">《创世3》管理后台</a></span>
+			</div>
+			<dir id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><p class="navbar-text"><a href="/gmtools/index">退出管理</a></p></li>
+					<li><p class="navbar-text">用户名：{{ request.session.gm_username }}</p></li>
+					<li><a href="/gmtools/logout">退出</a></li>
+				</ul>
+			</dir>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="now">
+			<div class="col-sm-3 col-md-2 sidebar">
+				<ul class="nav nav-sidebar">
+					<li class="user_query"><a href="/gmtools/user_manage">管理账号</a></li>
+					{% if request.session.gm_level == 1 %}
+						<li class="user_add"><a href="/gmtools/user_manage/new">新建账号</a></li>
+					{% endif %}
+				</ul>
+			</div>
+			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+				{% block content %}
+					<p>这里需要插入具体的内容</p>
+				{% endblock %}
+			</div>
+		</div>
+	</div>
+	<script>
+		function onChangeServer(control)
+		{
+			$.ajax({
+				url:"/gmtools/change_server",
+				dataType:"json",
+				data:{value:control.value}
+			}).done(function(data, textStatus, jqXHR){
+				control.value = data.default;
+				if(data.state != "success")
+					alert("error: " + data.message + " (dbid: " + data.id + ")");
+				else
+					location.reload();
+			});
+		}
+	</script>
+	{% block tail_js %}{% endblock %}
+</body>
+</html>
+{% endautoescape %}

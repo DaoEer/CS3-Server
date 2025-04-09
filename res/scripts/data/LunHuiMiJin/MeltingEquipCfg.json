@@ -1,0 +1,2690 @@
+[
+    {
+        "Name": "1", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 30, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "2", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 40, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "3", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 50, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "4", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 60, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "5", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 70, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "6", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 80, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "7", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 90, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "8", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 100, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "9", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 30, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "10", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 40, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "11", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 50, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "12", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 60, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "13", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 70, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "14", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 80, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "15", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 90, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "16", 
+        "level": 30, 
+        "successRate": 10, 
+        "meltingLevel": 100, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "17", 
+        "level": 30, 
+        "successRate": 50, 
+        "meltingLevel": 30, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "18", 
+        "level": 30, 
+        "successRate": 100, 
+        "meltingLevel": 40, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "19", 
+        "level": 30, 
+        "successRate": 600, 
+        "meltingLevel": 50, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "20", 
+        "level": 30, 
+        "successRate": 1000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "21", 
+        "level": 30, 
+        "successRate": 1400, 
+        "meltingLevel": 70, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "22", 
+        "level": 30, 
+        "successRate": 1800, 
+        "meltingLevel": 80, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "23", 
+        "level": 30, 
+        "successRate": 2200, 
+        "meltingLevel": 90, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "24", 
+        "level": 30, 
+        "successRate": 2500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "25", 
+        "level": 30, 
+        "successRate": 50, 
+        "meltingLevel": 30, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "26", 
+        "level": 30, 
+        "successRate": 100, 
+        "meltingLevel": 40, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "27", 
+        "level": 30, 
+        "successRate": 600, 
+        "meltingLevel": 50, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "28", 
+        "level": 30, 
+        "successRate": 1000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "29", 
+        "level": 30, 
+        "successRate": 1400, 
+        "meltingLevel": 70, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "30", 
+        "level": 30, 
+        "successRate": 1800, 
+        "meltingLevel": 80, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "31", 
+        "level": 30, 
+        "successRate": 2200, 
+        "meltingLevel": 90, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "32", 
+        "level": 30, 
+        "successRate": 2500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "33", 
+        "level": 30, 
+        "successRate": 100, 
+        "meltingLevel": 30, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "34", 
+        "level": 30, 
+        "successRate": 500, 
+        "meltingLevel": 40, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "35", 
+        "level": 30, 
+        "successRate": 1200, 
+        "meltingLevel": 50, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "36", 
+        "level": 30, 
+        "successRate": 1600, 
+        "meltingLevel": 60, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "37", 
+        "level": 30, 
+        "successRate": 2000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "38", 
+        "level": 30, 
+        "successRate": 2500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "39", 
+        "level": 30, 
+        "successRate": 3000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "40", 
+        "level": 30, 
+        "successRate": 3500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "41", 
+        "level": 30, 
+        "successRate": 100, 
+        "meltingLevel": 30, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "42", 
+        "level": 30, 
+        "successRate": 500, 
+        "meltingLevel": 40, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "43", 
+        "level": 30, 
+        "successRate": 1200, 
+        "meltingLevel": 50, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "44", 
+        "level": 30, 
+        "successRate": 1600, 
+        "meltingLevel": 60, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "45", 
+        "level": 30, 
+        "successRate": 2000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "46", 
+        "level": 30, 
+        "successRate": 2500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "47", 
+        "level": 30, 
+        "successRate": 3000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "48", 
+        "level": 30, 
+        "successRate": 3500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "49", 
+        "level": 30, 
+        "successRate": 500, 
+        "meltingLevel": 30, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "50", 
+        "level": 30, 
+        "successRate": 800, 
+        "meltingLevel": 40, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "51", 
+        "level": 30, 
+        "successRate": 1500, 
+        "meltingLevel": 50, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "52", 
+        "level": 30, 
+        "successRate": 1800, 
+        "meltingLevel": 60, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "53", 
+        "level": 30, 
+        "successRate": 2300, 
+        "meltingLevel": 70, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "54", 
+        "level": 30, 
+        "successRate": 2600, 
+        "meltingLevel": 80, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "55", 
+        "level": 30, 
+        "successRate": 3000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "56", 
+        "level": 30, 
+        "successRate": 3500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "57", 
+        "level": 30, 
+        "successRate": 500, 
+        "meltingLevel": 30, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "58", 
+        "level": 30, 
+        "successRate": 800, 
+        "meltingLevel": 40, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "59", 
+        "level": 30, 
+        "successRate": 1500, 
+        "meltingLevel": 50, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "60", 
+        "level": 30, 
+        "successRate": 1800, 
+        "meltingLevel": 60, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "61", 
+        "level": 30, 
+        "successRate": 2300, 
+        "meltingLevel": 70, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "62", 
+        "level": 30, 
+        "successRate": 2600, 
+        "meltingLevel": 80, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "63", 
+        "level": 30, 
+        "successRate": 3000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "64", 
+        "level": 30, 
+        "successRate": 3500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "65", 
+        "level": 30, 
+        "successRate": 4000, 
+        "meltingLevel": 30, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "66", 
+        "level": 30, 
+        "successRate": 4800, 
+        "meltingLevel": 40, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "67", 
+        "level": 30, 
+        "successRate": 5760, 
+        "meltingLevel": 50, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "68", 
+        "level": 30, 
+        "successRate": 6000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "69", 
+        "level": 30, 
+        "successRate": 6500, 
+        "meltingLevel": 70, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "70", 
+        "level": 30, 
+        "successRate": 7000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "71", 
+        "level": 30, 
+        "successRate": 8000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "72", 
+        "level": 30, 
+        "successRate": 8500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "73", 
+        "level": 30, 
+        "successRate": 4000, 
+        "meltingLevel": 30, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "74", 
+        "level": 30, 
+        "successRate": 4800, 
+        "meltingLevel": 40, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "75", 
+        "level": 30, 
+        "successRate": 5760, 
+        "meltingLevel": 50, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "76", 
+        "level": 30, 
+        "successRate": 6000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "77", 
+        "level": 30, 
+        "successRate": 6500, 
+        "meltingLevel": 70, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "78", 
+        "level": 30, 
+        "successRate": 7000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "79", 
+        "level": 30, 
+        "successRate": 8000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "80", 
+        "level": 30, 
+        "successRate": 8500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "81", 
+        "level": 30, 
+        "successRate": 8000, 
+        "meltingLevel": 30, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "82", 
+        "level": 30, 
+        "successRate": 9600, 
+        "meltingLevel": 40, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "83", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "84", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "85", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "86", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "87", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "88", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "89", 
+        "level": 30, 
+        "successRate": 8000, 
+        "meltingLevel": 30, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "90", 
+        "level": 30, 
+        "successRate": 9600, 
+        "meltingLevel": 40, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "91", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "92", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "93", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "94", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "95", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "96", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "97", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 30, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "98", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 40, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "99", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "100", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "101", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "102", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "103", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "104", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "105", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 30, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "106", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 40, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "107", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "108", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "109", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "110", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "111", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "112", 
+        "level": 30, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "113", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 30, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "114", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 40, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "115", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 50, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "116", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 60, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "117", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 70, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "118", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 80, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "119", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 90, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "120", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 100, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "121", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 30, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "122", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 40, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "123", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 50, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "124", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 60, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "125", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 70, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "126", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 80, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "127", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 90, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "128", 
+        "level": 40, 
+        "successRate": 10, 
+        "meltingLevel": 100, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "129", 
+        "level": 40, 
+        "successRate": 30, 
+        "meltingLevel": 30, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "130", 
+        "level": 40, 
+        "successRate": 50, 
+        "meltingLevel": 40, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "131", 
+        "level": 40, 
+        "successRate": 300, 
+        "meltingLevel": 50, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "132", 
+        "level": 40, 
+        "successRate": 350, 
+        "meltingLevel": 60, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "133", 
+        "level": 40, 
+        "successRate": 400, 
+        "meltingLevel": 70, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "134", 
+        "level": 40, 
+        "successRate": 450, 
+        "meltingLevel": 80, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "135", 
+        "level": 40, 
+        "successRate": 500, 
+        "meltingLevel": 90, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "136", 
+        "level": 40, 
+        "successRate": 550, 
+        "meltingLevel": 100, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "137", 
+        "level": 40, 
+        "successRate": 30, 
+        "meltingLevel": 30, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "138", 
+        "level": 40, 
+        "successRate": 50, 
+        "meltingLevel": 40, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "139", 
+        "level": 40, 
+        "successRate": 300, 
+        "meltingLevel": 50, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "140", 
+        "level": 40, 
+        "successRate": 350, 
+        "meltingLevel": 60, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "141", 
+        "level": 40, 
+        "successRate": 400, 
+        "meltingLevel": 70, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "142", 
+        "level": 40, 
+        "successRate": 450, 
+        "meltingLevel": 80, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "143", 
+        "level": 40, 
+        "successRate": 500, 
+        "meltingLevel": 90, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "144", 
+        "level": 40, 
+        "successRate": 550, 
+        "meltingLevel": 100, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "145", 
+        "level": 40, 
+        "successRate": 50, 
+        "meltingLevel": 30, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "146", 
+        "level": 40, 
+        "successRate": 100, 
+        "meltingLevel": 40, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "147", 
+        "level": 40, 
+        "successRate": 600, 
+        "meltingLevel": 50, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "148", 
+        "level": 40, 
+        "successRate": 900, 
+        "meltingLevel": 60, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "149", 
+        "level": 40, 
+        "successRate": 1200, 
+        "meltingLevel": 70, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "150", 
+        "level": 40, 
+        "successRate": 1500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "151", 
+        "level": 40, 
+        "successRate": 2000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "152", 
+        "level": 40, 
+        "successRate": 2500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "153", 
+        "level": 40, 
+        "successRate": 50, 
+        "meltingLevel": 30, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "154", 
+        "level": 40, 
+        "successRate": 100, 
+        "meltingLevel": 40, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "155", 
+        "level": 40, 
+        "successRate": 600, 
+        "meltingLevel": 50, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "156", 
+        "level": 40, 
+        "successRate": 900, 
+        "meltingLevel": 60, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "157", 
+        "level": 40, 
+        "successRate": 1200, 
+        "meltingLevel": 70, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "158", 
+        "level": 40, 
+        "successRate": 1500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "159", 
+        "level": 40, 
+        "successRate": 2000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "160", 
+        "level": 40, 
+        "successRate": 2500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "161", 
+        "level": 40, 
+        "successRate": 200, 
+        "meltingLevel": 30, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "162", 
+        "level": 40, 
+        "successRate": 500, 
+        "meltingLevel": 40, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "163", 
+        "level": 40, 
+        "successRate": 900, 
+        "meltingLevel": 50, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "164", 
+        "level": 40, 
+        "successRate": 1400, 
+        "meltingLevel": 60, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "165", 
+        "level": 40, 
+        "successRate": 1900, 
+        "meltingLevel": 70, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "166", 
+        "level": 40, 
+        "successRate": 2500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "167", 
+        "level": 40, 
+        "successRate": 3000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "168", 
+        "level": 40, 
+        "successRate": 3500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "169", 
+        "level": 40, 
+        "successRate": 200, 
+        "meltingLevel": 30, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "170", 
+        "level": 40, 
+        "successRate": 500, 
+        "meltingLevel": 40, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "171", 
+        "level": 40, 
+        "successRate": 900, 
+        "meltingLevel": 50, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "172", 
+        "level": 40, 
+        "successRate": 1400, 
+        "meltingLevel": 60, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "173", 
+        "level": 40, 
+        "successRate": 1900, 
+        "meltingLevel": 70, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "174", 
+        "level": 40, 
+        "successRate": 2500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "175", 
+        "level": 40, 
+        "successRate": 3000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "176", 
+        "level": 40, 
+        "successRate": 3500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "177", 
+        "level": 40, 
+        "successRate": 2670, 
+        "meltingLevel": 30, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "178", 
+        "level": 40, 
+        "successRate": 4000, 
+        "meltingLevel": 40, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "179", 
+        "level": 40, 
+        "successRate": 4800, 
+        "meltingLevel": 50, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "180", 
+        "level": 40, 
+        "successRate": 4400, 
+        "meltingLevel": 60, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "181", 
+        "level": 40, 
+        "successRate": 5000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "182", 
+        "level": 40, 
+        "successRate": 5500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "183", 
+        "level": 40, 
+        "successRate": 6000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "184", 
+        "level": 40, 
+        "successRate": 6600, 
+        "meltingLevel": 100, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "185", 
+        "level": 40, 
+        "successRate": 2670, 
+        "meltingLevel": 30, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "186", 
+        "level": 40, 
+        "successRate": 4000, 
+        "meltingLevel": 40, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "187", 
+        "level": 40, 
+        "successRate": 4800, 
+        "meltingLevel": 50, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "188", 
+        "level": 40, 
+        "successRate": 4400, 
+        "meltingLevel": 60, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "189", 
+        "level": 40, 
+        "successRate": 5000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "190", 
+        "level": 40, 
+        "successRate": 5500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "191", 
+        "level": 40, 
+        "successRate": 6000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "192", 
+        "level": 40, 
+        "successRate": 6600, 
+        "meltingLevel": 100, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "193", 
+        "level": 40, 
+        "successRate": 5330, 
+        "meltingLevel": 30, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "194", 
+        "level": 40, 
+        "successRate": 8000, 
+        "meltingLevel": 40, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "195", 
+        "level": 40, 
+        "successRate": 9600, 
+        "meltingLevel": 50, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "196", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "197", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "198", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "199", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "200", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "201", 
+        "level": 40, 
+        "successRate": 5330, 
+        "meltingLevel": 30, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "202", 
+        "level": 40, 
+        "successRate": 8000, 
+        "meltingLevel": 40, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "203", 
+        "level": 40, 
+        "successRate": 9600, 
+        "meltingLevel": 50, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "204", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "205", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "206", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "207", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "208", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "209", 
+        "level": 40, 
+        "successRate": 6670, 
+        "meltingLevel": 30, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "210", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 40, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "211", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "212", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "213", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "214", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "215", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "216", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "217", 
+        "level": 40, 
+        "successRate": 3330, 
+        "meltingLevel": 30, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "218", 
+        "level": 40, 
+        "successRate": 5000, 
+        "meltingLevel": 40, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "219", 
+        "level": 40, 
+        "successRate": 6000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "220", 
+        "level": 40, 
+        "successRate": 7000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "221", 
+        "level": 40, 
+        "successRate": 8000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "222", 
+        "level": 40, 
+        "successRate": 9000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "223", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "224", 
+        "level": 40, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "225", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 30, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "226", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 40, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "227", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 50, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "228", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 60, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "229", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 70, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "230", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 80, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "231", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 90, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "232", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 100, 
+        "meltingQuality": 1, 
+        "quality": 6
+    }, 
+    {
+        "Name": "233", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 30, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "234", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 40, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "235", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 50, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "236", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 60, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "237", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 70, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "238", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 80, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "239", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 90, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "240", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 100, 
+        "meltingQuality": 1, 
+        "quality": 7
+    }, 
+    {
+        "Name": "241", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 30, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "242", 
+        "level": 50, 
+        "successRate": 30, 
+        "meltingLevel": 40, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "243", 
+        "level": 50, 
+        "successRate": 50, 
+        "meltingLevel": 50, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "244", 
+        "level": 50, 
+        "successRate": 80, 
+        "meltingLevel": 60, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "245", 
+        "level": 50, 
+        "successRate": 120, 
+        "meltingLevel": 70, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "246", 
+        "level": 50, 
+        "successRate": 160, 
+        "meltingLevel": 80, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "247", 
+        "level": 50, 
+        "successRate": 180, 
+        "meltingLevel": 90, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "248", 
+        "level": 50, 
+        "successRate": 200, 
+        "meltingLevel": 100, 
+        "meltingQuality": 2, 
+        "quality": 6
+    }, 
+    {
+        "Name": "249", 
+        "level": 50, 
+        "successRate": 10, 
+        "meltingLevel": 30, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "250", 
+        "level": 50, 
+        "successRate": 30, 
+        "meltingLevel": 40, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "251", 
+        "level": 50, 
+        "successRate": 50, 
+        "meltingLevel": 50, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "252", 
+        "level": 50, 
+        "successRate": 80, 
+        "meltingLevel": 60, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "253", 
+        "level": 50, 
+        "successRate": 120, 
+        "meltingLevel": 70, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "254", 
+        "level": 50, 
+        "successRate": 160, 
+        "meltingLevel": 80, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "255", 
+        "level": 50, 
+        "successRate": 180, 
+        "meltingLevel": 90, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "256", 
+        "level": 50, 
+        "successRate": 200, 
+        "meltingLevel": 100, 
+        "meltingQuality": 2, 
+        "quality": 7
+    }, 
+    {
+        "Name": "257", 
+        "level": 50, 
+        "successRate": 30, 
+        "meltingLevel": 30, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "258", 
+        "level": 50, 
+        "successRate": 100, 
+        "meltingLevel": 40, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "259", 
+        "level": 50, 
+        "successRate": 100, 
+        "meltingLevel": 50, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "260", 
+        "level": 50, 
+        "successRate": 150, 
+        "meltingLevel": 60, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "261", 
+        "level": 50, 
+        "successRate": 200, 
+        "meltingLevel": 70, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "262", 
+        "level": 50, 
+        "successRate": 300, 
+        "meltingLevel": 80, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "263", 
+        "level": 50, 
+        "successRate": 400, 
+        "meltingLevel": 90, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "264", 
+        "level": 50, 
+        "successRate": 500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 3, 
+        "quality": 6
+    }, 
+    {
+        "Name": "265", 
+        "level": 50, 
+        "successRate": 30, 
+        "meltingLevel": 30, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "266", 
+        "level": 50, 
+        "successRate": 100, 
+        "meltingLevel": 40, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "267", 
+        "level": 50, 
+        "successRate": 100, 
+        "meltingLevel": 50, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "268", 
+        "level": 50, 
+        "successRate": 150, 
+        "meltingLevel": 60, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "269", 
+        "level": 50, 
+        "successRate": 200, 
+        "meltingLevel": 70, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "270", 
+        "level": 50, 
+        "successRate": 300, 
+        "meltingLevel": 80, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "271", 
+        "level": 50, 
+        "successRate": 400, 
+        "meltingLevel": 90, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "272", 
+        "level": 50, 
+        "successRate": 500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 3, 
+        "quality": 7
+    }, 
+    {
+        "Name": "273", 
+        "level": 50, 
+        "successRate": 100, 
+        "meltingLevel": 30, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "274", 
+        "level": 50, 
+        "successRate": 300, 
+        "meltingLevel": 40, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "275", 
+        "level": 50, 
+        "successRate": 500, 
+        "meltingLevel": 50, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "276", 
+        "level": 50, 
+        "successRate": 700, 
+        "meltingLevel": 60, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "277", 
+        "level": 50, 
+        "successRate": 900, 
+        "meltingLevel": 70, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "278", 
+        "level": 50, 
+        "successRate": 1200, 
+        "meltingLevel": 80, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "279", 
+        "level": 50, 
+        "successRate": 1400, 
+        "meltingLevel": 90, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "280", 
+        "level": 50, 
+        "successRate": 1500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 4, 
+        "quality": 6
+    }, 
+    {
+        "Name": "281", 
+        "level": 50, 
+        "successRate": 100, 
+        "meltingLevel": 30, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "282", 
+        "level": 50, 
+        "successRate": 300, 
+        "meltingLevel": 40, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "283", 
+        "level": 50, 
+        "successRate": 500, 
+        "meltingLevel": 50, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "284", 
+        "level": 50, 
+        "successRate": 700, 
+        "meltingLevel": 60, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "285", 
+        "level": 50, 
+        "successRate": 900, 
+        "meltingLevel": 70, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "286", 
+        "level": 50, 
+        "successRate": 1200, 
+        "meltingLevel": 80, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "287", 
+        "level": 50, 
+        "successRate": 1400, 
+        "meltingLevel": 90, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "288", 
+        "level": 50, 
+        "successRate": 1500, 
+        "meltingLevel": 100, 
+        "meltingQuality": 4, 
+        "quality": 7
+    }, 
+    {
+        "Name": "289", 
+        "level": 50, 
+        "successRate": 1780, 
+        "meltingLevel": 30, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "290", 
+        "level": 50, 
+        "successRate": 2670, 
+        "meltingLevel": 40, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "291", 
+        "level": 50, 
+        "successRate": 4000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "292", 
+        "level": 50, 
+        "successRate": 4500, 
+        "meltingLevel": 60, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "293", 
+        "level": 50, 
+        "successRate": 5000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "294", 
+        "level": 50, 
+        "successRate": 5500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "295", 
+        "level": 50, 
+        "successRate": 6000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "296", 
+        "level": 50, 
+        "successRate": 6600, 
+        "meltingLevel": 100, 
+        "meltingQuality": 5, 
+        "quality": 6
+    }, 
+    {
+        "Name": "297", 
+        "level": 50, 
+        "successRate": 1780, 
+        "meltingLevel": 30, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "298", 
+        "level": 50, 
+        "successRate": 2670, 
+        "meltingLevel": 40, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "299", 
+        "level": 50, 
+        "successRate": 4000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "300", 
+        "level": 50, 
+        "successRate": 4500, 
+        "meltingLevel": 60, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "301", 
+        "level": 50, 
+        "successRate": 5000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "302", 
+        "level": 50, 
+        "successRate": 5500, 
+        "meltingLevel": 80, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "303", 
+        "level": 50, 
+        "successRate": 6000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "304", 
+        "level": 50, 
+        "successRate": 6600, 
+        "meltingLevel": 100, 
+        "meltingQuality": 5, 
+        "quality": 7
+    }, 
+    {
+        "Name": "305", 
+        "level": 50, 
+        "successRate": 3560, 
+        "meltingLevel": 30, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "306", 
+        "level": 50, 
+        "successRate": 5330, 
+        "meltingLevel": 40, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "307", 
+        "level": 50, 
+        "successRate": 8000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "308", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "309", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "310", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "311", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "312", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 6, 
+        "quality": 6
+    }, 
+    {
+        "Name": "313", 
+        "level": 50, 
+        "successRate": 3560, 
+        "meltingLevel": 30, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "314", 
+        "level": 50, 
+        "successRate": 5330, 
+        "meltingLevel": 40, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "315", 
+        "level": 50, 
+        "successRate": 8000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "316", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "317", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "318", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "319", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "320", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 6, 
+        "quality": 7
+    }, 
+    {
+        "Name": "321", 
+        "level": 50, 
+        "successRate": 4440, 
+        "meltingLevel": 30, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "322", 
+        "level": 50, 
+        "successRate": 6670, 
+        "meltingLevel": 40, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "323", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "324", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "325", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "326", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "327", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "328", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 7, 
+        "quality": 6
+    }, 
+    {
+        "Name": "329", 
+        "level": 50, 
+        "successRate": 2220, 
+        "meltingLevel": 30, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "330", 
+        "level": 50, 
+        "successRate": 3330, 
+        "meltingLevel": 40, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "331", 
+        "level": 50, 
+        "successRate": 5000, 
+        "meltingLevel": 50, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "332", 
+        "level": 50, 
+        "successRate": 6000, 
+        "meltingLevel": 60, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "333", 
+        "level": 50, 
+        "successRate": 7000, 
+        "meltingLevel": 70, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "334", 
+        "level": 50, 
+        "successRate": 8000, 
+        "meltingLevel": 80, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "335", 
+        "level": 50, 
+        "successRate": 9000, 
+        "meltingLevel": 90, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }, 
+    {
+        "Name": "336", 
+        "level": 50, 
+        "successRate": 10000, 
+        "meltingLevel": 100, 
+        "meltingQuality": 7, 
+        "quality": 7
+    }
+]

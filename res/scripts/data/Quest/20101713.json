@@ -1,0 +1,87 @@
+{
+    "20101713": {
+        "tasks": [
+            {
+                "navigateData": "10000053#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "51552.0 9052.0 17175.0", 
+                "param1": "L_XYM", 
+                "id": 1, 
+                "name": "与祖巫帝江汇合"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101713, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101723"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9222", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "599", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1144", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "864", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032540|Q030720|Q030721", 
+        "finish_by": "10000053#L_XYM", 
+        "taskLogDes": "@S{4}炼制混沌魔鼎需一道狂暴凶猛之火作为火源，鲲鹏让你找祖巫帝江相助，设法取得火麒麟体内的@F{fc=c41}源生火焰@D。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032543", 
+        "nextQuest": "20101714", 
+        "taskCompleteFunctions": {}, 
+        "level": 24, 
+        "title": "再会帝江", 
+        "isAutoCommit": 1, 
+        "start_by": "10000029#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

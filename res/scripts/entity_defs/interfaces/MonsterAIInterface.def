@@ -1,0 +1,151 @@
+<root>
+	<Interfaces>
+		<Interface> 		BehaviourInterface		</Interface>
+	</Interfaces>
+	<Properties>
+		<monsterAIIsRunning>
+			<Type>			BOOL		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</monsterAIIsRunning>
+		<monsterAICurGroupState>
+			<Type>			STRING		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</monsterAICurGroupState>
+		<monsterAICurSubState>
+			<Type>			UINT16		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</monsterAICurSubState>
+		<monsterAITickSpeed>			<!-- 心跳速度 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		1.0				</Default>
+		</monsterAITickSpeed>
+		<monsterAITickCallBackID>
+			<Type>			UINT64			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</monsterAITickCallBackID>
+		<monsterAICombatTime>
+			<Type>			UINT64			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</monsterAICombatTime>
+		<monsterEAIList>	<!--自身执行过保存的EAI数据-->
+			<Type>	     ARRAY_INT32		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</monsterEAIList>
+		<monsterAIIDToRoleData>	<!--自身对AI目标玩家执行过的AI数据-->
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</monsterAIIDToRoleData>
+		<monsterAIExecuteEventArray>
+			<Type>		ARRAY_INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</monsterAIExecuteEventArray>
+		<!-- 标记,类型为set() -->
+		<signs>
+			<Type>			PYTHON		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+		</signs>
+		<monsterAITimeTag>
+			<Type>			PYTHON		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false				</Persistent>
+		</monsterAITimeTag>
+		<monsterAIUseSkillType>	<!--当前使用的是组技能还是单个技能 -->
+			<Type>			INT8				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+			<Persistent>	false				</Persistent>
+		</monsterAIUseSkillType>
+		<monsterAISkillLastTime>
+			<Type>			UINT64			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</monsterAISkillLastTime>
+		<hasAttackTrap>	<!--是否有主动攻击陷阱  -->
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false			</Persistent>
+		</hasAttackTrap>
+		<hasInitiativeTrap>	<!--是否有主动反应陷阱-->
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false			</Persistent>
+		</hasInitiativeTrap>
+		<_monsterAITargetID>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false			</Persistent>
+		</_monsterAITargetID>
+		<monsterAIQuitPeadTimeID>
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false			</Persistent>
+		</monsterAIQuitPeadTimeID>
+		<monsterAIGroupHoldEffectIndexs>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	False			</Persistent>
+		</monsterAIGroupHoldEffectIndexs>
+		<monsterAISubHoldEffectIndexs>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	False			</Persistent>
+		</monsterAISubHoldEffectIndexs>
+		<_MonsterAIInterface__fsm>
+			<Type>		MONSTER_FSM		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	False			</Persistent>
+		</_MonsterAIInterface__fsm>
+		<monsterAIDoInstTimerID>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	False			</Persistent>
+		</monsterAIDoInstTimerID>
+		<aiIDLoops>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	False			</Persistent>
+		</aiIDLoops>
+	</Properties>
+
+	<CellMethods>
+		<monsterAISendCommand>
+			<Arg>		OBJECT_ID			</Arg>	<!-- entityID -->
+			<Arg>		STRING				</Arg>	<!-- cmd -->
+		</monsterAISendCommand>
+		<monsterAIOnCommand>
+			<Arg>		OBJECT_ID			</Arg>	<!-- entityID -->
+			<Arg>		STRING				</Arg>	<!-- scriptID -->
+			<Arg>		STRING				</Arg>	<!-- cmd -->
+		</monsterAIOnCommand>
+		<CELL_onClientEnterAIAttackTrap>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>
+		</CELL_onClientEnterAIAttackTrap>
+		<CELL_onClientLeaveAIAttackTrap>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>
+		</CELL_onClientLeaveAIAttackTrap>
+		<CELL_onClientEnterInitiativeTrap>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>
+		</CELL_onClientEnterInitiativeTrap>
+		<CELL_onClientLeaveInitiativeTrap>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>
+		</CELL_onClientLeaveInitiativeTrap>
+		<CELL_onClientLeaveAIBattleRegion>
+			<Exposed/>
+		</CELL_onClientLeaveAIBattleRegion>
+		
+		<onMonsterAIQuitPeadCB/>
+		<monsterAIReset/>
+	</CellMethods>
+</root>

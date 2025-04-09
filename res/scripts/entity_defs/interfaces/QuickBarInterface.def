@@ -1,0 +1,56 @@
+<root>
+	<Properties>
+		<qbItems>
+			<Type>			ARRAY_QUICKBAR				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		[]				</Default>
+			<Persistent>	true				</Persistent>
+		</qbItems>
+	</Properties>
+
+	<ClientMethods>
+		<!-- 加载快捷栏 -->
+		<CLIENT_OnUpdateQBItem>
+			<Arg>	INT32	</Arg>	<!-- index -->
+			<Arg>	INT32	</Arg>	<!-- qbtype -->
+			<Arg>	INT32	</Arg>	<!-- id -->
+			<Arg>	INT32	</Arg>	<!-- bindType -->
+			<Arg>	INT32	</Arg>	<!-- quickID -->
+			<Arg>	INT32	</Arg>	<!-- page -->
+			<Arg>	STRING	</Arg>	<!-- petUid -->
+		</CLIENT_OnUpdateQBItem>
+		<CLIENT_OnRemoveQBItem>
+			<Arg>	INT32	</Arg>	<!-- page -->
+			<Arg>	INT32	</Arg>	<!-- index -->
+		</CLIENT_OnRemoveQBItem>
+	</ClientMethods>
+
+	<BaseMethods>
+		<!-- 修改一个快捷项 -->
+		<BASE_qb_updateItem>
+			<Exposed/>
+			<Arg>	INT32	</Arg>	<!-- index -->
+			<Arg>	INT32	</Arg>	<!-- qbtype -->
+			<Arg>	INT32	</Arg>	<!-- id -->
+			<Arg>	INT32	</Arg>	<!-- bindType -->
+			<Arg>	INT32	</Arg>	<!-- quickID -->
+			<Arg>	INT32	</Arg>	<!-- page -->
+			<Arg>	STRING	</Arg>	<!-- petUid -->
+		</BASE_qb_updateItem>
+
+		<!-- exchange two items -->
+		<qb_exchangeItem>
+			<Exposed/>
+			<Arg>	INT32	</Arg>	<!-- origin index -->
+			<Arg>	INT32	</Arg>	<!-- index of destination -->
+			<Arg>	INT32	</Arg>	<!-- page -->
+		</qb_exchangeItem>
+
+		<!-- 移除一个快捷项 -->
+		<BASE_qb_removeItem>
+			<Exposed/>
+			<Arg>	INT32	</Arg>	<!-- index -->
+			<Arg>	INT32	</Arg>	<!-- page -->
+		</BASE_qb_removeItem>
+	</BaseMethods>
+</root>

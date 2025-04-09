@@ -1,0 +1,120 @@
+{
+    "20102014": {
+        "tasks": [
+            {
+                "navigateData": "(21408.0 9260.0 -597.0)#L_BQDB", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20004491|20004494", 
+                "id": 1, 
+                "name": "击败警戒雷兽"
+            }, 
+            {
+                "navigateData": "(12396.0 5470.0 460)#L_BQDB", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20004490|20004493", 
+                "id": 2, 
+                "name": "击败卫兵雷兽"
+            }, 
+            {
+                "navigateData": "(-81.139404 87.898743 793.005737)#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20004495", 
+                "id": 3, 
+                "name": "击败雷罡兽"
+            }, 
+            {
+                "navigateData": "(-10216.0 -4208.0 157.0)#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "前往雷鸣窟解救少典和药尘"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102014, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102016|20102045|20102046|20102047"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18202", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "725", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8144", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1380", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045007|Q045008|Q045010|Q045011", 
+        "finish_by": "10000441#L_BQDB", 
+        "taskLogDes": "@S{4}轩辕族人饮水之后大量中毒，少典已护送医师药尘前去清水泊查探水源，但他们至今未归。公孙盘让你前往雷鸣窟找到他们，查明此事。|@S{4}轩辕族人饮水之后大量中毒，少典已护送医师药尘前去清水泊查探水源，但他们至今未归。公孙盘让你前往雷鸣窟找到他们，查明此事。|@S{4}轩辕族人饮水之后大量中毒，少典已护送医师药尘前去清水泊查探水源，但他们至今未归。公孙盘让你前往雷鸣窟找到他们，查明此事。|@S{4}轩辕族人饮水之后大量中毒，少典已护送医师药尘前去清水泊查探水源，但他们至今未归。公孙盘让你前往雷鸣窟找到他们，查明此事。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045025|Q045026", 
+        "nextQuest": "20102017", 
+        "taskCompleteFunctions": {}, 
+        "level": 32, 
+        "title": "雷鸣窟", 
+        "isAutoCommit": 1, 
+        "start_by": "10000438#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

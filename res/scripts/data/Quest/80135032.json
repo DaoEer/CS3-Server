@@ -1,0 +1,70 @@
+{
+    "80135032": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 12, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "捕获灵兽"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "5", 
+                "param2": "48160 20330 14859.39", 
+                "param1": "L_FMC", 
+                "id": 2, 
+                "name": "前往凤鸣城商业区找到幻兽保育员小莲"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000120"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135032, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "100"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000120", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 35, 
+        "title": "灵兽牧场", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,113 @@
+<root>
+	<Interfaces>
+		<Interface> SpaceObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<leaveCloseTimer>
+			<Type>		TIMER_ID		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false		</Persistent>
+		</leaveCloseTimer>
+		<lifeTimer>
+			<Type>		TIMER_ID		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false		</Persistent>
+		</lifeTimer>
+		<lifeStartTime>
+			<Type>		TIME		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0.0		</Default>
+			<Persistent>	false		</Persistent>
+		</lifeStartTime>
+		<lifeNotifyTimer>
+			<Type>		TIMER_ID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</lifeNotifyTimer>
+		<lifeStopTime>
+			<Type>		TIME		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	-1.0		</Default>
+			<Persistent>	false		</Persistent>
+		</lifeStopTime>
+		<lifeTime>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</lifeTime>
+		<dynamicTime>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</dynamicTime>
+		<lifeTotalStopTime>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</lifeTotalStopTime>
+		<spaceStage>
+			<Type>		SPACE_STAGE	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</spaceStage>
+		<spaceStatistics>
+			<Type>		SPACE_STATISTICS</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</spaceStatistics>
+		<completeSpaceStages>
+			<Type>		ARRAY_INT32	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	[]		</Default>
+		</completeSpaceStages>
+		<stageStartTime>
+			<Type>		TIME		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</stageStartTime>
+		<spaceEventTimers>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</spaceEventTimers>
+		<spaceEventRecord>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</spaceEventRecord>
+		<spaceEventCountInt>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</spaceEventCountInt>
+		<spaceLevel>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+		</spaceLevel>
+		<bunchChildSpaceIndex>
+			<Type>		STRING		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+		</bunchChildSpaceIndex>
+		<nextBunchSpace>
+			<Type>		STRING		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</nextBunchSpace>
+		<bunchStage>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+		</bunchStage>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

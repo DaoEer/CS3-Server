@@ -1,0 +1,43 @@
+<root>
+
+	<Parent>
+		SpellBox
+	</Parent>
+	<Interfaces>
+		<Interface> InteractiveStateInterface	</Interface>
+	</Interfaces>
+
+
+	<Properties>
+		<masterID>									<!--主人ID-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false		</Persistent>
+		</masterID>
+		<teamID>									<!--队伍ID-->	
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false		</Persistent>
+		</teamID>
+		<complete>									<!--完成度达标阈值-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	100				</Default>
+			<Persistent>	false		</Persistent>
+		</complete>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_reqStartInteractive>
+			<Exposed/>
+		</CELL_reqStartInteractive>
+		<CELL_reqInterruptInteractive>
+			<Exposed/>
+		</CELL_reqInterruptInteractive>
+	</CellMethods>
+</root>

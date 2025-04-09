@@ -1,0 +1,157 @@
+{
+    "20101239": {
+        "tasks": [
+            {
+                "navigateData": "10000269#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010063", 
+                "id": 1, 
+                "name": "消灭千年幻鱼精，取得幻鱼精血"
+            }, 
+            {
+                "navigateData": "10000269#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "9", 
+                "param2": "19806 -32358 -134", 
+                "param1": "L_FLS", 
+                "id": 2, 
+                "name": "将幻鱼精血交给灵珠子师兄"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_FLS_Planes008"
+            }, 
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11006501"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010062"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101239, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1|1", 
+                "param1": "301010063|301010062"
+            }, 
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11006501"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101202|20101231"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 1, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1|1", 
+                "param1": "301010063|301010062"
+            }, 
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11006501"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9044", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "878", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1459", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "670", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030956|Q030957|Q030959|Q030968", 
+        "finish_by": "10000269#L_FLS", 
+        "taskLogDes": "@S{4}从灵珠子处得知，魔道大巫巫维已将九天息壤带往天罗道场，此道场守备森严，灵珠子让你前往附近的水源使用雷火珠迫使幻鱼精上岸，取得@F{fc=c41}幻鱼精血@D用以绘制变身符。|@S{4}从灵珠子处得知，魔道大巫巫维已将九天息壤带往天罗道场，此道场守备森严，灵珠子让你前往附近的水源使用雷火珠迫使幻鱼精上岸，取得@F{fc=c41}幻鱼精血@D用以绘制变身符。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030965|Q030967", 
+        "nextQuest": "20101203", 
+        "taskCompleteFunctions": {}, 
+        "level": 20, 
+        "title": "绘制变身符", 
+        "isAutoCommit": 1, 
+        "start_by": "10000269#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

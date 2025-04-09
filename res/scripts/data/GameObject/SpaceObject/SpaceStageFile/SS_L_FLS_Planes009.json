@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与无涯子之徒过几招", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "100", 
+                    "param2": "20003693", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(48589.988281 -10479.981445 213.048279)#L_FLS_Planes009"
+                }
+            }, 
+            "title": "与灵飞切磋"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "向无涯子请教", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "47154.0 -12907.0|49419.0 -12955.0|49423.0 -14043.0|47130.0 -14013.0", 
+                    "param2": "1000|-500", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(48230.0 -13557.0 268.0)#L_FLS_Planes009"
+                }
+            }, 
+            "title": "请教无涯子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "切磋指点"
+}

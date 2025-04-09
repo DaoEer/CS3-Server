@@ -1,0 +1,199 @@
+<root>
+	<Properties>
+		<headModel>
+			<!-- 头部模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS					</Flags>
+			<Persistent>		true					</Persistent>
+		</headModel>
+		<faceModel>
+		    <Type>		BLOB			</Type>
+		    <Flags>		ALL_CLIENTS		</Flags>
+		    <Persistent>	true		</Persistent>
+		</faceModel>
+		<faceStyle>
+		    <Type>		STRING		</Type>
+		    <Flags>		ALL_CLIENTS		</Flags>
+		    <Default>       {}         </Default>
+		    <Persistent>	true		</Persistent>
+		    <DatabaseLength>    1024    </DatabaseLength>
+		</faceStyle>
+		<cloakModel>
+			<!-- 披风模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</cloakModel>
+		<bodyModel>
+			<!-- 上身模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</bodyModel>
+		<hairModel>
+			<!-- 头发模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</hairModel>
+		<adornModel>
+			<!-- 头饰模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</adornModel>
+		<suitsModel>
+			<!-- 套装模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</suitsModel>
+		<hatModel>
+			<!-- 帽子模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</hatModel>
+		<coatModel>
+			<!-- 上衣模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</coatModel>
+		<coatModelTemp>
+			<!-- 上衣模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				CELL_PRIVATE		</Flags>
+			<Persistent>		true				</Persistent>
+		</coatModelTemp>
+		<wristModel>
+			<!-- 护腕模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</wristModel>
+		<handModel>
+			<!-- 手套模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</handModel>
+		<waistModel>
+			<!-- 腰带模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</waistModel>
+		<pantsModel>
+			<!-- 裤子模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</pantsModel>
+		<shoesModel>
+			<!-- 鞋子模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</shoesModel>
+		<necklaceModel>
+			<!-- 项链模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</necklaceModel>
+		<lringModel>
+			<!-- 左手戒指模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</lringModel>
+		<rringModel>
+			<!-- 右手戒指模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>
+		</rringModel>
+		<weaponModel>
+			<!-- 武器模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>			
+		</weaponModel>
+		<skeletalWeaponModel>
+			<!-- 骨架武器模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>			
+		</skeletalWeaponModel>
+		<fabaoModel>
+			<!-- 法宝模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>			
+		</fabaoModel>
+		<headAdornModel>
+			<!-- 头饰 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true			</Persistent>			
+		</headAdornModel>
+		<faceAdornModel>
+			<!-- 面饰 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true			</Persistent>			
+		</faceAdornModel>
+		<backAdornModel>
+			<!-- 背饰  -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true			</Persistent>			
+		</backAdornModel>
+		<backAdornParam>
+			<!-- 背饰参数  -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true			</Persistent>			
+		</backAdornParam>
+		<waistAdornModel>
+			<!-- 腰饰  -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true			</Persistent>			
+		</waistAdornModel>
+		<bodyLightEffect>
+			<!-- 环身光效   -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true			</Persistent>			
+		</bodyLightEffect>
+		<appearance>	<!-- 外观 -->
+			<Type>			DICT_STR_STR		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+		</appearance>
+		<colorScheme>
+			<Type>		UINT8			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</colorScheme>
+	</Properties>
+
+	<ClientMethods>
+	    <CLIENT_OnReqFaceData>
+	        <Arg> FACEINFO_L </Arg>
+	        <Arg> FACESTYLE  </Arg>
+	    </CLIENT_OnReqFaceData>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	    <ReqFaceData>
+	        <Exposed/>
+	    </ReqFaceData>
+	</CellMethods>
+</root>

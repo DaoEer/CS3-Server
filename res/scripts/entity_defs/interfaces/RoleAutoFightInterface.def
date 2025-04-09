@@ -1,0 +1,27 @@
+<root>
+	<Properties>
+		<quick_attrSkills>	<!-- 快捷技能栏技能(可能存在数据同步问题，但影响不大) -->
+			<Type>			DICT_INT_INT		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true		</Persistent>
+		</quick_attrSkills>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_addSkillOnList>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CELL_addSkillOnList>
+		<CELL_removeSkillOnList>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</CELL_removeSkillOnList>
+	</CellMethods>
+</root>

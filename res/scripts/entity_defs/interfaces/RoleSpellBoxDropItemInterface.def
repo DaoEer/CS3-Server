@@ -1,0 +1,46 @@
+<root>
+	<Properties>
+		<interactSpellBoxID>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+		</interactSpellBoxID>
+	</Properties>
+
+	<ClientMethods>
+		<SendSpellBoxPickItems>
+			<Arg>	INT32	</Arg>
+			<Arg>	SIMPLE_ITEM_LIST	</Arg>
+		</SendSpellBoxPickItems>
+		<OnPickUpSpellBoxItem>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+		</OnPickUpSpellBoxItem>
+		<OnPickUpSpellBoxToMember>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	SPELLBOX_PICKUP_MEMBER_INFOS	</Arg>
+		</OnPickUpSpellBoxToMember>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<notifySpellBoxInteractiveOver>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</notifySpellBoxInteractiveOver>
+		<pickUpSpellBoxItem>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+			<Arg>	ARRAY_STRING	</Arg>
+		</pickUpSpellBoxItem>
+		<CELL_pickUpSpellBoxToMember>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</CELL_pickUpSpellBoxToMember>
+	</CellMethods>
+</root>

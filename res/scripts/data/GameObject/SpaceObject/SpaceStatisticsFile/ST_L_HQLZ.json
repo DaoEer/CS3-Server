@@ -1,0 +1,45 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 进入方形石格范围，开启阵法。@B• 记住光阵提示的路线，待光阵消失后按记忆路线前行，激活终点处的阵灵。@B• 走错路线会被送回起点，需重新记忆路线。@B• 小心战灵的冲锋会将你击飞，可通过跳跃躲避。@B• 成功激活3个阵灵，通往密岛的浮台便会出现。@B• 前往密岛，取得龙珠。@B• 最终消耗的时间越短获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "开启阵法", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "kaishi", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "3": {
+                    "title": "取得龙珠", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "12345", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "2": {
+                    "title": "激活阵灵", 
+                    "postfix": "3", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "111", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "破解阵法，取得龙珠"
+        }
+    }, 
+    "name": "获取龙珠"
+}

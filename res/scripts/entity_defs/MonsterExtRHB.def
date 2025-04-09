@@ -1,0 +1,26 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<startThorwtorch>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32			</Arg>
+		</startThorwtorch>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

@@ -1,0 +1,108 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟仙卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003991|20003993|20003995|20003996|20004027|20004028", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-7000.0 34100.0 -200.0)#L_BQDB_Planes101"
+                }
+            }, 
+            "title": "勇往直前"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006287|20006289|20006293|20006295|20006309|20006305", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(23808.1 28074.7 397.5)#L_BQDB_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守将云真", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006353", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006353#L_BQDB_Planes101"
+                }
+            }, 
+            "title": "剿灭余将"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭林风护卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004000|20004001", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004000|20004001#L_BQDB_Planes101"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁仙道阵柱", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004334|20004335", 
+                    "type": "SStageTask_NPCObjectDestroy", 
+                    "navigateData": "20004334|20004335#L_BQDB_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守将林风", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004002", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004002#L_BQDB_Planes101"
+                }
+            }, 
+            "title": "大门遇阻"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭长老赤云", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006349", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006349#L_BQDB_Planes101"
+                }
+            }, 
+            "title": "胜利在望"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "收服人族"
+}

@@ -1,0 +1,447 @@
+<root>
+	<Interfaces>
+		<Interface> 	GameObject		</Interface>
+		<Interface> 	TongUpgradeInterface	</Interface>
+		<Interface> 	TongContributionInterface</Interface>
+		<Interface> 	TongShopInterface	</Interface>
+		<Interface> 	TongStorageInterface	</Interface>
+		<Interface> 	TongSkillInterface	</Interface>
+		<Interface> 	TongSpaceInterface	</Interface>
+		<Interface> 	TongRecordInterface	</Interface>
+	</Interfaces>
+	<Properties>
+		<tongName>
+			<Type>		OBJECT_NAME	</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<DatabaseLength>	255	</DatabaseLength>
+			<Index> 	UNIQUE		</Index>
+		</tongName>
+		<leaderDBID>
+			<Type>		DBID	</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</leaderDBID>
+		<camp>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	1		</Default>
+			<Persistent>	true		</Persistent>
+		</camp>
+		<members>
+			<Type>	TONG_MEMBER_DICT	</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</members>
+		<titleNames>
+			<Type>	ARRAY_UNICODE		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true		</Persistent>
+		</titleNames>
+		<grades>
+			<Type>	ARRAY_INT32		</Type>
+			<Flags>	BASE			</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</grades>
+		<money>
+			<Type>		UINT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</money>
+
+		<affiche>
+			<Type>		UNICODE		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</affiche>
+		<recruitAffiche>
+			<Type>		UNICODE		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</recruitAffiche>
+
+		<kickOffPlayers>
+			<Type>		DICT_DBID_INT	</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</kickOffPlayers>
+
+		<builds>
+			<Type>		TONG_BUILD_DICT	</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</builds>
+		<nagualType>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>	1		</Default>
+		</nagualType>
+		<spaceMB>
+			<Type>		BASE_ENTITYCALL	</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	false		</Persistent>
+		</spaceMB>		
+		<safeTime>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</safeTime>
+		<protectDay>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</protectDay>
+		<bhzbSignUpMembers>
+			<Type>			BHZBSIGNMEMBERDATAS			</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true				</Persistent>
+		</bhzbSignUpMembers>
+		<tongPlunderData>
+			<Type>			TONG_PLUNDER_DATA		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</tongPlunderData>
+		<allocation>
+			<Type>		UINT8		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>		2			</Default>
+			<Persistent>	true		</Persistent>
+		</allocation>
+		<BHLDAllocation>
+			<Type>		UINT8		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>		2			</Default>
+			<Persistent>	true		</Persistent>
+		</BHLDAllocation>
+	</Properties>
+
+	<BaseMethods>
+		<reqInit>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</reqInit>
+		<onMemberOffline>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT16		</Arg>
+			<Arg>	STRING		</Arg>
+		</onMemberOffline>
+		<notifyOffLine>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</notifyOffLine>
+		
+		<!--requestJoinList>
+			<Arg>	DBID	</Arg>
+		</requestJoinList-->
+		<replyAllJoinTong>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BOOL		</Arg>
+		</replyAllJoinTong>
+		<replyJoinTong>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BOOL		</Arg>
+		</replyJoinTong>
+		<replyInviteTong>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	INT16		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</replyInviteTong>
+
+		<kickMember>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+		</kickMember>
+		<tongQuit>
+			<Arg>	DBID	</Arg>
+		</tongQuit>
+		<onAccumulateOnlineTime>
+			<Arg>	DBID	</Arg>
+		</onAccumulateOnlineTime>
+
+		<setTitleName>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+		</setTitleName>
+		<setTitle>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+		</setTitle>
+		<setGrade>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</setGrade>
+		<setAffiche>
+			<Arg>	UNICODE		</Arg>
+		</setAffiche>
+		<setRecruitAffiche>
+			<Arg>	UNICODE		</Arg>
+		</setRecruitAffiche>
+		<addMemberExp>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+		</addMemberExp>
+		<donateMoney>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+		</donateMoney>
+		<addTongMoney>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT8		</Arg>
+		</addTongMoney>
+		<subTongMoney>
+			<Arg>	INT32		</Arg>
+		</subTongMoney>
+
+		<notifyAddTongBlockMember>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</notifyAddTongBlockMember>
+
+		<notifyRemoveTongBlockMember>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</notifyRemoveTongBlockMember>
+
+		<deMiseLeader>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+		</deMiseLeader>
+		<setMemberGag>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+		</setMemberGag>
+		<tongSign>
+			<Arg>	DBID	</Arg>
+		</tongSign>
+		<getSalary>
+			<Arg>	DBID	</Arg>
+		</getSalary>
+		<onGetSalaryFail>
+			<Arg>	DBID	</Arg>
+		</onGetSalaryFail>
+		<onTongChat>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UNICODE				</Arg>
+			<Arg>	CHAT_DATA			</Arg>
+		</onTongChat>
+		<onTongSpaceComplete>
+			<Arg>	DBID	</Arg>
+		</onTongSpaceComplete>
+		<GM_CommandSetAttr>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</GM_CommandSetAttr>
+		<tongStarcraft_firstSignUp>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID				</Arg>
+			<Arg>	ARRAY_UNICODE		</Arg>
+			<Arg>	ARRAY_UNICODE		</Arg>
+			<Arg>	ARRAY_UNICODE		</Arg>
+			<Arg>	ARRAY_UNICODE		</Arg>
+		</tongStarcraft_firstSignUp>
+		<signUpStarcraftSuccess>
+			<Arg> ARRAY_DBID </Arg>
+		</signUpStarcraftSuccess>
+		<tongStarcraft_SecondSignUp>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID				</Arg>
+			<Arg>	ARRAY_UNICODE			</Arg>
+		</tongStarcraft_SecondSignUp>
+		<testEnterThirdTongStarcraft>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	POSITION			</Arg>
+			<Arg>	DIRECTION			</Arg>
+		</testEnterThirdTongStarcraft>
+		<firstTongStarcraftSignUp>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID				</Arg>
+			<Arg>	ARRAY_UNICODE 		</Arg>
+		</firstTongStarcraftSignUp>
+		<deleteRole>
+			<Arg>	DBID	</Arg>
+		</deleteRole>
+		<UpdateTongMemberInfo>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</UpdateTongMemberInfo>
+		<changeNagual>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		INT32		</Arg>
+		</changeNagual>
+		<onChangeNagualSucceed>
+			<Arg>		INT32		</Arg>
+		</onChangeNagualSucceed>
+		<inviteJoinTong>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+		</inviteJoinTong>
+		<readyToSignUpBHZBMember>
+			<Arg>		ARRAY_BHZBSIGNMEMBERDATA			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+		</readyToSignUpBHZBMember>
+		<OnSureAllIsBHZBMember>
+			<Arg>		ARRAY_BHZBSIGNMEMBERDATA			</Arg>
+		</OnSureAllIsBHZBMember>
+		<signUPBHZB>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>		INT32			</Arg>
+		</signUPBHZB>
+		<signUpBHZBSuccess>
+			<Arg>	ARRAY_DBID	</Arg>
+			<Arg>		INT32			</Arg>
+		</signUpBHZBSuccess>
+		<sureBHZBTongSendMail>
+		</sureBHZBTongSendMail>
+		<sureBHZBTongMemberSendMail>
+			<Arg>	ARRAY_DBID	</Arg>
+		</sureBHZBTongMemberSendMail>
+		<sendBHZBRewardToMembers>
+			<Arg>	ARRAY_DBID		</Arg>
+			<Arg>	ARRAY_STRING			</Arg>
+			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</sendBHZBRewardToMembers>
+		<sendTongLeaderReward>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32			</Arg>
+		</sendTongLeaderReward>
+		<gmSignUpBHZB>
+			<Arg>		BHZBSIGNMEMBERDATA			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID	</Arg>
+		</gmSignUpBHZB>
+		<declareBHZBPoint>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+		</declareBHZBPoint>
+		<cancelDeclareBHZBPoint>
+			<Arg>	INT32			</Arg>
+		</cancelDeclareBHZBPoint>
+		<joinBHZBPointFight>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+		</joinBHZBPointFight>
+		<cancelJoinBHZBPointFight>
+			<Arg>	INT32			</Arg>
+		</cancelJoinBHZBPointFight>
+		<defenseBHZBPoint>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+		</defenseBHZBPoint>
+		<onBHZBPointWarEnd>
+			<Arg>	INT32			</Arg>
+		</onBHZBPointWarEnd>
+		<clearTongSignMemberData>
+		</clearTongSignMemberData>
+		<callBHZBTeamToAttack>
+			<Arg>	INT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</callBHZBTeamToAttack>
+		<callBHZBTeamToProtect>
+			<Arg>	INT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</callBHZBTeamToProtect>
+		<checkIsLoginToBHZBPoint>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	DBID		</Arg>
+		</checkIsLoginToBHZBPoint>
+		<setbhzbSignUpMembersIsActive>
+			<Arg>	INT32			</Arg>
+			<Arg>	UINT8			</Arg>
+			<Arg>	INT32			</Arg>
+		</setbhzbSignUpMembersIsActive>
+		<bhzbTeamMemberLoginOut>
+			<Arg>	INT32		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	DBID		</Arg>
+		</bhzbTeamMemberLoginOut>
+		<clearAllTongSignMemberData/>
+		<joinBHZBWarFail/>
+		<sendToJoinCampWarMail>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</sendToJoinCampWarMail>
+
+		<gmAddMember>
+			<Arg>		INT32			</Arg>
+			<Arg>	CELL_ENTITYCALL		</Arg>
+		</gmAddMember>
+		<gmSetSafeTime>
+			<Arg>		INT32			</Arg>
+		</gmSetSafeTime>
+		<gmSetProtectDay>
+			<Arg>		INT32			</Arg>
+		</gmSetProtectDay>
+		<onTongPlunderStart>
+		</onTongPlunderStart>
+		<onTongPlunderEnd>
+		</onTongPlunderEnd>
+		<plunderAddMember>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</plunderAddMember>
+		<plunderRemoveMember>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</plunderRemoveMember>
+		<lockTongShop>
+		</lockTongShop>
+		<unLockTongShop>
+		</unLockTongShop>
+		<onTongPlunderShopSell>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</onTongPlunderShopSell>
+		<requestBuyTongPlunderShopItem>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</requestBuyTongPlunderShopItem>
+		<setTongAllocation>
+			<Arg>	DBID	</Arg>
+			<Arg>	UINT8	</Arg>
+		</setTongAllocation>
+		<setTongBHLDAllocation>
+			<Arg>	DBID	</Arg>
+			<Arg>	UINT8	</Arg>
+		</setTongBHLDAllocation>
+		<gmCreateTongDropBox>
+		</gmCreateTongDropBox>
+		<updatePlayerTitle>
+			<Arg>	DBID	</Arg>
+			<Arg>	STRING	</Arg>
+		</updatePlayerTitle>
+	</BaseMethods>
+</root>

@@ -1,0 +1,26 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "L_TQG",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "S_L_TQG",
+"NavmeshPath"	: "space\\L_BJG_03_NAVMESH",
+"PatrolRouteFile": "L_BJG_03_PATROL",
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_PEACE",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "",
+	"Position"	: "",
+	"Direction"	: ""
+	},
+"SpaceData"	:{
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|1"
+	},
+"DomainData"	:{
+	}
+}

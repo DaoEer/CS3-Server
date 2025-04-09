@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007694|20007695", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007694|20007695#L_MXG_Planes002"
+                }
+            }, 
+            "title": "深入冥仙谷"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫咸", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20007699#L_MXG_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "救下朝天犼", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007693", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007731#L_MXG_Planes002"
+                }
+            }, 
+            "title": "击败大巫巫咸"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败伯仲", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008614", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008614#L_MXG_Planes002"
+                }
+            }, 
+            "title": "击败伯仲"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "冥仙谷"
+}

@@ -1,0 +1,178 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 1, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {
+            1: {
+                "name": "怪物进入陷阱", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "玄雾", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction75", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "12151803"
+                            }
+                        ], 
+                        "EID": [
+                            2
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "12151803"
+                            }
+                        ], 
+                        "id": 2
+                    }, 
+                    {
+                        "comment": "开启预警范围", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction168", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "0"
+                            }
+                        ], 
+                        "EID": [
+                            3
+                        ], 
+                        "Conditions": [], 
+                        "id": 3
+                    }
+                ], 
+                "eventsAI": {
+                    12: [
+                        {
+                            "comment": "雷灵进入得易伤buff", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction116", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "12151805"
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [
+                                {
+                                    "script": "AICondition44", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "20009407", 
+                                    "param1": "Monster"
+                                }
+                            ], 
+                            "id": 4
+                        }, 
+                        {
+                            "comment": "冰灵火灵获得防御buff", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction116", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "12151706"
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [
+                                {
+                                    "script": "AICondition44", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "20009404|20009405", 
+                                    "param1": "Monster"
+                                }
+                            ], 
+                            "id": 5
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "5", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {
+            1: {
+                "name": "", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "玄雾", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction75", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "12151803"
+                            }
+                        ], 
+                        "EID": [
+                            1
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "12151803"
+                            }
+                        ], 
+                        "id": 1
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }
+}

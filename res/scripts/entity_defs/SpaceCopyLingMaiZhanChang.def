@@ -1,0 +1,25 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<memberDatas>
+			<Type>		LING_MAI_KDS_LIST	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</memberDatas>
+	</Properties>
+
+	<CellMethods>
+		<activityEnd/>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<activityEnd/>
+	</BaseMethods>
+</root>

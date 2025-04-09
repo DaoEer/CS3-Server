@@ -1,0 +1,566 @@
+<root>
+	<Properties>
+		<petPersistentDatas>
+			<Type>		ROLE_PET_BASE_DATAS 	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>		true		</Persistent>
+		</petPersistentDatas>
+		<petFenceVolume>
+			<Type>		UINT8		 	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</petFenceVolume>
+		<petCages>
+			<Type>		ROLE_PET_CELL_DATAS	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>		false		</Persistent>
+		</petCages>
+		<petCageMax>
+			<Type>		UINT8		 	</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>		2		</Default>
+			<Persistent>		true		</Persistent>
+		</petCageMax>
+		<_preActivePetUID>					<!--出战幻兽UID-->
+			<Type>			UID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</_preActivePetUID>
+		<_activePetUID>					<!--出战幻兽UID-->
+			<Type>			UID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0		</Default>
+			<Persistent>		true		</Persistent>
+		</_activePetUID>
+		<activePetID>					<!--出战幻兽entityID-->
+			<Type>			OBJECT_ID	</Type>
+			<Flags>			OWN_CLIENT	</Flags>
+			<Default>			0		</Default>
+			<Persistent>		false	</Persistent>
+		</activePetID>
+		<_conjurePetUID>					<!--即将出战幻兽UID-->
+			<Type>			UID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0		</Default>
+			<Persistent>		false		</Persistent>
+		</_conjurePetUID>
+		<_activePetBase>					<!-- 出征宠物的 base mailbox -->
+			<Type>			ENTITYCALL		</Type>
+			<Flags>			CELL_PUBLIC	</Flags>
+			<Persistent>		false		</Persistent>
+		</_activePetBase>
+		<_activePet>						<!-- 出征宠物的 base mailbox -->
+			<Type>			ENTITYCALL		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>		false		</Persistent>
+		</_activePet>
+
+		<petID>					<!-- 当前骑宠模型编号 -->
+			<Type>			STRING		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+		</petID>
+		<carrierId>				<!-- 当前载具模型编号 -->
+			<Type>			STRING		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+		</carrierId>
+		<_operateTime>						<!-- 操作时间 -->
+			<Type>			TIME		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</_operateTime>
+
+		<mountPetTimerID>
+			<Type>		TIMER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</mountPetTimerID>
+		<isActiveHP>
+			<Type>			BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>			1		</Default>
+			<Persistent>	false		</Persistent>
+		</isActiveHP>
+		<percentHP>
+			<Type>			INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		60			</Default>
+			<Persistent>	false		</Persistent>
+		</percentHP>
+		<isActiveMP>
+			<Type>			BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>			1		</Default>
+			<Persistent>	false		</Persistent>
+		</isActiveMP>
+		<percentMP>
+			<Type>			INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		60			</Default>
+			<Persistent>	false		</Persistent>
+		</percentMP>
+		<petExtraHP>
+			<Type>			INT32		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</petExtraHP>
+		<petExtraMP>
+			<Type>			INT32		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</petExtraMP>
+		<petExtraHP_Max>
+			<Type>			INT32		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</petExtraHP_Max>
+		<petExtraMP_Max>
+			<Type>			INT32		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true		</Persistent>
+		</petExtraMP_Max>
+	</Properties>
+
+	<ClientMethods>
+		<PetAddData>
+			<Arg>		PET_PERSISTENT_DATA	 	</Arg>
+		</PetAddData>
+		<PetRemoveData>
+			<Arg>		STRING	 	</Arg>
+		</PetRemoveData>
+		<OnGeneratePet>
+			<Arg>		PET_PERSISTENT_DATA	 	</Arg>
+		</OnGeneratePet>
+		<onConjurePetResult>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		OBJECT_ID 	</Arg>
+		</onConjurePetResult>
+		<onWithdrawPetResult>
+		</onWithdrawPetResult>
+		<updatePetEpitomeDatas>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		UNICODE	 	</Arg>
+		</updatePetEpitomeDatas>
+		<updateOriginPetEpitomeDatas>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		UNICODE	 	</Arg>
+		</updateOriginPetEpitomeDatas>
+		<OnPetReNameFail>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		INT32 	</Arg>		<!-- 消息ID -->
+		</OnPetReNameFail>
+		<petOnSetAttackState>
+			<Arg>		INT32	 	</Arg>
+		</petOnSetAttackState>
+		<OnSealSuccess>
+		</OnSealSuccess>
+		<OnComposePet>
+			<Arg>		STRING	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	 	</Arg>		<!-- 幻兽合成前的成长度 -->
+		</OnComposePet>
+		<OnPetComposeFailed>
+			<Arg>		INT32	 	</Arg>		<!-- 消息ID ,0表示不发消息-->
+			<Arg>		INT32	 	</Arg>		<!-- 成功1，失败0 -->
+		</OnPetComposeFailed>
+		<OnReplacePetSkill>
+		</OnReplacePetSkill>
+		<OnIsmountSuccess>
+			<Arg>		BOOL	 	</Arg>
+		</OnIsmountSuccess>
+		<OnUpgradePetSkill>
+			<Arg>		INT32	 	</Arg>		<!-- 消息ID ,0表示不发消息-->
+			<Arg>		BOOL	 	</Arg>		<!-- 成功1，失败0 -->
+		</OnUpgradePetSkill>
+		<OnReplacePetPassiveSkill>
+		</OnReplacePetPassiveSkill>
+		
+		<OnUpgradePetPassiveSkill>
+			<Arg>		INT32	 	</Arg>		<!-- 消息ID ,0表示不发消息-->
+			<Arg>		BOOL	 	</Arg>		<!-- 成功1，失败0 -->
+		</OnUpgradePetPassiveSkill>
+		<OnGetSealPetEggAttr>			<!-- 发送封印幻兽蛋信息给客户端 -->
+			<Arg>		PET_PERSISTENT_DATA	 	</Arg>
+		</OnGetSealPetEggAttr>
+		<OnAIStopCommand>
+		</OnAIStopCommand>
+		<initClientPetDataFinish/>
+		<CLIENT_OnPetExtraHPChanged>
+			<Arg>			INT32		</Arg>		<!-- curHP -->
+			<Arg>			INT32		</Arg>		<!-- oldHP -->
+		</CLIENT_OnPetExtraHPChanged>
+		<CLIENT_OnPetExtraMPChanged>
+			<Arg>			INT32		</Arg>		<!-- curHP -->
+			<Arg>			INT32		</Arg>		<!-- oldHP -->
+		</CLIENT_OnPetExtraMPChanged>
+
+		<CLIENT_addOriginPet>
+			<Arg>		ORIGIN_PET_DATA	 	</Arg>
+		</CLIENT_addOriginPet>
+		<CLIENT_OnFreePetFromFence>
+			<Arg>		STRING		 	</Arg>
+		</CLIENT_OnFreePetFromFence>
+		<CLIENT_OnActivePetEnterFence>
+			<Arg>		STRING		 	</Arg>
+		</CLIENT_OnActivePetEnterFence>
+		<CLIENT_OnExChangePetFromFence>
+			<Arg>		STRING		 	</Arg>
+			<Arg>		STRING		 	</Arg>
+		</CLIENT_OnExChangePetFromFence>
+		<CLIENT_OnFeedPetWildness>
+			<Arg>		STRING		 	</Arg>
+			<Arg>		INT32		 	</Arg>
+			<Arg>		STRING		 	</Arg>
+		</CLIENT_OnFeedPetWildness>
+		<CLIENT_OnFeedPetExp>
+			<Arg>		STRING		 	</Arg>
+			<Arg>		INT8		 	</Arg>
+			<Arg>		INT32		 	</Arg>
+			<Arg>		STRING		 	</Arg>
+		</CLIENT_OnFeedPetExp>
+		<CLIENT_onEvolutionPet>
+			<Arg>		STRING		 	</Arg>
+		</CLIENT_onEvolutionPet>
+		<CLIENT_OnPetOutsideFromFence>
+			<Arg>		STRING		 	</Arg>
+		</CLIENT_OnPetOutsideFromFence>
+		<CLIENT_OnSetActivePetExp>
+			<Arg>		INT32		 	</Arg>
+		</CLIENT_OnSetActivePetExp>
+		<CLIENT_openOriginPetUI>
+			<Arg>		OBJECT_ID	 	</Arg>
+		</CLIENT_openOriginPetUI>
+		<CLIENT_clearPetCDTime>
+		</CLIENT_clearPetCDTime>
+
+		<CLIENT_showOriginPetModel>
+			<Arg>	ORIGIN_PET_CLIENT_SIMPLE_DATA_LIST	</Arg>
+		</CLIENT_showOriginPetModel>
+		<CLIENT_OnAddOriginPetModel>
+			<Arg>	ORIGIN_PET_CLIENT_SIMPLE_DATA		</Arg>
+		</CLIENT_OnAddOriginPetModel>
+		<CLIENT_OnRemoveOriginPetModel>
+			<Arg>			INT8			</Arg>
+			<Arg>			BOOL			</Arg>
+		</CLIENT_OnRemoveOriginPetModel>
+		<CLIENT_OnExChangeOriginPetModel>
+			<Arg>	ORIGIN_PET_CLIENT_SIMPLE_DATA		</Arg>
+			<Arg>			INT8			</Arg>
+		</CLIENT_OnExChangeOriginPetModel>
+
+		<OnChangePetAI>
+			<Arg>		STRING	 	</Arg>
+		</OnChangePetAI>
+		<OnFinishChangePetAI>
+		</OnFinishChangePetAI>
+	</ClientMethods>
+
+	<BaseMethods>
+		<petReqTeleport>
+			<Arg>		BASE_ENTITYCALL	 	</Arg>
+		</petReqTeleport>
+
+		<generatePet>
+			<Arg>		SCRIPT_ID 	</Arg>
+			<Arg>		UINT8	 	</Arg>
+			<Arg>		UINT8	 	</Arg>
+		</generatePet>
+		<generateSealPet>
+			<Arg>		PET_PERSISTENT_DATA	 	</Arg>
+		</generateSealPet>
+
+		<conjurePet>
+			<Arg>		UID	 	</Arg>
+			<Arg>		POSITION 	</Arg>
+			<Arg>		DIRECTION 	</Arg>
+		</conjurePet>
+
+		<mountPet>
+		</mountPet>
+		<dismountPet>
+			<Arg>		POSITION 	</Arg>
+			<Arg>		DIRECTION 	</Arg>
+		</dismountPet>
+
+		<withdrawPet>
+			<Arg>		UINT8	 	</Arg>
+		</withdrawPet>
+
+		<freePet>
+			<Arg>		UID	 	</Arg>
+		</freePet>
+		<setPetStep>
+			<Arg>		UID	 	</Arg>
+			<Arg>		UINT8	 	</Arg>
+		</setPetStep>
+		<reName>						<!-- 幻兽改名 -->
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		UNICODE	 	</Arg>		<!-- 幻兽名字 -->
+		</reName>
+		<onActivateCageCostGold>
+			<Arg>		INT32	 	</Arg>
+		</onActivateCageCostGold>
+		<getActivePet/>
+		<addRolePetProtect/>
+		<removePetSleeptime/>
+		<removeRolePetProtect/>
+
+		<sealPet>							<!-- 封印幻兽 -->
+			<Arg>		UID	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	</Arg>		<!-- 幻兽数量 -->
+		</sealPet>
+		<composePet>
+			<Arg>		UID	 	</Arg>		<!-- 主幻兽UID -->
+			<Arg>		UID	 	</Arg>		<!-- 副幻兽UID -->
+			<Arg>		BOOL	</Arg>		<!-- 是否使用了合成材料 -->
+		</composePet>
+		<replacePetSkill>
+			<Arg>		UID	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	</Arg>		<!-- 被替换的技能ID -->
+			<Arg>		INT32	</Arg>		<!-- 技能书物品ID -->
+			<Arg>		INT32	</Arg>		<!-- 替换的技能ID -->
+		</replacePetSkill>
+		<upgradePetSkill>
+			<Arg>		UID	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	</Arg>		<!-- 当前技能ID -->
+			<Arg>		INT32	</Arg>		<!-- 下一级技能ID -->
+			<Arg>		INT32	</Arg>		<!-- 升级所需潜能 -->
+		</upgradePetSkill>
+		<replacePetPassiveSkill>
+			<Arg>		UID	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	</Arg>		<!-- 被替换的技能ID -->
+			<Arg>		INT32	</Arg>		<!-- 技能书物品ID -->
+			<Arg>		INT32	</Arg>		<!-- 替换的技能ID -->
+		</replacePetPassiveSkill>
+		<upgradePetPassiveSkill>
+			<Arg>		UID	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	</Arg>		<!-- 当前技能ID -->
+			<Arg>		INT32	</Arg>		<!-- 升级所需金钱 -->
+			<Arg>		INT32	</Arg>		<!-- 下一级技能ID -->
+		</upgradePetPassiveSkill>
+		<onComposeCostGold>
+			<Arg>		INT32	 	</Arg>
+		</onComposeCostGold>
+
+		<petOutsideFromFence>
+			<Arg>		PET_PERSISTENT_DATA 	</Arg>
+		</petOutsideFromFence>
+		<activePetEnterFence>
+			<Arg>		UID	 	</Arg>
+		</activePetEnterFence>
+		<exChangePetFromFence>
+			<Arg>		UID	 	</Arg>
+			<Arg>		UID	 	</Arg>
+		</exChangePetFromFence>
+		<savePetVolatileAttr>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</savePetVolatileAttr>
+		<delPetShenTongQuickBar>
+			<Arg>		UID	 	</Arg>
+		</delPetShenTongQuickBar>
+	</BaseMethods>
+
+	<CellMethods>
+		<initClientPetDataFinish/>
+		<petReqTeleport>
+			<Arg>		BASE_ENTITYCALL	 	</Arg>
+		</petReqTeleport>
+
+		<onGeneratePetResult>
+			<Arg>		PET_CELL_DATA	 	</Arg>
+		</onGeneratePetResult>
+		<onGenerateSealPetResult>
+			<Arg>		PET_CELL_DATA	 	</Arg>
+		</onGenerateSealPetResult>
+
+		<conjurePet>						<!-- 召唤幻兽 -->
+			<Exposed/>
+			<Arg>		STRING 		</Arg>		<!-- 幻兽UID -->
+		</conjurePet>
+		<onConjurePetResult>
+			<Arg>		UID	 	</Arg>
+			<Arg>		BASE_ENTITYCALL 	</Arg>
+		</onConjurePetResult>
+
+		<transformPet>						<!-- 上/下马 -->
+			<Exposed/>
+		</transformPet>
+		<onMountPetResult>
+		</onMountPetResult>
+		<onDismountPetResult>
+		</onDismountPetResult>
+	
+		<withdrawPet>						<!-- 回收幻兽 -->
+			<Exposed/>
+		</withdrawPet>
+		<onWithdrawPetResult>
+			<Arg>		UINT8	 	</Arg>
+		</onWithdrawPetResult>
+
+		<freePet>						<!-- 放生幻兽 -->
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 幻兽UID -->
+		</freePet>
+		<onFreePetResult>
+			<Arg>		UID	 	</Arg>
+		</onFreePetResult>
+
+		<updatePetEpitomeDatas>
+			<Arg>		UID	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		PYTHON	 	</Arg>
+		</updatePetEpitomeDatas>
+		
+		<activateCage>						<!-- 激活幻兽格子 -->
+			<Exposed/>
+		</activateCage>
+		<activateCageResult>
+			<Arg>		BOOL	 	</Arg>
+		</activateCageResult>
+
+		<sealPet>						<!-- 封印幻兽 -->
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 幻兽UID -->
+		</sealPet>
+		<onSealPetResult>
+			<Arg>		PET_PERSISTENT_DATA	 	</Arg>
+		</onSealPetResult>
+		<GetSealPetEggAttr>						<!-- 客户端获取封印幻兽信息 -->
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 封印幻兽蛋UID -->
+		</GetSealPetEggAttr>
+		<composePet>
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 主幻兽UID -->
+			<Arg>		STRING	 	</Arg>		<!-- 副幻兽UID -->
+		</composePet>
+		<onComposePetBygold>
+			<Exposed/>
+			<Arg>		BOOL	 	</Arg>
+			<Arg>		STRING	 	</Arg>		<!-- 主幻兽UID -->
+			<Arg>		STRING	 	</Arg>		<!-- 副幻兽UID -->
+		</onComposePetBygold>
+		<onComposePetResult>
+			<Arg>		UID	 	</Arg>			<!-- 主幻兽UID -->
+			<Arg>		UID	 	</Arg>			<!-- 副幻兽UID -->
+			<Arg>		BOOL	</Arg>			<!-- 是否使用了合成材料 -->
+		</onComposePetResult>
+		<replacePetSkill>
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	 	</Arg>		<!-- 被替换的技能ID -->
+			<Arg>		INT32	 	</Arg>		<!-- 技能书ID -->
+		</replacePetSkill>
+		<onReplacePetSkillResult>
+			<Arg>		INT32	 	</Arg>		<!-- 技能书ID -->
+			<Arg>		INT32	 	</Arg>		<!-- 替换的技能ID -->
+		</onReplacePetSkillResult>
+		<upgradePetSkill>
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	 	</Arg>		<!-- 需要升级的技能ID -->
+		</upgradePetSkill>
+		<onUpgradePetSkillResult>
+			<Arg>		INT32	 	</Arg>		<!-- 需要升级的技能ID -->
+		</onUpgradePetSkillResult>
+		<replacePetPassiveSkill>
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	 	</Arg>		<!-- 被替换的技能ID -->
+			<Arg>		INT32	 	</Arg>		<!-- 技能书ID -->
+		</replacePetPassiveSkill>
+		<onReplacePetPassiveSkillResult>
+			<Arg>		INT32	 	</Arg>		<!-- 技能书ID -->
+			<Arg>		INT32	 	</Arg>		<!-- 被替换的技能ID -->
+		</onReplacePetPassiveSkillResult>
+		<upgradePetPassiveSkill>
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>		<!-- 幻兽UID -->
+			<Arg>		INT32	 	</Arg>		<!-- 需要升级的技能ID -->
+		</upgradePetPassiveSkill>
+		<onUpgradePetPassiveSkillResult>
+			<Arg>		INT32	 	</Arg>		<!-- 下一级技能ID -->
+		</onUpgradePetPassiveSkillResult>		
+		<!--幻兽AI-->
+		<CELL_petAIChangeState>
+			<Exposed/>
+			<Arg>		INT32	</Arg>
+		</CELL_petAIChangeState>
+		<CELL_petAIChangeCommand>
+			<Exposed/>
+			<Arg>		INT32	</Arg>
+		</CELL_petAIChangeCommand>
+		<CELL_petAIAttackTarget>
+			<Exposed/>
+			<Arg>		SKILL_ID	</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</CELL_petAIAttackTarget>
+		<CELL_requestAttackTarget>
+			<Exposed/>
+			<Arg>		SKILL_ID	</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</CELL_requestAttackTarget>
+		<CELL_requestTeleporToOwner>
+			<Exposed/>
+		</CELL_requestTeleporToOwner>
+		<AICommandEndNotice>
+		</AICommandEndNotice>
+		<CELL_onActiveHPSlot>
+			<Exposed/>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</CELL_onActiveHPSlot>
+		<CELL_onActiveMPSlot>
+			<Exposed/>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</CELL_onActiveMPSlot>
+
+		<CELL_freePetFromFence>
+			<Exposed/>
+			<Arg>		STRING 		</Arg>		<!-- 幻兽UID -->
+		</CELL_freePetFromFence>
+		<CELL_activePetEnterFence>
+			<Exposed/>
+		</CELL_activePetEnterFence>
+		<CELL_feedOriginPet>
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</CELL_feedOriginPet>
+		<CELL_evolutionOriginPet>
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>
+		</CELL_evolutionOriginPet>
+		<CELL_PetOutsideFromFence>
+			<Exposed/>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+		</CELL_PetOutsideFromFence>
+		<onPetOutsideFromFence>
+			<Arg>		ORIGIN_PET_DATA	 	</Arg>
+		</onPetOutsideFromFence>
+		<onPetEnterFence>
+			<Arg>		UID	 	</Arg>
+		</onPetEnterFence>
+		<onUpdateOriginPetVolume>
+			<Arg>		UINT8	 	</Arg>
+		</onUpdateOriginPetVolume>
+		<generateOriginPet>
+			<Exposed/>
+			<Arg>		INT32	 	</Arg>
+		</generateOriginPet>
+		<onGetPetByKillPetCorral>
+			<Arg>		ORIGIN_PET_DATA 	</Arg>
+		</onGetPetByKillPetCorral>
+	</CellMethods>
+</root>

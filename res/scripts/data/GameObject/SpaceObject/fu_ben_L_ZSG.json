@@ -1,0 +1,37 @@
+﻿{
+"SpaceName"	: "镇煞宫",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyZhenShaGong",
+"scriptID"	: "fu_ben_L_ZSG",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_ZSG",
+"NavmeshPath"	: "space\\L_ZSG_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"SpaceAoi"	: "190",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544014,
+	"spaceIntroduce":{"voiceID":"C001487|C001488|C001489"},
+	"enterPosition":"-10965 -6010 -813",
+	"enterDirection":"0 0 0",
+	"stageFile":"SS_L_ZSG",
+	"eventFile":"SE_L_ZSG",
+	"spellBoxMapEmissive":"40000179:1|40000180:2|40000181:3",
+	"blastScriptID":"20007853",
+	"blastPosition":"915 -6033 -433",
+	"succeedSound":"C000474",
+	"failedSound":"C000473",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+	"monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

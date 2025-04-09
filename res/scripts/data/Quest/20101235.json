@@ -1,0 +1,135 @@
+{
+    "20101235": {
+        "tasks": [
+            {
+                "navigateData": "(51171.0 26280.0 -16135.0)#L_JYDT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往九焱洞天，找到火云兽"
+            }, 
+            {
+                "navigateData": "(-20990.0 3340.0 31026.0)#L_JYDT_2", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010047", 
+                "id": 2, 
+                "name": "取得生命之火"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "28", 
+                "id": 3, 
+                "name": "到达28级"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002057"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101235, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010047"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101249"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22374", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1433", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2747", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1035", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030315|Q030316|Q030721", 
+        "finish_by": "10001123#L_KLZ_1", 
+        "taskLogDes": "@S{4}息壤塑身，神水造血，金魄建骨，灵气化魂，还需寻得一道不停跳动的@F{fc=c41}生命之火@D，维持人类体脉生机。女娲命你前往九焱洞天，击败火云兽取得@F{fc=c41}生命之火@D。|@S{4}息壤塑身，神水造血，金魄建骨，灵气化魂，还需寻得一道不停跳动的@F{fc=c41}生命之火@D，维持人类体脉生机。女娲命你前往九焱洞天，击败火云兽取得@F{fc=c41}生命之火@D。|@S{4}将等级提升至28级。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032167", 
+        "nextQuest": "20101215", 
+        "taskCompleteFunctions": {}, 
+        "level": 27, 
+        "title": "生命之火", 
+        "isAutoCommit": 1, 
+        "start_by": "10001123#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

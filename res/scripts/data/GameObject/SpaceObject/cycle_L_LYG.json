@@ -1,0 +1,32 @@
+{
+"SpaceName"	: "金殿",
+"EntityType"	: "SpaceCopyAndySnatch",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyAndySnatch",
+"scriptID"	: "cycle_L_LYG",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_cycle_L_LYG",
+"NavmeshPath"	: "space\\L_FMXB_001_NAVMESH",
+"PatrolRouteFile": "P_L_FMXB_001",
+"SpaceAoi"	: 100.0,
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "6139 26797 11021",
+	"Direction"	: "0.0 0.0 100"
+	},
+"SpaceData"	:{
+	"enterPosition":"830 2000 411.41",
+	"enterDirection":"0 0 -90",
+	"stageFile":"SS_cycle_L_LYG",
+	"eventFile":"SE_cycle_L_LYG",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"monsterUseSpaceLevel": 1,
+	"coordinates":"550 -8820 4256|12160 -4830 2986.14|-6683 -6958 4722.12",
+	"moHeScriptID":"10001332"
+	},
+"DomainData"	:{
+
+	}
+}

@@ -1,0 +1,41 @@
+<root>
+	<Properties>
+		<isOpen>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</isOpen>
+		
+		<limitLv>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		1			</Default>
+			<Persistent>	false		</Persistent>
+		</limitLv>
+		
+		<limitCamp>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		1			</Default>
+			<Persistent>	false		</Persistent>
+		</limitCamp>
+	</Properties>
+
+
+	<ClientMethods>	
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_onEnterTriggerRange>		<!-- 玩家进入触发范围内 -->
+			<Exposed/>
+		</CELL_onEnterTriggerRange>
+		
+		<CELL_onLeaveTriggerRange>		<!-- 玩家离开触发范围 -->
+			<Exposed/>
+		</CELL_onLeaveTriggerRange>
+	</CellMethods>
+</root>

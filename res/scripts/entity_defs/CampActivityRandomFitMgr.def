@@ -1,0 +1,41 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<randomFit_reqPerson>
+			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</randomFit_reqPerson>
+		<randomFit_reqTeam>
+			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</randomFit_reqTeam>
+		<randomFit_cancelSignUp>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</randomFit_cancelSignUp>
+		<randomFit_onPlayerLoginOff>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</randomFit_onPlayerLoginOff>
+		<randomFit_onTeamChange>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</randomFit_onTeamChange>
+		<randomFit_onJoinTeam>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</randomFit_onJoinTeam>
+	</BaseMethods>
+</root>

@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败荒古兽妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010439|20010440|20010441", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(22220.705078 -16565.261719 -5395.145508)#L_HSG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败拦路妖兽", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010442|20010443|20010444", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(28008.080078 -5374.230957 -6403.765137)#L_HSG"
+                }
+            }, 
+            "title": "勇闯荒兽谷"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败火犀妖王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(12949.852539 3618.455078 -8079.945313)#L_HSG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往冰封河", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "遗骸下落"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "找寻遗骸"
+}

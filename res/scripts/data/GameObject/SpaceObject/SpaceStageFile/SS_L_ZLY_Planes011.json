@@ -1,0 +1,74 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "会合蓐收和玄阴鬼王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "70947.1 95730.0 3112.0:10", 
+                    "param2": "4000|-2000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(70947.1 95730.0 3112.0)#L_ZLY_Planes011"
+                }
+            }, 
+            "title": "进入玄阴秘境"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活1号阵柱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "40000145", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000145#L_ZLY_Planes011"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活3号阵柱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3", 
+                    "param2": "40000147", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000147#L_ZLY_Planes011"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活2号阵柱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "40000146", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000146#L_ZLY_Planes011"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活4号阵柱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "4", 
+                    "param2": "40000148", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000148#L_ZLY_Planes011"
+                }
+            }, 
+            "title": "激活九阴玄煞大阵阵柱"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "布阵-玄阴秘境"
+}

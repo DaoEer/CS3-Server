@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 场内8尊雕像已有4尊完整雕像，请补全剩余雕像。@B• 双击或“F”键交互内含乐器的灵球，获取乐器。@B• 请将乐器送到对应的雕像处交互，补全雕像。@B• 小心场内各种陷阱，被击中会失去乐器。@B• 最终消耗的时间越短获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "完整的雕像数：", 
+                    "postfix": "", 
+                    "value": 4, 
+                    "param4": "0", 
+                    "param3": "123", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "补全4尊不完整的雕像"
+        }
+    }, 
+    "name": "神乐雕像"
+}

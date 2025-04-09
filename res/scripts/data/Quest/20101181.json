@@ -1,0 +1,116 @@
+{
+    "20101181": {
+        "tasks": [
+            {
+                "navigateData": "(-95216.070313 -100813.500000 -2796.663086)#L_KWSM_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往青丘洞与九尾妖狐对峙"
+            }, 
+            {
+                "navigateData": "(-95216.070313 -100813.500000 -2796.663086)#L_KWSM_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "破解狐妖幻阵"
+            }, 
+            {
+                "navigateData": "(-95216.070313 -100813.500000 -2796.663086)#L_KWSM_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "降服九尾妖狐"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101181, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101180"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "5687", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "777", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1292", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "547", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102030004|102030009|102030014|102030019", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}请你继续深入青丘洞主府，击败九尾妖狐，夺回宝图。|@S{4}请你继续深入青丘洞主府，击败九尾妖狐，夺回宝图。|@S{4}请你继续深入青丘洞主府，击败九尾妖狐，夺回宝图。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101182", 
+        "taskCompleteFunctions": {}, 
+        "level": 17, 
+        "title": "昆吾山寻妖（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

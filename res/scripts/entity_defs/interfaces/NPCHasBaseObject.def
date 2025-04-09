@@ -1,0 +1,18 @@
+<root>
+	<Interfaces>
+		<Interface> 	NPCObject	</Interface>
+	</Interfaces>
+	<Properties>
+		<spaceCell>
+			<Type>		CELL_ENTITYCALL		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>		false			</Persistent>
+		</spaceCell>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

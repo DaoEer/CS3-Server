@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "神风秘境",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "L_SFMJ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_SFMJ",
+"NavmeshPath"	: "space\\L_SFMJ_NAVMESH",
+"PatrolRouteFile": "P_L_SFMJ_001",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"-25770.0 -9480.0 5906.728516",
+	"enterDirection":"0 0 -8.02",
+	"reviveType"	: "1|2",
+	"stageFile":"",
+	"eventFile":"SE_L_SFMJ",
+	"statisticsFile":"ST_L_SFMJ",
+	"clientShowSpaceLife" : 1,  
+	"logoutCloseTime":1,
+	"monsterUseSpaceLevel":1,
+	"clientUseCharacterMovment" : 0,
+	"startLifeOnInit" : 0    
+	},
+"DomainData"	:{
+	}
+}

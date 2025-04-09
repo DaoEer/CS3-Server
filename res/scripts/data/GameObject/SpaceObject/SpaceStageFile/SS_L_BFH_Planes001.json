@@ -1,0 +1,107 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入冰封河", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "5709.969727 7460.020020 193.348160:30", 
+                    "param2": "243|-243", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(5709.969727 7460.020020 193.348160)#L_BFH_Planes001"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续探查", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "-5898.020020 6731.633789 554.047852:25", 
+                    "param2": "1054|54", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-5898.020020 6731.633789 554.047852)#L_BFH_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败冰霜鱼妖", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010446|20010447|20010448|20010449|20010450", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(5709.969727 7460.020020 193.348160)#L_BFH_Planes001"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败冰霜妖卫", 
+                    "reqVal": 5, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010452|20010453|20010451", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-5898.020020 6731.633789 554.047852)#L_BFH_Planes001"
+                }
+            }, 
+            "title": "探查冰封河"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往山洞", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-7236.697266 -4388.144531 889.937012:20", 
+                    "param2": "1389|389", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-9272.0 -8318.0 1304.0)#L_BFH_Planes001"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入山洞，找到巨神龟", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "-11840.000000 -12770.000000 1533.637573:15", 
+                    "param2": "2033|1033", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-11293.0 -11885.0 1336.0)#L_BFH_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击破机关", 
+                    "reqVal": 2, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010454|20010455", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与巨神龟对话", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "寻找巨神龟"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "冰封河"
+}

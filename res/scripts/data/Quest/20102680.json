@@ -1,0 +1,88 @@
+{
+    "20102680": {
+        "tasks": [
+            {
+                "navigateData": "(-31612.943359 38129.460938 -150.672516)#L_ZWX", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "占领紫微星"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002005"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102680, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102678|20102679"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "42071", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1406", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "23939", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2372", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050690|Q050691|Q040042", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}铸剑材料已集齐。如今只需再将紫微星拿下，借助世间独一无二的紫微星火，便可开始炼制诛仙四剑。冥河老祖命你先行前去攻占紫微星，随后会派遣不动明王前来助你。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102681", 
+        "taskCompleteFunctions": {}, 
+        "level": 42, 
+        "title": "紫微星", 
+        "isAutoCommit": 1, 
+        "start_by": "10001093#L_XLD_01", 
+        "isAutoAccept": 1
+    }
+}

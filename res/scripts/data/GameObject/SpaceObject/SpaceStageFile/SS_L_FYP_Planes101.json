@@ -1,0 +1,92 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭部落守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009014|20009015|20009016", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(2164 -38667 1808)#L_FYP_Planes101"
+                }
+            }, 
+            "title": "袭击部落"
+        }, 
+        "3": {
+            "comment": "将夸父消灭以绝后患", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭夸父", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "0564", 
+                    "param2": "20009026", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(7279 -17300 2842)#L_FYP_Planes101"
+                }
+            }, 
+            "title": "消灭夸父"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭有穷部落巡逻卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009023|20009024|20009025", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(489 -23910 2654)#L_FYP_Planes101"
+                }
+            }, 
+            "title": "继续深入"
+        }, 
+        "5": {
+            "comment": "总算冲出了有穷部落，跟随祖巫玄冥前往安全地点。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "逃出部落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-26129 -18281 1311:4", 
+                    "param2": "4364|-3636", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "暂时撤退"
+        }, 
+        "4": {
+            "comment": "祖巫玄冥好生勇猛，跟随他一起突破重围吧！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭仙道援军", 
+                    "reqVal": 21, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009027|20009028|20009029|20009030|20009031|20009032|20009033|20009034|20009035|20009036|20009633|20009634", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "突破包围"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "袭击有穷部落"
+}

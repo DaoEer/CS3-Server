@@ -1,0 +1,30 @@
+<root>
+	<Parent>
+		MonsterExtBattery
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<guidTimer>
+			<Type>		INT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</guidTimer>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_OnProjectRocketBattery>
+			<Arg>	UINT8		</Arg>
+			<Arg>	FLOAT		</Arg>
+		</CLIENT_OnProjectRocketBattery>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_projectRocketBattery>
+			<Exposed/>
+			<Arg>	FLOAT		</Arg>
+		</CELL_projectRocketBattery>
+	</CellMethods>
+</root>
+

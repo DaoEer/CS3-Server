@@ -1,0 +1,23 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击杀所有怪物", 
+                    "reqVal": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007936", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击杀所有怪物"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "天之幻境"
+}

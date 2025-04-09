@@ -1,0 +1,249 @@
+<root>
+	<Interfaces>
+		<Interface> 	EntityObject	</Interface>
+		<Interface> 	EntityEventInterface	</Interface>
+	</Interfaces>
+	<Properties>
+		<isDestroySelf>
+			<Type>		BOOL				</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Persistent>	false			</Persistent>
+		</isDestroySelf>
+		<timerBaseExt>
+			<Type>		TIMER_DATAS			</Type>
+			<Flags>		BASE				</Flags>
+			<Persistent>	false			</Persistent>
+		</timerBaseExt>
+		<timerCellExt>
+			<Type>		TIMER_DATAS			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</timerCellExt>
+		<flags>		<!-- entity的标志集合ENTITY_FLAG_* -->
+			<Type>			INT64			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</flags>
+		<extraModelNumber>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	false			</Persistent>
+		</extraModelNumber>
+		<modelScale>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1.0				</Default>
+		</modelScale>
+		<maxModelScale>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0				</Default>
+		</maxModelScale>
+		<debugFlags>		<!-- entity的调试标志集合ENTITY_DEBUG_FLAG_* -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Default>		0		</Default>
+		</debugFlags>
+		<SyncPosClient>		<!-- 关闭服务器同步位置标记 -->
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</SyncPosClient>
+		<tempMapping>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	{}			</Default>
+			<Persistent>	false			</Persistent>
+		</tempMapping>
+		<hasStateFlag>
+			<Type>		BOOL		        </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	false			    </Default>
+			<Persistent>	false			</Persistent>
+		</hasStateFlag>
+		<hasActFlag>
+			<Type>		BOOL		        </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	false			    </Default>
+			<Persistent>	false			</Persistent>
+		</hasActFlag>
+		<stateFlags>		<!-- entity状态标志 -->
+			<Type>			INT64				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</stateFlags>
+		<keepChangeModelScaleTimerID>		<!-- entity状态标志 -->
+			<Type>			TIMER_ID				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</keepChangeModelScaleTimerID>
+		<appearanceColor>
+			<Type>			INT32				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>	false				</Persistent>
+		</appearanceColor>
+		<armyModelList>
+			<Type>	ARRAY_STRING	</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent> 	false 	</Persistent>
+		</armyModelList>
+		<prefixName>
+			<Type>			UNICODE		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Persistent>		false		</Persistent>
+		</prefixName>
+		<belongSide>
+			<Type>				INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</belongSide>
+	</Properties>
+	<BaseMethods>
+		<createBaseMonster>
+			<Arg>	SCRIPT_ID		</Arg>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	POSITION		</Arg>
+			<Arg>	DIRECTION		</Arg>
+			<Arg>	PYTHON_DICT		</Arg>
+		</createBaseMonster>
+		<destroySelf>
+			<Arg>	BOOL		</Arg>
+		</destroySelf>
+	</BaseMethods>
+	<ClientMethods>
+		<CLIENT_SetIntPropertyByKey>
+				<Arg>		STRING		</Arg>
+				<Arg>		INT32		</Arg>
+		</CLIENT_SetIntPropertyByKey>
+		 <CLIENT_SetFloatPropertyByKey>
+				<Arg>		STRING		</Arg>
+				<Arg>		FLOAT		</Arg>
+		</CLIENT_SetFloatPropertyByKey>
+		 <CLIENT_SetFStringPropertyByKey>
+				<Arg>		STRING		</Arg>
+				<Arg>		STRING		</Arg>
+		</CLIENT_SetFStringPropertyByKey>
+		 <CLIENT_SetBoolPropertyByKey>
+				<Arg>		STRING		</Arg>
+				<Arg>		BOOL		</Arg>
+		</CLIENT_SetBoolPropertyByKey>
+		<CLIENT_OnPlayAction>	<!--播放动作  -->
+			<Arg>		STRING				</Arg>	<!-- actionID -->
+			<Arg>		FLOAT		</Arg>	<!-- 播放时间 -->
+		</CLIENT_OnPlayAction>
+		<CLIENT_OnStopParticles/>	<!--停止光效  -->
+		<CLIENT_StopAction/>
+		<CLIENT_StopFrontAction/>
+		<CLIENT_ShowInvisible/>
+		<CLIENT_HideInvisible/>
+		<UpdateRelation/>
+		<CLIENT_OnPlayParticles>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+	  		<Arg>		STRING		</Arg>
+	  		<Arg>		FLOAT		</Arg>
+	  		<Arg>		POSITION	</Arg>
+		</CLIENT_OnPlayParticles>
+		<CLIENT_ShowTopCountDown>
+				<Arg>		FLOAT		</Arg>
+				<Arg>		FLOAT		</Arg>
+		</CLIENT_ShowTopCountDown>
+		<CLIENT_HideTopCountDown/>
+		<CLIENT_PlayOneByOneAction>
+			<Arg>		INT32				</Arg>
+   			<Arg>		ARRAY_STRING	 	</Arg>
+			<Arg>		ARRAY_STRING	 	</Arg>
+   		</CLIENT_PlayOneByOneAction>
+  		<CLIENT_ChangeToDstModelScale> <!-- 模型缩放效果 -->
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</CLIENT_ChangeToDstModelScale>
+		<CLIENT_ChangeToNormalModelScale>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</CLIENT_ChangeToNormalModelScale>
+		<CLIENT_CastToStone>		<!-- 模型石化效果 -->
+			<Arg>		FLOAT		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_CastToStone>
+		<CLIENT_CastToNormal>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_CastToNormal>
+		<CLIENT_BindDisplayObject>
+			<Arg>		STRING		</Arg>
+		</CLIENT_BindDisplayObject>
+		<CLIENT_UnbindDisplayObject>
+			<Arg>		STRING		</Arg>
+		</CLIENT_UnbindDisplayObject>
+		<CLIENT_ChangeShowPosture>
+			<Arg>		STRING 		</Arg>
+			<Arg>		STRING 		</Arg>
+			<Arg>		STRING 		</Arg>
+		</CLIENT_ChangeShowPosture>
+		<CLIENT_OnPlay3DSound>	<!--播放3d音效  -->
+			<Arg>		STRING		</Arg>	<!-- SoundID -->
+		</CLIENT_OnPlay3DSound>
+		<CLIENT_OnStop3DSound>	<!--停止3d音效  -->
+		</CLIENT_OnStop3DSound>
+		<CLIENT_ChangeShowAnimAndActionPosture>
+			<Arg>		STRING 		</Arg>
+			<Arg>		STRING 		</Arg>
+			<Arg>		STRING 		</Arg>
+		</CLIENT_ChangeShowAnimAndActionPosture>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_onClientReady>
+			<Exposed/>
+		</CELL_onClientReady>
+		<destroyCellByBase/>
+		<remoteCall>
+			<Arg>		STRING		</Arg>
+			<Arg>		PYTHON		</Arg>
+		</remoteCall>
+		<remoteScriptCall>
+			<Arg>		STRING		</Arg>
+			<Arg>		PYTHON		</Arg>
+		</remoteScriptCall>
+		<syncPosToServer>
+			<Exposed/>
+			<Arg>	POSITION	</Arg>
+		</syncPosToServer>
+		<setModelNumber>
+			<Arg>	UNICODE		</Arg>
+		</setModelNumber>
+		<setModelScale>
+			<Arg>	FLOAT	</Arg>
+		</setModelScale>
+		<addModelScale>
+			<Arg>	FLOAT	</Arg>
+		</addModelScale>
+		<keepChangeModelScale>
+			<Arg>	FLOAT	</Arg>
+		</keepChangeModelScale>
+		<setExtraModelNumber>
+			<Arg>	UNICODE		</Arg>
+		</setExtraModelNumber>
+		<setAppearanceColor>
+			<Arg> 	STRING		</Arg>
+		</setAppearanceColor>
+		<resetApperanceColor/>
+		<changeDirection>
+			<Arg>	DIRECTION 	</Arg>
+			<Arg>    UINT8 		</Arg>   <!-- reason -->
+		</changeDirection>
+	    <setArmyModelList>
+	    	<Arg>	ARRAY_STRING	</Arg>
+	    </setArmyModelList>
+	    <resetArmyModelList/>
+	</CellMethods>
+</root>

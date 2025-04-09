@@ -1,0 +1,27 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "bigmap_1",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "bigmap_1_Spawn",
+"NavmeshPath"	: "space\\BIGMAP_1_NAVIMESH",
+"PatrolRouteFile": "P_L_BigMap_1",
+"SpaceAoi"	: 50.0,
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_ENEMY",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "",
+	"Position"	: "",
+	"Direction"	: ""
+	},
+"SpaceData"	:{
+	"maxLine":3,
+	"maxPlayerAmount":10,
+	"triggerLinePlayerAmount":6,
+	"reviveType"	: "0|"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,176 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭火猴哨卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000671|20000672|20000673|20000674|20000675", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000671|20000672|20000673|20000674|20000675#L_XHL"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭火猴兵士", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000676|20000677|20000678|20000680", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000676|20000677|20000678#L_XHL"
+                }
+            }, 
+            "title": "进入玄火岭"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭猕风", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000686", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000686#L_XHL"
+                }
+            }, 
+            "title": "腹地斗风火"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拜火猴妖", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000682|20000683|20000684|20000685", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000682|20000683|20000684|20000685#L_XHL"
+                }
+            }, 
+            "title": "探索玄火岭"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭护法猴妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000695|20000696|20000690", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000695|20000696#L_XHL"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭炼火猴妖", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000697|20000691", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000697#L_XHL"
+                }
+            }, 
+            "title": "深入玄火岭"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过熔岩跳台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1620 -140 169.772705:15", 
+                    "param2": "700|-300", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(24956 -311 -251)#L_XHL"
+                }
+            }, 
+            "title": "断崖藏危机"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过跳台继续前行", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-42012.882813 -921.161316|-42012.882813 889.336975|-43361.535156 889.336975|-43361.535156 -932.514221", 
+                    "param2": "5555|2222", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-35682.0 81.0 2351.0)#L_XHL"
+                }
+            }, 
+            "title": "冒险复前行"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭猕火", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000698", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000698#L_XHL"
+                }
+            }, 
+            "title": "腹地炼火海"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败赤眼灵猴", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "555", 
+                    "param2": "20000699", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000699#L_XHL"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回复命", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-59690.0 100.0 3860.4)#L_XHL"
+                }
+            }, 
+            "title": "灵猴显神通"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "玄火岭"
+}

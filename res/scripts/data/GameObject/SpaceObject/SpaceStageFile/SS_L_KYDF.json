@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬魂斥候", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012912|20012913", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012912|20012913#L_KYDF"
+                }
+            }, 
+            "title": "进入开阳洞府"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "大战噬魂妖将", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012916#L_KYDF"
+                }
+            }, 
+            "title": "大战噬魂妖将"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬魂守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012914|20012915", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012914|20012915#L_KYDF"
+                }
+            }, 
+            "title": "深入开阳洞府"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏箭塔，破除结界", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012924|20012925", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012924|20012925#L_KYDF"
+                }
+            }, 
+            "title": "破除洞府结界"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭噬魂妖将及其守卫", 
+                    "reqVal": 11, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012919|20012920|20012921|20012922|20012923", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012919|20012920|20012921|20012922|20012923#L_KYDF"
+                }
+            }, 
+            "title": "追击噬魂妖将"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "大战开阳妖王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012929#L_KYDF"
+                }
+            }, 
+            "title": "大战开阳妖王"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "噬灵神石（一）"
+}

@@ -1,0 +1,138 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "pead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 3, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "stable": {
+        "subStateDatas": {
+            1: {
+                "name": "", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "霸体", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction16", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "120065001"
+                            }
+                        ], 
+                        "EID": [
+                            5
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition11", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "120065001"
+                            }
+                        ], 
+                        "id": 5
+                    }, 
+                    {
+                        "comment": "计时", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "t"
+                            }
+                        ], 
+                        "EID": [
+                            4
+                        ], 
+                        "Conditions": [], 
+                        "id": 4
+                    }, 
+                    {
+                        "comment": "20s后圆内随机位置闪现", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction16", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "120419001"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition11", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "120419001"
+                            }, 
+                            {
+                                "script": "AICondition12", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "20", 
+                                "param1": "t"
+                            }
+                        ], 
+                        "id": 2
+                    }
+                ], 
+                "eventsAI": {
+                    9: [
+                        {
+                            "comment": "收到指令销毁自身", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction32", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "0.1"
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [
+                                {
+                                    "script": "AICondition25", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "111", 
+                                    "param1": "20003865"
+                                }
+                            ], 
+                            "id": 3
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }
+}

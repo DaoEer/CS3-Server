@@ -1,0 +1,50 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<gotoRingTaskSpace>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		PYTHON_DICT			</Arg>
+			<Arg>		BOOL				</Arg>
+		</gotoRingTaskSpace>
+		<setPreloadSpace>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		INT32				</Arg>
+		</setPreloadSpace>
+		<setIsInMainScene>
+			<Arg>		STRING				</Arg>
+			<Arg>		BOOL				</Arg>
+		</setIsInMainScene>
+		<setCurrentProgress>
+			<Arg>		STRING				</Arg>
+			<Arg>		INT32				</Arg>
+		</setCurrentProgress>
+		<setLoadingSpace>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		STRING				</Arg>
+		</setLoadingSpace>
+		<onChildSceneSuccess>
+			<Arg>		STRING				</Arg>
+		</onChildSceneSuccess>
+		<onChildSceneFailure>
+			<Arg>		STRING				</Arg>
+		</onChildSceneFailure>
+		<setRingTaskItem>
+			<Arg>		STRING				</Arg>
+		</setRingTaskItem>
+		<notifyToCloseRingTaskParentSpace>
+			<Arg>		INT32				</Arg>
+			<Arg>		DBID				</Arg>
+		</notifyToCloseRingTaskParentSpace>
+		<notifyCloseAllRingTaskSpace>
+			<Arg>		DBID				</Arg>
+		</notifyCloseAllRingTaskSpace>
+	</BaseMethods>
+</root>

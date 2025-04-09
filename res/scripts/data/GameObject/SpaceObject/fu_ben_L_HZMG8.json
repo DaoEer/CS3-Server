@@ -1,0 +1,65 @@
+﻿{
+"EntityType"	: "SpaceCopyMatrixMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeParent",
+"EntityScript"	: "SpaceCopyMatrixMazeParent",
+"scriptID"	: "fu_ben_L_HZMG8",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_HZMG8",
+"NavmeshPath"	: "space\\L_HZMG_01_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 250.0,
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 45,
+	"spaceIntroduce":{"voiceID":"C001498|C001499"},
+	"enterPosition":"92778 -114312 5362",
+	"enterDirection":"0 0 103",
+	"stageFile":"SS_L_HZMG8",
+	"eventFile":"SE_L_HZMG8",
+	"maxLine":1,
+	"initLine":1,
+	"reviveType"	: "0|",
+	"maxPlayerAmount":500,
+	"needLevel":23,
+	"flyVoiceID":"C000618|C000615|C000614|C000615",
+	"copyOutVoiceID":"",
+	"defeatVoiceID":"",
+	"destinyVoiceID":"",
+	"flyDelayTime":	4,
+	"outDelayTime":	1,
+	"children":{
+		"0" :{
+			"flyPatrolID":"135",
+			"patrolPoint": 0,		
+			"enterPos":"92778 -114312 5362"
+			},
+		"1" :{
+			"flyPatrolID":"135",					
+			"patrolPoint": 1,			
+			"enterPos":"47500.000000 64710.000000 23000.000000"
+			},
+		"2" :{
+			"flyPatrolID":"135",					
+			"patrolPoint": 2,			
+			"enterPos":"104100.000000 107995.000000 18130.000000"
+			},
+		"3" :{
+			"flyPatrolID":"135",					
+			"patrolPoint": 3,			
+			"enterPos":"155427.000000 56128.000000 7727.000000"
+			},
+		"4" :{
+			"flyPatrolID":"135",					
+			"patrolPoint": 4,			
+			"enterPos":"124389.000000 -44773.000000 16610.000000"
+			}
+		}
+	},
+"DomainData"	:{
+	}
+}

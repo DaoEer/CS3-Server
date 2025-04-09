@@ -1,0 +1,121 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	VehiclePetObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<uid>
+			<Type>		UID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</uid>
+		<scriptID>				<!--scriptID-->
+			<Type>		SCRIPT_ID		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</scriptID>
+		<baseOwner>				<!--主人mailbox-->
+			<Type>		BASE_ENTITYCALL		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</baseOwner>
+		<baseOwnerID>				<!--主人ID-->
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</baseOwnerID>
+		<camp>				<!--阵营-->
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0		</Default>
+			<Persistent>		false		</Persistent>
+		</camp>
+		<step>					<!--阶次-->
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	1			</Default>
+		</step>
+		<exp>					<!--经验-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	1			</Default>
+		</exp>
+		<ability>				<!--成长度-->
+			<Type>		UINT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0.0			</Default>
+		</ability>
+		<takeLevel>				<!--可携带等级-->
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	1			</Default>
+		</takeLevel>
+		<quality>				<!--品质-->
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	1			</Default>
+		</quality>
+		<name>					<!--自定义名字-->
+			<Type>		UNICODE			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</name>
+		<uname>
+			<Type>		UNICODE			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</uname>
+		<attrSkillBox>								<!-- 主动技能列表 -->
+			<Type>	ARRAY <of> SKILL_ID </of>	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</attrSkillBox>
+		<passiveSkillBox>							<!-- 被动技能列表 -->
+			<Type>	ARRAY <of> SKILL_ID </of>	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</passiveSkillBox>
+		<carrierId>
+			<Type>		UNICODE			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</carrierId>
+		<petShenTongSKill>								<!-- 神通技能 -->
+			<Type>	ARRAY<of> DICT_INT_INT_ITEM </of>	</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</petShenTongSKill>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<onTeleportToOwner>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+			<Arg>		POSITION		</Arg>
+		</onTeleportToOwner>
+		<afterTeleportToOwner>
+			<Arg>		SPACE_ID	 	</Arg>
+			<Arg>		STRING		 	</Arg>
+		</afterTeleportToOwner>
+
+		<updatePetAttr>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+		</updatePetAttr>
+		<addVehicePetProtect/>
+		<removeVehicePetProtect/>
+
+		<statusMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</statusMessage>
+		<onSetPetControlledBy>
+			<Exposed/>
+		</onSetPetControlledBy>
+	</CellMethods>
+
+	<BaseMethods>
+		<statusMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</statusMessage>
+	</BaseMethods>
+</root>

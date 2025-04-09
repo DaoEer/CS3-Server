@@ -1,0 +1,85 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路的朽木树妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002724|20002725", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002724|20002725#L_FMNL_Planes105"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路的梧桐树魔", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002730|20002731", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002730|20002731#L_FMNL_Planes105"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路的白杨树妖", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002726|20002727|20002728|20002729", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002726|20002727|20002728|20002729#L_FMNL_Planes105"
+                }, 
+                "5": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路的暗魔树妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002736|20002737", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002736|20002737#L_FMNL_Planes105"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路的银杏树妖", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002732|20002733|20002734|20002735", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002732|20002733|20002734|20002735#L_FMNL_Planes105"
+                }
+            }, 
+            "title": "扫清障碍"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前方魔君气息浓烈，需探查一番", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "90", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(75049.859375 43330.085938 -5340.502930)#L_FMNL_Planes105"
+                }
+            }, 
+            "title": "继续深入"
+        }
+    }, 
+    "describe": "魔道13级任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "千妖万魔林"
+}

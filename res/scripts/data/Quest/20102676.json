@@ -1,0 +1,96 @@
+{
+    "20102676": {
+        "tasks": [
+            {
+                "navigateData": "30000994#L_PLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010165", 
+                "id": 1, 
+                "name": "收服骨魔老祖"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102676, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010165"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2|3|4"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102668"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "42071", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1406", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "23939", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2372", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050621|Q050623|Q050624", 
+        "finish_by": "10001093#L_XLD_01", 
+        "taskLogDes": "@S{4}骨魔族族长吕逵已愿意带领族人归入魔门，从他口中得知骨魔老祖在须弭山中闭关。请你闯过须弭山的禁制，收服骨魔老祖。|@S{4}@F{fc=c41}魔君遗骨@D已得，请你返回修罗殿复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050647", 
+        "nextQuest": "20102677", 
+        "taskCompleteFunctions": {}, 
+        "level": 42, 
+        "title": "骨魔老祖", 
+        "isAutoCommit": 1, 
+        "start_by": "10001347#L_PLS", 
+        "isAutoAccept": 1
+    }
+}

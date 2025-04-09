@@ -1,0 +1,35 @@
+<root>
+	<Parent>
+		SpaceCopyTong
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<SLZDrandomList>
+			<Type>			ARRAY_STRING	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		[]				</Default>
+		</SLZDrandomList>
+		<SLZDrandomIndex>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</SLZDrandomIndex>
+		<intervalTimer>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</intervalTimer>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

@@ -1,0 +1,5 @@
+<root>
+	<Interfaces>
+		<Interface> 	StateInterface		</Interface>
+	</Interfaces>
+</root>

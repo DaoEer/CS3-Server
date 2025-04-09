@@ -1,0 +1,30 @@
+﻿{
+"SpaceName"	: "灵岛危机",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_LDWJ",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_LDWJ",
+"NavmeshPath"	: "space\\L_LDWJ_NAVMESH",
+"PatrolRouteFile": "P_L_LDWJ",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 120,
+	"spaceIntroduce":{"voiceID":"C000199"},
+	"enterPosition":"-21480 22440 -1800",
+	"enterDirection":"0 0 -96",
+	"stageFile":"SS_L_LDWJ",
+	"eventFile":"SE_L_LDWJ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

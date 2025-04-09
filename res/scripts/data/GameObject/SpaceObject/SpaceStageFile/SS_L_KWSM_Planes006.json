@@ -1,0 +1,103 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败昆吾山暗卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004758|20004759|20004760|20004761|20004762|20004763", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-129634.99999999999 -98735.0 2446.0)#L_KWSM_Planes006"
+                }
+            }, 
+            "title": "初登昆吾山巅"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "骑乘黑龙进入昆吾山巅", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-140360 -82310 9030:25", 
+                    "param2": "14030|4030", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "黑龙相助"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "降服天鹏妖王座下黑龙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20004768#L_KWSM_Planes006"
+                }
+            }, 
+            "title": "降服黑龙"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天鹏妖王，夺回山河社稷图", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010020", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(-127727 -63963 9369)#L_KWSM_Planes006"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回昆仑宗", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20011046#L_KWSM_Planes006"
+                }
+            }, 
+            "title": "夺回山河社稷图"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "控制黑龙击碎护山阵柱", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005879|20005880|20005881", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "破除大阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "神兽天鹏"
+}

@@ -1,0 +1,65 @@
+{
+    "stages": {
+        "1": {
+            "comment": "获得青色皮皮虾*1", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "青色皮皮虾", 
+                    "reqVal": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1008", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "青色皮皮虾"
+        }, 
+        "3": {
+            "comment": "获得白金皮皮虾*2", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "白金皮皮虾", 
+                    "reqVal": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1010", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "白金皮皮虾"
+        }, 
+        "2": {
+            "comment": "获得黄金皮皮虾*3", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "黄金皮皮虾", 
+                    "reqVal": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1009", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "黄金皮皮虾", 
+                    "reqVal": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1010", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "黄金皮皮虾"
+        }
+    }, 
+    "describe": "下界试炼剧情区域", 
+    "beginOnSpaceInit": 1, 
+    "name": "皮皮虾之祸"
+}

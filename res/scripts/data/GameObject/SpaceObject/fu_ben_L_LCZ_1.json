@@ -1,0 +1,32 @@
+﻿{
+"SpaceName"	: "雷池阵",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildAdventure",
+"scriptID"	: "fu_ben_L_LCZ_1",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_LCZ1",
+"NavmeshPath"	: "space\\L_LCZ_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_LCZ1",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544004,
+	"spaceIntroduce":{"voiceID":"C001464|C001465"},
+	"enterPosition":"11156 -7563 795",
+	"enterDirection":"0 0 155.8",
+	"stageFile":"SS_fu_ben_L_LCZ1",
+	"eventFile":"SE_fu_ben_L_LCZ1",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

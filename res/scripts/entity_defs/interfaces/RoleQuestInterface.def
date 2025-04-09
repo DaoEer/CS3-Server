@@ -1,0 +1,277 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<questTable>
+			<Type>			QUEST_TABLE		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true			</Persistent>
+		</questTable>
+
+		<questLogger>
+			<Type>			QUEST_LOGGER		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true			</Persistent>
+		</questLogger>
+
+		<questEventMgr>
+			<Type>			QUEST_EVENT_MANAGER	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</questEventMgr>
+
+		<questResetAIIDS>
+			<Type>			QUESTS_AIIDS	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true			</Persistent>
+		</questResetAIIDS>
+		<abandonPrimaryFlag>
+			<Type>		INT8			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+		</abandonPrimaryFlag>
+		
+		<loopQuest>
+			<Type>			LOOP_QUEST_DATAS	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true			</Persistent>
+		</loopQuest>
+
+		<dailyQuest>
+			<Type>			TONG_DAILY_QUEST	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true			</Persistent>
+		</dailyQuest>
+
+		<loopQuestProgress>
+			<Type>			INT32 				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>				0			</Default>
+			<Persistent>		true			</Persistent>
+		</loopQuestProgress>
+
+		<abandonQuestList>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		[]			</Default>
+		</abandonQuestList>
+
+	</Properties>
+
+	<ClientMethods>
+		<!-- 接任务 -->
+		<onAcceptQuest>
+			<Arg>	STRING	</Arg>	<!-- questDataStream -->
+		</onAcceptQuest>
+
+		<!-- 向客户端发送任务数据,新增任务 -->
+		<onAddQuest>
+			<Arg>	STRING	</Arg>	<!-- questDataStream -->
+		</onAddQuest>
+
+		<!-- 放弃任务 -->
+		<onAbandonQuest>
+			<Arg>	INT32	</Arg>	<!-- questID -->
+		</onAbandonQuest>
+
+		<!-- 交任务 -->
+		<onCommitQuest>
+			<Arg>	INT32	</Arg>	<!-- questID -->
+		</onCommitQuest>
+
+		<!-- 刷新任务目标 -->
+		<onUpdateQuestTask>
+			<Arg>	INT32	</Arg>	<!-- questID -->
+			<Arg>	INT32	</Arg>	<!-- taskID -->
+			<Arg>	INT32	</Arg>	<!-- progress of task -->
+		</onUpdateQuestTask>
+
+		<!-- 向客户端发送任务数据,刷新已有任务 -->
+		<onRecvQuestLog>
+			<Arg>	STRING	</Arg>	<!-- questDataStream -->
+		</onRecvQuestLog>
+
+		<!-- 向客户端发送任务对话内容 -->
+		<onSetQuestContent>
+			<Arg>	STRING	</Arg>	<!-- talkDataStream -->
+		</onSetQuestContent>
+
+		<!-- 任务完成 -->
+		<onQuestComplete>
+			<Arg>	INT32	</Arg>	<!-- questID -->
+		</onQuestComplete>
+
+		<!-- 根据任务ID删除某个已完成任务日志 -->
+		<onRemoveQuestLog>
+			<Arg>	INT32	</Arg>	<!-- questID -->
+		</onRemoveQuestLog>
+
+		<!-- 根据类型删除相关类型已完成任务日志 -->
+		<onRemoveQuestLogByType>
+			<Arg>	STRING	</Arg>	<!-- questtype -->
+		</onRemoveQuestLogByType>
+
+
+		<!-- 清空已完成任务日志 -->
+		<onClearQuestLog/>
+
+		<!-- 显示环任务奖励提示 -->
+		<ShowLoopRewardTip>
+			<Arg>	UNICODE	</Arg>	<!-- tip -->
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</ShowLoopRewardTip>
+		<ShowLoopQuestSpaceWin>
+			<Arg>	UNICODE	</Arg>	<!-- tip -->
+			<Arg>	UNICODE	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</ShowLoopQuestSpaceWin>
+		<ShowDynamicRewards>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</ShowDynamicRewards>
+		
+		<OnRequestTongDailyQuest>
+			<Arg>	INT16				</Arg>
+			<Arg>	FINISH_QUESTID_DATAS		</Arg>	<!-- tip -->
+			<Arg>	DICT_INT_INT32_LIST		</Arg>
+			<Arg>	DICT_INT_INT32_LIST		</Arg>
+		</OnRequestTongDailyQuest>
+		<OnReceiveTongKnowledge>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		UNICODE			</Arg>
+		</OnReceiveTongKnowledge>
+		<OnKnowledgeAnswerResult>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+		</OnKnowledgeAnswerResult>
+		<CLIENT_CloseTongKnowledge/>
+		<OnQuestInitNotity/>
+		<StartWhisperQuest>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		STRING			</Arg>
+		</StartWhisperQuest>
+		<StartTimeQuest>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32			</Arg>
+		</StartTimeQuest>
+		<SetQuestTaskDone>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</SetQuestTaskDone>
+		<OnCompleteWhisperQuest>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		UINT8			</Arg>
+		</OnCompleteWhisperQuest>
+		<ShowTongDailyQuestSpaceWin>
+			<Arg>	UNICODE	</Arg>	<!-- tip -->
+			<Arg>	UNICODE	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</ShowTongDailyQuestSpaceWin>
+		<ShowLoopQuestWin/>
+	</ClientMethods>
+
+	<CellMethods>
+		<triggerQuestEvent>
+			<Arg>	UINT16	</Arg>
+			<Arg>	PYTHON	</Arg>
+		</triggerQuestEvent>
+
+		<addQuestRecordAIIDS>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</addQuestRecordAIIDS>
+
+		<removeQuestRecordAIIDS>
+			<Arg>	INT32	</Arg>
+		</removeQuestRecordAIIDS>
+
+		<rquestToAcceptQuest>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</rquestToAcceptQuest>
+
+		<requestToCommitQuest>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</requestToCommitQuest>
+
+		<requestToAbandonQuest>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</requestToAbandonQuest>
+
+		<questTaskIncreaseState>
+			<Arg>	QUESTID	</Arg>
+			<Arg>	INT32	</Arg>
+		</questTaskIncreaseState>
+
+		<questTaskResetState>
+			<Arg>	QUESTID	</Arg>
+			<Arg>	INT32	</Arg>
+		</questTaskResetState>
+
+		<broadcastQuestEvent>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</broadcastQuestEvent>
+		<questChooseReward>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</questChooseReward>
+
+		<requestTongDailyQuest>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</requestTongDailyQuest>
+		<acceptTongDailyQuest>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</acceptTongDailyQuest>
+		<playerAnswerTongQuestion>
+			<Exposed/>
+			<Arg>	QUESTID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+		</playerAnswerTongQuestion>
+		<selectNextTongQuestion>
+			<Exposed/>
+			<Arg>	QUESTID	</Arg>
+		</selectNextTongQuestion>
+		<stopTongQuestion>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</stopTongQuestion>
+		<completeWhisperQuest>
+			<Exposed/>
+			<Arg>	QUESTID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</completeWhisperQuest>
+		<clearAbandonQuest>
+		</clearAbandonQuest>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

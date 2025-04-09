@@ -1,0 +1,27 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<AddInitiativeRange/>
+	</ClientMethods>
+
+	<CellMethods>
+		<interactionResults>
+			<Exposed/>
+		</interactionResults>
+	</CellMethods>
+</root>
+

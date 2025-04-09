@@ -1,0 +1,10 @@
+<root>
+	<BaseMethods>
+		<registerRelationSpace>
+			<Arg>	STRING		</Arg>
+		</registerRelationSpace>
+		<unRegisterRelationSpace>
+			<Arg>	STRING		</Arg>
+		</unRegisterRelationSpace>
+	</BaseMethods>
+</root>

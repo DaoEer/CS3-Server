@@ -1,0 +1,23 @@
+<root>
+
+	<Parent>
+		SpellBox
+	</Parent>
+	
+	<Interfaces>
+	</Interfaces>
+	
+	<Properties>
+		<creatorDBID>
+			<Type>		DBID			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+		</creatorDBID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

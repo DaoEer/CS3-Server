@@ -1,0 +1,42 @@
+<root>
+	<Parent>
+		SpellBox
+	</Parent>
+	
+	<Interfaces>
+	</Interfaces>
+	
+	<Properties>
+		<spellBoxItemList>
+			<Type>			ITEMLIST			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		[]			</Default>
+		</spellBoxItemList>
+		<tongLeaderRewardData>
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		{}			</Default>
+		</tongLeaderRewardData>
+		<tongMemberRewardData>
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		{}			</Default>
+		</tongMemberRewardData>
+		<belongEntityDBID>
+			<Type>			DBID			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+		</belongEntityDBID>
+		<firstOpen>
+			<Type>			BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		1			</Default>
+		</firstOpen>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

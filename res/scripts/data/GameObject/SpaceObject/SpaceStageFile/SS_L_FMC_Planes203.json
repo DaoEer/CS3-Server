@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "正面瞄准随机出现的靶子，使用神火击中它。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击中靶子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012636", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "射击随机出现的靶子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "驭火打靶"
+}

@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败青丘妖卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001329|20001330|20001322", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-80603.0 -74620.0 -5410.0)#L_KWSM_Planes003"
+                }
+            }, 
+            "title": "灭妖闯妖洞"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "降服九头雉鸡精", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20001325#L_KWSM_Planes003"
+                }
+            }, 
+            "title": "降妖问妖踪"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "青丘洞"
+}

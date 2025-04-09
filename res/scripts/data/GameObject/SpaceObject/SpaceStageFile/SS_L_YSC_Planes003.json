@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入道场", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-29270 -35075 14240:30", 
+                    "param2": "24192|10240", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-29270 -35075 14240)#L_YSC_Planes003"
+                }
+            }, 
+            "title": "抵达道场"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到紫虚", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-29410.0 -49000.0 15338.056641:20", 
+                    "param2": "18338|10338", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-29426.0 -49365.0 15304.0)#L_YSC_Planes003"
+                }
+            }, 
+            "title": "寻找紫虚"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁侍卫长", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000072", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000072#L_YSC_Planes003"
+                }
+            }, 
+            "title": "血战道场"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "成功救下紫虚", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "240", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000010#L_YSC_Planes003"
+                }
+            }, 
+            "title": "解救紫虚"
+        }
+    }, 
+    "describe": "仙道5级", 
+    "beginOnSpaceInit": 1, 
+    "name": "太寅道场"
+}

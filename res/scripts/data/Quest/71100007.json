@@ -1,0 +1,81 @@
+{
+    "71100007": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 50, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "203020058", 
+                "id": 1, 
+                "name": "木材"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 50, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "203020059", 
+                "id": 2, 
+                "name": "石材"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 50, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "203020060", 
+                "id": 3, 
+                "name": "玄铁"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 71100007, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "C001816"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "40", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptQiYuan", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestQiYuan", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}前往轮回秘境第二层，收集齐@F{fc=c4}木材@D*50，@F{fc=c4}石材@D*50，@F{fc=c4}玄铁@D*50，材料收集齐后，便可以返回洞府福地处，建造自己的洞府。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "71100008", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "收集材料", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 0
+    }
+}

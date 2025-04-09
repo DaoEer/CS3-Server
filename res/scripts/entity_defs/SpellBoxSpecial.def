@@ -1,0 +1,40 @@
+<root>
+	<Parent>
+		SpellBox
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<allinteractive>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		[]			</Default>
+			<Persistent>	false		</Persistent>
+		</allinteractive>
+		<playerCoolList>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}			</Default>
+			<Persistent>	false		</Persistent>
+		</playerCoolList>
+		<playerIsCoolList>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}			</Default>
+			<Persistent>	false		</Persistent>
+		</playerIsCoolList>
+		<playerDestroyTimeList>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}			</Default>
+			<Persistent>	false		</Persistent>
+		</playerDestroyTimeList>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

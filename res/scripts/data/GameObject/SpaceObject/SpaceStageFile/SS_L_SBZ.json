@@ -1,0 +1,102 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败神兵妖灵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009836|20009837|20009838", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-62714.000000 4637.186035 -19612.625000)#L_SBZ"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败神兵器灵", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009842|20009843|20009844", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-40311.574219 5190.000000 -19461.914063)#L_SBZ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败神兵鬼灵", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009839|20009840|20009841", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-51715.714844 6746.041992 -19617.380859)#L_SBZ"
+                }
+            }, 
+            "title": "神兵冢"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过神兵冢主的考验", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(4703.0 3949.0 -16005.000000000002)#L_SBZ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回太清宫", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(6265.861328 7372.733398 -16049.220703)#L_SBZ"
+                }
+            }, 
+            "title": "神兵的考验"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入神兵冢", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-17218.416016 3421.184570 -16420.978516:15", 
+                    "param2": "-15920|-16920", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-17218.416016 3421.184570 -16420.978516)#L_SBZ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败重魁", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009845", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-11021.574219 3560.000000 -15701.767578)#L_SBZ"
+                }
+            }, 
+            "title": "机关重重"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "上古神器"
+}

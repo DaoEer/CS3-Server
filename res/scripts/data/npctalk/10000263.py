@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "10000263": {
+        "talks": [
+            {
+                "msg": "Q017106", 
+                "keys": [], 
+                "functions": [], 
+                "key": "Talk", 
+                "visibles": []
+            }
+        ], 
+        "npcID": "10000263"
+    }
+}

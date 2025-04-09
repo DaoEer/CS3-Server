@@ -1,0 +1,53 @@
+<root>
+	<Parent>
+		SpellBox
+	</Parent>
+	
+	<Interfaces>
+	</Interfaces>
+	
+	<Properties>
+		<lingTianNum>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+		</lingTianNum>
+		<seedNum>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</seedNum>
+		<endTimeStr>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+		</endTimeStr>
+		<growthStage>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</growthStage>
+		<belongDBID>
+			<Type>			DBID			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</belongDBID>
+	</Properties>
+
+	<ClientMethods>
+		<ShowLingTianPlantUI>
+			<Arg>		INT32 		</Arg>
+		</ShowLingTianPlantUI>
+		<ShowGrowUpMsgUI>
+			<Arg>		INT32 		</Arg>
+			<Arg>		STRING		</Arg>
+		</ShowGrowUpMsgUI>
+	</ClientMethods>
+
+	<CellMethods>
+		<onClickPlant>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</onClickPlant>
+	</CellMethods>
+</root>

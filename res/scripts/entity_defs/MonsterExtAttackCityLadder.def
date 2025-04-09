@@ -1,0 +1,34 @@
+<root>
+	<Parent>
+		MonsterExtMain
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<isOperationLadder>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</isOperationLadder>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_LadderMoveFinish>
+			<Arg>	STRING	</Arg>
+		</CLIENT_LadderMoveFinish>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_operationLadder>
+			<Exposed/>
+		</CELL_operationLadder>
+	</CellMethods>
+</root>
+

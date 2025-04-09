@@ -1,0 +1,166 @@
+{
+    "20101029": {
+        "tasks": [
+            {
+                "navigateData": "20000011#L_YSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000011", 
+                "id": 1, 
+                "name": "摧毁第一座传送门"
+            }, 
+            {
+                "navigateData": "20000012#L_YSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000012", 
+                "id": 2, 
+                "name": "摧毁第二座传送门"
+            }, 
+            {
+                "navigateData": "20000013#L_YSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000013", 
+                "id": 3, 
+                "name": "摧毁第三座传送门"
+            }, 
+            {
+                "navigateData": "30000008#L_YSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 4, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "守卫试剑台"
+            }, 
+            {
+                "navigateData": "20000238#L_YSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 5, 
+                "name": "探查魔道入侵手段"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2006|2007"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101029, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101026"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1570", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "143", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "179", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "208", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102050007", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}魔道入侵事有蹊跷，请你速速前往后山查明魔道入侵手段。|@S{4}魔道正利用传送门源源不断的往盘古洞天增派人手，请你毁去后山上魔道设下的三处传送门。|@S{4}魔道正利用传送门源源不断的往盘古洞天增派人手，请你毁去后山上魔道设下的三处传送门。|@S{4}魔道正利用传送门源源不断的往盘古洞天增派人手，请你毁去后山上魔道设下的三处传送门。|@S{4}试剑台同道发出求救信号，请你前往试剑台支援。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101007", 
+        "taskCompleteFunctions": {
+            "3": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000008"
+                }
+            ]
+        }, 
+        "level": 6, 
+        "title": "（废弃）试剑台之战", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

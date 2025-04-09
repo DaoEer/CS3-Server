@@ -1,0 +1,117 @@
+{
+    "80135022": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "5", 
+                "param2": "111891.0 -42378.0 -16944.0", 
+                "param1": "L_FMNL", 
+                "id": 1, 
+                "name": "进入传送门，前往凤鸣南麓"
+            }, 
+            {
+                "navigateData": "40000030#L_FMNL", 
+                "goal": 10, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010055", 
+                "id": 2, 
+                "name": "庚金矿石"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001269", 
+                "id": 3, 
+                "name": "回禀海云帆"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000913"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135022, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "10", 
+                "param1": "301010055"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0.000083", 
+                "param2": "1", 
+                "param1": "303010054"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "25"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000081", 
+        "finish_by": "10001269", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncRingTaskEnterParentScene", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "cycle_L_HRWMJ01|cycle_L_HRWMJ02|cycle_L_HRWMJ03"
+                }
+            ]
+        }, 
+        "level": 25, 
+        "title": "采集庚金", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 0
+    }
+}

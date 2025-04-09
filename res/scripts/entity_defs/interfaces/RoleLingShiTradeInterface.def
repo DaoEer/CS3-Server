@@ -1,0 +1,172 @@
+<root>
+	<Properties>
+		<linShiSell>
+			<Type>				LINGSHITRADE_DATAS			</Type>
+			<Flags>				BASE		</Flags>
+			<Persistent>		false				</Persistent>
+		</linShiSell>
+		<lingShiCollect>
+			<Type>				LINGSHITRADE_DATAS			</Type>
+			<Flags>				BASE		</Flags>
+			<Persistent>		false				</Persistent>
+		</lingShiCollect>
+	</Properties>
+	<ClientMethods>
+		<AddOrderCB>
+			<Arg> ORDER_DATA </Arg>
+		</AddOrderCB>
+		<UpdataMyOrderToClient>
+			<Arg> ORDER_DATA </Arg>
+		</UpdataMyOrderToClient>
+		<UpdataOrder>
+			<Arg> UPDATA_ORDER_DATA </Arg>
+		</UpdataOrder>
+		<RemoveLingShiTradeOrderCB>
+			<Arg> STRING </Arg>
+		</RemoveLingShiTradeOrderCB>
+		<RefreshMyOrderCB>
+			<Arg> ORDER_DATAS </Arg>
+		</RefreshMyOrderCB>
+		<RefreshAllSellOrderCB>
+			<Arg> ORDER_DATAS </Arg>
+		</RefreshAllSellOrderCB>
+		<RefreshAllCollectOrder>
+			<Arg> ORDER_DATAS </Arg>
+		</RefreshAllCollectOrder>
+		<GetAllOrderCB>
+			<Arg> ALL_ORDER_DATAS </Arg>
+		</GetAllOrderCB>
+	</ClientMethods>
+	<BaseMethods>
+		<addSellOrder>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</addSellOrder>
+		<addSellOrderCB>
+			<Arg> LINGSHITRADE_DATA</Arg>
+		</addSellOrderCB>
+		<updataMyOrderToClient>
+			<Arg> LINGSHITRADE_DATA</Arg>
+			<Arg> LINGSHITRADE_SUCCESS_DATA</Arg>
+		</updataMyOrderToClient>
+		<updataOrder>
+			<Arg> LINGSHITRADE_DATA</Arg>
+			<Arg> LINGSHITRADE_SUCCESS_DATA</Arg>
+		</updataOrder>
+		<updataMyOrder>
+			<Arg> LINGSHITRADE_DATA</Arg>
+		</updataMyOrder>
+		<buyLinShiTradeOrder>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT64 </Arg>
+			<Arg>  STRING </Arg>
+		</buyLinShiTradeOrder>
+		<buyLinShiTradeOrderCB>
+			<Arg>  INT32 </Arg>
+		</buyLinShiTradeOrderCB>
+		<sellLingShiTradeOrder>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  STRING </Arg>
+		</sellLingShiTradeOrder>
+		<sellLingShiTradeOrderCB>
+			<Arg>  INT32 </Arg>
+		</sellLingShiTradeOrderCB>
+		<removeLingShiTradeOrder>
+			<Exposed/>
+			<Arg>  STRING </Arg>
+		</removeLingShiTradeOrder>
+		<removeLingShiTradeOrderCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  STRING </Arg>
+		</removeLingShiTradeOrderCB>
+		<refreshMyOrder>
+			<Exposed/>
+		</refreshMyOrder>
+		<addOrder>
+			<Arg> LINGSHITRADE_DATA</Arg>
+		</addOrder>
+		<takeOutMoney>
+		</takeOutMoney>
+		<takeOutMoneyCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</takeOutMoneyCB>
+		<addLingShiBuyOrder>
+			<Arg>  INT32 </Arg>
+		</addLingShiBuyOrder>
+		<addAllLingShiTradeSellOrder>
+			<Arg> LINGSHITRADE_DATA</Arg>
+		</addAllLingShiTradeSellOrder>
+		<addAllLingShiTradeCollectOrder>
+			<Arg> LINGSHITRADE_DATA</Arg>
+		</addAllLingShiTradeCollectOrder>
+		<requestGetOrder>
+			<Exposed/>
+		</requestGetOrder>
+		<addCollectOrder>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</addCollectOrder>
+		<addCollectOrderCB>
+			<Arg> LINGSHITRADE_DATA</Arg>
+		</addCollectOrderCB>
+		<refreshAllSellOrder>
+			<Exposed/>
+		</refreshAllSellOrder>
+		<refreshAllCollectOrder>
+			<Exposed/>
+		</refreshAllCollectOrder>
+	</BaseMethods>
+	<CellMethods>
+		<addSellOrder>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</addSellOrder>
+		<addCollectOrder>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</addCollectOrder>
+		<addCollectOrderCB>
+			<Arg>  INT32 </Arg>
+		</addCollectOrderCB>
+		<buyLinShiTradeOrder>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  STRING </Arg>
+		</buyLinShiTradeOrder>
+		<buyLinShiTradeOrderCB>
+			<Arg>  INT64 </Arg>
+		</buyLinShiTradeOrderCB>
+		<sellLingShiTradeOrder>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  STRING </Arg>
+		</sellLingShiTradeOrder>
+		<sellLingShiTradeOrderCB>
+			<Arg>  INT32 </Arg>
+		</sellLingShiTradeOrderCB>
+		<removeLingShiTradeOrder>
+			<Arg>  STRING </Arg>
+			<Arg>  INT32 </Arg>
+		</removeLingShiTradeOrder>
+		<removeLingShiTradeOrderCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  STRING </Arg>
+		</removeLingShiTradeOrderCB>
+		<takeOutMoney>
+			<Exposed/>
+		</takeOutMoney>
+		<takeOutMoneyCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</takeOutMoneyCB>
+		<addMoneyBuySOrder>
+			<Arg>  INT32 </Arg>
+		</addMoneyBuySOrder>
+	</CellMethods>
+</root>

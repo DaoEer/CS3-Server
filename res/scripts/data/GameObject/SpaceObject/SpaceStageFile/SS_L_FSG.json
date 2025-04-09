@@ -1,0 +1,108 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭风神宫守卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008636", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(396.1 8560.0 2234.9)#L_FSG"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭风神宫护法", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008638|20008639|20008735|20008736", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008638|20008639|20008735|20008736#L_FSG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄劫", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20008635#L_FSG"
+                }
+            }, 
+            "title": "初探风神宫"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄劫", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008645", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008645#L_FSG"
+                }
+            }, 
+            "title": "击败玄劫"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破风煞阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-9655.0 8593.0 3570.0)#L_FSG"
+                }
+            }, 
+            "title": "破风煞阵"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫巽", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-40005.2 8536.7 5203.1)#L_FSG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "探查谛听下落", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-40005.2 8536.7 5203.1)#L_FSG"
+                }
+            }, 
+            "title": "深入风神宫"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "风神宫"
+}

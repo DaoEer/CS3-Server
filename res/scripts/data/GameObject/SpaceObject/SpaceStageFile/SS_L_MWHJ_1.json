@@ -1,0 +1,91 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "迷雾成因", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "异象"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败灵蛇幻象", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010488|20010489", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1224.903320 -25014.716797 1540.128296)#L_MWHJ_1"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "拾取神秘男子的灵剑分身", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010167", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败神秘男子", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-1187.0 -31407.0 1452.0)#L_MWHJ_1"
+                }
+            }, 
+            "title": "拼死相搏"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败巨猿幻象", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014370", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-533.048828 -2660.104980 1590.906372)#L_MWHJ_1"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追击神秘男子", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-382.921265 -4271.067383 1553.267700)#L_MWHJ_1"
+                }
+            }, 
+            "title": "探寻真相"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "魔雾幻境"
+}

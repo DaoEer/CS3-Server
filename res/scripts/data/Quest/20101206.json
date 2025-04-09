@@ -1,0 +1,105 @@
+{
+    "20101206": {
+        "tasks": [
+            {
+                "navigateData": "40000017#L_FLS", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010032", 
+                "id": 1, 
+                "name": "采集凝神草"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3086"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101206, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "5", 
+                "param1": "301010032"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101205"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3889", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "885", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8837", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "715", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032096|Q030411|Q030412", 
+        "finish_by": "10000362#L_FLS", 
+        "taskLogDes": "@S{4} 周阳长老神识受损，请你前往青月林附近，采集@F{fc=c41}凝神草@D助他恢复神识。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030100|Q032098", 
+        "nextQuest": "20101207", 
+        "taskCompleteFunctions": {}, 
+        "level": 21, 
+        "title": "凝神草", 
+        "isAutoCommit": 1, 
+        "start_by": "10000362#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

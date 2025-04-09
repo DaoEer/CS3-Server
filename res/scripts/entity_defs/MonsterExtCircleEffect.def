@@ -1,0 +1,35 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Properties>	
+		<startRadius>
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</startRadius>
+		<originRadius>
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</originRadius>
+		<reduceRadius>
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</reduceRadius>
+		<intervaTimer>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</intervaTimer>
+		<checkAreaTimer>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</checkAreaTimer>
+	</Properties>
+</root>
+

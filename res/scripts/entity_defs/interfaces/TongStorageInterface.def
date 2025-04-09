@@ -1,0 +1,80 @@
+<root>
+	<Properties>
+		<storeBags>
+			<!-- 帮会仓库 -->
+			<Type>			STORE_BAGS		</Type>
+			<Flags>			BASE			</Flags>
+			<Persistent>		true			</Persistent>
+		</storeBags>
+		<storeCapacity>
+			<!-- 帮会仓库容量 -->
+			<Type>			INT32			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		0			</Default>
+			<Persistent>		true			</Persistent>
+		</storeCapacity>
+	</Properties>
+	<CellMethods>
+		
+	</CellMethods>
+
+	<BaseMethods>
+		<enterTongStorage>
+			<Arg>		DBID	</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</enterTongStorage>
+
+		<requestSaveTongItem>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+			<Arg>		INT32		</Arg>
+   		</requestSaveTongItem>
+  		 <requestTakeTongItem>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+   		</requestTakeTongItem>
+  		 <onRequestTakeTongItemFail>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</onRequestTakeTongItemFail>
+  		 <swapTongItemAC>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+   		</swapTongItemAC>
+  		 <swapItemFromTongStoreToBag>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</swapItemFromTongStoreToBag>
+  		 <swapItemFromBagToTongStore>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</swapItemFromBagToTongStore>
+  		 <sortTongStoreItem>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		INT32		</Arg>
+   		</sortTongStoreItem>
+  		 <requestRemoveTongStoreItem>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		UID		</Arg>
+   		</requestRemoveTongStoreItem>
+   		<removeTongStoreItem>
+   			<Arg>		INT32		</Arg>
+   			<Arg>		INT32		</Arg>
+   			<Arg>	CELL_ENTITYCALL	</Arg>
+   		</removeTongStoreItem>
+	</BaseMethods>
+
+	<ClientMethods>
+		
+	</ClientMethods>
+</root>

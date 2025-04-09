@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬心冰灵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009771|20009772|20009773", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009771|20009772|20009773#L_JTXH"
+                }
+            }, 
+            "title": "初至九天星河"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭断魂冰灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009783", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009783#L_JTXH"
+                }
+            }, 
+            "title": "九天星河深处"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭暗影冰灵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009776|20009777", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009776|20009777#L_JTXH"
+                }
+            }, 
+            "title": "闯入九天星河"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭星河冰妖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009784", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009784#L_JTXH"
+                }
+            }, 
+            "title": "星河冰妖现"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "九天星河"
+}

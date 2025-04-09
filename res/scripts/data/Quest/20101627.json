@@ -1,0 +1,126 @@
+{
+    "20101627": {
+        "tasks": [
+            {
+                "navigateData": "(-9697.0 20592.0 -2764.0)#L_SGMJ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "进入上古秘境"
+            }, 
+            {
+                "navigateData": "20002369|20002370#L_SGMJ", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002369|20002370", 
+                "id": 2, 
+                "name": "消灭上古守卫"
+            }, 
+            {
+                "navigateData": "30000035#L_SGMJ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "通过上古秘境试炼"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110291003"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3018"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101627, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101626"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3201", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "667", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1083", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "474", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020617", 
+        "finish_by": "10000290#L_SGMJ", 
+        "taskLogDes": "@S{4}在落霞谷通过神兽毕方的考验之后，毕方指引你前往落霞谷的上古秘境接受魔君传承。请你通过上古秘境的试炼，得到魔君传承。|@S{4}在落霞谷通过神兽毕方的考验之后，毕方指引你前往落霞谷的上古秘境接受魔君传承。请你通过上古秘境的试炼，得到魔君传承。|@S{4}在落霞谷通过神兽毕方的考验之后，毕方指引你前往落霞谷的上古秘境接受魔君传承。请你通过上古秘境的试炼，得到魔君传承。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020627", 
+        "nextQuest": "20101628|20101629|20101630|20101631", 
+        "taskCompleteFunctions": {}, 
+        "level": 15, 
+        "title": "（废弃）上古秘境", 
+        "isAutoCommit": 1, 
+        "start_by": "10001079#L_LXGJD", 
+        "isAutoAccept": 1
+    }
+}

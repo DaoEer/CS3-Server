@@ -1,0 +1,39 @@
+{% extends "gmtools/base.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+    <link rel="stylesheet" type="text/css" media="all" href="/static/jscalendar-1.0/calendar-win2k-cold-1.css" title="win2k-cold-1"/>
+
+    <script type="text/javascript" src="/static/jscalendar-1.0/calendar.js"></script>
+    <script type="text/javascript" src="/static/jscalendar-1.0/lang/calendar-en.js"></script>
+    <script type="text/javascript" src="/static/jscalendar-1.0/calendar-setup.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="page-header">活动管理</h2>
+            <table class="table table-striped table-condensed">
+                <tbody>
+                 <tr>
+                 <td>
+                    <div id = "navbar" class = "navbar-collapse collapse">
+                         <ul class="nav navbar-nav navbar-left">
+                            <li class="activity_open"><a href="/gmtools/activity/open">活动开启</a> </li>
+                            <li class="activity_close"><a href="/gmtools/activity/close">活动关闭</a> </li>
+                            <li class="activity_close"><a href="/gmtools/activity/cancel">取消预约活动</a> </li>
+                         </ul>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block tail_js %}
+    <script>$(".m_activity_manage").addClass("active");</script>
+
+{% endblock %}

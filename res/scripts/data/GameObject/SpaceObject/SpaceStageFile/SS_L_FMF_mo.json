@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "没想到飞魔峰被这群太阳宫贼人占领了，击败他们，夺回飞魔峰", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "击败太阳宫弟子", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014749|20014750|20014751|20014752|20014753|20014754|20014755", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(7879.1 8350.0 5926.9)#L_FMF_mo"
+                }
+            }, 
+            "title": "肃清"
+        }, 
+        "3": {
+            "comment": "找到玄火神鹰，击败他", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "再战玄火神鹰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014757", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-4490.0 -7010.0 8530.0)#L_FMF_mo"
+                }
+            }, 
+            "title": "追击"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭耀空", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014756", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4850.0 -2341.5 7350.7)#L_FMF_mo"
+                }
+            }, 
+            "title": "剿灭"
+        }, 
+        "4": {
+            "comment": "只能先去魔王殿支援祖巫帝江了", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往魔王殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-9790.4 -8810.1 8881.5)#L_FMF_mo"
+                }
+            }, 
+            "title": "支援"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "飞魔峰"
+}

@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "闯入飞凤府，寻得饕餮的下落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-7420.547363 -92925.8125 -16648.876953:20", 
+                    "param2": "-11668|-21668", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20002789#L_FMNL_Planes101"
+                }
+            }, 
+            "title": "飞凤府"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败白翎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20002789#L_FMNL_Planes101"
+                }
+            }, 
+            "title": "飞凤族长"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "降服飞凤氏族"
+}

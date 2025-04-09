@@ -1,0 +1,88 @@
+{
+    "20102109": {
+        "tasks": [
+            {
+                "navigateData": "(1992.0 26788.0 46180.0)#L_CYG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "营救谛听"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002004"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102109, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102115|20102116"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22606", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "888", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9975", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045477|Q045478|Q042350|Q042233", 
+        "finish_by": "10000126#L_TQG", 
+        "taskLogDes": "@S{4}祖巫天吴精通风系阵法，战力非凡，但元始天尊之徒惧留孙，熟知阵法原理正好克他。老君请你先行前往朝阳谷，他随后便命惧留孙前去助你一臂之力。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042257", 
+        "nextQuest": "20102110|20102110|20102110|20102111", 
+        "taskCompleteFunctions": {}, 
+        "level": 37, 
+        "title": "朝阳谷", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126#L_TQG", 
+        "isAutoAccept": 1
+    }
+}

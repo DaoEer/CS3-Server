@@ -1,0 +1,40 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<signUpActivity>
+			<Arg>	DBID		</Arg>
+			<Arg>	DBID		</Arg>
+		</signUpActivity>
+		<onSureMember>
+			<Arg>	INT32		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onSureMember>
+		<enterTongPlunderSpace>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	DBID		</Arg>
+		</enterTongPlunderSpace>
+		<reqeustSetTongPlunderEnterStatus>
+			<Arg>	INT32		</Arg>
+			<Arg>	FLOAT		</Arg>
+		</reqeustSetTongPlunderEnterStatus>
+		<onPlayerLeaveSpace>
+			<Arg>	DBID	</Arg>
+		</onPlayerLeaveSpace>
+		<onReviveNumUseup>
+			<Arg>	DBID	</Arg>
+		</onReviveNumUseup>
+		<onActivityGetTheResult>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+		</onActivityGetTheResult>
+	</BaseMethods>
+</root>

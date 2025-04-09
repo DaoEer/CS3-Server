@@ -1,0 +1,66 @@
+{
+    "20101513": {
+        "tasks": [
+            {
+                "navigateData": "10000104#L_XLD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskLearnSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "190302001", 
+                "id": 1, 
+                "name": "学习“裂地摧星”"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101513, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101510"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q010710|Q010712", 
+        "finish_by": "10000104#L_XLD", 
+        "taskLogDes": "@S{4}大师兄刑天阳想要传授你门派核心功法，请你前往大师兄处学习@F{fc=c3}裂地摧星@D。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q010713", 
+        "nextQuest": "20101516", 
+        "taskCompleteFunctions": {}, 
+        "level": 2, 
+        "title": "学习魔功", 
+        "isAutoCommit": 1, 
+        "start_by": "10000104#L_XLD", 
+        "isAutoAccept": 1
+    }
+}

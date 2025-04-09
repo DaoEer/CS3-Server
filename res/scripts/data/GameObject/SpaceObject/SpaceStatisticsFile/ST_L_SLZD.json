@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 交互宝箱，获得道具。@B• 小心地面蛛网和毒液陷阱。@B• 小心不要被火焰灼伤。@B• 抵达终点，消灭魔蛛幻象，最终消耗的时间越短奖励越丰厚。", 
+            "entrys": {
+                "2": {
+                    "title": "击败魔蛛幻象", 
+                    "postfix": "/1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "201", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "通过试炼"
+        }
+    }, 
+    "name": "试炼之地"
+}

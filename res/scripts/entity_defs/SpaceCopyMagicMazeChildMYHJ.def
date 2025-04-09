@@ -1,0 +1,48 @@
+<root>
+	<Parent>
+		SpaceCopyMagicMaze
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<sceneObjectCoordList>
+			<Type>		ARRAY_INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>			[]			</Default>
+			<Persistent>	false			</Persistent>
+		</sceneObjectCoordList>
+		<pointHasPiece>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}			</Default>
+			<Persistent>	false		</Persistent>
+		</pointHasPiece>
+		<pointHasEntity>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}			</Default>
+			<Persistent>	false		</Persistent>
+		</pointHasEntity>
+		<isComplete>
+			<Type>			BOOL			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</isComplete>
+		<startTime>
+			<Type>			FLOAT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+		</startTime>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

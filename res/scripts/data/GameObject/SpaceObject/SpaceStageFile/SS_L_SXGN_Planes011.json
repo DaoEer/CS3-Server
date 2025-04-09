@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "击败第一波敌人", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败第一波敌人", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005650", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败第一波敌人"
+        }, 
+        "3": {
+            "comment": "击败第三波敌人", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败第三波敌人", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005808", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败第三波敌人"
+        }, 
+        "2": {
+            "comment": "击败第二波敌人", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败第二波敌人", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005807", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败第二波敌人"
+        }, 
+        "4": {
+            "comment": "激战鲲鹏、帝江，救出帝俊、羲和", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激战鲲鹏、帝江", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "4", 
+                    "param2": "20005598", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "激战鲲鹏、帝江"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "勇闯锁仙宫"
+}

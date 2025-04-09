@@ -1,0 +1,194 @@
+{
+    "stages": {
+        "11": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "回到天魔宫", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-14930.0 580.0 -1561.7)#L_PGSD_01"
+                }
+            }, 
+            "title": "回到天魔宫"
+        }, 
+        "10": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "使用传音符篆", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "通知祖巫句芒"
+        }, 
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "往前查探", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-7460.0 -6020.0 -840.0:20", 
+                    "param2": "2160|-3840", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-7460.0 -6020.0 -840.0)#L_PGSD_01"
+                }
+            }, 
+            "title": "初探盘古神殿"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续探查神殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "857", 
+                    "param2": "20010339", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(4640.0 -5950.3 -429.8)#L_PGSD_01"
+                }
+            }, 
+            "title": "继续寻找天书"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败盘古神殿石像", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009965", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-7460.0 -6020.0 -840.0)#L_PGSD_01"
+                }
+            }, 
+            "title": "打败镇守的石像"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续深入寻找八部天书", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(8820.0 3400.0 -790.0)#L_PGSD_01"
+                }
+            }, 
+            "title": "继续前进"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败拦路的石像", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010339|20010340", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4640.0 -5950.3 -429.8)#L_PGSD_01"
+                }
+            }, 
+            "title": "扫清障碍"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "456", 
+                    "param2": "20010348", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-10140.0 3530.0 -1560.0)#L_PGSD_01"
+                }
+            }, 
+            "title": "继续深入"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败剑灵与小剑灵", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010351|20010352", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(8820.0 3400.0 -790.0)#L_PGSD_01"
+                }
+            }, 
+            "title": "击败剑灵"
+        }, 
+        "9": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获取八部天书", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010161", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(-14820.0 3570.0 -1430.0)#L_PGSD_01"
+                }
+            }, 
+            "title": "取八部天书"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败巨神兵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010348", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-10140.0 3530.0 -1560.0)#L_PGSD_01"
+                }
+            }, 
+            "title": "最后的考验"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "寻找八部天书"
+}

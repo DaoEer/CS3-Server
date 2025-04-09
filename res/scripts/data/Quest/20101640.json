@@ -1,0 +1,207 @@
+{
+    "20101640": {
+        "tasks": [
+            {
+                "navigateData": "40000021#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "用宝库钥匙打开乾坤宝库大门"
+            }, 
+            {
+                "navigateData": "30000083#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010043", 
+                "id": 2, 
+                "name": "进入乾坤宝库，寻找混元星斗图"
+            }, 
+            {
+                "navigateData": "30000083#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "杀出乾坤宝库，与祝融一起撤离"
+            }, 
+            {
+                "navigateData": "10000029#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 4, 
+                "param3": "12", 
+                "param2": "52160 9430 17435.232422", 
+                "param1": "L_XYM", 
+                "id": 4, 
+                "name": "回禀鲲鹏"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010042"
+            }, 
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110000101"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101640, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010043"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|3|4"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101638"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010042"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010043"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "5029", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "753", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1223", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "586", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102040003|102040008|102040013|102040018", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q020856", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}祖巫祝融感应到有大量仙道援军正在赶来，请你速速带着钥匙闯入乾坤宝库取得混元星斗图。|@S{4}祖巫祝融感应到有大量仙道援军正在赶来，请你速速带着钥匙闯入乾坤宝库取得混元星斗图。|@S{4}你已取得混元星斗图，请突破仙道的阻拦，返回逍遥门。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101639", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncEnterPlane", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "L_WSS_Planes007"
+                }, 
+                {
+                    "script": "QuestFuncRemoveItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010042"
+                }
+            ], 
+            "4": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000286"
+                }
+            ]
+        }, 
+        "level": 18, 
+        "title": "（废弃）乾坤宝库", 
+        "isAutoCommit": 1, 
+        "start_by": "10000371#L_WSS", 
+        "isAutoAccept": 1
+    }
+}

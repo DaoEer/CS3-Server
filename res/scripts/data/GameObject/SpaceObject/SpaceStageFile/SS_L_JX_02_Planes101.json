@@ -1,0 +1,152 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫禁卫统领", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007495", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(13072.826172 9689.333984 216.061493)#L_JX_02_Planes101"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫禁卫", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007484|20007485", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(14410.000000 -3492.369141 152.941895)#L_JX_02_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫弟子", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006047|20006048|20007481", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(13072.826172 9689.333984 216.061493)#L_JX_02_Planes101"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫虎将", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007487|20007488|20007489|20007490|20007491", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12279.0 -14757.0 225.0)#L_JX_02_Planes101"
+                }
+            }, 
+            "title": "攻占碎石坡"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫羽卫", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006047|20006048|20007482", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-19058.261719 -21043.343750 615.711182)#L_JX_02_Planes101"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫弟子", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007501|20007502|20007503|20007504|20007505|20007506", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-14197.240234 -7859.362793 698.523560)#L_JX_02_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太阳宫护法", 
+                    "reqVal": 2, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007499|20007500", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-14197.240234 -7859.362793 698.523560)#L_JX_02_Planes101"
+                }
+            }, 
+            "title": "冥风谷之战"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败雷霆真君", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007496", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(3252.0000000000005 -23495.0 588.0)#L_JX_02_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入冥风谷", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(2007.044678 -24268.091797 671.608887)#L_JX_02_Planes101"
+                }
+            }, 
+            "title": "攻占碎石坡"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败云华夫人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007507", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007507#L_JX_02_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "占领金星", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "20007509", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "冥风谷之战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "占领金星"
+}

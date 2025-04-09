@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "此处是幻兽聚集的栖息之地。在此捕获会有机会获得稀有幻兽", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "幻灵神域", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "幻灵神域"
+        }
+    }, 
+    "describe": "幻灵神域是大量幻兽聚集的栖息之地。在此进行捕获会有更多机会获得稀有幻兽", 
+    "beginOnSpaceInit": 1, 
+    "name": "幻灵神域"
+}

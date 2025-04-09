@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待接引开始布阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "等待布阵"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭上古神牛", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013097", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(18600.0 -34610.0 3020.0)#L_GMX"
+                }
+            }, 
+            "title": "消灭头领"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭鬼冥兽", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013093|20013094|20013095|20013096", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(18600.0 -34610.0 3020.0)#L_GMX"
+                }
+            }, 
+            "title": "为接引道人护法"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "五行灌灵阵"
+}

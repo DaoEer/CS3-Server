@@ -1,0 +1,131 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "清除拦路的玄阳殿守卫", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013513|20013514|20013522|20013523", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4340.0 -6020.31 -429.8)#L_XYD_mo"
+                }
+            }, 
+            "title": "追击羲和"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败熔岩守卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013515", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(15420.0 16290.0 -2600.0)#L_XYD_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败熔岩石傀", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013516", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(13260.0 21930.0 -2350.0)#L_XYD_mo"
+                }
+            }, 
+            "title": "突破炼狱"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "向前探查", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "8717.8 3627.2 -704.5:10", 
+                    "param2": "4296|-5704", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "继续追击"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协助帝江擒拿羲和", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-9430.0 3590.0 -1520.0)#L_XYD_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄阳火凤", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013518", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-9430.0 3590.0 -1520.0)#L_XYD_mo"
+                }
+            }, 
+            "title": "擒拿羲和"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找帝江", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "004", 
+                    "param2": "20013521", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(3166.9 6746.0 -1206.9)#L_XYD_mo"
+                }
+            }, 
+            "title": "会见帝江"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往北冰河", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-11670.0 1600.0 -1522.8)#L_XYD_mo"
+                }
+            }, 
+            "title": "前往北冰河"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "玄阳殿"
+}

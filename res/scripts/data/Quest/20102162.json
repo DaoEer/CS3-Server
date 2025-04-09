@@ -1,0 +1,96 @@
+{
+    "20102162": {
+        "tasks": [
+            {
+                "navigateData": "(-18160.000000 21580.000000 -1680.000000)#L_CDG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "找到三色神花"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002060"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102162, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102161"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "26353", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1330", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18122", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050458|Q050459|Q050460", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}小金乌历经魔化之劫，已伤其根本。太上老君命你带着小金乌前往彩蝶谷，找到三色神花，为小金乌恢复寿元。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102163", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "金乌续命", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126#L_TQG", 
+        "isAutoAccept": 1
+    }
+}

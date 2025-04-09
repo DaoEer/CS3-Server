@@ -1,0 +1,114 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Parent>
+		NPC
+	</Parent>
+
+	<Properties>
+		<index>
+			<Type>		INT32		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</index>
+		<occupyPlayerDBID>
+			<Type>		DBID		        </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</occupyPlayerDBID>
+		<occupyPlayerName>
+			<Type>		UNICODE		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</occupyPlayerName>
+		<occupyTongDBID>
+			<Type>	DBID		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</occupyTongDBID>
+		<occupyTongName>
+			<Type>	UNICODE		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Default>	""			    </Default>
+		</occupyTongName>
+		<declarePlayerDBID>
+			<Type>		DBID		        </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</declarePlayerDBID>
+		<declarePlayerName>
+			<Type>	UNICODE		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Default>	""			    </Default>
+		</declarePlayerName>
+		<declareTongDBID>
+			<Type>	DBID		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</declareTongDBID>
+		<declareTongName>
+			<Type>	UNICODE		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Default>	""			    </Default>
+		</declareTongName>
+		<declareWarState>
+			<Type>		UINT8		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	1			    </Default>
+		</declareWarState>
+		<declareWarTime>
+			<Type>		SERVER_TIME		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</declareWarTime>
+		<fightEndTime>
+			<Type>		STRING		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	""			    </Default>
+		</fightEndTime>
+		<restEndTime>
+			<Type>		STRING		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	""			    </Default>
+		</restEndTime>
+		<readyEndTime>
+			<Type>		STRING		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	""			    </Default>
+		</readyEndTime>
+		<pointType>
+			<Type>		UINT8		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	1			    </Default>
+		</pointType>
+		<maxJoinPlayerNum>
+			<Type>		INT32		        </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</maxJoinPlayerNum>
+		<joinAttackPlayerDBIDs>
+			<Type>		ARRAY_DBID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	[]			    </Default>
+		</joinAttackPlayerDBIDs>
+		<joinProtectPlayerDBIDs>
+			<Type>		ARRAY_DBID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	[]			    </Default>
+		</joinProtectPlayerDBIDs>
+		<notifyID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</notifyID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

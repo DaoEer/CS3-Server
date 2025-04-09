@@ -1,0 +1,48 @@
+﻿{
+"EntityType"	: "SpaceCopyBHZBPointWarPVP",
+"DomainType"	: "SpaceDomainCopyBHZBPoint",
+"EntityScript"	: "SpaceCopyBHZBPointWarPVP",
+"scriptID"	: "fu_ben_L_BHZB_CJJD_PVP",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_BHZB_CJJD_PVP",
+"NavmeshPath": "space\\L_BHZYZ_ZFBZD_NAVMESH",
+"PatrolRouteFile": "",
+"spaceChildType":"SPACE_CHILD_TYPE_GCZ",
+"EnfityRelationMode":"RelationGCZ",
+"RoleRelationRule":"ROLE_RELATION_RULE_BLONG_SIDE",
+"belongType": "0",
+"ExitSpace"	:{
+	"ScriptID"	: "fu_ben_L_BHZB_DBY",
+	"Position"	: "313.0 -19604.0 219.0",
+	"Direction"	: "0.0 0.0 -111.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 20,
+	"startLifeOnInit":0,
+	"reviveType": "22",
+	"dieAddReviveTime": 10,
+	"reviveRadius":3.0,
+	"reviveAddBuffIDs":[12235301,12235302,12235303,12235304,12235305],
+	"belongAttackScriptIDs":"30001124",
+	"belongProtectScriptIDs":"30001125|30001126|30001127",
+	"gridNum":5,
+	"delyCloseTime":10,
+	"enterPos": "-31035 10789 1156|-15479.0 -20014.0 2432.0",
+	"enterDir": "0 0 -89|0 0 177.6",
+	"reviveRadius":3.0,
+	"rewardIntegral":20,
+	"rewardRepeatIntegral":5,
+	"rewardRepeatTime":60,
+	"addRewardExp":2177,
+	"killRoleAddExp":272,
+	"killRoleAddContribution":30,
+	"maxDieNum":5,
+	"dieKickOutTim":5.0,
+	"forbidJumpSkillIDs":"240003001|240002001",
+	"stageFile":"",
+	"eventFile":"SE_fu_ben_L_CJJD_PVP",
+	"ItemDatas":"302010088:1|302010089:1|302010090:1|302010091:8"
+	},
+"DomainData"	:{
+	}
+}

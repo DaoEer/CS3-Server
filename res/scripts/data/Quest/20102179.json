@@ -1,0 +1,97 @@
+{
+    "20102179": {
+        "tasks": [
+            {
+                "navigateData": "30000981#L_HMT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010162", 
+                "id": 1, 
+                "name": "消灭上古魔物"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_HMT_Planes002"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102179, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010162"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102178"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "27319", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1385", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18872", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2372", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050081|Q050082", 
+        "finish_by": "10001308#L_ZXG", 
+        "taskLogDes": "@S{4}陆压依稀记得在封神榜之下镇压着某种可怕的存在。请你做好战斗准备。在陆压取榜之际，若有魔物出来，务必将其消灭。成功取得封神榜后，请你携带封神榜回紫霄宫向仙祖复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050093|Q050095|Q050097", 
+        "nextQuest": "20102180|20102181|20102180|20102180", 
+        "taskCompleteFunctions": {}, 
+        "level": 42, 
+        "title": "镇压魔物", 
+        "isAutoCommit": 1, 
+        "start_by": "10001318#L_HMT", 
+        "isAutoAccept": 1
+    }
+}

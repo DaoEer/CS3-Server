@@ -1,0 +1,124 @@
+{
+    "20102625": {
+        "tasks": [
+            {
+                "navigateData": "10000621#L_TMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-379240.000000 -4560.000000 896360.000000", 
+                "param1": "L_TMG", 
+                "id": 1, 
+                "name": "前往天魔宫"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "暂未开放，敬请期待"
+            }, 
+            {
+                "navigateData": "10000621#L_TMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "40", 
+                "id": 3, 
+                "name": "提升等级至40级"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002007"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102625, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102623|20102624"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "28517", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "819", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9194", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2023", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010005", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010016", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q045685|Q042657|Q045686|Q045688", 
+        "finish_by": "10000621#L_TMG", 
+        "taskLogDes": "@S{4}魔尊罗睺已成功炼化魔君元神残魂，出关在即。接引道人让你随他前去天魔宫，恭迎魔尊出关。|@S{4}暂未开放，敬请期待！|@S{4}提升等级至40级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042659|Q042660|Q042661", 
+        "nextQuest": "20102650", 
+        "taskCompleteFunctions": {}, 
+        "level": 39, 
+        "title": "罗睺出关", 
+        "isAutoCommit": 1, 
+        "start_by": "10000341#L_PMG", 
+        "isAutoAccept": 1
+    }
+}

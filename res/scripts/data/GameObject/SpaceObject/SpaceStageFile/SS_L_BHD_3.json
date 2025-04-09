@@ -1,0 +1,226 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败九幽小妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011440|20011442|20011447|20011449|20011451", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-5627.0 -10176.0 -1024.0)#L_BHD_2"
+                }
+            }, 
+            "title": "初入九幽冥河"
+        }, 
+        "3": {
+            "comment": "五大音阶会让琴魔获得增益能力，需尽快将琴魔拉入对应的音阶光阵中，消除能力。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败五音琴魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007795", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007793#L_BHD_2"
+                }
+            }, 
+            "title": "魔琴（一）"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败九幽寒妖", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011452|20011453|20011445", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-2283.217773 6198.585449 -595.929199)#L_BHD_2"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "6970.0 15613.0 499.0:20", 
+                    "param2": "5000|-5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(6970.0 15613.0 499.0)#L_BHD_2"
+                }
+            }, 
+            "title": "深入九幽冥河"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败九幽妖主", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007792", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(6970.0 15613.0 499.0)#L_BHD_2"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜索九幽妖主尸体，获得幽冥之水", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010088", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "大战九幽妖主"
+        }, 
+        "4": {
+            "comment": "五大音阶会让琴魔获得增益能力，需尽快将琴魔拉入对应的音阶光阵中，消除能力。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败五音琴魔", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007796|20007797", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007796|20007797#L_BHD_2"
+                }
+            }, 
+            "title": "魔琴（二）"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败烈炎力士", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011458|20011460", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011458|20011460#L_BHD_2"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败魔火炎妖", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011464|20011467", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011464|20011467#L_BHD_2"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败熔岩妖灵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011461|20011463", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011461|20011463#L_BHD_2"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤焰守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011468|20011470", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011468|20011470#L_BHD_2"
+                }
+            }, 
+            "title": "闯入魔火窟"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入魔火窟", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "25406.0 17625.0 858.0:25", 
+                    "param2": "6000|-4000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(25406.0 17625.0 858.0)#L_BHD_2"
+                }
+            }, 
+            "title": "前往魔火窟"
+        }, 
+        "9": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败焚天火灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002668", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002668#L_BHD_2"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜索焚天火灵尸体，获得焚天魔火", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010089", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "大战焚天火灵"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "36466.1 -10018.8 2611.8:10", 
+                    "param2": "7300|-2700", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(36466.1 -10018.8 2611.8)#L_BHD_2"
+                }
+            }, 
+            "title": "深入魔火窟"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "重炼宝图"
+}

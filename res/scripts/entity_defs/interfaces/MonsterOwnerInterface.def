@@ -1,0 +1,25 @@
+<root>
+	<Properties>
+		<bootyOwnerIDList>	<!-- 默认拥有者ID，后续其他玩家无法获得该怪物的所有权 -->
+			<Type>			PY_LIST			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		[]				</Default>
+		</bootyOwnerIDList>
+		<bootyOwnerTypeObj>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	False			</Persistent>
+		</bootyOwnerTypeObj>
+	</Properties>
+	<CellMethods>
+		<setBootyOwner>
+			<Arg>	UINT16		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</setBootyOwner>
+	</CellMethods>
+	<ClientMethods>
+		<CLIENT_OnSetBootyOwner>	<!-- 接收怪物归属权信息 -->
+			<Arg>	UNICODE		</Arg>
+		</CLIENT_OnSetBootyOwner>
+	</ClientMethods>
+</root>

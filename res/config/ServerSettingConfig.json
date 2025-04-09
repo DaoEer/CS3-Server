@@ -1,0 +1,151 @@
+{
+	"Server" : {
+		"CurServerName"	: "Local",
+		"Local":{
+			"name"				: "内部压测",
+			"serverID"			: "10000",
+			"TestFlag"			: true,
+			"LogLevel"			: "DEBUG",
+			"NormalLoginRole"	: 2000,
+			"GreenLoginRole"	: 500,
+			"CSGameLogDB"	: {
+				"host"		: "127.0.0.1",
+				"port"		: "3306",
+				"database"	: "csol3_log",
+				"user"		: "root",
+				"password"	: "123456",
+				"charset"	: "utf8"
+			},
+			"LoginInfoServer"		: {
+				"secret"	: "CSOL",
+				"ip"		: "47.94.100.83:8080"
+			},
+			"QCodeLoginServer"		: {
+				"secret"	: "CSOL",
+				"ip"		: "127.0.0.1:8000"
+			},
+			"AntiwallowInfo"		:{
+				"AWBSVHOST"	: "127.0.0.1:8000",
+				"AWBCLHOST"	: "127.0.0.1:8000"
+			},
+			"SpaceCfg" :{
+				"SpaceInitPer"			: 50,
+				"SpaceWaitInitTick"		: 1,
+				"SpaceWaitInitTime"		: 10,
+				"SpaceWaitCellAmount"	: 1,
+				"SpaceInitComplete"		: []
+			},
+			"CrossService" : {
+				"ip": "127.0.0.1:8000"
+			},
+			"GameTime" : {
+				"OpenGameTimeActivation"	: false,
+				"DefaultGameTime"		: 0,
+				"StartBillingLevel"	: 10,
+				"SlackTime"	: 180
+			}
+		},
+		"Trunk":{
+			"name"				: "Trunk",
+			"serverID"			: "10001",
+			"TestFlag"			: true,
+			"LogLevel"			: "DEBUG",
+			"NormalLoginRole"	: 2000,
+			"GreenLoginRole"	: 500,
+			"CSGameLogDB"	: {
+				"host"		: "127.0.0.1",
+				"port"		: "3306",
+				"database"	: "csol3_log",
+				"user"		: "root",
+				"password"	: "123456",
+				"charset"	: "utf8"
+			},
+			"LoginInfoServer"		: {
+				"secret"	: "CSOL",
+				"ip"		: "127.0.0.1:8000"
+			},
+			"QCodeLoginServer"		: {
+				"secret"	: "CSOL",
+				"ip"		: "127.0.0.1:8000"
+			},
+			"AntiwallowInfo"		:{
+				"AWBSVHOST"	: "127.0.0.1:8000",
+				"AWBCLHOST"	: "127.0.0.1:8000"
+			},
+			"SpaceCfg" :{
+				"SpaceInitPer"			: 50,
+				"SpaceWaitInitTick"		: 1,
+				"SpaceWaitInitTime"		: 10,
+				"SpaceWaitCellAmount"	: 1,
+				"SpaceInitComplete"		: []
+			},
+			"CrossService" : {
+				"ip": "127.0.0.1:8000"
+			},
+			"GameTime" : {
+				"OpenGameTimeActivation"	: false,
+				"DefaultGameTime"		: 0,
+				"StartBillingLevel"	: 10,
+				"SlackTime"	: 180
+			}
+		},
+		"Operate":{
+			"name"				: "Operate",
+			"serverID"			: "10002",
+			"TestFlag"			: true,
+			"LogLevel"			: "ERROR",
+			"NormalLoginRole"	: 20000,
+			"GreenLoginRole"	: 500,
+			"CSGameLogDB"	: {
+				"host"		: "127.0.0.1",
+				"port"		: "3306",
+				"database"	: "csol3_log",
+				"user"		: "root",
+				"password"	: "123456",
+				"charset"	: "utf8"
+			},
+			"LoginInfoServer"		: {
+				"secret"	: "CSOL",
+				"ip"		: "127.0.0.1:8000"
+			},
+			"QCodeLoginServer"		: {
+				"secret"	: "CSOL",
+				"ip"		: "127.0.0.1:8000"
+			},
+			"AntiwallowInfo"		:{
+				"AWBSVHOST"	: "127.0.0.1:8000",
+				"AWBCLHOST"	: "127.0.0.1:8000"
+			},
+			"SpaceCfg" :{
+				"SpaceInitPer"			: 50,
+				"SpaceWaitInitTick"		: 1,
+				"SpaceWaitInitTime"		: 10,
+				"SpaceWaitCellAmount"	: 1,
+				"SpaceInitComplete"		: []
+			},
+			"CrossService" : {
+				"ip": "127.0.0.1:8000"
+			},
+			"GameTime" : {
+				"OpenGameTimeActivation"	: false,
+				"DefaultGameTime"		: 0,
+				"StartBillingLevel"	: 10,
+				"SlackTime"	: 180
+			}
+		}
+	},
+	"ServerTest" : {
+		"OpenAccountActivation"	: false,
+		"WaitSystemInit"		: true,
+		"MonsterMoveTest"		: "Default",
+		"RecordProcessInfoTime"	: 30,
+		"CulateServerInfoTime"	: 3600,
+		"SkillTest"			: {
+			"CloseSkill"		: false,
+			"CloseHit"			: false,
+			"CloseDamage"		: false,
+			"CloseSkillCheck"	: false,
+			"CloseSearch"		: false
+		}
+	}
+}

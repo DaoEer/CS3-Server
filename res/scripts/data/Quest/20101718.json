@@ -1,0 +1,140 @@
+{
+    "20101718": {
+        "tasks": [
+            {
+                "navigateData": "(-54805 -17079 2820)#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "深入浮屠古寺，拜访燃灯道人"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002022"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3012"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010048"
+            }, 
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11018406"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101718, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101716|20101717"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010048"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12206", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "891", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1703", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032575", 
+        "finish_by": "10000293#L_FLS", 
+        "taskLogDes": "@S{4}祖巫帝江让你带着混元宝珠前往飞来石浮屠古寺，找燃灯道人换取星辰之石。|@S{4}祖巫帝江让你带着混元宝珠前往飞来石浮屠古寺，找燃灯道人换取星辰之石。|@S{4}祖巫帝江让你带着混元宝珠前往飞来石浮屠古寺，找燃灯道人换取星辰之石。|@S{4}祖巫帝江让你带着混元宝珠前往飞来石浮屠古寺，找燃灯道人换取星辰之石。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032578|Q032580", 
+        "nextQuest": "20101719", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncRemoveItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010048"
+                }
+            ]
+        }, 
+        "level": 25, 
+        "title": "浮屠古寺", 
+        "isAutoCommit": 1, 
+        "start_by": "10000053#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

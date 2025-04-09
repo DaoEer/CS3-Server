@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "", 
+            "entrys": {
+                "1": {
+                    "title": "在狂牛阵中至少生存2分钟。", 
+                    "postfix": "/1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "jieduan1", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "副本完成条件"
+        }
+    }, 
+    "name": "狂牛冲撞"
+}

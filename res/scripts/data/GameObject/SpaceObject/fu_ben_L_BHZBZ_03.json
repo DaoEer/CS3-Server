@@ -1,0 +1,44 @@
+﻿{
+"SpaceName"	: "帮会争霸第三场",
+"EntityType"	: "SpaceCopyThirdTongStarcraft",
+"DomainType"	: "SpaceDomainCopyThirdTongStarcraft",
+"EntityScript"	: "SpaceCopyThirdTongStarcraft",
+"scriptID"	: "fu_ben_L_BHZBZ_03",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_BHZBZ_03",
+"NavmeshPath"	: "space\\L_JSSLC_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"bunchSpaceScriptID" : "",
+"RoleRelationRule": "ROLE_RELATION_RULE_TONG_STARCRAFT",
+"spaceChildType":"SPACE_CHILD_TYPE_BHZB",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 22,
+	"spaceIntroduce":{"voiceID":"C000722"},
+	"stageFile":"SS_fu_ben_L_BHZBZ_03",
+	"eventFile":"SE_fu_ben_L_BHZBZ_03",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "11",
+	"limitEnterFieldNumber":6,
+	"enterFieldPos":"-730.000000 -3300.000000 528.577515|-5620.000000 1730.000000 528.577515|-5279.917969 2799.970459 528.577515|1870.000000 4360.000000 528.577515|2310.000000 3800.000000 528.577454|670.000000 -3130.000000 528.577515",
+	"enterFieldDir":"0 0 0|0 0 0|0 0 0|0 0 0|0 0 0|0 0 0",
+    "addIntegral":5, 
+    "addIntegralTimer":5.0, 
+    "checkAddIntegralRange":10.0, 
+    "checkAddIntegralTimer":1.0, 
+    "redSideAddBuffID":12150401, 
+    "buleSideAddBuffID":12150301,
+	"winIntegral":1500,
+	"revivePos":"-18350 1129 339|16149 390 504",
+	"reviveDir":"0 0 0|0 0 0",
+	"endCloseTime":10,
+              "successSound":"C000725"
+	},
+"DomainData"	:{
+	}
+}

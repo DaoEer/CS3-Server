@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "巧取熔岩晶",					
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyRingTaskChild",
+"scriptID"	: "cycle_L_QQRYJ",
+"NavmeshPath"	: "space\\L_QQRYJ_NAVMESH",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_QQRYJ",
+"PatrolRouteFile": "P_L_QQRYJ",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",	
+	"Position"	: "6139 26797 11021", 
+	"Direction"	: "0.0 0.0 100"
+	},
+"SpaceData"	:{
+	"enterPosition":"11934.266602 18308.937500 932.315491",
+	"enterDirection":"0 0 170",
+	"stageFile":"",
+	"statisticsFile":"ST_L_QQRYJ",
+	"eventFile":"SE_L_QQRYJ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|4",
+	"reviveScriptID":"cycle_L_QQRYJ",
+	"revivePosition":[11934.266602,18308.937500,932.315491],
+	"reviveDirection":[0,0,170],
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

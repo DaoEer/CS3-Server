@@ -1,0 +1,35 @@
+<root>
+	<Parent>
+		MonsterExtMain
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<levelYXLM>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+			<Persistent>		false			</Persistent>
+		</levelYXLM>
+		<wayType>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</wayType>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

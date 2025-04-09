@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退摩诃殿弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006965|20006966|20006967|20006968|20006969", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006965|20006966|20006967|20006968|20006969#L_BQDB_Planes016"
+                }
+            }, 
+            "title": "云岚峰"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫敖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006974", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006974#L_BQDB_Planes016"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "夺回六螭神车", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20006974#L_BQDB_Planes016"
+                }
+            }, 
+            "title": "夺回六螭神车"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "云岚峰"
+}

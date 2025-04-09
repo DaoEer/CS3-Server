@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "通过与棋子交互，设法将五颗同色棋子相连，可令棋阵对阴阳棋灵造成反噬伤害！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破解棋阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-3290.0 3400.0 778.0)#L_YYQZ"
+                }
+            }, 
+            "title": "破解棋阵"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往落霞谷", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-3283.0 2592.0 760.0)#L_YYQZ"
+                }
+            }, 
+            "title": "前往落霞谷"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败阴阳棋灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20005952#L_YYQZ"
+                }
+            }, 
+            "title": "大战阴阳棋灵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "阴阳棋阵"
+}

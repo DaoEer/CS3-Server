@@ -1,0 +1,16 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<onEnterTongTianDa>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32			</Arg>
+		</onEnterTongTianDa>
+	</BaseMethods>
+</root>

@@ -1,0 +1,109 @@
+{
+    "60120030": {
+        "tasks": [
+            {
+                "navigateData": "10000299#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000299", 
+                "id": 1, 
+                "name": "寻找巽风"
+            }, 
+            {
+                "navigateData": "10000299#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "20", 
+                "param2": "69999.984375 24689.957031 7349.970215", 
+                "param1": "L_FMNL_Planes201", 
+                "id": 2, 
+                "name": "到达终点"
+            }, 
+            {
+                "navigateData": "10000299#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000299", 
+                "id": 3, 
+                "name": "与巽风对话"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000125"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3077"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 60120030, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20"
+            }
+        ], 
+        "script": "QuestScriptTongDaily", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0.0 0.0 -1.71", 
+                "param2": "4058.0 -5510.0 212.0", 
+                "param1": "L_BHLD"
+            }
+        ], 
+        "QuestClass": "QuestTongDaily", 
+        "rewards": [], 
+        "description": "Cy000125", 
+        "finish_by": "10000618", 
+        "taskLogDes": "Cy000125", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncEnterPlane", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "L_FMNL_Planes201"
+                }
+            ]
+        }, 
+        "level": 20, 
+        "title": "逐风之路", 
+        "isAutoCommit": 1, 
+        "start_by": "10000618", 
+        "isAutoAccept": 1
+    }
+}

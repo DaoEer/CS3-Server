@@ -1,0 +1,171 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭巨骨儡", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012892", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012892#L_XMS"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭须弥傀儡", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012893|20012894", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012893|20012894#L_XMS"
+                }
+            }, 
+            "title": "初入须弥"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭骨火阵眼", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012895", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012895#L_XMS"
+                }
+            }, 
+            "title": "骨火挡路"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前行", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "29587.039063 14756.115234 5572.657227:8", 
+                    "param2": "6666|4444", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(29587.039063 14756.115234 5572.657227)#L_XMS"
+                }
+            }, 
+            "title": "继续前行"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭须弥傀儡", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012902|20012903|20012904|20012905|20012906|20012907", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012902|20012903|20012904|20012905|20012906|20012907#L_XMS"
+                }
+            }, 
+            "title": "须弥傀儡"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前行", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "35103.382813 20654.25 7004.806641:10", 
+                    "param2": "8888|6666", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(35103.382813 20654.25 7004.806641)#L_XMS"
+                }
+            }, 
+            "title": "继续前行"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破除结界", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012908#L_XMS"
+                }
+            }, 
+            "title": "破除结界"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前行", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "29521.958984 33953.363281 9357.724609:40", 
+                    "param2": "11111|7777", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(31885.000000000004 30731.0 9270.0)#L_XMS"
+                }
+            }, 
+            "title": "继续前行"
+        }, 
+        "9": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回修罗殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(27932.244141 35016.207031 9255.236328)#L_XMS"
+                }
+            }, 
+            "title": "返回修罗殿"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭骨魔老祖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012908#L_XMS"
+                }
+            }, 
+            "title": "骨魔老祖"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "骨魔老祖"
+}

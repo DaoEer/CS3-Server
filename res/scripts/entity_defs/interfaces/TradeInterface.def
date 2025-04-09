@@ -1,0 +1,21 @@
+<root>
+	<Properties>
+		<quickPayImp>
+			<Type>			QUICK_PAY_IMP		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</quickPayImp>
+	</Properties>
+	<BaseMethods>
+		<remotePay>
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		DICT_INT_UNI	</Arg>
+		</remotePay>
+	</BaseMethods>
+	<CellMethods>
+		<remoteSuccessPay>
+		</remoteSuccessPay>
+		<remoteFailPay>
+		</remoteFailPay>
+	</CellMethods>
+</root>

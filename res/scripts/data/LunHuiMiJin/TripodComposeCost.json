@@ -1,0 +1,964 @@
+[
+    {
+        "psionic": 20, 
+        "Name": "202020011", 
+        "needLevel": 1, 
+        "money": 143, 
+        "material": {
+            "202040001": 5, 
+            "202040004": 2
+        }, 
+        "equipID": 202020011, 
+        "labelName": "药品", 
+        "useTime": 0.5
+    }, 
+    {
+        "psionic": 20, 
+        "Name": "202020021", 
+        "needLevel": 1, 
+        "money": 143, 
+        "material": {
+            "202040001": 5, 
+            "202040003": 2
+        }, 
+        "equipID": 202020021, 
+        "labelName": "药品", 
+        "useTime": 0.5
+    }, 
+    {
+        "psionic": 80, 
+        "Name": "204060016", 
+        "needLevel": 1, 
+        "money": 190, 
+        "material": {
+            "202040001": 6, 
+            "202040003": 2
+        }, 
+        "equipID": 204060016, 
+        "labelName": "食物", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "204060011", 
+        "needLevel": 1, 
+        "money": 190, 
+        "material": {
+            "202040001": 12, 
+            "202040003": 3
+        }, 
+        "equipID": 204060011, 
+        "labelName": "食物", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 20, 
+        "Name": "303020039", 
+        "needLevel": 1, 
+        "money": 1900, 
+        "material": {
+            "203020058": 8, 
+            "202040004": 8, 
+            "203020055": 5
+        }, 
+        "equipID": 303020039, 
+        "labelName": "阵图", 
+        "useTime": 15.0
+    }, 
+    {
+        "psionic": 20, 
+        "Name": "303020040", 
+        "needLevel": 1, 
+        "money": 1900, 
+        "material": {
+            "202040003": 8, 
+            "203020012": 5, 
+            "203020055": 5
+        }, 
+        "equipID": 303020040, 
+        "labelName": "阵图", 
+        "useTime": 15.0
+    }, 
+    {
+        "psionic": 150, 
+        "Name": "204060017", 
+        "needLevel": 2, 
+        "money": 285, 
+        "material": {
+            "204060009": 2, 
+            "204060007": 2, 
+            "202040007": 5
+        }, 
+        "equipID": 204060017, 
+        "labelName": "食物", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 80, 
+        "Name": "204060014", 
+        "needLevel": 2, 
+        "money": 285, 
+        "material": {
+            "202040004": 2, 
+            "202040005": 3, 
+            "204060007": 2
+        }, 
+        "equipID": 204060014, 
+        "labelName": "食物", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 500, 
+        "Name": "303020041", 
+        "needLevel": 2, 
+        "money": 2850, 
+        "material": {
+            "203020010": 5, 
+            "203020059": 12, 
+            "203020055": 5
+        }, 
+        "equipID": 303020041, 
+        "labelName": "阵图", 
+        "useTime": 15.0
+    }, 
+    {
+        "psionic": 500, 
+        "Name": "303020042", 
+        "needLevel": 2, 
+        "money": 2850, 
+        "material": {
+            "203020008": 5, 
+            "203020011": 8, 
+            "203020012": 5
+        }, 
+        "equipID": 303020042, 
+        "labelName": "阵图", 
+        "useTime": 15.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "303020049", 
+        "needLevel": 2, 
+        "money": 950, 
+        "material": {
+            "203020011": 5, 
+            "203020012": 3, 
+            "203020061": 3
+        }, 
+        "equipID": 303020049, 
+        "labelName": "符玉", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "202020012", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "202040008": 1, 
+            "202040001": 5, 
+            "202040006": 3
+        }, 
+        "equipID": 202020012, 
+        "labelName": "药品", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "202020022", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "202040001": 5, 
+            "202040005": 3, 
+            "202040007": 1
+        }, 
+        "equipID": 202020022, 
+        "labelName": "药品", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "204060012", 
+        "needLevel": 3, 
+        "money": 760, 
+        "material": {
+            "202040008": 2, 
+            "202040001": 5, 
+            "202040006": 3
+        }, 
+        "equipID": 204060012, 
+        "labelName": "食物", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 100, 
+        "Name": "303020043", 
+        "needLevel": 3, 
+        "money": 3800, 
+        "material": {
+            "203020024": 6, 
+            "203020066": 8, 
+            "203020021": 4
+        }, 
+        "equipID": 303020043, 
+        "labelName": "阵图", 
+        "useTime": 20.0
+    }, 
+    {
+        "psionic": 100, 
+        "Name": "303020044", 
+        "needLevel": 3, 
+        "money": 3800, 
+        "material": {
+            "203020056": 4, 
+            "203020064": 6, 
+            "203020026": 8
+        }, 
+        "equipID": 303020044, 
+        "labelName": "阵图", 
+        "useTime": 20.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "303020050", 
+        "needLevel": 3, 
+        "money": 1425, 
+        "material": {
+            "203020024": 5, 
+            "203020011": 4, 
+            "203020062": 3
+        }, 
+        "equipID": 303020050, 
+        "labelName": "符玉", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020001", 
+        "needLevel": 3, 
+        "money": 1900, 
+        "material": {
+            "203020060": 5, 
+            "203020052": 5, 
+            "203020046": 3
+        }, 
+        "equipID": 203020001, 
+        "labelName": "提炼", 
+        "useTime": 5.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020002", 
+        "needLevel": 3, 
+        "money": 1900, 
+        "material": {
+            "203020058": 3, 
+            "202040004": 5, 
+            "203020055": 5
+        }, 
+        "equipID": 203020002, 
+        "labelName": "提炼", 
+        "useTime": 5.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020003", 
+        "needLevel": 3, 
+        "money": 1900, 
+        "material": {
+            "203020059": 5, 
+            "202040003": 5, 
+            "203020055": 3
+        }, 
+        "equipID": 203020003, 
+        "labelName": "提炼", 
+        "useTime": 5.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020004", 
+        "needLevel": 3, 
+        "money": 1900, 
+        "material": {
+            "203020049": 5, 
+            "203020052": 5, 
+            "203020055": 3
+        }, 
+        "equipID": 203020004, 
+        "labelName": "提炼", 
+        "useTime": 5.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020005", 
+        "needLevel": 3, 
+        "money": 1900, 
+        "material": {
+            "203020049": 5, 
+            "202040004": 5, 
+            "203020046": 3
+        }, 
+        "equipID": 203020005, 
+        "labelName": "提炼", 
+        "useTime": 5.0
+    }, 
+    {
+        "psionic": 5, 
+        "Name": "203020013", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "203020055": 3
+        }, 
+        "equipID": 203020013, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 5, 
+        "Name": "203020014", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "202040003": 1, 
+            "203020055": 2
+        }, 
+        "equipID": 203020014, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 5, 
+        "Name": "203020008", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "203020046": 3
+        }, 
+        "equipID": 203020008, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 5, 
+        "Name": "203020007", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "202040004": 1, 
+            "203020046": 2
+        }, 
+        "equipID": 203020007, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020011", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "203020052": 3
+        }, 
+        "equipID": 203020011, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020012", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "203020060": 1, 
+            "203020052": 2
+        }, 
+        "equipID": 203020012, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020009", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "203020049": 3
+        }, 
+        "equipID": 203020009, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020010", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "203020049": 2, 
+            "203020059": 1
+        }, 
+        "equipID": 203020010, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 5, 
+        "Name": "203020006", 
+        "needLevel": 3, 
+        "money": 475, 
+        "material": {
+            "203020058": 5, 
+            "202040003": 4, 
+            "203020060": 3
+        }, 
+        "equipID": 203020006, 
+        "labelName": "提炼", 
+        "useTime": 1.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "204060015", 
+        "needLevel": 4, 
+        "money": 1140, 
+        "material": {
+            "204060009": 4, 
+            "202040009": 4, 
+            "204060007": 3
+        }, 
+        "equipID": 204060015, 
+        "labelName": "食物", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "204060018", 
+        "needLevel": 4, 
+        "money": 1140, 
+        "material": {
+            "202040001": 5, 
+            "202040007": 4, 
+            "204060009": 5
+        }, 
+        "equipID": 204060018, 
+        "labelName": "食物", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 50, 
+        "Name": "204060013", 
+        "needLevel": 4, 
+        "money": 1140, 
+        "material": {
+            "202040001": 5, 
+            "202040005": 6, 
+            "202040006": 4
+        }, 
+        "equipID": 204060013, 
+        "labelName": "食物", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 200, 
+        "Name": "303020045", 
+        "needLevel": 4, 
+        "money": 4750, 
+        "material": {
+            "203020024": 5, 
+            "203020021": 6, 
+            "203020071": 5
+        }, 
+        "equipID": 303020045, 
+        "labelName": "阵图", 
+        "useTime": 25.0
+    }, 
+    {
+        "psionic": 200, 
+        "Name": "303020046", 
+        "needLevel": 4, 
+        "money": 4750, 
+        "material": {
+            "203020056": 6, 
+            "203020028": 5, 
+            "203020070": 3
+        }, 
+        "equipID": 303020046, 
+        "labelName": "阵图", 
+        "useTime": 25.0
+    }, 
+    {
+        "psionic": 150, 
+        "Name": "303020051", 
+        "needLevel": 4, 
+        "money": 1710, 
+        "material": {
+            "203020068": 3, 
+            "203020038": 5, 
+            "203020039": 6
+        }, 
+        "equipID": 303020051, 
+        "labelName": "符玉", 
+        "useTime": 5.0
+    }, 
+    {
+        "psionic": 80, 
+        "Name": "203020015", 
+        "needLevel": 4, 
+        "money": 2850, 
+        "material": {
+            "203020047": 4, 
+            "203020053": 6, 
+            "203020063": 4
+        }, 
+        "equipID": 203020015, 
+        "labelName": "提炼", 
+        "useTime": 8.0
+    }, 
+    {
+        "psionic": 80, 
+        "Name": "203020016", 
+        "needLevel": 4, 
+        "money": 2850, 
+        "material": {
+            "203020056": 4, 
+            "203020061": 4, 
+            "202040006": 6
+        }, 
+        "equipID": 203020016, 
+        "labelName": "提炼", 
+        "useTime": 8.0
+    }, 
+    {
+        "psionic": 80, 
+        "Name": "203020017", 
+        "needLevel": 4, 
+        "money": 2850, 
+        "material": {
+            "203020056": 4, 
+            "202040005": 6, 
+            "203020071": 4
+        }, 
+        "equipID": 203020017, 
+        "labelName": "提炼", 
+        "useTime": 8.0
+    }, 
+    {
+        "psionic": 80, 
+        "Name": "203020018", 
+        "needLevel": 4, 
+        "money": 2850, 
+        "material": {
+            "203020064": 4, 
+            "203020056": 4, 
+            "203020053": 3
+        }, 
+        "equipID": 203020018, 
+        "labelName": "提炼", 
+        "useTime": 8.0
+    }, 
+    {
+        "psionic": 80, 
+        "Name": "203020019", 
+        "needLevel": 4, 
+        "money": 2850, 
+        "material": {
+            "203020050": 5, 
+            "202040006": 6, 
+            "203020047": 4
+        }, 
+        "equipID": 203020019, 
+        "labelName": "提炼", 
+        "useTime": 8.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020020", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "203020064": 3, 
+            "202040011": 4, 
+            "203020061": 5
+        }, 
+        "equipID": 203020020, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020021", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "203020046": 5, 
+            "203020047": 3
+        }, 
+        "equipID": 203020021, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020022", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "202040006": 2, 
+            "203020047": 3
+        }, 
+        "equipID": 203020022, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020023", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "203020049": 5, 
+            "203020050": 3
+        }, 
+        "equipID": 203020023, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020024", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "203020065": 2, 
+            "203020050": 3
+        }, 
+        "equipID": 203020024, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020025", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "203020052": 5, 
+            "203020053": 3
+        }, 
+        "equipID": 203020025, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020026", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "203020064": 2, 
+            "203020053": 3
+        }, 
+        "equipID": 203020026, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020027", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "203020056": 3, 
+            "203020055": 5
+        }, 
+        "equipID": 203020027, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 15, 
+        "Name": "203020028", 
+        "needLevel": 4, 
+        "money": 760, 
+        "material": {
+            "203020056": 3, 
+            "202040005": 2
+        }, 
+        "equipID": 203020028, 
+        "labelName": "提炼", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 100, 
+        "Name": "202020013", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "202040010": 8, 
+            "202040011": 5, 
+            "202040012": 5
+        }, 
+        "equipID": 202020013, 
+        "labelName": "药品", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 100, 
+        "Name": "202020023", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "202040009": 8, 
+            "202040010": 5, 
+            "202040011": 5
+        }, 
+        "equipID": 202020023, 
+        "labelName": "药品", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 100, 
+        "Name": "204060019", 
+        "needLevel": 5, 
+        "money": 1710, 
+        "material": {
+            "204060009": 6, 
+            "202040007": 8, 
+            "202040001": 6
+        }, 
+        "equipID": 204060019, 
+        "labelName": "食物", 
+        "useTime": 2.0
+    }, 
+    {
+        "psionic": 200, 
+        "Name": "303020047", 
+        "needLevel": 5, 
+        "money": 5700, 
+        "material": {
+            "203020040": 6, 
+            "203020035": 4, 
+            "203020070": 5
+        }, 
+        "equipID": 303020047, 
+        "labelName": "阵图", 
+        "useTime": 30.0
+    }, 
+    {
+        "psionic": 200, 
+        "Name": "303020048", 
+        "needLevel": 5, 
+        "money": 5700, 
+        "material": {
+            "203020057": 8, 
+            "203020038": 6, 
+            "203020039": 5
+        }, 
+        "equipID": 303020048, 
+        "labelName": "阵图", 
+        "useTime": 30.0
+    }, 
+    {
+        "psionic": 150, 
+        "Name": "303020052", 
+        "needLevel": 5, 
+        "money": 1900, 
+        "material": {
+            "203020040": 6, 
+            "203020067": 3, 
+            "203020039": 7
+        }, 
+        "equipID": 303020052, 
+        "labelName": "符玉", 
+        "useTime": 5.0
+    }, 
+    {
+        "psionic": 150, 
+        "Name": "203020029", 
+        "needLevel": 5, 
+        "money": 4750, 
+        "material": {
+            "203020068": 6, 
+            "203020069": 4, 
+            "203020054": 5
+        }, 
+        "equipID": 203020029, 
+        "labelName": "提炼", 
+        "useTime": 10.0
+    }, 
+    {
+        "psionic": 150, 
+        "Name": "203020030", 
+        "needLevel": 5, 
+        "money": 4750, 
+        "material": {
+            "203020057": 3, 
+            "203020067": 6, 
+            "202040007": 6
+        }, 
+        "equipID": 203020030, 
+        "labelName": "提炼", 
+        "useTime": 10.0
+    }, 
+    {
+        "psionic": 150, 
+        "Name": "203020031", 
+        "needLevel": 5, 
+        "money": 4750, 
+        "material": {
+            "202040008": 5, 
+            "203020070": 6, 
+            "203020071": 4
+        }, 
+        "equipID": 203020031, 
+        "labelName": "提炼", 
+        "useTime": 10.0
+    }, 
+    {
+        "psionic": 150, 
+        "Name": "203020032", 
+        "needLevel": 5, 
+        "money": 4750, 
+        "material": {
+            "203020072": 4, 
+            "203020069": 4, 
+            "203020054": 6
+        }, 
+        "equipID": 203020032, 
+        "labelName": "提炼", 
+        "useTime": 10.0
+    }, 
+    {
+        "psionic": 150, 
+        "Name": "203020033", 
+        "needLevel": 5, 
+        "money": 4750, 
+        "material": {
+            "203020051": 5, 
+            "203020068": 4, 
+            "203020071": 6
+        }, 
+        "equipID": 203020033, 
+        "labelName": "提炼", 
+        "useTime": 10.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020034", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "202040012": 4, 
+            "203020068": 5, 
+            "203020069": 3
+        }, 
+        "equipID": 203020034, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020035", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "203020048": 3, 
+            "203020047": 5
+        }, 
+        "equipID": 203020035, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020036", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "203020048": 3, 
+            "202040010": 2
+        }, 
+        "equipID": 203020036, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020037", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "203020050": 3, 
+            "203020051": 3
+        }, 
+        "equipID": 203020037, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020038", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "203020054": 3, 
+            "203020071": 2
+        }, 
+        "equipID": 203020038, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020039", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "203020053": 5, 
+            "203020054": 3
+        }, 
+        "equipID": 203020039, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020040", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "203020069": 2, 
+            "203020054": 3
+        }, 
+        "equipID": 203020040, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020041", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "203020056": 5, 
+            "203020057": 3
+        }, 
+        "equipID": 203020041, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }, 
+    {
+        "psionic": 30, 
+        "Name": "203020042", 
+        "needLevel": 5, 
+        "money": 1140, 
+        "material": {
+            "203020057": 3, 
+            "202040009": 2
+        }, 
+        "equipID": 203020042, 
+        "labelName": "提炼", 
+        "useTime": 3.0
+    }
+]

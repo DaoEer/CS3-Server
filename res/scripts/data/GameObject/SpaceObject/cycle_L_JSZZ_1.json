@@ -1,0 +1,41 @@
+{
+"SpaceName"	: "金树种子",
+"EntityType"	: "SpaceCopyJSZZ",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJSZZ",
+"scriptID"	: "cycle_L_JSZZ_1",
+"spaceType"	: "SPACE_TYPE_COPY",
+"spaceChildType":"SPACE_CHILD_TYPE_JSZZ",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_HLSY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 4,
+	"enterPosition":"-14650 -440 -23254.3",
+	"enterDirection":"0 0 0",
+	"stageFile":"",
+	"eventFile":"SE_L_JSZZ_1",
+	"treeScriptID":"20010901",
+	"clientUseCharacterMovment" : 0,
+	"monsterUseSpaceLevel":1,	
+	"reviveType"	: "1|2",
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0,
+	"plantCenterPos":"-5565.9594727 -15045.9589844 243.4408264",
+	"plantRadius":10,
+	"plantSkillID":140236002,
+	"searchSkillID":140236001,
+	"rewardItemIDs":"",
+	"rewardMoney":100,
+	"useItemIDs":"303010016|303010014|303010015",
+	"costItemIDs":"205010018:205010020|205010018:205010019|205010019:205010020"
+	},
+"DomainData"	:{
+	}
+}

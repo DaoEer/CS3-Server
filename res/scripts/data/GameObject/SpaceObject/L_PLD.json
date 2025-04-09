@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopyStory",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_PLD",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_PLD",
+"NavmeshPath"	: "space\\L_PLD_NAVMESH",
+"PatrolRouteFile": "P_L_PLD",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_ZLY",
+	"Position"	: "98158.0 31999.0 33.0",
+	"Direction"	: "0 0 160"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_PLD",
+	"eventFile":"SE_L_PLD"
+	},
+"DomainData"	:{
+	}
+}

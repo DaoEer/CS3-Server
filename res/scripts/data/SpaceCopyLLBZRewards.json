@@ -1,0 +1,362 @@
+[
+    {
+        "money": 6, 
+        "potential": 1, 
+        "exp": 5, 
+        "level": 1
+    }, 
+    {
+        "money": 7, 
+        "potential": 3, 
+        "exp": 5, 
+        "level": 2
+    }, 
+    {
+        "money": 8, 
+        "potential": 6, 
+        "exp": 5, 
+        "level": 3
+    }, 
+    {
+        "money": 9, 
+        "potential": 10, 
+        "exp": 5, 
+        "level": 4
+    }, 
+    {
+        "money": 11, 
+        "potential": 14, 
+        "exp": 6, 
+        "level": 5
+    }, 
+    {
+        "money": 12, 
+        "potential": 18, 
+        "exp": 7, 
+        "level": 6
+    }, 
+    {
+        "money": 13, 
+        "potential": 23, 
+        "exp": 9, 
+        "level": 7
+    }, 
+    {
+        "money": 15, 
+        "potential": 28, 
+        "exp": 11, 
+        "level": 8
+    }, 
+    {
+        "money": 16, 
+        "potential": 33, 
+        "exp": 13, 
+        "level": 9
+    }, 
+    {
+        "money": 18, 
+        "potential": 39, 
+        "exp": 16, 
+        "level": 10
+    }, 
+    {
+        "money": 20, 
+        "potential": 45, 
+        "exp": 18, 
+        "level": 11
+    }, 
+    {
+        "money": 23, 
+        "potential": 52, 
+        "exp": 21, 
+        "level": 12
+    }, 
+    {
+        "money": 26, 
+        "potential": 58, 
+        "exp": 23, 
+        "level": 13
+    }, 
+    {
+        "money": 29, 
+        "potential": 65, 
+        "exp": 26, 
+        "level": 14
+    }, 
+    {
+        "money": 32, 
+        "potential": 72, 
+        "exp": 29, 
+        "level": 15
+    }, 
+    {
+        "money": 36, 
+        "potential": 80, 
+        "exp": 32, 
+        "level": 16
+    }, 
+    {
+        "money": 40, 
+        "potential": 87, 
+        "exp": 35, 
+        "level": 17
+    }, 
+    {
+        "money": 45, 
+        "potential": 95, 
+        "exp": 38, 
+        "level": 18
+    }, 
+    {
+        "money": 50, 
+        "potential": 103, 
+        "exp": 41, 
+        "level": 19
+    }, 
+    {
+        "money": 56, 
+        "potential": 111, 
+        "exp": 44, 
+        "level": 20
+    }, 
+    {
+        "money": 63, 
+        "potential": 120, 
+        "exp": 48, 
+        "level": 21
+    }, 
+    {
+        "money": 70, 
+        "potential": 128, 
+        "exp": 51, 
+        "level": 22
+    }, 
+    {
+        "money": 78, 
+        "potential": 137, 
+        "exp": 55, 
+        "level": 23
+    }, 
+    {
+        "money": 87, 
+        "potential": 146, 
+        "exp": 58, 
+        "level": 24
+    }, 
+    {
+        "money": 97, 
+        "potential": 156, 
+        "exp": 62, 
+        "level": 25
+    }, 
+    {
+        "money": 109, 
+        "potential": 165, 
+        "exp": 66, 
+        "level": 26
+    }, 
+    {
+        "money": 121, 
+        "potential": 175, 
+        "exp": 69, 
+        "level": 27
+    }, 
+    {
+        "money": 135, 
+        "potential": 184, 
+        "exp": 73, 
+        "level": 28
+    }, 
+    {
+        "money": 151, 
+        "potential": 194, 
+        "exp": 77, 
+        "level": 29
+    }, 
+    {
+        "money": 169, 
+        "potential": 204, 
+        "exp": 81, 
+        "level": 30
+    }, 
+    {
+        "money": 189, 
+        "potential": 215, 
+        "exp": 85, 
+        "level": 31
+    }, 
+    {
+        "money": 210, 
+        "potential": 225, 
+        "exp": 90, 
+        "level": 32
+    }, 
+    {
+        "money": 235, 
+        "potential": 236, 
+        "exp": 94, 
+        "level": 33
+    }, 
+    {
+        "money": 262, 
+        "potential": 247, 
+        "exp": 98, 
+        "level": 34
+    }, 
+    {
+        "money": 293, 
+        "potential": 258, 
+        "exp": 102, 
+        "level": 35
+    }, 
+    {
+        "money": 327, 
+        "potential": 269, 
+        "exp": 107, 
+        "level": 36
+    }, 
+    {
+        "money": 364, 
+        "potential": 280, 
+        "exp": 111, 
+        "level": 37
+    }, 
+    {
+        "money": 407, 
+        "potential": 292, 
+        "exp": 116, 
+        "level": 38
+    }, 
+    {
+        "money": 455, 
+        "potential": 303, 
+        "exp": 121, 
+        "level": 39
+    }, 
+    {
+        "money": 507, 
+        "potential": 315, 
+        "exp": 125, 
+        "level": 40
+    }, 
+    {
+        "money": 567, 
+        "potential": 327, 
+        "exp": 130, 
+        "level": 41
+    }, 
+    {
+        "money": 632, 
+        "potential": 339, 
+        "exp": 135, 
+        "level": 42
+    }, 
+    {
+        "money": 706, 
+        "potential": 351, 
+        "exp": 140, 
+        "level": 43
+    }, 
+    {
+        "money": 788, 
+        "potential": 363, 
+        "exp": 144, 
+        "level": 44
+    }, 
+    {
+        "money": 879, 
+        "potential": 376, 
+        "exp": 149, 
+        "level": 45
+    }, 
+    {
+        "money": 981, 
+        "potential": 388, 
+        "exp": 154, 
+        "level": 46
+    }, 
+    {
+        "money": 1095, 
+        "potential": 401, 
+        "exp": 159, 
+        "level": 47
+    }, 
+    {
+        "money": 1222, 
+        "potential": 414, 
+        "exp": 165, 
+        "level": 48
+    }, 
+    {
+        "money": 1364, 
+        "potential": 427, 
+        "exp": 170, 
+        "level": 49
+    }, 
+    {
+        "money": 1523, 
+        "potential": 440, 
+        "exp": 175, 
+        "level": 50
+    }, 
+    {
+        "money": 1700, 
+        "potential": 453, 
+        "exp": 180, 
+        "level": 51
+    }, 
+    {
+        "money": 1897, 
+        "potential": 467, 
+        "exp": 186, 
+        "level": 52
+    }, 
+    {
+        "money": 2117, 
+        "potential": 480, 
+        "exp": 191, 
+        "level": 53
+    }, 
+    {
+        "money": 2364, 
+        "potential": 494, 
+        "exp": 196, 
+        "level": 54
+    }, 
+    {
+        "money": 2638, 
+        "potential": 508, 
+        "exp": 202, 
+        "level": 55
+    }, 
+    {
+        "money": 2945, 
+        "potential": 522, 
+        "exp": 207, 
+        "level": 56
+    }, 
+    {
+        "money": 3286, 
+        "potential": 536, 
+        "exp": 213, 
+        "level": 57
+    }, 
+    {
+        "money": 3668, 
+        "potential": 550, 
+        "exp": 219, 
+        "level": 58
+    }, 
+    {
+        "money": 4094, 
+        "potential": 564, 
+        "exp": 224, 
+        "level": 59
+    }, 
+    {
+        "money": 4570, 
+        "potential": 579, 
+        "exp": 230, 
+        "level": 60
+    }
+]

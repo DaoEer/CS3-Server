@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "使用场中光源寻找雾妖，消灭它", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭场中雾妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014551|20014552|20014553|20014554|20014555|20014556", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "消灭雾妖"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "消灭雾妖"
+}

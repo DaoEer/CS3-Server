@@ -1,0 +1,64 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<viewRadius>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0.0			</Default>
+		</viewRadius>
+		<viewAngle>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0.0			</Default>
+		</viewAngle>
+		<isPlayerInView>
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</isPlayerInView>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_GetClientNavPoint>
+			<Arg>	POSITION	</Arg>
+		</CLIENT_GetClientNavPoint>
+		<CLIENT_CreateViewShapeTrap>
+			<Arg>	FLOAT    </Arg>
+			<Arg>	FLOAT    </Arg>
+			<Arg>	FLOAT    </Arg>
+		</CLIENT_CreateViewShapeTrap>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_recieveMovePointsfromClient>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</CELL_recieveMovePointsfromClient>
+		<CELL_OnPlayerEnterViewRange>
+			<Exposed/>
+			<Arg>    INT32    </Arg>
+		</CELL_OnPlayerEnterViewRange>
+		<CELL_OnPlayerLeaveViewRange>
+			<Exposed/>
+			<Arg>    INT32    </Arg>
+		</CELL_OnPlayerLeaveViewRange>
+		<CELL_SetIsPlayerInViewRange>
+			<Exposed/>
+			<Arg>	BOOL 	</Arg>
+		</CELL_SetIsPlayerInViewRange>
+	</CellMethods>
+</root>
+

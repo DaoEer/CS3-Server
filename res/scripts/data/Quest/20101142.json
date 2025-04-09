@@ -1,0 +1,109 @@
+{
+    "20101142": {
+        "tasks": [
+            {
+                "navigateData": "(-60930 -17790 -14689.253906)#L_KWSM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "20", 
+                "param2": "-60930 -17790 -14689.253906", 
+                "param1": "L_KWSM", 
+                "id": 1, 
+                "name": "闯入赤猿道场"
+            }, 
+            {
+                "navigateData": "30000027#L_KWSM", 
+                "goal": 10, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20001284|20001285|20001306|20001307|20001308|20001309|20001286|20001287|20001288|20001289|20001293|20001315|20001313|20001314|20001290|20001291|20001292|20001305|20001295", 
+                "id": 2, 
+                "name": "消灭道场守卫"
+            }, 
+            {
+                "navigateData": "30000027#L_KWSM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20001302", 
+                "id": 3, 
+                "name": "击败朱厌"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101142, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101113"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3900", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "758", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1230", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "510", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}@F{fc=c41}山河社稷图@D已被玄蜂妖王献给了朱厌，请前往赤猿道场击败朱厌，夺回宝图。|@S{4}@F{fc=c41}山河社稷图@D已被玄蜂妖王献给了朱厌，请前往赤猿道场击败朱厌，夺回宝图。|@S{4}@F{fc=c41}山河社稷图@D已被玄蜂妖王献给了朱厌，请前往赤猿道场击败朱厌，夺回宝图。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101143", 
+        "taskCompleteFunctions": {}, 
+        "level": 16, 
+        "title": "山河社稷图(二)", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

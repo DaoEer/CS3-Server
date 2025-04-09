@@ -1,0 +1,159 @@
+<root>
+	<Properties>
+		<reviveSpaceScriptID>
+			<!-- 回城复活点 -->
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</reviveSpaceScriptID>
+		<revivePosition>
+			<Type>			POSITION		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</revivePosition>
+		<reviveDirection>
+			<Type>			DIRECTION		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</reviveDirection>
+		<role_die_teleport>
+			<!-- 复活传送标记 -->
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</role_die_teleport>
+		<nextUseItemToReviveTime>
+			<!-- 下次可以使用物品复活时间 -->
+			<Type>			SERVER_TIME			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true			</Persistent>
+		</nextUseItemToReviveTime>
+		<remainUseItemTime>
+			<!-- 剩下可以使用物品复活的时间 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0			</Default>
+		</remainUseItemTime>
+		<reviveByCostItemNumber>
+			<!-- 消耗物品复活的次数 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true			</Persistent>
+		</reviveByCostItemNumber>
+		<lastTimeReviveByCostMoney>
+			<!-- 上一次使用消耗金币复活时间 -->
+			<Type>			SERVER_TIME			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true			</Persistent>
+		</lastTimeReviveByCostMoney>
+		<lastTimeReviveByCostItem>
+			<!-- 上一次使用消耗物品复活时间 -->
+			<Type>			SERVER_TIME			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true			</Persistent>
+		</lastTimeReviveByCostItem>
+		<resetUseMoneyReviveDataTimerID>
+			<!-- 重置使用消耗金币复活数据TimerID -->
+			<Type>			TIMER_ID			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false			</Persistent>
+		</resetUseMoneyReviveDataTimerID>
+		<resetUseItemReviveDataTimerID>
+			<!-- 重置使用消耗物品复活数据TimerID -->
+			<Type>			TIMER_ID			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false			</Persistent>
+		</resetUseItemReviveDataTimerID>
+		<nextUseMoneyToReviveTime>
+			<!-- 下次可以使用金钱复活时间 -->
+			<Type>			SERVER_TIME			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true			</Persistent>
+		</nextUseMoneyToReviveTime>
+		<remainUseMoneyTime>
+			<!-- 剩下可以使用金币复活的时间 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0			</Default>
+		</remainUseMoneyTime>
+		<reviveByCostMoneyNumber>
+			<!-- 消耗金钱复活的次数 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	true			</Persistent>
+		</reviveByCostMoneyNumber>
+		<remainYXLMReviveTime>
+			<!-- 英雄联盟复活时间 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0			</Default>
+		</remainYXLMReviveTime>
+		<remainReviveNum>
+			<!-- 帮会掠夺战剩余复活次数 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</remainReviveNum>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_revive>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</CELL_revive>
+		<reviveOnOrigin/>
+		<reviveOnCity/>
+		<reviveOnReviveSpace/>
+		<reviveOnRturnPoint/>
+		<reviveOnSpaceCopy/>
+		<setRevivePos>
+			<Arg>		UNICODE		</Arg>	<!-- reviveSpace -->
+			<Arg>		POSITION	</Arg>	<!-- revivePosition -->
+			<Arg>		DIRECTION	</Arg>	<!-- reviveDirection -->
+		</setRevivePos>
+		<CELL_reviveOnArea>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CELL_reviveOnArea>
+		<useItemToRevive/>
+		<useMoneyToRevive/>
+		<reviveOnOriginByMoney/>
+		<CELL_setRevivePos>
+			<Exposed/>
+		</CELL_setRevivePos>
+		<requestReviveSpaceScriptID>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</requestReviveSpaceScriptID>
+		<campFitTeleport>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+		</campFitTeleport>
+	</CellMethods>
+
+	<ClientMethods>
+		<CLIENT_OnHideRevive>
+		</CLIENT_OnHideRevive>
+		<CLIENT_SetRevivePosStatus>
+			<Arg>		INT32		</Arg>	<!-- statusID -->
+			<Arg>		STRING		</Arg>	<!-- scriptID -->
+		</CLIENT_SetRevivePosStatus>
+		<NotifyReviveSpaceScriptID>
+			<Arg>		STRING		</Arg>	<!-- scriptID -->
+		</NotifyReviveSpaceScriptID>
+	</ClientMethods>
+</root>

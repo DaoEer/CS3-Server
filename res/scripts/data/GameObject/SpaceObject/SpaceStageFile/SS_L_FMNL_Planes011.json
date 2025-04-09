@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "听从哮天犬的指引，躲避路上的群妖，冲出千妖万魔林", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜寻秘宝", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "千妖万魔林"
+        }
+    }, 
+    "describe": "仙道10-12级任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "千妖万魔林"
+}

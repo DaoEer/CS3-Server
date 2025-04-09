@@ -1,0 +1,97 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭铁血剑客", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004472", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004472#L_DBDT"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭紫玉法师", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004471", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004471#L_DBDT"
+                }
+            }, 
+            "title": "初探多宝洞天"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败多宝妖王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20004479#L_DBDT"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "夺取先天纯阳玉", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20004479#L_DBDT"
+                }
+            }, 
+            "title": "击败多宝妖王"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭破天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004478", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004478#L_DBDT"
+                }
+            }, 
+            "title": "消灭金甲护法"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往阎龙谷", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-1970.0 -15120.0 7895.759277:2", 
+                    "param2": "17000|5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-1970.0 -15120.0 7895.759277)#L_DBDT"
+                }
+            }, 
+            "title": "前往阎龙谷"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "多宝洞天"
+}

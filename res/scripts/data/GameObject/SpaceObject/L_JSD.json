@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_JSD",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_JSD",
+"PatrolRouteFile": "P_L_JSD",
+"NavmeshPath"	: "space\\L_SXG_NAVMESH",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FYP",
+	"Position"	: "43000.0 -48350.0 5199.2",
+	"Direction"	: "0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_JSD",
+	"eventFile":"SE_L_JSD"
+	},
+"DomainData"	:{
+	}
+}

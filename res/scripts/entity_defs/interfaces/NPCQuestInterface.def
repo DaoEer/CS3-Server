@@ -1,0 +1,28 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<questDataApplyByClick>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</questDataApplyByClick>
+
+		<questStatusApply>
+			<Exposed/>
+		</questStatusApply>
+	</CellMethods>
+
+	<ClientMethods>
+		<CLIENT_SetQuestSign>
+			<Arg>	INT32	</Arg>
+		</CLIENT_SetQuestSign>
+	</ClientMethods>
+</root>

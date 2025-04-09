@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "在规定时间内这里的宝物你想拿多少就拿多少", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "尽可能多的开启宝箱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002526", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "争分夺秒"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "宝物库"
+}

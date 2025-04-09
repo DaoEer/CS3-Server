@@ -1,0 +1,33 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<AddAlternatelyRange/>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_OnPlayerBeginPush>
+			<Exposed/>
+		</CELL_OnPlayerBeginPush>
+		<CELL_OnPlayerEndPush>
+			<Exposed/>
+		</CELL_OnPlayerEndPush>
+		<alternatelyResults>
+			<Exposed/>
+		</alternatelyResults>
+	</CellMethods>
+</root>
+

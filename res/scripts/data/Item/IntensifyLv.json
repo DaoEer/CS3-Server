@@ -1,0 +1,26 @@
+[
+	{
+		"Name":"",
+		"MinMaxLv":"20-49",
+		"MaxIntensifyLv":7,
+		"MaxLockStar":5
+	},
+	{
+		"Name":"",
+		"MinMaxLv":"50-59",
+		"MaxIntensifyLv":10,
+		"MaxLockStar":7
+	},
+	{
+		"Name":"",
+		"MinMaxLv":"60-69",
+		"MaxIntensifyLv":12,
+		"MaxLockStar":9
+	},
+	{
+		"Name":"",
+		"MinMaxLv":"70-150",
+		"MaxIntensifyLv":15,
+		"MaxLockStar":12
+	}
+]

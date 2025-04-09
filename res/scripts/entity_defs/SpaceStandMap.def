@@ -1,0 +1,58 @@
+<root>
+	<Interfaces>
+		<Interface> SpaceObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<trainSoldierGroundMgr>
+			<Type>			TRAINSOLDIERGROUNDDATAMGR		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</trainSoldierGroundMgr>
+		<spaceRoleDict>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</spaceRoleDict>
+		<spaceTrainSoldierGroundDict>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</spaceTrainSoldierGroundDict>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<setMaxLineNumber>
+			<Arg>	INT32		</Arg>
+		</setMaxLineNumber>
+		<onRequestTrainSoldierGroundDatasCB>
+			<Arg>	TRAINSOLDIERGROUNDDATAS		</Arg>
+		</onRequestTrainSoldierGroundDatasCB>
+		<notifyTrainSoldierGroundOccupyed>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+		</notifyTrainSoldierGroundOccupyed>
+		<notifySpaceNPCTrainSoldierGroundState>
+			<Arg>	INT32	</Arg>
+		</notifySpaceNPCTrainSoldierGroundState>
+		<openAllGroundDetail>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</openAllGroundDetail>
+		<clearOtherIsOccupyPlayerDBIDGroundData>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</clearOtherIsOccupyPlayerDBIDGroundData>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

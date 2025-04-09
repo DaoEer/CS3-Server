@@ -1,0 +1,35 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败上古琉璃兽", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005184", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005184#L_ZLY_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得琉璃心", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010081", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20005184#L_ZLY_Planes001"
+                }
+            }, 
+            "title": "取得琉璃心"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "琉璃心"
+}

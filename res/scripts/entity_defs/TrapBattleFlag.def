@@ -1,0 +1,33 @@
+<root>
+	<Parent>	Trap	</Parent>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<occurProgress>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</occurProgress>
+		<maxProgress>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		100			</Default>
+		</maxProgress>
+		<barracksBelongType>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		2			</Default>
+		</barracksBelongType>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

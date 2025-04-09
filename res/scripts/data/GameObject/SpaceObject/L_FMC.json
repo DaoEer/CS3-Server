@@ -1,0 +1,25 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "L_FMC",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "S_L_FMC",
+"NavmeshPath"	: "space\\L_XFMC_NAVMESH",
+"PatrolRouteFile": "P_L_FMC",
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_PEACE",
+"ExitSpace"	:{
+	"ScriptID"	: "",
+	"Position"	: "",
+	"Direction"	: ""
+	},
+"SpaceData"	:{
+	"maxLine":50,
+    "maxPlayerAmount":150,
+    "triggerLinePlayerAmount":50,
+	"reviveType"	: "0|"
+	},
+"DomainData"	:{
+	}
+}

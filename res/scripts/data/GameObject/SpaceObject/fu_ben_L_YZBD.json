@@ -1,0 +1,32 @@
+﻿{
+"SpaceName"	: "妖尊宝殿",
+"EntityType"	: "SpaceCopyJiYuan",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJiYuan",
+"scriptID"	: "fu_ben_L_YZBD",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_YZBD",
+"NavmeshPath"	: "space\\L_MXSJ_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"spaceIntroduce":{"voiceID":"C001979|C001980"},
+	"enterPosition":"7007 -9546 489",
+	"enterDirection":"0 0 -88",
+	"stageFile":"SS_fu_ben_L_YZBD",
+	"eventFile":"SE_fu_ben_L_YZBD",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

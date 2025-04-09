@@ -1,0 +1,23 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Parent>
+		Monster
+	</Parent>
+	<Implements>
+		<Interface>	NPCAmbulantInterface		</Interface>
+	</Implements>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

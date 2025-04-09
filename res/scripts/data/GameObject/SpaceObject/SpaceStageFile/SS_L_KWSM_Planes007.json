@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入青丘洞", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-92830 -100162 -3081:12", 
+                    "param2": "-2296|-3796", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-92830 -100162 -3081)#L_KWSM_Planes007"
+                }
+            }, 
+            "title": "狐妖幻阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "昆吾山寻妖（二）"
+}

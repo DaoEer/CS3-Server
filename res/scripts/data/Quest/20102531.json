@@ -1,0 +1,96 @@
+{
+    "20102531": {
+        "tasks": [
+            {
+                "navigateData": "30000289#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "魔化女娲圣像，成立九黎部落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_BQDB_Planes105"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102531, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102530"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "31484", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "881", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9889", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1380", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041561|Q041562", 
+        "finish_by": "10000630#L_BQXB", 
+        "taskLogDes": "@S{4}请跟随祖巫蓐收一同攻打轩辕部落，破除女娲圣像的万象天斗大阵，将收服的人族带往阪泉西部成立新的部族。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045587", 
+        "nextQuest": "20102543", 
+        "taskCompleteFunctions": {}, 
+        "level": 32, 
+        "title": "攻打轩辕族", 
+        "isAutoCommit": 1, 
+        "start_by": "10000456#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

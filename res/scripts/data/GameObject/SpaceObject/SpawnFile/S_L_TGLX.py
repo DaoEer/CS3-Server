@@ -1,0 +1,83 @@
+# -*- coding: utf-8 -*-
+Datas = {
+	0:{
+		'position':(148.81304688,-2.90788086,-105.18048828,),'lineNumber':0,'group':1,'delaySpawn':0,'EntityType':'SpawnPointGroup','properties':{
+			'randomWalkRange':3,
+		},
+		'direction':(0.0,0.0,2.464489814084103,),'scriptID':'20004565','redivious':-1,
+	},
+	1:{
+		'position':(153.4915332,-3.0452636699999998,-97.14079102,),'lineNumber':0,'group':1,'delaySpawn':0,'EntityType':'SpawnPointGroup','properties':{
+			'randomWalkRange':3,
+		},
+		'direction':(0.0,0.0,2.617995204441726,),'scriptID':'20004566','redivious':-1,
+	},
+	2:{
+		'position':(-47.27211914,7.5875,59.266411129999995,),'lineNumber':0,'group':3,'delaySpawn':0,'EntityType':'SpawnPointGroup','isDarkEntity':1,'properties':{
+			'randomWalkRange':4,
+		},
+		'direction':(0.0,0.0,2.375259786262723,),'scriptID':'20004572','redivious':-1,
+	},
+	3:{
+		'position':(-39.35746582,7.6328173800000005,55.76191406,),'lineNumber':0,'group':3,'delaySpawn':0,'EntityType':'SpawnPointGroup','isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'direction':(0.0,0.0,2.485584701181747,),'scriptID':'20004571','redivious':-1,
+	},
+	4:{
+		'position':(15.98476807,12.092310789999999,-35.43076904,),'lineNumber':0,'group':2,'delaySpawn':0,'EntityType':'SpawnPointGroup','isDarkEntity':1,'properties':{
+			
+		},
+		'direction':(0.0,0.0,1.632851438536385,),'scriptID':'20004573','redivious':-1,
+	},
+	5:{
+		'position':(-171.02205078,1.7182861299999999,245.06058593999998,),'lineNumber':0,'group':4,'delaySpawn':0,'EntityType':'SpawnPointGroup','isDarkEntity':1,'properties':{
+			
+		},
+		'direction':(0.0,0.0,2.6179936161921065,),'scriptID':'20004577','redivious':-1,
+	},
+	6:{
+		'position':(-164.8,0.84641113,270.8,),'lineNumber':0,'group':5,'delaySpawn':0,'EntityType':'SpawnPointGroup','isDarkEntity':1,'properties':{
+			
+		},
+		'direction':(0.0,0.0,0.0,),'scriptID':'20005018','redivious':-1,
+	},
+	7:{
+		'position':(153.45317383,-3.2940551799999995,-101.11772461000001,),'lineNumber':0,'group':1,'delaySpawn':0,'EntityType':'SpawnPointGroup','properties':{
+			'randomWalkRange':3,
+		},
+		'direction':(0.0,0.0,2.617993336939426,),'scriptID':'20004565','redivious':-1,
+	},
+	8:{
+		'position':(159.36866211,-3.22209717,-95.67282227,),'lineNumber':0,'group':1,'delaySpawn':0,'EntityType':'SpawnPointGroup','properties':{
+			'randomWalkRange':3,
+		},
+		'direction':(0.0,0.0,2.617995204441726,),'scriptID':'20004566','redivious':-1,
+	},
+	9:{
+		'position':(148.95207031,-2.7585119600000003,-100.7978418,),'lineNumber':0,'group':1,'delaySpawn':0,'EntityType':'SpawnPointGroup','properties':{
+			'randomWalkRange':3,
+		},
+		'direction':(0.0,0.0,2.617995204441726,),'scriptID':'20004566','redivious':-1,
+	},
+	10:{
+		'position':(-33.34145508,7.612045900000001,59.58690918,),'lineNumber':0,'group':3,'delaySpawn':0,'EntityType':'SpawnPointGroup','isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'direction':(0.0,0.0,2.3561691829181908,),'scriptID':'20004571','redivious':-1,
+	},
+	11:{
+		'position':(-40.092631839999996,7.51094238,61.92309082,),'lineNumber':0,'group':3,'delaySpawn':0,'EntityType':'SpawnPointGroup','isDarkEntity':1,'properties':{
+			'randomWalkRange':4,
+		},
+		'direction':(0.0,0.0,2.375259786262723,),'scriptID':'20004572','redivious':-1,
+	},
+	12:{
+		'position':(-39.08481201,7.4921923800000005,69.13007813,),'lineNumber':0,'group':3,'delaySpawn':0,'EntityType':'SpawnPointGroup','isDarkEntity':1,'properties':{
+			'randomWalkRange':4,
+		},
+		'direction':(0.0,0.0,2.375259786262723,),'scriptID':'20004572','redivious':-1,
+	},
+	
+}
+

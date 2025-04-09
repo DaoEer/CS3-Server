@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "阴阳棋阵",
+"EntityType"	: "SpaceCopyYinYangQiZhen",
+"DomainType"	: "SpaceDomainCopyStory",
+"EntityScript"	: "SpaceCopyYinYangQiZhen",
+"scriptID"	: "L_YYQZ",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_YYQZ",
+"NavmeshPath"	: "space\\L_ZLQJ_02_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 150.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMNL",
+	"Position"	: "72526.0 69231.0 -4563.0",
+	"Direction"	: "0.0 0.0 -170.74"
+	},
+"SpaceData"	:{
+	"stageFile":"SS_L_YYQZ",
+	"eventFile":"SE_L_YYQZ",
+	"reviveType"	: "1|2",
+	"originPos":"34.02|7.632542|-32.97",
+	"unitLength":"4.15",
+	"blackID":"40000112",
+	"whiteID":"40000111",
+	"bossID" :"20005951",
+	"monsterQiZiID":"20005965"
+	},
+"DomainData"	:{
+	}
+}

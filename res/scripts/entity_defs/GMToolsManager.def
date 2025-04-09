@@ -1,0 +1,24 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onSendMsg>
+			<Arg>		STRING	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</onSendMsg>
+		<onRecvMsg>
+			<Arg>		STRING	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</onRecvMsg>
+		<doActionCallback>
+			<Arg>		STRING	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ENTITYCALL	</Arg>
+		</doActionCallback>
+	</BaseMethods>
+</root>

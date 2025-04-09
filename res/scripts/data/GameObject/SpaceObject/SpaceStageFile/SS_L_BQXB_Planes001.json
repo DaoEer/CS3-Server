@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路小妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005994|20005995|20005996", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005994|20005995|20005996#L_BQXB_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守将血蒙", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005997", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(18631.4 70266.3 -340.4)#L_BQXB_Planes001"
+                }
+            }, 
+            "title": "初入洞窟"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭翻天兽", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004530", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004530#L_BQXB_Planes001"
+                }
+            }, 
+            "title": "直捣黄龙"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "勇闯翻天洞"
+}

@@ -1,0 +1,57 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏魔炎阵核心", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009600", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败镇塔火魔", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009598", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过魔炎阵", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "-1350.000000 3840.000000 220.000000:15", 
+                    "param2": "720.000000|-380.000000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入第三层", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-1280.000000 4680.960449 304.003662)#L_LYT_02"
+                }
+            }, 
+            "title": "凌云塔第二层"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "获悉金乌下落（二）"
+}

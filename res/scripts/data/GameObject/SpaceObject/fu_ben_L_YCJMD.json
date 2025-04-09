@@ -1,0 +1,41 @@
+﻿{
+"SpaceName"	: "勇闯绝命岛",
+"EntityType"	: "SpaceCopyCampShootYCJMD",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyCampShootYCJMD",
+"scriptID"	: "fu_ben_L_YCJMD",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_YCJMD_yuancheng",
+"NavmeshPath": "space\\L_YCJMD_FZ_NAVMESH",
+"PatrolRouteFile": "P_L_YCJMD",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "", 
+"SpaceHoldEffect": "101010106",
+"AllowUseItemTypes":[30003],
+"ForbidUseItemTypes":[],
+"AllowUseItemIDs":[],
+"ForbidUseItemIDs":[],
+"spaceChildType":"SPACE_CHILD_TYPE_YCJMD",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 50,
+	"spaceIntroduce":{"voiceID":""},
+	"stageFile":"SS_L_YCJMD_yuancheng",
+	"eventFile":"SE_L_YCJMD",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "13",
+	"revivePosList":"30995 35671 3046|26695 -23931 744|-32030 -33101 2771|7835 -25874 293|5001 -15340 -71|-25595 -5640 233|-16090 32280 -100|-2341 14149 -71|19852 3774 50",
+	"reviveDirList":"0 0 -146|0 0 167|0 0 0|0 0 93|0 0 106|0 0 78|0 0 -140|0 0 98|0 0 -170",
+	"birthPosList":"30995 35671 3046|26695 -23931 744|-32030 -33101 2771|-23278.0 27045.9 254.0|-25758.0 1671.0 976.0",
+	"birthDirList":"0 0 -146|0 0 167|0 0 0|0 0 3|0 0 -60",
+	"notDropItemID":"302010048|302010049|302010050|302010051|302010052|302010053|302010080",
+	"defaultWeapon":"0",
+        	"monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

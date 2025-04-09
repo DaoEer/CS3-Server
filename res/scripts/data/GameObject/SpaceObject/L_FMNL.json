@@ -1,0 +1,27 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "L_FMNL",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "S_L_FMNL",
+"NavmeshPath"	: "space\\L_FM_XYW_NAVMESH",
+"PatrolRouteFile": "P_L_FMNL",
+"RoleIsCanCompete":1,
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_PKMODE",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "",
+	"Position"	: "",
+	"Direction"	: ""
+	},
+"SpaceData"	:{
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|1"
+	},
+"DomainData"	:{
+	}
+}

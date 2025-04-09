@@ -1,0 +1,45 @@
+<root>
+	<Properties>
+		<callMonsterMBList>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}			</Default>
+			<Persistent>	false		</Persistent>
+		</callMonsterMBList>
+		<monsterExtCallParams>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		[]			</Default>
+			<Persistent>	false		</Persistent>
+		</monsterExtCallParams>
+		<monsterFenShenData>			<!-- 下线需要保存的数据 -->
+			<Type> 	ARRAY <of> DICT_UNI_UNI </of></Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	true		</Persistent>
+		</monsterFenShenData>
+		<monsterFenShen>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}			</Default>
+		</monsterFenShen>
+		<disposableMonsterList>
+			<Type>			ARRAY_INT32						</Type>
+			<Flags>			CELL_PRIVATE					</Flags>
+			<Default>		[]								</Default>
+		</disposableMonsterList>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<registerCallMonster>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+		</registerCallMonster>		
+		<createMonsterExtCallExt/>		
+	</CellMethods>
+</root>

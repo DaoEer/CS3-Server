@@ -1,0 +1,125 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门进入较武台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-14498 4457 4058.040039:2", 
+                    "param2": "9000|-1000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20002293#L_YZD_Planes005"
+                }
+            }, 
+            "title": "进入较武台"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败寒血魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败冰傀魔", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤风魔", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败摄心魔", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "昧水魔使"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "挑战祖巫共工之徒相柳", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-17593.0 3911.0 4083.0)#L_YZD_Planes005"
+                }
+            }, 
+            "title": "挑战相柳"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门离开较武台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-14497.999999999998 4457.0 4058.0:10", 
+                    "param2": "5600|-4400", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-14497.999999999998 4457.0 4058.0)#L_YZD_Planes005"
+                }
+            }, 
+            "title": "离开较武台"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败相柳，赢得乾坤鼎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010030", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20002305#L_YZD_Planes005"
+                }
+            }, 
+            "title": "夺取乾坤鼎"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "夺取乾坤鼎"
+}

@@ -1,0 +1,104 @@
+{
+    "20102087": {
+        "tasks": [
+            {
+                "navigateData": "(11911.6 -6452.6 -2603.9)#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "攻占天风寨"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_BQXB_Planes012"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3093"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102087, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102086"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19057", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "755", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8481", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1459", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045271|Q045272|Q045273", 
+        "finish_by": "10000636#L_BQXB", 
+        "taskLogDes": "@S{4}从女魃处得知，魔道带着被掳走的族人在此成立了九黎部落。前方的天风寨便是他们的重要关口，请你和女魃一同攻下天风寨。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041466", 
+        "nextQuest": "20102088", 
+        "taskCompleteFunctions": {}, 
+        "level": 33, 
+        "title": "攻占天风寨", 
+        "isAutoCommit": 1, 
+        "start_by": "10000637#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

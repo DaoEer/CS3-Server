@@ -1,0 +1,149 @@
+{
+    "20101183": {
+        "tasks": [
+            {
+                "navigateData": "10001123#L_BHD_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010021", 
+                "id": 1, 
+                "name": "取得冰河之水"
+            }, 
+            {
+                "navigateData": "10001123#L_BHD_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010022", 
+                "id": 2, 
+                "name": "取得太古天火"
+            }, 
+            {
+                "navigateData": "10001123#L_BHD_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "重炼山河社稷图"
+            }, 
+            {
+                "navigateData": "10001123#L_KLZ_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001123", 
+                "id": 4, 
+                "name": "与女娲对话"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101183, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101182"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12573", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "843", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1401", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "627", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102100002", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010003", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010014", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}@F{fc=c41}山河社稷图@D被一片混沌魔气遮掩，女娲命你前往冰火玄境取得相伴而生的@F{fc=c41}冰河之水@D和@F{fc=c41}太古天火@D，助她重炼@F{fc=c41}山河社稷图@D。|@S{4}@F{fc=c41}山河社稷图@D被一片混沌魔气遮掩，女娲命你前往冰火玄境取得相伴而生的@F{fc=c41}冰河之水@D和@F{fc=c41}太古天火@D，助她重炼@F{fc=c41}山河社稷图@D。|@S{4}@F{fc=c41}山河社稷图@D被一片混沌魔气遮掩，女娲命你前往冰火玄境取得相伴而生的@F{fc=c41}冰河之水@D和@F{fc=c41}太古天火@D，助她重炼@F{fc=c41}山河社稷图@D。|@S{4}@F{fc=c41}山河社稷图@D已重炼完毕，请向女娲娘娘复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101202", 
+        "taskCompleteFunctions": {}, 
+        "level": 19, 
+        "title": "重炼宝图", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

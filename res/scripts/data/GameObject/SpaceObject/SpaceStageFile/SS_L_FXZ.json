@@ -1,0 +1,12 @@
+{
+    "stages": {
+        "1": {
+            "comment": "消灭玩家或者怪物，获得更多的积分。", 
+            "tasks": {}, 
+            "title": "获得积分"
+        }
+    }, 
+    "describe": "凤栖镇阶段说明", 
+    "beginOnSpaceInit": 1, 
+    "name": ""
+}

@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+from ObjectScript.Space.SpaceCopy import SpaceCopy
+import KBEDebug
+import Math
+import KBEngine
+
+class SpaceCopyMagicMazeParent( SpaceCopy ):
+	"""
+	幻阵迷宫 主副本
+	"""
+	def __init__( self ):
+		SpaceCopy.__init__( self )
+	
+

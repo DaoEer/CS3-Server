@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005276|20005277|20005278", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005276|20005277|20005278#L_BQDB_Planes102"
+                }
+            }, 
+            "title": "闯入地牢"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败古玉", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005283", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005283#L_BQDB_Planes102"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救姜吼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "333", 
+                    "param2": "20005282", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005282#L_BQDB_Planes102"
+                }
+            }, 
+            "title": "拯救姜吼"
+        }
+    }, 
+    "describe": "34级魔道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "拯救姜吼"
+}

@@ -1,0 +1,236 @@
+<root>
+	<Interfaces>
+		<Interface> 	RoleSpaceEffectInterface	</Interface>
+	</Interfaces>
+	<Properties>
+		<spaceScriptID>
+			<Type>		SCRIPT_ID		</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	L_YXG		</Default>
+			<DatabaseLength>255		</DatabaseLength>
+			<Persistent>	true			</Persistent>
+		</spaceScriptID>
+		<spaceBelongType>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</spaceBelongType>
+		<isTeleporting>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>		false		</Persistent>
+		</isTeleporting>
+		<spaceHoldEffectIndex>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>		false		</Persistent>
+		</spaceHoldEffectIndex>
+		<tabDistance>
+			<Type>		INT32		</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0				</Default>
+		</tabDistance>
+		<lineNumber>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+		</lineNumber>
+		<sceneVoiceTriggerNum>
+			<Type>	DICT_STR_INT	</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	true		</Persistent>
+		</sceneVoiceTriggerNum>
+		<disableAssistJump>
+		    <Type>	INT32	</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Default>	 0		</Default>
+			<Persistent>		false		</Persistent>
+		</disableAssistJump>
+		<disconnectEndTime>
+			<Type>			SERVER_TIME		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>		true		</Persistent>
+		</disconnectEndTime>
+	</Properties>
+	<ClientMethods>
+		<SeamLessLoadLevel/>
+		<OnEnterSpaceNotify>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32			</Arg>
+		</OnEnterSpaceNotify>
+		<OnEnterAreaNotify/>
+		<OnLoginSpaceNotify>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32			</Arg>
+		</OnLoginSpaceNotify>
+		<OnLeaveSpaceNotify>
+			<Arg>		STRING			</Arg>
+			<Arg>		STRING			</Arg>
+		</OnLeaveSpaceNotify>
+		<GotoSpacePlane>
+			<Arg>		SCRIPT_ID		</Arg>
+		</GotoSpacePlane>
+		<LeaveSpacePlane>
+			<Arg>		SCRIPT_ID		</Arg>
+		</LeaveSpacePlane>
+		<ChangeMovementMode>
+			<Arg>		BOOL		</Arg>
+		</ChangeMovementMode>
+
+		<ShowMazeDice>
+			<Arg>		BOOL		</Arg>
+		</ShowMazeDice>
+		<FlyToSubSpace>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		POSITION	</Arg>
+		</FlyToSubSpace>
+		<OnGetSpaceEntityRecordPos>
+			<Arg>		STRING		</Arg>
+		</OnGetSpaceEntityRecordPos>
+		<UpdateMazeDice>
+		</UpdateMazeDice>
+		<StopFlyToSubSpace>
+			<Arg>		STRING		</Arg>
+		</StopFlyToSubSpace>
+		<SetCanWalkOffLedges>
+			<Arg>		BOOL		</Arg>
+		</SetCanWalkOffLedges>
+		<CLIENT_RequestGotoLineNumberSpaceFailure/>
+		<CLIENT_ArticleToReadNotify>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ArticleToReadNotify>
+		<CLIENT_StartVideoLoading>
+		</CLIENT_StartVideoLoading>
+		<OnVideoLoading>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnVideoLoading>
+		<AgainNotifySpaceData>
+			<Arg>		STRING		</Arg>
+		</AgainNotifySpaceData>
+		<OnNotifyPreloadSpace>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnNotifyPreloadSpace>
+	</ClientMethods>
+	<BaseMethods>
+		<gotoSpace>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+		</gotoSpace>
+		<loginToReviveSpace/>
+		<loginToConfigSpace>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+		</loginToConfigSpace>
+		<createCellFromSpace>
+			<Arg>		CELL_ENTITYCALL		</Arg>
+		</createCellFromSpace>
+		<loginToBindReviveSpace/>
+	</BaseMethods>
+	<CellMethods>
+		<onEnterSpaceNotify>
+			<Arg>		PYTHON_DICT		</Arg>
+		</onEnterSpaceNotify>
+		<onLoginSpace/>
+		<gotoSpace>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+		</gotoSpace>
+		<gotoSpaceUseArg>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+		</gotoSpaceUseArg>
+		<gotoSpaceEnterPos>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+		</gotoSpaceEnterPos>
+		<gotoExitSpacePos/>
+		<gotoBindSpace/>
+		<gotoBunchSpace>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+		</gotoBunchSpace>
+		<gotoMagicMazeExtraSpace>
+			<Arg>		INT32		</Arg>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+			<Arg>		SCRIPT_ID		</Arg>
+		</gotoMagicMazeExtraSpace>
+		<onGotoSpace>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+		</onGotoSpace>
+		<requestGotoSpacePlane>
+			<Exposed/>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+		</requestGotoSpacePlane>
+		<gotoSpacePlane>
+			<Arg>		SCRIPT_ID		</Arg>
+		</gotoSpacePlane>
+		<leaveSpacePlane>
+			<Arg>		SCRIPT_ID		</Arg>
+		</leaveSpacePlane>
+		<requestGotoRevivePos>
+			<Exposed/>
+		</requestGotoRevivePos>
+		<requestGoToSpace>
+			<Exposed/>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>			
+		</requestGoToSpace>
+		<requestGotoExitSpace>
+			<Exposed/>
+		</requestGotoExitSpace>
+		<clickedBtnGotoExitSpace>
+			<Exposed/>
+		</clickedBtnGotoExitSpace>
+		<clickedBtnGotoExitSpaceByTongTianTa>
+			<Exposed/>
+		</clickedBtnGotoExitSpaceByTongTianTa>
+		<DisconnectDeathToSpace>
+			<Exposed/>
+		</DisconnectDeathToSpace>
+		<requestGotoDynamicRevivePos>
+			<Exposed/>
+		</requestGotoDynamicRevivePos>
+		<testGoToSpace>
+			<Exposed/>
+		</testGoToSpace>
+		<requestEntityRecodPos>
+			<Exposed/>
+			<Arg>		SCRIPT_ID		</Arg>
+		</requestEntityRecodPos>
+		<gotoTongSpace>
+			<Exposed/>
+		</gotoTongSpace>
+		<requestGotoLineNumberSpace>
+			<Exposed/>
+			<Arg>		UINT8			</Arg>
+		</requestGotoLineNumberSpace>
+		<gotoRingTaskSpace>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+			<Arg>		BOOL			</Arg>
+		</gotoRingTaskSpace>
+	</CellMethods>
+</root>

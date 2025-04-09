@@ -1,0 +1,33 @@
+<root>
+	<Properties>
+		<spawnInfo>
+			<Type>			DICT_INT_INT_LIST		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</spawnInfo>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<createSpawnPoint/>
+		
+		<startLoaderSpawnFile>
+			<Arg>	STRING		</Arg>
+		</startLoaderSpawnFile>
+	</BaseMethods>
+
+	<CellMethods>
+		<spawnPointStartLoader/>
+		<createSpawnPoint/>
+		<spawnPointCreateEntityByScriptID>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	PYTHON	</Arg>
+		</spawnPointCreateEntityByScriptID>
+		<callSpawnFunction>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PYTHON_TUPLE	</Arg>
+		</callSpawnFunction>
+	</CellMethods>
+</root>

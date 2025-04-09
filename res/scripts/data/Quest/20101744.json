@@ -1,0 +1,133 @@
+{
+    "20101744": {
+        "tasks": [
+            {
+                "navigateData": "10000206#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEnterChuanChengCopy", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "进入雷泽谷"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "23", 
+                "id": 2, 
+                "name": "到达23级"
+            }, 
+            {
+                "navigateData": "10000206#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000206", 
+                "id": 3, 
+                "name": "与凤鸣城段飞鸿对话"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002154"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101744, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101703"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "4"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13979", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1747", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17478", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "762", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102080015", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q030996|Q032299|Q032303", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}大师兄让你前往凤鸣城找段飞鸿，通关一次试炼秘境。|@S{4}将等级提升至23级。|@S{4}你已通关试炼秘境，请前往凤鸣城找段飞鸿交谈。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101720", 
+        "taskCompleteFunctions": {}, 
+        "level": 22, 
+        "title": "试炼秘境", 
+        "isAutoCommit": 1, 
+        "start_by": "10000696#L_MHD", 
+        "isAutoAccept": 1
+    }
+}

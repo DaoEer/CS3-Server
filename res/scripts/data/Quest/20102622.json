@@ -1,0 +1,58 @@
+{
+    "20102622": {
+        "tasks": [
+            {
+                "navigateData": "10001008#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "47000.0 -48300.0 5498.4", 
+                "param1": "L_FYP", 
+                "id": 1, 
+                "name": "返回荒火营复命"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102622, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102621"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q042629", 
+        "finish_by": "10001007#L_FYP", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042630", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 39, 
+        "title": "回营复命（废弃）", 
+        "isAutoCommit": 1, 
+        "start_by": "10001008#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,57 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "show": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 2, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {
+            2: {
+                "name": "", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction61", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [], 
+                        "id": 6
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }
+}

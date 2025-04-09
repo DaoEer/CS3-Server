@@ -1,0 +1,88 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<camp_killerList>
+			<Type>		ARRAY_UINT64		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		[]				</Default>
+		</camp_killerList>
+		<dayCampMorale>	
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		0				</Default>
+		</dayCampMorale>
+		<isGetCampReward>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	true			</Persistent>
+			<Default>		0				</Default>
+		</isGetCampReward>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onCampMoraleChange>
+			<Arg>	UINT64	</Arg>
+			<Arg>	UINT64	</Arg>
+			<Arg>	UINT64	</Arg>
+			<Arg>	INT32	</Arg>
+		</onCampMoraleChange>
+		<onQueryCampMorale>
+			<Arg>	UINT64	</Arg>
+			<Arg>	UINT64	</Arg>
+		</onQueryCampMorale>
+		<onQueryCampUIData>
+			<Arg>	UINT64	</Arg>
+			<Arg>	UINT64	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</onQueryCampUIData>
+		<onQueryMoraleRewards>
+			<Arg>	ARRAY_INT32	</Arg>
+		</onQueryMoraleRewards>
+		<onClearCampKillerList>
+		</onClearCampKillerList>
+		<onResetCampData>
+		</onResetCampData>
+		<CELL_rquestCampMoraleReward>
+			<Exposed/>
+		</CELL_rquestCampMoraleReward>
+		<CELL_rquestQueryCampUIData>
+			<Exposed/>
+		</CELL_rquestQueryCampUIData>
+		<onCampVenOlineMessage>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+		</onCampVenOlineMessage>
+		<setClientCampSwitch>
+			<Arg>	BOOL	</Arg>
+		</setClientCampSwitch>
+		<onCampBeKilled>
+			<Arg>	INT32	</Arg>
+		</onCampBeKilled>
+	</CellMethods>
+	<ClientMethods>
+		<CLIENT_onMoraleChange>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</CLIENT_onMoraleChange>
+		<CLIENT_OnQueryCampUIData>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	BOOL	</Arg>
+		</CLIENT_OnQueryCampUIData>
+		<CLIENT_SetClientCampSwitch>
+			<Arg>	BOOL	</Arg>
+		</CLIENT_SetClientCampSwitch>
+	</ClientMethods>
+</root>

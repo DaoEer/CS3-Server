@@ -1,0 +1,27 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<probeTimerID>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</probeTimerID>
+		<extcavateTimerID>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</extcavateTimerID>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

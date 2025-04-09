@@ -1,0 +1,95 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	
+	<ClientName>	NPC		</ClientName>
+
+	<Parent>
+		NPC
+	</Parent>
+
+	<Properties>
+		<belongDBID>
+			<Type>		DBID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</belongDBID>
+		<tipsDBID>
+			<Type>		DBID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</tipsDBID>
+		<occupyTimeID>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</occupyTimeID>
+		<endBuildTime>
+			<Type>		STRING				</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</endBuildTime>
+		<lightWallID>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0		</Default>
+		</lightWallID>
+		<buildState>
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	-1			</Default>
+		</buildState>
+		<occupyProtectTime>
+			<Type>		SERVER_TIME		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</occupyProtectTime>
+		<LTDatas>
+			<Type>		LINGTIANDATA_ARRY	</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</LTDatas>
+	</Properties>
+
+	<ClientMethods>
+		<OnShowBuildUI>
+			<Arg>		STRING		</Arg>
+		</OnShowBuildUI>
+		<OnShowLingTian>
+			<Arg>	LINGTIANDATA_ARRY	</Arg>
+		</OnShowLingTian>
+	</ClientMethods>
+
+	<CellMethods>
+		<updateOccupyTime>
+			<Arg>		TIME			</Arg>
+		</updateOccupyTime>
+		<onProtectTimeOut>
+		</onProtectTimeOut>
+		<stopParticles>
+		</stopParticles>
+		<updateDongFuLevel>
+			<Arg>		INT32			</Arg>
+		</updateDongFuLevel>
+		<updateDongFuState>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		DBID			</Arg>
+			<Arg>		LINGTIANDATA_ARRY	</Arg>
+		</updateDongFuState>
+		<updateLTDatas>
+			<Arg>		LINGTIANDATA_ARRY	</Arg>
+		</updateLTDatas>
+
+		<updateChallengeDBID>
+			<Arg>		DBID			</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+		</updateChallengeDBID>
+		<onActivityEnd>
+		</onActivityEnd>
+	</CellMethods>
+</root>

@@ -1,0 +1,121 @@
+{
+    "20101508": {
+        "tasks": [
+            {
+                "navigateData": "20000138#L_HLD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010004", 
+                "id": 1, 
+                "name": "前往火灵岛，取得三昧神火"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002010"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101508, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010004"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101506|20101525|20101526|20101527"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010004"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2363", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "389", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "194", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "260", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102030002|102030007|102030012|102030017", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q010814|Q010815|Q010816|Q010818|Q010819", 
+        "finish_by": "10000048#L_JSC", 
+        "taskLogDes": "@S{4}太虚镜被仙道气息侵蚀，镇守坐忘峰的计蒙长老让你前往火灵岛向岛主烈瞳借来@F{fc=c41}三昧神火@D，以重炼太虚镜。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101528|20101509|20101529|20101530", 
+        "taskCompleteFunctions": {}, 
+        "level": 8, 
+        "title": "三昧神火", 
+        "isAutoCommit": 1, 
+        "start_by": "10000047#L_JSC", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,628 @@
+<root>
+	<Properties>
+		<tongDBID>
+			<Type>	DBID		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Persistent>	true		</Persistent>
+		</tongDBID>
+		<onLineTime>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</onLineTime>
+		<tongName>
+			<Type>	OBJECT_NAME		</Type>
+			<Flags>	ALL_CLIENTS		</Flags>
+			<Persistent>	true		</Persistent>
+		</tongName>
+		<tongLeaderDBID>
+			<Type>	DBID		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongLeaderDBID>
+		<tongTitle>
+			<Type>	INT32			</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongTitle>
+		<tongGrade>
+			<Type>	INT32			</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongGrade>
+		<tongContribution>
+			<Type>	INT32			</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongContribution>
+		<tongShopLevel>
+			<Type>	INT32			</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongShopLevel>
+		<tongSmithyLevel>
+			<Type>	INT32			</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongSmithyLevel>
+		<tongMB>
+			<Type>	BASE_ENTITYCALL		</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+			<Persistent>	false		</Persistent>
+		</tongMB>
+
+		<tongSkills>
+			<Type>			ARRAY_INT32			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		[]				</Default>
+			<Persistent>		true				</Persistent>
+		</tongSkills>
+
+		<joinTongList>
+			<Type>			ARRAY_DBID			</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		[]				</Default>
+			<Persistent>		true				</Persistent>
+		</joinTongList>
+
+		<lastQuitTongTime>
+			<Type>			TIME			</Type>
+			<Flags>			BASE		</Flags>
+			<Default>		0.0				</Default>
+			<Persistent>		true				</Persistent>
+		</lastQuitTongTime>
+		
+		<tongAllocation>
+			<Type>			INT8			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</tongAllocation>
+		<BHLDAllocation>
+			<Type>			INT8			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</BHLDAllocation>
+	</Properties>
+	<BaseMethods>
+		<tongOnInit>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</tongOnInit>
+		<tongOnInitErr/>
+		<onDawnArrive/>
+		<createTong>
+			<Arg>	STRING	</Arg>
+		</createTong>
+		<onCreateTong>
+			<Arg>	DBID	</Arg>
+		</onCreateTong>
+
+		<tongReqJoin>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</tongReqJoin>
+		<tongCancelJoin>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</tongCancelJoin>
+		<!--requestJoinList>
+			<Exposed/>
+		</requestJoinList-->
+
+		<tongOnJoin>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</tongOnJoin>
+
+
+		<replyJoinTong>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</replyJoinTong>
+		<replyAllJoinTong>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</replyAllJoinTong>
+		<refuseJoinTong>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</refuseJoinTong>
+
+		<remoteTongInviteJoin>
+			<Exposed/>
+			<Arg>	OBJECT_NAME	</Arg>
+		</remoteTongInviteJoin>
+		<tongBeInviteJoin>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</tongBeInviteJoin>
+
+		<tongKickMember>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</tongKickMember>
+		<tongBeKick/>
+		<tongBeKickOffLine>
+			<Arg>	INT32		</Arg>
+		</tongBeKickOffLine>
+		<tongQuit>
+			<Exposed/>
+		</tongQuit>
+		<tongOnQuit/>
+		<tongDismiss>
+			<Exposed/>
+		</tongDismiss>
+		<tongOnDismiss>
+		</tongOnDismiss>
+
+		<setTitleName>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+		</setTitleName>
+		<setTitle>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</setTitle>
+		<onSetTitle>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+		</onSetTitle>
+		<setGrade>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</setGrade>
+		<onSetGrade>
+			<Arg>	INT32		</Arg>
+		</onSetGrade>
+		<onLeaderChange>
+			<Arg>	DBID	</Arg>
+		</onLeaderChange>
+		<setAffiche>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</setAffiche>
+		<setRecruitAffiche>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</setRecruitAffiche>
+
+		<RequireTongInfo>
+			<Exposed/>
+		</RequireTongInfo>
+
+		<upGrowTong>
+			<Exposed/>
+		</upGrowTong>
+		<upGrowTongBuild>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</upGrowTongBuild>
+
+		<researchTongSkill>
+			<Exposed/>
+			<Arg>	SKILL_ID	</Arg>
+		</researchTongSkill>
+		<pauseTongSkill>
+			<Exposed/>
+			<Arg>	SKILL_ID	</Arg>
+		</pauseTongSkill>
+
+		<deMiseLeader>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</deMiseLeader>
+		<requestTongEvent>
+			<Exposed/>
+		</requestTongEvent>
+		<requestTongStoreEvent>
+			<Exposed/>
+		</requestTongStoreEvent>
+		<setMemberGag>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</setMemberGag>
+		<tongSign>
+			<Exposed/>
+		</tongSign>
+		<changeNagual>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</changeNagual>
+		<sendReJoinTongFailMsgForbidByCDTime>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</sendReJoinTongFailMsgForbidByCDTime>
+		
+		<clearRejoinTongForbindTime/>
+		<onChangeNagualSucceed>
+			<Arg>	INT32 	</Arg>
+		</onChangeNagualSucceed>
+		<replyInviteTong>
+			<Exposed/>
+			<Arg>	BOOL		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</replyInviteTong>
+		<OnApplyJoinTongFailed>
+			<Arg>	DBID		</Arg>
+		</OnApplyJoinTongFailed>
+		<signUpTongPlunder>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</signUpTongPlunder>
+		<plunderAddMember>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</plunderAddMember>
+		<plunderRemoveMember>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</plunderRemoveMember>
+	</BaseMethods>
+	<CellMethods>
+		<tongCreate>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</tongCreate>
+		<tongOnInit>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+		</tongOnInit>
+		<tongOnInitErr/>
+		<tongOnCreate>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT8		</Arg>
+		</tongOnCreate>
+		<tongInviteJoin>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</tongInviteJoin>
+		<tongOnJoin>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</tongOnJoin>
+		<onLeaveTong/>
+
+		<donateMoney>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</donateMoney>
+		<onDonateMoney>
+			<Arg>	INT32		</Arg>
+		</onDonateMoney>
+		<onContributionChange>
+			<Arg>	INT32		</Arg>
+		</onContributionChange>
+		<onTongShopLevelChange>
+			<Arg>	INT32		</Arg>
+		</onTongShopLevelChange>
+		<onTongSmithyLevelChange>
+			<Arg>	INT32		</Arg>
+		</onTongSmithyLevelChange>
+		<onLeaderChange>
+			<Arg>	DBID	</Arg>
+		</onLeaderChange>
+
+		<startStudyTongSkill>
+			<Exposed/>
+			<Arg>	SKILL_ID	</Arg>
+		</startStudyTongSkill>
+
+		<tongDismissChangeConToMoney>
+			<Arg>	INT32	</Arg>
+		</tongDismissChangeConToMoney>
+		
+		<getTongSalary>
+			<Exposed/>
+		</getTongSalary>
+		<onGetTongSalary>
+			<Arg>	ITEM_ID		</Arg>
+		</onGetTongSalary>
+
+		<CELL_requestSaveTongItem>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+   		</CELL_requestSaveTongItem>
+  		 <onRequestSaveTongItem>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		BOOL		</Arg>
+   		</onRequestSaveTongItem>
+    		<CELL_requestTakeTongItem>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+    		</CELL_requestTakeTongItem>
+  		 <onRequestTakeTongItem>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+			<Arg>		BOOL		</Arg>
+   		</onRequestTakeTongItem>
+		<CELL_swapTongStoreItem>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</CELL_swapTongStoreItem>
+  		 <onSwapItemToTongStore>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		ITEM		</Arg>
+   		</onSwapItemToTongStore>
+		<CELL_requestRemoveTongStoreItem>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</CELL_requestRemoveTongStoreItem>
+		<sortTongStoreItem>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+    	</sortTongStoreItem>
+    	<onSetTitle>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+		</onSetTitle>
+		<readyToSignUpBHZBMember>
+			<Exposed/>
+			<Arg>	ARRAY_BHZBSIGNMEMBERDATA		</Arg>
+		</readyToSignUpBHZBMember>
+		<reqSetTongAllocation>
+			<Exposed/>
+			<Arg>	UINT8		</Arg>
+		</reqSetTongAllocation>
+		<OnUpdateTongAllocation>
+			<Arg>	UINT8		</Arg>
+		</OnUpdateTongAllocation>
+		<OnUpdateTongBHLDAllocation>
+			<Arg>	UINT8		</Arg>
+		</OnUpdateTongBHLDAllocation>
+		<reqSetTongBHLDAllocation>
+			<Exposed/>
+			<Arg>	UINT8		</Arg>
+		</reqSetTongBHLDAllocation>
+
+		<addTongBlockList>
+			<Exposed/>
+			<Arg>STRING</Arg>
+		</addTongBlockList>
+
+		<removeTongBlockList>
+			<Exposed/>
+			<Arg>STRING</Arg>
+		</removeTongBlockList>
+	</CellMethods>
+
+	<ClientMethods>
+		<OnJoinTong/>
+		<!--OnRequestJoinList>
+			<Arg>	ARRAY_UNICODE	</Arg>
+			<Arg>	ARRAY_UNICODE	</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+		</OnRequestJoinList-->
+		<OnOtherReqJoinTong>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</OnOtherReqJoinTong>
+		<OnOtherCancelJoinTong>
+			<Arg>	UNICODE	</Arg>
+		</OnOtherCancelJoinTong>
+		<OnRefuseJoinTong>
+			<Arg>	STRING		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</OnRefuseJoinTong>
+		<OnMemberOnline>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</OnMemberOnline>
+		<OnMemberOffline>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	STRING		</Arg>
+		</OnMemberOffline>
+		<UpdateTongDatas>
+			<Arg>	CLINE_TONG_DATAS		</Arg>
+		</UpdateTongDatas>
+		<CLIENT_UpdateTongMember>
+			<Arg>	CLENT_TONG_MEMBER_DATA	</Arg>
+		</CLIENT_UpdateTongMember>
+		<UpdateNagualType>
+			<Arg>	INT32	</Arg>
+		</UpdateNagualType>
+		<CLIENT_OnReceiveAllTong>
+			<Arg>	JOIN_TONG_DATAS	</Arg>
+		</CLIENT_OnReceiveAllTong>
+		<OnSetTitleName>
+			<Arg>	INT16		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+		</OnSetTitleName>
+		<OnSetTitleNameFailed/>
+		<OnSetTongTitle>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</OnSetTongTitle>
+		<onDonateMoney>
+			<Arg>	INT32		</Arg>
+		</onDonateMoney>
+		<onTongMemberExpChange>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</onTongMemberExpChange>
+		<OnSetGrade>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</OnSetGrade>
+		<OnSetGradeFailed/>
+		<OnTongBlocklistChange>
+			<Arg>	ARRAY_STRING	</Arg>
+		</OnTongBlocklistChange>
+		<OnGrowChange>
+			<Arg>	INT32		</Arg>
+		</OnGrowChange>
+		<OnContributionChange>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</OnContributionChange>
+		<OnDonateMoney>
+			<Arg>	INT32		</Arg>
+		</OnDonateMoney>
+		<OnLeaveTong/>
+		<OnKickTongMember>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</OnKickTongMember>
+		<OnQuitTong>
+			<Arg>	STRING		</Arg>
+		</OnQuitTong>
+
+		<OnUpgrowTong>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</OnUpgrowTong>
+		<OnUpgrowBuild>
+			<Arg>	INT16		</Arg>
+			<Arg>	INT32		</Arg>
+		</OnUpgrowBuild>
+		<OnConferenceHallLevelChange>
+			<Arg>	INT16		</Arg>
+		</OnConferenceHallLevelChange>
+
+		<OnTongMoneyChange>
+			<Arg>	INT32		</Arg>
+		</OnTongMoneyChange>
+		<OnActivityChange>
+			<Arg>	INT32		</Arg>
+		</OnActivityChange>
+		<OnLeaderChange>
+			<Arg>	STRING		</Arg>
+		</OnLeaderChange>
+		<OnSetAffiche>
+			<Arg>	UNICODE		</Arg>
+		</OnSetAffiche>
+		<OnSetRecruitAffiche>
+			<Arg>	UNICODE		</Arg>
+		</OnSetRecruitAffiche>
+		<OnSetGag>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</OnSetGag>
+		<OnTongSign/>
+		<onDawnArrive/>
+		<OnGetSalaryFail/>
+
+		<OnResearchTongSkill>
+			<Arg>	INT32		</Arg>
+		</OnResearchTongSkill>
+		<OnPauseTongSkill>
+			<Arg>	INT32		</Arg>
+		</OnPauseTongSkill>
+		<OnTongSkillProgressChange>
+			<Arg>	INT32		</Arg>
+		</OnTongSkillProgressChange>
+		<OnFinishResearchSkill>
+			<Arg>	INT32		</Arg>
+		</OnFinishResearchSkill>
+        <OnFinishLearnSkill>
+            <Arg>	INT32		</Arg>
+        </OnFinishLearnSkill>
+		<CLIENT_OnRequireTongEvent>
+			<Arg>	TONG_EVENT_DATAS		</Arg>
+		</CLIENT_OnRequireTongEvent>
+		<CLIENT_OnRequireTongStoreEvent>
+			<Arg>	TONG_EVENT_DATAS		</Arg>
+		</CLIENT_OnRequireTongStoreEvent>
+
+		<OpenTongStore>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT32		</Arg>
+		</OpenTongStore>
+
+		<OnInitTongApplyList>
+			<Arg>	ARRAY_STRING </Arg>
+		</OnInitTongApplyList>
+
+		<OnTongInitNotity/>
+		<OnApplyJoinTongFailed>
+			<Arg>	STRING		</Arg>
+		</OnApplyJoinTongFailed>
+		<OnApplyJoinTongSuccess>
+			<Arg>	STRING		</Arg>
+		</OnApplyJoinTongSuccess>
+		<UpdateTongMemberInfo>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</UpdateTongMemberInfo>
+		<OnChangeNagualCB>
+			<Arg>	BOOL	</Arg>
+		</OnChangeNagualCB>
+		<OpenTongNagualUI/>
+		<ReceiveInviteJoinTong>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	STRING	</Arg>
+		</ReceiveInviteJoinTong>
+		<OnSureSignUpBHZBMember>
+			<Arg>	ARRAY_BHZBSIGNMEMBERDATA	</Arg>
+		</OnSureSignUpBHZBMember>
+		<SetbhzbSignUpMembersIsActive>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+		</SetbhzbSignUpMembersIsActive>
+		<ClearAllTongSignMemberData>
+		</ClearAllTongSignMemberData>
+		
+		<OnRemoveApplyJoinTongMember>
+			<Arg>	UNICODE	</Arg>
+		</OnRemoveApplyJoinTongMember>
+		<OpenPlunderTongListWnd>
+			<Arg>	JOIN_TONG_DATAS	</Arg>
+		</OpenPlunderTongListWnd>
+		<OnPlunderMemberChange>
+			<Arg>	ARRAY_STRING	</Arg>
+		</OnPlunderMemberChange>
+		<onSetTongAllocation>
+			<Arg>	UINT8		</Arg>
+		</onSetTongAllocation>
+		<onSetTongBHLDAllocation>
+			<Arg>	UINT8		</Arg>
+		</onSetTongBHLDAllocation>
+	</ClientMethods>
+</root>

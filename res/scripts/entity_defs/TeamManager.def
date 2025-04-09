@@ -1,0 +1,31 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<register>
+			<Arg>	ENTITYCALL		</Arg>	<!-- teamMailBox -->
+		</register>
+		
+		<deregister>
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->			
+		</deregister>	
+
+		<rejoinTeam>
+			<Arg>	OBJECT_ID	</Arg>	<!-- teamID -->		
+			<Arg>	DBID		</Arg>	<!-- playerDBID -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- teamMailBox -->		
+		</rejoinTeam>	
+		<teamRemoteCall>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	PYTHON		</Arg>
+		</teamRemoteCall>
+	</BaseMethods>
+
+</root>

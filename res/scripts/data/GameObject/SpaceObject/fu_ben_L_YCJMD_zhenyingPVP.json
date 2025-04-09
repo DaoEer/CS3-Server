@@ -1,0 +1,48 @@
+﻿{
+"SpaceName"	: "大荒战场",
+"EntityType"	: "SpaceCopyCampYCJMD",
+"DomainType"	: "SpaceDomainCopyCampRandomFit",
+"EntityScript"	: "SpaceCopyCampYCJMD",
+"scriptID"	: "fu_ben_L_YCJMD_zhenyingPVP",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_JYZC",
+"NavmeshPath": "space\\L_JYZC_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"SpaceAoi"	: "120",
+"bunchSpaceScriptID" : "", 
+"SpaceHoldEffect": "101010106|140094011",
+"AllowUseItemTypes":[30003],
+"ForbidUseItemTypes":[],
+"AllowUseItemIDs":[],
+"ForbidUseItemIDs":[],
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "-1946 21495 10876",
+	"Direction"	: "0.0 0.0 -96"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":""},
+	"enterPos":"-18853.0 32710.0 -28813.0",
+	"enterDir":"0 0 0",
+	"stageFile":"SS_L_YCJMD_zhenyingPVP",
+	"eventFile":"SE_L_YCJMD_zhenyingPVP",
+	"ParachuteLandBuff":"12191101",
+	"clientUseCharacterMovment" : 0,
+	"reviveType": "13",
+	"colorScheme": 1,
+	"flyPathStr":"167|168|169|170",
+	"loserRewardMailID":"300701013",
+	"winnerRewardMailID":"300701012",
+	"killExpRate":35.34,
+	"killExploits":10,
+	"finalExpDict":{"40":[2032,7112]},
+	"finalLostExploits":200,
+	"finalWinExploits":1000,
+	"outRewardMailDict":{"40":["300701011","300701010"]},
+	"tempCampBuffs":{"1":12191398,"2":12191399}
+	},
+"DomainData"	:{
+	}
+}

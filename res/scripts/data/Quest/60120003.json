@@ -1,0 +1,129 @@
+{
+    "60120003": {
+        "tasks": [
+            {
+                "navigateData": "10000507#L_YZD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000507", 
+                "id": 2, 
+                "name": "与洛坤对话"
+            }, 
+            {
+                "navigateData": "10000507#L_YZD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "收集法宝碎片"
+            }, 
+            {
+                "navigateData": "10000507#L_YZD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000507", 
+                "id": 3, 
+                "name": "交还法宝碎片"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000242"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3081"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 60120003, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20"
+            }
+        ], 
+        "script": "QuestScriptTongDaily", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0.0 0.0 -1.71", 
+                "param2": "4058.0 -5510.0 212.0", 
+                "param1": "L_BHLD"
+            }
+        ], 
+        "QuestClass": "QuestTongDaily", 
+        "rewards": [], 
+        "description": "Cy000242", 
+        "finish_by": "10000618", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010087"
+                }
+            ], 
+            "3": [
+                {
+                    "script": "QuestFuncRemoveItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010087"
+                }
+            ], 
+            "2": [
+                {
+                    "script": "QuestFuncTeleportSpace", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "0 0 -90", 
+                    "param2": "1890 11277 203", 
+                    "param1": "L_SJFBSP"
+                }
+            ]
+        }, 
+        "level": 20, 
+        "title": "收集法宝碎片", 
+        "isAutoCommit": 1, 
+        "start_by": "10000618", 
+        "isAutoAccept": 1
+    }
+}

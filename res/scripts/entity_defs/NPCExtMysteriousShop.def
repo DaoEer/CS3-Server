@@ -1,0 +1,41 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Parent>
+		NPC
+	</Parent>
+	
+	<Properties>
+		<ownerDBID>
+			<Type>			DBID			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+   			<Default>		0				</Default>
+		</ownerDBID>
+	</Properties>
+	
+	<ClientMethods>
+		<recvMysteriousShopData>
+			<Arg> ARRAY <of> MYSTERIOUS_SHOP_DATA</of>	</Arg>
+		</recvMysteriousShopData>
+		
+		<OnSuccessBuyShopItem>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</OnSuccessBuyShopItem>
+	</ClientMethods>
+
+	<CellMethods>
+		<requestShopData>		<!-- 请求获取商店数据 -->
+			<Exposed/>
+		</requestShopData>
+		
+		<requestBuyShopItem>	<!-- 请求购买商店物品 -->
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</requestBuyShopItem>
+	</CellMethods>
+</root>

@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜索巫神殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-33180 8410 4969:40", 
+                    "param2": "5459|4469", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-33180 8410 4969)#L_WSD"
+                }
+            }, 
+            "title": "潜入巫神殿"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫礼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006236", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006236#L_WSD"
+                }
+            }, 
+            "title": "大战大巫巫礼"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "寻找十金乌"
+}

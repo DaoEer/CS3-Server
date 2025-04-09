@@ -1,0 +1,16 @@
+[
+    {
+        "Model": "SM_DropBox", 
+        "Name": "1", 
+        "SingTime": 0.0,
+        "RemainTime":0,
+        "IsDisplay":0
+    }, 
+    {
+        "Model": "SK_ZW0017_NPC", 
+        "Name": "2", 
+        "SingTime": 2.0,
+        "RemainTime":0,
+        "IsDisplay":0
+    }
+]

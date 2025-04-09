@@ -1,0 +1,98 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<spaceRewards>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceRewards>
+		<spaceRewardAmount>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceRewardAmount>
+		<spaceJZYTStage>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceJZYTStage>
+		<spaceRewardRate>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		1.0				</Default>
+			<Persistent>	false			</Persistent>
+		</spaceRewardRate>
+		<integralAmount>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</integralAmount>
+		<tempMonsterID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</tempMonsterID>
+		<potentialAmount>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</potentialAmount>
+		<equipRewards>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</equipRewards>
+		<materialRewards>
+			<Type>			PYTHON_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</materialRewards>
+		<allFuDaiScriptIDList>
+			<Type>			ARRAY_STRING	</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		[]				</Default>
+			<Persistent>	false			</Persistent>
+		</allFuDaiScriptIDList>
+		<integralToolAmount>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</integralToolAmount>
+		<playPriGradeSoundFlg>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		1			</Default>
+			<Persistent>	false			</Persistent>
+		</playPriGradeSoundFlg>
+		<playHighGradeSoundFlg>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		1			</Default>
+			<Persistent>	false			</Persistent>
+		</playHighGradeSoundFlg>
+
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

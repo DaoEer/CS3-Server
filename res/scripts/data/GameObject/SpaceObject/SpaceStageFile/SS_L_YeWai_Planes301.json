@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "消灭5个上古魔像", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭上古魔像", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000887|20000888", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "消灭上古魔像"
+        }, 
+        "2": {
+            "comment": "击败九阴魔君", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天星长老", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "450", 
+                    "param2": "20000891", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败九阴魔君"
+        }
+    }, 
+    "describe": "测试", 
+    "beginOnSpaceInit": 1, 
+    "name": "上古秘境"
+}

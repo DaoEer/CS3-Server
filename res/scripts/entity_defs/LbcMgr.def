@@ -1,0 +1,102 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<lbcData>
+			<Type>			LBC_DATA	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		{} 			</Default>
+			<Persistent>		true				</Persistent>
+		</lbcData>
+		<spaceNPCInfos>
+			<Type>			SPACE_NPC_INFO_IMP_LIST		</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>		true				</Persistent>
+		</spaceNPCInfos>
+	</Properties>
+
+	<BaseMethods>
+		<openLbcMapUI>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+		</openLbcMapUI>
+		<gotoLbc>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+		</gotoLbc>
+		<attackerWin>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> DBID </Arg>
+			<Arg> OBJECT_NAME </Arg>
+			<Arg> INT32 </Arg>
+		</attackerWin>
+		<attackerLose>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> CELL_ENTITYCALL </Arg>
+		</attackerLose>
+		<declare>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> DBID </Arg>
+			<Arg> OBJECT_NAME </Arg>
+			<Arg> INT32 </Arg>
+		</declare>
+		<abandon>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+		</abandon>
+		<cancelDeclare>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+		</cancelDeclare>
+		<occupy>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+		</occupy>
+		<startFight/>
+		<enterSpace/>
+		<giveUpAttack>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+		</giveUpAttack>
+		<roleLbcLogin>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> DBID </Arg>
+		</roleLbcLogin>
+		<occupyLbcSucceed>
+			<Arg> CELL_ENTITYCALL </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> DBID </Arg>
+			<Arg> UNICODE </Arg>
+			<Arg> INT32 </Arg>
+		</occupyLbcSucceed>
+
+		<saveSpaceNPCInfo>
+			<Arg>	SPACE_NPC_INFO_IMP</Arg>
+		</saveSpaceNPCInfo>
+		<requestSpaceNPCInfo>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	SCRIPT_ID	</Arg>
+		</requestSpaceNPCInfo>
+
+
+	</BaseMethods>
+</root>

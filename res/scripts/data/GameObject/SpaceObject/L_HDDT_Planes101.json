@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlaneExt",
+"scriptID"	: "L_HDDT_Planes101",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_HDDT_Planes101",
+"NavmeshPath"	: "space\\L_HDDT_Planes101_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpacePlaneExt"	:{
+	"ScriptID"	: "L_XLD_01|L_XYM|L_PMG|L_MHD",
+	"Position"	: "2745.5 -12521.3 2273.1|52020.0 -12280.0 15965.2|-9569 -5600 2198.8|52252 -5819 16134",
+	"Direction"	: "0 0 -130|0 0 92|0 0 -175|0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_HDDT_Planes101",
+	"eventFile":"SE_L_HDDT_Planes101"
+	},
+"DomainData"	:{
+	}
+}

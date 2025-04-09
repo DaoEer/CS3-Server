@@ -1,0 +1,29 @@
+﻿{
+"SpaceName"	: "五行画卷",
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyRingTaskChild",
+"scriptID"	: "cycle_L_WXHJ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_WXHJ_01",
+"NavmeshPath"	: "space\\L_WXHJ_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 150.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"4115.0 2549.0 6380.0",
+	"enterDirection":"0.0 0.0 -145.53",
+	"statisticsFile":"ST_L_WXHJ",
+	"eventFile":"SE_L_WXHJ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

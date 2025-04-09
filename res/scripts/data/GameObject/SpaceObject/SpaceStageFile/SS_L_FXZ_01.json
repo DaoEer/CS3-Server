@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "成为场上唯一存活的人。", 
+                    "reqVal": 0, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "获得胜利"
+        }
+    }, 
+    "describe": "血斗凤栖镇", 
+    "beginOnSpaceInit": 1, 
+    "name": "血斗凤栖镇"
+}

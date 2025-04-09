@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_FYP_Planes102",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_FYP_Planes102",
+"NavmeshPath"	: "space\\L_FYP_Planes102_NAVMESH",
+"PatrolRouteFile": "P_L_FYP_Planes102",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FYP",
+	"Position"	: "-27840.0 -19630.0 720.0",
+	"Direction"	: "0 0 -80"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_FYP_Planes102",
+	"eventFile":"SE_L_FYP_Planes102"
+	},
+"DomainData"	:{
+	}
+}

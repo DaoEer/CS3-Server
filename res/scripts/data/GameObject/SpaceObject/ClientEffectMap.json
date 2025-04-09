@@ -1,0 +1,28 @@
+﻿{
+"SpaceName"	: "客户端演示地图",
+"EntityType"	: "SpaceCopyClientEffect",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyClientEffect",
+"scriptID"	: "ClientEffectMap",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "",
+"NavmeshPath"	: "",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"SpaceHoldEffect"	:"",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"enterPosition":"0 0 0",
+	"enterDirection":"0 0 140",
+	"statisticsFile":"",
+	"eventFile":"SE_ClientEffectMap",
+	"reviveType"	: "1",
+	"spellBoxMapEmissive":"40000179:1|40000180:2|40000181:3"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天狗妖兽", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011624|20011625|20011626|20011628|20011629|20011630", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(181586 -11213 -17637)#L_FMNL_Planes010"
+                }
+            }, 
+            "title": "前往望月窟"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败哮天犬", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "777", 
+                    "param2": "20011158", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(157520 5170 -16934)#L_FMNL_Planes010"
+                }
+            }, 
+            "title": "降服哮天犬"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "望月窟"
+}

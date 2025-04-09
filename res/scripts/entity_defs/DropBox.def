@@ -1,0 +1,40 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	NPCBaseObject		</Interface>
+		<Interface>	DropBoxPickUpInterface		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<dropRemainTime>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			120			</Default>
+			<Persistent>		false		</Persistent>
+		</dropRemainTime>
+		<levitateActionID>
+			<Type>				STRING		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</levitateActionID>
+		<params>
+			<Type>				PY_DICT		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+		</params>
+	</Properties>
+
+	<ClientMethods>
+		<updateDropBoxModelVisible>
+		</updateDropBoxModelVisible>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>	
+	</CellMethods>
+</root>

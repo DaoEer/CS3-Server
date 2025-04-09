@@ -1,0 +1,113 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败缥缈阁弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010112|20010113|20010114", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(17327.970703 5599.052246 8993.627930)#L_TS_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协助后羿射落三只金乌", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(24310.000000 8220.000000 9832.458008)#L_TS_Planes003"
+                }
+            }, 
+            "title": "追击金乌"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败缥缈阁隐修", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010130|20010131|20010132", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(52330.363281 9459.129883 16776.277344)#L_TS_Planes003"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协助后羿射下十金乌", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(61650.738281 -1352.861206 17936.894531)#L_TS_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫山", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010133", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(61650.738281 -1352.861206 17936.894531)#L_TS_Planes003"
+                }
+            }, 
+            "title": "落日残阳"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏滚石机关", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010125|20010408|20010409", 
+                    "type": "SStageTask_NPCObjectDestroy", 
+                    "navigateData": "(39107.992188 13819.269531 15026.029297)#L_TS_Planes003"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败冲虚法王", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010126", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(43214.367188 13859.398438 15139.781250)#L_TS_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败缥缈阁斥候", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010121|20010122|20010123", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(39107.992188 13819.269531 15026.029297)#L_TS_Planes003"
+                }
+            }, 
+            "title": "机关重重"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "后羿射日"
+}

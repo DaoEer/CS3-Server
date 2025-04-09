@@ -1,0 +1,147 @@
+{
+    "20101626": {
+        "tasks": [
+            {
+                "navigateData": "(-13885.0 23884.0 199.0)#L_LXGJD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "-13885.0 23884.0 199.0", 
+                "param1": "L_LXGJD", 
+                "id": 1, 
+                "name": "探查落霞谷禁地"
+            }, 
+            {
+                "navigateData": "20000149|20000177#L_LXGJD", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000149|20000177", 
+                "id": 2, 
+                "name": "消灭太古魔妖"
+            }, 
+            {
+                "navigateData": "20000179|20000180#L_LXGJD", 
+                "goal": 4, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000179|20000180", 
+                "id": 3, 
+                "name": "消灭太古魔侍"
+            }, 
+            {
+                "navigateData": "30000716#L_LXGJD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "深入落霞谷禁地寻找魔君秘宝"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110000092"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101626, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101625"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6406", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "640", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1040", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "440", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102050002|102050005|102050008|102050011", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q020709", 
+        "finish_by": "10001079#L_LXGJD", 
+        "taskLogDes": "@S{4}祖巫祝融解开了落霞谷的魔君封印，请你深入落霞谷寻找魔君秘宝。|@S{4}祖巫祝融解开了落霞谷的魔君封印，请你深入落霞谷寻找魔君秘宝。|@S{4}祖巫祝融解开了落霞谷的魔君封印，请你深入落霞谷寻找魔君秘宝。|@S{4}祖巫祝融解开了落霞谷的魔君封印，请你深入落霞谷寻找魔君秘宝。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020721", 
+        "nextQuest": "20101627", 
+        "taskCompleteFunctions": {
+            "4": [
+                {
+                    "script": "QuestFuncSetTeleportPointOpen", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "3017"
+                }
+            ]
+        }, 
+        "level": 14, 
+        "title": "（废弃）落霞谷", 
+        "isAutoCommit": 1, 
+        "start_by": "10000287#L_FMNL", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,39 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<sendWithMailbox>
+			<Arg>  BASE_ENTITYCALL  </Arg>
+			<Arg>  BASE_ENTITYCALL  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  INT32  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  INT64  </Arg>
+			<Arg>  INT64  </Arg>
+			<Arg>  ITEMLIST  </Arg>
+			<Arg>  INT32  </Arg>
+			<Arg>  INT32  </Arg>
+		</sendWithMailbox>
+		<send>
+			<Arg>  BASE_ENTITYCALL  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  INT32  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  INT64  </Arg>
+			<Arg>  INT64  </Arg>
+			<Arg>  ITEMLIST  </Arg>
+			<Arg>  INT32  </Arg>
+			<Arg>  INT32  </Arg>
+		</send>
+	</BaseMethods>
+</root>

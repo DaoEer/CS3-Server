@@ -1,0 +1,85 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "再入有穷部落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12106.479492 -44472.429688 791.647949:15", 
+                    "param2": "1291|291", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(12106.479492 -44472.429688 791.647949)#L_FYP_Planes001"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败缥缈阁长老", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009630", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(251.157837 -35361.839844 2123.137207)#L_FYP_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败门口的缥缈阁斥候", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009141|20009142|20009143", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(10300.878906 -44199.207031 1288.989746)#L_FYP_Planes001"
+                }
+            }, 
+            "title": "魔道再犯"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "发现被围攻的夸父", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3990.044922 -18525.740234 2653.669922:30", 
+                    "param2": "3153|2153", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(3990.044922 -18525.740234 2653.669922)#L_FYP_Planes001"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫离", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009132", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败来阻的魔道", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009144|20009148|20009150", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "相助夸父"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "再会夸父"
+}

@@ -1,0 +1,92 @@
+# -*- coding: utf-8 -*-
+Datas = {
+	0:{
+		'properties':{
+			'patrolList':1,'patrolPathNode':4,'patrolMoveMode':0,
+		},
+		'direction':(0.0,0.0,2.7374731321036916,),'lineNumber':0,'EntityType':'MovingPlatform','delaySpawn':0,'position':(-108.81547852,236.78076172000002,-125.9312207,),
+		'scriptID':'50000132','redivious':-1,'index':50000132,'child':{
+			0:{
+				'properties':{
+					
+				},
+				'direction':(0.0,0.0,4.785210452323079,),'group':1,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':0,'position':(-104.59692383,250.43630859,-129.57744141,),
+				'scriptID':'20012781','redivious':-1,'parent':50000132,
+			},
+			1:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-107.68041016,250.46876953,-131.29411133,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			2:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-104.99395507999999,250.46876953,-119.91710938,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			3:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-117.40996094,250.46876953,-121.04573242000001,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			4:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-121.83634765999999,250.46876953,-131.57660156,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			5:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-116.94467773000001,250.46876953,-142.42241211,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			6:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-99.16274414,250.46876953,-140.59091797,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			7:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-92.46557617,250.46876953,-128.33666015999998,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			8:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-96.14182617,250.46876953,-115.93099609000001,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			9:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-111.51296875,250.46876953,-108.01431640999999,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			10:{
+				'properties':{
+					'randomWalkRange':5,
+				},
+				'direction':(0.0,0.0,5.335567603721988,),'group':2,'lineNumber':0,'EntityType':'SpawnPointGroup','delaySpawn':1,'position':(-126.4584375,250.46876953,-116.89767578000001,),
+				'scriptID':'20012776','redivious':-1,'parent':50000132,
+			},
+			
+		},
+		
+	},
+	
+}
+

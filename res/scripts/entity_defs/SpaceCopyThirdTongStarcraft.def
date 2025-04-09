@@ -1,0 +1,47 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<warInfos>
+			<Type>		THIRD_TONG_STARCRAFT_INFOS		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</warInfos>
+		<tongSignUpPlayerDBIDs>
+			<Type>		PYTHON_DICT				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</tongSignUpPlayerDBIDs>
+		<tongSide>
+			<Type>		PYTHON_DICT				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</tongSide>
+		<camp>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</camp>
+		<winTongDBID>
+			<Type>		DBID		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false				</Persistent>
+		</winTongDBID>
+	</Properties>
+
+	<CellMethods>
+
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+
+	</BaseMethods>
+</root>

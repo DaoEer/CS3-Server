@@ -1,0 +1,158 @@
+{
+    "20101688": {
+        "tasks": [
+            {
+                "navigateData": "10000029#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010088", 
+                "id": 1, 
+                "name": "取得冥河之水"
+            }, 
+            {
+                "navigateData": "10000029#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010089", 
+                "id": 2, 
+                "name": "取得焚天魔火"
+            }, 
+            {
+                "navigateData": "10000029#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "重炼混元星斗图"
+            }, 
+            {
+                "navigateData": "10000029#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000029", 
+                "id": 4, 
+                "name": "与鲲鹏对话"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110000631"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101688, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101683"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12573", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "846", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1406", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "627", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102100002", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010003", 
+                "script": "QuestRewardItem"
+            }, 
+            {
+                "param2": "20", 
+                "param3": "", 
+                "description": "", 
+                "param1": "202010014", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}@F{fc=c41}混元星斗图@D被一片鸿蒙气息遮掩，鲲鹏命你前往冰火灵岛取得@F{fc=c41}幽冥之水@D和@F{fc=c41}焚天魔火@D助他重炼@F{fc=c41}混元星斗图@D。|@S{4}@F{fc=c41}混元星斗图@D被一片鸿蒙气息遮掩，鲲鹏命你前往冰火灵岛取得@F{fc=c41}幽冥之水@D和@F{fc=c41}焚天魔火@D助他重炼@F{fc=c41}混元星斗图@D。|@S{4}@F{fc=c41}混元星斗图@D被一片鸿蒙气息遮掩，鲲鹏命你前往冰火灵岛取得@F{fc=c41}幽冥之水@D和@F{fc=c41}焚天魔火@D助他重炼@F{fc=c41}混元星斗图@D。|@S{4}@F{fc=c41}混元星斗图@D已重炼完毕，请向鲲鹏复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101706", 
+        "taskCompleteFunctions": {}, 
+        "level": 19, 
+        "title": "重炼宝图", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "清理占领道场外围的蓬莱阁弟子，并消灭蓬莱阁侍卫长。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蓬莱阁侍卫长", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000880", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000880#L_JSC_Planes103"
+                }
+            }, 
+            "title": "血战道场"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭广目天，救出谷风长老", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "246", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000109#L_JSC_Planes103"
+                }
+            }, 
+            "title": "营救谷风"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入道场", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-29410 -49815 15311:27", 
+                    "param2": "20311|10311", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-29410 -49815 15311)#L_JSC_Planes103"
+                }
+            }, 
+            "title": "深入道场"
+        }
+    }, 
+    "describe": "1-10级魔道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "救援道场"
+}

@@ -1,0 +1,141 @@
+<root>
+	<Properties>
+		<gainGiftDay>		<!-- 第几天领取新手礼包 -->
+			<Type>		INT8		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</gainGiftDay>
+		<gainGiftCount>		<!-- 一天第几次领取新手礼包 -->
+			<Type>		INT8		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</gainGiftCount>
+		<gainGiftTime>		<!-- 领取新手礼包时间 -->
+			<Type>		UINT64		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</gainGiftTime>
+
+		<signInDict>		<!-- 签到数据 -->
+			<Type>	DICT_INT_INT_LIST	</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	{}		</Default>
+			<Persistent>	true		</Persistent>
+		</signInDict>
+		<signInNum>		<!-- 签到累计次数 -->
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</signInNum>
+		<signInRewardNum>		<!-- 领取签到累计奖励 次数 -->
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</signInRewardNum>
+		<signInRewardList>		<!-- 记录领取的累计次数 -->
+			<Type>		ARRAY_INT32	</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	[]		</Default>
+			<Persistent>	true		</Persistent>
+		</signInRewardList>
+	</Properties>
+
+	<ClientMethods>
+		<OnShowOnlineReward>
+			<Arg>			INT32		</Arg>
+			<Arg>			STRING	</Arg>
+			<Arg>			INT32		</Arg>
+		</OnShowOnlineReward>
+		<OnShowSignInReward>
+			<Arg>			INT32			</Arg>
+			<Arg>			INT32			</Arg>
+			<Arg>			SIGN_IN_DATA	</Arg>
+			<Arg>			SIGN_DATAS		</Arg>
+		</OnShowSignInReward>
+		<OnFinishReceiveNewPlayerGift/>
+
+		<OnSignInOnlineSuccess/>
+		<OnAugmentSignInSuccess>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</OnAugmentSignInSuccess>
+		<OnAugmentSignInMonthSuccess>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</OnAugmentSignInMonthSuccess>
+		<OnReceiveTotalSignRewardSuccess>
+			<Arg>			INT32		</Arg>
+		</OnReceiveTotalSignRewardSuccess>
+	</ClientMethods>
+
+	<BaseMethods>
+		<receiveNewPlayerGift>
+			<Exposed/>
+		</receiveNewPlayerGift>
+		<onReceiveNewPlayerGiftSuccess/>
+
+		<signInOnline>
+			<Exposed/>
+		</signInOnline>
+		<onSignInOnlineSuccess/>
+		<augmentSignIn>
+			<Exposed/>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</augmentSignIn>
+		<onAugmentSignInSuccess>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</onAugmentSignInSuccess>
+		<augmentSignInMonth>
+			<Exposed/>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</augmentSignInMonth>
+		<onAugmentSignInMonthSuccess>
+			<Arg>			INT32		</Arg>
+		</onAugmentSignInMonthSuccess>
+
+		<receiveTotalSignReward>
+			<Exposed/>
+			<Arg>			INT32		</Arg>
+		</receiveTotalSignReward>
+		<onReceiveTotalSignRewardSuccess>
+			<Arg>			INT32		</Arg>
+		</onReceiveTotalSignRewardSuccess>
+		<onNewDayLoginSuccess/>
+	</BaseMethods>
+	<CellMethods>
+		<onReceiveNewPlayerGift>
+			<Arg>			STRING		</Arg>
+			<Arg>			INT8		</Arg>
+		</onReceiveNewPlayerGift>
+		<onSignInOnline>
+			<Arg>			STRING		</Arg>
+			<Arg>			INT8		</Arg>
+		</onSignInOnline>
+		<onAugmentSignIn>
+			<Arg>			STRING		</Arg>
+			<Arg>			INT8		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT8		</Arg>
+		</onAugmentSignIn>
+		<onAugmentSignInMonth>
+			<Arg>		ARRAY_STRING	</Arg>
+			<Arg>		ARRAY_INT8		</Arg>
+			<Arg>			INT32		</Arg>
+		</onAugmentSignInMonth>
+		<onReceiveTotalSignReward>
+			<Arg>			STRING		</Arg>
+			<Arg>			INT8		</Arg>
+			<Arg>			INT32		</Arg>
+		</onReceiveTotalSignReward>
+	</CellMethods>
+</root>

@@ -1,0 +1,225 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<cSkill_onClientActorCreate>
+			<Exposed/>
+		</cSkill_onClientActorCreate>
+		<cReceiveDamage>
+			<Exposed/>			
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	SKILL_ID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</cReceiveDamage>
+		<cSkillSetHP>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</cSkillSetHP>
+		<cSkillCreateEntityByScriptID>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	DIRECTION	</Arg>
+		</cSkillCreateEntityByScriptID>
+		<cSkillSetMP>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</cSkillSetMP>
+		<cSkillRecvGangQi>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</cSkillRecvGangQi>
+		<cSkillRequireItem>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</cSkillRequireItem>
+		<cSkillAddActCounters>
+			<Exposed/>
+			<Arg>	ARRAY_INT32		</Arg>
+		</cSkillAddActCounters>
+		<cSkillRemoveActCounters>
+			<Exposed/>
+			<Arg>	ARRAY_INT32		</Arg>
+		</cSkillRemoveActCounters>
+		<cSkillAddEffectState>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</cSkillAddEffectState>
+		<cSkillRemoveEffectState>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</cSkillRemoveEffectState>
+		<cSkillEffectAddAttr>
+			<Exposed/>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</cSkillEffectAddAttr>
+		<cSkillClientCharge>
+			<Exposed/>
+			<Arg>	POSITION	</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	BOOL		</Arg>
+		</cSkillClientCharge>
+		<cSkillStopMove>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</cSkillStopMove>
+		<cSkillClientJump>
+			<Exposed/>
+			<Arg>	POSITION	</Arg>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	FLOAT		</Arg>
+		</cSkillClientJump>
+		<cSkillGangQiDamage>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	BOOL			</Arg>
+			<Arg>	FLOAT			</Arg>
+		</cSkillGangQiDamage>
+		<broadcastCSkillToPosition>
+			<Exposed/>
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		BOOL				</Arg>	<!-- 是不是瞬发技能 -->
+			<Arg>		FLOAT				</Arg>	<!-- position.x -->
+			<Arg>		FLOAT				</Arg>	<!-- position.y -->
+			<Arg>		FLOAT				</Arg>	<!-- position.z -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+		</broadcastCSkillToPosition>
+		<broadcastCSkillToTarget>	<!-- 施法通知 -->
+			<Exposed/>
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		BOOL				</Arg>	<!-- 是不是瞬发技能 -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetIDs -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+		</broadcastCSkillToTarget>
+		<broadcastCSkillInterrupted>
+			<Exposed/>
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		INT32				</Arg>	<!-- 中断原因 -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+		</broadcastCSkillInterrupted>
+		<broadcastBeHitPlayEffect>	<!-- 受击播放动作光效 -->
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetID -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->			
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		STRING				</Arg>	<!-- effectID -->
+			<Arg>		STRING				</Arg>	<!-- soundID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+		</broadcastBeHitPlayEffect>
+		<broadcastHoldEffectPlayEffect>
+			<Exposed/>
+			<Arg>		INT32				</Arg>	<!-- casterID -->
+			<Arg>		INT32				</Arg>	<!-- effectIndex -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		STRING				</Arg>	<!-- effectID -->
+			<Arg>		STRING				</Arg>	<!-- soundID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+		</broadcastHoldEffectPlayEffect>
+		<broadcastHoldEffectEndEffect>
+			<Exposed/>
+			<Arg>		INT32				</Arg>	<!-- effectIndex -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+		</broadcastHoldEffectEndEffect>
+		<broadcastPlayBuffEffect>
+			<Exposed/>
+			<Arg>		INT32				</Arg>	<!-- index -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		STRING				</Arg>	<!-- effectID -->
+			<Arg>		STRING				</Arg>	<!-- soundID -->
+		</broadcastPlayBuffEffect>
+		<broadcastAddBuff>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</broadcastAddBuff>
+		<broadcastRemoveBuff>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</broadcastRemoveBuff>
+		<broadcastOnResetBuffEndTime>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		FLOAT		</Arg>		
+		</broadcastOnResetBuffEndTime>
+		<synClientAddBuff>
+			<Exposed/>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		INT64				</Arg>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		STRING				</Arg>
+		</synClientAddBuff>
+		<synClientRemoveBuff>
+			<Exposed/>
+			<Arg>		INT32				</Arg>		
+		</synClientRemoveBuff>
+		<broadcastOnBuffLayerChange>
+			<Exposed/>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>			
+		</broadcastOnBuffLayerChange>
+		<cSkillChangeDirection>
+			<Exposed/>
+			<Arg>		DIRECTION			</Arg>
+			<Arg>		INT32				</Arg>				
+		</cSkillChangeDirection>
+		<cSkillDoHitBack>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		POSITION			</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		FLOAT				</Arg>
+		</cSkillDoHitBack>
+		<cSkillOnEndHitBack>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		STRING				</Arg>
+		</cSkillOnEndHitBack>
+		<cSkillAddSeverBuff>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		BUFF_ID				</Arg>
+		</cSkillAddSeverBuff>
+		<cSkillOnDodgeSkillHit>
+			<Exposed/>
+			<Arg>		OBJECT_ID			</Arg>
+		</cSkillOnDodgeSkillHit>
+	</CellMethods>
+</root>

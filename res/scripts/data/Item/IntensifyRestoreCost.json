@@ -1,0 +1,34 @@
+[
+	{
+		"Name":"1",
+		"MinMaxLv":"20-49",
+		"SaveMoneyCost":1,
+		"SaveBeidouFuCost":12,
+		"RestoreMoneyCost":1,
+		"RestoreBeidouFuCost":12
+	},
+	{
+		"Name":"2",
+		"MinMaxLv":"50-59",
+		"SaveMoneyCost":1,
+		"SaveBeidouFuCost":12,
+		"RestoreMoneyCost":1,
+		"RestoreBeidouFuCost":12
+	},
+	{
+		"Name":"3",
+		"MinMaxLv":"60-69",
+		"SaveMoneyCost":12,
+		"SaveBeidouFuCost":23,
+		"RestoreMoneyCost":12,
+		"RestoreBeidouFuCost":23
+	},
+	{
+		"Name":"4",
+		"MinMaxLv":"70-150",
+		"SaveMoneyCost":1,
+		"SaveBeidouFuCost":12,
+		"RestoreMoneyCost":1,
+		"RestoreBeidouFuCost":12
+	}
+]

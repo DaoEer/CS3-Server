@@ -1,0 +1,100 @@
+{
+    "71100001": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 2, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20013728|20013729", 
+                "id": 1, 
+                "name": "击杀灵府小妖"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20013730", 
+                "id": 2, 
+                "name": "击杀灵府妖王"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestUseCommitItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "303020009", 
+                "id": 3, 
+                "name": "使用破界符解除洞府福地封印"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "C001605"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 71100001, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "100", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptQiYuan", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestQiYuan", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}击败洞府小妖后，使用洞府小妖的破界符解除洞府福地的封印。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "71100002", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "303020009"
+                }, 
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "C001606|C001790"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "占领洞府福地", 
+        "isAutoCommit": 0, 
+        "start_by": "", 
+        "isAutoAccept": 0
+    }
+}

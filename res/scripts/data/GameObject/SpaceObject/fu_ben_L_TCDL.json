@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "逃出丹炉",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildAdventure",
+"scriptID"	: "fu_ben_L_TCDL",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_fu_ben_L_TCDL",
+"NavmeshPath"	: "space\\L_TCDL_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544005,
+	"spaceIntroduce":{"voiceID":"C001468|C001469"},
+	"enterPosition":"-5290 2690 2635",
+	"enterDirection":"0 0 -20",
+	"stageFile":"SS_fu_ben_L_TCDL",
+	"eventFile":"SE_fu_ben_L_TCDL",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

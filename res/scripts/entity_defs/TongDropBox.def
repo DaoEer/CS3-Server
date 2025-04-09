@@ -1,0 +1,44 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>		NPCBaseObject				</Interface>
+		<Interface>	SystemDropBoxPickUpInterface	</Interface>
+	</Interfaces>
+	
+	<Properties>
+		<joinDBIDs>  <!-- 参与的人员 -->
+			<Type> 		ARRAY_DBID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</joinDBIDs>
+		
+		<tongDBID>  <!-- 宝箱所属帮会DBID-->
+			<Type>			UINT64			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</tongDBID>
+		
+		<openBoxTime>  <!-- 打开宝箱倒计时-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		600				</Default>
+		</openBoxTime>
+	</Properties>
+
+	<ClientMethods>
+		<onPickUpByLeader>
+			<Arg> STRING 	</Arg>
+			<Arg> STRING 		</Arg>
+			<Arg> OBJECT_ID </Arg>
+		</onPickUpByLeader>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>	
+	</CellMethods>
+</root>

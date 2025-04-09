@@ -1,0 +1,155 @@
+{
+	"80135046":{
+		"subSpace":"cycle_L_XMYY"
+	},
+	"80135042":{
+		"subSpace":"L_SYDX"
+	},
+	"80135044":{
+		"subSpace":"cycle_L_JSDK"
+	},
+	"80135047":{
+		"subSpace":"cycle_L_KNCZ"
+	},
+	"80135048":{
+		"subSpace":"cycle_L_LQMG"
+	},
+	"80135051":{
+		"subSpace":"cycle_L_MXSJ"
+	},
+	"80135052":{
+		"subSpace":"cycle_L_XTBL"
+	},
+	"80135056":{
+		"subSpace":"cycle_L_MQRSG"
+	},
+	"80135057":{
+		"subSpace":"cycle_L_WXHJ"
+	},
+	"80135045":{
+		"subSpace":"cycle_L_XDGX"
+	},
+	"80135050":{
+		"subSpace":"cycle_L_QQRYJ"
+	},
+	"80135055":{
+		"subSpace":"cycle_L_FHJN"
+	},
+	"80135049":{
+		"subSpace":"cycle_L_QRYJ"
+	},
+	"80135059":{
+		"subSpace":"L_TZHJ"
+	},
+	"80135043":{
+		"subSpace":"L_SFMJ"
+	},
+	"0":{
+		"leavePos":"-5140 16550 19915",
+		"leaveDir":"0 0 50",
+		"exitPos":"-5560 15512 19911",
+		"exitDir":"0 0 60"
+	},
+	"1":{
+		"leavePos":"7257 27722 11986",
+		"leaveDir":"0 0 30",
+		"exitPos":"-2220 19820 19914",
+		"exitDir":"0 0 50"
+	},
+	"2":{
+		"leavePos":"16314 34340 5.8",
+		"leaveDir":"0 0 -70",
+		"exitPos":"8600 31250 12002",
+		"exitDir":"0 0 60"
+	},
+	"3":{
+		"leavePos":"21740 31770 13030",
+		"leaveDir":"0 0 0",
+		"exitPos":"17989 33561 39",
+		"exitDir":"0 0 0"
+	},
+	"4":{
+		"leavePos":"32541 31211 911.5",
+		"leaveDir":"0 0 -118",
+		"exitPos":"24709 33215 13041",
+		"exitDir":"0 0 50"
+	},
+	"5":{
+		"leavePos":"37920 27750 8953",
+		"leaveDir":"0 0 -30",
+		"exitPos":"34618 28545 966",
+		"exitDir":"0 0 0"
+	},
+	"6":{
+		"leavePos":"-34594 13327 18615",
+		"leaveDir":"0 0 -70",
+		"exitPos":"-38390 14000 18610",
+		"exitDir":"0 0 0"
+	},
+	"7":{
+		"leavePos":"-17530 15070 25718",
+		"leaveDir":"0 0 20",
+		"exitPos":"-30035 12198 18810",
+		"exitDir":"0 0 10"
+	},
+	"8":{
+		"leavePos":"-10680 -1080 20001",
+		"leaveDir":"0 0 -60",
+		"exitPos":"-14570 11730 25718",
+		"exitDir":"0 0 -50"
+	},
+	"9":{
+		"leavePos":"1730 4400 15873",
+		"leaveDir":"0 0 40",
+		"exitPos":"-6150 -3030 20001",
+		"exitDir":"0 0 20"
+	},
+	"10":{
+		"leavePos":"24200 14410 23456",
+		"leaveDir":"0 0 -100",
+		"exitPos":"6710 10570 15854",
+		"exitDir":"0 0 30"
+	},
+	"11":{
+		"leavePos":"31050 -5000 27430",
+		"leaveDir":"0 0 -50",
+		"exitPos":"25610 6720 27670",
+		"exitDir":"0 0 -60"
+	},
+	"12":{
+		"leavePos":"-6201 -16725 26780",
+		"leaveDir":"0 0 -80",
+		"exitPos":"-6740 -13880 26810",
+		"exitDir":"0 0 -80"
+	},
+	"13":{
+		"leavePos":"9281 -13572 30242",
+		"leaveDir":"0 0 10",
+		"exitPos":"-3652 -18183 26764",
+		"exitDir":"0 0 20"
+	},
+	"14":{
+		"leavePos":"11245 1134 33966",
+		"leaveDir":"0 0 100",
+		"exitPos":"11160 -10188 30186",
+		"exitDir":"0 0 90"
+	},
+	"15":{
+		"leavePos":"-4525 9455 36534",
+		"leaveDir":"0 0 160",
+		"exitPos":"7610 4810 33962",
+		"exitDir":"0 0 160"
+	},
+	"16":{
+		"leavePos":"-13624 -997 39706",
+		"leaveDir":"0 0 -150",
+		"exitPos":"-8502 7839 36572",
+		"exitDir":"0 0 -120"
+	},
+	"17":{
+		"leavePos":"-1120 -4800 43364",
+		"leaveDir":"0 0 -10",
+		"exitPos":"-12158 -3160 39691",
+		"exitDir":"0 0 -10"
+	}
+}

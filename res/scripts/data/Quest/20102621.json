@@ -1,0 +1,168 @@
+{
+    "20102621": {
+        "tasks": [
+            {
+                "navigateData": "30000646#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001008", 
+                "id": 1, 
+                "name": "与巫真碰面"
+            }, 
+            {
+                "navigateData": "10001007#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "9", 
+                "param2": "47000.000000 -48300.000000 5503.894531", 
+                "param1": "L_FYP", 
+                "id": 2, 
+                "name": "返回荒火营复命"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11018407"
+            }, 
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002120"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010117"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010114"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102621, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010114"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102620"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010114"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010117"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "25678", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "819", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9194", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2023", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045666|Q045667|Q042624", 
+        "finish_by": "10001007#L_FYP", 
+        "taskLogDes": "@S{4}祖巫玄冥已炼制成化月丹，让你携带此物潜入有穷部落，找到巫真所化的武罗长老，请他将此化月之毒施于夸父身上。|@S{4}巫真已化身武罗邀请后羿与夸父前来饮酒，到时他会将化月丹投入酒中，定能令夸父身中化月之毒。请你回荒火营向祖巫玄冥复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042630", 
+        "nextQuest": "20102624|20102624|20102623|20102624", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncRemoveItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010117"
+                }
+            ]
+        }, 
+        "level": 39, 
+        "title": "化月之毒", 
+        "isAutoCommit": 1, 
+        "start_by": "10001007s#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

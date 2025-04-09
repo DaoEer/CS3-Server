@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败逍遥门精锐", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010504|20010505|20010506|20010507", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010504|20010505|20010506|20010507#L_SLT_03"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败帝江之徒纪宁", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000963", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000963#L_SLT_03"
+                }
+            }, 
+            "title": "占领灵塔三层"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门离开锁灵塔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20000968#L_SLT_03"
+                }
+            }, 
+            "title": "离开锁灵塔"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待灵珠子打开宝箱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "寻得“恒灵”"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "锁灵塔第三层"
+}

@@ -1,0 +1,32 @@
+{
+"SpaceName"	: "消灭雾妖",
+"EntityType"	: "SpaceCopyJiYuan",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJiYuan",
+"scriptID"	: "fu_ben_L_XMWY",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_XMWY",
+"NavmeshPath"	: "space\\L_HHFZ2_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 100.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	:5,
+	"spaceIntroduce":{"voiceID":"C001977|C001978|C001908"},
+	"enterPosition":"9748 -13992 241",
+	"enterDirection":"0 0 124",
+	"stageFile":"SS_fu_ben_L_XMWY",
+	"eventFile":"SE_L_XMWY",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+
+	}
+}

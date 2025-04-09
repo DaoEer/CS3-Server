@@ -1,0 +1,141 @@
+{
+    "20101630": {
+        "tasks": [
+            {
+                "navigateData": "10000290#L_SGMJ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskUseSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110000096", 
+                "id": 1, 
+                "name": "觉醒体内魔君血脉"
+            }, 
+            {
+                "navigateData": "10000341#L_PMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "10", 
+                "param2": "-19906.77 -18774.72 3866.20", 
+                "param1": "L_PMG", 
+                "id": 2, 
+                "name": "回禀接引道人"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110000096"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101630, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101627"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1494", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "312", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "506", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "474", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2", 
+                "script": "QuestRewardTitle"
+            }
+        ], 
+        "description": "Q020723|Q020724|Q020725|Q020727", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}在九阴古魔的帮助下你成功觉醒了魔君血脉，成为了混沌魔君的传承者，请你速回修罗殿回禀师尊。|@S{4}在九阴古魔的帮助下你成功觉醒了魔君血脉，成为了混沌魔君的传承者，请你速回修罗殿回禀师尊。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101633", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000306"
+                }, 
+                {
+                    "script": "QuestFuncSetTeleportPointClose", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "3017|3018"
+                }
+            ]
+        }, 
+        "level": 15, 
+        "title": "魔君血脉觉醒", 
+        "isAutoCommit": 1, 
+        "start_by": "10000290#L_SGMJ", 
+        "isAutoAccept": 1
+    }
+}

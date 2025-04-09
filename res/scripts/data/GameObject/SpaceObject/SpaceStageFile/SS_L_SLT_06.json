@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败木傀族死士", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003046|20003047", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003046|20003047|20003048#L_SLT_06"
+                }
+            }, 
+            "title": "过三关更斩死士"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "同祖巫帝江返回逍遥门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "101", 
+                    "param2": "20003031", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-1330.0 -4652.0 224.00000000000003)#L_SLT_06"
+                }
+            }, 
+            "title": "集灵气回禀祖师"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败木傀族族长天奎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003048", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003046|20003047|20003048#L_SLT_06"
+                }
+            }, 
+            "title": "论胜负应诛天奎"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 0, 
+    "name": "锁灵塔第三层"
+}

@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭第一波拦路者", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004687|20004689", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(346.509277 42238.347656 -1346.879883)#L_BQDB_Planes008"
+                }
+            }, 
+            "title": "挺进玄黄岗"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭第三波拦路者", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004687|20004688|20004689", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(36523 40349.097656 -704.108398)#L_BQDB_Planes008"
+                }
+            }, 
+            "title": "肃清玄黄岗"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭第二波拦路者", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004688|20004689", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-6661.116699 41750.000000 -1065.156250)#L_BQDB_Planes008"
+                }
+            }, 
+            "title": "深入玄黄岗"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭象驳", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004690", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004690#L_BQDB_Planes008"
+                }
+            }, 
+            "title": "消灭象驳"
+        }
+    }, 
+    "describe": "34级仙道", 
+    "beginOnSpaceInit": 1, 
+    "name": "祭师象驳"
+}

@@ -1,0 +1,122 @@
+{
+    "20101135": {
+        "tasks": [
+            {
+                "navigateData": "10000181#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "15", 
+                "param2": "2770 2020.00024 10538.857422", 
+                "param1": "L_FMC", 
+                "id": 1, 
+                "name": "回禀九天玄女"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002001"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101135, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101111|20101133|20101134"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2|3|4"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1379", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "340", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "552", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "474", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102090001", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q020154|Q020157|Q020159", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}女娲让你下界前往凤鸣城协助九天玄女，找到能让女娲证道成圣的机缘。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101113", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000419"
+                }
+            ]
+        }, 
+        "level": 15, 
+        "title": "成圣机缘", 
+        "isAutoCommit": 1, 
+        "start_by": "10000080#L_KLZ", 
+        "isAutoAccept": 1
+    }
+}

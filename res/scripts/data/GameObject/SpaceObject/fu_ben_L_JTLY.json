@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "九天灵狱",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_JTLY",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_fu_ben_L_JTLY",
+"NavmeshPath"	: "space\\L_JTLY_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_JTLY",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_3",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 60,
+	"spaceIntroduce":{"voiceID":"C000243"},
+	"enterPosition":"-152150 60210 1620",
+	"enterDirection":"0 0 0",
+	"stageFile":"SS_fu_ben_L_JTLY",
+	"eventFile":"SE_fu_ben_L_JTLY",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

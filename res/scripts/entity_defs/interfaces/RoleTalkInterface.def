@@ -1,0 +1,61 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<requestRefreshBoxStatus>
+			<Exposed/>
+			<Arg>	OBJECT_ID		</Arg>
+		</requestRefreshBoxStatus>
+		<CELL_RequestRefreshAreaStatus>
+			<Exposed/>
+			<Arg>	OBJECT_ID		</Arg>
+		</CELL_RequestRefreshAreaStatus>
+		<talkWithMonster>
+			<Exposed/>
+			<Arg>		STRING		</Arg> <!-- key -->      
+			<Arg>		STRING		</Arg>
+		</talkWithMonster>
+	</CellMethods>
+
+	<ClientMethods>
+		<onSetGossipText>
+			<Arg>	OBJECT_ID		</Arg>	<!-- NPCID -->
+			<Arg>	UNICODE		</Arg>	<!-- gossipText -->
+		</onSetGossipText>
+		<onAddGossipOption>
+			<Arg>	STRING		</Arg>	<!-- key -->
+			<Arg>	UNICODE		</Arg>	<!-- title -->
+			<Arg>	INT32		</Arg>	<!-- type -->
+		</onAddGossipOption>
+		<onGossipComplete>
+			<Arg>	OBJECT_ID		</Arg> <!-- key -->      
+		</onGossipComplete>
+
+		<onSetMonsterGossipText>
+			<Arg>	OBJECT_ID		</Arg>	<!-- MonsterID -->
+			<Arg>	UNICODE		</Arg>	<!-- gossipText -->
+		</onSetMonsterGossipText>
+		<onAddMonsterGossipOption>
+			<Arg>	STRING		</Arg>	<!-- key -->
+			<Arg>	UNICODE		</Arg>	<!-- title -->
+			<Arg>	INT32		</Arg>	<!-- type -->
+		</onAddMonsterGossipOption>
+		<onMonsterGossipComplete>
+			<Arg>	OBJECT_ID		</Arg> <!-- key -->      
+		</onMonsterGossipComplete>
+
+		<RefreshAroundBoxStatus>
+			<Arg>	INT32		</Arg>
+		</RefreshAroundBoxStatus>
+		<onPlayGossipVoice>
+			<Arg>	STRING	</Arg>
+		</onPlayGossipVoice>
+	</ClientMethods>
+</root>

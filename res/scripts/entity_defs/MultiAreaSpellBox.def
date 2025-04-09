@@ -1,0 +1,38 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>		SpellObject		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<currentArea>
+			<Type>			INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		1			</Default>
+		</currentArea>
+		<isInArea>
+			<Type>			BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+		</isInArea>
+		<isExecuted>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}			</Default>
+		</isExecuted>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_OnSwitchArea>
+			<Arg>			INT32			</Arg>
+		</CLIENT_OnSwitchArea>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

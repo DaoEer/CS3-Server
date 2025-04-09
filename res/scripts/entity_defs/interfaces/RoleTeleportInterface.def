@@ -1,0 +1,32 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<teleportPointNPCs>
+			<Type>			UNICODE			</Type>			<!-- 记录已经开启传送点的数据-->
+			<Flags>			OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</teleportPointNPCs>
+		
+		<currentTeleportPoint>
+			<Type>			UNICODE			</Type>			<!-- 当前通过传送石准备传送的目标传送点的index（TeleportPoinData.json） -->
+			<Flags>			CELL_PRIVATE	</Flags>
+		</currentTeleportPoint>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_TeleportPoint>	<!-- 请求传送到某个传送点 -->
+			<Exposed/>
+			<Arg>			INT32		</Arg>	<!-- TeleportType 0:通过神行石传送 1：消耗金钱传送 -->
+			<Arg>			UNICODE		</Arg>	<!-- npcID -->
+		</CELL_TeleportPoint>
+	</CellMethods>
+
+	<ClientMethods>
+		<OnOpenMapWin/>			<!-- 打开地图页面 -->
+	</ClientMethods>
+</root>

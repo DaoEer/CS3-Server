@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "前方似乎暗藏汹涌", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "往前探查", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "52590.0 -1440.0|47990.0 -1440.0|47990.0 -210.0|52590.0 -210.0", 
+                    "param2": "300|100", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(49980.0 -510.0 200.0)#L_FLS_Planes010"
+                }
+            }, 
+            "title": "前往仙府宝库"
+        }, 
+        "3": {
+            "comment": "周阳长老正在鏖战盗贼首领", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协助周阳长老退敌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20003703#L_FLS_Planes010"
+                }
+            }, 
+            "title": "击退飞盗门首领"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭飞盗门弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003697|20003698|20003699|20003700|20003701|20003702", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003697|20003698|20003699|20003700|20003701|20003702#L_FLS_Planes010"
+                }
+            }, 
+            "title": "飞盗门弟子"
+        }, 
+        "4": {
+            "comment": "灵飞赶来支援，但此时贼人已逃跑", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与灵飞汇合", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(41880.0 15170.0 18.769653)#L_FLS_Planes010"
+                }
+            }, 
+            "title": "与灵飞汇合"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "仙府宝库"
+}

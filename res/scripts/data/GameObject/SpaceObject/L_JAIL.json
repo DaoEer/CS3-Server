@@ -1,0 +1,25 @@
+{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceJail",
+"scriptID"	: "L_JAIL",
+"spaceType"	: "SPACE_TYPE_JAIL",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_SXY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"RoleRelationRule"	: "PK_MODE_PEACE",
+"ExitSpace"	:{
+	"ScriptID"	: "",
+	"Position"	: "",
+	"Direction"	: ""
+	},
+"SpaceData"	:{
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|"
+	},
+"DomainData"	:{
+	}
+}

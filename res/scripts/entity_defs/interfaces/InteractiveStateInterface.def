@@ -1,0 +1,21 @@
+<root>
+	<Properties>
+		<interactiveState>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0		</Default>
+			<Persistent>		false			</Persistent>
+		</interactiveState>
+	</Properties>
+	
+	<CellMethods>
+		<isInteractiveState>
+			<Arg>			INT32			</Arg>
+		</isInteractiveState>
+		<changeInteractiveState>
+			<Arg>			INT32			</Arg>
+		</changeInteractiveState>
+	</CellMethods>
+	<ClientMethods>
+	</ClientMethods>
+</root>

@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "前往左星处开启星罗仙府起飞玩法！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找左星", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-60418 -78283 4773:5", 
+                    "param2": "5500|4400", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开启玩法"
+        }, 
+        "3": {
+            "comment": "本次仙府试炼结束，请前往幻心处领取奖励", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "副本即将关闭", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002526", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "试炼结束"
+        }, 
+        "2": {
+            "comment": "完成各式各样的秘境试炼", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "完成试炼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002526", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "仙府试炼"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "星罗仙府"
+}

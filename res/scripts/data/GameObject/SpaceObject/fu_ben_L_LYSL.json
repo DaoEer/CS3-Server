@@ -1,0 +1,34 @@
+﻿{
+"SpaceName"	: "临渊试炼",
+"EntityType"	: "SpaceCopyMagicMazeChildLYSL",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildLYSL",
+"scriptID"	: "fu_ben_L_LYSL",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_fu_ben_LYSL",
+"NavmeshPath"	: "space\\L_LYSL_01_NAVMESH",
+"PatrolRouteFile": "P_L_fu_ben_LYSL",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 10,
+	"teleportSkillID" : 121544010,
+	"spaceIntroduce":{"voiceID":"C001470|C001471"},
+	"enterPosition":"-10618.0 11555.0 285.0 ",
+	"enterDirection":"0 0 -61",
+	"stageFile":"SS_fu_ben_LYSL",
+	"eventFile":"SE_fu_ben_LYSL",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+   	"monsterUseSpaceLevel": 1,
+	"herbKindList":"40000216|40000217|40000218|40000219|40000220|40000221|40000222|40000223",
+	"coordinates":"4389 6729 4296|5642 2833 5143|327 -3858 5490|-7254 -4234 5979|-7954 1189 4846|-7652 -2257 4750|-4223 -3594 4789|-2937 -4082 5313|4256 -2576 4946|4618 -785 5489",
+	"delayTime":5
+	},
+"DomainData"	:{
+	}
+}

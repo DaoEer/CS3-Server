@@ -1,0 +1,79 @@
+{
+    "60120004": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskPlayerrAnswer", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "完成见闻识记"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 60120004, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20"
+            }
+        ], 
+        "script": "QuestScriptTongDailyAnswer", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestTongDaily", 
+        "rewards": [
+            {
+                "param2": "26.86", 
+                "param3": "", 
+                "description": "", 
+                "param1": "", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "450", 
+                "script": "QuestRewardTongContribute"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1000", 
+                "script": "QuestRewardTongMoney"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2800", 
+                "script": "QuestRewardBarracksExp"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 20, 
+        "title": "见闻识记", 
+        "isAutoCommit": 1, 
+        "start_by": "10000618", 
+        "isAutoAccept": 1
+    }
+}

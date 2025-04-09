@@ -1,0 +1,22 @@
+<root>
+	<Interfaces>
+		<Interface> 	NPCBaseObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<iconTypeOnMap>
+			<Type>			STRING		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</iconTypeOnMap>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

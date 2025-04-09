@@ -1,0 +1,39 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<createTime>
+			<Type>			TIME			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+			<Persistent>		false			</Persistent>
+		</createTime>
+		<lifeTime>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+		</lifeTime>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_ShowRemainLifeTime>
+    	  <Arg>		FLOAT		</Arg>
+   		</CLIENT_ShowRemainLifeTime>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

@@ -1,0 +1,49 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击杀雷霆真君", 
+                    "reqVal": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007496", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "攻占碎石坡"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击杀云华夫人", 
+                    "reqVal": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007507", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "占领金星", 
+                    "reqVal": 1, 
+                    "param3": "2", 
+                    "param2": "20007509", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "冥风谷之战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "占领金星"
+}

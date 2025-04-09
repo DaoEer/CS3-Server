@@ -1,0 +1,107 @@
+{
+    "20102127": {
+        "tasks": [
+            {
+                "navigateData": "(-149.864304 37180.160156 806.553101)#L_HXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "5", 
+                "param2": "-149.864304 37180.160156 806.553101", 
+                "param1": "L_HXG", 
+                "id": 1, 
+                "name": "前往幻星阁"
+            }, 
+            {
+                "navigateData": "20009082#L_HXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "击败天尘子，打听金乌真身的下落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002004"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102127, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102125|20102126"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "24455", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "963", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10817", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2023", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045489|Q045490|Q045491|Q045492", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}太上老君让你前往幻星阁，从准提之徒天尘子口中打听出十金乌的真身下落。|@S{4}太上老君让你前往幻星阁，从准提之徒天尘子口中打听出十金乌的真身下落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102128|20102128|20102128|20102132", 
+        "taskCompleteFunctions": {}, 
+        "level": 39, 
+        "title": "获悉金乌下落（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126#L_TQG", 
+        "isAutoAccept": 1
+    }
+}

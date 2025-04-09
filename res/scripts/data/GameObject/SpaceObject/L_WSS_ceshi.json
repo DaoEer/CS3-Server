@@ -1,0 +1,25 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "L_WSS_ceshi",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_FMYW_UP3_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "L_YXG",
+	"Position"	: "0.0 0.0 0.0",
+	"Direction"	: "0.0 0.0 0.0"
+	},
+"SpaceData"	:{
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|2"
+	},
+"DomainData"	:{
+	}
+}

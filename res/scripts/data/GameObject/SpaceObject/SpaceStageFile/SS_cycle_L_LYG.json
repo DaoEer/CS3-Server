@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "玄通就在金殿建筑群的某处，利用轻功尽快找到他。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "1分钟内将烈阳果交予玄通", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "将烈阳果交予玄通"
+        }
+    }, 
+    "describe": "送宝环任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "烈阳果"
+}

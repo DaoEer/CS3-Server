@@ -1,0 +1,104 @@
+{
+    "20102666": {
+        "tasks": [
+            {
+                "navigateData": "10001354#L_PLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-3460.0 1539.9 286.9", 
+                "param1": "L_PLS", 
+                "id": 1, 
+                "name": "会见祖巫句芒"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002143"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3059"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102666, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102664|20102665"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16628", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "945", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16091", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050821|Q050822|Q050823|Q042233", 
+        "finish_by": "10001354#L_PLS", 
+        "taskLogDes": "@S{4}冥河老祖欲寻得魔君遗骨作为@F{fc=c41}诛仙四剑@D的剑体，命你前去蟠灵山风雷崖会合祖巫句芒，收服骨魔族，找到@F{fc=c41}魔君遗骨@D的下落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050824|Q050826|Q050827|Q050828|Q050829", 
+        "nextQuest": "20102667", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "收服骨魔族（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10001093#L_XLD_01", 
+        "isAutoAccept": 1
+    }
+}

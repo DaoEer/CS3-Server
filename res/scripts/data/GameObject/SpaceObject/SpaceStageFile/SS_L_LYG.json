@@ -1,0 +1,119 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败拦路小妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006015|20006016|20006017|20006018|20006019|20006020", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(10599.956055 10160.043945 95.417725)#L_LYG"
+                }
+            }, 
+            "title": "勇闯烈阳谷"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败噬阳兽", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006043", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006043#L_LYG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "夺得噬日精魄", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010100", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20006043#L_LYG"
+                }
+            }, 
+            "title": "激斗噬阳兽"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败烈星", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006042", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12912.377930 -2229.207520 706.450195)#L_LYG"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤灵妖兵", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006028|20006029", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(5001.958008 -13921.389648 985.914551)#L_LYG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤灵小妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006023|20006024|20006025|20006026|20006027", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12912.377930 -2229.207520 706.450195)#L_LYG"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤灵余孽", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006035|20006036", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(8788.922852 -26689.568359 983.727539)#L_LYG"
+                }
+            }, 
+            "title": "斗士战烈星"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回摩诃殿复命", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(19783.964844 -38156.457031 2118.510498)#L_LYG"
+                }
+            }, 
+            "title": "返回摩诃殿"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "烈阳谷"
+}

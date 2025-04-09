@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭纪宁亲卫", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000959|20000960", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000959|20000960#L_SLT_04"
+                }
+            }, 
+            "title": "过三关更斩亲卫"
+        }, 
+        "3": {
+            "comment": "“缘灵”就在宝箱内！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打开宝箱，获得“缘灵”", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010026", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20000969#L_SLT_03"
+                }
+            }, 
+            "title": "获得“缘灵”"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭帝江之徒纪宁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000963", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000963#L_SLT_04"
+                }
+            }, 
+            "title": "论胜负应诛纪宁"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门，离开锁灵塔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20000968#L_SLT_04"
+                }
+            }, 
+            "title": "离开锁灵塔"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "锁灵塔第四层"
+}

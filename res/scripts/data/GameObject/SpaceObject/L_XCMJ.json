@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_XCMJ",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_XCMJ",
+"NavmeshPath"	: "space\\L_XCMJ_NAVMESH",
+"belongType"	: "1",
+"PatrolRouteFile": "P_L_XCMJ",
+"ExitSpace"	:{
+	"ScriptID"	: "L_TMG",
+	"Position"	: "-379275 -28927 895012",
+	"Direction"	: "0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_XCMJ",
+	"eventFile":"SE_L_XCMJ"
+	},
+"DomainData"	:{
+	}
+}

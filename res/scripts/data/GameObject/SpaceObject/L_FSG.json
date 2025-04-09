@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_FSG",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_FSG",
+"NavmeshPath"	: "space\\L_WSD_NAVMESH",
+"PatrolRouteFile": "P_L_FSG",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_TQG",
+	"Position"	: "2920.0 -12430.0 624.0",
+	"Direction"	: "0.0 0.0 -147"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_FSG",
+	"eventFile":"SE_L_FSG"
+	},
+"DomainData"	:{
+	}
+}

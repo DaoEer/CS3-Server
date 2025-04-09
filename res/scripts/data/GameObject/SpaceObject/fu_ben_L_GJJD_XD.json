@@ -1,0 +1,43 @@
+﻿{
+"EntityType"	: "SpaceCopyBHZBPointWarPVE",
+"DomainType"	: "SpaceDomainCopyBHZBPoint",
+"EntityScript"	: "SpaceCopyBHZBPointWarPVE",
+"scriptID"	: "fu_ben_L_GJJD_XD",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "fu_ben_L_GJJD",
+"NavmeshPath"	: "space\\L_BHZYZ_CZJQB_XD_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_GJJD",
+"SpaceAoi"	: 200.0,
+"belongType"	: "0",
+"EnfityRelationMode":"RelationGCZ",
+"spaceChildType":"SPACE_CHILD_TYPE_GCZ",
+"RoleRelationRule":"ROLE_RELATION_RULE_BLONG_SIDE",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "fu_ben_L_BHZB_DBY",
+	"Position"	: "313.0 -19604.0 219.0",
+	"Direction"	: "0.0 0.0 -111.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 20,
+	"spaceIntroduce":{"voiceID":"C001849|C001850"},
+	"notReviveBossScriptID":"20014138|20014139|20014140|20014141|20014160|20014161|20014165|20014166|20014167",
+	"belongAttackScriptIDs":"30001133",
+	"belongProtectScriptIDs":["30001134|30001135|30001136|30001137|30001138|30001139|20014093|20014131|20014132|20014133|20014134|20014135|20014136|20014137|20014138|20014139|20014140|20014141|20014142|20014143|20014144|20014145|20014146|20014147|20014148|20014149|20014150|20014151|20014152|20014153|20014154|20014155|20014156|20014157|20014158|20014159|20014160|20014161|20014162|20014163|20014164|20014165|20014166|20014167|20014168|20014169|20014170"],
+	"reviveType"	: "16",
+	"delyCloseTime":30,
+	"commandScriptID":"",
+	"enterPos": "-42676 -33250 1323",
+	"enterDir": "0 0 3",
+	"stageFile":"SS_L_BHZB_GJJD",
+	"eventFile":"SE_fu_ben_L_GJJD",
+	"reviveRadius":3.0,
+	"rewardIntegral":40,
+	"rewardRepeatIntegral":10,
+	"rewardRepeatTime":60,
+	"addRewardExp":4354,
+	"reviveAddBuffIDs":[12235301,12235302,12235303,12235304,12235305]
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭埋伏的太古灵妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011356|20011355|20011357", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011356|20011355|20011357#L_LXG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守卫的太古灵妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011359|20011360|20011358", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20011359|20011360|20011358#L_LXG"
+                }
+            }, 
+            "title": "太古灵妖"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门返回师门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "17721.0 -37914.0 2120.0:3", 
+                    "param2": "7536|-3536", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(17721.0 -37914.0 2120.0)#L_LXG"
+                }
+            }, 
+            "title": "回禀师尊"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻得混沌魔丹", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "20011362", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20011361#L_LXG"
+                }
+            }, 
+            "title": "寻得混沌魔丹"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 0, 
+    "name": "落霞谷"
+}

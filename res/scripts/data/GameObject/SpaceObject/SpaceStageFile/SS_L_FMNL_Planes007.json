@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入谷底", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "10589 16039|10589 10229|16129 10229|16129 16039", 
+                    "param2": "-11400|-21400", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(14983.888672 14576.737305 -16182.353516)#L_FMNL_Planes007"
+                }
+            }, 
+            "title": "深入天机谷，寻找盘古气息"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败朱雀", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20001477", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20001477#L_FMNL_Planes007"
+                }
+            }, 
+            "title": "太古异禽"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "盘古气息"
+}

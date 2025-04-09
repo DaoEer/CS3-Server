@@ -1,0 +1,29 @@
+﻿{
+"EntityType" : "SpaceTong", 
+"DomainType" : "SpaceDomainTong", 
+"EntityScript" : "SpaceTong", 
+"spaceType" : "SPACE_TYPE_TONG", 
+"scriptID"	: "L_BHLD",
+"SpawnFile"	: "S_L_BHLD",
+"NavmeshPath"	: "space\\L_JXY_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 50.0,
+"belongType"	: "3",
+"RoleRelationRule": "ROLE_RELATION_RULE_PKMODE",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "",
+	"Position"	: "",
+	"Direction"	: ""
+	},
+"SpaceData"	:{
+	"maxLine":1,
+	"initLine":1,
+	"reviveType"	: "0|",
+	"maxPlayerAmount":500,
+	"nagualPosition": "-3240.0 -229.0 712.0",
+	"nagualDirection": "320 0 0"
+	},
+"DomainData"	:{
+	}
+}

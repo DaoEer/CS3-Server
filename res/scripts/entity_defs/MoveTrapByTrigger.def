@@ -1,0 +1,14 @@
+<root>
+	<Parent>		Trap		</Parent>
+
+	<Interfaces>
+		<Interface>		NPCAmbulantInterface		</Interface>
+	</Interfaces>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+</root>
+

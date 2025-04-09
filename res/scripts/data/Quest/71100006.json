@@ -1,0 +1,100 @@
+{
+    "71100006": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 2, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20013728|20013729", 
+                "id": 1, 
+                "name": "击杀灵府小妖"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20013730", 
+                "id": 2, 
+                "name": "击杀灵府妖王"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestUseCommitItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "303020009", 
+                "id": 3, 
+                "name": "使用破界符解除高级洞府封印"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "C001811"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 71100006, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "40", 
+                "param1": "30"
+            }
+        ], 
+        "script": "QuestScriptQiYuan", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestQiYuan", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}灵气罗盘寻到的乃是一处高级洞府福地，快击杀那些灵府小妖，然后使用破界符解除高级洞府福地的封印！！", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "71100008", 
+        "taskCompleteFunctions": {
+            "1|2": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "303020009"
+                }, 
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "C001812|C001813"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "占领高级洞府福地", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

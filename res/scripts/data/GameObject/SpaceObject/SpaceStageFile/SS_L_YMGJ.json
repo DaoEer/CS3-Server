@@ -1,0 +1,103 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭九幽火魔", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006420|20006421|20006422", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006420|20006421|20006422#L_YMGJ"
+                }
+            }, 
+            "title": "守卫挡路"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭魔火炎妖", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006435|20006436|20006437|20006438|20006439|20006440", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006435|20006436|20006437|20006438|20006439|20006440#L_YMGJ"
+                }
+            }, 
+            "title": "危机四伏"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭幽魔护法昊战及其弟子", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006428|20006429|20006430", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006428|20006429|20006430#L_YMGJ"
+                }
+            }, 
+            "title": "幽魔护法"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回逍遥门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20006449#L_YMGJ"
+                }
+            }, 
+            "title": "返回逍遥门"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭幽魔之主月尘", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006441", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006441#L_YMGJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得九幽灵石", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010093", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20006448#L_YMGJ"
+                }
+            }, 
+            "title": "幽魔之主"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "九幽灵石"
+}

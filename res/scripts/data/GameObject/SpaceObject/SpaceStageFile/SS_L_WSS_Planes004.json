@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "探查情况", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-157091.968750 46398.734375 9503.056641)#L_WSS_Planes004"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 1, 
+                    "title": "血洗五庄观", 
+                    "reqVal": 11, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011378|20011388|20011389|20011390|20011391|20011392|20011393|20011394|20011399|20011400", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "勇闯五庄观"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败明月，打探宝图的下落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20002193", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002193#L_WSS_Planes004"
+                }
+            }, 
+            "title": "降服明月"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往主殿平台，寻找明月", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-176780 46740|-175570 46740|-175570 45520|-171600 45510|-171610 46730|-170360 46730|-170370 50600|-176800 50630", 
+                    "param2": "15540|5540", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-173585.0 47562.0 10639.0)#L_WSS_Planes004"
+                }
+            }, 
+            "title": "到达前殿"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "五庄观"
+}

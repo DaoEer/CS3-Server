@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭白虎卫兵", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010009|20010010|20010011", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-9450 25572 1151)#L_FYP_Planes108"
+                }
+            }, 
+            "title": "前往白虎族"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭白虎女战士", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009995|20009996", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8985 31564 1056)#L_FYP_Planes108"
+                }
+            }, 
+            "title": "白虎巾帼"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭白虎精英", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010012|20010013", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-9450 25572 1151)#L_FYP_Planes108"
+                }
+            }, 
+            "title": "层层阻碍"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天夕", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010023", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-30110 23145 3788)#L_FYP_Planes108"
+                }
+            }, 
+            "title": "白虎护法"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "闯进大门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-26875 23125 3735:10", 
+                    "param2": "7735|-265", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-26875 23125 3735)#L_FYP_Planes108"
+                }
+            }, 
+            "title": "闯入白虎族"
+        }, 
+        "6": {
+            "comment": "消灭白虎族长夺取神龙图", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得神龙图", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20102654", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(-40560 32030 3885)#L_FYP_Planes108"
+                }
+            }, 
+            "title": "白虎族长"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "夺取神龙图"
+}

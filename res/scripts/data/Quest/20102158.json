@@ -1,0 +1,126 @@
+{
+    "20102158": {
+        "tasks": [
+            {
+                "navigateData": "10000126#L_TQG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往藏功殿"
+            }, 
+            {
+                "navigateData": "10000126#L_TQG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "协助后羿领悟《御箭诀》"
+            }, 
+            {
+                "navigateData": "10000126#L_TQG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 2, 
+                "param3": "9", 
+                "param2": "1390.0 -13680.000000000002 646.0", 
+                "param1": "L_TQG", 
+                "id": 3, 
+                "name": "返回太清宫复命"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002060"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102158, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|2|3"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102156"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "25398", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1277", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17402", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2134", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050334|Q050335|Q050336|Q050337", 
+        "finish_by": "10000126#L_TQG", 
+        "taskLogDes": "@S{4}太上老君让你与后羿前往藏功殿，助后羿领悟御箭诀。|@S{4}御箭诀中似乎还有几道残缺的口诀散落四周，请你将它们一一寻回放置书桌上。|@S{4}后羿已成功领悟御箭诀，请你和他返回太清宫复命。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050351", 
+        "nextQuest": "20102160", 
+        "taskCompleteFunctions": {}, 
+        "level": 40, 
+        "title": "后羿闭关", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126#L_TQG", 
+        "isAutoAccept": 1
+    }
+}

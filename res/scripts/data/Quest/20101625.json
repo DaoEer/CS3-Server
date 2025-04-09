@@ -1,0 +1,145 @@
+{
+    "20101625": {
+        "tasks": [
+            {
+                "navigateData": "20002316|20002317#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002316|20002317", 
+                "id": 1, 
+                "name": "消灭朽木灵妖"
+            }, 
+            {
+                "navigateData": "20002318|20002319#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002318|20002319", 
+                "id": 2, 
+                "name": "消灭枯木灵妖"
+            }, 
+            {
+                "navigateData": "20002320|20002321#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002320|20002321", 
+                "id": 3, 
+                "name": "消灭柘木灵妖"
+            }, 
+            {
+                "navigateData": "30000092#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010040", 
+                "id": 4, 
+                "name": "深入苍麓林，取得烈阳木"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101625, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010040"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101624"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010040"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "4787", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "615", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "998", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "407", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102100001|102100006|102100001|102100006", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q020602|Q020603|Q020604", 
+        "finish_by": "10000287#L_FMNL", 
+        "taskLogDes": "@S{4}魔君秘宝所在的落霞谷设有封印，祖巫祝融请你前往附近的苍麓林，取得@F{fc=c41}烈阳木@D来助她破除封印。|@S{4}魔君秘宝所在的落霞谷设有封印，祖巫祝融请你前往附近的苍麓林，取得@F{fc=c41}烈阳木@D来助她破除封印。|@S{4}魔君秘宝所在的落霞谷设有封印，祖巫祝融请你前往附近的苍麓林，取得@F{fc=c41}烈阳木@D来助她破除封印。|@S{4}魔君秘宝所在的落霞谷设有封印，祖巫祝融请你前往附近的苍麓林，取得@F{fc=c41}烈阳木@D来助她破除封印。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020615", 
+        "nextQuest": "20101626", 
+        "taskCompleteFunctions": {}, 
+        "level": 13, 
+        "title": "（废弃）烈阳木", 
+        "isAutoCommit": 1, 
+        "start_by": "10000281#L_FMNL", 
+        "isAutoAccept": 1
+    }
+}

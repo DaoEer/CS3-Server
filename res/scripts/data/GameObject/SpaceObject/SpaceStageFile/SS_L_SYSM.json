@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蛇妖哨兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012673|20012674|20012675", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012673|20012674|20012675#L_SYSM"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蛇妖守卫", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012676|20012677", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012676|20012677#L_SYSM"
+                }
+            }, 
+            "title": "深岩山脉"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回紫霄宫", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3581.105957 11556.461914 -431.962952:3", 
+                    "param2": "3000|-2000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20012681#L_SYSM"
+                }
+            }, 
+            "title": "回禀仙祖"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败巴蛇，获得陆压颅骨", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010159", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20012678#L_SYSM"
+                }
+            }, 
+            "title": "击败巴蛇"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "深岩山脉"
+}

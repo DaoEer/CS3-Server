@@ -1,0 +1,207 @@
+﻿<root>
+	<Properties>
+		<isDeclareWar>
+         <Type>         BOOL     </Type>
+         <Flags>        CELL_PUBLIC </Flags>
+         <Persistent>      false     </Persistent>
+      </isDeclareWar>
+      <occupyTrainData>
+          	<Type>         ROLEOCCUPYTRAINDATA     </Type>
+         	<Flags>        CELL_PUBLIC </Flags>
+         	<Persistent>      true     </Persistent>
+      </occupyTrainData>
+
+		<trainGroundQuestNum>
+			<Type>         UINT8			</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+			<Persistent>      true			</Persistent>
+		</trainGroundQuestNum>
+		<trainGroundQuest>
+			<Type>         ARRAY_INT32		</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+			<Persistent>      true			</Persistent>
+		</trainGroundQuest>
+		<successTGQuest>
+			<Type>         ARRAY_INT32		</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+			<Persistent>      true			</Persistent>
+		</successTGQuest>
+		<failTGQuest>
+			<Type>         ARRAY_INT32		</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+			<Persistent>      true			</Persistent>
+		</failTGQuest>
+		<refreshTGQTime>
+			<Type>         TIME			</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+			<Persistent>      true			</Persistent>
+		</refreshTGQTime>
+		<TGQuestDict>
+			<Type>         DICT_INT_INT_LIST	</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+			<Persistent>      true			</Persistent>
+		</TGQuestDict>
+
+		<gainTSGItemTime>
+			<Type>         SERVER_TIME		</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+			<Persistent>      true			</Persistent>
+		</gainTSGItemTime>
+	</Properties>
+
+	<ClientMethods>
+	      <OpenTrainSoldierGroundDetails>
+	         <Arg> UNICODE </Arg>
+	         <Arg> INT32 </Arg>
+	         <Arg> UINT8 </Arg>
+	         <Arg> ARRAY_UNICODE </Arg>
+	         <Arg> ARRAY_INT32 </Arg>
+	         <Arg> INT32 </Arg>
+	         <Arg> UINT8 </Arg>
+	         <Arg> INT32 </Arg>
+	         <Arg> STRING </Arg>
+	         <Arg> BOOL </Arg>
+	      </OpenTrainSoldierGroundDetails>
+
+		<CLIENT_initTrainGroundQuest>
+			<Arg> OBJECT_ID </Arg>
+			<Arg> ARRAY_INT32 </Arg>
+			<Arg> ARRAY_INT32 </Arg>
+			<Arg> ARRAY_INT32 </Arg>
+			<Arg> ARRAY_INT32 </Arg>
+			<Arg> TRAIN_SOLDIER_QUESTS </Arg>
+		</CLIENT_initTrainGroundQuest>
+		<CLIENT_OnRefreshTGQuest>
+			<Arg> ARRAY_INT32 </Arg>
+			<Arg> TRAIN_SOLDIER_QUESTS </Arg>
+		</CLIENT_OnRefreshTGQuest>
+		<CLIENT_OnAcceptTGQuest>
+			<Arg> UINT8 </Arg>
+			<Arg> INT32 </Arg>
+		</CLIENT_OnAcceptTGQuest>
+		<CLIENT_onTGQuestResult>
+			<Arg> UINT8 </Arg>
+			<Arg> BOOL </Arg>
+			<Arg> UINT16 </Arg>
+			<Arg> UINT16 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> UINT8 </Arg>
+			<Arg> BOOL </Arg>
+		</CLIENT_onTGQuestResult>
+		<CLIENT_onSoldierFinishQuestBack>
+			<Arg> INT32 </Arg>
+		</CLIENT_onSoldierFinishQuestBack>
+
+		<OpenAllGroundDetail>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> ARRAY_INT32 </Arg>
+			<Arg> ARRAY_STRING </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</OpenAllGroundDetail>
+
+		<InitGTAttackDatas>
+			<Arg> BATTACK_MAP </Arg>
+		</InitGTAttackDatas>
+		<InitGTProtectDatas>
+			<Arg> BATTACK_MAP </Arg>
+			<Arg> BATTERY_MAP </Arg>
+			<Arg> ARRAY_POSITION</Arg>
+			<Arg> INT32	 </Arg>
+		</InitGTProtectDatas>
+		<onDestroyGTBattery>
+			<Arg> OBJECT_ID </Arg>
+		</onDestroyGTBattery>
+		<occupyGTBarrack>
+			<Arg> INT8 </Arg>
+			<Arg> STRING </Arg>
+		</occupyGTBarrack>
+		<onRequestAttackPos>
+			<Arg> POSITION </Arg>
+		</onRequestAttackPos>
+		<onRequestAttackPosNone>
+		</onRequestAttackPosNone>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<setRoleOccupyTrainData>
+			 <Arg> INT32 </Arg>
+	         <Arg> INT32 </Arg>
+		</setRoleOccupyTrainData>
+	      <setIsDeclareWar>
+	         <Arg> BOOL </Arg>
+	      </setIsDeclareWar>
+	      <sendIsJoinDeclareWarMsg>
+	         <Arg> INT32 </Arg>
+	         <Arg> INT32 </Arg>
+	         <Arg> STRING   </Arg>
+	        <Arg>  CELL_ENTITYCALL   </Arg>
+	        <Arg>  DBID  </Arg>
+	        <Arg> INT32 </Arg>
+	        <Arg>	UNICODE	</Arg>
+	        <Arg>	PYTHON_DICT	</Arg>
+	      </sendIsJoinDeclareWarMsg>
+	      <gotoTrainSoldierGround>
+	         <Arg> INT32 </Arg>
+	         <Arg> INT32 </Arg>
+	         <Arg> STRING   </Arg>
+	      </gotoTrainSoldierGround>
+	      <declareTrainSoldierGround>
+	         <Exposed/>
+	         <Arg> INT32 </Arg>
+	      </declareTrainSoldierGround>
+	      <cancelDeclareTrainSoldierGround>
+	         <Exposed/>
+	         <Arg> INT32 </Arg>
+	      </cancelDeclareTrainSoldierGround>
+
+		<requestRefreshTGQuest>
+			<Exposed/>
+		</requestRefreshTGQuest>
+		<autoRefreshTGQuest>
+			<Exposed/>
+		</autoRefreshTGQuest>
+		<requestAcceptTGQuest>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</requestAcceptTGQuest>
+		<onTGQuestFightEnd>
+			<Arg> INT32 </Arg>
+		</onTGQuestFightEnd>
+		<onSoldierBackHome>
+			<Arg> INT32 </Arg>
+		</onSoldierBackHome>
+		<requestGotoTrainGroundByGroup>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> POSITION </Arg>
+		</requestGotoTrainGroundByGroup>
+		<requestAllGroundDetail>
+			<Exposed/>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</requestAllGroundDetail>
+		<openAllGroundDetail>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> ARRAY_INT32 </Arg>
+			<Arg> ARRAY_STRING </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</openAllGroundDetail>
+
+		<requestAttckPos>
+			<Exposed/>
+		</requestAttckPos>
+		<requestTeleportPos>
+			<Exposed/>
+			<Arg> POSITION </Arg>
+		</requestTeleportPos>
+	</CellMethods>
+</root>

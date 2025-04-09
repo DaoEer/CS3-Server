@@ -1,0 +1,151 @@
+﻿{
+	"JSSLC_SignUp": {
+		"Name": "晶石狩猎场报名",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "SparHunTingManager",
+			"StartMethod": "onActiveSignUp",
+			"EndMethod": "",
+			"CallbackArgs": []
+		}
+	},
+	"JSSLC_Start": {
+		"Name": "晶石狩猎场开始",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "SparHunTingManager",
+			"StartMethod": "onActiveStart",
+			"EndMethod": "onActiveEnd",
+			"CallbackArgs": []
+		}
+	},
+	"YCJMD_JZ_Start": {
+		"Name": "传奇副本勇闯绝命岛-近战开始",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": false,
+			"ClassName": "ActivityCrondManager",
+			"StartMethod": "onActivityOpen",
+			"EndMethod": "",
+			"CallbackArgs": ["105005"]
+		}
+	},
+	"YCJMD_JZ_End": {
+		"Name": "传奇副本勇闯绝命岛-近战结束",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": false,
+			"ClassName": "ActivityCrondManager",
+			"StartMethod": "onActivityOpen",
+			"EndMethod": "",
+			"CallbackArgs": ["105008"]
+		}
+	},
+	"YCJMD_YZ_Start": {
+		"Name": "传奇副本勇闯绝命岛-远程开始",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": false,
+			"ClassName": "ActivityCrondManager",
+			"StartMethod": "onActivityOpen",
+			"EndMethod": "",
+			"CallbackArgs": ["105009"]
+		}
+	},
+	"YCJMD_YZ_End": {
+		"Name": "传奇副本勇闯绝命岛-远程结束",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": false,
+			"ClassName": "ActivityCrondManager",
+			"StartMethod": "onActivityOpen",
+			"EndMethod": "",
+			"CallbackArgs": ["105012"]
+		}
+	},
+	"GCZ_SignUp": {
+		"Name": "传奇副本攻城战报名",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "GCZManager",
+			"StartMethod": "onGCZSignUpStart",
+			"EndMethod": "onGCZSignUpEnd",
+			"CallbackArgs": []
+		}
+	},
+	"GCZ_Start": {
+		"Name": "传奇副本攻城战开始",
+		"ActivityMgrInfo": {
+			"ClassName": "GCZManager",
+			"StartMethod": "onGCZStart",
+			"EndMethod": "onGCZEnd",
+			"CallbackArgs": []
+		}
+	},
+	"5V5ZYJJ_Start": {
+		"Name": "5v5阵营竞技开始",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "CampActivityRandomFitMgr",
+			"StartMethod": "onActiveStart",
+			"EndMethod": "onActiveEnd",
+			"CallbackArgs": []
+		}
+	},
+	"SFC_SignUp": {
+		"Name": "十方城报名",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "PersonStarcraftMgr",
+			"StartMethod": "onShiFangChengActiveSignUpStart",
+			"EndMethod": "onShiFangChengActiveSignUpEnd",
+			"CallbackArgs": []
+		}
+	},
+	"SFC_Start": {
+		"Name": "十方城开始",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "PersonStarcraftMgr",
+			"StartMethod": "onShiFangChengActiveStart",
+			"EndMethod": "onShiFangChengActiveEnd",
+			"CallbackArgs": []
+		}
+	},
+	"BHZB_SignUp": {
+		"Name": "帮会争霸报名",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "BHZBManager",
+			"StartMethod": "onBHZBSignUpStart",
+			"EndMethod": "onBHZBSignUpEnd",
+			"CallbackArgs": []
+		}
+	},
+	"BHZB_Start": {
+		"Name": "帮会争霸开始",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "BHZBManager",
+			"StartMethod": "onBHZBStart",
+			"EndMethod": "onBHZBEnd",
+			"CallbackArgs": []
+		}
+	},
+	"BHLD_SignUp": {
+		"Name": "帮会掠夺战报名",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "TongPlunderManager",
+			"StartMethod": "onActiveSignUp",
+			"EndMethod": "onActiveSignUpEnd",
+			"CallbackArgs": []
+		}
+	},
+	"BHLD_Start": {
+		"Name": "帮会掠夺战开始",
+		"ActivityMgrInfo": {
+			"HasActivityMgr": true,
+			"ClassName": "TongPlunderManager",
+			"StartMethod": "onActiveStart",
+			"EndMethod": "onActiveEnd",
+			"CallbackArgs": []
+		}
+	}
+}

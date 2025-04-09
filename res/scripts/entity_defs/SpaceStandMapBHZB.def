@@ -1,0 +1,37 @@
+<root>
+	<Interfaces>
+		<Interface> SpaceObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<pointDataMgr>
+			<Type>			BHZBPOINTDATAMGR		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</pointDataMgr>
+		<spaceRoleDict>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</spaceRoleDict>
+		<spacePointDict>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</spacePointDict>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<setMaxLineNumber>
+			<Arg>	INT32		</Arg>
+		</setMaxLineNumber>
+		<onRequestBHZBPointDatasCB>
+			<Arg>	BHZBPOINTDATAS		</Arg>
+		</onRequestBHZBPointDatasCB>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

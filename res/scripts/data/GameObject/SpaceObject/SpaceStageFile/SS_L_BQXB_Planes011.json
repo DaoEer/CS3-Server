@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟战士", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005382|20005383|20005384|20005385", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(43444.3 6477.5 -1748.6)#L_BQXB_Planes011"
+                }
+            }, 
+            "title": "突破正气盟的防守"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救丹朱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "20005394", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005394#L_BQXB_Planes011"
+                }
+            }, 
+            "title": "解救丹朱"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败姬生", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20005387", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005387#L_BQXB_Planes011"
+                }
+            }, 
+            "title": "击败姬生"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "落凤坡"
+}

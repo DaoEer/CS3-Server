@@ -1,0 +1,31 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_OnBulletHitPicture>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_OnBulletHitPicture>
+		<CLIENT_OnMonsterCopyEnterPicture>
+			<Arg>		INT32			</Arg>
+		</CLIENT_OnMonsterCopyEnterPicture>
+		<CLIENT_OnPictureStopHighlight>
+		</CLIENT_OnPictureStopHighlight>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

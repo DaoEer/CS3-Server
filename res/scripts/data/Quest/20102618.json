@@ -1,0 +1,104 @@
+{
+    "20102618": {
+        "tasks": [
+            {
+                "navigateData": "30000571#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "寻到妖兽蟠虬"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002120"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3034"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102618, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102617"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "36683", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1170", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13135", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2023", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045643|Q045644|Q045645", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}巫真已打听到有一上古异药化月丹，可化解玄月神力。祖巫玄冥让你依照巫真的信件所言，将炼制化月丹的材料收集齐全。信中的一味炼丹材料乃混灵谷的蟠虬之胆，请速前去夺下此物。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042588", 
+        "nextQuest": "20102619", 
+        "taskCompleteFunctions": {}, 
+        "level": 39, 
+        "title": "蟠虬之胆", 
+        "isAutoCommit": 1, 
+        "start_by": "10001007#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "20101106": {
+        "tasks": [
+            {
+                "navigateData": "30000138#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往皇宫"
+            }, 
+            {
+                "navigateData": "10000173#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "15", 
+                "param2": "23460.0 -19282.0 16019.0", 
+                "param1": "L_FMC", 
+                "id": 2, 
+                "name": "拜见无极道祖"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101106, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101105"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2980", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "644", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1046", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "375", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020074", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}玉鼎真人让你前往凤鸣城皇宫拜见无极道祖，求得进入天机谷的方法。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101107", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000281"
+                }
+            ]
+        }, 
+        "level": 12, 
+        "title": "拜见无极道祖", 
+        "isAutoCommit": 1, 
+        "start_by": "10000180#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

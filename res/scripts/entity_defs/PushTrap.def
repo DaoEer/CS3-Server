@@ -1,0 +1,14 @@
+<root>
+	<Parent>		MoveTrap         	</Parent>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+	<ClientMethods>
+	</ClientMethods>
+</root>
+

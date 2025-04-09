@@ -1,0 +1,104 @@
+{
+    "20102067": {
+        "tasks": [
+            {
+                "navigateData": "10000627#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "140065 104290 1472", 
+                "param1": "L_ZLY", 
+                "id": 1, 
+                "name": "前往火狐领地找望舒"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002053"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3039"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102067, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102097"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "14564", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "573", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6438", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1630", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045143|Q045144|Q045146|Q045147", 
+        "finish_by": "10000627#L_ZLY", 
+        "taskLogDes": "@S{4}有了神灯提供光热，大地危机暂解，羲和此前调查到金乌的失踪可能与九阳神火兽有关，望舒已先行追踪此妖兽的气息前往青麓原的火狐领地。羲和让你速去与她会合，了解情况。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045148", 
+        "nextQuest": "20102068", 
+        "taskCompleteFunctions": {}, 
+        "level": 35, 
+        "title": "十金乌下落", 
+        "isAutoCommit": 1, 
+        "start_by": "10000626#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "探查荷塘", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-5953.0 -108.0 237.0)#L_HHFZ"
+                }
+            }, 
+            "title": "初入荷塘"
+        }, 
+        "3": {
+            "comment": "幻灵护法受到法阵破除的反噬，速将其击败。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败幻灵护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "大战幻灵护法"
+        }, 
+        "2": {
+            "comment": "需踏上荷花移动，并设法将三朵同色的荷花相连，方可对法阵造成破坏，重创幻灵护法。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏荷花法阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-4423.0 -336.0 234.0)#L_HHFZ"
+                }
+            }, 
+            "title": "荷花法阵"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往天机谷", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1834.0 46.0 1223.0:3", 
+                    "param2": "2223|223", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "前往天机谷"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "西境荷塘"
+}

@@ -1,0 +1,59 @@
+{
+    "20102689": {
+        "tasks": [
+            {
+                "navigateData": "(-8760.0 -21320.0 1796.5)#L_DJT", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "攻打东极天"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002166"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102689, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102688"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q059506", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}缥缈阁的天兵天将已做好准备，请你随不动明王前去攻打东极天。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102690", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "攻打东极天", 
+        "isAutoCommit": 1, 
+        "start_by": "10000342#L_PMG", 
+        "isAutoAccept": 1
+    }
+}

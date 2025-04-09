@@ -1,0 +1,702 @@
+[
+    {
+        "money": 35, 
+        "potential": 17, 
+        "foodNum": 11, 
+        "quality": 1, 
+        "Name": 1
+    }, 
+    {
+        "money": 81, 
+        "potential": 40, 
+        "foodNum": 12, 
+        "quality": 1, 
+        "Name": 2
+    }, 
+    {
+        "money": 142, 
+        "potential": 71, 
+        "foodNum": 13, 
+        "quality": 1, 
+        "Name": 3
+    }, 
+    {
+        "money": 222, 
+        "potential": 111, 
+        "foodNum": 14, 
+        "quality": 1, 
+        "Name": 4
+    }, 
+    {
+        "money": 328, 
+        "potential": 164, 
+        "foodNum": 15, 
+        "quality": 1, 
+        "Name": 5
+    }, 
+    {
+        "money": 469, 
+        "potential": 234, 
+        "foodNum": 16, 
+        "quality": 1, 
+        "Name": 6
+    }, 
+    {
+        "money": 654, 
+        "potential": 327, 
+        "foodNum": 17, 
+        "quality": 1, 
+        "Name": 7
+    }, 
+    {
+        "money": 898, 
+        "potential": 449, 
+        "foodNum": 18, 
+        "quality": 1, 
+        "Name": 8
+    }, 
+    {
+        "money": 1221, 
+        "potential": 610, 
+        "foodNum": 19, 
+        "quality": 1, 
+        "Name": 9
+    }, 
+    {
+        "money": 1647, 
+        "potential": 823, 
+        "foodNum": 20, 
+        "quality": 1, 
+        "Name": 10
+    }, 
+    {
+        "money": 2209, 
+        "potential": 1104, 
+        "foodNum": 21, 
+        "quality": 1, 
+        "Name": 11
+    }, 
+    {
+        "money": 2951, 
+        "potential": 1475, 
+        "foodNum": 22, 
+        "quality": 1, 
+        "Name": 12
+    }, 
+    {
+        "money": 3930, 
+        "potential": 1965, 
+        "foodNum": 23, 
+        "quality": 1, 
+        "Name": 13
+    }, 
+    {
+        "money": 5223, 
+        "potential": 2611, 
+        "foodNum": 24, 
+        "quality": 1, 
+        "Name": 14
+    }, 
+    {
+        "money": 6929, 
+        "potential": 3464, 
+        "foodNum": 25, 
+        "quality": 1, 
+        "Name": 15
+    }, 
+    {
+        "money": 9182, 
+        "potential": 4591, 
+        "foodNum": 26, 
+        "quality": 1, 
+        "Name": 16
+    }, 
+    {
+        "money": 12155, 
+        "potential": 6077, 
+        "foodNum": 27, 
+        "quality": 1, 
+        "Name": 17
+    }, 
+    {
+        "money": 16080, 
+        "potential": 8040, 
+        "foodNum": 28, 
+        "quality": 1, 
+        "Name": 18
+    }, 
+    {
+        "money": 21261, 
+        "potential": 10630, 
+        "foodNum": 29, 
+        "quality": 1, 
+        "Name": 19
+    }, 
+    {
+        "money": 28100, 
+        "potential": 14050, 
+        "foodNum": 30, 
+        "quality": 1, 
+        "Name": 20
+    }, 
+    {
+        "money": 50, 
+        "potential": 25, 
+        "foodNum": 11, 
+        "quality": 2, 
+        "Name": 21
+    }, 
+    {
+        "money": 116, 
+        "potential": 58, 
+        "foodNum": 12, 
+        "quality": 2, 
+        "Name": 22
+    }, 
+    {
+        "money": 203, 
+        "potential": 101, 
+        "foodNum": 13, 
+        "quality": 2, 
+        "Name": 23
+    }, 
+    {
+        "money": 318, 
+        "potential": 159, 
+        "foodNum": 14, 
+        "quality": 2, 
+        "Name": 24
+    }, 
+    {
+        "money": 469, 
+        "potential": 234, 
+        "foodNum": 15, 
+        "quality": 2, 
+        "Name": 25
+    }, 
+    {
+        "money": 670, 
+        "potential": 335, 
+        "foodNum": 16, 
+        "quality": 2, 
+        "Name": 26
+    }, 
+    {
+        "money": 934, 
+        "potential": 467, 
+        "foodNum": 17, 
+        "quality": 2, 
+        "Name": 27
+    }, 
+    {
+        "money": 1283, 
+        "potential": 641, 
+        "foodNum": 18, 
+        "quality": 2, 
+        "Name": 28
+    }, 
+    {
+        "money": 1744, 
+        "potential": 872, 
+        "foodNum": 19, 
+        "quality": 2, 
+        "Name": 29
+    }, 
+    {
+        "money": 2353, 
+        "potential": 1176, 
+        "foodNum": 20, 
+        "quality": 2, 
+        "Name": 30
+    }, 
+    {
+        "money": 3156, 
+        "potential": 1578, 
+        "foodNum": 21, 
+        "quality": 2, 
+        "Name": 31
+    }, 
+    {
+        "money": 4216, 
+        "potential": 2108, 
+        "foodNum": 22, 
+        "quality": 2, 
+        "Name": 32
+    }, 
+    {
+        "money": 5615, 
+        "potential": 2807, 
+        "foodNum": 23, 
+        "quality": 2, 
+        "Name": 33
+    }, 
+    {
+        "money": 7461, 
+        "potential": 3730, 
+        "foodNum": 24, 
+        "quality": 2, 
+        "Name": 34
+    }, 
+    {
+        "money": 9899, 
+        "potential": 4949, 
+        "foodNum": 25, 
+        "quality": 2, 
+        "Name": 35
+    }, 
+    {
+        "money": 13117, 
+        "potential": 6558, 
+        "foodNum": 26, 
+        "quality": 2, 
+        "Name": 36
+    }, 
+    {
+        "money": 17365, 
+        "potential": 8682, 
+        "foodNum": 27, 
+        "quality": 2, 
+        "Name": 37
+    }, 
+    {
+        "money": 22972, 
+        "potential": 11486, 
+        "foodNum": 28, 
+        "quality": 2, 
+        "Name": 38
+    }, 
+    {
+        "money": 30373, 
+        "potential": 15186, 
+        "foodNum": 29, 
+        "quality": 2, 
+        "Name": 39
+    }, 
+    {
+        "money": 40143, 
+        "potential": 20071, 
+        "foodNum": 30, 
+        "quality": 2, 
+        "Name": 40
+    }, 
+    {
+        "money": 115, 
+        "potential": 57, 
+        "foodNum": 11, 
+        "quality": 3, 
+        "Name": 41
+    }, 
+    {
+        "money": 266, 
+        "potential": 133, 
+        "foodNum": 12, 
+        "quality": 3, 
+        "Name": 42
+    }, 
+    {
+        "money": 467, 
+        "potential": 233, 
+        "foodNum": 13, 
+        "quality": 3, 
+        "Name": 43
+    }, 
+    {
+        "money": 731, 
+        "potential": 365, 
+        "foodNum": 14, 
+        "quality": 3, 
+        "Name": 44
+    }, 
+    {
+        "money": 1080, 
+        "potential": 540, 
+        "foodNum": 15, 
+        "quality": 3, 
+        "Name": 45
+    }, 
+    {
+        "money": 1541, 
+        "potential": 770, 
+        "foodNum": 16, 
+        "quality": 3, 
+        "Name": 46
+    }, 
+    {
+        "money": 2149, 
+        "potential": 1074, 
+        "foodNum": 17, 
+        "quality": 3, 
+        "Name": 47
+    }, 
+    {
+        "money": 2952, 
+        "potential": 1476, 
+        "foodNum": 18, 
+        "quality": 3, 
+        "Name": 48
+    }, 
+    {
+        "money": 4012, 
+        "potential": 2006, 
+        "foodNum": 19, 
+        "quality": 3, 
+        "Name": 49
+    }, 
+    {
+        "money": 5412, 
+        "potential": 2706, 
+        "foodNum": 20, 
+        "quality": 3, 
+        "Name": 50
+    }, 
+    {
+        "money": 7258, 
+        "potential": 3629, 
+        "foodNum": 21, 
+        "quality": 3, 
+        "Name": 51
+    }, 
+    {
+        "money": 9696, 
+        "potential": 4848, 
+        "foodNum": 22, 
+        "quality": 3, 
+        "Name": 52
+    }, 
+    {
+        "money": 12914, 
+        "potential": 6457, 
+        "foodNum": 23, 
+        "quality": 3, 
+        "Name": 53
+    }, 
+    {
+        "money": 17162, 
+        "potential": 8581, 
+        "foodNum": 24, 
+        "quality": 3, 
+        "Name": 54
+    }, 
+    {
+        "money": 22769, 
+        "potential": 11384, 
+        "foodNum": 25, 
+        "quality": 3, 
+        "Name": 55
+    }, 
+    {
+        "money": 30170, 
+        "potential": 15085, 
+        "foodNum": 26, 
+        "quality": 3, 
+        "Name": 56
+    }, 
+    {
+        "money": 39940, 
+        "potential": 19970, 
+        "foodNum": 27, 
+        "quality": 3, 
+        "Name": 57
+    }, 
+    {
+        "money": 52836, 
+        "potential": 26418, 
+        "foodNum": 28, 
+        "quality": 3, 
+        "Name": 58
+    }, 
+    {
+        "money": 69859, 
+        "potential": 34929, 
+        "foodNum": 29, 
+        "quality": 3, 
+        "Name": 59
+    }, 
+    {
+        "money": 92329, 
+        "potential": 46164, 
+        "foodNum": 30, 
+        "quality": 3, 
+        "Name": 60
+    }, 
+    {
+        "money": 180, 
+        "potential": 90, 
+        "foodNum": 11, 
+        "quality": 4, 
+        "Name": 61
+    }, 
+    {
+        "money": 417, 
+        "potential": 208, 
+        "foodNum": 12, 
+        "quality": 4, 
+        "Name": 62
+    }, 
+    {
+        "money": 731, 
+        "potential": 365, 
+        "foodNum": 13, 
+        "quality": 4, 
+        "Name": 63
+    }, 
+    {
+        "money": 1145, 
+        "potential": 572, 
+        "foodNum": 14, 
+        "quality": 4, 
+        "Name": 64
+    }, 
+    {
+        "money": 1691, 
+        "potential": 845, 
+        "foodNum": 15, 
+        "quality": 4, 
+        "Name": 65
+    }, 
+    {
+        "money": 2413, 
+        "potential": 1206, 
+        "foodNum": 16, 
+        "quality": 4, 
+        "Name": 66
+    }, 
+    {
+        "money": 3365, 
+        "potential": 1682, 
+        "foodNum": 17, 
+        "quality": 4, 
+        "Name": 67
+    }, 
+    {
+        "money": 4622, 
+        "potential": 2311, 
+        "foodNum": 18, 
+        "quality": 4, 
+        "Name": 68
+    }, 
+    {
+        "money": 6281, 
+        "potential": 3140, 
+        "foodNum": 19, 
+        "quality": 4, 
+        "Name": 69
+    }, 
+    {
+        "money": 8471, 
+        "potential": 4235, 
+        "foodNum": 20, 
+        "quality": 4, 
+        "Name": 70
+    }, 
+    {
+        "money": 11361, 
+        "potential": 5680, 
+        "foodNum": 21, 
+        "quality": 4, 
+        "Name": 71
+    }, 
+    {
+        "money": 15177, 
+        "potential": 7588, 
+        "foodNum": 22, 
+        "quality": 4, 
+        "Name": 72
+    }, 
+    {
+        "money": 20214, 
+        "potential": 10107, 
+        "foodNum": 23, 
+        "quality": 4, 
+        "Name": 73
+    }, 
+    {
+        "money": 26863, 
+        "potential": 13431, 
+        "foodNum": 24, 
+        "quality": 4, 
+        "Name": 74
+    }, 
+    {
+        "money": 35639, 
+        "potential": 17819, 
+        "foodNum": 25, 
+        "quality": 4, 
+        "Name": 75
+    }, 
+    {
+        "money": 47224, 
+        "potential": 23612, 
+        "foodNum": 26, 
+        "quality": 4, 
+        "Name": 76
+    }, 
+    {
+        "money": 62515, 
+        "potential": 31257, 
+        "foodNum": 27, 
+        "quality": 4, 
+        "Name": 77
+    }, 
+    {
+        "money": 82700, 
+        "potential": 41350, 
+        "foodNum": 28, 
+        "quality": 4, 
+        "Name": 78
+    }, 
+    {
+        "money": 109344, 
+        "potential": 54672, 
+        "foodNum": 29, 
+        "quality": 4, 
+        "Name": 79
+    }, 
+    {
+        "money": 144515, 
+        "potential": 72257, 
+        "foodNum": 30, 
+        "quality": 4, 
+        "Name": 80
+    }, 
+    {
+        "money": 250, 
+        "potential": 125, 
+        "foodNum": 11, 
+        "quality": 5, 
+        "Name": 81
+    }, 
+    {
+        "money": 580, 
+        "potential": 290, 
+        "foodNum": 12, 
+        "quality": 5, 
+        "Name": 82
+    }, 
+    {
+        "money": 1015, 
+        "potential": 507, 
+        "foodNum": 13, 
+        "quality": 5, 
+        "Name": 83
+    }, 
+    {
+        "money": 1590, 
+        "potential": 795, 
+        "foodNum": 14, 
+        "quality": 5, 
+        "Name": 84
+    }, 
+    {
+        "money": 2349, 
+        "potential": 1174, 
+        "foodNum": 15, 
+        "quality": 5, 
+        "Name": 85
+    }, 
+    {
+        "money": 3351, 
+        "potential": 1675, 
+        "foodNum": 16, 
+        "quality": 5, 
+        "Name": 86
+    }, 
+    {
+        "money": 4673, 
+        "potential": 2336, 
+        "foodNum": 17, 
+        "quality": 5, 
+        "Name": 87
+    }, 
+    {
+        "money": 6419, 
+        "potential": 3209, 
+        "foodNum": 18, 
+        "quality": 5, 
+        "Name": 88
+    }, 
+    {
+        "money": 8723, 
+        "potential": 4361, 
+        "foodNum": 19, 
+        "quality": 5, 
+        "Name": 89
+    }, 
+    {
+        "money": 11765, 
+        "potential": 5882, 
+        "foodNum": 20, 
+        "quality": 5, 
+        "Name": 90
+    }, 
+    {
+        "money": 15780, 
+        "potential": 7890, 
+        "foodNum": 21, 
+        "quality": 5, 
+        "Name": 91
+    }, 
+    {
+        "money": 21080, 
+        "potential": 10540, 
+        "foodNum": 22, 
+        "quality": 5, 
+        "Name": 92
+    }, 
+    {
+        "money": 28075, 
+        "potential": 14037, 
+        "foodNum": 23, 
+        "quality": 5, 
+        "Name": 93
+    }, 
+    {
+        "money": 37309, 
+        "potential": 18654, 
+        "foodNum": 24, 
+        "quality": 5, 
+        "Name": 94
+    }, 
+    {
+        "money": 49499, 
+        "potential": 24749, 
+        "foodNum": 25, 
+        "quality": 5, 
+        "Name": 95
+    }, 
+    {
+        "money": 65588, 
+        "potential": 32794, 
+        "foodNum": 26, 
+        "quality": 5, 
+        "Name": 96
+    }, 
+    {
+        "money": 86827, 
+        "potential": 43413, 
+        "foodNum": 27, 
+        "quality": 5, 
+        "Name": 97
+    }, 
+    {
+        "money": 114862, 
+        "potential": 57431, 
+        "foodNum": 28, 
+        "quality": 5, 
+        "Name": 98
+    }, 
+    {
+        "money": 151868, 
+        "potential": 75934, 
+        "foodNum": 29, 
+        "quality": 5, 
+        "Name": 99
+    }, 
+    {
+        "money": 200715, 
+        "potential": 100357, 
+        "foodNum": 30, 
+        "quality": 5, 
+        "Name": 100
+    }
+]

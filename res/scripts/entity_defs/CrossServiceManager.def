@@ -1,0 +1,29 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<requestCrossService>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		UNICODE	</Arg>
+			<Arg>		UNICODE	</Arg>
+		</requestCrossService>
+		<requestReturnServer>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		UNICODE	</Arg>
+			<Arg>		UNICODE	</Arg>
+		</requestReturnServer>
+		<onReturnServerFinished>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		STRING	 	</Arg>
+			<Arg>		UNICODE	</Arg>
+			<Arg>		UNICODE	</Arg>
+		</onReturnServerFinished>
+	</BaseMethods>
+</root>

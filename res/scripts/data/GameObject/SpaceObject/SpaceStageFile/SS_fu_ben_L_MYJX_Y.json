@@ -1,0 +1,126 @@
+{
+    "stages": {
+        "1": {
+            "comment": "沿路消灭作恶的妖魔", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭小妖", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010719|20010718|20010717|20010716", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "清理道路"
+        }, 
+        "3": {
+            "comment": "疯魔拦住去路", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败疯魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010725", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "拦路疯魔"
+        }, 
+        "2": {
+            "comment": "借助弹跳机关跳过断崖，开启石台机关", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "触发机关放下吊桥", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "dq", 
+                    "param2": "40000683", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "通过断崖"
+        }, 
+        "5": {
+            "comment": "将幽鬼玄晶放入法阵之中", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "开启玄晶法阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "fz", 
+                    "param2": "20010741", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开启法阵"
+        }, 
+        "4": {
+            "comment": "此物是开启前方法阵必备之物", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得幽鬼玄晶", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "xj", 
+                    "param2": "40000679", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "幽鬼玄晶"
+        }, 
+        "7": {
+            "comment": "与山巅古河战斗并将其消灭", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "古河", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010731", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败古河"
+        }, 
+        "6": {
+            "comment": "穿过重重阻碍，到达山巅", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到达山巅", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "31228.2 39103.7 24291.21:10", 
+                    "param2": "24300|24280", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "飞升山巅"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "冥域缉凶一"
+}

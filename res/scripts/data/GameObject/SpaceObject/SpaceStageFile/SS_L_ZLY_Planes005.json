@@ -1,0 +1,46 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往狐妖祭坛", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "100926.0 73157.0 4040.0:10", 
+                    "param2": "4540|3540", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(100926.0 73157.0 4040.0)#L_ZLY_Planes005"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败九阳神火兽", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006212", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(108109.99999999999 69230.0 4130.0)#L_ZLY_Planes005"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄火小妖", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006205|20006206", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(101358.0 71444.0 4026.0)#L_ZLY_Planes005"
+                }
+            }, 
+            "title": "讨伐妖兽"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "九阳神火兽"
+}

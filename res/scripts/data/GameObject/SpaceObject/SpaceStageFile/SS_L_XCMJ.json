@@ -1,0 +1,103 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "收集虚空之石", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "add", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "虚空之石"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将虚空之石置于传送法柱上", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "8877", 
+                    "param2": "40000154", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "40000154#L_XCMJ"
+                }
+            }, 
+            "title": "传送法阵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭吞金兽", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007260", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007260#L_XCMJ"
+                }
+            }, 
+            "title": "秘境护法"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败帝枭收集魔君元神残魂", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20007280#L_XCMJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回天魔宫", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-10288.029297 -33950.25781 24085.455078)#L_XCMJ"
+                }
+            }, 
+            "title": "收集残魂"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门进入秘境禁地", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-12584.0 -26804 24059.0:10", 
+                    "param2": "27350|17350", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-15589 -20666.0 23236.0)#L_XCMJ"
+                }
+            }, 
+            "title": "深入秘境"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "星辰秘境"
+}

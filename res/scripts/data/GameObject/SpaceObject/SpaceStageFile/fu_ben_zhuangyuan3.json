@@ -1,0 +1,46 @@
+{
+	"stages":{
+		"1":{
+			"comment":"击杀挡路的妖物",
+			"tasks":{
+				"1":{
+					"title":"击杀裂刃刀卫",
+					"reqVal":5,
+					"param3":"",
+					"param2":"",
+					"param1":"20000926",
+					"type":"SStageTask_killMonster"
+				},
+				"2":{
+					"title":"击杀荒月幻影",
+					"reqVal":8,
+					"param3":"",
+					"param2":"",
+					"param1":"20000927",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"杀敌"
+		},
+		"2":{
+			"comment":"击杀影月",
+			"tasks":{
+				"1":{
+					"title":"击杀荒月之主",
+					"reqVal":1,
+					"param3":"",
+					"param2":"",
+					"param1":"20000928",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"杀BOSS"
+		}
+		
+	},
+	"describe":"荒月庄园第三阶段测试配置",
+	"beginOnSpaceInit":1,
+	"name":"荒月庄园第三阶段"
+}

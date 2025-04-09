@@ -1,0 +1,213 @@
+# -*- coding: utf-8 -*-
+Datas = {
+	0:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(290.13837891,-2.28831055,504.29058594,),'direction':(0.0,0.0,-0.17453313463894318,),'lineNumber':0,'group':1,'delaySpawn':0,
+		'scriptID':'20008905','redivious':-1,
+	},
+	1:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(285.35308593999997,-2.22176025,502.73085937999997,),'direction':(0.0,0.0,4.014257279586958e-07,),'lineNumber':0,'group':1,
+		'delaySpawn':0,'scriptID':'20008873','redivious':-1,
+	},
+	2:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(292.48935547,-1.7406420900000001,499.29324219,),'direction':(0.0,0.0,-0.3490657805856958,),'lineNumber':0,'group':1,'delaySpawn':0,
+		'scriptID':'20008872','redivious':-1,
+	},
+	3:{
+		'properties':{
+			'randomWalkRange':4,
+		},
+		'EntityType':'SpawnPointGroup','position':(258.96384766,17.49877686,342.30359375,),'direction':(0.0,0.0,-0.5235998402491425,),'isDarkEntity':1,'lineNumber':0,'group':3,
+		'delaySpawn':0,'scriptID':'20008881','redivious':-1,
+	},
+	4:{
+		'properties':{
+			'randomWalkRange':4,
+		},
+		'EntityType':'SpawnPointGroup','position':(257.08443359,17.545074460000002,337.2340625,),'direction':(0.0,0.0,-0.6981327654485755,),'isDarkEntity':1,'lineNumber':0,
+		'group':3,'delaySpawn':0,'scriptID':'20008881','redivious':-1,
+	},
+	5:{
+		'properties':{
+			'randomWalkRange':4,
+		},
+		'EntityType':'SpawnPointGroup','position':(252.93113281,17.562595209999998,336.27128905999996,),'direction':(0.0,0.0,-0.34906639145093404,),'isDarkEntity':1,'lineNumber':0,
+		'group':3,'delaySpawn':0,'scriptID':'20008881','redivious':-1,
+	},
+	6:{
+		'properties':{
+			'randomWalkRange':4,
+		},
+		'EntityType':'SpawnPointGroup','position':(250.58443359,17.75553955,340.73402344000004,),'direction':(0.0,0.0,-0.5235998402491425,),'isDarkEntity':1,'lineNumber':0,
+		'group':3,'delaySpawn':0,'scriptID':'20008880','redivious':-1,
+	},
+	7:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(253.90021484000002,17.32906128,344.20839844,),'direction':(0.0,0.0,-0.6981327654485755,),'isDarkEntity':1,'lineNumber':0,
+		'group':3,'delaySpawn':0,'scriptID':'20008880','redivious':-1,
+	},
+	8:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(391.50003906,35.562146,160.49966797,),'direction':(0.0,0.0,0.0,),'lineNumber':0,'group':8,'delaySpawn':0,'scriptID':'20008886',
+		'redivious':-1,
+	},
+	9:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(395.5,30.425659179999997,196.0,),'direction':(0.0,0.0,1.1344640137963142e-06,),'isDarkEntity':1,'lineNumber':0,'group':7,
+		'delaySpawn':0,'scriptID':'20008885','redivious':-1,
+	},
+	10:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(383.5,30.51399414,196.0,),'direction':(0.0,0.0,-0.17453425164966446,),'isDarkEntity':1,'lineNumber':0,'group':7,'delaySpawn':0,
+		'scriptID':'20008885','redivious':-1,
+	},
+	11:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(288.64373047000004,-1.6462451200000001,498.07558594,),'direction':(0.0,0.0,-0.3490657805856958,),'lineNumber':0,'group':1,
+		'delaySpawn':0,'scriptID':'20008872','redivious':-1,
+	},
+	12:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(283.90208984000003,-1.7382251,497.94601563,),'direction':(0.0,0.0,-0.3490657805856958,),'lineNumber':0,'group':1,'delaySpawn':0,
+		'scriptID':'20008872','redivious':-1,
+	},
+	13:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(281.55339843999997,38.98579102,378.99273437999994,),'direction':(0.0,0.0,-1.2217327453240583,),'isDarkEntity':1,'lineNumber':0,
+		'group':99,'delaySpawn':0,'scriptID':'20008875','redivious':-1,
+	},
+	14:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(281.04033203,38.98579102,377.58324219,),'direction':(0.0,0.0,-1.2217327453240583,),'isDarkEntity':1,'lineNumber':0,'group':99,
+		'delaySpawn':0,'scriptID':'20008876','redivious':-1,
+	},
+	15:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(280.99722656,38.97915527,376.00265625,),'direction':(0.0,0.0,-1.2217327453240583,),'isDarkEntity':1,'lineNumber':0,'group':99,
+		'delaySpawn':0,'scriptID':'20008877','redivious':-1,
+	},
+	16:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(281.93689453,37.54337158,375.660625,),'direction':(0.0,0.0,-1.2217327453240583,),'isDarkEntity':1,'lineNumber':0,'group':99,
+		'delaySpawn':0,'scriptID':'20008879','redivious':-1,
+	},
+	17:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(282.62091797,38.52754395,377.54007813,),'direction':(0.0,0.0,-1.2217327453240583,),'isDarkEntity':1,'lineNumber':0,'group':99,
+		'delaySpawn':0,'scriptID':'20008878','redivious':-1,
+	},
+	18:{
+		'properties':{
+			'randomWalkRange':3,'patrolList':1,
+		},
+		'EntityType':'SpawnPointGroup','position':(340.71027344000004,24.13359131,322.5165625,),'direction':(0.0,0.0,-1.2217326056977182,),'isDarkEntity':1,'lineNumber':0,
+		'group':98,'delaySpawn':0,'scriptID':'20008882','redivious':-1,
+	},
+	19:{
+		'properties':{
+			'randomWalkRange':3,'patrolList':1,
+		},
+		'EntityType':'SpawnPointGroup','position':(340.71027344000004,24.08969971,318.5165625,),'direction':(0.0,0.0,-1.2217326056977182,),'isDarkEntity':1,'lineNumber':0,
+		'group':98,'delaySpawn':0,'scriptID':'20008906','redivious':-1,
+	},
+	20:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(343.73597656,24.872810060000003,321.88927734000004,),'direction':(0.0,0.0,-1.396265530897151,),'isDarkEntity':1,'lineNumber':0,
+		'group':98,'delaySpawn':0,'scriptID':'20008883','redivious':-1,
+	},
+	21:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(343.73597656,24.85773193,319.88927734000004,),'direction':(0.0,0.0,-1.396265530897151,),'isDarkEntity':1,'lineNumber':0,
+		'group':98,'delaySpawn':0,'scriptID':'20008883','redivious':-1,
+	},
+	22:{
+		'properties':{
+			'randomWalkRange':3,
+		},
+		'EntityType':'SpawnPointGroup','position':(342.73597656,24.70452393,317.38927734000004,),'direction':(0.0,0.0,-1.396265530897151,),'isDarkEntity':1,'lineNumber':0,
+		'group':98,'delaySpawn':0,'scriptID':'20008883','redivious':-1,
+	},
+	23:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointGroup','position':(368.5,30.30985107,175.5,),'direction':(0.0,0.0,0.0,),'isDarkEntity':1,'lineNumber':0,'group':9,'delaySpawn':0,'scriptID':'30000637',
+	},
+	24:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointNormal','position':(385.0,30.309841310000003,265.5,),'direction':(0.0,0.0,-1.5707984560965842,),'lineNumber':0,'delaySpawn':0,'scriptID':'20008874',
+		'redivious':-1,
+	},
+	25:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointNormal','position':(385.0,30.309841310000003,269.0,),'direction':(0.0,0.0,-1.5707984560965842,),'lineNumber':0,'delaySpawn':0,'scriptID':'20008874',
+		'redivious':-1,
+	},
+	26:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointNormal','position':(385.0,30.309841310000003,272.5,),'direction':(0.0,0.0,-1.5707984560965842,),'lineNumber':0,'delaySpawn':0,'scriptID':'20008874',
+		'redivious':-1,
+	},
+	27:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointNormal','position':(370.28449219000004,30.30984619,273.39367188,),'direction':(0.0,0.0,1.3962657926965387,),'lineNumber':0,'delaySpawn':0,
+		'scriptID':'20008874','redivious':-1,
+	},
+	28:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointNormal','position':(370.39226562999994,30.31463135,269.94677734,),'direction':(0.0,0.0,1.3962657926965387,),'lineNumber':0,'delaySpawn':0,
+		'scriptID':'20008874','redivious':-1,
+	},
+	29:{
+		'properties':{
+			
+		},
+		'EntityType':'SpawnPointNormal','position':(370.5,30.30984619,266.5,),'direction':(0.0,0.0,1.3962657926965387,),'lineNumber':0,'delaySpawn':0,'scriptID':'20008874','redivious':-1,
+	},
+	
+}
+

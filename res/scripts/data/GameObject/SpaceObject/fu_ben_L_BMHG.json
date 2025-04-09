@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "北冥寒宫",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_BMHG",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_BMHG",
+"NavmeshPath"	: "space\\L_BMHG_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 60,
+	"spaceIntroduce":{"voiceID":"C000663"},
+	"enterPosition":"-26997 -16303 690",
+	"enterDirection":"0 0 0",
+	"stageFile":"",
+	"eventFile":"",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

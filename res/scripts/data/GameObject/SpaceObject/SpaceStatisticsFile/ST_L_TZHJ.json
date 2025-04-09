@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "跳跃浮台，利用法宝击杀所有怪物", 
+            "entrys": {
+                "1": {
+                    "title": "已击杀天魔", 
+                    "postfix": "/3 只", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012426|20012427|20012428|20012429|20012430", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_killMonster"
+                }
+            }, 
+            "questID": 0, 
+            "title": "消灭幻境天魔"
+        }
+    }, 
+    "name": "玄宝秘境"
+}

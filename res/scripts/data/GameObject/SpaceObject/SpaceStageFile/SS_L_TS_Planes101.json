@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玉虚宫仙兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008887|20008888|20008907", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008887|20008888|20008907#L_TS_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玉虚宫仙卫", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008889|20008890", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-3454.704590 -24812.519531 2539.182373)#L_TS_Planes101"
+                }
+            }, 
+            "title": "闯上汤山"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玉虚宫暗卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008926|20008927|20008928", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8143.343750 938.728760 6392.772461)#L_TS_Planes101"
+                }
+            }, 
+            "title": "拦路仙兵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败月华天将", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008898", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008898#L_TS_Planes101"
+                }
+            }, 
+            "title": "再遇天将"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败夸父", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008899", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008899#L_TS_Planes101"
+                }
+            }, 
+            "title": "阻止夸父"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "汤山之战"
+}

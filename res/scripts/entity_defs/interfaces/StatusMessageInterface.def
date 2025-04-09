@@ -1,0 +1,101 @@
+<root>
+	<Properties>
+		<_replyCellDict>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</_replyCellDict>
+		<_replyBaseDict>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		BASE		</Flags>
+		</_replyBaseDict>
+		<cellKey>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</cellKey>
+		<baseKey>
+			<Type>		INT32		</Type>
+			<Flags>		BASE		</Flags>
+		</baseKey>
+	</Properties>
+
+	<ClientMethods>
+		<!--发送错误提示消息-->
+		<statusMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</statusMessage>
+		<!--关闭消息-->
+		<HideStatusMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+		</HideStatusMessage>
+		<!--发送客户端服务器交互消息-->
+		<inquireMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+			<Arg>	INT32	</Arg> <!-- 参数 -->
+			<Arg>	STRING	</Arg> <!-- 参数 -->
+		</inquireMessage>
+		<!--发送倒计时持续时间-->
+		<ShowCountDown>
+			<Arg>	INT32	</Arg> <!-- 倒计时持续时间 -->
+		</ShowCountDown>
+		<ShowExtraTime>
+			<Arg>	INT32	</Arg> <!-- 加时显示的时间 -->
+		</ShowExtraTime>
+		<!--通知客户端显示副本背景介绍-->
+		<ShowSpaceCopyIntroduction>
+			<Arg>	INT32	</Arg> <!-- 副本描述显示时间-->
+			<Arg>	UNICODE		</Arg>	<!-- 副本串名 -->
+			<Arg>	UNICODE		</Arg>	<!-- 副本名 -->
+			<Arg>	UNICODE		</Arg>	<!-- 副本背景介绍-->
+		</ShowSpaceCopyIntroduction>
+	</ClientMethods>
+
+	<BaseMethods>
+		<statusMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</statusMessage>
+		<hideStatusMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+		</hideStatusMessage>
+		<inquireMessage>
+			<Arg>	UINT16		</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+		</inquireMessage>
+		<!--发送客户端回应消息-->
+		<replyMessage>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</replyMessage>
+	</BaseMethods>
+
+	<CellMethods>
+		<statusMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</statusMessage>
+		<statusMessageAllClients>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</statusMessageAllClients>
+		<hideStatusMessage>
+			<Arg>	INT32	</Arg> <!-- 消息ID -->
+		</hideStatusMessage>
+		<inquireMessage>
+			<Arg>	UINT16		</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+		</inquireMessage>
+		<!--发送客户端回应消息-->
+		<replyMessage>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</replyMessage>
+	</CellMethods>
+</root>

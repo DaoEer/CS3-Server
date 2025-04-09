@@ -1,0 +1,28 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Parent>
+		NPC
+	</Parent>
+	<Interfaces>
+		<Interface>	NPCAmbulantInterface		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<moveCount>
+			<Type>	INT8		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</moveCount>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

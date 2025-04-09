@@ -1,0 +1,25 @@
+<root>
+	<Interfaces>
+		<Interface> 	GameObject	</Interface>
+	</Interfaces>
+	<Properties>
+		<scriptID>
+			<Type>			SCRIPT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</scriptID>
+		<modelNumber>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</modelNumber>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

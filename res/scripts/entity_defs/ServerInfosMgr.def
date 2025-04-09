@@ -1,0 +1,26 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<registerReadySysEntity>
+			<Arg>	UNICODE	</Arg>
+		</registerReadySysEntity>
+		
+		<recvServerInfo>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	PY_LIST	</Arg>
+			<Arg>	PY_LIST	</Arg>
+			<Arg>	PY_LIST	</Arg>
+		</recvServerInfo>
+	</BaseMethods>
+</root>

@@ -1,0 +1,74 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败潮汐海妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012032|20012033|20012034|20012035|20012036", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-163 -14310 499)#L_LXD_Planes001"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "闯入腹地", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "-3663.366211 9730.792969 549.491943:20", 
+                    "param2": "1200|100", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-3663.366211 9730.792969 549.491943)#L_LXD_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败控潮海妖", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000382|20000383", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-2013 -466 458)#L_LXD_Planes001"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败潮汐护法", 
+                    "reqVal": 1, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000391", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000391#L_LXD_Planes001"
+                }
+            }, 
+            "title": "穿险路逼出敖汐"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "降服敖汐", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(3943.0 14935.0 512.0)#L_LXD_Planes001"
+                }
+            }, 
+            "title": "战敖汐逼问踪迹"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "龙汐岛"
+}

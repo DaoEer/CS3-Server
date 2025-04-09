@@ -1,0 +1,25 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_KYX_mo",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_KYX_mo",
+"NavmeshPath"	: "space\\L_KYX_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 500.0,
+"TabDistance"	:80,
+"ExitSpace"	:{
+	"ScriptID"	: "L_XYM",
+	"Position"	: "52020.0 -12280.0 15965.2",
+	"Direction"	: "0 0 92"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_KYX_mo",
+	"eventFile":"SE_L_KYX_mo"
+	},
+"DomainData"	:{
+	}
+}

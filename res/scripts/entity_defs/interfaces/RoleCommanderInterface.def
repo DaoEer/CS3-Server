@@ -1,0 +1,66 @@
+<root>
+	<Properties>
+		<armsData>
+			<Type>				PYTHON_DICT		</Type>
+			<Flags>				CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</armsData>
+		<controlledData>
+			<Type>		DICT_STR_INT_LIST		</Type>
+			<Flags>		CELL_PRIVATE 	</Flags>
+			<Persistent> 	false 	</Persistent>
+		</controlledData>
+	</Properties>
+
+	<ClientMethods>
+		<RoleCmdOnControlled>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</RoleCmdOnControlled>
+		<RoleCmdUseSkillToPosition>
+			<Arg>	INT32		</Arg>
+			<Arg>	POSITION	</Arg>
+		</RoleCmdUseSkillToPosition>
+		<RoleCmdUseSkillToEntity>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</RoleCmdUseSkillToEntity>
+		<RoleCmdUseSkillToSelf>
+			<Arg>	INT32		</Arg>
+		</RoleCmdUseSkillToSelf>
+		<RoleDestroyArms/>
+		<InitRoleCmdArmsScriptID>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</InitRoleCmdArmsScriptID>
+		<ShowRoleCmdUI>
+			<Arg>	BOOL		</Arg>
+		</ShowRoleCmdUI>
+		<RoleRemoveSoldier>
+			<Arg>	INT32		</Arg>
+		</RoleRemoveSoldier>
+		<RoleCmdClimb/>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	    <roleCmdOnControlled>
+	    	<Arg>	STRING	</Arg>
+	    	<Arg>	INT32	</Arg>
+	    </roleCmdOnControlled>
+	    <roleCmdUseSkillToPosition>
+	    	<Arg>	INT32		</Arg>
+	    	<Arg>	POSITION	</Arg>
+	    </roleCmdUseSkillToPosition>
+	    <roleCmdUseSkillToEntity>
+	    	<Arg>	INT32	</Arg>
+	    	<Arg>	INT32	</Arg>
+	    </roleCmdUseSkillToEntity>
+	    <roleCmdUseSkillToSelf>
+	    	<Arg>	INT32	</Arg>
+	    </roleCmdUseSkillToSelf>
+	</CellMethods>
+</root>

@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败拦路守卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011381", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-184503.0 42482.0 11452.0)#L_WSS_Planes005"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败五庄观弟子", 
+                    "reqVal": 2, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002195", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-192042.0 36029.0 12189.0)#L_WSS_Planes005"
+                }
+            }, 
+            "title": "深入禁地"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "走出八卦幻阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "破解幻阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "后山禁地"
+}

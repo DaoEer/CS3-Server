@@ -1,0 +1,135 @@
+{
+    "20101623": {
+        "tasks": [
+            {
+                "navigateData": "30000078#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "取得吞天珠"
+            }, 
+            {
+                "navigateData": "20002708|20002709|20002710|20002711#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002708|20002709|20002710|20002711", 
+                "id": 2, 
+                "name": "消灭拦路的天极守卫"
+            }, 
+            {
+                "navigateData": "20002712|20002713|20002714|20002715#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002712|20002713|20002714|20002715", 
+                "id": 3, 
+                "name": "消灭拦路的天极卫士"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101623, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010041"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101622"
+            }, 
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "99"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010041"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1987", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "590", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "959", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "375", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020566|Q020567|Q020569", 
+        "finish_by": "10000280#L_FMNL", 
+        "taskLogDes": "@S{4}饕餮体内的@F{fc=c41}吞天珠@D被仙道天极神君夺走，无法施展神通找寻魔君秘宝，请你前往凤鸣南麓的天极道场击败天极神君，夺回@F{fc=c41}吞天珠@D。|@S{4}饕餮体内的@F{fc=c41}吞天珠@D被仙道天极神君夺走，无法施展神通找寻魔君秘宝，请你前往凤鸣南麓的天极道场击败天极神君，夺回@F{fc=c41}吞天珠@D。|@S{4}饕餮体内的@F{fc=c41}吞天珠@D被仙道天极神君夺走，无法施展神通找寻魔君秘宝，请你前往凤鸣南麓的天极道场击败天极神君，夺回@F{fc=c41}吞天珠@D。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020585", 
+        "nextQuest": "20101624", 
+        "taskCompleteFunctions": {}, 
+        "level": 12, 
+        "title": "（废弃）吞天珠", 
+        "isAutoCommit": 1, 
+        "start_by": "10000279#L_FMNL", 
+        "isAutoAccept": 1
+    }
+}

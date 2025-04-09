@@ -1,0 +1,108 @@
+{
+    "stages": {
+        "1": {
+            "comment": "消灭拦路的仙道弟子", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭上坡处玉虚宫弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003898|20003899", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003898|20003899#L_FLS_Planes105"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭山顶处玉虚宫弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003902|20003903", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003902|20003903#L_FLS_Planes105"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭山腰处玉虚宫弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003900|20003901", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003900|20003901#L_FLS_Planes105"
+                }
+            }, 
+            "title": "往上侦查"
+        }, 
+        "3": {
+            "comment": "小心伏击的仙道弟子", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭突袭的玉虚宫弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003905|20003906|20003907|20003908|20003909|20003910", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003905|20003906|20003907|20003908|20003909|20003910#L_FLS_Planes105"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路的玉虚宫弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003911|20003912", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003911|20003912#L_FLS_Planes105"
+                }
+            }, 
+            "title": "继续前进"
+        }, 
+        "2": {
+            "comment": "消灭挡道的仙道精英", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭凌罡", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003904", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003904#L_FLS_Planes105"
+                }
+            }, 
+            "title": "突破阻碍"
+        }, 
+        "4": {
+            "comment": "消灭玉虚宫长老", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭风玄", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3", 
+                    "param2": "20003913", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20003913#L_FLS_Planes105"
+                }
+            }, 
+            "title": "决战山之巅"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "飞溅崖"
+}

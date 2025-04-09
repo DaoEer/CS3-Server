@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "陨龙岛",
+"EntityType"	: "SpaceCopyHQLZ",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "cycle_L_HQLZ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_HQLZ",
+"NavmeshPath"	: "space\\L_LZMD_NAVMESH",
+"PatrolRouteFile": "P_L_HQLZ",
+"belongType"	: "1",
+"SpaceAoi"	: 100.0,
+"SpaceHoldEffect"	:"101010106",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMNL",
+	"Position"	: "7694.0 -32677.0 -16664.0",
+	"Direction"	: ".0 0.0 91.1"
+	},
+"SpaceData"	:{
+	"enterPosition":"-310960.000000 89620.000000 3410.942383",
+	"enterDirection":"0 0 -55",
+	"statisticsFile":"ST_L_HQLZ",
+	"eventFile":"SE_L_HQLZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0,
+	"monsterUseSpaceLevel":1,
+	"logoutCloseTime":1
+		},
+"DomainData"	:{
+	}
+}

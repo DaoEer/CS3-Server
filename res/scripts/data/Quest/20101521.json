@@ -1,0 +1,133 @@
+{
+    "20101521": {
+        "tasks": [
+            {
+                "navigateData": "20000100|20000101|20000768|20000769|20000772|20000773|20000780|20000781#L_JSC", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000100|20000101|20000768|20000769|20000772|20000773|20000780|20000781", 
+                "id": 1, 
+                "name": "消灭蓬莱阁弟子"
+            }, 
+            {
+                "navigateData": "30000000#L_JSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "救援玄冥子"
+            }, 
+            {
+                "navigateData": "(-64923 -7529 12861)#L_JSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "8", 
+                "param2": "-64923 -7529 12861", 
+                "param1": "L_JSC", 
+                "id": 3, 
+                "name": "查探太虚洞天"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3005"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101521, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "4"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101518"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "620", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "317", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "159", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "130", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102080013", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q010722|Q010723|Q010724", 
+        "finish_by": "10000043#L_JSC", 
+        "taskLogDes": "@S{4}师尊派你前往下界的太虚洞天进行试炼。|@S{4}太虚洞天有仙道入侵，你快去帮忙，消灭仙道势力。|@S{4}太虚洞天有仙道入侵，你快去帮忙，消灭仙道势力。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q010737|Q010738", 
+        "nextQuest": "20101504", 
+        "taskCompleteFunctions": {}, 
+        "level": 3, 
+        "title": "下界试炼", 
+        "isAutoCommit": 1, 
+        "start_by": "10000029", 
+        "isAutoAccept": 1
+    }
+}

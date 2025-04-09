@@ -1,0 +1,29 @@
+﻿{
+"SpaceName"		: "副本测试地图",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"		: "fu_ben_bigmap",
+"spaceType"		: "SPACE_TYPE_COPY",
+"SpawnFile"		: "",
+"NavmeshPath"	: "space\\BIGMAP_1_NAVIMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"		: 200.0,
+"belongType"	: "0",
+"RoleRelationRule": "",
+"ExitSpace"	:{
+	"ScriptID"	: "bigmap_1",
+	"Position"	: "25473 -61183 -1297",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 45,
+	"spaceIntroduce":{"voiceID":"C000241"},
+	"stageFile"		:"",
+	"enterPosition"	:"26473 -60183 -1297",
+	"enterDirection":"",
+	"eventFile"		:"SE_L_BIGMAP"
+	},
+"DomainData"	:{
+	}
+}

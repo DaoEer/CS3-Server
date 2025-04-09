@@ -1,0 +1,605 @@
+<root>
+	<Interfaces>
+		<Interface>	HasCellOjbect		</Interface>
+		<Interface> StatusMessageInterface</Interface>
+		<Interface>	RoleSpaceInterface	</Interface>
+		<Interface>	RoleChatInterface	</Interface>
+		<Interface>	RoleTalkInterface	</Interface>
+		<Interface>	RoleKitBagInterface	</Interface>
+		<Interface>	RoleModelInterface	</Interface>
+		<Interface>	RoleRelationInterface	</Interface>
+		<Interface>	RoleTeamInterface	</Interface>
+		<Interface>	RoleQuestInterface	</Interface>
+		<Interface>	RoleCombatInterface	</Interface>
+		<Interface>	RoleUpgradeInterface	</Interface>
+		<Interface>	EntitySpaceEventInterface</Interface>
+		<Interface>	RoleEquipInterface	</Interface>
+		<Interface>	RoleReviveInterface	</Interface>
+		<Interface>	RoleSpaceStageInterface	</Interface>
+		<Interface>	RoleBuyNPCShopInterface	</Interface>
+		<Interface>	RoleCrondInterface	</Interface>
+		<Interface>	RoleActRecordInterface	</Interface>
+		<Interface>	RoleActivityInterface	</Interface>
+		<Interface>	QuickBarInterface	</Interface>
+		<Interface>	RolePerformanceInterface</Interface>
+		<Interface>	RoleTradeInterface	</Interface>
+		<Interface>	RoleStoryInterface	</Interface>
+		<Interface>	GMTestInterface		</Interface>
+		<Interface> 	RoleStallInterface 	</Interface>
+		<Interface> 	RoleMemoirInterface 	</Interface>
+		<Interface>	RoleShopMallInterface	</Interface>
+		<Interface>	RoleFacadeBagInterface	</Interface>
+		<Interface> 	RoleLingShiTradeInterface</Interface>   
+		<Interface> 	RolePetInterface	 </Interface>
+		<Interface> 	RoleCallEntityInterface </Interface>
+		<Interface> RoleAmbulantInterface </Interface>
+		<Interface> RoleTitleInterface </Interface>
+		<Interface> RoleMilitaryRankInterface </Interface>
+		<Interface> 	RoleSpaceSettlementInterface	</Interface>
+		<Interface> TradeInterface </Interface>
+		<Interface> RoleTeleportInterface </Interface>
+		<Interface> RoleTutorialInterface </Interface>
+		<Interface> RoleAutoFightInterface </Interface>
+		<Interface> RoleTongInterface </Interface>
+		<Interface>	RoleDropBoxInterface </Interface>
+		<Interface>	RoleSpaceStrategyInterface </Interface>
+		<!--Interface>	AntiWallow			</Interface-->
+		<Interface>	RoleSpaceContentInterface			</Interface>
+		<Interface>	RoleMailInterface			</Interface>
+		<Interface>	RoleQTEInterface			</Interface>
+		<Interface>	RoleRankInterface			</Interface>
+		<Interface>	RoleGiftInterface			</Interface>
+		<Interface> RoleCompeteInterface 		</Interface>
+		<Interface> RoleCampInterface 			</Interface>
+		<Interface> GMToolsInterface		</Interface>
+		<Interface> PresentChargeUnite		</Interface>
+		<Interface> RolePointCardInterface	</Interface>
+		<Interface> SystemSwitchInterface	</Interface>
+		<Interface> RoleShenTongInterface	</Interface>
+		<Interface> RoleStoreInterface		</Interface>
+		<Interface>RoleSpellBoxDropItemInterface</Interface>
+		<Interface> RoleCommanderInterface </Interface>
+		<Interface>	RoleLunHuiMiJinInterface	</Interface>
+		<Interface>	RoleBarracksInterface	</Interface>
+		<Interface>	RoleWorkShopInterface	</Interface>
+		<Interface>	RoleTrainSoldierGroundInterface	</Interface>
+		<Interface>	RoleCrossServiceInterface	</Interface>
+		<Interface>	RoleLBCTaskInterface	</Interface>
+		<Interface> RoleFixedUpdateInterface </Interface>
+		<Interface> RoleGameTimeInterface </Interface>
+		<Interface> RoleChuanChengInterface	</Interface>
+		<Interface> RoleLbcInterface	</Interface>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+		<optimized>1 </optimized>
+	</Volatile>
+
+	<Properties>
+		<playerName>
+			<Type>			UNICODE		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Persistent>		true		</Persistent>
+			<DatabaseLength>	255		</DatabaseLength>
+			<Index> 		UNIQUE		</Index>
+		</playerName>
+		<playerDBID>
+			<Type>		DBID		</Type>
+			<Flags>		OWN_CLIENT	</Flags>
+			<Default>	0			</Default>
+		<Persistent>	false			</Persistent>
+		</playerDBID>
+		<loginTime>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	false			</Persistent>
+		</loginTime>
+		<lastLoginTime>
+			<Type>		SERVER_TIME			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	true			</Persistent>
+		</lastLoginTime>
+		<accountEntity>		<!-- 记录它的帐号entity,用于shutdown的时候通知或把控制权转交 -->
+			<Type>		ENTITYCALL			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</accountEntity>
+		<accountDBID> 		<!-- 角色账号DBID -->
+			<Type>		DBID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</accountDBID>
+		<parentDBID>
+			<Type>		DBID			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</parentDBID>
+		<isFirstRole>
+			<Type>		BOOL				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</isFirstRole>
+		<roleState>		<!-- 角色的状态 目前只有删除状态 0 正常 1 删除 -->
+			<Type>		UINT8			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</roleState>
+		<createTime>  	<!-- 角色的创建时间 -->
+			<Type>		UINT64			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</createTime>
+		<deleteTime>  	<!-- 角色的删除时间 -->
+			<Type>		UINT64			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</deleteTime>
+		<unFreezeTime>  	<!-- 角色冻结到期时间 -->
+			<Type>		UINT64			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</unFreezeTime>
+		<offlineTime>	<!-- 角色的下线时间 -->
+			<Type>		UINT64			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</offlineTime>
+		<gender>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</gender>
+		<camp>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</camp>
+		<tempCamp>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0		</Default>
+			<Persistent>		false		</Persistent>
+		</tempCamp>
+		<money>
+			<Type>		INT64			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</money>
+		<bindMoney>
+		    <Type>		INT64			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</bindMoney>
+ 		<grade>		<!-- 角色的权限 -->
+  			<Type>		INT8			</Type>
+  			<Flags>		CELL_PUBLIC_AND_OWN		</Flags>
+  			<Default>	30			</Default>
+ 			<Persistent>	true			</Persistent>
+ 		</grade>
+		<feats>		<!-- 功勋 -->
+			<Type>		INT32			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</feats>
+
+		<featsRecord>	<!--功勋记录-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</featsRecord>
+
+		<exploitRecord> <!--军功记录-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</exploitRecord>
+
+		<isShowedFeatRecord>	<!-- 功勋记录已经显示过第一次消息了-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</isShowedFeatRecord>
+
+		<isShowedExploitRecord>   <!-- 军功记录已经显示过第一次消息了-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</isShowedExploitRecord>
+
+		<potential>		<!-- 学习技能的潜能点 -->
+			<Type>		INT32			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</potential>
+		<rewardRecord>
+			<!-- 伪随机奖励抽取记录-->
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true		</Persistent>
+		</rewardRecord>
+		<roleAttrCorrectCoeffis>
+		    <!-- 玩家属性修正系数-->
+		    <Type>		ARRAY_INT32	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	[]		</Default>
+		</roleAttrCorrectCoeffis>
+		<isClientReady>
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</isClientReady>
+		<startFallingHeight>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	false			</Persistent>
+		</startFallingHeight>
+		<onWaterArea>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</onWaterArea>
+		<initActionId>
+			<Type>			STRING				</Type>
+			<Flags>		ALL_CLIENTS				</Flags>
+		</initActionId>
+		<actionNumber>
+			<!-- 动作表ID,目前该属性存的是模型ID -->
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</actionNumber>
+		<lifetime>
+			<!-- 玩家在线总时间-->
+			<Type>			INT32			</Type>
+			<Flags>			BASE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</lifetime>
+		<CollisionType>		<!-- 碰撞类型 -->
+			<Type>		UINT8			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</CollisionType>
+		<materialAreaSpaceScriptID>
+			<Type>		SCRIPT_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true		</Persistent>
+			<DatabaseLength>255		</DatabaseLength>
+		</materialAreaSpaceScriptID>
+		<modelNumber>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>			true			</Persistent>
+		</modelNumber>
+		<skillPosture>		<!-- 心法状态 -->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</skillPosture>
+		<skillPostureLevel>		<!-- 心法等级 --> 
+			<Type>		INT32				</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Default>	1					</Default>
+			<Persistent>	true			</Persistent>
+		</skillPostureLevel>
+		<roleMoveType>		<!-- 玩家移动类型 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</roleMoveType>
+		<fastLoginMacAddr>
+			<!-- 首次登录mac -->
+			<Type>		STRING		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</fastLoginMacAddr>
+		<currLoginMacAddr>
+			<!-- 本次登录mac -->
+			<Type>		STRING		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	false			</Persistent>
+		</currLoginMacAddr>
+		<recordTime>
+			<!-- 数据记录时间，即数据保存到数据库的时间 -->
+			<Type>		SERVER_TIME		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</recordTime>
+		<fastLoginTime>
+			<!-- 首次登录时间 -->
+			<Type>		SERVER_TIME		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</fastLoginTime>
+	</Properties>
+
+	<ClientMethods>
+ 	   	<StartPlayStory>
+    		<Arg>		STRING		</Arg>
+    		<Arg>		INT32	 	</Arg>
+   		</StartPlayStory>
+   		<StopStory>
+   		</StopStory>
+   		<PlayRandomAction>
+   			<Arg>		INT32	 	</Arg>
+   		</PlayRandomAction>
+		<ReTriggerNearTrap>
+   			<Arg>		FLOAT	 	</Arg>
+		</ReTriggerNearTrap>
+		<OnMountTalisman>		<!-- 骑上法宝 -->
+			<Arg>		FLOAT		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		FLOAT	 	</Arg>
+		</OnMountTalisman>
+		<OnDismountTalisman>	<!-- 结束骑法宝 -->
+		</OnDismountTalisman>
+		<OnSetBlendDir>
+   			<Arg>		INT32	 	</Arg>
+   		</OnSetBlendDir>	
+   		<OnPlayerCameraRotation>	<!-- 旋转摄像机朝向-->
+   			<Arg>		FLOAT	 	</Arg>
+   		</OnPlayerCameraRotation>
+  		<OnSetClientTime>
+			<Arg>		STRING			</Arg>
+			<Arg>		INT32		 	</Arg>
+   		</OnSetClientTime>
+		<OnStartRoleAutoMove>		<!-- 玩家自动向前移动 -->
+			<Arg>		FLOAT	 	</Arg>
+		</OnStartRoleAutoMove>
+		<OnDisRoleAutoMove>	<!-- 结束玩家自动向前移动 -->
+		</OnDisRoleAutoMove>
+		<OnUpdateMoveType>
+   			<Arg>		INT32	 	</Arg>
+   		</OnUpdateMoveType>
+   	   	<OnPlayVideo>
+    	  <Arg>		STRING		</Arg>
+   		</OnPlayVideo>
+		<OnSetJumpData>
+			<Arg>		INT32				</Arg>
+   			<Arg>		FLOAT	 	</Arg>
+			<Arg>		FLOAT	 	</Arg>
+   			<Arg>		FLOAT	 	</Arg>
+			<Arg>		FLOAT	 	</Arg>
+   		</OnSetJumpData>
+   		<CLIENT_BreakFalling/>
+		<CLIENT_StartConstantFall>
+		</CLIENT_StartConstantFall>
+		<CLIENT_EndConstantFall>
+		</CLIENT_EndConstantFall>
+		<FirstEnterGameNotify>
+		</FirstEnterGameNotify>
+		<OnNetworkTest/>
+		<OnDodgeRotation/>
+		<OnSetPlayerAddGravityScale>
+		   	<Arg>		FLOAT	 	</Arg>
+			<Arg>		FLOAT	 	</Arg>
+		</OnSetPlayerAddGravityScale>
+		<CLIENT_OnSetAimOffsetBlend>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</CLIENT_OnSetAimOffsetBlend>
+		<CLIENT_OnRepYCJMDCopyState>
+			<Arg>		UINT8		</Arg>
+		</CLIENT_OnRepYCJMDCopyState>
+		<CLIENT_OnRepYCJMDAimOffsetState>
+			<Arg>		UINT8		</Arg>
+		</CLIENT_OnRepYCJMDAimOffsetState>
+		<SetWeapontYCJMD>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</SetWeapontYCJMD>
+	</ClientMethods>
+
+	<BaseMethods>
+		<logoff>
+			<Exposed/>
+		</logoff>
+		<logout>
+			<Exposed/>
+		</logout>
+		<initClientData>
+		</initClientData>
+ 		<onFirstCreateRoleCB>
+		</onFirstCreateRoleCB>
+		<gm_onSendMsg>
+			<Arg>		STRING	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</gm_onSendMsg>
+		<kickAction>
+			<Arg>	ENTITYCALL		</Arg>
+		</kickAction>
+		<onLevelUp>
+			<Arg>		INT32	 	</Arg>
+		</onLevelUp>
+		<showBaseAppAllRole/>
+		<destroyRole/>
+		<setAccountVIP>
+			<Arg>		INT32	 	</Arg>
+		</setAccountVIP>
+		<networkTest>
+			<Exposed/>
+		</networkTest>
+		<freezeRole>
+			<Arg>		UINT64	 	</Arg>
+		</freezeRole>
+		<onRoleSkillUpgrade>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</onRoleSkillUpgrade>
+	</BaseMethods>
+
+	<CellMethods>
+		<SetBlendDir>
+			<Exposed/>
+   			<Arg>		INT32	 	</Arg>
+   		</SetBlendDir>
+		<loadSpaceCompleted>
+			<Exposed/>
+			<Arg>		INT8	 	</Arg>
+		</loadSpaceCompleted>
+
+		<addPotential>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		UINT8	 	</Arg>
+		</addPotential>
+		<subPotential>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		UINT8	 	</Arg>
+		</subPotential>
+		<addFeats>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		UINT8	 	</Arg>
+		</addFeats>
+		<subFeats>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		UINT8	 	</Arg>
+			<Arg>		STRING		</Arg>
+		</subFeats>
+		<onClientGetCell>
+		</onClientGetCell>
+		
+ 		<initRoleInfo>
+ 			<Arg>		UINT8	 	</Arg>
+		</initRoleInfo>
+
+		<onClientSetAoi>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</onClientSetAoi>
+		<onClientResetAoi>
+			<Exposed/>
+		</onClientResetAoi>
+
+		<onPlayerUnderArea>
+			<Exposed/>
+		</onPlayerUnderArea>
+		
+		<startFalling>
+			<Exposed/>
+		</startFalling>
+		<endFalling>
+			<Exposed/>
+		</endFalling>
+		<LandEndFalling>
+			<Exposed/>
+			<Arg>		FLOAT	 	</Arg>
+		</LandEndFalling>
+		<enterWaterArea>
+			<Exposed/>
+		</enterWaterArea>
+		<leaveWaterArea>
+			<Exposed/>
+		</leaveWaterArea>
+		<enterMaterialArea>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</enterMaterialArea>
+		<leaveMaterialArea>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</leaveMaterialArea>
+		<gm_getPlayerPositionInfo>
+ 			<Arg>		INT32	 	</Arg>
+		</gm_getPlayerPositionInfo>
+		<gm_getPlayerEquipInfo>
+ 			<Arg>		INT32	 	</Arg>
+		</gm_getPlayerEquipInfo>
+		<gm_getPlayerMoneyInfo>
+ 			<Arg>		INT32	 	</Arg>
+		</gm_getPlayerMoneyInfo>
+		<gm_getPlayerAttributeInfo>
+ 			<Arg>		INT32	 	</Arg>
+		</gm_getPlayerAttributeInfo>
+		<gm_getPlayGagInfo>
+ 			<Arg>		INT32	 	</Arg>
+		</gm_getPlayGagInfo>
+		<gm_gagForPlayer>
+ 			<Arg>		ARRAY_INT32	</Arg>
+ 			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE	</Arg>
+			<Arg>		UNICODE	</Arg>
+			<Arg>		UNICODE	</Arg>
+ 			<Arg>		INT32		</Arg>
+		</gm_gagForPlayer>
+		<gm_unLockGagForPlayer>
+ 			<Arg>		ARRAY_INT32	</Arg>
+			<Arg>		UNICODE	</Arg>
+			<Arg>		UNICODE	</Arg>
+			<Arg>		UNICODE	</Arg>
+ 			<Arg>		INT32	 	</Arg>
+		</gm_unLockGagForPlayer>
+		<gm_getPlayerLineNumber>
+ 			<Arg>		INT32		</Arg>
+		</gm_getPlayerLineNumber>
+		<RequestPlayRandomAction>
+			<Exposed/>
+		</RequestPlayRandomAction>
+		<onLandMovingPlatform>
+			<Exposed/>
+			<Arg>		OBJECT_ID	 	</Arg>
+		</onLandMovingPlatform>
+		<onDeviateMovingPlatform>
+			<Exposed/>
+		</onDeviateMovingPlatform>
+		<setPositionFromClient>
+			<Exposed/>
+			<Arg>		POSITION	 	</Arg>
+		</setPositionFromClient>
+		<verifyClientTime>
+			<Exposed/>
+ 			<Arg>		INT32	 		</Arg>
+		</verifyClientTime>
+		<updateMoveType>
+			<Exposed/>
+   			<Arg>		INT32	 	</Arg>
+   		</updateMoveType>
+   		<breakFalling/>
+		
+		<syncEntityPos>
+			<Exposed/>
+   			<Arg>	POSITION_DATA_LIST	 </Arg>
+			<Arg>	POSITION_DATA_LIST	 </Arg>
+   		</syncEntityPos>
+		<SetAimOffsetBlendData>
+			<Exposed/>
+		   	<Arg>		FLOAT	 	</Arg>
+			<Arg>		FLOAT	 	</Arg>
+		</SetAimOffsetBlendData>
+		<RequestChangeYCJMDCopyState>
+			<Exposed/>
+			<Arg>		UINT8	 	</Arg>
+		</RequestChangeYCJMDCopyState>
+		<RequestYCJMDAimOffsetState>
+			<Exposed/>
+			<Arg>		UINT8	 	</Arg>
+		</RequestYCJMDAimOffsetState>
+	</CellMethods>
+</root>

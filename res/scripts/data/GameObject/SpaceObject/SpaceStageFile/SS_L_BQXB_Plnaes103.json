@@ -1,0 +1,25 @@
+{
+	"stages":{
+		"1":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"isShowByProgressbar":0,
+					"title":"协助夕云击杀恶灵",
+					"reqVal":1,
+					"param3":"",
+					"param2":"",
+					"param1":"20005448|20005449|20005450",
+					"type":"SStageTask_killMonster",
+					"navigateData":""
+				}
+				
+			},
+			"title":"救下夕云"
+		}
+		
+	},
+	"describe":"",
+	"beginOnSpaceInit":1,
+	"name":"找到夕云"
+}

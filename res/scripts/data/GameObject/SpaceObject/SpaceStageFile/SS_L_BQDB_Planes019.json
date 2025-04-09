@@ -1,0 +1,92 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟仙兵", 
+                    "reqVal": 9, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007411|20007412|20007413", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-17116.2 -22735.9 7295.7)#L_BQDB_Planes019"
+                }
+            }, 
+            "title": "阻挡来袭的正气盟仙兵"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟天兵", 
+                    "reqVal": 9, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007417|20007418|20007419", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-17116.2 -22735.9 7295.7)#L_BQDB_Planes019"
+                }
+            }, 
+            "title": "抵挡来袭的正气盟天兵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟仙卫", 
+                    "reqVal": 9, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007414|20007415|20007416", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-17116.2 -22735.9 7295.7)#L_BQDB_Planes019"
+                }
+            }, 
+            "title": "抗击来袭的正气盟仙卫"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "迎战太乙真人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20007421", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20007421#L_BQDB_Planes019"
+                }
+            }, 
+            "title": "迎战太乙真人"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭月灵子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007420", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007420#L_BQDB_Planes019"
+                }
+            }, 
+            "title": "消灭月灵子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "十日同出"
+}

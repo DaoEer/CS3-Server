@@ -1,0 +1,96 @@
+{
+    "20101214": {
+        "tasks": [
+            {
+                "navigateData": "30000068#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010029", 
+                "id": 1, 
+                "name": "取得四道灵气"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3013"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101214, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101213"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "20036", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1376", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2638", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "975", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032108|Q032109|Q032110", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}灵珠子让你前往飞溅崖，击败西域刀尊天邪子一脉势力，夺得@F{fc=c41}缘灵@D，@F{fc=c41}尊灵@D，@F{fc=c41}友灵@D，@F{fc=c41}爱灵@D四道先天灵气。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101224|20101248|20101248|20101248", 
+        "taskCompleteFunctions": {}, 
+        "level": 26, 
+        "title": "飞溅崖", 
+        "isAutoCommit": 1, 
+        "start_by": "10000266#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

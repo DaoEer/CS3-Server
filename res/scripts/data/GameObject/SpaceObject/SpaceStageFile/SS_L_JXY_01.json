@@ -1,0 +1,35 @@
+{
+    "stages": {
+        "1": {
+            "comment": "根据密探的线索在人群中找到妖魔并击败他！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找出伪装的妖魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "quest", 
+                    "param2": "20003526|20003527", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败妖魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003893", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "妖魔化身"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "妖魔化身"
+}

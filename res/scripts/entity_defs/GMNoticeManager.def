@@ -1,0 +1,55 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<addGMNotice>
+		    <Arg>   INT32  </Arg>                    <!-- intervalTime -->
+		    <Arg>   INT32  </Arg>                    <!-- count -->
+		    <Arg>   UNICODE</Arg>                    <!-- msg -->
+		    <Arg>   INT32  </Arg>                    <!-- fileno -->
+		</addGMNotice>
+		<addGMSchemeNotice>
+		    <Arg>	STRING	</Arg>                   <!-- SchemeName-->
+			<Arg>	STRING	</Arg>                   <!-- triggerTime -->
+			<Arg>   INT32  </Arg>                    <!-- intervalTime -->
+		    <Arg>   INT32  </Arg>                    <!-- count -->
+		    <Arg>   UNICODE</Arg>                    <!-- msg -->
+		    <Arg>   INT32  </Arg>                    <!-- fileno -->
+		</addGMSchemeNotice>
+		<addSchemeNotice>
+		    <Arg>	PYTHON	</Arg>                   <!-- noticeInfo -->
+		</addSchemeNotice>
+		<addGMSchemeGroupNotice>
+		    <Arg>	STRING	</Arg>                   <!-- SchemeName-->
+			<Arg>	STRING	</Arg>                   <!-- triggerTime -->
+			<Arg>   INT32  </Arg>                    <!-- singleTime -->
+		    <Arg>   INT32  </Arg>                    <!-- groupTime -->
+		    <Arg>   INT32   </Arg>                   <!-- count -->
+		    <Arg>   PYTHON_LIST </Arg>               <!-- msgList -->
+            <Arg>   INT32  </Arg>                    <!-- fileno -->
+		</addGMSchemeGroupNotice>
+        <addGMGroupNotice>
+            <Arg>	PYTHON	</Arg>                   <!-- noticeInfo -->
+        </addGMGroupNotice>
+		<delGMSchemeNotice>
+			<Arg>	STRING	</Arg>                   <!-- triggerTime -->
+			<Arg>   INT32  </Arg>                    <!-- noticeID -->
+			<Arg>   INT32  </Arg>                    <!-- fileno -->
+		</delGMSchemeNotice>
+		<delGMNotice>
+		    <Arg>   INT32   </Arg>                   <!-- noticeID -->
+		</delGMNotice>
+        <GMQueryAllNotices>
+            <Arg>		INT32	 	</Arg>           <!-- fileno -->
+        </GMQueryAllNotices>
+        <globalWorld>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</globalWorld>
+	</BaseMethods>
+</root>

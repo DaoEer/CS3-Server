@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "雷泽谷",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_LZG_1",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_LZG",
+"NavmeshPath"	: "space\\L_LZG_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_3_1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C001441|C001442|C001443"},
+	"enterPosition":"-72087 4401 -19066",
+	"enterDirection":"0 0 0",
+	"stageFile":"SS_L_LZG",
+	"eventFile":"SE_L_LZG",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1,
+	"spaceHPModifyRatio":"0.2",
+	"spaceDamageModifyRatio":"0.2"
+	},
+"DomainData"	:{
+	}
+}

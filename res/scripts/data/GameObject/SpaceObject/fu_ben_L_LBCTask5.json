@@ -1,0 +1,79 @@
+{
+"SpaceName"	: "练兵场任务区域五",
+"EntityType"	: "SpaceCopyLBCTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyLBCTask",
+"scriptID"	: "fu_ben_L_LBCTask5",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_BHZBZ_LBC1_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 100.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 60,
+	"enterPosition":"-51125 -16565 -26019",
+	"enterDirection":"0 0 -110",
+	"stageFile":"",
+	"eventFile":"",
+	"cmderID":"20014201",
+	"actionTimes":2,
+	"isCanOpenBarracks":0,
+	"routes":
+		[["-55145 -17925 -25847","-60635 -25035 -25994"], 
+		 ["-62555 -35225 -25934"], 
+		 ["-67215 -40045 -25934","-66875 -48725 -25828","-63595 -52805 -25646"], 
+		 ["-54665 -53045 -25736","-50635 -49705 -25693","-47675 -42765 -25937"], 
+		 ["-46475 -35645 -25945","-47635 -32355 -25853","-51335 -29955 -25910","-51655 -27845 -25927"],
+		 ["-49455 -25095 -26377","-49075 -21085 -26211"]
+		],
+	"pointDatas":
+		[{"spawnPos":"-62025 -27775 -25927", "spawnDir":"0 0 0"},
+		 {"spawnPos":"-65175 -38055 -25929", "spawnDir":"0 0 140"},
+		 {"spawnPos":"-59255 -53065 -25639", "spawnDir":"0 0 270"},
+		 {"spawnPos":"-46565 -38845 -25928", "spawnDir":"0 0 0"},
+		 {"spawnPos":"-50265 -28495 -25925", "spawnDir":"0 0 160"}
+		],
+	"monsterDatas":
+		[{"cmderScriptID":"20012472", "cmderLevel":1, "soldierScriptID":"20012462", "soldierLevel":1, "cmderModel":"SK_GW2546_Z_Mon","soldierModel":"SK_GW2521_Z_Mon","soldierNum":15},
+		 {"cmderScriptID":"20012473", "cmderLevel":1, "soldierScriptID":"20012463", "soldierLevel":1, "cmderModel":"SK_GW2522_Mon","soldierModel":"SK_GW2528_Z_Mon","soldierNum":15},
+	 	 {"cmderScriptID":"20012474", "cmderLevel":1, "soldierScriptID":"20012465", "soldierLevel":1, "cmderModel":"SK_GW2523_Z_Mon","soldierModel":"SK_GW2530_Mon","soldierNum":15},
+	 	 {"cmderScriptID":"20012475", "cmderLevel":3, "soldierScriptID":"20012464", "soldierLevel":1, "cmderModel":"SK_GW2541_X_Mon","soldierModel":"SK_GW2542_Y_Mon","soldierNum":15},
+		 {"cmderScriptID":"20012475", "cmderLevel":3, "soldierScriptID":"20012467", "soldierLevel":1, "cmderModel":"SK_GW2541_X_Mon","soldierModel":"SK_GW2545_Z_Mon","soldierNum":15}
+		],
+	"createMonsterDelay":[3.0, 2.0, 5.0, 5.0, 5.0],
+	"createMonsterDelayReverse":[2.0, 5.0, 5.0, 5.0, 5.0],
+	"sceneDatas":
+		[{"sceneID":"818", "sceneTime":25},
+		 {"sceneID":"820", "sceneTime":23},
+		 {"sceneID":"765", "sceneTime":14.6},
+		 {"sceneID":"820", "sceneTime":23},
+		 {"sceneID":"821", "sceneTime":16}
+		],
+	"taskExp":
+		[[23350,4670], 
+		 [23350,4670], 
+		 [23350,4670], 
+		 [23350,4670], 
+		 [23350,4670]
+		],
+	"voiceIDs":["C001799", "C001802", "C001799", "C001801", "C001800"],
+	"moveSpeed":800.0,
+	"spaceIntroduce":{"voiceID":"C001797"},
+	"leaveVoiceIDs":{"2":"C001798", "1":"C001803", "0":"C001804"},
+	"armLength":3500.0,
+	"cameraRotation":"0 300 0",
+	"bodyAmount":8 ,
+	"bodyRadius": 500.0,
+	"vectoryEffectID":"102641_9",
+	"nearDist":5.0,
+	"battleBuffID":12243103
+	},
+"DomainData"	:{
+	}
+}

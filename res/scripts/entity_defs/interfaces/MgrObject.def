@@ -1,0 +1,15 @@
+<root>
+	<Interfaces>
+		<Interface> 	GameObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<isGlobalOnly>	<!-- 全局唯一 -->
+			<Type>			BOOL			</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		1				</Default>
+		</isGlobalOnly>
+	</Properties>
+	<BaseMethods>
+	</BaseMethods>
+</root>

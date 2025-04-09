@@ -1,0 +1,23 @@
+{
+	"stages":{
+		"1":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"title":"到达终点",
+					"reqVal":1,
+					"param3":"69999.984375 24689.957031 7349.970215",
+					"param2":"12000|2000",
+					"param1":"1",
+					"type":"SStageTask_enterArea"
+				}
+				
+			},
+			"title":"到达终点"
+		}
+		
+	},
+	"describe":"",
+	"beginOnSpaceInit":1,
+	"name":"野外竞速"
+}

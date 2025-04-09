@@ -1,0 +1,40 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<registerToMgr>
+			<Arg>	SCRIPT_ID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</registerToMgr>
+		<activeSignUp>
+			<Arg>	ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</activeSignUp>
+		<requestEnter>
+			<Arg>	ENTITYCALL	</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	DIRECTION	</Arg>
+			<Arg>	INT32	</Arg>
+		</requestEnter>
+		<teleportPlayer>
+			<Arg>	POSITION	</Arg>
+			<Arg>	DIRECTION	</Arg>
+			<Arg>	ENTITYCALL	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>
+		</teleportPlayer>
+		<sendWoldMsg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</sendWoldMsg>
+	</BaseMethods>
+</root>

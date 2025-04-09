@@ -1,0 +1,116 @@
+{
+    "20101004": {
+        "tasks": [
+            {
+                "navigateData": "20000003|20000004|20000265|20000277|20000278|20000279#L_YSC", 
+                "goal": 4, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000003|20000004|20000265|20000277|20000278|20000279", 
+                "id": 1, 
+                "name": "消灭缥缈阁先锋"
+            }, 
+            {
+                "navigateData": "30000006#L_YSC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "寻找抱朴子"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101004, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010106"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101002|20101019|20101020|20101021"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010106"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "900", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "132", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "165", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "156", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q010442|Q010443", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}灵珠子让你去往流云坡支援独自断后的抱朴子师兄。|@S{4}灵珠子让你去往流云坡支援独自断后的抱朴子师兄。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101025|20101005|20101026|20101027", 
+        "taskCompleteFunctions": {}, 
+        "level": 4, 
+        "title": "（废弃）营救抱朴子", 
+        "isAutoCommit": 1, 
+        "start_by": "10000021#L_YSC", 
+        "isAutoAccept": 1
+    }
+}

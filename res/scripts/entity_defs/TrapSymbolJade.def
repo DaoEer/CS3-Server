@@ -1,0 +1,27 @@
+<root>
+	<Parent>	Trap	</Parent>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<belongDBID>
+			<Type>			DBID			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</belongDBID>
+		<lifeTime>
+			<Type>			TIME			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+		</lifeTime>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

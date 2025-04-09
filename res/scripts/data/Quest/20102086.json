@@ -1,0 +1,98 @@
+{
+    "20102086": {
+        "tasks": [
+            {
+                "navigateData": "(12007.0 31280.0 265.0)#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往西门"
+            }, 
+            {
+                "navigateData": "(12571.601563 31174.486328 265.710297)#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "5", 
+                "param2": "11892.0 -6257.0 -2659.0", 
+                "param1": "L_BQXB", 
+                "id": 2, 
+                "name": "前往阪泉西部会合女魃"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102086, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102085"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19057", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "755", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8481", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1459", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041449|Q041450", 
+        "finish_by": "10000637#L_BQXB", 
+        "taskLogDes": "@S{4}经过公孙盘的清点盘查，魔道掳走了数十名族人往西面道路逃去。公孙盘已让女魃前去追踪魔道，请你跟随女魃留下的信号，前去助她一臂之力。|@S{4}经过公孙盘的清点盘查，魔道掳走了数十名族人往西面道路逃去。公孙盘已让女魃前去追踪魔道，请你跟随女魃留下的信号，前去助她一臂之力。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041452|Q041453", 
+        "nextQuest": "20102087", 
+        "taskCompleteFunctions": {}, 
+        "level": 33, 
+        "title": "会合女魃", 
+        "isAutoCommit": 1, 
+        "start_by": "10000438#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

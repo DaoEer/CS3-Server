@@ -1,0 +1,465 @@
+{% extends "gmtools/role/role.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+	<script src="/static/laydate/laydate.js"></script> 
+{% endblock %}
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header" style = "border-bottom: 1px solid black">角色幻兽查询</h2>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/role/query_pet/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class="row">
+					<div class="from-group col-sm-3">
+						<div class="col-sm-5 control-label">
+							<select name="queryType" class="queryType form-control" id="queryType">
+								<option value="roleName" class="c_roleName">玩家名字</option>
+							</select>
+						</div>
+						<div class="col-sm-7">
+							<input name="roleName" type="text" class="form-control" id="id_roleName" value="{{ roleInfo.roleName }}" maxlength="30" placeholder="请输入角色名字"/>
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default" name="rolePetQueryBtn">查 询</button>
+					</div>
+				</div>
+			</div>
+			<h4 class="sub-header" style = "margin:0.1px;text-align:left;margin-left:15px;margin-top:5px;margin-bottom:20px;font:bold 20px Pingfang SC">现有幻兽</h4>
+			<div class="row col-sm-15 control-label">
+				<div class="row col-sm-8 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:20px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>幻兽名字</th>
+								<th>等级</th>
+								<th>品质</th>
+								<th>当前状态</th>
+								<th>存储位置</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for rolePetBaseInfo in rolePetBaseInfos %}
+								<tr>
+									<td>{{ rolePetBaseInfo.name }}</td>
+									<td>{{ rolePetBaseInfo.level }}</td>
+									<td>{{ rolePetBaseInfo.quality }}</td>
+									{% if rolePetBaseInfo.state %}
+										<td>出战</td>
+									{% else %}
+										<td>休息</td>
+									{% endif %}
+									<td>{{ rolePetBaseInfo.position }}幻兽栏</td>
+								</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<h4 class="sub-header" style = "border-bottom: 1px solid black;text-align:left;margin-left:15px;margin-top:5px;margin-bottom:20px;font:bold 20px Pingfang SC">幻兽变更记录</h4>
+			<div class="row placeholders" style = "margin:0.1px;">
+			<div class="from-group">
+				<div class="row">
+					<div class="from-group col-sm-3">
+						<div class="col-sm-5 control-label">
+							<select name="changeQueryType" class="form-control" id="id_changeQueryType">
+								<option value="petName" {% if petChangeQueryInfo.queryType == 1 %} selected {% endif %}>幻兽名字</option>
+								<option value="petUid" {% if petChangeQueryInfo.queryType == 2 %} selected {% endif %}>幻兽UID</option>
+							</select>
+						</div>
+						<div class="col-sm-7">
+							<input name="changeQueryText" type="text" class="form-control" id="id_changeQueryText" value="{{ petChangeQueryInfo.queryText }}" maxlength="30" placeholder="请输入幻兽名字或者UID"/>
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default" name="petChangeQueryBtn">查 询</button>
+					</div>
+				</div>
+			</div>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;"> 
+				<div class="row col-sm-10 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>幻兽名字</th>
+								<th>幻兽品种型名</th>
+								<th>幻兽UID</th>
+								<th>品质</th>
+								<th>等级</th>
+								<th>操作描述</th>
+								<th>操作时间</th>
+								<th>获得途径</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for petChangeInfo in petChangeInfos %}
+								<tr>
+									<!--input type="hidden" name="petInfoIndex" id="hiddenField" value="{{petChangeInfo.index}}"-->
+									<td>
+										<!--button type="submit" class="btn btn-default" name="petAttributeInfoBtn" style="height:28px;width;display:inline-block;">{{ petChangeInfo.name }}</button-->
+										<a href="/gmtools/role/query_pet/?petInfoIndex={{petChangeInfo.index}}"><input type="button" class="btn btn-default" style="height:28px;width;30px;" value = '{{ petChangeInfo.name }}'></input></a>
+									</td>
+									<td>{{ petChangeInfo.uname}}</td>
+									<td>{{ petChangeInfo.uid }}</td>
+									<td>{{ petChangeInfo.quality }}</td>
+									<td>{{ petChangeInfo.level }}</td>
+									<td>{{ petChangeInfo.optContent }}</td>
+									<td>{{ petChangeInfo.optTime }}</td>
+									<td>{{ petChangeInfo.getReason }}</td>
+								</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<p style = "margin:0.1px;text-indent: 1em;text-align:left;">1.基础信息</p>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;"> 
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>幻兽名字</th>
+								<th>幻兽UID</th>
+								<th>状态</th>
+								<th>品质</th>
+								<th>等级</th>
+								<th>成长度</th>
+								<th>种族</th>
+								<th>类型</th>
+								<th>移动速度</th>
+								<th>携带等级</th>
+							</tr>
+						</thead>
+						<tbody>
+							{%if petBaseInfo%}
+							<tr>
+								<td>{{ petBaseInfo.name }}</td>
+								<td>{{ petBaseInfo.uid }}</td>
+								{% if petBaseInfo.state %}
+										<td>出战</td>
+								{% else %}
+										<td>休息</td>
+								{% endif %}
+								<td>{{ petBaseInfo.quality }}</td>
+								<td>{{ petBaseInfo.level }}</td>
+								<td>{{ petBaseInfo.ability }}</td>
+								<td>{{ petBaseInfo.camp }}</td>
+								<td>{{ petBaseInfo.uname }}</td>
+								<td>{{ petBaseInfo.speed }}</td>
+								<td>{{ petBaseInfo.takelevel }}</td>
+							</tr>
+							{%endif%}
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<p style = "margin:0.1px;text-indent: 1em;text-align:left;">2.幻兽属性</p>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;"> 
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>根骨</th>
+								<th>内力</th>
+								<th>洞察</th>
+								<th>身法</th>
+								<th>筋力</th>
+								<th>气血</th>
+								<th>内息</th>
+								<th>罡气</th>
+								<th>战力</th>
+								<th>等阶</th>
+							</tr>
+						</thead>
+						<tbody>
+							{%if petBaseInfo%}
+							<tr>
+								<td>{{ petBaseInfo.corporeity }}</td>
+								<td>{{ petBaseInfo.intellect }}</td>
+								<td>{{ petBaseInfo.discern }}</td>
+								<td>{{ petBaseInfo.dexterity }}</td>
+								<td>{{ petBaseInfo.strength }}</td>
+								<td>{{ petBaseInfo.HP_Max }}</td>
+								<td>{{ petBaseInfo.MP_Max }}</td>
+								<td>{{ petBaseInfo.gangQiValue_Max }}</td>
+								<td>{{ petBaseInfo.combatPower }}</td>
+								<td>{{ petBaseInfo.step }}</td>
+							</tr>
+							{%endif%}
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<p style = "margin:0.1px;text-indent: 1em;text-align:left;">3.战斗属性</p>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;">
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>外攻</th>
+								<th>外攻防御</th>
+								<th>内攻</th>
+								<th>内攻防御</th>
+								<th>会心</th>
+								<th>命中率</th>
+								<th>招架</th>
+								<th>闪避</th>
+								<th>罡气攻击</th>
+								<th>罡气防御</th>
+							</tr>
+						</thead>
+						<tbody>
+							{%if petBaseInfo%}
+							<tr>
+								<td>{{ petBaseInfo.damage }}</td>
+								<td>{{ petBaseInfo.armor }}</td>
+								<td>{{ petBaseInfo.magic_damage }}</td>
+								<td>{{ petBaseInfo.magic_armor }}</td>
+								<td>暂无</td>
+								<td>{{ petBaseInfo.hitrate }}</td>
+								<td>{{ petBaseInfo.parry }}</td>
+								<td>{{ petBaseInfo.dodgerate }}</td>
+								<td>{{ petBaseInfo.gangQi_damagePoint }}</td>
+								<td>{{ petBaseInfo.gangQi_armorPoint }}</td>
+							</tr>
+							{%endif%}
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<p style = "margin:0.1px;text-indent: 1em;text-align:left;">4.幻兽技能</p>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;"> 
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>主动技能1</th>
+								<th>主动技能2</th>
+								<th>主动技能3</th>
+								<th>主动技能4</th>
+								<th>主动技能5</th>
+								<th>被动技能1</th>
+								<th>被动技能2</th>
+								<th>被动技能3</th>
+								<th>被动技能4</th>
+								<th>被动技能5</th>
+							</tr>
+						</thead>
+						<tbody>
+							{%if attrSkillInfo and passiveSkillInfo %}
+							<tr>
+								<td>{{ attrSkillInfo.0 }}</td>
+								<td>{{ attrSkillInfo.1 }}</td>
+								<td>{{ attrSkillInfo.2 }}</td>
+								<td>{{ attrSkillInfo.3 }}</td>
+								<td>{{ attrSkillInfo.4 }}</td>
+								<td>{{ passiveSkillInfo.0 }}</td>
+								<td>{{ passiveSkillInfo.1 }}</td>
+								<td>{{ passiveSkillInfo.2 }}</td>
+								<td>{{ passiveSkillInfo.3 }}</td>
+								<td>{{ passiveSkillInfo.4 }}</td>
+							</tr>
+							{%endif%}
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<h4 class="sub-header" style = "border-bottom: 1px solid black;text-align:left;margin-left:15px;margin-top:5px;margin-bottom:20px;font:bold 20px Pingfang SC">打书记录</h4>
+			<div class="row placeholders" style = "margin:0.1px;">
+				<div class="from-group">
+					<div class="row" style = "margin:0.1px;">
+						<div>
+							<div class="col-sm-1 control-label">
+								<select name="bookQueryType" class="form-control" id="id_bookQueryType" style="width:120px">
+									<option value="petName" {% if petBookQueryInfo.queryType == 1 %} selected {% endif %}>幻兽名字</option>
+									<option value="petUid" {% if petBookQueryInfo.queryType == 2 %} selected {% endif %}>幻兽UID</option>
+								</select>
+							</div>
+							<div class="col-sm-2">
+								<input name="bookQueryText" type="text" style="width:180px" class="form-control" id="id_bookQueryText" value="{{ petBookQueryInfo.queryText }}" maxlength="30" placeholder="请输入幻兽名字或者UID"/>
+							</div>
+							<div style="width:1000px;">
+								<div style="width:125px;float:left;">
+									<input type="text" name="bookStartDate" style="width:125px" class="form-control" id="id_book_start_date" placeholder="请选择起始日期" readonly="readonly" value="{{ petBookQueryInfo.startDate }}"/>
+								</div>
+								<div style="width:125px;float:left;">
+									<input type="text" name="bookStartTime" style="width:125px" class="form-control" id="id_book_start_time" placeholder="请选择起始时间" readonly="readonly" value="{{ petBookQueryInfo.startTime }}"/>
+								</div>
+							</div>
+							<div class="col-sm-1 control-label">
+								<input type="text" name="bookEndDate" style="width:125px" class="form-control" id="id_book_end_date" placeholder="请选择结束日期" readonly="readonly" value="{{ petBookQueryInfo.endDate }}"/>
+							</div>
+							<div class="col-sm-1 control-label">
+								<input type="text" name="bookEndTime" style="width:125px" class="form-control" id="id_book_end_time" placeholder="请选择结束时间" readonly="readonly" value="{{ petBookQueryInfo.endTime }}"/>
+							</div>
+						</div>
+						<div class="form-group col-sm-1">
+							<button type="submit" class="btn btn-default" name="petBookQueryBtn">查 询</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;"> 
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>幻兽名字</th>
+								<th>幻兽UID</th>
+								<th>打书类型</th>
+								<th>启化丹消耗</th>
+								<th>金钱消耗</th>
+								<th>潜能点消耗</th>
+								<th>残卷消耗</th>
+								<th>魂珠消耗</th>
+								<th>主动技能书</th>
+								<th>被动技能书</th>
+								<th>新技能ID</th>
+								<th>原技能ID</th>
+								<th>操作后主动技能数量</th>
+								<th>操作后被动技能数量</th>
+								<th>操作时间</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for petBookInfo in petBookInfos %}
+								<tr>
+									<td>{{ petBookInfo.name }}</td>
+									<td>{{ petBookInfo.uid }}</td>
+									<td>{{ petBookInfo.actionType }}</td>
+									<td>{{ petBookInfo.useQiHuaDan }}</td>
+									<td>{{ petBookInfo.useMoney }}</td>
+									<td>{{ petBookInfo.usePotential }}</td>
+									<td>{{ petBookInfo.useBook }}</td>
+									<td>{{ petBookInfo.useSoulbead }}</td>
+									<td>{{ petBookInfo.activeBook }}</td>
+									<td>{{ petBookInfo.passiveBook }}</td>
+									<td>{{ petBookInfo.newSkillName }}</td>
+									<td>{{ petBookInfo.oldSkillName }}</td>
+									<td>{{ petBookInfo.activeSkillNum }}</td>
+									<td>{{ petBookInfo.passiveSkillNum }}</td>
+									<td>{{ petBookInfo.optTime }}</td>
+								</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<h4 class="sub-header" style = "border-bottom: 1px solid black;text-align:left;margin-left:15px;margin-top:5px;margin-bottom:20px;font:bold 20px Pingfang SC">合成记录</h4>
+			<div class="row placeholders" style = "margin:0.1px;">
+				<div class="from-group">
+					<div class="row" style = "margin:0.1px;">
+						<div>
+							<div class="col-sm-1 control-label">
+								<select name="composeQueryType" class="form-control" id="id_bookQueryType" style="width:120px">
+									<option value="petName" class="c_petName" {% if petComposeQueryInfo.queryType == 1 %} selected {% endif %}>幻兽名字</option>
+									<option value="petUid" class="c_petUid" {% if petComposeQueryInfo.queryType == 2 %} selected {% endif %}>幻兽UID</option>
+								</select>
+							</div>
+							<div class="col-sm-2">
+								<input name="composeQueryText" type="text" style="width:180px" class="form-control" id="id_bookText" value="{{ petComposeQueryInfo.queryText }}" maxlength="30" placeholder="请输入幻兽名字或者UID"/>
+							</div>
+							<div style="width:1000px;">
+								<div style="width:125px;float:left;">
+									<input type="text" name="composeStartDate" style="width:125px" class="form-control" id="id_compose_start_date" placeholder="请选择起始日期" readonly="readonly" value="{{ petComposeQueryInfo.startDate }}"/>
+								</div>
+								<div style="width:125px;float:left;">
+									<input type="text" name="composeStartTime" style="width:125px" class="form-control" id="id_compose_start_time" placeholder="请选择起始时间" readonly="readonly" value="{{ petComposeQueryInfo.startTime }}"/>
+								</div>
+							</div>
+							<div class="col-sm-1 control-label">
+								<input type="text" name="composeEndDate" style="width:125px" class="form-control" id="id_compose_end_date" placeholder="请选择结束日期" readonly="readonly" value="{{ petComposeQueryInfo.endDate }}"/>
+							</div>
+							<div class="col-sm-1 control-label">
+								<input type="text" name="composeEndTime" style="width:125px" class="form-control" id="id_compose_end_time" placeholder="请选择结束时间" readonly="readonly" value="{{ petComposeQueryInfo.endTime }}"/>
+							</div>
+							</div>
+							<div class="form-group col-sm-1">
+								<button type="submit" class="btn btn-default" name="petComposeQueryBtn">查 询</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row col-sm-16 control-label" style = "margin:0.1px;"> 
+				<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+					<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+						<thead>
+							<tr>
+								<th>幻兽名字</th>
+								<th>幻兽UID</th>
+								<th>副幻兽名字</th>
+								<th>幻兽UID</th>
+								<th>仙石消耗</th>
+								<th>金钱消耗</th>
+								<th>成长度改变</th>
+								<th>操作时间</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for petComposeInfo in petComposeInfos %}
+								<tr>
+									<td>{{ petComposeInfo.onePetName }}</td>
+									<td>{{ petComposeInfo.onePetUid }}</td>
+									<td>{{ petComposeInfo.twoPetName}}</td>
+									<td>{{ petComposeInfo.twoPetUid }}</td>
+									<td>{{ petComposeInfo.useXianshi }}</td>
+									<td>{{ petComposeInfo.useMoney }}</td>
+									<td>{{ petComposeInfo.abilityChangeValue }}</td>
+									<td>{{ petComposeInfo.optTime }}</td>
+								</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</form>
+	</div>
+{% endblock %}
+
+{% block tail_js %}
+	<script>$(".m_role_manage").addClass("active");</script>
+	<script>
+		laydate.render({
+			elem: '#id_book_start_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_book_start_time', //指定元素
+			type: "time"
+		});
+		laydate.render({
+			elem: '#id_book_end_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_book_end_time', //指定元素
+			type: "time"
+		});
+		laydate.render({
+			elem: '#id_compose_start_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_compose_start_time', //指定元素
+			type: "time"
+		});
+		laydate.render({
+			elem: '#id_compose_end_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_compose_end_time', //指定元素
+			type: "time"
+		});
+	</script>
+{% endblock %}

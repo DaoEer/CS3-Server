@@ -1,0 +1,143 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭翎坤宫守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008971|20008972", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-61.0 34419.6 805.3)#L_LKG"
+                }
+            }, 
+            "title": "初入翎坤宫"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守阵卫兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008977|20008978", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(300 7470 1656)#L_LKG"
+                }
+            }, 
+            "title": "调查翎坤宫"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭翎坤宫弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008973|20008974", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-90.0 21060.0 1696.8)#L_LKG"
+                }
+            }, 
+            "title": "闯进翎坤宫"
+        }, 
+        "5": {
+            "comment": "将两个符石嵌入阵台中", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "激活阵台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-40 6640 1706)#L_LKG"
+                }
+            }, 
+            "title": "激活石道"
+        }, 
+        "4": {
+            "comment": "翎坤宫左右两侧道路的阵上各有一颗符石，靠近与其交互即可取下符石。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得两块符石", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010120", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "寻找符石"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败崇翎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008987", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-50 -10790 1689)#L_LKG"
+                }
+            }, 
+            "title": "鏖战崇翎"
+        }, 
+        "6": {
+            "comment": "穿过石道到达翎坤宫内殿", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到达内殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-50 -10790 1689:30", 
+                    "param2": "5679|-3321", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入翎坤宫"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败翎坤真人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008988", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-40 -28030 3485)#L_LKG"
+                }
+            }, 
+            "title": "决战翎坤宫"
+        }
+    }, 
+    "describe": "前往翎坤宫，寻找夸父下落。", 
+    "beginOnSpaceInit": 1, 
+    "name": "翎坤宫"
+}

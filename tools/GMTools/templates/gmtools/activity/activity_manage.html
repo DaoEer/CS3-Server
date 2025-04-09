@@ -1,0 +1,137 @@
+{% extends "gmtools/activity/activity_base.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+	<script src="/static/laydate/laydate.js"></script> 
+{% endblock %}
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">活动开启</h2>
+	<h5 class="page-header">   活动处下拉选择对应名称活动，可进行立即开启和关闭；还可在选择活动后进行预开启时间设定。设置后可在活动定时列表查看即将到时自动开启的活动，并且可以在此界面选择删除。</h5>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/activity/action/">{% csrf_token %}
+			<div class="from-group col-sm-12">
+				<div class="col-sm-3 control-label">
+					<select name="act_name_select" class="act_name form-control" id="id_act_name_select">
+						{% for act in actlist %}
+							<option value={{ act.0 }} {% if act.0 == actnameselect %} selected {% endif %} class="c_act_name">{{ act.1 }}</option>
+						{% endfor %}
+					</select>
+				</div>	
+			</div>
+			<div class = "from-group col-sm-8">
+				<h4 style = "float:left; margin: 10px 10px 5px 20px">即时执行：</h4>
+			</div>
+			<div class="from-group col-sm-5">
+				<div class="form-group col-sm-3">
+					<button type="submit" class="btn btn-info" name="start_activity_immediate">即时开启</button>
+				</div>
+				<div class="form-group col-sm-3">
+					<button type="submit" class="btn btn-info" name="end_activity_immediate">立即关闭</button>
+				</div>
+			</div>
+			<div class = "from-group col-sm-8">
+				<h4 style = "float:left; margin: 10px 10px 5px 20px">定时执行：</h4>
+			</div>
+			<div class="from-group col-sm-5">
+				<div class="col-sm-3 control-label">
+					<input type="text" name="start_date" style ="width:120px;" class="form-control" id="id_start_date" placeholder="请选择日期" readonly="readonly" value="{{ startdate }}"/>
+				</div>
+				<div class="col-sm-3 control-label">
+					<input type="text" name="start_time" style ="width:120px;" class="form-control" id="id_start_time" placeholder="请选择时间" readonly="readonly" value="{{ starttime }}"/>
+				</div>
+				<div class="form-group col-sm-3">
+					<button type="submit" class="btn btn-info" name="start_activity_timing">定时开启</button>
+				</div>
+				<div class="form-group col-sm-3">
+					<button type="submit" class="btn btn-info" name="activity_query">定时活动列表查看</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	{% if queryflag %}
+		<div class="table-responsive">
+			<div class="form-group col-sm-12">
+				<h4 class="sub-header">查询结果                                            </h4>
+				<table class="table table-striped table-condensed">
+					<thead>
+						<tr>
+							<th>活动名称</th>
+							<th>开启时间</th>
+							<th>编辑</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for data in datas %}
+							<tr>
+								<td>{{ data.name }}</td>
+								<td>{{ data.startTime }}</td>
+								<td>
+									<button type="button" class="btn btn-default" onClick="activity_delete('{{ data.key }}', '{{ data.schemeString }}', '{{ data.callbackName }}', '{{ data.name }}','{{data.startTime }}')">删除</button>
+								</td>
+							 </tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	{% endif %}
+{% endblock %}
+
+{% block tail_js %}
+	<script>$(".m_activity_manage").addClass("active");</script>
+	
+	<script>
+		laydate.render({
+			elem: '#id_start_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_start_time', //指定元素
+			type: "time"
+		});
+		</script>
+	
+	<script>
+		function activity_delete(key, schemeString, callbackName, name, startTime)
+		{
+			href="/gmtools/activity/delete/?key="+ key + "&name=" + name + "&schemeString=" + schemeString + "&callbackName=" + callbackName;
+			layer.confirm('确定要删除【'+ startTime + '】开启的活动【'+ name + '】?',{
+				btn:['确定','取消'],//按钮
+				title: "取消活动",
+				shade:0,
+			}, function(){
+				layer.open({
+					type: 2,
+					title: "取消活动",
+					closeBtn: 1,
+					shade: 0,
+					area:['362px', '172px'],
+					scrollbar:false,
+					skin:'layui-layer-rim',
+					content: href,
+					time:30,
+					end: function(){
+						location.reload();
+					}
+				});
+			});
+		}
+	</script>	
+{% endblock %}

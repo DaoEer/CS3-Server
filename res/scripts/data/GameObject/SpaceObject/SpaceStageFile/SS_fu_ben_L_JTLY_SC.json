@@ -1,0 +1,97 @@
+{
+    "stages": {
+        "1": {
+            "comment": "抵达云海广场，击败天沂虎妖", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "天沂虎妖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011905", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "天沂虎卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011906", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "初探云海"
+        }, 
+        "3": {
+            "comment": "破坏封印石，扫清最后障碍", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏封印石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004218", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "破封印石"
+        }, 
+        "2": {
+            "comment": "跃过浮岛，奔赴封印广场", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "跃过云海浮岛", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "333990 -288200 4360:35", 
+                    "param2": "4500|4200", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "抵达封印广场", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "326860 -300709 5550:45", 
+                    "param2": "5800|5200", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "飞跃云海"
+        }, 
+        "4": {
+            "comment": "击败黎南", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败黎南", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004228", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "大战妖帝"
+        }
+    }, 
+    "describe": "30级经验副本九天灵狱", 
+    "beginOnSpaceInit": 1, 
+    "name": "天外宫"
+}

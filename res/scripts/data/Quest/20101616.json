@@ -1,0 +1,217 @@
+{
+    "20101616": {
+        "tasks": [
+            {
+                "navigateData": "10000225#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000225", 
+                "id": 1, 
+                "name": "找林神逸取得定制的武器"
+            }, 
+            {
+                "navigateData": "10000224#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000224", 
+                "id": 2, 
+                "name": "找慕少礼取得订购的药品"
+            }, 
+            {
+                "navigateData": "10000229#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000229", 
+                "id": 3, 
+                "name": "找藏乾坤取回寄存的灵石"
+            }, 
+            {
+                "navigateData": "10000235#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 3, 
+                "param3": "15", 
+                "param2": "46980.0 -1420.0 11213.0", 
+                "param1": "L_FMC", 
+                "id": 4, 
+                "name": "将所有物资交给祖巫祝融"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101616, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010010"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010016"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010017"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010018"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101612|20101613|20101614|20101615"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010010"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010016"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010017"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010018"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "617", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "295", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "148", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "316", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020532|Q020534|Q020536", 
+        "finish_by": "10000235#L_FMC", 
+        "taskLogDes": "@S{4}你刚来到凤鸣城，便遇到祖巫祝融之徒火灵童子，他拜托你去凤鸣城东南方向的商业区，取回祖巫祝融订购的物品，并将物品送往魔道阵营区，交给祖巫祝融。|@S{4}你刚来到凤鸣城，便遇到祖巫祝融之徒火灵童子，他拜托你去凤鸣城东南方向的商业区，取回祖巫祝融订购的物品，并将物品送往魔道阵营区，交给祖巫祝融。|@S{4}你刚来到凤鸣城，便遇到祖巫祝融之徒火灵童子，他拜托你去凤鸣城东南方向的商业区，取回祖巫祝融订购的物品，并将物品送往魔道阵营区，交给祖巫祝融。|@S{4}你刚来到凤鸣城，便遇到祖巫祝融之徒火灵童子，他拜托你去凤鸣城东南方向的商业区，取回祖巫祝融订购的物品，并将物品送往魔道阵营区，交给祖巫祝融。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020542", 
+        "nextQuest": "20101617", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010010"
+                }
+            ], 
+            "3": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010018"
+                }
+            ], 
+            "2": [
+                {
+                    "script": "QuestFuncAddItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1|1", 
+                    "param1": "301010016|301010017"
+                }
+            ]
+        }, 
+        "level": 10, 
+        "title": "游历凤鸣城（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000278#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

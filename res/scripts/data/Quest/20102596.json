@@ -1,0 +1,96 @@
+{
+    "20102596": {
+        "tasks": [
+            {
+                "navigateData": "10000413#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-46420.0 18090.0 1431.7", 
+                "param1": "L_BQXB", 
+                "id": 1, 
+                "name": "会合蓐收"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002008"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102596, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102557"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16084", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "725", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8141", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1721", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045743|Q045744|Q040042", 
+        "finish_by": "10000413#L_BQXB", 
+        "taskLogDes": "@S{4}@F{fc=c41}十神天绝灯@D被帝俊存放在太阳宫的耀光阁内，祖巫蓐收已有夺取此灯的计策。准提让你你速带大金乌前去浑天营与他会合。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041880", 
+        "nextQuest": "20102597", 
+        "taskCompleteFunctions": {}, 
+        "level": 36, 
+        "title": "十神天绝灯", 
+        "isAutoCommit": 1, 
+        "start_by": "10000062#L_MHD", 
+        "isAutoAccept": 1
+    }
+}

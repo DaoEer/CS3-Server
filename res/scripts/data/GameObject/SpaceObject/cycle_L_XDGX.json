@@ -1,0 +1,34 @@
+{
+"SpaceName"	: "仙岛归墟",
+"EntityType"	: "SpaceCopyXDGX",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyXDGX",
+"scriptID"	: "cycle_L_XDGX",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_XDGX",
+"NavmeshPath"	: "space\\L_XDGX_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 150.0,
+"SpaceHoldEffect"	:"",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"260.0 -4630.0 11250.0",
+	"enterDirection":"0 0 90",
+	"stageFile":"",
+	"statisticsFile":"ST_L_XDGX",
+	"eventFile":"SE_L_XDGX",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"gridLenNumber":10,
+	"gridWidNumber":13,
+	"isCanWalkOffLedges":1,
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

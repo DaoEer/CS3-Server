@@ -1,0 +1,12 @@
+{
+    "stages": {
+        "1": {
+            "comment": "资源先低至0的一方败北", 
+            "tasks": {}, 
+            "title": "冰雪之战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "冰雪之战"
+}

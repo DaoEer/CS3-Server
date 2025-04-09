@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "通天崖",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_TTY",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_fu_ben_L_TTY",
+"NavmeshPath"	: "space\\L_TTY_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_TTY",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C000049"},
+	"enterPosition":"-13660 20910 -570",
+	"enterDirection":"0 0 -110",
+	"eventFile":"SE_fu_ben_L_TTY",
+	"stageFile":"SS_fu_ben_L_TTY",
+	"clientUseCharacterMovment" : 1,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

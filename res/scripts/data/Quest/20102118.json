@@ -1,0 +1,79 @@
+{
+    "20102118": {
+        "tasks": [
+            {
+                "navigateData": "(-19057.0 -30608.9 885.0)#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "夺回有穷部落"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102118, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102117|20102142"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "23525", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "925", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10387", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045326|Q045327", 
+        "finish_by": "10001001#L_FYP", 
+        "taskLogDes": "@S{4}夸父愿意助仙道拯救十金乌，但眼下有穷部落被魔道攻陷，他的族人危在旦夕。请你消灭入侵的魔道，助夸父夺回有穷部落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045349|Q045350", 
+        "nextQuest": "20102119|20102119|20102119|20102120", 
+        "taskCompleteFunctions": {}, 
+        "level": 38, 
+        "title": "夺回有穷部落", 
+        "isAutoCommit": 1, 
+        "start_by": "10001010#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败周蛮", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010434", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-12319.808594 16777.400391 -924.274902)#L_CDG"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入彩蝶谷", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "-4816.762695 11013.631836 407.906738:20", 
+                    "param2": "907|-107", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-4816.762695 11013.631836 407.906738)#L_CDG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败南荒散修", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010435|20010436|20010437", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-12319.808594 16777.400391 -924.274902)#L_CDG"
+                }
+            }, 
+            "title": "初入彩蝶谷"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追寻蝴蝶", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追寻蝴蝶", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "5549.215820 -4070.000000 782.885010:10", 
+                    "param2": "1282|282", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(5549.215820 -4070.000000 782.885010)#L_CDG"
+                }
+            }, 
+            "title": "彩蝶飞舞"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败南荒散修", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010435|20010436|20010437", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-4816.762695 11013.631836 407.906738)#L_CDG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续深入", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "-3773.810791 3273.891846 1247.079834:10", 
+                    "param2": "1747|747", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-3773.810791 3273.891846 1247.079834)#L_CDG"
+                }
+            }, 
+            "title": "深入探索"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "按“F”查看这株奇怪的草", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(5549.215820 -4070.000000 782.885010)#L_CDG"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回太清宫", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "智斗三色神花", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "三色神花"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "奇怪的小草", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "神花踪迹"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "彩蝶谷"
+}

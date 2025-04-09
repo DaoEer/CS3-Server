@@ -1,0 +1,22 @@
+{
+	"NoBalanceCellApp":[
+	],
+	"NoBalanceSpace":[
+	],
+	"SpaceConsume" :{
+		"L_BQXB"	: 25,
+		"L_BQDB"	: 25,
+		"L_FMNL"	: 25,
+		"L_KWSM_1"	: 25,
+		"L_ZLY"		: 25,
+		"L_FMC"		: 20,
+		"L_KLZ_1"	: 5,
+		"L_PLG"		: 5,
+		"L_YXG"		: 5,
+		"L_TQG"		: 5,
+		"L_XLD_01"	: 5,
+		"L_PMG"		: 5,
+		"L_XYM"		: 5,
+		"L_MHD"		: 5
+	}
+}

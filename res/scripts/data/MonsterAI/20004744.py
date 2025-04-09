@@ -1,0 +1,160 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 1, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {
+            1: {
+                "name": "连线光效", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "对灵石使用连线技能", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction5", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "20004745", 
+                                "param2": "Monster", 
+                                "param1": "250"
+                            }, 
+                            {
+                                "script": "AIAction34", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "110196001"
+                            }, 
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "tt"
+                            }
+                        ], 
+                        "EID": [
+                            2
+                        ], 
+                        "Conditions": [], 
+                        "id": 2
+                    }, 
+                    {
+                        "comment": "对灵石使用连线技能（循环）", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction5", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "20004745", 
+                                "param2": "Monster", 
+                                "param1": "250"
+                            }, 
+                            {
+                                "script": "AIAction34", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "110196001"
+                            }, 
+                            {
+                                "script": "AIAction18", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "tt"
+                            }, 
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "tt"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition12", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "4", 
+                                "param1": "tt"
+                            }
+                        ], 
+                        "id": 5
+                    }
+                ], 
+                "eventsAI": {
+                    9: [
+                        {
+                            "comment": "接受到副本指令1，自身销毁", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction32", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "1"
+                                }, 
+                                {
+                                    "script": "AIAction43", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "11001410"
+                                }
+                            ], 
+                            "EID": [
+                                1
+                            ], 
+                            "Conditions": [
+                                {
+                                    "script": "AICondition25", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "1", 
+                                    "param1": ""
+                                }
+                            ], 
+                            "id": 1
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "0.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }
+}

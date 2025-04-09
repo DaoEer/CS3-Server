@@ -1,0 +1,20 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Interfaces>
+		<Interface>	NPCObject				</Interface>
+		<Interface>	TeleportStoneInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

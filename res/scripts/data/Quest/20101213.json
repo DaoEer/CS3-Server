@@ -1,0 +1,143 @@
+{
+    "20101213": {
+        "tasks": [
+            {
+                "navigateData": "30000067#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往锁灵塔"
+            }, 
+            {
+                "navigateData": "30000213#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "取得三道灵气"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "26", 
+                "id": 3, 
+                "name": "到达26级"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002149"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1002"
+            }, 
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11000809"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101213, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointClose", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1002"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101212|20101223"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "20036", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1321", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2533", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032010", 
+        "finish_by": "10000266#L_FLS", 
+        "taskLogDes": "@S{4}请你和灵珠子一同消灭盘踞锁灵塔的魔道弟子，取得@F{fc=c41}胆灵@D、@F{fc=c41}毅灵@D、@F{fc=c41}恒灵@D三道先天灵气。|@S{4}请你和灵珠子一同消灭盘踞锁灵塔的魔道弟子，取得@F{fc=c41}胆灵@D、@F{fc=c41}毅灵@D、@F{fc=c41}恒灵@D三道先天灵气。|@S{4}将等级提升至26级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032029", 
+        "nextQuest": "20101214", 
+        "taskCompleteFunctions": {}, 
+        "level": 25, 
+        "title": "勇闯锁灵塔", 
+        "isAutoCommit": 1, 
+        "start_by": "10000265#L_KLZ_1", 
+        "isAutoAccept": 1
+    }
+}

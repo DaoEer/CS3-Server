@@ -1,0 +1,384 @@
+<root>
+
+	<Interfaces>
+		<Interface> 	RoleLHMJActiveInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<layerNumber>
+			<Type>			INT32			</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Default>		28				</Default>
+			<Persistent>	true			</Persistent>
+		</layerNumber>
+
+		<isChallenge>
+			<Type>		BOOL		        </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			 </Default>
+			<Persistent>	true			</Persistent>
+		</isChallenge>
+		<occupySpaceDF>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</occupySpaceDF>
+		<dongFuBuilds>
+			<Type>		DICT_INT_INT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</dongFuBuilds>
+		<psionic>
+			<Type>		INT32		        </Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</psionic>
+		<salaryInterval>
+			<Type>		TIME		        </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</salaryInterval>
+
+		<chartTimer>
+			<Type>		CONTROLLER_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</chartTimer>
+		<reflashLHMJShopTime>
+			<Type>		TIME			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	true			</Persistent>
+		</reflashLHMJShopTime>
+		<autoReflashLHMJShopTime>
+			<Type>		TIME			</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</autoReflashLHMJShopTime>
+		<reflashLHMJShopNum>
+			<Type>		UINT8			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	true			</Persistent>
+		</reflashLHMJShopNum>
+		<lhmjShopDatas>
+			<Type>		SHOPMALL_ITEM_LIST	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</lhmjShopDatas>
+		<groundPosDict>
+			<Type>		DICT_INT_POS	   </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</groundPosDict>
+		<caveHouseLine>
+			<Type>			INT32			</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Default>		0				</Default>
+			<Persistent>	true			</Persistent>
+		</caveHouseLine>
+		<caveHousePsionic>
+			<Type>		INT32	        	</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		0		</Default>
+			<Persistent>	true			</Persistent>
+		</caveHousePsionic>
+		<gainLingNengTime>
+			<Type>		TIME		        </Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		0		</Default>
+			<Persistent>	true			</Persistent>
+		</gainLingNengTime>
+		<lingQuanCurrHP>
+			<Type>		INT32		        </Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Persistent>	true			</Persistent>
+		</lingQuanCurrHP>
+		<buildUpgradeTime>
+			<Type>				DICT_INT_INT		</Type>
+			<Flags>				CELL_PUBLIC		</Flags>
+			<Persistent>			true		</Persistent>
+		</buildUpgradeTime>
+
+		<activeChartID>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</activeChartID>
+		<ChartTimer>
+			<Type>		ITEM_ID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</ChartTimer>
+		<lhmj_CoverHP>
+			<Type>		ITEM_ID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</lhmj_CoverHP>
+		<buildProtectTime>
+			<Type>		TIME		        </Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</buildProtectTime>
+		<destroyBuilds>
+			<Type>		DICT_INT_INTDICT	</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	{}			</Default>
+		</destroyBuilds>
+		<repairBuildTime>
+			<Type>		DICT_INT_INT		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	{}			</Default>
+		</repairBuildTime>
+		<guardReviveTime>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</guardReviveTime>
+	</Properties>
+
+	<ClientMethods>
+		<EnterHSBZModelTPS>
+			<Arg>		INT32 		</Arg>
+		</EnterHSBZModelTPS>
+		<LeaveHSBZModelTPS/>
+		<TongTinaDaSpaceFailure>
+			<Arg>		INT32 		</Arg>
+		</TongTinaDaSpaceFailure>
+		<OnCatchOriginPetResult>
+			<Arg>		INT32 		</Arg>
+		</OnCatchOriginPetResult>
+		<TongTinaDaSpaceSuccess>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</TongTinaDaSpaceSuccess>
+
+		<CLIENT_initLHMJBuild>
+			<Arg>		INT32 		</Arg>
+			<Arg>	DICT_INT_INT 		</Arg>
+		</CLIENT_initLHMJBuild>
+		<CLIENT_onUpgradeJadeItem>
+			<Arg>		UINT8 		</Arg>
+		</CLIENT_onUpgradeJadeItem>
+		<CLIENT_OnLHMJBuildLevelChange>
+			<Arg>		UINT8 		</Arg>
+			<Arg>		UINT8 		</Arg>
+		</CLIENT_OnLHMJBuildLevelChange>
+		<InitDongFuData>
+			<Arg>	CLIENT_DONGFUDATA	</Arg>
+			<Arg>		INT32 		</Arg>
+			<Arg>		POSITION 	</Arg>
+		</InitDongFuData>
+
+		<CLIENT_InitLHMJShopData>
+			<Arg>		INT32 		</Arg>
+			<Arg>		STRING 		</Arg>
+			<Arg>	SHOPMALL_ITEM_LIST	</Arg>
+		</CLIENT_InitLHMJShopData>
+		<CLIENT_reflashLHMJShopData>
+			<Arg>	SHOPMALL_ITEM_LIST	</Arg>
+		</CLIENT_reflashLHMJShopData>
+		<CLIENT_autoReflashLHMJShopData>
+			<Arg>	SHOPMALL_ITEM_LIST	</Arg>
+		</CLIENT_autoReflashLHMJShopData>
+		<CLIENT_reflashLHMJShopTime>
+			<Arg>		UINT8 		</Arg>
+		</CLIENT_reflashLHMJShopTime>
+		<CLIENT_OnSuccessBuyLHMJShopItem>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32 		</Arg>
+		</CLIENT_OnSuccessBuyLHMJShopItem>
+		<OnShowCompassUI>
+		</OnShowCompassUI>
+		<OnNotifyBuildPos>
+			<Arg>		POSITION	</Arg>
+			<Arg>		INT32 		</Arg>
+		</OnNotifyBuildPos>
+		<OccupyBuildResult>
+			<Arg>		INT32 		</Arg>
+		</OccupyBuildResult>
+		<StartBuildCaveHouse>
+			<Arg>		INT32 		</Arg>
+			<Arg>	STRING	</Arg>
+		</StartBuildCaveHouse>
+		<OnEnterCaveHouse>
+			<Arg>		INT32 		</Arg>
+		</OnEnterCaveHouse>
+		<OpenLingQuanUI>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		DICT_INT_INTDICT</Arg>
+			<Arg>		INT32		</Arg>
+		</OpenLingQuanUI>
+		<OnGuardReviveTime>
+			<Arg>		INT32 		</Arg>
+		</OnGuardReviveTime>
+		<StartBuildUpgrade>
+			<Arg>		INT32 		</Arg>
+			<Arg>		STRING		</Arg>
+		</StartBuildUpgrade>
+
+		<CLIENT_OnActiveBatteleFormations>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_OnActiveBatteleFormations>
+		<CLIENT_OnCloseBatteleFormations>
+		</CLIENT_OnCloseBatteleFormations>
+
+		<OnRequestPlayerDFDatas>
+			<Arg>		INT32 		</Arg>
+			<Arg>		ARRAY_INT32	</Arg>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>	CLIENT_DONGFUDATA_ARR	</Arg>
+		</OnRequestPlayerDFDatas>
+		<OnRequestDFDatas>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>	CLIENT_DONGFUDATA_ARR	</Arg>
+		</OnRequestDFDatas>
+		<OnRequestDFDatasByPage>
+			<Arg>	CLIENT_DONGFUDATA_ARR	</Arg>
+		</OnRequestDFDatasByPage>
+
+		<OpenRepairBuildUI>
+			<Arg>		INT8		</Arg>
+			<Arg>		DICT_INT_INT	</Arg>
+		</OpenRepairBuildUI>
+		<OnBeginRepairDFBuild>
+			<Arg>		INT8		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnBeginRepairDFBuild>
+		<OnRepairDFBuildFinish>
+			<Arg>		INT32		</Arg>
+		</OnRepairDFBuildFinish>
+	</ClientMethods>
+
+	<BaseMethods>
+		<requestLHMJShop>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		STRING 		</Arg>
+		</requestLHMJShop>
+		<requestReflashLHMJShop>
+		</requestReflashLHMJShop>
+		<BASE_autoReflashLHMJShop>
+			<Exposed/>
+		</BASE_autoReflashLHMJShop>
+	</BaseMethods>
+
+	<CellMethods>
+		<onEnterHSBZModelTPS>
+			<Exposed/>
+		</onEnterHSBZModelTPS> 
+		<onLeaveHSBZModelTPS>
+			<Exposed/>
+		</onLeaveHSBZModelTPS>
+		<onAgainChallengeCurrentLayer>
+			<Exposed/>
+		</onAgainChallengeCurrentLayer>
+		<onContinueChallengeLayer>
+			<Exposed/>
+		</onContinueChallengeLayer>
+
+		<initDongFuDatas>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32 		</Arg>
+			<Arg>		POSITION	</Arg>
+			<Arg>		DICT_INT_INT	</Arg>
+			<Arg>		DICT_INT_INTDICT</Arg>
+			<Arg>		DICT_INT_INT	</Arg>
+			<Arg>		INT32 		</Arg>
+		</initDongFuDatas>
+		<onInitDongFuErr>
+		</onInitDongFuErr>
+		<requestPlayerDFDatas>
+			<Exposed/>
+		</requestPlayerDFDatas>
+		<requestDFDatas>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</requestDFDatas>
+		<requestDFDatasByPage>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT8 		</Arg>
+		</requestDFDatasByPage>
+
+		<CELL_requestBuyLHMJShopItem>
+			<Exposed/>
+			<Arg>		STRING 		</Arg>
+			<Arg>		INT32 		</Arg>
+			<Arg>		INT32 		</Arg>
+		</CELL_requestBuyLHMJShopItem>
+		<CELL_reflashLHMJShop>
+			<Exposed/>
+		</CELL_reflashLHMJShop>
+		<onCliskExplore>
+			<Exposed/>
+		</onCliskExplore>
+		<onCliskOccupyBuild>
+			<Exposed/>
+		</onCliskOccupyBuild> 
+		<onCliskBuildCaveHouse>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</onCliskBuildCaveHouse>
+		<onCliskEnterCaveHouse>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</onCliskEnterCaveHouse>
+		<onReceiveLingNeng>
+			<Exposed/>
+		</onReceiveLingNeng>
+		<onUpgradeBuild>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</onUpgradeBuild>
+		<onUpgradeBuildSuccess>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</onUpgradeBuildSuccess>
+		<updateGroundPosDict>
+			<Arg>		INT32 		</Arg>
+			<Arg>		POSITION	</Arg>
+		</updateGroundPosDict>
+
+		<onInitBFCallBack>
+			<Arg>		INT32 		</Arg>
+			<Arg>		BOOL 		</Arg>
+		</onInitBFCallBack>
+		<openBattleFormations>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</openBattleFormations>
+		<closeBattleFormations>
+			<Exposed/>
+		</closeBattleFormations>
+		<updateLHMJCoverHP>
+			<Arg>		INT32 		</Arg>
+		</updateLHMJCoverHP>
+		<onGuardReviveTime>
+			<Arg>		INT32 		</Arg>
+		</onGuardReviveTime>
+
+		<onRequestOccupyBuild>
+			<Arg>		INT32 		</Arg>
+		</onRequestOccupyBuild>
+		<onProtectTimeOut>
+		</onProtectTimeOut>
+
+		<onDFBuildDestroy>
+			<Arg>		INT8 		</Arg>
+			<Arg>		DICT_INT_INT	</Arg>
+		</onDFBuildDestroy>
+		<repairDFBuild>
+			<Exposed/>
+			<Arg>		INT32 		</Arg>
+		</repairDFBuild>
+		<onRepairDFBuildFinish>
+			<Arg>		INT8 		</Arg>
+		</onRepairDFBuildFinish>
+	</CellMethods>
+</root>

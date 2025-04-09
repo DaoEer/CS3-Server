@@ -1,0 +1,57 @@
+[
+    {
+        "useMoney": 40000, 
+        "name": "1", 
+        "lockMoney": 40000, 
+        "level": 1, 
+        "lowMoney": 50000, 
+        "perActivityForLowMoney": 10, 
+        "minActivity": 1000, 
+        "useActivity": 2400, 
+        "perActivity": 110
+    }, 
+    {
+        "useMoney": 120000, 
+        "name": "2", 
+        "lockMoney": 80000, 
+        "level": 2, 
+        "lowMoney": 120000, 
+        "perActivityForLowMoney": 10, 
+        "minActivity": 1575, 
+        "useActivity": 15000, 
+        "perActivity": 530
+    }, 
+    {
+        "useMoney": 200000, 
+        "name": "3", 
+        "lockMoney": 120000, 
+        "level": 3, 
+        "lowMoney": 200000, 
+        "perActivityForLowMoney": 10, 
+        "minActivity": 2210, 
+        "useActivity": 90000, 
+        "perActivity": 700
+    }, 
+    {
+        "useMoney": 500000, 
+        "name": "4", 
+        "lockMoney": 180000, 
+        "level": 4, 
+        "lowMoney": 300000, 
+        "perActivityForLowMoney": 10, 
+        "minActivity": 2830, 
+        "useActivity": 150000, 
+        "perActivity": 880
+    }, 
+    {
+        "useMoney": 2000000, 
+        "name": "5", 
+        "lockMoney": 250000, 
+        "level": 5, 
+        "lowMoney": 450000, 
+        "perActivityForLowMoney": 10, 
+        "minActivity": 3250, 
+        "useActivity": 250000, 
+        "perActivity": 1400
+    }
+]

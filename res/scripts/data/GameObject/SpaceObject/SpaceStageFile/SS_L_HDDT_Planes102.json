@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败多闻天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20010601#L_HDDT_Planes102"
+                }
+            }, 
+            "title": "前往云涯岛"
+        }, 
+        "3": {
+            "comment": "多闻天已无处可逃，速将其消灭，夺取解药", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败多闻天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010606", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010606#L_HDDT_Planes102"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜索多闻天尸体，获得解药", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010136", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20010606#L_HDDT_Planes102"
+                }
+            }, 
+            "title": "穷追不舍"
+        }, 
+        "2": {
+            "comment": "多闻天已逃入其中的某个房间中，速将其找出。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "从房间中找出多闻天", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-48816.0 -14902.0 11518.0)#L_HDDT_Planes102"
+                }
+            }, 
+            "title": "乘胜追击"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回云涯岛为九凤解毒", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-53553.3 -41845.6 13803.6)#L_HDDT_Planes102"
+                }
+            }, 
+            "title": "解毒"
+        }
+    }, 
+    "describe": "新版魔道1-10级", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救九凤"
+}

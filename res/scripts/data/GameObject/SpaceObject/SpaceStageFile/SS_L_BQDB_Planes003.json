@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败蛇妖哨兵", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005974|20005975|20005982", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-42280.035156 41513.781250 -1387.160645)#L_BQDB_Planes003"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败蛇妖卫兵", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005984|20005979|20005978", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-48690.527344 50014.832031 -834.224121)#L_BQDB_Planes003"
+                }
+            }, 
+            "title": "闯入蛇王岛"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "剿灭极阴蛇王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004473", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-59564.0 46829.0 -328.0)#L_BQDB_Planes003"
+                }
+            }, 
+            "title": "勇斗蛇王"
+        }
+    }, 
+    "describe": "蛇王岛", 
+    "beginOnSpaceInit": 1, 
+    "name": "蛇王岛"
+}

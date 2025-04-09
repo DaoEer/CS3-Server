@@ -1,0 +1,104 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<givingGoodsData>
+			<Type>		GIVING_GOODS_DATA_LIST		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</givingGoodsData>
+		<lingShiTradeData>
+			<Type>		LINGSHITRADE_DATAS		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</lingShiTradeData>
+		<lingShiTradeSuccessDatas>
+			<Type>		LINGSHITRADE_SUCCESS_DATAS		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</lingShiTradeSuccessDatas>
+	</Properties>
+
+	<BaseMethods>
+		<requestShopMallItemList>
+			<Arg>	ENTITYCALL	</Arg>
+		</requestShopMallItemList>
+		<requestBuyShopMallItem>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</requestBuyShopMallItem>
+		<returnBuyShopMallItem>
+			<Arg>	BOOL	</Arg>
+			<Arg>	STRING	</Arg>
+		</returnBuyShopMallItem>
+
+		<addToGivingGoodsData>
+			<Arg>	GOODS_DATA	</Arg>
+		</addToGivingGoodsData>
+
+		<dealToGivingGoodsData>
+			<Arg> STRING</Arg>
+			<Arg> DOUBLE </Arg>
+			<Arg> INT32 </Arg>
+		</dealToGivingGoodsData>
+
+		<clearGivingGoodsDataRecord>
+			<Arg> STRING</Arg>
+		</clearGivingGoodsDataRecord>
+
+		<onRoleLoginInitGivingGoodsData>
+			<Arg> ENTITYCALL</Arg>
+			<Arg> DBID	</Arg>
+		</onRoleLoginInitGivingGoodsData>
+
+		<addLingShiTradeData>
+			<Arg> LINGSHITRADE_DATA</Arg>
+			<Arg> ENTITYCALL</Arg>
+		</addLingShiTradeData>
+
+		<dealLinShiTradeOrder>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  STRING </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg> ENTITYCALL</Arg>
+			<Arg> DBID	</Arg>
+		</dealLinShiTradeOrder>
+
+		<removeLingShiTradeOrder>
+			<Arg>  STRING </Arg>
+			<Arg> ENTITYCALL</Arg>
+		</removeLingShiTradeOrder>
+
+		<refreshPlayerOrder>
+			<Arg> ENTITYCALL</Arg>
+			<Arg> DBID	</Arg>
+		</refreshPlayerOrder>
+
+		<takeOutMoney>
+			<Arg> ENTITYCALL</Arg>
+			<Arg> DBID	</Arg>
+		</takeOutMoney>
+		<takeOutMoneyCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg> ENTITYCALL</Arg>
+		</takeOutMoneyCB>
+		<refreshAllSellOrder>
+			<Arg> ENTITYCALL</Arg>
+			<Arg> DBID	</Arg>
+		</refreshAllSellOrder>
+		<refreshAllCollectOrder>
+			<Arg> ENTITYCALL</Arg>
+			<Arg> DBID	</Arg>
+		</refreshAllCollectOrder>
+		<requestGetOrder>
+			<Arg> ENTITYCALL</Arg>
+			<Arg> DBID	</Arg>
+		</requestGetOrder>
+	</BaseMethods>
+</root>

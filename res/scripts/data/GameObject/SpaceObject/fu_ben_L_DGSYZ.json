@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "帝宫石印阵",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildAdventure",
+"scriptID"	: "fu_ben_L_DGSYZ",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_DGSYZ",
+"NavmeshPath"	: "space\\L_DGSYZ_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544016,
+	"spaceIntroduce":{"voiceID":"C001494|C001495"},
+	"enterPosition":"3057 -514 -94",
+	"enterDirection":"0 0 0",
+	"stageFile":"SS_fu_ben_L_DGSYZ",
+	"eventFile":"SE_fu_ben_L_DGSYZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

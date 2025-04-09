@@ -1,0 +1,23 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<addScheme>
+			<Arg>	STRING	</Arg>                   <!-- key -->
+			<Arg>	STRING	</Arg>                   <!-- cmd -->
+			<Arg>	BASE_ENTITYCALL	</Arg>           <!-- baseMailBox -->
+			<Arg>	STRING	</Arg>                   <!-- callbackName -->
+			<Arg>	INT32	</Arg>                   <!-- activeTimes -->
+			<Arg>	PYTHON	</Arg>                   <!-- callbackArgs -->
+		</addScheme>
+
+		<callSchemeByScriptID>
+			<Arg>	UNICODE	</Arg>                   <!-- key -->
+		</callSchemeByScriptID>
+	</BaseMethods>
+</root>

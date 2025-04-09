@@ -1,0 +1,46 @@
+<root>
+	<Properties>
+		<curResearchSkill>
+			<Type>		TONG_RESEARCH_SKILL	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</curResearchSkill>
+		<curSkillLevelList>
+		    <Type>	ARRAY <of> SKILL_ID </of>	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</curSkillLevelList>
+		<researchSkillList>
+			<Type>	ARRAY <of> SKILL_ID </of>	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</researchSkillList>
+		<pauseResearchSkillList>
+			<Type>	TONG_RESEARCH_SKILLS		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</pauseResearchSkillList>
+	</Properties>
+	<BaseMethods>
+		<researchSkill>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	SKILL_ID		</Arg>
+		</researchSkill>
+		<pauseSkill>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	SKILL_ID		</Arg>
+		</pauseSkill>
+		<tryStudyTongSkill>
+			<Arg>	DBID		</Arg>
+			<Arg>	SKILL_ID		</Arg>
+		</tryStudyTongSkill>
+		<onDailyTongQuestFinish>
+			<Arg>	DBID		</Arg>
+		</onDailyTongQuestFinish>
+	</BaseMethods>
+
+	<ClientMethods>
+
+	</ClientMethods>
+</root>

@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到达通天崖山下", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-10521 10786 145:15", 
+                    "param2": "839|-790", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "前往通天崖山下"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败通天崖守卫：刑风", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001967", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败刑风"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到达通天崖顶峰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-10020 12460|-9060 12460|-9200 8890|-10270 8890", 
+                    "param2": "12157|10644", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "攀崖"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败最后首领：云飞", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001968", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败云飞"
+        }
+    }, 
+    "describe": "副本通天崖流程", 
+    "beginOnSpaceInit": 1, 
+    "name": "通天崖副本"
+}

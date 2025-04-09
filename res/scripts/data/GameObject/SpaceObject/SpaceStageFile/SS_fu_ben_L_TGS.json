@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "一探究竟", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭沿途出现的守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012345|20012346|20012347|20012348|20012349|20012350", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入天公山"
+        }, 
+        "3": {
+            "comment": "击败一号boss", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败一号BOSS", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012357", 
+                    "type": "SStageTask_NPCObjectDestroy", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败一号boss"
+        }, 
+        "2": {
+            "comment": "一探究竟", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "走出山洞", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-17043 -13308 -3486:20", 
+                    "param2": "-3300|-3600", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "漆黑山洞"
+        }, 
+        "5": {
+            "comment": "消灭二号bos", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭二号boss", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012358", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "消灭二号bo"
+        }, 
+        "4": {
+            "comment": "摆脱妖兵追击", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摆脱追兵速过石桥", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-9588 -30794 -3935:20", 
+                    "param2": "-3800|-4100", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "摆脱追击"
+        }, 
+        "6": {
+            "comment": "消灭三号boss", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天3号boss", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012359", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "通关天公山"
+        }
+    }, 
+    "describe": "37级经验副本天公山", 
+    "beginOnSpaceInit": 1, 
+    "name": "天公山"
+}

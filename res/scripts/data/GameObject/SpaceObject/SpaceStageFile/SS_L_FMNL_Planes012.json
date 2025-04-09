@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "击败拦路的虬云", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败虬云", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "444", 
+                    "param2": "20011175", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "鏖战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "激战虬云"
+}

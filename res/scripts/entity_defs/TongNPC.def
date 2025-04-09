@@ -1,0 +1,27 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Parent>
+		NPC
+	</Parent>
+	<Implements>
+		<Interface>	NPCAmbulantInterface		</Interface>
+	</Implements>
+
+	<Properties>
+		<ownTongDBID>
+			<Type>		DBID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</ownTongDBID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

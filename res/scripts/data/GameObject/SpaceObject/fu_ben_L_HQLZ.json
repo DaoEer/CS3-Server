@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "获取灵珠",
+"EntityType"	: "SpaceCopyJiYuanHQLZ",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJiYuan",
+"scriptID"	: "fu_ben_L_HQLZ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_fu_ben_L_HQLZ",
+"NavmeshPath"	: "space\\L_YMK_2_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_HQLZ",
+"belongType"	: "1",
+"SpaceAoi"	: 200.0,
+"SpaceHoldEffect"	:"101010106",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "341 21841 10864",
+	"Direction"	: ".0 0.0 91.1"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"spaceIntroduce":{"voiceID":"C001973|C001974"},
+	"enterPosition":"-273869.9 -205489.7 -2637.7",
+	"enterDirection":"0 0 -55",
+	"statisticsFile":"",
+	"stageFile":"SS_fu_ben_L_HQLZ",
+	"eventFile":"SE_fu_ben_L_HQLZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+	"monsterUseSpaceLevel":1
+		},
+"DomainData"	:{
+	}
+}

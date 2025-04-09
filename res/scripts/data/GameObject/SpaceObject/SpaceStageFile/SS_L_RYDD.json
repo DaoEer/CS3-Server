@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭烈焰火灵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012933|20012934", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012933|20012934#L_RYDD"
+                }
+            }, 
+            "title": "熔岩地洞"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭烈焰之魂", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012939|20012940", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012939|20012940#L_RYDD"
+                }
+            }, 
+            "title": "烈焰之魂"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭烈焰护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012941", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012941#L_RYDD"
+                }
+            }, 
+            "title": "烈焰护法"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "降服重明鸟，夺回噬灵神石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010166", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20012943#L_RYDD"
+                }
+            }, 
+            "title": "噬灵神石"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追上重明鸟", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-38078.554688 13118.034180 11842.422852:12", 
+                    "param2": "13000|10000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-38078.554688 13118.034180 11842.422852)#L_RYDD"
+                }
+            }, 
+            "title": "继续追击"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回修罗殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-38910.972656 13030.408203 11722.424805)#L_RYDD"
+                }
+            }, 
+            "title": "返回修罗殿"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "噬灵神石（二）"
+}

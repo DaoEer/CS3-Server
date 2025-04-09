@@ -1,0 +1,34 @@
+﻿{
+"SpaceName"	: "密道历险",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildAdventure",
+"scriptID"	: "fu_ben_L_MDLX1",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_MDLX",
+"NavmeshPath"	: "space\\L_QY_MDLX_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_QY_MDLX",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544021,
+	"spaceIntroduce":{"voiceID":"C001466|C001467"},
+	"enterPosition":"-11068 9181 5",
+	"enterDirection":"0 0 -100",
+	"stageFile":"SS_fu_ben_L_MDLX",
+	"eventFile":"SE_fu_ben_L_MDLX1",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1,
+        "spaceHPModifyRatio":"0.2",
+	"spaceDamageModifyRatio":"0.2"
+	},
+"DomainData"	:{
+	}
+}

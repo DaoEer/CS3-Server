@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "小心迷雾，找到并采集一朵金莲", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "采集金莲", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "40000132", 
+                    "type": "SStageTask_triggerBox", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "采集金莲"
+        }, 
+        "3": {
+            "comment": "避开滴落的水滴，穿过层叠的荷叶，找到并击败镜莲", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败镜莲", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006702", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败镜莲"
+        }, 
+        "2": {
+            "comment": "通过荷叶道路，进入天池深处。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到赤血莲妖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "123", 
+                    "param2": "20006703", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "找到赤血莲妖"
+        }, 
+        "4": {
+            "comment": "击败赤血莲妖，通过幻莲考验", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤血莲妖", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006703", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败赤血莲妖"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "幻莲天池"
+}

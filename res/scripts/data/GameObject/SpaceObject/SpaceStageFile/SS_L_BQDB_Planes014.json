@@ -1,0 +1,126 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "汇合公孙盘", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "38070 37820 1230:8", 
+                    "param2": "6000|-4000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(38070 37820 1230)#L_BQDB_Planes014"
+                }
+            }, 
+            "title": "竖立圣像"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "击退来犯的血兽", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006059|20006069|20006079|20006089|20006099", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006059|20006069|20006079|20006089|20006099#L_BQDB_Planes014"
+                }
+            }, 
+            "title": "击退来犯的血兽"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "竖立圣象", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(38070 37820 1230)#L_BQDB_Planes014"
+                }
+            }, 
+            "title": "为九天玄女护法"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "击退东面营房的妖族", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006066|20006067|20006068|20006076|20006077|20006078|20006086|20006087|20006088|20006096|20006097|20006098|20006106|20006107|20006108|20006111|20006112", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(48570 28900 970)#L_BQDB_Planes014"
+                }
+            }, 
+            "title": "支援东面营房"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "击退部落西面的妖族", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006063|20006064|20006065|20006073|20006074|20006075|20006083|20006084|20006085|20006093|20006094|20006095|20006103|20006104|20006105|20006109|20006110", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(25840 27760 418)#L_BQDB_Planes014"
+                }
+            }, 
+            "title": "支援部落西面"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "兽王狴犴", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(37860 28730 631)#L_BQDB_Planes014"
+                }
+            }, 
+            "title": "击退兽王狴犴"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败血蛟", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006113", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(37860 28730 631)#L_BQDB_Planes014"
+                }
+            }, 
+            "title": "击退再次来犯的血兽"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 0, 
+    "name": "竖立圣像"
+}

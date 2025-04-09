@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "穿越浮台", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "303", 
+                    "param2": "30000780", 
+                    "param1": "Trap", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "抵达镇天台"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "急速穿梭"
+}

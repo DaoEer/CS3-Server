@@ -1,0 +1,119 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路粉色嘟嘟猪", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002897|20002898", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002897|20002898#L_SMZZ_mo"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路大头恐龙及嘟嘟猪", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002901|20002902|20002903", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002901|20002902|20002903#L_SMZZ_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路紫色嘟嘟猪", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002899|20002900", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002899|20002900#L_SMZZ_mo"
+                }
+            }, 
+            "title": "勇往直前"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭飞天猪王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002914", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002914#L_SMZZ_mo"
+                }
+            }, 
+            "title": "大战飞天猪王"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "制裁右前方嘟嘟猪", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002904|20002905", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002904|20002905#L_SMZZ_mo"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "制裁大嘟嘟猪", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002908|20002909|20002910", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002908|20002909|20002910#L_SMZZ_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "制裁正前方嘟嘟猪", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002906|20002907", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002906|20002907#L_SMZZ_mo"
+                }
+            }, 
+            "title": "深入腹地"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打开宝箱，取得噬魂珠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010051", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(-14715.277344 19850.000000 -12050.785156)#L_SMZZ_mo"
+                }
+            }, 
+            "title": "获取灵气"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "神脉沼泽"
+}

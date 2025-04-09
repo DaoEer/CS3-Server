@@ -1,0 +1,212 @@
+{
+    "1": {
+        "stage_taoism": "仙兵", 
+        "xiuweiLevel": 1, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 1, 
+        "stage_demon": "魔兵"
+    }, 
+    "2": {
+        "stage_taoism": "仙兵", 
+        "xiuweiLevel": 10, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 2, 
+        "stage_demon": "魔兵"
+    }, 
+    "3": {
+        "stage_taoism": "仙兵", 
+        "xiuweiLevel": 15, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 3, 
+        "stage_demon": "魔兵"
+    }, 
+    "4": {
+        "stage_taoism": "仙师", 
+        "xiuweiLevel": 20, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 4, 
+        "stage_demon": "魔师"
+    }, 
+    "5": {
+        "stage_taoism": "仙师", 
+        "xiuweiLevel": 25, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 5, 
+        "stage_demon": "魔师"
+    }, 
+    "6": {
+        "stage_taoism": "仙师", 
+        "xiuweiLevel": 30, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 6, 
+        "stage_demon": "魔师"
+    }, 
+    "7": {
+        "stage_taoism": "仙灵", 
+        "xiuweiLevel": 35, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 7, 
+        "stage_demon": "魔灵"
+    }, 
+    "8": {
+        "stage_taoism": "仙灵", 
+        "xiuweiLevel": 40, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 8, 
+        "stage_demon": "魔灵"
+    }, 
+    "9": {
+        "stage_taoism": "仙灵", 
+        "xiuweiLevel": 45, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 9, 
+        "stage_demon": "魔灵"
+    }, 
+    "10": {
+        "stage_taoism": "仙将", 
+        "xiuweiLevel": 50, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 10, 
+        "stage_demon": "魔将"
+    }, 
+    "11": {
+        "stage_taoism": "仙将", 
+        "xiuweiLevel": 55, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 11, 
+        "stage_demon": "魔将"
+    }, 
+    "12": {
+        "stage_taoism": "仙将", 
+        "xiuweiLevel": 60, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 12, 
+        "stage_demon": "魔将"
+    }, 
+    "13": {
+        "stage_taoism": "仙君", 
+        "xiuweiLevel": 65, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 13, 
+        "stage_demon": "魔君"
+    }, 
+    "14": {
+        "stage_taoism": "仙君", 
+        "xiuweiLevel": 70, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 14, 
+        "stage_demon": "魔君"
+    }, 
+    "15": {
+        "stage_taoism": "仙君", 
+        "xiuweiLevel": 75, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 15, 
+        "stage_demon": "魔君"
+    }, 
+    "16": {
+        "stage_taoism": "仙王", 
+        "xiuweiLevel": 80, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 16, 
+        "stage_demon": "魔王"
+    }, 
+    "17": {
+        "stage_taoism": "仙王", 
+        "xiuweiLevel": 85, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 17, 
+        "stage_demon": "魔王"
+    }, 
+    "18": {
+        "stage_taoism": "仙王", 
+        "xiuweiLevel": 90, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 18, 
+        "stage_demon": "魔王"
+    }, 
+    "19": {
+        "stage_taoism": "仙皇", 
+        "xiuweiLevel": 95, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 19, 
+        "stage_demon": "魔皇"
+    }, 
+    "20": {
+        "stage_taoism": "仙皇", 
+        "xiuweiLevel": 100, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 20, 
+        "stage_demon": "魔皇"
+    }, 
+    "21": {
+        "stage_taoism": "仙皇", 
+        "xiuweiLevel": 105, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 21, 
+        "stage_demon": "魔皇"
+    }, 
+    "22": {
+        "stage_taoism": "仙帝", 
+        "xiuweiLevel": 110, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 22, 
+        "stage_demon": "魔帝"
+    }, 
+    "23": {
+        "stage_taoism": "仙帝", 
+        "xiuweiLevel": 115, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 23, 
+        "stage_demon": "魔帝"
+    }, 
+    "24": {
+        "stage_taoism": "仙帝", 
+        "xiuweiLevel": 120, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 24, 
+        "stage_demon": "魔帝"
+    }, 
+    "25": {
+        "stage_taoism": "仙尊", 
+        "xiuweiLevel": 125, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 25, 
+        "stage_demon": "魔尊"
+    }, 
+    "26": {
+        "stage_taoism": "仙尊", 
+        "xiuweiLevel": 130, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 26, 
+        "stage_demon": "魔尊"
+    }, 
+    "27": {
+        "stage_taoism": "仙尊", 
+        "xiuweiLevel": 135, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 27, 
+        "stage_demon": "魔尊"
+    }, 
+    "28": {
+        "stage_taoism": "仙神", 
+        "xiuweiLevel": 140, 
+        "stage_layers": "初级", 
+        "jingjieLevel": 28, 
+        "stage_demon": "魔圣"
+    }, 
+    "29": {
+        "stage_taoism": "仙神", 
+        "xiuweiLevel": 145, 
+        "stage_layers": "中级", 
+        "jingjieLevel": 29, 
+        "stage_demon": "魔圣"
+    }, 
+    "30": {
+        "stage_taoism": "仙神", 
+        "xiuweiLevel": 150, 
+        "stage_layers": "高级", 
+        "jingjieLevel": 30, 
+        "stage_demon": "魔圣"
+    }
+}

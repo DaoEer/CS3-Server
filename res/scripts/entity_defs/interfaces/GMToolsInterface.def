@@ -1,0 +1,22 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<gmProLogTimerID>
+			<Type>			INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</gmProLogTimerID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

@@ -1,0 +1,344 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<pointDatas>
+			<Type>			BHZBPOINTDATAMGR	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true				</Persistent>
+		</pointDatas>
+		<tongDataMgr>
+			<Type>			BHZBTONGDATAMGR	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true				</Persistent>
+		</tongDataMgr>
+		<tongIntegralMgr>
+			<Type>			BHZBTONGINTEGRALRANKMGR	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true				</Persistent>
+		</tongIntegralMgr>
+		<signUpTongDataMgr>
+			<Type>			BHZBSINGUPTONGDATAMGR	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true				</Persistent>
+		</signUpTongDataMgr>
+		<tongNpcHomeBarracks>
+			<Type>			PYTHON_DICT	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true				</Persistent>
+		</tongNpcHomeBarracks>
+		<pointSpaceSaveInfoMgr>
+			<Type>			BHZBPOINTSPACESAVEINFOMGR	</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>		true				</Persistent>
+		</pointSpaceSaveInfoMgr>
+		<allTongIntegralMgr>
+			<Type>			ALLBHZBTONGINTEGRALRANKMGR	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true				</Persistent>
+		</allTongIntegralMgr>
+	</Properties>
+
+	<BaseMethods>
+		<signUPBHZB>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BHZBSIGNMEMBERDATAS	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</signUPBHZB>
+		<enterBHZBHomeBarracks>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</enterBHZBHomeBarracks>
+		<enterBHZBStandMap>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	DIRECTION	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>
+		</enterBHZBStandMap>
+		<requestBHZBPointDatas>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</requestBHZBPointDatas>
+		<requestGotoNPCExtPointWar>
+			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 			<Arg>	CELL_ENTITYCALL	</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 		</requestGotoNPCExtPointWar>
+ 		<openBHZBIntegralRank>
+ 			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+ 		</openBHZBIntegralRank>
+ 		<addOccupyPointDatas>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	UINT8			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 		</addOccupyPointDatas>
+ 		<changeNPCPointData>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</changeNPCPointData>
+ 		<openSignUpBHZBRankWin>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL	</Arg>
+ 		</openSignUpBHZBRankWin>
+ 		<changeSignUpBHZBMember>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	BHZBSIGNMEMBERDATAS	</Arg>
+ 		</changeSignUpBHZBMember>
+ 		<onBHZBCreateTeam>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</onBHZBCreateTeam>
+ 		<onBHZBMemberJoinTeam>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</onBHZBMemberJoinTeam>
+ 		<onBHZBChangeCaptain>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</onBHZBChangeCaptain>
+ 		<sureAllIsBHZBMember>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	BHZBSIGNMEMBERDATAS	</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</sureAllIsBHZBMember>
+ 		<changeBHZBMemberTeam>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	BHZBSIGNMEMBERDATAS	</Arg>
+ 		</changeBHZBMemberTeam>
+ 		<onRoleLoginBHZB>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</onRoleLoginBHZB>
+ 		<changeMemberGroup>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	PYTHON_DICT		</Arg>
+ 		</changeMemberGroup>
+ 		<initNPCPointDataToHomeBarracks>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	BHZBPOINTDATAS	</Arg>
+ 		</initNPCPointDataToHomeBarracks>
+ 		<updataNPCPointRestEndTime>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	STRING			</Arg>
+ 		</updataNPCPointRestEndTime>
+ 		<updataNPCPointReadyEndTime>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	STRING			</Arg>
+ 		</updataNPCPointReadyEndTime>
+ 		<updataNPCPointDeclareWarState>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	UINT8			</Arg>
+ 		</updataNPCPointDeclareWarState>
+ 		<updataNPCPointOccupyTongDBID>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	UINT64			</Arg>
+ 		</updataNPCPointOccupyTongDBID>
+ 		<updataHomeBarracksDataToAllMember>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BHZBMAPHOMEBARRACKSDATAS			</Arg>
+ 		</updataHomeBarracksDataToAllMember>
+ 		<requestGotoBHZBHomeBarrack>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</requestGotoBHZBHomeBarrack>
+ 		<updataMemberPositionToClient>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BHZBMAPMEMBERPOSITIONDATAS			</Arg>
+ 		</updataMemberPositionToClient>
+ 		<declareBHZBPoint>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 			<Arg>	ARRAY_DBID			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 			<Arg>	ARRAY_STRING			</Arg>
+ 		</declareBHZBPoint>
+ 		<cancelDeclareBHZBPoint>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</cancelDeclareBHZBPoint>
+ 		<requestPointDetails>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</requestPointDetails>
+ 		<joinBHZBPointFight>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 			<Arg>	ARRAY_DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</joinBHZBPointFight>
+ 		<cancelJoinBHZBPointFight>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</cancelJoinBHZBPointFight>
+ 		<onBHZBPointWarFail>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</onBHZBPointWarFail>
+ 		<onBHZBPointWarSuccess>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</onBHZBPointWarSuccess>
+ 		<defenseBHZBPoint>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	ARRAY_DBID			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</defenseBHZBPoint>
+ 		<saveBHZBPointSpaceInfo>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BHZBPOINTSPACESAVEINFOS			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</saveBHZBPointSpaceInfo>
+ 		<requestBHZBPointSpaceSaveInfo>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 		</requestBHZBPointSpaceSaveInfo>
+ 		<occupyPointAddIntergral>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	FLOAT			</Arg>
+ 		</occupyPointAddIntergral>
+ 		<showBHZBIntegralRankWin>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	BASE_ENTITYCALL			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</showBHZBIntegralRankWin>
+ 		<sendBHZBRewardToMembers>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	ARRAY_DBID			</Arg>
+ 			<Arg>	ARRAY_STRING			</Arg>
+ 			<Arg>	ARRAY_STRING			</Arg>
+ 			<Arg>	ARRAY_STRING			</Arg>
+ 			<Arg>	ARRAY_INT32			</Arg>
+ 			<Arg>	ARRAY_STRING			</Arg>
+ 			<Arg>	STRING			</Arg>
+ 			<Arg>	STRING			</Arg>
+ 		</sendBHZBRewardToMembers>
+ 		<updateWarTongActivity>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</updateWarTongActivity>
+ 		<addBHZBWarMsgData>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	DBID			</Arg>
+ 			<Arg>	INT32			</Arg>
+ 			<Arg>	UNICODE			</Arg>
+ 		</addBHZBWarMsgData>
+ 		<checkIsLoginToBHZBPoint>
+ 			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+ 		</checkIsLoginToBHZBPoint>
+ 		<onBHZBMemberOffLine>
+ 			<Arg>	DBID		</Arg>
+ 			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+ 		</onBHZBMemberOffLine>
+ 		<requestOpenBHZBNpcPointMap>
+ 			<Arg>	INT32			</Arg>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+ 		</requestOpenBHZBNpcPointMap>
+ 		<queryAllBHZBIntegralData>
+ 			<Arg>	BASE_ENTITYCALL		</Arg>
+ 			<Arg>	INT32			</Arg>
+ 		</queryAllBHZBIntegralData>
+	</BaseMethods>
+</root>

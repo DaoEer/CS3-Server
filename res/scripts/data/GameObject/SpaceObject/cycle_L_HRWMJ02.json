@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "神风仙境",					
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainLoopQuest",
+"EntityScript"	: "SpaceCopyRingTask",
+"scriptID"	: "cycle_L_HRWMJ02",
+"NavmeshPath"	: "space\\L_SFXJ_NAVMESH",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_HRWMJ02",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",	
+	"Position"	: "6139 26797 11021", 
+	"Direction"	: "0.0 0.0 100"
+	},
+"SpaceData"	:{
+	"enterPosition":"-38390 14000 18610",
+	"enterDirection":"0 0 0",
+	"stageFile":"SS_L_HRWMJ02",
+	"eventFile":"SE_L_HRWMJ02",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|4",
+	"reviveScriptID":"cycle_L_HRWMJ02",
+	"revivePosition":[-38390,14000,18610],
+	"reviveDirection":[0,0,0],
+	"monsterUseSpaceLevel":1,
+	"xiuXianQuestID":"80135046|80135042|80135044|80135047|80135048|80135051|80135052|80135056|80135057|80135045|80135050|80135055|80135049|80135059"
+	},
+"DomainData"	:{
+	}
+}

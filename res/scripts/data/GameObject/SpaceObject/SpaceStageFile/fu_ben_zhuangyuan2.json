@@ -1,0 +1,83 @@
+{
+	"stages":{
+		"1":{
+			"comment":"杀死小怪",
+			"tasks":{
+				"1":{
+					"title":"消灭4个荒月狼妖！",
+					"reqVal":4,
+					"param3":"",
+					"param2":"",
+					"param1":"20000898",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"杀敌"
+		},
+		"3":{
+			"comment":"击杀小怪",
+			"tasks":{
+				"1":{
+					"title":"消灭4个荒月妖法。",
+					"reqVal":4,
+					"param3":"",
+					"param2":"",
+					"param1":"20000903",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"杀敌"
+		},
+		"2":{
+			"comment":"找到并且击杀真妖灵",
+			"tasks":{
+				"1":{
+					"title":"找到妖灵真身，并且将其击杀。",
+					"reqVal":1,
+					"param3":"",
+					"param2":"",
+					"param1":"20000896",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"杀死真妖灵"
+		},
+		"5":{
+			"comment":"击杀BOSS",
+			"tasks":{
+				"1":{
+					"title":"消灭最后BOSS",
+					"reqVal":1,
+					"param3":"",
+					"param2":"",
+					"param1":"20000906",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"击杀BOSS"
+		},
+		"4":{
+			"comment":"找到并且击杀真妖灵",
+			"tasks":{
+				"1":{
+					"title":"找到妖灵真身，并且将其击杀。",
+					"reqVal":1,
+					"param3":"",
+					"param2":"",
+					"param1":"20000904",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"杀死真妖灵"
+		}
+		
+	},
+	"describe":"练习使用",
+	"beginOnSpaceInit":1,
+	"name":"荒月庄园第二段"
+}

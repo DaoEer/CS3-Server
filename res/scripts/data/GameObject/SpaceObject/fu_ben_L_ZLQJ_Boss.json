@@ -1,0 +1,30 @@
+﻿{
+"SpaceName"	: "boss战demo新地图",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_ZLQJ_Boss",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_fu_ben_L_ZLQJ_Boss",
+"NavmeshPath"	: "space\\L_ZLQJ_03_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"RoleRelationRule": "",
+"ExitSpace"	:{
+	"ScriptID"	: "bigmap_1",
+	"Position"	: "45790 -53720 -1300",
+	"Direction"	: "0.0 0.0 0.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 60,
+	"enterPosition":"-3512.0 -3409.0 555.0",
+	"enterDirection":"0 0 90",
+	"stageFile":"SS_fu_ben_L_ZLQJ_Boss",
+	"eventFile":"SE_fu_ben_L_ZLQJ_Boss",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1 
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,117 @@
+<root>
+	<Interfaces>
+		<Interface> 	HasCellOjbect	</Interface>
+		<Interface>	EntitySpaceEventInterface	</Interface>
+	</Interfaces>
+	<Properties>
+		<scriptID>
+			<Type>			SCRIPT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false			</Persistent>
+		</scriptID>
+		<uname>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</uname>
+
+		<entityScript>
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</entityScript>
+		<title>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		false		</Persistent>
+		</title>
+		<faction>			<!--势力-->
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false		</Persistent>
+		</faction>
+		<tempFaction>			<!--临时势力-->
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false		</Persistent>
+		</tempFaction>
+		<camp>				<!--阵营-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false		</Persistent>
+		</camp>
+		<tempCamp>			<!--临时阵营-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false		</Persistent>
+		</tempCamp>
+		<attrLevel>			<!--分类-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false		</Persistent>
+		</attrLevel>
+		<level>
+			<Type>		INT16		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	1			</Default>
+			<Persistent>	false			</Persistent>
+		</level>
+		<randomWalkRange>	<!-- 随机移动范围 -->
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0				</Default>
+			<Persistent>		false			</Persistent>
+		</randomWalkRange>
+		<randomWalkTime>	<!-- 随机移动间隔时间 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</randomWalkTime>
+		<spawnIndex>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		-1				</Default>
+		</spawnIndex>
+		<clusterPosIndex>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		-1				</Default>
+		</clusterPosIndex>
+		<group>
+			<Type>			INT16			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</group>
+		<initActionId>
+			<Type>			STRING				</Type>
+			<Flags>		ALL_CLIENTS				</Flags>
+		</initActionId>
+		<modelNumber>
+			<Type>			UNICODE			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</modelNumber>
+		<displayOnClient>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</displayOnClient> 
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_StartMoveJump/>
+		<CLIENT_EndMoveJump/>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_gossipWith>
+			<Exposed/>
+		</CELL_gossipWith>
+		
+	</CellMethods>
+</root>

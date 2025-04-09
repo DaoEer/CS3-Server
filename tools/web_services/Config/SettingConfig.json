@@ -1,0 +1,90 @@
+{
+	"CurWebServer"	: "Local",
+	"Local":{
+		"WebDebug"				: true,
+		"OpenAccountVerify"			: false,
+		"SignKey"				: "CSOL3",
+		"WebServicesLogFile"	: "web_services.log",
+		"DefaultHandlers"		: ["console"],
+		"WebServerDB"			: {
+			"Name"     		: "web_services",
+			"User"			: "root",
+			"Password"		: "123456",
+			"Host"			: "127.0.0.1",
+			"Port"			: "3306"
+		},
+		"CS3DB"					: {
+			"Name"     		: "csol3",
+			"User"			: "root",
+			"Password"		: "123456",
+			"Host"			: "127.0.0.1",
+			"Port"			: "3306"
+		},
+		"Charge"			: {
+			"SignType"		: "MD5",
+			"SignKey"		: "ClKhjAWP",
+			"ValidTime"		: 300,
+			"ServerGmPort"	: 39000,
+			"ServerGmHosts": ["127.0.0.1"],
+			"RequestHosts": ["127.0.0.1"]
+		}
+	},
+	"Trunk":{
+		"WebDebug"				: false,
+		"OpenAccountVerify"			: false,
+		"SignKey"				: "CSOL3",
+		"WebServicesLogFile"	: "web_services.log",
+		"DefaultHandlers"		: ["console"],
+		"WebServerDB"			: {
+			"Name"     		: "web_services",
+			"User"			: "root",
+			"Password"		: "123456",
+			"Host"			: "127.0.0.1",
+			"Port"			: "3306"
+		},
+		"CS3DB"					: {
+			"Name"     		: "csol3",
+			"User"			: "root",
+			"Password"		: "123456",
+			"Host"			: "127.0.0.1",
+			"Port"			: "3306"
+		},
+		"Charge"			: {
+			"SignType"		: "MD5",
+			"SignKey"		: "ClKhjAWP",
+			"ValidTime"		: 300,
+			"ServerGmPort"	: 39000,
+			"ServerGmHosts": ["127.0.0.1"],
+			"RequestHosts": ["127.0.0.1"]
+		}
+	},
+	"Operate":{
+		"WebDebug"				: false,
+		"OpenAccountVerify"			: false,
+		"SignKey"				: "CSOL3",
+		"WebServicesLogFile"	: "/var/log/web_services.log",
+		"DefaultHandlers"		: ["TimedRotatingFile"],
+		"WebServerDB"			: {
+			"Name"     		: "web_services",
+			"User"			: "root",
+			"Password"		: "123456",
+			"Host"			: "127.0.0.1",
+			"Port"			: "3306"
+		},
+		"CS3DB"					: {
+			"Name"     		: "csol3",
+			"User"			: "root",
+			"Password"		: "123456",
+			"Host"			: "127.0.0.1",
+			"Port"			: "3306"
+		},
+		"Charge"			: {
+			"SignType"		: "MD5",
+			"SignKey"		: "ClKhjAWP",
+			"ValidTime"		: 300,
+			"ServerGmPort"	: 39000,
+			"ServerGmHosts": ["127.0.0.1"],
+			"RequestHosts": ["127.0.0.1"]
+		}
+	}
+}

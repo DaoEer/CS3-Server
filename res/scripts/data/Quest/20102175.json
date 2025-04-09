@@ -1,0 +1,114 @@
+{
+    "20102175": {
+        "tasks": [
+            {
+                "navigateData": "(-18028.589844 7067.704590 -1091.242554)#L_SYSM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010159", 
+                "id": 1, 
+                "name": "获得陆压颅骨"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002156"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102175, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010159"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102167"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010159"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "27319", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1385", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18872", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2372", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050000|Q050001|Q050002|Q050004|Q050005", 
+        "finish_by": "10001308#L_ZXG", 
+        "taskLogDes": "@S{4}从巨神龟处得知昔年陆压道君跌落荒兽谷时已身负重伤，被附近凶兽氏族的魁首巴蛇率军围攻而亡。请你前往深岩山脉击败巴蛇取得陆压遗骨。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050023|Q050025", 
+        "nextQuest": "20102176", 
+        "taskCompleteFunctions": {}, 
+        "level": 42, 
+        "title": "深岩山脉", 
+        "isAutoCommit": 1, 
+        "start_by": "10001356#L_BFH", 
+        "isAutoAccept": 1
+    }
+}

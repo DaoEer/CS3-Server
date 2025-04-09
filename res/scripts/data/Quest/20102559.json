@@ -1,0 +1,105 @@
+{
+    "20102559": {
+        "tasks": [
+            {
+                "navigateData": "20006189#L_JYHD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010091", 
+                "id": 1, 
+                "name": "前往九幽寒洞收集幽都玄晶"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002047"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102559, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102558"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010091"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "20012", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1079", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12112", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041285|Q041297|Q041373|Q041375|Q041376|Q040042", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}十日天绝阵助罗睺感应到魔君元神残魂所在。罗睺欲需炼制一面天罗幡方收服残魂。请斗士前往九幽寒洞，收集@F{fc=c41}幽都玄金@D，再赶往九煞阴河取得@F{fc=c41}阴河之砂@D用以炼幡。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102560", 
+        "taskCompleteFunctions": {}, 
+        "level": 37, 
+        "title": "炼制天罗幡(一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000621#L_TMG", 
+        "isAutoAccept": 1
+    }
+}

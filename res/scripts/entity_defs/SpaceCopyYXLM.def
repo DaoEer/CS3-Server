@@ -1,0 +1,79 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<memberDatas>
+			<Type>		YXLM_MEMBER_MGR 	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</memberDatas>
+		<xianTeamID>
+			<Type>		OBJECT_ID 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</xianTeamID>
+		<moTeamID>
+			<Type>		OBJECT_ID 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</moTeamID>
+		<spaceLifeTimer>
+			<Type>		TIMER_ID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</spaceLifeTimer>
+		<xianDestroyBuildingData>
+			<Type>		PYTHON_DICT 	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Default>		{}			</Default>
+		</xianDestroyBuildingData>
+		<moDestroyBuildingData>
+			<Type>		PYTHON_DICT 	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Default>		{}			</Default>
+		</moDestroyBuildingData>
+		<soldiersDict>
+			<Type>		PYTHON_DICT 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</soldiersDict>
+		<soldierIDList>
+			<Type>		PYTHON_LIST 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</soldierIDList>
+		<winCamp>
+			<Type>		INT32 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Default>		0			</Default>
+		</winCamp>
+		<jadeGetTimer>
+			<Type>		TIMER_ID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</jadeGetTimer>
+		<randomEventScriptIDDict>
+			<Type>		PYTHON_DICT 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</randomEventScriptIDDict>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

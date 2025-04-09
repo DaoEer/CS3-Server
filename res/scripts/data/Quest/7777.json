@@ -1,0 +1,52 @@
+{
+    "7777": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000624", 
+                "id": 1, 
+                "name": "对话测试"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "战斗测试"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 7777, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [], 
+        "script": "QuestScriptTongDaily", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestTongDaily", 
+        "rewards": [], 
+        "description": "Cy000251", 
+        "finish_by": "10000624", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Cy000266", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 20, 
+        "title": "测试", 
+        "isAutoCommit": 1, 
+        "start_by": "10000624", 
+        "isAutoAccept": 1
+    }
+}

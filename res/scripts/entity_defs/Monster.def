@@ -1,0 +1,60 @@
+<root>
+	<Interfaces>
+		<Interface>	MonsterObject	</Interface>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>			
+		<_isPlayAdmissionAction>			<!--  是否正在播放登场动作 -->
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0				</Default>
+		</_isPlayAdmissionAction>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_PlayAdmissionAction>                     <!--  怪物播放登场动作 -->
+			<Arg>	STRING	</Arg>
+		</CLIENT_PlayAdmissionAction>
+		<CLIENT_ShowSpecialProgress>                     <!--  显示特殊进度条 -->
+			<Arg>	UNICODE	</Arg>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	STRING	</Arg>
+		</CLIENT_ShowSpecialProgress>
+		<CLIENT_HideSpecialProgress/>
+		<ShowMonsterLocationTwinkle>
+			<Arg>		INT32	 	</Arg>
+		</ShowMonsterLocationTwinkle>
+		<OpenMoveShield>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		STRING	</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		STRING	</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</OpenMoveShield>
+		<CloseMoveShield>
+			<Arg>		INT32	 	</Arg>
+		</CloseMoveShield>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_OnPlayAdmissionAction>
+			<Exposed/>
+		</CELL_OnPlayAdmissionAction>
+		<CELL_ChangeMonsterParent>
+			<Exposed/>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</CELL_ChangeMonsterParent>
+	</CellMethods>
+</root>
+

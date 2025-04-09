@@ -1,0 +1,165 @@
+<root>
+	<Properties>
+		<barracksExp>
+			<Type>			INT64		</Type>
+			<Flags>			OWN_CLIENT	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</barracksExp>
+		<roleBarracksMgr>
+			<Type>			ROLEBARRACKSMGR		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	true			</Persistent>
+		</roleBarracksMgr>
+		<roleArmyDatas>
+			<Type>			ARMY_DATAS		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Persistent>	true			</Persistent>
+		</roleArmyDatas>
+      <barracksExpRate>
+         <Type>         INT32        </Type>
+         <Flags>        CELL_PRIVATE </Flags>
+         <Default>   0               </Default>
+         <Persistent>   false        </Persistent>
+      </barracksExpRate>
+      <unLockSoldiers>
+         <Type>         ARRAY_STRING        </Type>
+         <Flags>        CELL_PRIVATE </Flags>
+         <Default>   []               </Default>
+         <Persistent>   false        </Persistent>
+      </unLockSoldiers>
+      <isRequest>
+         <Type>         BOOL        </Type>
+         <Flags>        CELL_PRIVATE </Flags>
+         <Default>   false              </Default>
+         <Persistent>   false        </Persistent>
+      </isRequest>
+      <callArmyIndex>
+         <Type>         INT32    </Type>
+         <Flags>        OWN_CLIENT  </Flags>
+         <Default>   -1        </Default>
+         <Persistent>   false        </Persistent>
+      </callArmyIndex>
+      <isCanOpenBarracks>
+          <Type>  BOOL  </Type>
+         <Flags>     OWN_CLIENT  </Flags>
+         <Default>    1    </Default>
+         <Persistent>      false    </Persistent>
+      </isCanOpenBarracks>
+	</Properties>
+
+	<ClientMethods>
+		<InitRoleBarracksDataOver>
+			<Arg>		INT32	 	</Arg>
+		</InitRoleBarracksDataOver>
+   		<InitRoleBarracksDatas>
+   			<Arg>		BARRACKSSOLDIERDATAS	 	</Arg>
+   		</InitRoleBarracksDatas>
+   		<InitRoleArmyDatas>
+   			<Arg>		ARRAY_ARMY_DATA	 	</Arg>
+   		</InitRoleArmyDatas>
+   		<AddRoleBarracksData>
+   			<Arg>		BARRACKSSOLDIERDATA	 	</Arg>
+   		</AddRoleBarracksData>
+   		<RemoveRoleBarracksData>
+   			<Arg>		STRING	 	</Arg>
+   		</RemoveRoleBarracksData>
+   		<SaveArmyDataCB>
+   			<Arg>		ARMY_DATA	 	</Arg>
+   		</SaveArmyDataCB>
+   		<RemoveRoleBarracksSoldierData>
+   			<Arg>		STRING	 	</Arg>
+   			<Arg>		INT32	 	</Arg>
+   		</RemoveRoleBarracksSoldierData>
+   		<UpdateSoldierLevelData>
+   			<Arg>		STRING	 	</Arg>
+   			<Arg>		INT32	 	</Arg>
+   			<Arg>		INT32	 	</Arg>
+   		</UpdateSoldierLevelData>
+   		<UpdateSoldierExpData>
+   			<Arg>		STRING	 	</Arg>
+   			<Arg>		INT32	 	</Arg>
+   			<Arg>		INT32	 	</Arg>
+   			<Arg>		INT32	 	</Arg>
+   		</UpdateSoldierExpData>
+         <UpdateSoldierIsInArmyData>
+            <Arg>    STRING      </Arg>
+            <Arg>    INT32    </Arg>
+            <Arg>    INT32    </Arg>
+         </UpdateSoldierIsInArmyData>
+         <InitRoleBarracksUnLockSoldiers>
+            <Arg>    ARRAY_STRING      </Arg>
+         </InitRoleBarracksUnLockSoldiers>
+         <CLIENT_OnDismissArmyData>
+             <Arg>    INT32    </Arg>
+         </CLIENT_OnDismissArmyData>
+         <OnUpdateGuardSoldierSkill>
+             <Arg>    STRING    </Arg>
+            <Arg>    INT32    </Arg>
+            <Arg>    INT32    </Arg>
+            <Arg> SOLDIER_SPECIAL_SKILL_DATA </Arg>
+         </OnUpdateGuardSoldierSkill>
+         <UpdateSoldierIsActive>
+            <Arg>    STRING      </Arg>
+            <Arg>    INT32    </Arg>
+            <Arg>    INT32    </Arg>
+         </UpdateSoldierIsActive>
+         <InitBarracksByOccupyTrainGround>
+            <Arg>    BARRACKSSOLDIERDATAS    </Arg>
+         </InitBarracksByOccupyTrainGround>
+         <InitBarracksByOccupyTrainGroundOver>
+            <Arg>    INT32    </Arg>
+            <Arg>    INT32    </Arg>
+            <Arg>    INT32    </Arg>
+         </InitBarracksByOccupyTrainGroundOver>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<requestOpenBarracks>
+			<Exposed/>
+   		</requestOpenBarracks>
+
+   		<requestBuyBarracksSoldier>
+			<Exposed/>
+   			<Arg>		INT32	 	</Arg>
+   			<Arg>		STRING	 	</Arg>
+   			<Arg>		INT32	 	</Arg>
+   		</requestBuyBarracksSoldier>
+   		<saveArmyData>
+			<Exposed/>
+   			<Arg>		ARMY_DATA	 	</Arg>
+   		</saveArmyData>
+   		<divideExpToSoldiers>
+   			<Exposed/>
+   			<Arg>		INT32	 	</Arg>
+   			<Arg>		STRING	 	</Arg>
+   			<Arg>		INT32	 	</Arg>
+   		</divideExpToSoldiers>
+         <dismissArmyData>
+            <Exposed/>
+            <Arg>    INT32      </Arg>
+         </dismissArmyData>
+         <guardSoldierSkillUpLevel>
+            <Exposed/>
+            <Arg>    STRING      </Arg>
+            <Arg>    INT32    </Arg>
+            <Arg>    INT32    </Arg>
+            <Arg>    INT32    </Arg>
+         </guardSoldierSkillUpLevel>
+         <enterTrainSoldierGround>
+            <Exposed/>
+         </enterTrainSoldierGround>
+		 <requestReviveGuard>
+		 	<Exposed/>
+			<Arg>    STRING      </Arg>
+		 </requestReviveGuard>
+       <sureToOccupyTrainGround>
+         <Exposed/>
+         <Arg>    INT32      </Arg>
+         <Arg>    STRING      </Arg>
+       </sureToOccupyTrainGround>
+	</CellMethods>
+</root>

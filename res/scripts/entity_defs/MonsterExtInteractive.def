@@ -1,0 +1,29 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<AddInitiativeTrap/>
+	</ClientMethods>
+
+	<CellMethods>
+		<interactiveWith>
+			<Exposed/>
+		</interactiveWith>
+	</CellMethods>
+</root>
+

@@ -1,0 +1,29 @@
+﻿{
+"EntityType"	: "SpaceStandMap",
+"DomainType"	: "SpaceDomainStandMap",
+"EntityScript"	: "SpaceStandMap",
+"scriptID"	: "fu_ben_L_LBCDDT",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"spaceChildType":"SPACE_TYPE_CHILD_STAND_MAP",
+"SpawnFile"	: "fu_ben_L_DDT",
+"NavmeshPath"	: "space\\L_BHZBZ_LBC_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_PKMODE",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"maxLineNum":100,
+	"lineMaxPlayerAmount":200,
+	"triggerLinePlayerAmount":30,
+	"armLength":3500.0,
+	"cameraRotation":"0 300 0",
+	"reviveType"	: "0|"
+	},
+"DomainData"	:{
+	}
+}

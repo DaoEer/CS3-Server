@@ -1,0 +1,136 @@
+{
+    "20102617": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010114", 
+                "id": 1, 
+                "name": "获得遁形符"
+            }, 
+            {
+                "navigateData": "30000632#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20008916", 
+                "id": 2, 
+                "name": "消灭武罗"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11017130"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102617, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010114"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102616"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010114"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "36683", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1170", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13135", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2023", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q042557|Q042558|Q042559", 
+        "finish_by": "10001007#L_FYP", 
+        "taskLogDes": "@S{4}夸父已觉醒玄月神力，祖巫玄冥让你以遁形符潜入有穷部落，将后羿的好友武罗除去。届时大巫巫真便可化身武罗向后羿打听玄月之力的弱点。|@S{4}夸父已觉醒玄月神力，祖巫玄冥让你以遁形符潜入有穷部落，将后羿的好友武罗除去。届时大巫巫真便可化身武罗向后羿打听玄月之力的弱点。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045640|Q045642", 
+        "nextQuest": "20102618", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110002120"
+                }
+            ]
+        }, 
+        "level": 39, 
+        "title": "内应", 
+        "isAutoCommit": 1, 
+        "start_by": "10001007#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

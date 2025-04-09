@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+Datas = {
+	1:{
+		1:{
+			'stayTime':0.0,'position':(40.4,3.2918084700000003,-43.7,),'isSingle':0,
+		},
+		2:{
+			'stayTime':0.0,'position':(41.0,3.2918084700000003,-36.1,),'isSingle':0,
+		},
+		3:{
+			'stayTime':0.0,'position':(41.0,3.29175293,-29.7,),'isSingle':0,
+		},
+		4:{
+			'stayTime':0.0,'position':(41.0,3.29167999,-21.3,),'isSingle':0,
+		},
+		5:{
+			'stayTime':0.0,'position':(41.0,3.29162598,-15.1,),'isSingle':0,
+		},
+		6:{
+			'stayTime':0.0,'position':(41.0,3.29167999,-21.3,),'isSingle':0,
+		},
+		7:{
+			'stayTime':0.0,'position':(41.0,3.29175293,-29.7,),'isSingle':0,
+		},
+		8:{
+			'stayTime':0.0,'position':(41.0,3.2918084700000003,-36.1,),'isSingle':0,
+		},
+		
+	},
+	2:{
+		1:{
+			'stayTime':0.0,'position':(36.3,3.2916507,-14.4,),'isSingle':0,
+		},
+		2:{
+			'stayTime':0.0,'position':(36.4,3.2917254600000003,-23.1,),'isSingle':0,
+		},
+		3:{
+			'stayTime':0.0,'position':(36.0,3.29181152,-32.7,),'isSingle':0,
+		},
+		4:{
+			'stayTime':0.0,'position':(35.5,3.2917810100000002,-43.2,),'isSingle':0,
+		},
+		5:{
+			'stayTime':0.0,'position':(36.0,3.29181152,-32.7,),'isSingle':0,
+		},
+		6:{
+			'stayTime':0.0,'position':(36.4,3.2917254600000003,-23.1,),'isSingle':0,
+		},
+		
+	},
+	3:{
+		1:{
+			'stayTime':0.0,'position':(30.4,3.29175201,-42.7,),'isSingle':0,
+		},
+		2:{
+			'stayTime':0.0,'position':(31.3,3.29183014,-31.3,),'isSingle':0,
+		},
+		3:{
+			'stayTime':0.0,'position':(31.9,3.29175323,-22.9,),'isSingle':0,
+		},
+		4:{
+			'stayTime':0.0,'position':(31.9,3.2916845699999997,-15.0,),'isSingle':0,
+		},
+		5:{
+			'stayTime':0.0,'position':(31.9,3.29175323,-22.9,),'isSingle':0,
+		},
+		6:{
+			'stayTime':0.0,'position':(31.3,3.29183014,-31.3,),'isSingle':0,
+		},
+		
+	},
+	4:{
+		1:{
+			'stayTime':0.0,'position':(27.0,3.29172058,-15.5,),'isSingle':0,
+		},
+		2:{
+			'stayTime':0.0,'position':(27.0,3.29176086,-20.1,),'isSingle':0,
+		},
+		3:{
+			'stayTime':0.0,'position':(26.1,3.2918292200000003,-30.6,),'isSingle':0,
+		},
+		4:{
+			'stayTime':0.0,'position':(25.3,3.29173431,-40.9,),'isSingle':0,
+		},
+		5:{
+			'stayTime':0.0,'position':(26.1,3.2918292200000003,-30.6,),'isSingle':0,
+		},
+		6:{
+			'stayTime':0.0,'position':(27.0,3.29176086,-20.1,),'isSingle':0,
+		},
+		
+	},
+	
+}
+

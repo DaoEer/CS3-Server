@@ -1,0 +1,283 @@
+<root>
+	<!--
+		实体注册文件(<你的资产库>/scripts/entities.xml)
+		详细说明请参考：http://kbengine.org/cn/docs/configuration/entities.html
+					http://www.kbengine.org/cn/docs/programming/entitydef.html
+	-->
+	
+	<BaseAppEntity hasBase="true" />
+	<GMToolsInterfaces hasBase="true" />
+	<Account hasBase="true" hasClient="true" />
+	<Role hasCell="true" hasBase="true" hasClient="true" />
+	<TeamEntity hasBase="true"/>
+	<TeamManager hasBase="true"/>
+	<SpaceManager hasBase="true"/>
+	<SpawnManager hasBase="true"/>
+	<RelationManager hasBase="true"/>
+	<Monster hasCell="true" hasClient="true" />
+	<SpaceMultiLine hasBase="true" hasCell="true" />
+	<ChatManager hasBase="true"/>
+	<NPC hasCell="true" hasClient="true"/>
+	<SpellBox hasCell="true" hasClient="true"/>
+	<DropBox hasCell="true" hasClient="true"/>
+	<SpaceCopy hasBase="true" hasCell="true" />
+	<SpaceTong hasBase="true" hasCell="true" />
+	<SpaceCopyTong hasBase="true" hasCell="true" />
+	<SpaceCopyZhenLongQiJu hasBase="true" hasCell="true" />
+	<SpaceCopyHeHuaFaZhen hasBase="true" hasCell="true" />
+	<BunchSpaceManager hasBase="true"/>
+	<CrondManager hasBase="true"/>
+	<CrondTestMgr hasBase="true"/>
+	<ShopManager hasBase="true"/>
+	<SpacePlane hasBase="true" hasCell="true" />
+	<Trap hasCell="true" hasClient="true" />
+	<MonsterExtXinMo hasCell="true" hasClient="true" />
+	<MonsterExtMachine hasCell="true" hasClient="true" />
+	<MonsterExtCall hasBase="true" hasCell="true" hasClient="true" />
+	<MonsterExtQuest hasCell="true" hasClient="true" />
+	<MonsterExtRevive hasCell="true" hasClient="true" />
+	<TrapClusterAlert hasCell="true" hasClient="true" />
+	<ShopMall hasBase="true"/>
+	<ShopMallManager hasBase="true"/>
+	<MovingPlatform hasCell="true" hasClient="true" />
+	<MovingPlatformTrigger hasCell="true" hasClient="true" />
+	<MovingPlatformShade hasCell="true" hasClient="true" />
+	<MovingPlatformLotus hasCell="true" hasClient="true" />
+	<MovingPlatformVehicle hasCell="true" hasClient="true" />
+	<VehiclePet hasCell="true" hasBase="true" hasClient="true" />
+	<MoveTrap hasCell="true" hasClient="true" />
+	<GMToolsManager hasBase="true" />
+	<MonsterBuilding hasCell="true" hasClient="true" />
+	<GhostReceiver hasCell="true" hasClient="true" />
+	<NPCChangeBody hasCell="true" hasClient="true" />
+	<MonsterExtShareHP hasCell="true" hasClient="true" />
+	<NPCExtMove hasCell="true" hasClient="true" />
+	<TeleportStone hasCell="true" hasClient="true"/>
+	<NPCTorture hasCell="true" hasClient="true" />
+	<NPCGinsengFruit hasCell="true" hasClient="true" />
+	<NPCSoulShop hasCell="true" hasClient="true" />
+	<NPCSoulShopLBCPVP hasCell="true" hasClient="true" />
+	<NPCNeuralShop hasCell="true" hasClient="true" />
+	<MonsterExtClick hasCell="true" hasClient="true" />
+	<MonsterExtModel hasCell="true" hasClient="true" />
+	<MoveTrapByTrigger hasCell="true" hasClient="true" />
+	<MonsterExtClickAndModel hasCell="true" hasClient="true" />
+	<SpaceDoor hasCell="true" hasClient="true" />
+	<SparHunTingManager hasBase="true" />
+	<SpaceCopySparHunTing hasBase="true" hasCell="true" />
+	<SpaceCopyLingHunZhiShi hasBase="true" hasCell="true" />
+	<SpaceCopyLingYuShouHun hasBase="true" hasCell="true" />
+	<SpaceCopyLingMaiZhanChang hasBase="true" hasCell="true" />
+	<TongMgr hasBase="true"/>
+	<TongEntity hasBase="true"/>
+	<TongNPC hasCell="true" hasClient="true"/>
+	<TongNagual hasBase="true" hasCell="true" hasClient="true" />
+	<AntiWallowBridge hasBase="true"/>
+	<AntiWallowMgr hasBase="true"/>
+	<MonsterExtLightWall hasCell="true" hasClient="true"/>
+	<MonsterExtLingMai hasCell="true" hasClient="true"/>
+	<MonsterExtDemonGuard hasCell="true" hasClient="true"/>
+	<MonsterExtSpecialVision hasCell="true" hasClient="true"/>
+	<ActivityBunchManager hasBase="true"/>
+	<MagicMazeSpaceManager hasBase="true"/>
+	<SpaceCopyMagicMaze hasBase="true" hasCell="true" />
+	<MonsterExtChartlet hasCell="true" hasClient="true" />
+	<SpaceCopyYeZhanFengQi hasBase="true" hasCell="true" />
+	<SpellBoxSpecial hasCell="true" hasClient="true" />
+	<SpellBoxAdvanced hasBase="false" hasCell="true" hasClient="true" />
+	<SpaceCopyQiJueLing hasBase="true" hasCell="true" />
+	<MonsterExtTiShen hasCell="true" hasClient="true" />
+	<GameRankingManager hasBase="true" />
+	<CampActivityLingMaiMgr hasBase="true" />
+	<SpaceCopyShiFangCheng hasBase="true" hasCell="true" />
+	<SpaceCopyYinYangQiZhen hasBase="true" hasCell="true" />
+	<SpaceCopyTongJiuZiZhenYan hasBase="true" hasCell="true" />
+	<MonsterExtJiuZiZhenYan hasCell="true" hasClient="true"/>
+	<MonsterExtJZZYDB hasCell="true" hasClient="true"/>
+	<MonsterExtJZZYXY hasCell="true" hasClient="true"/>
+	<MonsterExtSYJZ hasCell="true" hasClient="true"/>
+	<SpaceCopyYXLM hasBase="true" hasCell="true"/>
+	<CampYXLMCopyMgr hasBase="true"/>
+	<TongStarcraftManager hasBase = "true"/>
+	<SpaceCopyFirstTongStarcraft hasBase = "true" hasCell = "true"/>
+	<MailManager hasBase = "true"/>
+	<MonsterExtYXLMTower hasCell="true" hasClient="true"/>
+	<MonsterTorture hasCell="true" hasClient="true"/>
+	<MonsterExtChase hasCell="true" hasClient="true"/>
+	<ServerInfosMgr hasBase = "true" />
+	<SpaceCopyShenYueDiaoXiang hasBase="true" hasCell="true" />
+	<SpaceCopyFrozenFight hasBase="true" hasCell="true" />
+	<CampActivityFrozenFightMgr hasBase="true" />
+	<SpaceCopySanYuanJingZhu hasBase="true" hasCell="true"/>
+	<SpaceCopySecondTongStarcraft hasBase="true" hasCell="true"/>
+	<MoveSpellBox hasCell="true" hasClient="true" />
+	<MonsterExtImpact hasCell="true" hasClient="true"/>
+	<SpellBoxHit hasCell="true" hasClient="true"/>
+	<SpaceCopyMagicMazeChildMYHJ hasBase="true" hasCell="true" />
+	<SpaceCopyMagicMazeChildAcidSeries hasBase="true" hasCell="true" />
+	<SpaceCopyMagicMazeChildGYMZ hasBase="true" hasCell="true" />
+	<SpaceCopyThirdTongStarcraft hasBase="true" hasCell = "true"/>
+	<SpellBoxDoor hasCell="true" hasClient="true"/>
+	<LoginAttemperMgr hasBase="true"/>
+	<MonsterExtRotat hasCell="true" hasClient="true"/>
+	<SpaceCopyMagicMazeChildLYSL hasBase="true" hasCell="true" />
+	<GameSeccion hasBase="true"/>
+	<MovingPlatformRotator hasCell="true" hasClient="true" />
+	<SpaceCopyHQLZ hasCell = "true" hasBase= "true"/>
+	<MultiAreaSpellBox hasCell="true" hasClient="true"/>
+	<MonsterExtArmorLock hasCell="true" hasClient="true" />
+	<PushTrap hasCell="true" hasClient="true" />
+	<KBEIOLoopEntity hasBase="true"/>
+	<MonsterExtYXLMSoldier hasCell="true" hasClient="true"/>
+	<PersonStarcraftMgr hasBase= "true"/>
+	<SpaceCopyYeZhanFengQi5490 hasCell="true" hasBase="true"/>
+	<SpaceCopyMatrixMaze hasBase="true" hasCell="true" />
+	<NPCDropFuDai hasCell="true" hasClient="true" />
+	<FastTeamMgr hasBase="true"/>
+	<MonsterExtHasCreator hasCell="true" hasClient="true" />
+	<SpellBoxHasCreator hasCell="true" hasClient="true" />
+	<SpaceCopyJingShiDongKu hasBase="true" hasCell="true" />
+	<MonsterExtJingShiDongKu hasCell="true" hasClient="true"/>
+	<CampMgr hasBase="true"/>
+	<SpaceCopyFenHuoJinNiu hasBase="true" hasCell="true" />
+	<MonsterExtFenHuoJinNiu hasCell="true" hasClient="true"/>
+	<GMNoticeManager hasBase="true"/>
+	<MonsterClientBase hasCell="true" hasClient="true"/>
+	<SpaceCopyXDGX hasBase="true" hasCell="true"/>
+	<SpaceCopyJinZhiYuTing hasBase="true" hasCell="true"/>
+	<SpaceCopyClientEffect hasBase="true" hasCell="true"/>
+	<MonsterExtJump hasCell="true" hasClient="true"/>
+	<SpaceCopyXuanTianBaoLu hasBase="true" hasCell="true"/>
+	<MonsterExtXuanTianBaoLu hasCell="true" hasClient="true"/>
+	<SpellBoxXTBL hasCell="true" hasClient="true" />
+	<PointCardMgr hasBase="true" />
+	<SpellBoxPet hasCell="true" hasClient="true"/>
+	<SpellBoxCollect hasCell="true" hasClient="true"/>
+	<SpaceCopyAndySnatch hasBase="true" hasCell="true"/>
+	<SpaceCopyLindenSnatch hasBase="true" hasCell="true"/>
+	<MonsterExtPLMJSpar hasCell="true" hasClient="true"/>
+	<SpaceCopyCangGongDian hasBase="true" hasCell="true"/>
+	<TrapMYJX hasCell="true" hasClient="true"/>
+	<SpacePlaneJSZZ hasBase="true" hasCell="true"/>
+	<MonsterExtShowTopCountDown hasCell="true" hasClient="true"/>
+	<StoreManager hasBase="true"/>
+	<SpaceCopyJiSuChuanSuo hasBase="true" hasCell="true"/>
+	<MonsterExtInteractive hasCell="true" hasClient="true"/>
+	<MovingPlatformRamp hasCell="true" hasClient="true" />
+	<SpaceCopyJSZZ hasBase="true" hasCell="true"/>
+	<SpaceCopyMQRSG hasBase="true" hasCell="true"/>
+	<SpaceCopyHLG hasBase="true" hasCell="true"/>
+	<MonsterExtWXHJ hasCell="true" hasClient="true"/>
+	<MonsterExtRefreshTime hasCell="true" hasClient="true"/>
+	<MonsterExtRareBoss hasCell="true" hasClient="true"/>
+	<RareMonsterMgr hasBase="true"/>
+	<MonsterExtFirstTongStarcraftBoss hasCell="true" hasClient="true"/>
+	<SpaceCopyFirstTongStarcraft7904 hasBase="true" hasCell="true"/>
+	<TongStarcraftManager7904 hasBase="true"/>
+	<SpaceCopyLLBZ hasBase="true" hasCell="true"/>
+	<MonsterExtSFMJ hasCell="true" hasClient="true"/>
+	<SpaceCopyRingTask hasBase="true" hasCell="true"/>
+	<RingTaskSpaceMgr hasBase="true" />
+	<MonsterExtQQRYJ hasCell="true" hasClient="true"/>
+	<SpaceCopyXKTB hasBase="true" hasCell="true"/>
+	<SpaceCopyBraveDestinyLand hasBase="true" hasCell="true"/>
+	<MonsterExtYCJMDBoss hasCell="true" hasClient="true"/>
+	<CampSGMZCopyMgr hasBase="true"/>
+	<SpaceCopySGMZ hasBase="true" hasCell="true"/>
+	<MonsterExtSGMZ hasCell="true" hasClient="true"/>
+	<MonsterExtMiZhen hasCell="true" hasClient="true"/>
+	<ActivityCrondManager hasBase="true" />
+	<TongCampWarManager hasBase="true"/>
+	<MonsterExtCanPush hasCell="true" hasClient="true"/>
+	<SpaceCopyJDCY hasBase="true" hasCell="true"/>
+	<MovingPlatformShips hasCell="true" hasClient="true" />
+	<SpaceCopyTongCampWarBase hasBase="true" hasCell="true"/>
+	<SpellBoxPickItem hasCell="true" hasClient="true"/>
+	<SpaceCopyYCJMD hasBase="true" hasCell="true"/>
+	<MonsterFollowRole hasCell="true" hasClient="true"/>
+	<CampFHLTCopyMgr hasBase="true" />
+	<SpaceCopyFHLT hasBase="true" hasCell="true"/>
+	<CMonster hasCell="true" hasClient="true"/>
+	<MonsterExtBattery hasCell="true" hasClient="true"/>
+	<MonsterExtBatteryRocket hasCell="true" hasClient="true"/>
+	<SpaceLunHuiMiJinMgr hasBase= "true"/>
+	<SpaceLunHuiMiJinMultiLine hasBase="true" hasCell="true" />
+	<MonsterLunHuiMiJin hasCell="true" hasClient="true"/>
+	<MonsterExtRHB hasCell="true" hasClient="true"/>
+	<SpaceCopyAttackCityWar hasBase="true" hasCell="true"/>
+	<MonsterExtAttackCityLadder hasCell="true" hasClient="true"/>
+	<MonsterExtCanister hasCell="true" hasClient="true"/>
+	<MonsterExtAerialLadder hasCell="true" hasClient="true"/>
+	<TrapBattleFlag hasCell="true" hasClient="true"/>
+	<TrapBarracks hasCell="true" hasClient="true"/>
+	<MonsterOptimize hasCell="true" hasClient="true"/>
+	<SpaceCopyCampYCJMD hasCell="true" hasBase="true"/>
+	<SpaceCopyCampFiveYCJMD hasCell="true" hasBase="true"/>
+	<MonsterCommander hasCell="true" hasClient="true"/>
+	<MonsterSoldier hasCell="true" hasClient="true"/>
+	<CrossServiceManager hasBase="true"/>
+	<ChargeOrders hasBase="true"/>
+	<MonsterExtCollisionCar hasCell="true" hasClient="true"/>
+	<SpaceCopyCangGongDian1 hasCell="true" hasBase="true"/>
+	<SpaceTongTianDaMgr hasBase="true"/>
+	<SpaceCopyTongTianDa hasBase="true" hasCell="true" />
+	<CampActivityRandomFitMgr hasBase="true"/>
+	<MonsterJuMa hasCell="true" hasClient="true"/>
+	<NPCExtCaveHouse hasCell="true" hasClient="true"/>
+	<BHZBManager hasBase="true"/>
+	<MonsterGhostEye hasCell="true" hasClient="true"/>
+	<MonsterExtXKTB hasCell="true" hasClient="true" />
+	<MonsterExtTGQuest hasCell="true" hasClient="true" />
+	<MonsterExtCover hasCell="true" hasClient="true" />
+	<TrainSoldierGroundManager hasBase="true"/>
+	<SpaceHomeBarracks hasBase="true" hasCell="true"/>
+	<SpaceStandMap hasBase="true" hasCell="true"/>
+	<SpaceCopyTrainingGround hasBase="true" hasCell="true"/>
+	<SpaceCopyTrainingGroundSave hasBase="true" hasCell="true"/>
+	<MonsterExtMenu hasCell="true" hasClient="true" />
+	<NPCTrainSoldierGround hasCell="true" hasClient="true" />
+	<TrapSymbolJade hasCell="true" hasClient="true" />
+	<SpaceCopyCampShootYCJMD hasBase="true" hasCell="true"/>
+	<SpaceHomeBarracksBHZB hasBase="true" hasCell="true"/>
+	<SpellBoxLingTian hasCell="true" hasClient="true"/>
+	<SpaceCopyDongFu hasBase="true" hasCell="true"/>
+	<SpaceStandMapBHZB hasBase="true" hasCell="true"/>
+	<NPCSeniorTrainSoldierGround hasCell="true" hasClient="true" />
+	<SpaceCopyLBCPVP hasBase="true" hasCell="true"/>
+	<SpaceCopyDongTianFuDi hasBase="true" hasCell="true"/>
+	<NPCExtPoint hasCell="true" hasClient="true" />
+	<MonsterExtClickAndInteractive hasCell="true" hasClient="true" />
+	<MonsterExtCircleEffect hasCell="true" hasClient="true" />
+	<SpaceCopyBHZBPointWarPVE hasBase="true" hasCell="true"/>
+	<SpaceCopyBHZBPointWarPVP hasBase="true" hasCell="true"/>
+	<MonsterExtFireCow hasCell="true" hasClient="true" />
+	<SpaceCopySLZD hasBase="true" hasCell="true"/>
+	<NPCExtCompose hasCell="true" hasClient="true"/>
+	<MonsterExtJDCY hasCell="true" hasClient="true"/>
+	<SpaceCopyLBCTask hasCell="true" hasBase="true" />
+	<NPCHasLifetime hasCell="true" hasClient="true" />
+	<SpaceCopyTongPlunder hasBase="true" hasCell="true" />
+	<SpaceCopyStandMapBHZB hasBase="true" hasCell="true" />
+	<SpaceCopyHomeBarracksBHZB hasBase="true" hasCell="true" />
+	<NPCExtBHZBHomeBarrack hasCell="true" hasClient="true" />
+	<MonsterExtMain hasCell="true" hasClient="true"/>
+	<MonsterExtPart hasCell="true" hasClient="true"/>
+	<NPCExtMysteriousShop hasCell="true" hasClient="true"/>
+	<SpaceLunHuiMiJinMultiLine2 hasBase="true" hasCell="true"/>
+	<LbcMgr hasBase="true"/>
+	<TongPlunderManager hasBase="true"/>
+	<MonsterExtFenShen hasCell="true" hasClient="true"/>
+	<SpellBoxPlunderBox hasCell="true" hasClient="true"/>
+	<SpaceCopyJiYuan hasBase="true" hasCell="true"/>
+	<SpaceCopyJiYuanHQLZ hasBase="true" hasCell="true"/>
+	<MonsterExtDisposable hasCell="true" hasClient="true"/>
+	<TongDropBox hasCell="true" hasClient="true"/>
+	<TeamDropBox hasCell="true" hasClient="true"/>
+	<DropBoxManager hasBase="true"/>
+	<AuctionOrders hasBase="true"/>
+	<GCZManager hasBase="true"/>
+	<MsgLogMgr hasBase="true"/>
+	<BattleActivityMgr hasBase="true"/>
+	<AuctionResultData hasBase="true"/>
+	<ActivationKey hasBase="true"/>
+</root>

@@ -1,0 +1,101 @@
+{
+    "80135037": {
+        "tasks": [
+            {
+                "navigateData": "10000451#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000451", 
+                "id": 1, 
+                "name": "前往青龙府和蚩龙对话，了解龙珠相关事宜"
+            }, 
+            {
+                "navigateData": "(-310960.000000 89620.000000 3410.942383)#cycle_L_HQLZ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "前往陨龙岛，取回龙珠"
+            }, 
+            {
+                "navigateData": "10000451#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000451", 
+                "id": 3, 
+                "name": "将龙珠交给蚩龙"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000181"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 80135037, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "100"
+            }
+        ], 
+        "script": "QuestScriptLoop", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0 0 100", 
+                "param2": "6139 26797 11021", 
+                "param1": "L_FMC"
+            }
+        ], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [], 
+        "description": "Cy000181", 
+        "finish_by": "", 
+        "taskLogDes": "青龙族在陨龙岛发现了上古龙珠的踪迹，奈何岛上封印与龙族血脉相克。青龙族长蚩龙特邀小友前往青龙府，助其取得龙珠。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncTeleportSpace", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "0 0 -55", 
+                    "param2": "-310960.000000 89620.000000 3410.942383", 
+                    "param1": "cycle_L_HQLZ"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "获取龙珠", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

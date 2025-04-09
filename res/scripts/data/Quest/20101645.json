@@ -1,0 +1,120 @@
+{
+    "20101645": {
+        "tasks": [
+            {
+                "navigateData": "(-187909.0 42470.0 11450.0)#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "5", 
+                "param2": "-187909.0 42470.0 11450.0", 
+                "param1": "L_WSS", 
+                "id": 1, 
+                "name": "前往五庄观"
+            }, 
+            {
+                "navigateData": "20002195|20002196|20002197|20002198#L_WSS", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002195|20002196|20002197|20002198", 
+                "id": 2, 
+                "name": "消灭五庄观弟子"
+            }, 
+            {
+                "navigateData": "30000081#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "深入五庄观"
+            }, 
+            {
+                "navigateData": "30000082#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "击败清风，取得乾坤宝库的钥匙"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101645, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101638"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "5029", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "753", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1223", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "586", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10000371#L_WSS", 
+        "taskLogDes": "@S{4}从明月口中得知，混元星斗图就收藏在五庄观的乾坤宝库中，请你闯入五庄观乾坤宝库取得@F{fc=c41}混元星斗图@D。|@S{4}从明月口中得知，混元星斗图就收藏在五庄观的乾坤宝库中，请你闯入五庄观乾坤宝库取得@F{fc=c41}混元星斗图@D。|@S{4}从明月口中得知，混元星斗图就收藏在五庄观的乾坤宝库中，请你闯入五庄观乾坤宝库取得@F{fc=c41}混元星斗图@D。|@S{4}从明月口中得知，混元星斗图就收藏在五庄观的乾坤宝库中，请你闯入五庄观乾坤宝库取得@F{fc=c41}混元星斗图@D。|@S{4}从明月口中得知，混元星斗图就收藏在五庄观的乾坤宝库中，请你闯入五庄观乾坤宝库取得@F{fc=c41}混元星斗图@D。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020854", 
+        "nextQuest": "20101640|20101641|20101640|20101640", 
+        "taskCompleteFunctions": {}, 
+        "level": 18, 
+        "title": "（废弃）大闹五庄观", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

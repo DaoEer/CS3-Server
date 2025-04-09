@@ -1,0 +1,55 @@
+{% load staticfiles %}
+{% load custom_filter %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="views" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/static/images/favicon.ico">
+	<link rel="stylesheet" href="/static/dashboard.css">
+	<title>activities editor</title>
+	<link rel="stylesheet" href="/static/bootstrap-3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/jscalendar-1.0/calendar-win2k-cold-1.css" media="all" title="win2k-cold-1">
+
+	<script type="text/javascript" src="/static/jscalendar-1.0/calendar.js"></script>
+	<script type="text/javascript" src="/static/jacalendar-1.0/lang/calendar-en.js"></script>
+	<script type="text/javascript" src="/static/jacalendar-1.0/calendar-setup.js"></script>
+	<script type="text/javascript" src="/static/js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<div class="row col-sm-16 control-label" style = "margin:0.1px;"> 
+		<div class="row col-sm-12 control-label" style = "margin:0.1px;">
+			<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;text-align:left">
+				<thead>
+					<tr>
+						<th>序号</th>
+						<th>角色名称</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for roleInfo in awardRoleList %}
+					<tr>
+						<td>{{ roleInfo.id }}</td>
+						<td>{{ roleInfo.roleName}}</td>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

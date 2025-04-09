@@ -1,0 +1,274 @@
+{
+    "BQXBwuqi": {
+        "shopName": "武器商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "BQDByaopin": {
+        "shopName": "药品商", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "PetShop": {
+        "shopName": "幻兽商人", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "HHYshipin": {
+        "shopName": "首饰商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "HHYfangju": {
+        "shopName": "防具商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "YLGwuqi": {
+        "shopName": "武器商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "BQXBshipin": {
+        "shopName": "首饰商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "NPCShop_Armor_1": {
+        "shopName": "防具商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "TongShop": {
+        "shopName": "帮会商人", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 1, 
+        "isCanbuyBack": 1
+    }, 
+    "YLGshipin": {
+        "shopName": "首饰商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "YLGyaopin": {
+        "shopName": "药品商", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "TestShop": {
+        "shopName": "测试商店", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "CampShop": {
+        "shopName": "阵营商人", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "BQDBshipin": {
+        "shopName": "首饰商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "WanderShop": {
+        "shopName": "云游商人", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "FuBenyaopin": {
+        "shopName": "杂货商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "BQXByaopin": {
+        "shopName": "药品商", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "CuilianShop": {
+        "shopName": "淬炼商店", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "NPCShop_Weapon_1": {
+        "shopName": "武器商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "BQDBfangju": {
+        "shopName": "防具商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "BQDBwuqi": {
+        "shopName": "武器商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "YLGfangju": {
+        "shopName": "防具商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "GroceriesShop": {
+        "shopName": "杂货商人", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "NPCShop_Drug_1": {
+        "shopName": "药品商", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "FMCwuqi": {
+        "shopName": "武器商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "FMCshipin": {
+        "shopName": "首饰商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "HHYyaopin": {
+        "shopName": "药品商", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "FMCyaopin": {
+        "shopName": "药品商", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "NPCShop_Jewelry_1": {
+        "shopName": "首饰商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "HHYwuqi": {
+        "shopName": "武器商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "BQXBfangju": {
+        "shopName": "防具商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "Zhongzi": {
+        "shopName": "灵田种子商", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "LunhuiShop": {
+        "shopName": "轮回秘境商店", 
+        "isCanRepair": 0, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }, 
+    "FMCfangju": {
+        "shopName": "防具商", 
+        "isCanRepair": 1, 
+        "isCanSell": 1, 
+        "describe": "", 
+        "isTongDisCount": 0, 
+        "isCanbuyBack": 1
+    }
+}

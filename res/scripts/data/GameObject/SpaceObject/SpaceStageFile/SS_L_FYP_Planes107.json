@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭白虎族兽卫", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010009|20010010|20010011", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(10580 3890 2676)#L_FYP"
+                }
+            }, 
+            "title": "前往灵脉"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭狂牙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010006", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-20 -3745 718)#L_FYP_Planes107"
+                }
+            }, 
+            "title": "白虎守将"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭白虎族战士", 
+                    "reqVal": 11, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009994|20009995|20009996|20010027", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(7063 -1731 1457)#L_FYP_Planes107"
+                }
+            }, 
+            "title": "过关斩将"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭风影", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010007", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-6645 8630 756)#L_FYP_Planes107"
+                }
+            }, 
+            "title": "白虎长老"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭白虎族甲卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010000|20010001|20010002|20010003|20010004|20010005", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-2350 1089 834)#L_FYP_Planes107"
+                }
+            }, 
+            "title": "暗藏伏兵"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏上古灵脉", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010008", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-6645 8630 756)#L_FYP_Planes107"
+                }
+            }, 
+            "title": "破坏灵脉"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "占领上古灵脉"
+}

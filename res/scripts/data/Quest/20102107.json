@@ -1,0 +1,91 @@
+{
+    "20102107": {
+        "tasks": [], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002080"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102107, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|2|3"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102106"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "15824", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "622", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6982", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "3", 
+                "param3": "", 
+                "description": "一星·龙力转魂丹", 
+                "param1": "202030003", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q042222|Q042223|Q042227", 
+        "finish_by": "10000126#L_TQG", 
+        "taskLogDes": "@S{4}朝天犼告知，谛听已被魔道祖巫天吴带走。请你速返回太清宫，向老君寻求搭救谛听之法。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q042228", 
+        "nextQuest": "20102115", 
+        "taskCompleteFunctions": {}, 
+        "level": 37, 
+        "title": "回禀老君", 
+        "isAutoCommit": 1, 
+        "start_by": "10000739#L_MXG", 
+        "isAutoAccept": 1
+    }
+}

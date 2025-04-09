@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "天外宫",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_JTLY_SC",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_fu_ben_L_JTLY_SC",
+"NavmeshPath"	: "space\\L_JTLY_SC_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_JTLY_SC",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_3",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C001446|C001447"},
+	"enterPosition":"361710 -241210 -11120",
+	"enterDirection":"0 0 -120",
+	"stageFile":"SS_fu_ben_L_JTLY_SC",
+	"eventFile":"SE_fu_ben_L_JTLY_SC",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

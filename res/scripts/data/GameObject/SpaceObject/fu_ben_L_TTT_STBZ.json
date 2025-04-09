@@ -1,0 +1,32 @@
+{
+"SpaceName"	: "天魔秘藏",
+"EntityType"	: "SpaceCopyDongTianFuDi",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyDongTianFuDi",
+"scriptID"	: "fu_ben_L_TTT_STBZ",
+"spaceType"	: "SPACE_TYPE_JSSLC_CHANCE_COPY",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_SXBH_NAVMESH",
+"PatrolRouteFile": "P_L_STBZ",
+"belongType"	: "1",
+"SpaceAoi"	: "100",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"spaceIntroduce":{"voiceID":"C001987|C001988"},
+	"enterPosition":"5971 353 206",
+	"enterDirection":"0 0 180",
+	"stageFile":"SS_fu_ben_L_TTT_STBZ",
+	"eventFile":"SE_fu_ben_L_TTT_STBZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "rewards": "2:180:30000:C001887|1:300:21600:C001886",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

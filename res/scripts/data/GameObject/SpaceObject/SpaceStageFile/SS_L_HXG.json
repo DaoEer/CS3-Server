@@ -1,0 +1,130 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "靠近幻星阁入口", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-19.857437 26160.232422 1733.937988:8", 
+                    "param2": "2233.937988|1233.937988", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-19.857437 26160.232422 1733.937988)#L_HXG"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入幻星阁", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "0.000000 18600.000000 1698.241455:15", 
+                    "param2": "2198.241455|1198.241455", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(0.000000 18600.000000 1698.241455)#L_HXG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败门口守卫", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009071|20009161", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败巡逻的守卫", 
+                    "reqVal": 8, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009072|20009073|20009074|20009075|20009090|20009091|20009092|20009093", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "闯入幻星阁"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到天尘子藏身之处", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "22.356609 -13287.397461 1654.015991:15", 
+                    "param2": "2154.015991|1154.015991", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(22.356609 -13287.397461 1654.015991)#L_HXG"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天尘子", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-120.000000 -25370.000000 3420.000000)#L_HXG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败幻星阁弟子", 
+                    "reqVal": 4, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009080|20009081", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "找寻天尘子"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "沿路深入，消灭幻星阁卫兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009076|20009077|20009078|20009079", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入幻星阁"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入凌云塔继续追击天尘子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-80.000000 -35030.000000 4140.651855:2", 
+                    "param2": "4640.651855|3640.651855", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-80.000000 -35030.000000 4140.651855)#L_HXG"
+                }
+            }, 
+            "title": "穷追不舍"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "获悉金乌下落（一）"
+}

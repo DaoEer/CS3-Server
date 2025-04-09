@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "帮助帮会尽快取得1500积分", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "", 
+                    "reqVal": 0, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "帮会争霸"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "帮会争霸战第三场"
+}

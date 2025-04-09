@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭云麓阁卫兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009038|20009039|20008116", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-30040.0 -31005.0 718.3)#L_FYP_Planes102"
+                }
+            }, 
+            "title": "前往云麓阁"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭云麓阁弟子", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009048|20009050", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-32065.0 -53130.0 1893.3)#L_FYP_Planes102"
+                }
+            }, 
+            "title": "披荆斩棘"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭常勋道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009047", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-32485 -44225 1784)#L_FYP_Planes102"
+                }
+            }, 
+            "title": "常勋道人"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭灵空道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009054", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-25942 -63984 2108)#L_FYP_Planes102"
+                }
+            }, 
+            "title": "广成子之徒"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "追击夸父"
+}

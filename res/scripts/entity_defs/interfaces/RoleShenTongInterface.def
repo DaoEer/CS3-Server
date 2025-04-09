@@ -1,0 +1,69 @@
+<root>
+	<Properties>
+		<shentongSkills> <!--神通技能-->
+			<Type>		SHEN_TONG_SKILL_LIST	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		true			</Persistent>
+		</shentongSkills>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_rquestComminution>
+			<Arg>		INT32		</Arg>
+		</CLIENT_rquestComminution>
+		<CLIENT_UpdateShenTongDynamic>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		BOOL		</Arg>
+		</CLIENT_UpdateShenTongDynamic>	
+		<UpdateShenTongSKill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		BOOL		</Arg>
+		</UpdateShenTongSKill>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_rquestComminution>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CELL_rquestComminution>
+		<learnPetShenTongSkill>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</learnPetShenTongSkill>
+		<onLearnPetShenTongSkill>
+			<Arg>		STRING		</Arg>
+		</onLearnPetShenTongSkill>
+		<delPetShenTongSkill>	
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</delPetShenTongSkill>
+	</CellMethods>
+
+	<BaseMethods>
+		<onUseShenTongSkill>
+			<Arg>		INT32		</Arg>
+		</onUseShenTongSkill>
+		<learnPetShenTongSkill>	
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</learnPetShenTongSkill>
+		<delPetShenTongSkill>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</delPetShenTongSkill>
+		<delShenTongQuickBar>
+			<Arg>		INT32		</Arg>
+		</delShenTongQuickBar>
+	</BaseMethods>
+</root>

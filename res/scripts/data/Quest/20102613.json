@@ -1,0 +1,96 @@
+{
+    "20102613": {
+        "tasks": [
+            {
+                "navigateData": "(9017 -43939 1478)#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往有穷部落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002120"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102613, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102563"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "37640", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1123", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12613", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045807", 
+        "finish_by": "10001009#L_FYP", 
+        "taskLogDes": "@S{4}十日同出乃魔道消灭轩辕族的关键，绝不能让仙道夺走金乌，祖巫玄冥让你先行攻打有穷部落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045827", 
+        "nextQuest": "20102614", 
+        "taskCompleteFunctions": {}, 
+        "level": 38, 
+        "title": "袭击有穷部落", 
+        "isAutoCommit": 1, 
+        "start_by": "10001007#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "荒月庄园",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_HYZY",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "L_HYZY_spawn",
+"NavmeshPath"	: "space\\L_HYZY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 120,
+	"spaceIntroduce":{"voiceID":"C000080"},
+	"enterPosition":"-38324 -28556 -603",
+	"enterDirection":"0 0 92",
+	"stageFile":"SS_L_HYZY",
+	"eventFile":"SE_L_HYZY",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,32 @@
+﻿{
+"SpaceName"	: "磐石洞天",
+"EntityType"	: "SpaceCopyJiYuan",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJiYuan",
+"scriptID"	: "fu_ben_L_LHMJ_PSDT",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_LHMJ_PSDT",
+"NavmeshPath"	: "space\\L_HLSY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 400.0,
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_LHMJ_1",
+	"Position"	: "40968 30536 4046",
+	"Direction"	: "0.0 0.0 90.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 8,
+	"spaceIntroduce":{"voiceID":""},
+	"enterPosition":"-14210 -14720 370",
+	"enterDirection":"0 0 30",
+	"eventFile":"SE_fu_ben_L_LHMJ_PSDT",
+	"stageFile":"SS_fu_ben_L_LHMJ_PSDT",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 0
+	},
+"DomainData"	:{
+	}
+}

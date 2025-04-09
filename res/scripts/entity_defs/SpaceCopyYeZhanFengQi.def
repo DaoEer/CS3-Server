@@ -1,0 +1,84 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<memberDatas>
+			<Type>		YE_ZHAN_FENG_QI_MEMBER_MGR	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</memberDatas>
+		<upLeftOriginPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</upLeftOriginPos>
+		<upRightOriginPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</upRightOriginPos>
+		<downLeftOriginPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</downLeftOriginPos>
+		<downRightOriginPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</downRightOriginPos>
+		<upLeftEndPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</upLeftEndPos>
+		<upRightEndPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</upRightEndPos>
+		<downLeftEndPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</downLeftEndPos>
+		<downRightEndPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</downRightEndPos>
+		<reduceAreaTimer>
+			<Type>		TIMER_ID	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</reduceAreaTimer>
+	</Properties>
+
+	<CellMethods>
+		<onStartReduceArea>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		VECTOR3		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</onStartReduceArea>
+		<removeAreaTimer/>
+		<onCheckPlayerIsInSaveArea>
+			<Arg>		INT32		</Arg>
+		</onCheckPlayerIsInSaveArea>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

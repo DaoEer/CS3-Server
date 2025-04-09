@@ -1,0 +1,51 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<ammo>
+			<Type>		INT16			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</ammo>
+		<cdEndTime>
+			<Type>		SERVER_TIME		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</cdEndTime>
+		<operatorID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+		</operatorID>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_OnSelfOpertionBattery>
+			<Arg>	INT16		</Arg>
+			<Arg>	CLIENT_TIME	</Arg>
+		</CLIENT_OnSelfOpertionBattery>
+		<CLIENT_OnProjectBattery>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	FLOAT		</Arg>
+		</CLIENT_OnProjectBattery>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_operationBattery>
+			<Exposed/>
+		</CELL_operationBattery>
+		<CELL_cancelOperationBattery>
+			<Exposed/>
+		</CELL_cancelOperationBattery>
+		<CELL_projectBattery>
+			<Exposed/>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	FLOAT		</Arg>
+		</CELL_projectBattery>
+	</CellMethods>
+</root>
+

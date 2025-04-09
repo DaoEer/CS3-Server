@@ -1,0 +1,37 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<miZhen_reqTeam>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	PYTHON_LIST		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</miZhen_reqTeam>
+		<miZhen_onTeamChange>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</miZhen_onTeamChange>
+		<miZhen_onPlayerLoginOff>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE			</Arg>
+		</miZhen_onPlayerLoginOff>
+		<miZhen_cancelSignUp>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</miZhen_cancelSignUp>
+		<miZhen_onAffirm>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	BOOL			</Arg>
+		</miZhen_onAffirm>
+		<onEnterSpaceCopySGMZ>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</onEnterSpaceCopySGMZ>
+	</BaseMethods>
+</root>

@@ -1,0 +1,40 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<spaceSettlementEvents>
+			<Type>		ARRAY_INT8		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</spaceSettlementEvents>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<spaceSettlement_addEvent>
+			<Arg>	ARRAY_INT8		</Arg>
+		</spaceSettlement_addEvent>
+		<spaceSettlement_clearEvent/>
+		<openSpaceSettlementRewdBox>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</openSpaceSettlementRewdBox>
+	</CellMethods>
+
+	<ClientMethods>
+		<ShowSpaceSettlementWin>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		ARRAY_UNICODE		</Arg>
+			<Arg>		ARRAY_STRING		</Arg>
+		</ShowSpaceSettlementWin>
+		<UpdateSpaceSettlementRewdBox>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		ARRAY_STRING		</Arg>
+		</UpdateSpaceSettlementRewdBox>
+	</ClientMethods>
+</root>

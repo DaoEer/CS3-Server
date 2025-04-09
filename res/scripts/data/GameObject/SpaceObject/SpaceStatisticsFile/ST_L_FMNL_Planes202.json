@@ -1,0 +1,34 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 踏上法宝，拾取路上的金币和经验晶球可获得少量奖励，触碰即可拾取。@B• 加速带可瞬间提高移动速度。@B• 踩上藤蔓陷阱会被禁锢。@B• 道旁的魔魇会丢出减速冰球。@B• 注意灰色迷雾下随时会凸起的巨石。@B• 最终抵达终点消耗的时间越短获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "获得钱币数", 
+                    "postfix": "", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "money", 
+                    "param2": "30000115", 
+                    "param1": "Trap", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "2": {
+                    "title": "获得经验晶球数", 
+                    "postfix": "", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "exp", 
+                    "param2": "30000117", 
+                    "param1": "Trap", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "获取钱币、经验晶球"
+        }
+    }, 
+    "name": "逐风之路"
+}

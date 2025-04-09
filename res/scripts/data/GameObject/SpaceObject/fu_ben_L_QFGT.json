@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "琴风古亭",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildCopy",
+"scriptID"	: "fu_ben_L_QFGT",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_QFGT",
+"NavmeshPath"	: "space\\L_QFGT_01_NAVMESH",
+"PatrolRouteFile": "P_L_QFGT",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544001,
+	"spaceIntroduce":{"voiceID":"C001451|C001452|C001453"},
+	"enterPosition":"-10000 -5950 1660",
+	"enterDirection":"0 0 0",
+	"stageFile":"SS_L_QFGT",
+	"eventFile":"SE_L_QFGT",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

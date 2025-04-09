@@ -1,0 +1,5011 @@
+{
+    "344": {
+        "remarks": "魔道17级-2-4(40000449)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "344", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "345": {
+        "remarks": "魔道17级-1-1(40000349)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "345", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "346": {
+        "remarks": "魔道17级-1-2(40000350)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "346", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "347": {
+        "remarks": "魔道17级-1-3(40000351)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "347", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "340": {
+        "remarks": "魔道17级-2-4(40000445)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "340", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "341": {
+        "remarks": "魔道17级-2-4(40000446)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "341", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "342": {
+        "remarks": "魔道17级-2-4(40000447)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "342", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "343": {
+        "remarks": "魔道17级-2-4(40000448)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "343", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "348": {
+        "remarks": "魔道17级-1-3(40000352)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "348", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "349": {
+        "remarks": "魔道17级-1-3(40000353)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "349", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "595": {
+        "remarks": "仙魔15级-2(40000525)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "595", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "606": {
+        "remarks": "仙魔15级-2(40000536)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "606", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "594": {
+        "remarks": "仙魔15级-2(40000524)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "594", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "619": {
+        "remarks": "仙魔15级-3(40000549)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "619", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "298": {
+        "remarks": "魔道17级-2-2(40000403)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "298", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "299": {
+        "remarks": "魔道17级-2-2(40000404)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "299", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "296": {
+        "remarks": "魔道17级-2-1(40000401)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "296", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "297": {
+        "remarks": "魔道17级-2-1(40000402)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "297", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "294": {
+        "remarks": "魔道17级-2-1(40000399)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "294", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "295": {
+        "remarks": "魔道17级-2-1(40000400)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "295", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "292": {
+        "remarks": "魔道17级-2-1(40000397)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "292", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "293": {
+        "remarks": "魔道17级-2-1(40000398)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "293", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "290": {
+        "remarks": "魔道17级-2-1(40000395)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "290", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "291": {
+        "remarks": "魔道17级-2-1(40000396)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "291", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "591": {
+        "remarks": "仙魔15级-1(40000521)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "591", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "590": {
+        "remarks": "仙魔15级-1(40000520)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "590", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "593": {
+        "remarks": "仙魔15级-2(40000523)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "593", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "592": {
+        "remarks": "仙魔15级-2(40000522)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "592", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "199": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "199", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "198": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "198", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "597": {
+        "remarks": "仙魔15级-2(40000527)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "597", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "596": {
+        "remarks": "仙魔15级-2(40000526)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "596", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "195": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "195", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "194": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "194", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "197": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "197", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "196": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "196", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "191": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "191", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "190": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "190", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "193": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "193", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "192": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "192", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "270": {
+        "remarks": "魔道17级-1-4(40000376)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "270", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "271": {
+        "remarks": "魔道17级-1-4(40000377)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "271", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "272": {
+        "remarks": "魔道17级-1-4(40000378)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "272", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "273": {
+        "remarks": "魔道17级-1-4(40000379)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "273", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "274": {
+        "remarks": "魔道17级-1-4(40000380)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "274", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "275": {
+        "remarks": "魔道17级-1-4(40000381)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "275", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "276": {
+        "remarks": "魔道17级-1-4(40000382)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "276", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "277": {
+        "remarks": "魔道17级-1-4(40000383)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "277", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "278": {
+        "remarks": "魔道17级-2-1(40000384)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "278", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "279": {
+        "remarks": "魔道17级-2-1(40000385)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "279", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "524": {
+        "remarks": "仙魔15级-3(40000541)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "524", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "525": {
+        "remarks": "仙魔15级-3(40000542)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "525", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "526": {
+        "remarks": "仙魔15级-3(40000543)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "526", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "527": {
+        "remarks": "仙魔15级-3(40000544)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "527", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "520": {
+        "remarks": "仙魔15级-3(40000537)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "520", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "521": {
+        "remarks": "仙魔15级-3(40000538)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "521", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "522": {
+        "remarks": "仙魔15级-3(40000539)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "522", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "523": {
+        "remarks": "仙魔15级-3(40000540)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "523", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "599": {
+        "remarks": "仙魔15级-2(40000529)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "599", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "528": {
+        "remarks": "仙魔15级-3(40000545)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "528", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "529": {
+        "remarks": "仙魔15级-3(40000546)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "529", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "449": {
+        "remarks": "仙魔15级-1(40000466)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "449", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "448": {
+        "remarks": "仙魔15级-1(40000465)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "448", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "443": {
+        "remarks": "魔道17级-2-4(40000446)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "443", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "442": {
+        "remarks": "魔道17级-2-4(40000445)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "442", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "441": {
+        "remarks": "魔道17级-2-4(40000444)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "441", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "440": {
+        "remarks": "魔道17级-2-4(40000443)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "440", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "447": {
+        "remarks": "魔道17级-2-2(40000403)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "447", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "446": {
+        "remarks": "魔道17级-2-4(40000449)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "446", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "445": {
+        "remarks": "魔道17级-2-4(40000448)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "445", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "444": {
+        "remarks": "魔道17级-2-4(40000447)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "444", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "108": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "108", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "109": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "109", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "102": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "102", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "103": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "103", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "100": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "100", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "101": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "101", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "106": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "106", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "107": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "107", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "104": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "104", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "105": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "105", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "39": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "39", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "38": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "38", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "33": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "33", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "32": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "32", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "31": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "31", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "30": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "30", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "37": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "37", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "36": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "36", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "35": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "35", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "34": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "34", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "641": {
+        "remarks": "金枝玉庭-雨水效果", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "641", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "640": {
+        "remarks": "魔道17级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "640", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "643": {
+        "remarks": "英雄王座-QL", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "643", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "642": {
+        "remarks": "英雄王座-ZH", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "642", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "645": {
+        "remarks": "魔道17级-2-2(40000405)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "645", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "644": {
+        "remarks": "魔道17级-2-2(40000404)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "644", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "438": {
+        "remarks": "魔道17级-2-4(40000441)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "438", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "439": {
+        "remarks": "魔道17级-2-4(40000442)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "439", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "436": {
+        "remarks": "魔道17级-2-4(40000439)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "436", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "437": {
+        "remarks": "魔道17级-2-4(40000440)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "437", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "434": {
+        "remarks": "魔道17级-2-4(40000437)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "434", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "435": {
+        "remarks": "魔道17级-2-4(40000438)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "435", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "432": {
+        "remarks": "魔道17级-2-4(40000435)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "432", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "433": {
+        "remarks": "魔道17级-2-4(40000436)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "433", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "430": {
+        "remarks": "魔道17级-2-4(40000433)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "430", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "431": {
+        "remarks": "魔道17级-2-4(40000434)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "431", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "339": {
+        "remarks": "魔道17级-2-4(40000444)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "339", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "338": {
+        "remarks": "魔道17级-2-4(40000443)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "338", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "335": {
+        "remarks": "魔道17级-2-4(40000440)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "335", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "334": {
+        "remarks": "魔道17级-2-4(40000439)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "334", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "337": {
+        "remarks": "魔道17级-2-4(40000442)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "337", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "336": {
+        "remarks": "魔道17级-2-4(40000441)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "336", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "331": {
+        "remarks": "魔道17级-2-4(40000436)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "331", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "330": {
+        "remarks": "魔道17级-2-4(40000435)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "330", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "333": {
+        "remarks": "魔道17级-2-4(40000438)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "333", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "332": {
+        "remarks": "魔道17级-2-4(40000437)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "332", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "6": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "6", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "99": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "99", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "98": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "98", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "91": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "91", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "90": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "90", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "93": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "93", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "92": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "92", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "95": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "95", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "94": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "94", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "97": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "97", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "96": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "96", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "559": {
+        "remarks": "仙魔15级-2(40000489)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "559", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "558": {
+        "remarks": "仙魔15级-2(40000488)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "558", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "555": {
+        "remarks": "仙魔15级-2(40000485)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "555", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "554": {
+        "remarks": "仙魔15级-2(40000484)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "554", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "557": {
+        "remarks": "仙魔15级-2(40000487)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "557", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "556": {
+        "remarks": "仙魔15级-2(40000486)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "556", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "551": {
+        "remarks": "仙魔15级-2(40000481)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "551", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "550": {
+        "remarks": "仙魔15级-2(40000480)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "550", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "553": {
+        "remarks": "仙魔15级-2(40000483)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "553", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "552": {
+        "remarks": "仙魔15级-2(40000482)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "552", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "238": {
+        "remarks": "9级-2-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "238", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "239": {
+        "remarks": "帝宫石印阵", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "239", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "234": {
+        "remarks": "9级-2-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "234", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "235": {
+        "remarks": "9级-2-2-1-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "235", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "236": {
+        "remarks": "9级-2-2-1-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "236", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "237": {
+        "remarks": "9级-2-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "237", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "230": {
+        "remarks": "9级-1-2-2-3", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "230", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "231": {
+        "remarks": "9级-2-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "231", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "232": {
+        "remarks": "9级-2-2-1-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "232", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "233": {
+        "remarks": "9级-2-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "233", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "1": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "1", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "614": {
+        "remarks": "仙魔15级-3(40000544)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "614", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "146": {
+        "remarks": "9级-2-1-1(40000274)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "146", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "147": {
+        "remarks": "9级-2-2-1(40000275)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "147", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "144": {
+        "remarks": "9级-2-1-1(40000272)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "144", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "145": {
+        "remarks": "9级-2-1-1(40000273)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "145", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "142": {
+        "remarks": "9级-2-1-1(40000270)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "142", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "143": {
+        "remarks": "9级-2-1-1(40000271)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "143", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "140": {
+        "remarks": "9级-2-1-1(40000268)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "140", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "141": {
+        "remarks": "9级-2-1-1(40000269)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "141", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "612": {
+        "remarks": "仙魔15级-3(40000542)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "612", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "613": {
+        "remarks": "仙魔15级-3(40000543)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "613", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "610": {
+        "remarks": "仙魔15级-3(40000540)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "610", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "611": {
+        "remarks": "仙魔15级-3(40000541)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "611", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "616": {
+        "remarks": "仙魔15级-3(40000546)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "616", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "617": {
+        "remarks": "仙魔15级-3(40000547)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "617", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "148": {
+        "remarks": "9级-2-2-1(40000276)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "148", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "149": {
+        "remarks": "9级-2-2-1(40000277)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "149", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "689": {
+        "remarks": "火盆", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "689", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "688": {
+        "remarks": "火盆", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "688", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "685": {
+        "remarks": "仙道43级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "685", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "684": {
+        "remarks": "仙道43级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "684", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "687": {
+        "remarks": "冰墙", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "687", 
+        "spaceScriptID": "L_BHD_1", 
+        "effectCondition": []
+    }, 
+    "686": {
+        "remarks": "幻阵迷宫-天气效果", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "686", 
+        "spaceScriptID": "fu_ben_L_HZMG1|fu_ben_L_HZMG2|fu_ben_L_HZMG4|fu_ben_L_HZMG10|fu_ben_L_HZMG9", 
+        "effectCondition": []
+    }, 
+    "681": {
+        "remarks": "岐山-山顶石头", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "681", 
+        "spaceScriptID": "L_QS|L_QS_Planes001", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "2|3|4", 
+                "param1": "20102182"
+            }, 
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "3", 
+                "param1": "20102183"
+            }
+        ]
+    }, 
+    "680": {
+        "remarks": "天公山-删除龙头扭头", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "680", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "683": {
+        "remarks": "仙道43级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "683", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "682": {
+        "remarks": "岐山-删除山顶石头", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "682", 
+        "spaceScriptID": "L_QS|L_QS_Planes001", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "2|4", 
+                "param1": "20102183"
+            }
+        ]
+    }, 
+    "623": {
+        "remarks": "仙魔15级-龙雕像1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "623", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "622": {
+        "remarks": "传送门-进入凌云塔", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "622", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "133": {
+        "remarks": "9级-1-2-2(40000261)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "133", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "132": {
+        "remarks": "9级-1-2-2(40000260)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "132", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "131": {
+        "remarks": "9级-1-2-2(40000259)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "131", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "130": {
+        "remarks": "9级-1-2-2(40000258)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "130", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "137": {
+        "remarks": "9级-2-1-1(40000265)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "137", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "136": {
+        "remarks": "9级-2-1-1(40000264)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "136", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "135": {
+        "remarks": "9级-1-2-2(40000263)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "135", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "134": {
+        "remarks": "9级-1-2-2(40000262)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "134", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "494": {
+        "remarks": "仙魔15级-1(40000511)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "494", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "495": {
+        "remarks": "仙魔15级-1(40000512)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "495", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "139": {
+        "remarks": "9级-2-1-1(40000267)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "139", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "138": {
+        "remarks": "9级-2-1-1(40000266)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "138", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "490": {
+        "remarks": "仙魔15级-1(40000507)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "490", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "491": {
+        "remarks": "仙魔15级-1(40000508)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "491", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "492": {
+        "remarks": "仙魔15级-1(40000509)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "492", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "493": {
+        "remarks": "仙魔15级-1(40000510)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "493", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "24": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "24", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "25": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "25", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "26": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "26", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "27": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "27", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "20": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "20", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "21": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "21", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "22": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "22", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "23": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "23", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "28": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "28", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "29": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "29", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "407": {
+        "remarks": "魔道17级-2-2(40000410)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "407", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "406": {
+        "remarks": "魔道17级-2-2(40000409)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "406", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "405": {
+        "remarks": "魔道17级-2-2(40000408)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "405", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "404": {
+        "remarks": "魔道17级-2-2(40000407)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "404", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "403": {
+        "remarks": "魔道17级-2-2(40000406)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "403", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "402": {
+        "remarks": "魔道17级-2-2(40000405)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "402", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "401": {
+        "remarks": "魔道17级-2-2(40000404)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "401", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "400": {
+        "remarks": "魔道17级-2-2(40000403)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "400", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "629": {
+        "remarks": "仙魔15级-3(40000552)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "629", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "409": {
+        "remarks": "魔道17级-2-3(40000412)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "409", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "408": {
+        "remarks": "魔道17级-2-2(40000411)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "408", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "628": {
+        "remarks": "仙魔15级-3(40000554)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "628", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "379": {
+        "remarks": "魔道17级-1-4(40000383)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "379", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "378": {
+        "remarks": "魔道17级-1-4(40000382)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "378", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "371": {
+        "remarks": "魔道17级-1-4(40000375)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "371", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "370": {
+        "remarks": "魔道17级-1-4(40000374)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "370", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "373": {
+        "remarks": "魔道17级-1-4(40000377)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "373", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "372": {
+        "remarks": "魔道17级-1-4(40000376)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "372", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "375": {
+        "remarks": "魔道17级-1-4(40000379)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "375", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "374": {
+        "remarks": "魔道17级-1-4(40000378)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "374", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "377": {
+        "remarks": "魔道17级-1-4(40000381)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "377", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "376": {
+        "remarks": "魔道17级-1-4(40000380)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "376", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "700": {
+        "remarks": "魔44级亢阳星", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "700", 
+        "spaceScriptID": "L_KYX_mo", 
+        "effectCondition": []
+    }, 
+    "618": {
+        "remarks": "仙魔15级-3(40000548)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "618", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "702": {
+        "remarks": "创建门3", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "702", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "703": {
+        "remarks": "炎魔窟大石头", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "703", 
+        "spaceScriptID": "L_YMK", 
+        "effectCondition": []
+    }, 
+    "393": {
+        "remarks": "魔道17级-2-1(40000396)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "393", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "392": {
+        "remarks": "魔道17级-2-1(40000395)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "392", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "88": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "88", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "89": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "89", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "397": {
+        "remarks": "魔道17级-2-1(40000400)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "397", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "396": {
+        "remarks": "魔道17级-2-1(40000399)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "396", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "395": {
+        "remarks": "魔道17级-2-1(40000398)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "395", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "394": {
+        "remarks": "魔道17级-2-1(40000397)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "394", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "82": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "82", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "83": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "83", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "80": {
+        "remarks": "门2保持打开", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "80", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "81": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "81", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "86": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "86", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "87": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "87", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "84": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "84", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "85": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "85", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "7": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "7", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "601": {
+        "remarks": "仙魔15级-2(40000531)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "601", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "607": {
+        "remarks": "仙魔15级-3(40000537)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "607", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "586": {
+        "remarks": "仙魔15级-1(40000516)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "586", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "587": {
+        "remarks": "仙魔15级-1(40000517)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "587", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "584": {
+        "remarks": "仙魔15级-1(40000514)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "584", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "585": {
+        "remarks": "仙魔15级-1(40000515)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "585", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "582": {
+        "remarks": "仙魔15级-1(40000512)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "582", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "583": {
+        "remarks": "仙魔15级-1(40000513)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "583", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "580": {
+        "remarks": "仙魔15级-1(40000510)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "580", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "581": {
+        "remarks": "仙魔15级-1(40000511)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "581", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "588": {
+        "remarks": "仙魔15级-1(40000518)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "588", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "589": {
+        "remarks": "仙魔15级-1(40000519)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "589", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "245": {
+        "remarks": "魔道17级-1-3(40000351)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "245", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "244": {
+        "remarks": "魔道17级-1-2(40000350)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "244", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "247": {
+        "remarks": "魔道17级-1-3(40000353)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "247", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "246": {
+        "remarks": "魔道17级-1-3(40000352)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "246", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "241": {
+        "remarks": "9级-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "241", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "240": {
+        "remarks": "9级-大箭头", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "240", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "243": {
+        "remarks": "魔道17级-1-1(40000349)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "243", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "242": {
+        "remarks": "有穷部落", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "242", 
+        "spaceScriptID": "L_FYP_Planes103", 
+        "effectCondition": []
+    }, 
+    "615": {
+        "remarks": "仙魔15级-3(40000545)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "615", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "249": {
+        "remarks": "魔道17级-1-3(40000355)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "249", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "248": {
+        "remarks": "魔道17级-1-3(40000354)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "248", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "519": {
+        "remarks": "仙魔15级-2(40000536)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "519", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "518": {
+        "remarks": "仙魔15级-2(40000535)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "518", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "511": {
+        "remarks": "仙魔15级-2(40000528)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "511", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "510": {
+        "remarks": "仙魔15级-2(40000527)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "510", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "513": {
+        "remarks": "仙魔15级-2(40000530)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "513", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "512": {
+        "remarks": "仙魔15级-2(40000529)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "512", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "515": {
+        "remarks": "仙魔15级-2(40000532)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "515", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "514": {
+        "remarks": "仙魔15级-2(40000531)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "514", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "517": {
+        "remarks": "仙魔15级-2(40000534)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "517", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "516": {
+        "remarks": "仙魔15级-2(40000533)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "516", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "458": {
+        "remarks": "仙魔15级-1(40000475)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "458", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "459": {
+        "remarks": "仙魔15级-1(40000476)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "459", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "621": {
+        "remarks": "仙魔15级-3(40000551)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "621", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "620": {
+        "remarks": "仙魔15级-3(40000550)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "620", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "627": {
+        "remarks": "仙魔15级-3(40000553)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "627", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "626": {
+        "remarks": "仙魔15级-3(40000552)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "626", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "625": {
+        "remarks": "仙魔15级-龙雕像3", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "625", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "624": {
+        "remarks": "仙魔15级-龙雕像2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "624", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "450": {
+        "remarks": "仙魔15级-1(40000467)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "450", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "451": {
+        "remarks": "仙魔15级-1(40000468)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "451", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "452": {
+        "remarks": "仙魔15级-1(40000469)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "452", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "453": {
+        "remarks": "仙魔15级-1(40000470)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "453", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "454": {
+        "remarks": "仙魔15级-1(40000471)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "454", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "455": {
+        "remarks": "仙魔15级-1(40000472)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "455", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "456": {
+        "remarks": "仙魔15级-1(40000473)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "456", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "457": {
+        "remarks": "仙魔15级-1(40000474)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "457", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "179": {
+        "remarks": "9级-1-2-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "179", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "178": {
+        "remarks": "9级-1-2-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "178", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "177": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "177", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "176": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "176", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "175": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "175", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "174": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "174", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "173": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "173", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "172": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "172", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "171": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "171", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "170": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "170", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "656": {
+        "remarks": "创建门3", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "656", 
+        "spaceScriptID": "L_PGDT_Planes002|L_HDDT_Planes102", 
+        "effectCondition": []
+    }, 
+    "657": {
+        "remarks": "门3保持打开", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "657", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "654": {
+        "remarks": "创建门2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "654", 
+        "spaceScriptID": "L_PGDT_Planes002|L_HDDT_Planes102", 
+        "effectCondition": []
+    }, 
+    "253": {
+        "remarks": "魔道17级-1-3(40000359)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "253", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "182": {
+        "remarks": "9级-1-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "182", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "183": {
+        "remarks": "9级-1-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "183", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "180": {
+        "remarks": "9级-1-2-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "180", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "181": {
+        "remarks": "9级-1-2-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "181", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "186": {
+        "remarks": "9级-1-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "186", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "187": {
+        "remarks": "9级-1-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "187", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "184": {
+        "remarks": "9级-1-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "184", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "185": {
+        "remarks": "9级-1-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "185", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "652": {
+        "remarks": "新版仙道7级", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "652", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "188": {
+        "remarks": "9级-1-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "188", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "189": {
+        "remarks": "9级-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "189", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "658": {
+        "remarks": "桥柱", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "658", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "653": {
+        "remarks": "巨剑", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "653", 
+        "spaceScriptID": "L_HDDT|L_HDDT_Planes104", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "1|3", 
+                "param1": "20101550"
+            }
+        ]
+    }, 
+    "650": {
+        "remarks": "巨剑", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "650", 
+        "spaceScriptID": "L_PGDT|L_PGDT_Planes004", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "1|3", 
+                "param1": "20101050"
+            }
+        ]
+    }, 
+    "651": {
+        "remarks": "新版魔道7级", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "651", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "11": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "11", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "10": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "10", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "13": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "13", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "12": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "12", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "15": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "15", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "14": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "14", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "17": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "17", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "16": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "16", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "19": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "19", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "18": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "18", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "659": {
+        "remarks": "桥升起", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "659", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "62": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "62", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "322": {
+        "remarks": "魔道17级-2-3(40000427)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "322", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "323": {
+        "remarks": "魔道17级-2-4(40000428)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "323", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "320": {
+        "remarks": "魔道17级-2-3(40000425)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "320", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "321": {
+        "remarks": "魔道17级-2-3(40000426)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "321", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "326": {
+        "remarks": "魔道17级-2-4(40000431)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "326", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "327": {
+        "remarks": "魔道17级-2-4(40000432)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "327", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "324": {
+        "remarks": "魔道17级-2-4(40000429)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "324", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "325": {
+        "remarks": "魔道17级-2-4(40000430)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "325", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "328": {
+        "remarks": "魔道17级-2-4(40000433)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "328", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "329": {
+        "remarks": "魔道17级-2-4(40000434)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "329", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "201": {
+        "remarks": "9级-2-2-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "201", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "200": {
+        "remarks": "9级-2-2-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "200", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "203": {
+        "remarks": "9级-2-2-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "203", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "202": {
+        "remarks": "9级-2-2-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "202", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "205": {
+        "remarks": "9级-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "205", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "204": {
+        "remarks": "9级-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "204", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "207": {
+        "remarks": "9级-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "207", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "206": {
+        "remarks": "9级-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "206", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "209": {
+        "remarks": "9级-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "209", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "208": {
+        "remarks": "9级-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "208", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "77": {
+        "remarks": "创建门1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "77", 
+        "spaceScriptID": "L_JSC_Planes102", 
+        "effectCondition": []
+    }, 
+    "76": {
+        "remarks": "门2保持打开", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "76", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "75": {
+        "remarks": "创建门2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "75", 
+        "spaceScriptID": "L_YSC_Planes002", 
+        "effectCondition": []
+    }, 
+    "74": {
+        "remarks": "门1保持打开", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "74", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "73": {
+        "remarks": "创建门1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "73", 
+        "spaceScriptID": "L_YSC_Planes002", 
+        "effectCondition": []
+    }, 
+    "72": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "72", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "71": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "71", 
+        "spaceScriptID": "L_BQDB|L_BQDB_Planes016", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "4", 
+                "param1": "20102091"
+            }, 
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "1|3", 
+                "param1": "20102097"
+            }
+        ]
+    }, 
+    "70": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "70", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "655": {
+        "remarks": "门2保持打开", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "655", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "79": {
+        "remarks": "创建门2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "79", 
+        "spaceScriptID": "L_JSC_Planes102", 
+        "effectCondition": []
+    }, 
+    "78": {
+        "remarks": "门1保持打开", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "78", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "2": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "2", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "669": {
+        "remarks": "石像左", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "669", 
+        "spaceScriptID": "L_HDDT|L_HDDT_Planes104", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "1|3", 
+                "param1": "20101550"
+            }
+        ]
+    }, 
+    "668": {
+        "remarks": "销毁落石", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "668", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "667": {
+        "remarks": "创建落石", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "667", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "666": {
+        "remarks": "销毁断桥", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "666", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "665": {
+        "remarks": "创建断桥", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "665", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "664": {
+        "remarks": "新版仙道天机谷", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "664", 
+        "spaceScriptID": "L_FMNL|L_FMNL_Planes011|L_FMNL_Planes012", 
+        "effectCondition": []
+    }, 
+    "663": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "663", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "662": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "662", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "661": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "661", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "660": {
+        "remarks": "桥平放", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "660", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "692": {
+        "remarks": "火盆", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "692", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "693": {
+        "remarks": "火盆", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "693", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "690": {
+        "remarks": "火盆", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "690", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "691": {
+        "remarks": "火盆", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "691", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "696": {
+        "remarks": "吊灯", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "696", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "697": {
+        "remarks": "云裳阁-黄昏", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "697", 
+        "spaceScriptID": "L_HRG_001", 
+        "effectCondition": []
+    }, 
+    "694": {
+        "remarks": "火盆", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "694", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "695": {
+        "remarks": "火盆", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "695", 
+        "spaceScriptID": "L_FSG_02", 
+        "effectCondition": []
+    }, 
+    "698": {
+        "remarks": "云裳阁-夜晚", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "698", 
+        "spaceScriptID": "L_HRG_001", 
+        "effectCondition": []
+    }, 
+    "699": {
+        "remarks": "仙44级亢阳星", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "699", 
+        "spaceScriptID": "L_KYX_xian", 
+        "effectCondition": []
+    }, 
+    "542": {
+        "remarks": "仙魔15级-1(40000472)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "542", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "543": {
+        "remarks": "仙魔15级-1(40000473)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "543", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "540": {
+        "remarks": "仙魔15级-1(40000470)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "540", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "541": {
+        "remarks": "仙魔15级-1(40000471)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "541", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "546": {
+        "remarks": "仙魔15级-1(40000476)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "546", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "547": {
+        "remarks": "仙魔15级-1(40000477)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "547", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "544": {
+        "remarks": "仙魔15级-1(40000474)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "544", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "545": {
+        "remarks": "仙魔15级-1(40000475)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "545", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "8": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "8", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "548": {
+        "remarks": "仙魔15级-1(40000478)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "548", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "549": {
+        "remarks": "仙魔15级-2(40000479)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "549", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "68": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "68", 
+        "spaceScriptID": "L_BQDB", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "4", 
+                "param1": "20102100"
+            }, 
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "4", 
+                "param1": "20102102"
+            }
+        ]
+    }, 
+    "598": {
+        "remarks": "仙魔15级-2(40000528)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "598", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "120": {
+        "remarks": "9级-1-1-1(40000248)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "120", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "121": {
+        "remarks": "9级-1-1-1(40000249)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "121", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "122": {
+        "remarks": "9级-1-1-1(40000250)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "122", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "123": {
+        "remarks": "9级-1-1-1(40000251)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "123", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "124": {
+        "remarks": "9级-1-1-1(40000252)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "124", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "125": {
+        "remarks": "9级-1-2-1(40000253)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "125", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "126": {
+        "remarks": "9级-1-2-1(40000254)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "126", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "127": {
+        "remarks": "9级-1-2-1(40000255)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "127", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "128": {
+        "remarks": "9级-1-2-1(40000256)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "128", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "129": {
+        "remarks": "9级-1-2-2(40000257)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "129", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "414": {
+        "remarks": "魔道17级-2-3(40000417)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "414", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "415": {
+        "remarks": "魔道17级-2-3(40000418)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "415", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "416": {
+        "remarks": "魔道17级-2-3(40000419)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "416", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "417": {
+        "remarks": "魔道17级-2-3(40000420)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "417", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "410": {
+        "remarks": "魔道17级-2-3(40000413)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "410", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "411": {
+        "remarks": "魔道17级-2-3(40000414)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "411", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "412": {
+        "remarks": "魔道17级-2-3(40000415)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "412", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "413": {
+        "remarks": "魔道17级-2-3(40000416)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "413", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "498": {
+        "remarks": "仙魔15级-1(40000515)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "498", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "418": {
+        "remarks": "魔道17级-2-3(40000421)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "418", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "419": {
+        "remarks": "魔道17级-2-3(40000422)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "419", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "499": {
+        "remarks": "仙魔15级-1(40000516)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "499", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "319": {
+        "remarks": "魔道17级-2-3(40000424)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "319", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "318": {
+        "remarks": "魔道17级-2-3(40000423)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "318", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "313": {
+        "remarks": "魔道17级-2-3(40000418)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "313", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "312": {
+        "remarks": "魔道17级-2-3(40000417)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "312", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "311": {
+        "remarks": "魔道17级-2-3(40000416)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "311", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "310": {
+        "remarks": "魔道17级-2-3(40000415)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "310", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "317": {
+        "remarks": "魔道17级-2-3(40000422)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "317", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "316": {
+        "remarks": "魔道17级-2-3(40000421)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "316", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "315": {
+        "remarks": "魔道17级-2-3(40000420)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "315", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "314": {
+        "remarks": "魔道17级-2-3(40000419)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "314", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "496": {
+        "remarks": "仙魔15级-1(40000513)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "496", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "497": {
+        "remarks": "仙魔15级-1(40000514)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "497", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "3": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "3", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "368": {
+        "remarks": "魔道17级-1-4(40000372)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "368", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "369": {
+        "remarks": "魔道17级-1-4(40000373)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "369", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "366": {
+        "remarks": "魔道17级-1-4(40000370)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "366", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "367": {
+        "remarks": "魔道17级-1-4(40000371)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "367", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "364": {
+        "remarks": "魔道17级-1-4(40000368)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "364", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "365": {
+        "remarks": "魔道17级-1-4(40000369)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "365", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "362": {
+        "remarks": "魔道17级-1-4(40000366)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "362", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "363": {
+        "remarks": "魔道17级-1-4(40000367)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "363", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "360": {
+        "remarks": "魔道17级-1-4(40000364)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "360", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "361": {
+        "remarks": "魔道17级-1-4(40000365)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "361", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "380": {
+        "remarks": "魔道17级-2-1(40000384)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "380", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "381": {
+        "remarks": "魔道17级-2-1(40000385)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "381", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "382": {
+        "remarks": "魔道17级-2-1(40000386)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "382", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "383": {
+        "remarks": "魔道17级-2-1(40000387)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "383", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "384": {
+        "remarks": "魔道17级-2-1(40000388)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "384", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "385": {
+        "remarks": "魔道17级-2-1(40000450)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "385", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "386": {
+        "remarks": "魔道17级-2-1(40000389)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "386", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "387": {
+        "remarks": "魔道17级-2-1(40000390)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "387", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "388": {
+        "remarks": "魔道17级-2-1(40000391)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "388", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "389": {
+        "remarks": "魔道17级-2-1(40000392)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "389", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "605": {
+        "remarks": "仙魔15级-2(40000535)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "605", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "579": {
+        "remarks": "仙魔15级-1(40000509)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "579", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "578": {
+        "remarks": "仙魔15级-1(40000508)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "578", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "604": {
+        "remarks": "仙魔15级-2(40000534)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "604", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "573": {
+        "remarks": "仙魔15级-3(40000503)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "573", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "572": {
+        "remarks": "仙魔15级-3(40000502)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "572", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "571": {
+        "remarks": "仙魔15级-3(40000501)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "571", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "570": {
+        "remarks": "仙魔15级-3(40000500)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "570", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "577": {
+        "remarks": "仙魔15级-1(40000507)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "577", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "576": {
+        "remarks": "仙魔15级-3(40000506)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "576", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "575": {
+        "remarks": "仙魔15级-3(40000505)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "575", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "574": {
+        "remarks": "仙魔15级-3(40000504)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "574", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "60": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "60", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "61": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "61", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "258": {
+        "remarks": "魔道17级-1-4(40000364)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "258", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "259": {
+        "remarks": "魔道17级-1-4(40000365)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "259", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "64": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "64", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "65": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "65", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "66": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "66", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "67": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "67", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "252": {
+        "remarks": "魔道17级-1-3(40000358)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "252", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "69": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "69", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "250": {
+        "remarks": "魔道17级-1-3(40000356)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "250", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "251": {
+        "remarks": "魔道17级-1-3(40000357)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "251", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "256": {
+        "remarks": "魔道17级-1-4(40000362)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "256", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "257": {
+        "remarks": "魔道17级-1-4(40000363)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "257", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "254": {
+        "remarks": "魔道17级-1-3(40000360)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "254", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "255": {
+        "remarks": "魔道17级-1-4(40000361)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "255", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "603": {
+        "remarks": "仙魔15级-2(40000533)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "603", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "602": {
+        "remarks": "仙魔15级-2(40000532)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "602", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "508": {
+        "remarks": "仙魔15级-2(40000525)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "508", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "509": {
+        "remarks": "仙魔15级-2(40000526)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "509", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "506": {
+        "remarks": "仙魔15级-2(40000523)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "506", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "507": {
+        "remarks": "仙魔15级-2(40000524)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "507", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "504": {
+        "remarks": "仙魔15级-1(40000521)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "504", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "505": {
+        "remarks": "仙魔15级-2(40000522)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "505", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "502": {
+        "remarks": "仙魔15级-1(40000519)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "502", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "503": {
+        "remarks": "仙魔15级-1(40000520)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "503", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "500": {
+        "remarks": "仙魔15级-1(40000517)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "500", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "501": {
+        "remarks": "仙魔15级-1(40000518)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "501", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "630": {
+        "remarks": "仙魔15级-3(40000553)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "630", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "631": {
+        "remarks": "仙魔15级-3(40000554)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "631", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "632": {
+        "remarks": "仙魔15级-3(40000543)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "632", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "633": {
+        "remarks": "魔道17级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "633", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "469": {
+        "remarks": "仙魔15级-2(40000486)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "469", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "468": {
+        "remarks": "仙魔15级-2(40000485)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "468", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "636": {
+        "remarks": "仙魔15级-罩子", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "636", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "637": {
+        "remarks": "九天灵域——雷电", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "637", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "465": {
+        "remarks": "仙魔15级-2(40000482)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "465", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "464": {
+        "remarks": "仙魔15级-2(40000481)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "464", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "467": {
+        "remarks": "仙魔15级-2(40000484)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "467", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "466": {
+        "remarks": "仙魔15级-2(40000483)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "466", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "461": {
+        "remarks": "仙魔15级-1(40000478)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "461", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "460": {
+        "remarks": "仙魔15级-1(40000477)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "460", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "463": {
+        "remarks": "仙魔15级-2(40000480)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "463", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "462": {
+        "remarks": "仙魔15级-2(40000479)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "462", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "168": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "168", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "169": {
+        "remarks": "9级-1-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "169", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "164": {
+        "remarks": "9级-2-6-1(40000292)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "164", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "165": {
+        "remarks": "9级-2-6-1(40000293)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "165", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "166": {
+        "remarks": "9级-2-6-1(40000294)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "166", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "167": {
+        "remarks": "9级-2-7-1(40000295)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "167", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "160": {
+        "remarks": "9级-2-4-1(40000288)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "160", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "161": {
+        "remarks": "9级-2-4-2(40000289)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "161", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "162": {
+        "remarks": "9级-2-5-1(40000290)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "162", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "163": {
+        "remarks": "9级-2-6-2(40000291)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "163", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "600": {
+        "remarks": "仙魔15级-2(40000530)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "600", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "9": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "9", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "647": {
+        "remarks": "魔道17级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "647", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "646": {
+        "remarks": "魔道17级-2-2(40000403)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "646", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "649": {
+        "remarks": "门2保持打开", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "649", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "648": {
+        "remarks": "门1保持打开", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "648", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "357": {
+        "remarks": "魔道17级-1-4(40000361)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "357", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "356": {
+        "remarks": "魔道17级-1-3(40000360)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "356", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "355": {
+        "remarks": "魔道17级-1-3(40000359)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "355", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "354": {
+        "remarks": "魔道17级-1-3(40000358)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "354", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "353": {
+        "remarks": "魔道17级-1-3(40000357)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "353", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "352": {
+        "remarks": "魔道17级-1-3(40000356)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "352", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "351": {
+        "remarks": "魔道17级-1-3(40000355)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "351", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "350": {
+        "remarks": "魔道17级-1-3(40000354)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "350", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "359": {
+        "remarks": "魔道17级-1-4(40000363)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "359", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "358": {
+        "remarks": "魔道17级-1-4(40000362)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "358", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "216": {
+        "remarks": "9级-2-6-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "216", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "217": {
+        "remarks": "9级-2-6-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "217", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "214": {
+        "remarks": "9级-2-4-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "214", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "215": {
+        "remarks": "9级-2-5-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "215", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "212": {
+        "remarks": "9级-2-3-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "212", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "213": {
+        "remarks": "9级-2-4-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "213", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "210": {
+        "remarks": "9级-2-2-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "210", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "211": {
+        "remarks": "9级-2-3-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "211", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "218": {
+        "remarks": "9级-2-6-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "218", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "219": {
+        "remarks": "9级-2-6-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "219", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "289": {
+        "remarks": "魔道17级-2-1(40000394)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "289", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "288": {
+        "remarks": "魔道17级-2-1(40000393)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "288", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "4": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "4", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "281": {
+        "remarks": "魔道17级-2-1(40000387)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "281", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "280": {
+        "remarks": "魔道17级-2-1(40000386)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "280", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "283": {
+        "remarks": "魔道17级-2-1(40000450)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "283", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "282": {
+        "remarks": "魔道17级-2-1(40000388)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "282", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "285": {
+        "remarks": "魔道17级-2-1(40000390)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "285", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "284": {
+        "remarks": "魔道17级-2-1(40000389)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "284", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "287": {
+        "remarks": "魔道17级-2-1(40000392)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "287", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "286": {
+        "remarks": "魔道17级-2-1(40000391)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "286", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "678": {
+        "remarks": "天公山-删除龙头", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "678", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "679": {
+        "remarks": "天公山-龙头扭头", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "679", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "674": {
+        "remarks": "天公山-创建石桥", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "674", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "675": {
+        "remarks": "天公山-销毁石桥", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "675", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "676": {
+        "remarks": "天公山-暴风雨来临", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "676", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "677": {
+        "remarks": "天公山-龙头", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "677", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "670": {
+        "remarks": "石像右", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "670", 
+        "spaceScriptID": "L_HDDT|L_HDDT_Planes104", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "1|3", 
+                "param1": "20101550"
+            }
+        ]
+    }, 
+    "671": {
+        "remarks": "石像左", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "671", 
+        "spaceScriptID": "L_PGDT|L_PGDT_Planes004", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "1|3", 
+                "param1": "20101550"
+            }
+        ]
+    }, 
+    "672": {
+        "remarks": "石像右", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "672", 
+        "spaceScriptID": "L_PGDT|L_PGDT_Planes004", 
+        "effectCondition": [
+            {
+                "scriptName": "SpaceEffectConditionQuest", 
+                "param3": "", 
+                "param2": "1|3", 
+                "param1": "20101550"
+            }
+        ]
+    }, 
+    "673": {
+        "remarks": "新版仙道36级", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "673", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "263": {
+        "remarks": "魔道17级-1-4(40000369)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "263", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "262": {
+        "remarks": "魔道17级-1-4(40000368)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "262", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "261": {
+        "remarks": "魔道17级-1-4(40000367)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "261", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "260": {
+        "remarks": "魔道17级-1-4(40000366)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "260", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "267": {
+        "remarks": "魔道17级-1-4(40000373)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "267", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "266": {
+        "remarks": "魔道17级-1-4(40000372)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "266", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "265": {
+        "remarks": "魔道17级-1-4(40000371)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "265", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "264": {
+        "remarks": "魔道17级-1-4(40000370)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "264", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "269": {
+        "remarks": "魔道17级-1-4(40000375)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "269", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "268": {
+        "remarks": "魔道17级-1-4(40000374)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "268", 
+        "spaceScriptID": "L_YCDC", 
+        "effectCondition": []
+    }, 
+    "701": {
+        "remarks": "创建门3", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "701", 
+        "spaceScriptID": "L_PGDT_Planes002|L_HDDT_Planes102", 
+        "effectCondition": []
+    }, 
+    "59": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "59", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "58": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "58", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "55": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "55", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "54": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "54", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "57": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "57", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "56": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "56", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "51": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "51", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "50": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "50", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "53": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "53", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "52": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "52", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "537": {
+        "remarks": "仙魔15级-1(40000467)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "537", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "536": {
+        "remarks": "仙魔15级-1(40000466)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "536", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "535": {
+        "remarks": "仙魔15级-1(40000465)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "535", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "63": {
+        "remarks": "冰墙", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "63", 
+        "spaceScriptID": "L_BHD_2", 
+        "effectCondition": []
+    }, 
+    "533": {
+        "remarks": "仙魔15级-3(40000550)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "533", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "532": {
+        "remarks": "仙魔15级-3(40000549)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "532", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "531": {
+        "remarks": "仙魔15级-3(40000548)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "531", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "530": {
+        "remarks": "仙魔15级-3(40000547)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "530", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "539": {
+        "remarks": "仙魔15级-1(40000469)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "539", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "538": {
+        "remarks": "仙魔15级-1(40000468)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "538", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "115": {
+        "remarks": "9级-1-1-1(40000243)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "115", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "114": {
+        "remarks": "9级-1-1-1(40000242)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "114", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "117": {
+        "remarks": "9级-1-1-1(40000245)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "117", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "116": {
+        "remarks": "9级-1-1-1(40000244)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "116", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "111": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "111", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "110": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "110", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "113": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "113", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "112": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "112", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "119": {
+        "remarks": "9级-1-1-1(40000247)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "119", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "118": {
+        "remarks": "9级-1-1-1(40000246)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "118", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "429": {
+        "remarks": "魔道17级-2-4(40000432)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "429", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "428": {
+        "remarks": "魔道17级-2-4(40000431)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "428", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "534": {
+        "remarks": "仙魔15级-3(40000551)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "534", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "421": {
+        "remarks": "魔道17级-2-3(40000424)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "421", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "420": {
+        "remarks": "魔道17级-2-3(40000423)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "420", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "423": {
+        "remarks": "魔道17级-2-3(40000426)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "423", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "422": {
+        "remarks": "魔道17级-2-3(40000425)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "422", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "425": {
+        "remarks": "魔道17级-2-4(40000428)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "425", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "424": {
+        "remarks": "魔道17级-2-3(40000427)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "424", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "427": {
+        "remarks": "魔道17级-2-4(40000430)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "427", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "426": {
+        "remarks": "魔道17级-2-4(40000429)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "426", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "308": {
+        "remarks": "魔道17级-2-3(40000413)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "308", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "309": {
+        "remarks": "魔道17级-2-3(40000414)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "309", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "300": {
+        "remarks": "魔道17级-2-2(40000405)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "300", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "301": {
+        "remarks": "魔道17级-2-2(40000406)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "301", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "302": {
+        "remarks": "魔道17级-2-2(40000407)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "302", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "303": {
+        "remarks": "魔道17级-2-2(40000408)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "303", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "304": {
+        "remarks": "魔道17级-2-2(40000409)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "304", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "305": {
+        "remarks": "魔道17级-2-2(40000410)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "305", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "306": {
+        "remarks": "魔道17级-2-2(40000411)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "306", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "307": {
+        "remarks": "魔道17级-2-3(40000412)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "307", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "568": {
+        "remarks": "仙魔15级-3(40000498)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "568", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "569": {
+        "remarks": "仙魔15级-3(40000499)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "569", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "560": {
+        "remarks": "仙魔15级-2(40000490)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "560", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "561": {
+        "remarks": "仙魔15级-2(40000491)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "561", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "562": {
+        "remarks": "仙魔15级-2(40000492)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "562", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "563": {
+        "remarks": "仙魔15级-3(40000493)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "563", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "564": {
+        "remarks": "仙魔15级-3(40000494)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "564", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "565": {
+        "remarks": "仙魔15级-3(40000495)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "565", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "566": {
+        "remarks": "仙魔15级-3(40000496)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "566", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "567": {
+        "remarks": "仙魔15级-3(40000497)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "567", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "229": {
+        "remarks": "9级-1-2-2-3", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "229", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "228": {
+        "remarks": "帝宫石印阵", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "228", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "227": {
+        "remarks": "9级-1-2-1-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "227", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "226": {
+        "remarks": "9级-1-2-1-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "226", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "225": {
+        "remarks": "9级-1-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "225", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "224": {
+        "remarks": "9级-1-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "224", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "223": {
+        "remarks": "9级-1-2-1-2", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "223", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "222": {
+        "remarks": "9级-1-2-1-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "222", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "221": {
+        "remarks": "9级-2-7-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "221", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "220": {
+        "remarks": "9级-2-7-1", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "220", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "391": {
+        "remarks": "魔道17级-2-1(40000394)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "391", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "390": {
+        "remarks": "魔道17级-2-1(40000393)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "390", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "151": {
+        "remarks": "9级-2-2-2(40000279)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "151", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "150": {
+        "remarks": "9级-2-2-1(40000278)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "150", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "153": {
+        "remarks": "9级-2-2-2(40000281)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "153", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "152": {
+        "remarks": "9级-2-2-2(40000280)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "152", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "155": {
+        "remarks": "9级-2-2-2(40000283)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "155", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "154": {
+        "remarks": "9级-2-2-2(40000282)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "154", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "157": {
+        "remarks": "9级-2-2-2(40000285)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "157", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "156": {
+        "remarks": "9级-2-2-2(40000284)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "156", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "159": {
+        "remarks": "9级-2-3-1(40000287)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "159", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "158": {
+        "remarks": "9级-2-3-1(40000286)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "158", 
+        "spaceScriptID": "L_TSHJ_1|L_TXHJ_1|L_TSHJ_2|L_TXHJ_2", 
+        "effectCondition": []
+    }, 
+    "609": {
+        "remarks": "仙魔15级-3(40000539)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "609", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "608": {
+        "remarks": "仙魔15级-3(40000538)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "608", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "634": {
+        "remarks": "魔道17级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "634", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "399": {
+        "remarks": "魔道17级-2-1(40000402)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "399", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "635": {
+        "remarks": "魔道17级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "635", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "398": {
+        "remarks": "魔道17级-2-1(40000401)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "398", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "48": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "48", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "49": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "49", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "46": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "46", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "47": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "47", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "44": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "44", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "45": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "45", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "42": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "42", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "43": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "43", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "40": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "40", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "41": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "41", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "638": {
+        "remarks": "魔道17级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "638", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "5": {
+        "remarks": "", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "5", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "639": {
+        "remarks": "魔道17级-环境雾", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "639", 
+        "spaceScriptID": "", 
+        "effectCondition": []
+    }, 
+    "489": {
+        "remarks": "仙魔15级-3(40000506)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "489", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "488": {
+        "remarks": "仙魔15级-3(40000505)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "488", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "487": {
+        "remarks": "仙魔15级-3(40000504)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "487", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "486": {
+        "remarks": "仙魔15级-3(40000503)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "486", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "485": {
+        "remarks": "仙魔15级-3(40000502)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "485", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "484": {
+        "remarks": "仙魔15级-3(40000501)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "484", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "483": {
+        "remarks": "仙魔15级-3(40000500)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "483", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "482": {
+        "remarks": "仙魔15级-3(40000499)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "482", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "481": {
+        "remarks": "仙魔15级-3(40000498)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "481", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "480": {
+        "remarks": "仙魔15级-3(40000497)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "480", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "472": {
+        "remarks": "仙魔15级-2(40000489)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "472", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "473": {
+        "remarks": "仙魔15级-2(40000490)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "473", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "470": {
+        "remarks": "仙魔15级-2(40000487)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "470", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "471": {
+        "remarks": "仙魔15级-2(40000488)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "471", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "476": {
+        "remarks": "仙魔15级-3(40000493)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "476", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "477": {
+        "remarks": "仙魔15级-3(40000494)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "477", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "474": {
+        "remarks": "仙魔15级-2(40000491)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "474", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "475": {
+        "remarks": "仙魔15级-2(40000492)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "475", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "478": {
+        "remarks": "仙魔15级-3(40000495)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "478", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }, 
+    "479": {
+        "remarks": "仙魔15级-3(40000496)", 
+        "effectType": "SpaceEffectObjectHold", 
+        "effectID": "479", 
+        "spaceScriptID": "L_TJGJD_Planes001|L_LXGJD_Planes101", 
+        "effectCondition": []
+    }
+}

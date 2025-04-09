@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "协助灵珠子消灭魔道弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010618|20010619|20010620", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010620#L_PGDT_Planes001"
+                }
+            }, 
+            "title": "助阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "救援灵珠子"
+}

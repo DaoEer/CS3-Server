@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭耀光阁守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007100|20007401", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007100|20007401#L_YGG_01"
+                }
+            }, 
+            "title": "勇闯耀光阁"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭狂风术士", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007410", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007410#L_YGG_01"
+                }
+            }, 
+            "title": "破阵克敌"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭耀光阁精英", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007402|20007403", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007402|20007403#L_YGG_01"
+                }
+            }, 
+            "title": "深入耀光阁"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得十神天绝灯", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010107", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(-43790 8585 5035)#L_YGG_01"
+                }
+            }, 
+            "title": "夺取十神天绝灯"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭元阳道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007411", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007411#L_YGG_01"
+                }
+            }, 
+            "title": "打败元阳道人"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回摩诃殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "30000491#L_YGG_01"
+                }
+            }, 
+            "title": "返回摩诃殿"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "调虎离山（二）"
+}

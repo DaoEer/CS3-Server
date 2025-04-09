@@ -1,0 +1,40 @@
+{
+"SpaceName"	: "荷花法阵",
+"EntityType"	: "SpaceCopyHeHuaFaZhen",
+"DomainType"	: "SpaceDomainCopyStory",
+"EntityScript"	: "SpaceCopyHeHuaFaZhen",
+"scriptID"	: "L_HHFZ",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_HHFZ",
+"NavmeshPath"	: "space\\L_HHFZ_NAVMESH",
+"PatrolRouteFile": "P_L_HHFZ",
+"belongType"	: "1|2",
+"SpaceAoi"	: 120.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMNL",
+	"Position"	: "49386.0 2255.0 -15125.0",
+	"Direction"	: "0.0 0.0 -180"
+	},
+"SpaceData"	:{
+	"stageFile":"SS_L_HHFZ",
+	"eventFile":"SE_L_HHFZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"originPos":"0.38|2.34|18.6",
+	"unitLength":"4.15",
+	"heYeID":"50000036",
+	"whiteHeHuaID":"40000077",
+	"redHeHuaID":"40000076",
+	"whiteHeBaoID":"30000245",
+	"redHeBaoID":"30000244",
+	"whiteHeHuaMonsterID":"20005684",
+	"redHeHuaMonsterID":"20005685",
+	"effectMonsterID":"20000777",
+	"bossID":"20003680",
+	"whiteHeHuaSkillID":120065001,
+	"redHeHuaSkillID":120065001,
+	"mixHeHuaSkillID":110162003
+	},
+"DomainData"	:{
+	}
+}

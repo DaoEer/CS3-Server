@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败古寺弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "wancheng", 
+                    "param2": "20012148|20012149|20012150|20012151|20012152", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-61150 -17925 4264)#L_FLS_Planes102"
+                }
+            }, 
+            "title": "闯山门入古寺"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "拜访燃灯道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-68296 -42800 5419)#L_FLS_Planes102"
+                }
+            }, 
+            "title": "拜访燃灯道人"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "浮屠古寺"
+}

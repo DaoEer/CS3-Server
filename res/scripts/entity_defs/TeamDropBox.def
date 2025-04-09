@@ -1,0 +1,48 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>		NPCBaseObject				</Interface>
+		<Interface>	SystemDropBoxPickUpInterface	</Interface>
+	</Interfaces>
+	
+	<Properties>
+		<teamID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</teamID>
+	
+		<teamCaptainDBID>  <!-- 队长DBID -->
+			<Type>		DBID			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</teamCaptainDBID>
+		
+		<levitateActionID>
+			<Type>				STRING		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</levitateActionID>
+		
+		<hasEffect>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		1			</Default>
+		</hasEffect>
+	</Properties>
+
+	<ClientMethods>
+		<onPickUpByLeader>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</onPickUpByLeader>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>	
+	</CellMethods>
+</root>

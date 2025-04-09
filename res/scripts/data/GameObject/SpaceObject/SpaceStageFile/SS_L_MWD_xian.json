@@ -1,0 +1,74 @@
+{
+    "stages": {
+        "1": {
+            "comment": "跟随帝俊深入魔王殿", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败魔王殿守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014818|20014819|20014820|20014821", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8387.987305 5968.986328 298.885773)#L_MWD_xian"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败魔王殿弟子", 
+                    "reqVal": 5, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014826|20014827|20014828|20014829", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(2319.060303 10859.369141 314.521118)#L_MWD_xian"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败魔王殿鬼士", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014822|20014823|20014824|20014825", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1288.572510 5921.967285 298.885559)#L_MWD_xian"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败魔王殿魔兵", 
+                    "reqVal": 5, 
+                    "priority": 3, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014830|20014831|20014832|20014833", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(6655.838379 16849.687500 621.040894)#L_MWD_xian"
+                }
+            }, 
+            "title": "攻入魔王殿"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "迎战帝江，救回帝俊元神", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(15066.669922 16937.994141 740.884583)#L_MWD_xian"
+                }
+            }, 
+            "title": "决战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": ""
+}

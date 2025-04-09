@@ -1,0 +1,33 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<signIn>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</signIn>
+		<onActiveStart/>
+		<onActiveEnd/>
+		<cancelMatching>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</cancelMatching>
+		<beginEnterFrozenFight>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+		</beginEnterFrozenFight>
+		<frozenFight_onPlayerLoginOff>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</frozenFight_onPlayerLoginOff>
+	</BaseMethods>
+</root>

@@ -1,0 +1,39 @@
+﻿{
+"SpaceName"	: "副本测试地图",
+"EntityType"	: "SpaceCopyAttackCityWar",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyAttackCityWar",
+"scriptID"	: "fu_ben_ceshi",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"spaceChildType":"SPACE_CHILD_TYPE_GCZ",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_GCZ_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"		: 200.0,
+"belongType"	: "1|2",
+"EnfityRelationMode":"RelationGCZ",
+"RoleRelationRule":"ROLE_RELATION_RULE_BLONG_SIDE",
+"RoleRelationRule": "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+    "spaceLife"	: 60,
+    "spaceIntroduce":{"voiceID":"C001396"},
+    "enterPosition":"680 31290 210",
+    "enterDirection":"0 0 180",
+    "stageFile"		:"",
+    "aerialLadderPos":"-10520 11800.0 100|-9810 11800.0 100|-8900 11800.0 100|-8210 11800.0 100|5710 11800.0 100|8930 11800.0 100|9610 11800.0 100|10290 11800.0 100|11820 11800.0 100",
+    "aerialLadderDir":"0.0 0.0 90.0|0.0 0.0 90.0|0.0 0.0 90.0|0.0 0.0 90.0|0.0 0.0 90.0|0.0 0.0 90.0|0.0 0.0 90.0|0.0 0.0 90.0|0.0 0.0 90.0",
+    "aerialLadderUpPos":"-10520 11240.0 2240.0|-9810 11240.0 2240.0|-8900 11240.0 2240.0|-8210 11240.0 2240.0|5710 11240.0 2240.0|8930 11240.0 2240.0|9610 11240.0 2240.0|10290 11240.0 2240.0|11820 11240.0 2240.0",
+    "enterDirection":"",
+    "belongAttackScriptIDs":"20012561|20012562|20012563|20012564|20012565|20012566|20012567",
+    "belongProtectScriptIDs":"20012546|20012542|20012601|20012602",
+    "defaultArmyData":"20012472 20012473 20012607:20|20012474 20012475 20012463:20|20012476 20012477 20012464:20|20012476 20012477 20012465:20|20012476 20012477 20012466:20",
+    "eventFile"		:""
+    },
+"DomainData"	:{
+	}
+}

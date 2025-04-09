@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "找到通往鬼王之地的传送门", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到鬼王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "40000241", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "迷阵寻踪"
+        }, 
+        "2": {
+            "comment": "消灭白狐鬼王", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "鬼王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007873", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "诛灭鬼王"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "鬼域迷阵"
+}

@@ -1,0 +1,920 @@
+[
+    {
+        "itemID": 101080037, 
+        "amount": 1, 
+        "id": 1001, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101080114, 
+        "amount": 1, 
+        "id": 1002, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101080191, 
+        "amount": 1, 
+        "id": 1003, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101080268, 
+        "amount": 1, 
+        "id": 1004, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101070037, 
+        "amount": 1, 
+        "id": 1005, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101070114, 
+        "amount": 1, 
+        "id": 1006, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101070191, 
+        "amount": 1, 
+        "id": 1007, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101070268, 
+        "amount": 1, 
+        "id": 1008, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101060037, 
+        "amount": 1, 
+        "id": 1009, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101060114, 
+        "amount": 1, 
+        "id": 1010, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101060191, 
+        "amount": 1, 
+        "id": 1011, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101060268, 
+        "amount": 1, 
+        "id": 1012, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101050037, 
+        "amount": 1, 
+        "id": 1013, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101050114, 
+        "amount": 1, 
+        "id": 1014, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101050191, 
+        "amount": 1, 
+        "id": 1015, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101050268, 
+        "amount": 1, 
+        "id": 1016, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101040037, 
+        "amount": 1, 
+        "id": 1017, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101040114, 
+        "amount": 1, 
+        "id": 1018, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101040191, 
+        "amount": 1, 
+        "id": 1019, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101040268, 
+        "amount": 1, 
+        "id": 1020, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101030037, 
+        "amount": 1, 
+        "id": 1021, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101030114, 
+        "amount": 1, 
+        "id": 1022, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101030191, 
+        "amount": 1, 
+        "id": 1023, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101030268, 
+        "amount": 1, 
+        "id": 1024, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101020037, 
+        "amount": 1, 
+        "id": 1025, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101020114, 
+        "amount": 1, 
+        "id": 1026, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101020191, 
+        "amount": 1, 
+        "id": 1027, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101020268, 
+        "amount": 1, 
+        "id": 1028, 
+        "probability": 0.26785698533058167
+    }, 
+    {
+        "itemID": 101080038, 
+        "amount": 1, 
+        "id": 1029, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101080115, 
+        "amount": 1, 
+        "id": 1030, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101080192, 
+        "amount": 1, 
+        "id": 1031, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101080269, 
+        "amount": 1, 
+        "id": 1032, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101070038, 
+        "amount": 1, 
+        "id": 1033, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101070115, 
+        "amount": 1, 
+        "id": 1034, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101070192, 
+        "amount": 1, 
+        "id": 1035, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101070269, 
+        "amount": 1, 
+        "id": 1036, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101060038, 
+        "amount": 1, 
+        "id": 1037, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101060115, 
+        "amount": 1, 
+        "id": 1038, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101060192, 
+        "amount": 1, 
+        "id": 1039, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101060269, 
+        "amount": 1, 
+        "id": 1040, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101050038, 
+        "amount": 1, 
+        "id": 1041, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101050115, 
+        "amount": 1, 
+        "id": 1042, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101050192, 
+        "amount": 1, 
+        "id": 1043, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101050269, 
+        "amount": 1, 
+        "id": 1044, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101040038, 
+        "amount": 1, 
+        "id": 1045, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101040115, 
+        "amount": 1, 
+        "id": 1046, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101040192, 
+        "amount": 1, 
+        "id": 1047, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101040269, 
+        "amount": 1, 
+        "id": 1048, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101030038, 
+        "amount": 1, 
+        "id": 1049, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101030115, 
+        "amount": 1, 
+        "id": 1050, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101030192, 
+        "amount": 1, 
+        "id": 1051, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101030269, 
+        "amount": 1, 
+        "id": 1052, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101020038, 
+        "amount": 1, 
+        "id": 1053, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101020115, 
+        "amount": 1, 
+        "id": 1054, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101020192, 
+        "amount": 1, 
+        "id": 1055, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101020269, 
+        "amount": 1, 
+        "id": 1056, 
+        "probability": 0.21428599953651428
+    }, 
+    {
+        "itemID": 101080048, 
+        "amount": 1, 
+        "id": 1057, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101080125, 
+        "amount": 1, 
+        "id": 1058, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101080202, 
+        "amount": 1, 
+        "id": 1059, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101080279, 
+        "amount": 1, 
+        "id": 1060, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101070048, 
+        "amount": 1, 
+        "id": 1061, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101070125, 
+        "amount": 1, 
+        "id": 1062, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101070202, 
+        "amount": 1, 
+        "id": 1063, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101070279, 
+        "amount": 1, 
+        "id": 1064, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101060048, 
+        "amount": 1, 
+        "id": 1065, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101060125, 
+        "amount": 1, 
+        "id": 1066, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101060202, 
+        "amount": 1, 
+        "id": 1067, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101060279, 
+        "amount": 1, 
+        "id": 1068, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101050048, 
+        "amount": 1, 
+        "id": 1069, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101050125, 
+        "amount": 1, 
+        "id": 1070, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101050202, 
+        "amount": 1, 
+        "id": 1071, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101050279, 
+        "amount": 1, 
+        "id": 1072, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101040048, 
+        "amount": 1, 
+        "id": 1073, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101040125, 
+        "amount": 1, 
+        "id": 1074, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101040202, 
+        "amount": 1, 
+        "id": 1075, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101040279, 
+        "amount": 1, 
+        "id": 1076, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101030048, 
+        "amount": 1, 
+        "id": 1077, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101030125, 
+        "amount": 1, 
+        "id": 1078, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101030202, 
+        "amount": 1, 
+        "id": 1079, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101030279, 
+        "amount": 1, 
+        "id": 1080, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101020048, 
+        "amount": 1, 
+        "id": 1081, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101020125, 
+        "amount": 1, 
+        "id": 1082, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101020202, 
+        "amount": 1, 
+        "id": 1083, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101020279, 
+        "amount": 1, 
+        "id": 1084, 
+        "probability": 0.10714299976825714
+    }, 
+    {
+        "itemID": 101080049, 
+        "amount": 1, 
+        "id": 1085, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101080126, 
+        "amount": 1, 
+        "id": 1086, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101080203, 
+        "amount": 1, 
+        "id": 1087, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101080280, 
+        "amount": 1, 
+        "id": 1088, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101070049, 
+        "amount": 1, 
+        "id": 1089, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101070126, 
+        "amount": 1, 
+        "id": 1090, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101070203, 
+        "amount": 1, 
+        "id": 1091, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101070280, 
+        "amount": 1, 
+        "id": 1092, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101060049, 
+        "amount": 1, 
+        "id": 1093, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101060126, 
+        "amount": 1, 
+        "id": 1094, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101060203, 
+        "amount": 1, 
+        "id": 1095, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101060280, 
+        "amount": 1, 
+        "id": 1096, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101050049, 
+        "amount": 1, 
+        "id": 1097, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101050126, 
+        "amount": 1, 
+        "id": 1098, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101050203, 
+        "amount": 1, 
+        "id": 1099, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101050280, 
+        "amount": 1, 
+        "id": 1100, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101040049, 
+        "amount": 1, 
+        "id": 1101, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101040126, 
+        "amount": 1, 
+        "id": 1102, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101040203, 
+        "amount": 1, 
+        "id": 1103, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101040280, 
+        "amount": 1, 
+        "id": 1104, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101030049, 
+        "amount": 1, 
+        "id": 1105, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101030126, 
+        "amount": 1, 
+        "id": 1106, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101030203, 
+        "amount": 1, 
+        "id": 1107, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101030280, 
+        "amount": 1, 
+        "id": 1108, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101020049, 
+        "amount": 1, 
+        "id": 1109, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101020126, 
+        "amount": 1, 
+        "id": 1110, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101020203, 
+        "amount": 1, 
+        "id": 1111, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 101020280, 
+        "amount": 1, 
+        "id": 1112, 
+        "probability": 0.08214300125837326
+    }, 
+    {
+        "itemID": 203020001, 
+        "amount": 3, 
+        "id": 1113, 
+        "probability": 0.2199999988079071
+    }, 
+    {
+        "itemID": 203020002, 
+        "amount": 3, 
+        "id": 1114, 
+        "probability": 0.2199999988079071
+    }, 
+    {
+        "itemID": 203020003, 
+        "amount": 3, 
+        "id": 1115, 
+        "probability": 0.2199999988079071
+    }, 
+    {
+        "itemID": 203020004, 
+        "amount": 3, 
+        "id": 1116, 
+        "probability": 0.2199999988079071
+    }, 
+    {
+        "itemID": 203020005, 
+        "amount": 3, 
+        "id": 1117, 
+        "probability": 0.2199999988079071
+    }, 
+    {
+        "itemID": 203020015, 
+        "amount": 3, 
+        "id": 1118, 
+        "probability": 0.079999998211860657
+    }, 
+    {
+        "itemID": 203020016, 
+        "amount": 3, 
+        "id": 1119, 
+        "probability": 0.079999998211860657
+    }, 
+    {
+        "itemID": 203020017, 
+        "amount": 3, 
+        "id": 1120, 
+        "probability": 0.079999998211860657
+    }, 
+    {
+        "itemID": 203020018, 
+        "amount": 3, 
+        "id": 1121, 
+        "probability": 0.079999998211860657
+    }, 
+    {
+        "itemID": 203020019, 
+        "amount": 3, 
+        "id": 1122, 
+        "probability": 0.079999998211860657
+    }, 
+    {
+        "itemID": 203020006, 
+        "amount": 10, 
+        "id": 1123, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020007, 
+        "amount": 10, 
+        "id": 1124, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020008, 
+        "amount": 10, 
+        "id": 1125, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020009, 
+        "amount": 10, 
+        "id": 1126, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020010, 
+        "amount": 10, 
+        "id": 1127, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020011, 
+        "amount": 10, 
+        "id": 1128, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020012, 
+        "amount": 10, 
+        "id": 1129, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020013, 
+        "amount": 10, 
+        "id": 1130, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020014, 
+        "amount": 10, 
+        "id": 1131, 
+        "probability": 1.0
+    }, 
+    {
+        "itemID": 203020020, 
+        "amount": 10, 
+        "id": 1132, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 203020021, 
+        "amount": 10, 
+        "id": 1133, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 203020022, 
+        "amount": 10, 
+        "id": 1134, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 203020023, 
+        "amount": 10, 
+        "id": 1135, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 203020024, 
+        "amount": 10, 
+        "id": 1136, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 203020025, 
+        "amount": 10, 
+        "id": 1137, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 203020026, 
+        "amount": 10, 
+        "id": 1138, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 203020027, 
+        "amount": 10, 
+        "id": 1139, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 203020028, 
+        "amount": 10, 
+        "id": 1140, 
+        "probability": 0.66666698455810547
+    }, 
+    {
+        "itemID": 204020004, 
+        "amount": 15, 
+        "id": 1141, 
+        "probability": 6.0
+    }, 
+    {
+        "itemID": 203010001, 
+        "amount": 20, 
+        "id": 1142, 
+        "probability": 2.5
+    }, 
+    {
+        "itemID": 203010002, 
+        "amount": 20, 
+        "id": 1143, 
+        "probability": 2.5
+    }, 
+    {
+        "itemID": 203010003, 
+        "amount": 20, 
+        "id": 1144, 
+        "probability": 2.5
+    }, 
+    {
+        "itemID": 203010007, 
+        "amount": 5, 
+        "id": 1145, 
+        "probability": 1.7666699886322021
+    }, 
+    {
+        "itemID": 203010008, 
+        "amount": 5, 
+        "id": 1146, 
+        "probability": 1.7666699886322021
+    }, 
+    {
+        "itemID": 203010009, 
+        "amount": 5, 
+        "id": 1147, 
+        "probability": 1.7666699886322021
+    }, 
+    {
+        "itemID": 203010004, 
+        "amount": 5, 
+        "id": 1148, 
+        "probability": 1.7666699886322021
+    }, 
+    {
+        "itemID": 203010005, 
+        "amount": 5, 
+        "id": 1149, 
+        "probability": 1.7666699886322021
+    }, 
+    {
+        "itemID": 203010006, 
+        "amount": 5, 
+        "id": 1150, 
+        "probability": 1.7666699886322021
+    }, 
+    {
+        "itemID": 203010015, 
+        "amount": 5, 
+        "id": 1151, 
+        "probability": 6.0
+    }, 
+    {
+        "itemID": 203010016, 
+        "amount": 5, 
+        "id": 1152, 
+        "probability": 6.0
+    }, 
+    {
+        "itemID": 203010016, 
+        "amount": 1, 
+        "id": 1153, 
+        "probability": 3.7999999523162842
+    }
+]

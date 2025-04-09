@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "藏宝库",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildAdventure",
+"scriptID"	: "fu_ben_L_CBK",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_fu_ben_L_CBK",
+"NavmeshPath"	: "space\\L_CBK_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544009,
+	"spaceIntroduce":{"voiceID":"C001492|C001493"},
+	"enterPosition":"13880 29630 190",
+	"enterDirection":"0 0 80",
+	"stageFile":"SS_fu_ben_L_CBK",
+	"eventFile":"SE_fu_ben_L_CBK",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

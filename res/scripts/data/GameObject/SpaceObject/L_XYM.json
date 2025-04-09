@@ -1,0 +1,25 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "L_XYM",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "S_L_XYM",
+"NavmeshPath"	: "space\\L_WJD_NAVMESH",
+"PatrolRouteFile": "P_L_XYM",
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_PEACE",
+"ExitSpace"	:{
+	"ScriptID"	: "",
+	"Position"	: "",
+	"Direction"	: ""
+	},
+"SpaceData"	:{
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|1"
+	},
+"DomainData"	:{
+	}
+}

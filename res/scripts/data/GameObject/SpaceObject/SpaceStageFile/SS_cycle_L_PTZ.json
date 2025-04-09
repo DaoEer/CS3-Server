@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "燃灯道人及其分身分布在浮台上，找到其真身将菩提子交予他", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "2分钟内将菩提子交予燃灯道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "将菩提子交予燃灯道人"
+        }
+    }, 
+    "describe": "送宝环任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "菩提子"
+}

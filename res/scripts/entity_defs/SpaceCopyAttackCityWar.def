@@ -1,0 +1,55 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<recordAerialLadderOccurIndexList>
+			<Type>	ARRAY_INT32		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default>	[]		</Default>
+		</recordAerialLadderOccurIndexList>
+		<roleDefaultArmyDatas>
+			<Type>	PYTHON_DICT		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default>	{}		</Default>
+		</roleDefaultArmyDatas>
+		<machineWarList>
+			<Type>	ARRAY_INT32		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default>	[]		</Default>
+		</machineWarList>
+		<GCZMemberDatas>
+			<Type>		SPACE_COPY_GCZ_MEMBER_MGR 	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</GCZMemberDatas>
+		<revivePosInfos>
+			<Type>	ARRAY_POSITION		</Type>
+			<Flags>	CELL_PUBLIC		</Flags>
+			<Default>	[]		</Default>
+		</revivePosInfos>
+		<isWin>
+			<Type>		INT32 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+			<Default>		0			</Default>
+		</isWin>
+		<recordNotOccupyBarracks>
+			<Type>		PYTHON_DICT 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	{}			</Persistent>
+		</recordNotOccupyBarracks>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

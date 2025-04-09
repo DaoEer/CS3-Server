@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_HYHZ_02",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_HYHZ_02",
+"NavmeshPath"	: "space\\L_WZGHZ_01_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_KWSM_1",
+	"Position"	: "-85565 -95240 -4060",
+	"Direction"	: "0 0 -90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_HYHZ_02",
+	"eventFile":"SE_L_HYHZ_02"
+	},
+"DomainData"	:{
+	}
+}

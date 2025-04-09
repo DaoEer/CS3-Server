@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭驻守的太古魔卫", 
+                    "reqVal": 9, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000139|20000140|20000828|20000829|20000141", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000139|20000140|20000828|20000829|20000141#L_TXHJ"
+                }
+            }, 
+            "title": "初入幻境"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路魔卫", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000143|20000144|20000142", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000143|20000144|20000142#L_TXHJ"
+                }
+            }, 
+            "title": "太古魔卫"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前行", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3131 -11302 17537:23", 
+                    "param2": "20000|10000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(3131 -11302 17537)#L_TXHJ"
+                }
+            }, 
+            "title": "深入幻境"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "战胜天兵", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000821|20000822|20000147|20000146|20000145", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000821|20000822|20000147|20000146#L_TXHJ"
+                }
+            }, 
+            "title": "上古天兵"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "查看前方石像", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1310 -15290|3590 -15690|3830 -13970|1510 -13510", 
+                    "param2": "22000|10000", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(2581.0 -14678.0 17831.0)#L_TXHJ"
+                }
+            }, 
+            "title": "上古石像"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败心魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "25", 
+                    "param2": "", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000129|20000149|20003795|20003796#L_TXHJ"
+                }
+            }, 
+            "title": "太古心魔"
+        }
+    }, 
+    "describe": "1-10魔道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "太虚幻境"
+}

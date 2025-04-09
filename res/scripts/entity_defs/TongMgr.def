@@ -1,0 +1,179 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<dismissTongDatas>
+			<Type>		DICT_DBID_INT	</Type>
+			<Flags>		BASE		</Flags>
+		</dismissTongDatas>
+	</Properties>
+
+	<BaseMethods>
+		<onTongSpaceCreateFinish>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</onTongSpaceCreateFinish>
+		<createTong>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT16		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+		</createTong>
+		<reqInit>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+		</reqInit>
+		<reqJoin>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	INT16		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</reqJoin>
+		<cancelJoin>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+		</cancelJoin>
+		<dismissTong>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT16		</Arg>
+		</dismissTong>
+		<requireTongInfo>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+		</requireTongInfo>
+		<firstQuerySignUp>
+			<Arg>	ARRAY_DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</firstQuerySignUp>
+		<queryPassFirstTongStarcraft>
+			<Arg> 	PYTHON_DICT </Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</queryPassFirstTongStarcraft>
+		<openSecondTongStarcraftGroup>
+			<Arg>	ARRAY_DBID	</Arg>
+			<Arg>	ARRAY_DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</openSecondTongStarcraftGroup>
+		<disbandAllTong/>
+		<deleteRole>
+			<Arg>	DBID	</Arg>
+			<Arg>	DBID	</Arg>
+		</deleteRole>
+		<onInviteTong>
+			<Arg>	DBID			</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	INT16			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</onInviteTong>
+		<sureBHZBTongSendMail>
+			<Arg>	DBID			</Arg>
+		</sureBHZBTongSendMail>
+		<sureBHZBTongMemberSendMail>
+			<Arg>	DBID			</Arg>
+			<Arg>	ARRAY_DBID		</Arg>
+		</sureBHZBTongMemberSendMail>
+		<sendBHZBRewardToMembers>
+			<Arg>	DBID			</Arg>
+			<Arg>	ARRAY_DBID		</Arg>
+			<Arg>	ARRAY_STRING			</Arg>
+			<Arg>	INT32			</Arg>
+ 			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</sendBHZBRewardToMembers>
+		<sendTongLeaderReward>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</sendTongLeaderReward>
+		<onBHZBPointWarEnd>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+		</onBHZBPointWarEnd>
+		<clearTongSignMemberData>
+			<Arg>	DBID		</Arg>
+		</clearTongSignMemberData>
+		<onTongPlunderSignUpStart>
+		</onTongPlunderSignUpStart>
+		<onTongPlunderStart>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onTongPlunderStart>
+		<onTongPlunderEnd>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onTongPlunderEnd>
+		<signUpTongPlunder>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	DBID		</Arg>
+		</signUpTongPlunder>
+		<onTongPlunderSignUpSuccess>
+			<Arg>	DBID		</Arg>
+			<Arg>	DBID		</Arg>
+		</onTongPlunderSignUpSuccess>
+		<onTongPlunderSendMail>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onTongPlunderSendMail>
+		<onLockTongShopStart>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onLockTongShopStart>
+		<onLockTongShopEnd>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onLockTongShopEnd>
+		<onTongPlunderShopSellStart>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onTongPlunderShopSellStart>
+		<onTongPlunderShopSellEnd>
+			<Arg>	ARRAY_DBID		</Arg>
+		</onTongPlunderShopSellEnd>
+		<tongPlunderResultReward>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</tongPlunderResultReward>
+		<openTongPlunderSignUpWnd>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID		</Arg>
+		</openTongPlunderSignUpWnd>
+		<checkIsLoginToBHZBPoint>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	DBID		</Arg>
+		</checkIsLoginToBHZBPoint>
+		<bhzbTeamMemberLoginOut>
+			<Arg>	INT32		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	DBID		</Arg>
+		</bhzbTeamMemberLoginOut>
+		<cancelProtectBHZBPoint>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+		</cancelProtectBHZBPoint>
+		<clearAllTongSignMemberData>
+		</clearAllTongSignMemberData>
+		<joinBHZBWarFail>
+			<Arg>	DBID		</Arg>
+		</joinBHZBWarFail>
+		<sendToJoinCampWarMail>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</sendToJoinCampWarMail>
+	</BaseMethods>
+</root>

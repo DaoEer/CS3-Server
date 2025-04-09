@@ -1,0 +1,104 @@
+{
+    "20102663": {
+        "tasks": [
+            {
+                "navigateData": "(17020.0 -31930.0 3020.0)#L_GMX", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "鬼冥星布五行灌灵阵"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002007"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102663, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102661"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "23755", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1350", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22988", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050794|Q050795|Q040042", 
+        "finish_by": "10000621#L_TMG", 
+        "taskLogDes": "@S{4}接下来只需以魔鼎吞噬足够多的星辰灵气，便可布下五行灌灵阵为五大明王提升修为。接引道人命你随他前往鬼冥星，开始布阵。|@S{4}五行灌灵阵已开启，请你为接引道人护法。|@S{4}五行灌灵阵已成功助五大明王晋升为祖巫，请你返回天魔宫回禀魔尊罗睺。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050812|Q050814", 
+        "nextQuest": "20102665|20102664|20102664|20102664", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "五行灌灵阵", 
+        "isAutoCommit": 1, 
+        "start_by": "10000341#L_PMG", 
+        "isAutoAccept": 1
+    }
+}

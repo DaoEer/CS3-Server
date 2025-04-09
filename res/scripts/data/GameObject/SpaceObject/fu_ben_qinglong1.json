@@ -1,0 +1,30 @@
+﻿{
+"SpaceName"	: "剿灭青龙余党",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_qinglong1",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_QLZ3",
+"NavmeshPath"	: "space\\L_QLZ3_NAVMESH",
+"PatrolRouteFile": "P_L_QLZ3",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C000001"},
+	"enterPosition":"26788 14000 -1900",
+	"enterDirection":"0 0 -134",
+	"stageFile":"SS_L_qinglong1",
+	"eventFile":"SE_L_qinglong1",
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,103 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前进探查", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-7034.0 11664.0 713.0:10", 
+                    "param2": "5000|-5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-7034.0 11664.0 713)#L_YCDC"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭元辰守卫", 
+                    "reqVal": 4, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004769|20004770", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004769|20004770#L_YCDC"
+                }
+            }, 
+            "title": "穷追不舍"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败元辰道人", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004778", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004778#L_YCDC"
+                }
+            }, 
+            "title": "大战元辰道人"
+        }, 
+        "2": {
+            "comment": "注意避开守卫，找出星辰子", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找出星辰子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入道场"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败星辰子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20004779#L_YCDC"
+                }
+            }, 
+            "title": "大战星辰子"
+        }, 
+        "4": {
+            "comment": "星辰子定还藏在此处，我这便将他找出来！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜寻房间，找出星辰子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "继续搜寻"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "元辰道场"
+}

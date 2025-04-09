@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "为女娲护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "49430 55270 7974:20", 
+                    "param2": "13000|3000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20002163#L_YZD_Planes004"
+                }
+            }, 
+            "title": "升坛作法"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭来袭的缥缈阁先锋和弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002168|20002169|20002170|20002171", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002168|20002169|20002170|20002171#L_YZD_Planes004"
+                }
+            }, 
+            "title": "击退敌袭（二）"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭来袭的缥缈阁弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002152|20002153|20002154", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002152|20002153|20002154#L_YZD_Planes004"
+                }
+            }, 
+            "title": "击退敌袭（一）"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与九天玄女合力抵抗帝江", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "5", 
+                    "param2": "20002172", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002172#L_YZD_Planes004"
+                }
+            }, 
+            "title": "强敌帝江"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭来袭的缥缈阁长老和弟子", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001868|20002155|20002156", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001868|20002155|20002156#L_YZD_Planes004"
+                }
+            }, 
+            "title": "击退敌袭（三）"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "为女娲护法，击退魔道势力", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "5", 
+                    "param2": "20002172", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002172#L_YZD_Planes004"
+                }
+            }, 
+            "title": "女娲造人"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "女娲造人"
+}

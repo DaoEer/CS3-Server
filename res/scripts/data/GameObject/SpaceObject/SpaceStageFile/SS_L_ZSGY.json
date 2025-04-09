@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "前往查探食魂鱼妖行踪", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往查探鱼怪行踪", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "123", 
+                    "param2": "703", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-4090 -2520 130)#L_ZSGY"
+                }
+            }, 
+            "title": "查探鱼怪行踪"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭精英鱼妖", 
+                    "reqVal": 10, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008235|20008234|20008226|20008224|20008225|20008228|20008227|20008237|20008236|20008238", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "消灭精英鱼妖"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续探查鱼妖踪迹", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "1234", 
+                    "param2": "702", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-1360 -18180 130)#L_ZSGY"
+                }
+            }, 
+            "title": "继续查探鱼妖踪迹"
+        }, 
+        "4": {
+            "comment": "消灭鬼鲨", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭鱼怪BOSS", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008717", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "消灭鱼怪BOSS"
+        }
+    }, 
+    "describe": "追击鱼怪", 
+    "beginOnSpaceInit": 1, 
+    "name": "追击鱼怪"
+}

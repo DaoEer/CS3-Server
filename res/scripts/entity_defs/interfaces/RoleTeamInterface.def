@@ -1,0 +1,794 @@
+<root>
+	<!-- 玩家队伍 -->
+	<Properties>
+		<teamID>
+			<Type>		OBJECT_ID	</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	0		</Default>
+			<!-- 存到数据库中，以使得意外下线的玩家上线时能自动加回到队伍中 -->
+			<Persistent>	true		</Persistent>
+		</teamID>
+
+		<teamMembers>
+			<!-- 队伍成员，使用此方式记录队伍成员的dbid和base mailbox，
+			用于在cell中能根据mailbox与所有队伍成员通讯，以及能在进入队伍相关副本时找到队友的副本 -->
+			<Type>		ARRAY_DBID2ENTITYCALL	</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	[]			</Default>
+		</teamMembers>
+
+		<captainID> <!-- 队长 -->
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</captainID>
+
+		<teamMailbox>
+			<Type>		ENTITYCALL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	None			</Default>
+		</teamMailbox>
+
+		<allocation>
+			<!-- 组队奖励分配模式 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	3			</Default>
+		</allocation>
+		<quality>
+			<!-- 组队奖励分配物品品质标准-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	5			</Default>
+		</quality>
+		<forbidTeamInvite>
+			<!-- 拒绝组队邀请-->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</forbidTeamInvite>
+		<teamFollowTarget>
+			<!-- 组队跟随目标ID-->
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</teamFollowTarget>
+		<leadTeamFollowFlag>
+			<!-- 是否是组队跟随领导者-->
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</leadTeamFollowFlag>
+		<normalFollowTarget>
+			<!-- 普通跟随目标ID-->
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</normalFollowTarget>
+		<normalFollowID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</normalFollowID>
+		<fastTeamSetData>
+			<Type>		FAST_TEAM_DATA		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	false		</Persistent>
+		</fastTeamSetData>
+		<isMatchFastTeam>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</isMatchFastTeam>
+		<fastTeamTalkNpcID>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</fastTeamTalkNpcID>
+		<tempFastTeamTalkNpcID>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</tempFastTeamTalkNpcID>
+		<isCanInvitedToEnterSpace>
+			<Type>		BOOL			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	1			</Default>
+		</isCanInvitedToEnterSpace>
+	</Properties>
+
+	<BaseMethods>
+		<!-- TeamEntity通知：有一个新的队伍成员加入队伍了 -->
+		<onMemberjoin>
+			<Arg>	DBID		</Arg>	<!-- playerDBID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- playerBase -->
+			<Arg>	INT8		</Arg>	<!-- playerProfession -->
+			<Arg>	UINT8		</Arg>	<!-- level	-->
+		</onMemberjoin>
+
+		<!-- 玩家A邀请玩家B组队 -->
+		<remoteTeamInviteFB>
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+		</remoteTeamInviteFB>
+
+		<receiveRemoteTeamInvite>
+			<Arg>	ENTITYCALL		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT8		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	INT8		</Arg>
+		</receiveRemoteTeamInvite>
+
+		<!-- 被某玩家邀请组队，这里是邀请组队的最终入口，无论是近程邀请还是远程邀请。 -->
+		<teamInviteBy>
+			<Arg>	ENTITYCALL		</Arg>	<!-- invitePlayerBase -->
+			<Arg>	UNICODE		</Arg>	<!-- invitePlayerName -->
+			<Arg>	INT8		</Arg>	<!-- invitePlayerProfession -->
+			<Arg>	UINT8		</Arg>	<!-- invitePlayerLevel -->
+			<Arg>	UINT8		</Arg>	<!-- invitePlayerCamp -->
+			<Arg>	UINT8		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</teamInviteBy>
+
+		<!-- 由cell调用，答复组队邀请：同意/不同意 -->
+		<replyTeamInviteByFB>
+			<Arg>	INT32			</Arg>	<!-- agree -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- entityID -->
+		</replyTeamInviteByFB>
+
+		<!-- 由被邀请者的base通知邀请者的base：我同意加入你的队伍；
+			 因此此方法会在邀请者的base上执行。 -->
+		<playerAgreeTeamInvite>
+			<Arg>	ENTITYCALL		</Arg>	<!-- playerBase -->
+			<Arg>	UINT8		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</playerAgreeTeamInvite>
+
+		<!-- 由邀请者通知被邀请者加入队伍，因此此方法会在被邀请者的base上执行 -->
+		<joinTeamNotify>
+			<Arg>	ENTITYCALL		</Arg>	<!-- teamMailbox -->
+			<Arg>	BOOL			</Arg>
+			<Arg>	OBJECT_ID		</Arg>	<!-- captainID -->
+			<Arg>	INT32			</Arg>	<!-- allocation -->
+			<Arg>	INT32			</Arg>	<!-- quality -->
+		</joinTeamNotify>
+
+		<!-- 入队时通知队伍信息 -->
+		<teamInfoNotifyOnJoin>
+			<Arg>	OBJECT_ID	</Arg>	<!-- captainID -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- teamMailBox -->
+			<Arg>	INT32		</Arg>	<!-- allocation -->
+			<Arg>	INT32		</Arg>	<!-- quality -->
+			<Arg>	ARRAY <of> TEAM_MEMBER_INFO </of>	</Arg>	<!-- teamMemberInfo -->
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	ARRAY_OBJECT_ID	</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+		</teamInfoNotifyOnJoin>
+
+		<!-- 由cell请求：踢人或离队 -->
+		<leaveTeamFB>
+			<Arg>	OBJECT_ID	</Arg>	<!-- OBJECT_ID -->
+		</leaveTeamFB>
+
+		<!-- 由TeamEntity通知：玩家离队、开除、队伍解散 -->
+		<leaveTeamNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- dstEntityID -->
+			<Arg>	DBID	</Arg>	<!-- leaverDBID -->
+		</leaveTeamNotify>
+
+		<!-- cell请求解散队伍 -->
+		<disbandTeamFB>
+		</disbandTeamFB>
+
+		<!-- 由TeamEntity通知：队伍解散了 -->
+		<disbandTeamNotify/>
+
+		<!-- 有cell调用,请求改变队长 -->
+		<changeCaptainFB>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</changeCaptainFB>
+
+		<!-- 由TeamEntity通知：队伍的队长改变了 -->
+		<changeCaptainNotify>
+			<Arg>	DBID	</Arg>	<!-- captainDBID -->
+		</changeCaptainNotify>
+
+		<rejoinTeam/>
+
+		<!-- 由TeamEntity通知所有的在线成员：某人重新上线加入队伍了 -->
+		<onRejoinTeam>
+			<Arg>	OBJECT_ID	</Arg>	<!-- oldEntityID -->
+			<Arg>	DBID		</Arg>	<!-- playerDBID -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- playerBase -->
+		</onRejoinTeam>
+
+		<captainReceiveJoinTeamRequest>
+			<Arg>	UNICODE		</Arg> <!-- 队员名称 -->
+			<Arg>	UNICODE		</Arg> <!-- 申请者（邀请者）名称 -->
+			<Arg>	DBID		</Arg> <!-- 申请者DBID -->
+			<Arg>	INT8		</Arg> <!-- 申请者职业 -->
+			<Arg>	INT8		</Arg> <!-- 申请者等级 -->
+			<Arg>	INT8		</Arg> <!-- 申请者阵营 -->
+			<Arg>	ENTITYCALL		</Arg> <!-- 申请者的baseMailbox -->
+		</captainReceiveJoinTeamRequest>
+		
+		<!-- 回复玩家的远程加队申请：同意还是不同意 -->
+		<replyPlayerJoinTeam>
+			<Arg>	INT32		</Arg> <!-- 是否同意加入 -->
+			<Arg>	OBJECT_ID	</Arg> <!-- 申请者的EntityID -->
+		</replyPlayerJoinTeam>	
+
+		<captainAcceptJoinRequest>
+			<Arg>	ENTITYCALL		</Arg> <!-- 队长baseMailbox -->
+			<Arg>	ENTITYCALL		</Arg> <!-- 队伍baseMailbox -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- captainID -->
+			<Arg>	INT32			</Arg>	<!-- allocation -->
+			<Arg>	INT32			</Arg>	<!-- quality -->
+		</captainAcceptJoinRequest>
+
+		<!-- 队员离线通知 -->
+		<onTeamMateLogout>
+			<Arg>	DBID		</Arg> <!-- 离线队员的DBID -->
+			<Arg>	OBJECT_ID	</Arg> <!-- 离线队员的EntityID -->
+		</onTeamMateLogout>
+
+		<!-- teamEntity通知修改队伍物品分配模式 -->
+		<modifyAllocation>
+			<Arg>	INT32	</Arg>	<!-- allocation -->
+		</modifyAllocation>
+
+		<!-- teamEntity通知修改队伍物品分配品质标注 -->
+		<modifyQuality>
+			<Arg>	INT32	</Arg>	<!-- quality -->
+		</modifyQuality>
+
+		<setForbidTeamInvite>
+			<Arg>	BOOL	</Arg>
+		</setForbidTeamInvite>
+		
+		<clearTeamInfo/>
+		
+		<onRejoinTeamFailed/>
+		
+		<createSelfTeamLocally/> <!-- def中加入这个协议，是用来给GM调用（QRN） -->
+		<applyJoinFastTeam>
+			<Arg>	UNICODE		</Arg>
+		</applyJoinFastTeam>
+		<notifyClientFastTeamSignUp>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</notifyClientFastTeamSignUp>
+		<notifyClientFastTeamCancelSignUp/>
+		<fastTeamOnjoin>
+			<Arg>	STRING			</Arg>
+		</fastTeamOnjoin>
+		<fastTeamOnCancel/>
+		<BASE_setFastTeamData>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</BASE_setFastTeamData>
+		<fastTeamCreateTeam>
+			<Arg>	STRING			</Arg>
+		</fastTeamCreateTeam>
+		<fastTeamOnJoinTeam>
+			<Arg> OBJECT_ID </Arg>
+			<Arg> BASE_ENTITYCALL </Arg>
+		</fastTeamOnJoinTeam>
+		<fastTeamReqPerson>
+			<Arg>	STRING			</Arg>
+		</fastTeamReqPerson>
+		<receiveRemoteTeamApply>
+			<Arg> BASE_ENTITYCALL </Arg>
+			<Arg> UNICODE </Arg>
+			<Arg> DBID </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</receiveRemoteTeamApply>
+		<replyTeamApplyFastTeam>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</replyTeamApplyFastTeam>
+		<requestFastTeam>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+		</requestFastTeam>
+		<requestCancelFastTeamMatch>
+			<Exposed/>
+		</requestCancelFastTeamMatch>
+		<teamInviteCB>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</teamInviteCB>
+		<fastTeamCancel/>
+		<onDisbandTeam/>
+	</BaseMethods>
+
+	<CellMethods>
+		<!-- 客户端请求邀请某人组队 -->
+		<teamInviteFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</teamInviteFC>
+
+		<replyTeammateInvite>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+			<Arg>	BOOL		</Arg>	<!-- agree -->
+		</replyTeammateInvite>
+
+		<!-- 客户端请求解散队伍 -->
+		<disbandTeamFC>
+			<Exposed/>
+		</disbandTeamFC>
+
+		<!-- 由客户端请求：踢人或离队 -->
+		<leaveTeamFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</leaveTeamFC>
+
+		<leaveTeamNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</leaveTeamNotify>
+
+		<!-- 客户端申请获取队伍中某个队伍成员的数据 -->
+		<requestTeammateInfoFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</requestTeammateInfoFC>
+
+		<!-- 回复玩家的远程加队申请：同意还是不同意 -->
+		<replyPlayerJoinTeamFC>
+			<Exposed/>
+			<Arg>	INT32		</Arg> <!-- 是否同意加入 -->
+			<Arg>	OBJECT_ID	</Arg> <!-- 申请者的EntityID -->
+		</replyPlayerJoinTeamFC>	
+
+		<!-- 由客户端调用，答复组队邀请：同意/不同意 -->
+		<replyTeamInviteByFC>
+			<Exposed/>
+			<Arg>	INT32			</Arg>	<!-- agree -->
+			<Arg>	OBJECT_ID		</Arg>	<!-- entityID -->
+		</replyTeamInviteByFC>
+
+		<!-- 玩家A邀请玩家B组队 -->
+		<remoteTeamInviteFC>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+		</remoteTeamInviteFC>
+
+		<teamInviteByTeammate>
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+			<Arg>	INT32		</Arg>	<!-- entity阵营 -->
+			<Arg>	INT32		</Arg>	<!-- entity职业 -->
+			<Arg>	INT32		</Arg>	<!-- entity等级 -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- playerBase -->
+		</teamInviteByTeammate>
+
+		<!-- 客户端请求改变队长 -->
+		<changeCaptainFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</changeCaptainFC>
+		
+		<!-- 申请入队的客户端申请加入队伍 -->
+		<requestJoinTeamNear>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</requestJoinTeamNear>
+
+		<!-- 有人申请加入自己的队伍 -->
+		<receiveJoinTeamRequest>
+			<Arg>	UNICODE		</Arg> <!-- 申请者（邀请者）名称 -->
+			<Arg>	DBID		</Arg> <!-- 申请者DBID -->
+			<Arg>	INT8		</Arg> <!-- 申请者职业 -->
+			<Arg>	INT8		</Arg> <!-- 申请者等级 -->
+			<Arg>	INT8		</Arg> <!-- 申请者阵营 -->
+			<Arg>	ENTITYCALL		</Arg> <!-- 申请者的baseMailbox -->
+		</receiveJoinTeamRequest>
+
+		<!-- 由自己的base通知：有一个新的队伍成员加入队伍了 -->
+		<onMemberjoin>
+			<Arg>	DBID		</Arg>	<!-- databaseID of player -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- playerBase -->
+		</onMemberjoin>
+
+		<!-- 队伍通知 -->
+		<teamInfoNotifyOnJoin>
+			<Arg>	OBJECT_ID	</Arg>	<!-- captainID -->
+			<Arg>	ENTITYCALL		</Arg>	<!-- teamMailBox -->
+			<Arg>	INT32		</Arg>	<!-- allocation -->
+			<Arg>	INT32		</Arg>	<!-- quality -->
+			<Arg>	ARRAY <of> TEAM_MEMBER_INFO </of>	</Arg>	<!-- teamMemberInfo -->
+		</teamInfoNotifyOnJoin>
+
+		<logoutNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- entityID -->
+		</logoutNotify>
+
+		<onRejoinTeam>
+			<Arg>	DBID		</Arg>
+			<Arg>	ENTITYCALL		</Arg>
+		</onRejoinTeam>
+
+		<!-- 队伍解散通知 -->
+		<disbandTeamNotify/>
+
+		<!-- 改变队长 -->
+		<changeCaptainNotify>
+			<Arg>	OBJECT_ID	</Arg>	<!-- captainDBID -->
+		</changeCaptainNotify>
+
+		<!-- 由请求者的base请求：请把你的队伍信息发送给我 -->
+		<requestTeammateInfo>
+			<Arg>	ENTITYCALL		</Arg>	<!-- playerBase -->
+		</requestTeammateInfo>
+
+		<!-- 客户端请求修改队伍物品分配模式 -->
+		<setAllocationFC>
+			<Exposed/>
+			<Arg>	INT32	</Arg>	<!-- allocation -->
+		</setAllocationFC>
+
+		<!-- base请求修改队伍物品分配模式 -->
+		<modifyAllocation>
+			<Arg>	INT32	</Arg>	<!-- allocation -->
+		</modifyAllocation>
+
+		<!-- 客户端请求修改队伍物品分配品质标准 -->
+		<setQualityFC>
+			<Exposed/>
+			<Arg>	INT32	</Arg>	<!-- quality -->
+		</setQualityFC>
+
+		<!-- base请求修改队伍物品分配品质标准  -->
+		<modifyQuality>
+			<Arg>	INT32	</Arg>	<!-- quality -->
+		</modifyQuality>
+
+		<setForbidTeamInviteFC>
+			<Exposed/>
+			<Arg>	BOOL	</Arg>
+		</setForbidTeamInviteFC>
+
+		<requestAddTeamSignFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT32		</Arg>
+		</requestAddTeamSignFC>
+
+		<requestLeadTeamFollowFC>
+			<Exposed/>
+		</requestLeadTeamFollowFC>
+		<cancelLeadTeamFollowFC>
+			<Exposed/>
+		</cancelLeadTeamFollowFC>
+		<receiveTeamFollowRequest>
+			<Arg>	ENTITYCALL		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</receiveTeamFollowRequest>
+		<cancelTeamFollowFC>
+			<Exposed/>
+			<Arg>	UINT8		</Arg>
+		</cancelTeamFollowFC>
+
+		<startTeamFollow>
+			<Arg>	OBJECT_ID	</Arg>
+		</startTeamFollow>
+		<stopTeamFollow/>
+
+		<followNewCaptain>
+			<Arg>	OBJECT_ID	</Arg>
+		</followNewCaptain>
+
+		<startLeadTeamFollow/>
+		<stopLeadTeamFollow/>
+
+		<requestNormalFollowFC>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</requestNormalFollowFC>
+		<cancelNormalFollowFC>
+			<Exposed/>
+		</cancelNormalFollowFC>
+		<requestRoleTeamSpellBoxFollow>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</requestRoleTeamSpellBoxFollow>  
+		<roleTeamSpellBoxFollow>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	FLOAT	    </Arg>
+		</roleTeamSpellBoxFollow>  
+
+		<shareBigMapCustomMarker>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION		</Arg>
+			<Arg>	INT32			</Arg>
+		</shareBigMapCustomMarker>
+		<otherMemberShareBigMapCustomMarker>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION		</Arg>
+			<Arg>	INT32			</Arg>
+		</otherMemberShareBigMapCustomMarker>
+		
+		<clearTeamInfo/>
+		<CELL_updateMembersPos>
+			<Exposed/>
+			<Arg> ARRAY_OBJECT_ID </Arg>
+		</CELL_updateMembersPos>
+		<onUpdatePosToTarget>
+			<Arg>	STRING		</Arg>
+			<Arg> CELL_ENTITYCALL</Arg>
+		</onUpdatePosToTarget>
+		<OnUpdateMemeberPos>
+			<Arg>	PYTHON_DICT		</Arg>
+		</OnUpdateMemeberPos>
+		<CELL_callAllTeamMemberToCaptainLineNumber>
+			<Exposed/>
+			<Arg> ARRAY_OBJECT_ID </Arg>
+		</CELL_callAllTeamMemberToCaptainLineNumber>
+		<receiveCaptainInvite>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	POSITION		</Arg>
+			<Arg>	DIRECTION		</Arg>
+		</receiveCaptainInvite>
+
+		<CELL_applyJoinFastTeam>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</CELL_applyJoinFastTeam>
+		<sendFastTeamChatMsg>
+			<Arg>	INT32			</Arg>
+			<Arg>	UNICODE		</Arg>
+		</sendFastTeamChatMsg>
+		<CELL_replyTeamApplyFastTeam>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</CELL_replyTeamApplyFastTeam>
+		<CELL_callMemberEnterSpaceCopy>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</CELL_callMemberEnterSpaceCopy>
+		<fastTeamOnjoin/>
+		<fastTeamOnCancel/>
+		<receiveMemberInvitedToEnterSpaceCopy>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION		</Arg>
+			<Arg>	DIRECTION		</Arg>
+		</receiveMemberInvitedToEnterSpaceCopy>
+		<fastTeamRequestGotoBunchSpace>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</fastTeamRequestGotoBunchSpace>
+
+		<!--队伍集结-->
+
+		<CELL_teamAssembled>
+			<Exposed/>
+			<Arg>	SCRIPT_ID	</Arg>
+			<Arg> 	POSITION	</Arg>
+		</CELL_teamAssembled>
+
+		<checkIsCanJoinTeam>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg> 	DBID	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</checkIsCanJoinTeam>
+		<requestFastTeam>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</requestFastTeam>
+	</CellMethods>
+
+	<ClientMethods>
+		<!-- 由自己的base通知：有一个新的队伍成员加入队伍了 -->
+		<addTeamMember>
+			<Arg>	STRING		</Arg>	<!-- dbid -->
+			<Arg>	INT32		</Arg>	<!-- entityID -->
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+			<Arg>	INT32		</Arg>	<!-- playerProfession -->
+			<Arg>	INT32		</Arg>	<!-- onlineState -->
+			<Arg>	INT32		</Arg>	<!-- level	-->
+		</addTeamMember>
+
+		<TeamInviteByTeammate>
+			<Arg>	INT32		</Arg>	<!-- entityID -->
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+			<Arg>	INT32		</Arg>	<!-- entity阵营 -->
+			<Arg>	INT32		</Arg>	<!-- entity职业 -->
+			<Arg>	INT32		</Arg>	<!-- entity等级 -->
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+			<Arg>	INT32		</Arg>	<!-- entityID -->
+		</TeamInviteByTeammate>
+
+		<!-- 由服务器通知：某人想邀请你一起组队（或加入某人的队伍） -->
+		<OnTeamInviteBy>
+			<Arg>	INT32		</Arg>	<!-- 邀请者的entityID -->
+			<Arg>	UNICODE		</Arg>  <!-- 邀请者的名称 -->
+			<Arg>	INT32		</Arg>  <!-- 邀请者的阵营 -->
+			<Arg>	INT32		</Arg>  <!-- 邀请者的职业 -->
+			<Arg>	INT32		</Arg>  <!-- 邀请者的等级 -->
+		</OnTeamInviteBy>
+
+		<!-- 入队时通知队伍信息 -->
+		<teamInfoNotifyOnJoin>
+			<Arg>	INT32		</Arg>	<!-- captainID -->
+			<Arg>	INT32		</Arg>	<!-- teamID -->
+			<Arg>	INT32		</Arg>	<!-- allocation -->
+			<Arg>	INT32		</Arg>	<!-- quality -->
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	ARRAY_OBJECT_ID	</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+		</teamInfoNotifyOnJoin>
+
+		<!-- 由自己的base通知：有一个玩家要离队、被开除 -->
+		<leaveTeamNotify>
+			<Arg>	INT32		</Arg>	<!-- entityID -->
+			<Arg>	BOOL		</Arg>	<!-- disemploy -->
+		</leaveTeamNotify>
+
+		<!-- 由自己的base通知：队伍解散了 -->
+		<disbandTeamNotify/>
+
+		<!-- 由自己的base通知：队长了 -->
+		<changeCaptainNotify>
+			<Arg>	INT32		</Arg>	<!-- entityID -->
+		</changeCaptainNotify>
+
+		<!-- 由自己的base通知：某人下线了 -->
+		<logoutNotify>
+			<Arg>	INT32		</Arg>	<!-- entityID -->
+		</logoutNotify>
+
+		<!-- 由自己的base通知：某人重新上线了 -->
+		<onRejoinTeam>
+			<Arg>	INT32		</Arg>	<!-- oldEntityID -->
+			<Arg>	INT32		</Arg>	<!-- newEntityID -->
+		</onRejoinTeam>
+
+		<!-- 由被请求者的cell发送：我的队伍数据是…… -->
+		<teammateInfoNotify>
+			<Arg>	INT32		</Arg> <!-- 玩家ID -->
+			<Arg>	INT32		</Arg> <!-- 玩家等级 -->
+			<Arg>	INT32		</Arg> <!-- 玩家血量 -->	
+			<Arg>	INT32		</Arg> <!-- 玩家最大血量 -->
+			<Arg>	INT32		</Arg> <!-- 玩家MP -->
+			<Arg>	INT32		</Arg> <!-- 玩家最大MP -->
+			<Arg>	STRING		</Arg> <!-- 玩家当前地图ID -->
+			<Arg> 	INT32 		</Arg> <!-- 玩家当前地图分线 -->	
+		</teammateInfoNotify>
+
+		<!-- 由自己的base通知：有人想加入我的队伍（和我组队），是否同意？ -->
+		<OnReceiveJoinTeamRequest>
+			<Arg>	OBJECT_ID	</Arg> <!-- 申请者的entity id -->
+			<Arg>	UNICODE		</Arg> <!-- 申请者（邀请者）名称 -->
+			<Arg>	INT32		</Arg>  <!-- 邀请者的阵营 -->
+			<Arg>	INT32		</Arg> <!-- 申请者职业 -->
+			<Arg>	INT32		</Arg> <!-- 申请者等级 -->
+		</OnReceiveJoinTeamRequest>	
+
+		<onSendTeamMSG>	<!-- 通知客户端, 组队系统相关信息 -->
+			<Arg> STRING </Arg>
+		</onSendTeamMSG>
+		<!-- 通知客户端修改队伍物品分配模式 -->
+		<modifyAllocation>
+			<Arg>	INT32	</Arg>	<!-- allocation -->
+		</modifyAllocation>
+		<!-- 通知客户端修改队伍物品分配品质标准  -->
+		<modifyQuality>
+			<Arg>	INT32	</Arg>	<!-- quality -->
+		</modifyQuality>
+
+		<OnTeamMemberAddBuff>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</OnTeamMemberAddBuff>
+		<OnTeamMemberRemoveBuff>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT32		</Arg>
+		</OnTeamMemberRemoveBuff>
+		<OnTeamMemberResetBuffTime>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</OnTeamMemberResetBuffTime>
+
+		<AddTeamSignCB>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT32		</Arg>
+		</AddTeamSignCB>
+
+		<StartTeamFollow>
+			<Arg>		OBJECT_ID	</Arg>
+		</StartTeamFollow>
+		<StopTeamFollow/>
+		<FollowNewCaptain>
+			<Arg>		OBJECT_ID	</Arg>
+		</FollowNewCaptain>
+
+		<StartNormalFollow>
+			<Arg>		OBJECT_ID	</Arg>
+		</StartNormalFollow>
+		<StopNormalFollow/>
+		<RoleTeamSpellBoxFollow>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		FLOAT       </Arg>
+		</RoleTeamSpellBoxFollow>
+		<onMemberShareBigMapCustomMarker>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION		</Arg>
+			<Arg>	INT32			</Arg>
+		</onMemberShareBigMapCustomMarker>
+		<RemoveTeamSigner>
+			<Arg>	INT32			</Arg>
+		</RemoveTeamSigner>
+		<CLIENT_OnUpdateMemeberPos>
+			<Arg> BIGMAP_SHOW_INFO </Arg>
+		</CLIENT_OnUpdateMemeberPos>
+		<CLIENT_OnStartTeamSearch>
+			<Arg>	UNICODE			</Arg>
+		</CLIENT_OnStartTeamSearch>
+		<CLIENT_onTeamAssembled>
+			<Arg>	SCRIPT_ID	</Arg>
+			<Arg>	POSITION	</Arg>
+		</CLIENT_onTeamAssembled>
+		<CLIENT_OnFastTeamCancelMatch/>
+		<CLIENT_teamByApply>
+			<Arg>	INT32			</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</CLIENT_teamByApply>
+		<CLIENT_OpenFastTeamWin>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	OBJECT_ID		</Arg>
+			<Arg>	STRING			</Arg>
+		</CLIENT_OpenFastTeamWin>
+		<CLIENT_OnSetTeamSearchTime>
+			<Arg>	INT32			</Arg>
+		</CLIENT_OnSetTeamSearchTime>
+		<FastTeamOnMatchSuccess/>
+	</ClientMethods>
+
+</root>

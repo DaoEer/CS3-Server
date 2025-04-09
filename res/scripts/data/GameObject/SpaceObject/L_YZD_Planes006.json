@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_YZD_Planes006",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_YZD_Planes006",
+"NavmeshPath"	: "space\\L_YZD_Planes006_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_YZD",
+	"Position"	: "4120.0 8274.0 397.0",
+	"Direction"	: "0.0 0.0 110.0"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_YZD_Planes006",
+	"eventFile":"SE_L_YZD_Planes006"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_WXTDZ_01",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_WXTDZ_01",
+"NavmeshPath"	: "space\\L_WZGHZ_01_NAVMESH",
+"PatrolRouteFile": "P_L_WXTDZ_01",
+"SpaceAoi"	: 250.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_BQDB",
+	"Position"	: "-8507.3 60037.5 -883.3",
+	"Direction"	: "0.0 0.0 -88.23550045014679"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_WXTDZ_01",
+	"eventFile":"SE_L_WXTDZ_01"
+	},
+"DomainData"	:{
+	}
+}

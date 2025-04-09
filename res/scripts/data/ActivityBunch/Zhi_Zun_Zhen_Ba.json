@@ -1,0 +1,59 @@
+﻿{
+	"BunchName":"Zhi_Zun_Zhen_Ba",
+	"Script":"ActBunchZhiZunZhenBa",
+	"EventKey":{
+		"noticeKey":"Zhi_Zun_Zhen_Ba_Notice",
+		"signUpKey":"Zhi_Zun_Zhen_Ba_Sign",
+		"signEndKey":"Zhi_Zun_Zhen_Ba_Sign_End",
+		"startKey":"Zhi_Zun_Zhen_Ba_Start",
+		"endKey":"Zhi_Zun_Zhen_Ba_End"
+	},
+	"NotifyKey":{
+		"signUpMsg":"至尊争霸活动于19.30开启报名，请等级在30级以上的玩家前往报名参加比赛！",
+		"signEndMsg":"",
+		"startMsg":"",
+		"endMsg":""
+	},
+	"StartActivity":"shi_fang_cheng",
+	"MinLevel":0,
+	"MaxLevel":100,
+	"Activities":[
+		{
+			"ActivityName":"shi_fang_cheng",
+			"ActivityScript":"ActivityShiFangCheng",
+			"NextActivity":"feng_qi_zhen",
+			"EventKey":{
+				"noticeKey":"Shi_Fang_Cheng_Notice",
+				"signUpKey":"Shi_Fang_Cheng_Sign_Up",
+				"signEndKey":"Shi_Fang_Cheng_Sign_Up_End",
+				"startKey":"Shi_Fang_Cheng_Start",
+				"endKey":"Shi_Fang_Cheng_End"
+			},
+			"JoinStyle":{
+				"script":"JoinGotoShiFangCheng",
+				"param1":"30:fu_ben_SFC",
+				"param2":"-273 55025 827",
+				"param3":"0 0 0"
+			},
+			"JoinNumber":50
+		},
+		{
+			"ActivityName":"feng_qi_zhen",
+			"ActivityScript":"ActivityYeZhanFengQi",
+			"NextActivity":"",
+			"EventKey":{
+				"startKey":"Ye_Zhan_Fen_Qi_Start",
+				"endKey":"Ye_Zhan_Fen_Qi_End"
+			},
+			"JoinStyle":{
+				"script":"JoinGotoRandomPos",
+				"param1":"30:fu_ben_YZFQ",
+				"param2":"",
+				"param3":""
+			},
+			"JoinNumber":30
+		}
+	]
+
+
+}

@@ -1,0 +1,125 @@
+{
+    "20101216": {
+        "tasks": [
+            {
+                "navigateData": "(-6310.0 -6131.0 558.0)#L_YZD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010030", 
+                "id": 1, 
+                "name": "前往较武台，夺取乾坤鼎"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_YZD_Planes005"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101216, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010030"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101215"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010030"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22374", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1492", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2860", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1097", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032233|Q032234|Q032236", 
+        "finish_by": "10000267#L_YZD", 
+        "taskLogDes": "@S{4}从灵珠子处得知，祖巫共工之徒相柳正在较武台上举行比武大会，@F{fc=c41}乾坤鼎@D就是此次比武的大奖。请你在大会上拔得头筹，赢得@F{fc=c41}乾坤鼎@D。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032252", 
+        "nextQuest": "20101217", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "Q032250"
+                }
+            ]
+        }, 
+        "level": 28, 
+        "title": "夺取乾坤鼎", 
+        "isAutoCommit": 1, 
+        "start_by": "10000267#L_YZD", 
+        "isAutoAccept": 1
+    }
+}

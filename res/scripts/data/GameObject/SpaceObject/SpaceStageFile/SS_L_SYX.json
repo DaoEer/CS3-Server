@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭噬魂火灵", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012051|20012052", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002356|20002357|20002358#L_SYX"
+                }
+            }, 
+            "title": "引蛇出洞"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭焱赫", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002387", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002387#L_SYX"
+                }
+            }, 
+            "title": "过关斩将"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭夺命火灵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012053|20012054|20012055|20012056|20012057", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002384|20002385#L_SYX"
+                }
+            }, 
+            "title": "披荆斩棘"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入火焰洞窟", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "40977 44477 -17796:2", 
+                    "param2": "-17505|-18505", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(40977 44477 -17796)#L_SYX"
+                }
+            }, 
+            "title": "深入洞窟"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "消灭火麒麟"
+}

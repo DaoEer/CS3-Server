@@ -1,0 +1,112 @@
+{% load staticfiles %}
+{% load custom_filter %}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="views" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/static/images/favicon.ico">
+	<link rel="stylesheet" href="/static/dashboard.css">
+	<title>activities editor</title>
+	<link rel="stylesheet" href="/static/bootstrap-3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/jscalendar-1.0/calendar-win2k-cold-1.css" media="all" title="win2k-cold-1">
+
+	<script type="text/javascript" src="/static/jscalendar-1.0/calendar.js"></script>
+	<script type="text/javascript" src="/static/jacalendar-1.0/lang/calendar-en.js"></script>
+	<script type="text/javascript" src="/static/jacalendar-1.0/calendar-setup.js"></script>
+	<script type="text/javascript" src="/static/js/jquery-1.11.3.min.js"></script>
+	<script src="/static/js/jquery-1.11.3.min.js"></script>
+	<script src="/static/layer-2.1/layer.js"></script>
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+		}
+	</script>
+</head>
+<body>
+    <div class="col-sm-12 user-new">
+        <form name="form-horizontal" method="post" action="/gmtools/role/chat/gag?name={{ name }}&chat_list={{ chat_list }}">
+            {% csrf_token %}
+            <input type="hidden" name="send_flag" id="hiddenField" value="1">
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="id_name">角色名</label>
+                <div class="col-sm-8">
+                    <input type="text" name="name" class="form-control" id="id_name" value="{{name|escape}}" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="id_name">已被禁言频道</label>
+                <div class="col-sm-8">
+                    <p><label class="auth_direction">{{ gagData }}</label></p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="id_gagTime">输入禁言时长(单位：分)</label>
+                <div class="col-sm-8">
+                    <input type="text" name="gagTime" class="form-control" id="id_gagTime" value=""/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label" for="id_reason">禁言原因</label>
+                <div class="col-sm-8">
+                    <input type="text" name="reason" class="form-control" id="id_reason" value=""{{reason}}/>
+                </div>
+            </div>
+            <div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="id_auth">聊天频道</label>
+                    <div class="col-sm-8 checkbox">
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_nearby" value="1" />附近</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_space" value="1"/>地图</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_world" value="1" />世界</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_whisper" value="1" />密语</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_group" value="1" />讨论组</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_team" value="1" />队伍</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_collective" value="1" />团队</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_gang" value="1" />帮会</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_alience" value="1" />联盟</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_school" value="1" />门派</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_camp" value="1" />阵营</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_battilespace" value="1" />战场</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_tianyin" value="1" />天音</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_xianyin" value="1" />仙音</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_system" value="1" />系统</label></p>
+                        <p><label class="auth_direction"><input type="checkbox" name="chat_friend" value="1" />好友</label></p>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-sm-offset-4">
+                    <button type="submit" class="btn btn-default">确定</button>
+                </div>
+            </div>
+        </form>
+        <p>&nbsp;</p>
+    </div>
+    <script src="/static/js/jquery-1.11.3.min.js"></script>
+    <script src="/static/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".auth_direction").hover(function(){
+                $(this).find('span').removeClass('direction');
+            },
+            function(){
+                $(this).find('span').addClass('direction');
+            });
+        });
+    </script>
+</body>
+</html>

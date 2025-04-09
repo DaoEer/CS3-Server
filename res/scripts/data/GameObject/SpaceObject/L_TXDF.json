@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_TXDF",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_TXDF",
+"NavmeshPath"	: "space\\L_TGLX_NAVMESH",
+"PatrolRouteFile": "P_L_TXDF",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FYP",
+	"Position"	: "19241.0 21727.0 3647.0",
+	"Direction"	: "0 0 152"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_TXDF",
+	"eventFile":"SE_L_TXDF"
+	},
+"DomainData"	:{
+	}
+}

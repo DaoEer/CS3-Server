@@ -1,0 +1,28 @@
+<root>
+	<Interfaces>
+		<Interface>		AmbulantInterface	</Interface>
+	</Interfaces>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<AddAxternalVelocity>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</AddAxternalVelocity>
+		<ChangeAxternalPercentage>
+			<Arg>		FLOAT		</Arg>
+		</ChangeAxternalPercentage>
+		<RemoveAxternalVelocity>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</RemoveAxternalVelocity>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

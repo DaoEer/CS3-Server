@@ -1,0 +1,130 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<trainSoldierGroundDatas>
+			<Type>			TRAINSOLDIERGROUNDDATAMGR	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		[]				</Default>
+			<Persistent>		true				</Persistent>
+		</trainSoldierGroundDatas>
+		<spaceNPCInfos>
+			<Type>			SPACE_NPC_INFO_IMP_LIST		</Type>
+			<Flags>			BASE				</Flags>
+			<Persistent>		true				</Persistent>
+		</spaceNPCInfos>
+		<declareWarDBIDs>
+			<Type>			ARRAY_DBID		</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		[]				</Default>
+			<Persistent>		true		</Persistent>
+		</declareWarDBIDs>
+		<joinTrainGroundMembers>
+			<Type>			ARRAY_DBID		</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		[]				</Default>
+			<Persistent>		true		</Persistent>
+		</joinTrainGroundMembers>
+	</Properties>
+
+	<BaseMethods>
+		<enterHomeBarracks>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</enterHomeBarracks>
+		<enterStandMap>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	DIRECTION	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>
+		</enterStandMap>
+		<requestTrainSoldierGroundDatas>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</requestTrainSoldierGroundDatas>
+
+		<saveSpaceNPCInfo>
+			<Arg>	SPACE_NPC_INFO_IMP</Arg>
+		</saveSpaceNPCInfo>
+		<requestSpaceNPCInfo>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	SCRIPT_ID	</Arg>
+		</requestSpaceNPCInfo>
+
+		<notifyDeclareWarPlayer>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>
+		</notifyDeclareWarPlayer>
+
+		<notifyOccupyWarPlayer>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>
+		</notifyOccupyWarPlayer>
+
+		<notifyOccupyPlayer>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</notifyOccupyPlayer>
+		<addDeclareWarPlayer>
+			<Arg>	DBID	</Arg>
+		</addDeclareWarPlayer>
+		<removeDeclareWarPlayer>
+			<Arg>	DBID	</Arg>
+		</removeDeclareWarPlayer>
+		<queryIsDeclareWar>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</queryIsDeclareWar>
+		<queryRoleOccupyTrainGroundData>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</queryRoleOccupyTrainGroundData>
+		<addOccupyTrainSoldierGroundDatas>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</addOccupyTrainSoldierGroundDatas>
+		<addDeclareTrainSoldierGroundDatas>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	SERVER_TIME	</Arg>
+			<Arg>	UINT8	</Arg>
+		</addDeclareTrainSoldierGroundDatas>
+		<changeNPCTrainSoldierGroundData>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</changeNPCTrainSoldierGroundData>
+		<openAllGroundDetail>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</openAllGroundDetail>
+	</BaseMethods>
+</root>

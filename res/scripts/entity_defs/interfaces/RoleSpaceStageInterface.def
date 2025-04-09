@@ -1,0 +1,54 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_OnEnterSpaceStageArea>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</CELL_OnEnterSpaceStageArea>
+	</CellMethods>
+
+	<ClientMethods>
+		<CLIENT_showSpaceStageWin>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	ARRAY_UNICODE		</Arg>
+			<Arg>	STRING			</Arg>
+		</CLIENT_showSpaceStageWin>
+		<CLIENT_updateSpaceStageWin>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING		</Arg>
+		</CLIENT_updateSpaceStageWin>
+		<CLIENT_updateCompleteSpaceStage>
+			<Arg>	ARRAY_UNICODE		</Arg>
+		</CLIENT_updateCompleteSpaceStage>
+		<CLIENT_hideSpaceStageWin/>
+		<CLIENT_AddSpaceStageTaskArea>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING		</Arg>
+		</CLIENT_AddSpaceStageTaskArea>
+		<CLIENT_ClearSpaceStageTaskArea/>
+
+		<!--副本统计-->
+		<CLIENT_showSpaceStatistics>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	STRING			</Arg>
+		</CLIENT_showSpaceStatistics>
+		<CLIENT_updateSpaceStatistics>
+			<Arg>	STRING		</Arg>
+		</CLIENT_updateSpaceStatistics>
+		<CLIENT_hideSpaceStatistics/>
+		<CLIENT_showSpaceStageNextTask>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</CLIENT_showSpaceStageNextTask>
+	</ClientMethods>
+</root>

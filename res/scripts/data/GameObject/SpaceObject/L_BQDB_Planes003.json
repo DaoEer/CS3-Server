@@ -1,0 +1,26 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_BQDB_Planes003",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_BQDB_Planes003",
+"NavmeshPath"	: "space\\L_BQDB_Planes003_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_BQDB",
+	"Position"	: "-37330.0 40037.0 -1612.0",
+	"Direction"	: "0 0 156"
+	},
+"SpaceData"	:{
+	"maxLine":1,
+	"initLine":1,
+	"maxPlayerAmount":500,
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_BQDB_Planes003",
+	"eventFile":"SE_L_BQDB_Planes003"
+	},
+"DomainData"	:{
+	}
+}

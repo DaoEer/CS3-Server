@@ -1,0 +1,37 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+		<Interface> 	SpaceBHZBWarDetailInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<warMemberDatas>
+			<Type>		BHZBTONGWARDATAMGR 	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</warMemberDatas>
+	</Properties>
+
+	<CellMethods>
+		<requestBHZBPointSpaceSaveInfoCB>
+			<Arg>	BHZBPOINTSPACESAVEINFOS			</Arg>
+		</requestBHZBPointSpaceSaveInfoCB>
+		<statusMsgToMember>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</statusMsgToMember>
+		<statusMsgToTongMember>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	DBID		</Arg>
+		</statusMsgToTongMember>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

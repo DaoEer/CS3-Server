@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败逍遥门卫兵", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000947|20000948|20000949|20000950|20000342", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000947|20000948|20000949|20000950|20000342#L_SLT_01"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤枪魔将拓风", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000951", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000951#L_SLT_01"
+                }
+            }, 
+            "title": "占领灵塔一层"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门前往锁灵塔二层", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20000966#L_SLT_01"
+                }
+            }, 
+            "title": "前往第二层"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待灵珠子打开宝箱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "寻得“胆灵”"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "锁灵塔第一层"
+}

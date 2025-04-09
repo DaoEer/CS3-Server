@@ -1,0 +1,44 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<exploit>
+			<Type>		INT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	true		</Persistent>
+		</exploit>
+		<maxMilitaryRank>
+			<Type>		INT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	1		</Default>
+			<Persistent>	true		</Persistent>
+		</maxMilitaryRank>
+		<militaryRank>
+			<Type>		INT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</militaryRank>
+	</Properties>
+
+	<ClientMethods>
+		<onUpdataExploit>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</onUpdataExploit>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<exploitReduce>
+			<Arg>		INT32	 	</Arg>
+		</exploitReduce>
+		<updataExploit>
+			<Exposed/>
+		</updataExploit>
+	</CellMethods>
+</root>

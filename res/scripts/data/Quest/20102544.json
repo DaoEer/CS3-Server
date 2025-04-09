@@ -1,0 +1,134 @@
+{
+    "20102544": {
+        "tasks": [
+            {
+                "navigateData": "20005360|20005361#L_BQXB", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20005360|20005361", 
+                "id": 1, 
+                "name": "消灭失魂幽灵"
+            }, 
+            {
+                "navigateData": "20005363#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20005363", 
+                "id": 2, 
+                "name": "消灭幽灵鬼将"
+            }, 
+            {
+                "navigateData": "30000298#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "收服七煞鬼王"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "33", 
+                "id": 4, 
+                "name": "到达33级"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102544, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102543"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "34509", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "881", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9889", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1380", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102070003|102070006|102070009|102070012", 
+                "script": "QuestRewardItemByProfession"
+            }, 
+            {
+                "param2": "3", 
+                "param3": "", 
+                "description": "一星 · 龙力转魂丹", 
+                "param1": "202030003", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q045609", 
+        "finish_by": "10000476#L_BQXB", 
+        "taskLogDes": "@S{4}你已收服了风妖族，接下来请你前去收服风嚎鬼林的鬼王势力。|@S{4}你已收服了风妖族，接下来请你前去收服风嚎鬼林的鬼王势力。|@S{4}你已收服了风妖族，接下来请你前去收服风嚎鬼林的鬼王势力。|@S{4}将等级提升至33级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041609|Q041610", 
+        "nextQuest": "20102574", 
+        "taskCompleteFunctions": {}, 
+        "level": 32, 
+        "title": "风嚎鬼林", 
+        "isAutoCommit": 1, 
+        "start_by": "10000630#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

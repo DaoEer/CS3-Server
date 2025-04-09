@@ -1,0 +1,34 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 交互中心的大日宝镜，每次交互宝镜转动45°。@B• 长按“F”交互四周的反光镜，反光镜会持续转动。@B• 宝镜神光照射在爆发妖气的石像上，便可镇压妖气并对结界造成大量伤害。@B• 未及时镇压妖气的石像会化身妖物，将其击杀也可对结界造成少量伤害。@B• 结界破坏后便可交互玄天宝录将其取得。@B• 最终消耗的时间越短获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "镇压石像，打破结界", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "999", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "2": {
+                    "title": "取得玄天宝录", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010128", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_getItem"
+                }
+            }, 
+            "questID": 0, 
+            "title": "打破结界，取得玄天宝录"
+        }
+    }, 
+    "name": "玄天宝录"
+}

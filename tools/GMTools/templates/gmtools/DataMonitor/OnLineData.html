@@ -1,0 +1,53 @@
+{% extends "gmtools/DataMonitor/DataMonitorBase.html" %}
+{% load custom_filter %}
+
+
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">在线玩家数据查询</h2>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/datamonitor/onlinedata/query/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class="row">
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default">查 询</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<h4 class="sub-header">查询结果</h4>
+	<div class="table-responsive">
+		<!--style> table {text-align: center;} </style-->
+		<table class="table-striped table-condensed" border="1">
+			<thead>
+				<tr>
+					<th width="200px">服务器</th>
+					<th width="200px">总玩家数量</th>
+					<th width="200px">当前在线玩家数量</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for data in datas %}
+					<tr>
+						<td>{{ data.serverName }}</td>
+						<td>{{ data.totalAmount }}</td>
+						<td>{{ data.onlineAmount }}</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+{% endblock %}

@@ -1,0 +1,24 @@
+﻿{
+"SpaceName"	: "太虚幻境",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStoryExit",
+"scriptID"	: "L_TXHJ_2",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_TXHJ_2",
+"NavmeshPath"	: "space\\L_TXHJ_01_NAVMESH",
+"PatrolRouteFile": "P_L_TXHJ_2",
+"belongType"	: "1",
+"SpaceCopyStoryExit"	:{
+	"ScriptID"	: "L_XLD_01|L_XYM|L_PMG|L_MHD",
+	"Position"	: "-4122.3 -18459 2690|52170 7850 17170|-19850 -18650 3980|52129 2550 16920",
+	"Direction"	: "0 0 -140|0 0 90|0 0 -110|0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_TXHJ_2",
+	"eventFile":"SE_L_TXHJ_2"
+	},
+"DomainData"	:{
+	}
+}

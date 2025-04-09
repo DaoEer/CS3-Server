@@ -1,0 +1,32 @@
+﻿{
+"SpaceName"	: "星月台",
+"EntityType"	: "SpaceCopyJiYuan",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJiYuan",
+"scriptID"	: "fu_ben_L_XYT",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_fu_ben_L_XYT",
+"NavmeshPath"	: "space\\L_LYSL_LY_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"bunchSpaceScriptID" : "",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"spaceIntroduce":{"voiceID":"C001981|C001982"},
+	"enterPosition":"-2363.0 5918.0 -552.0",
+	"enterDirection":"0 0 -0",
+	"stageFile":"SS_fu_ben_L_XYT",
+	"eventFile":"SE_fu_ben_L_XYT",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

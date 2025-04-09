@@ -1,0 +1,30 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<plunderMemberDatas>
+			<Type>		SPACE_COPY_TONG_PLUNDER_MEMBER_MGR 	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</plunderMemberDatas>
+	</Properties>
+
+	<CellMethods>
+		<setBothSidesInfo>
+			<Arg>	TONG_PLUNDER_DBID	</Arg>
+		</setBothSidesInfo>
+		<onTongPlunderVictory>
+			<Arg>	TONG_PLUNDER_SHOP_DATAS	</Arg>
+		</onTongPlunderVictory>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

@@ -1,0 +1,159 @@
+<root>
+	<Properties>
+		<occupyTempData>
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	{}				</Default>
+			<Persistent>	false		</Persistent>
+		</occupyTempData>
+		<occupyInfo>
+			<Type>		ROLE_LBC_INFO			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</occupyInfo>
+		<declareInfo>
+			<Type>		ROLE_LBC_INFO			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</declareInfo>
+	</Properties>
+
+	<ClientMethods>
+		<OpenLbcMapUI>
+			<Arg>	FLBC_OCCUPY_INFO	</Arg>
+			<Arg>	FLBC_DECLARE_INFO	</Arg>
+			<Arg>	ARRAY <of> LBC_STATUS </of>	</Arg>
+		</OpenLbcMapUI>
+		<LbcOccupyCost>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	ARRAY_STRING	</Arg>
+		</LbcOccupyCost>
+		<UpdateLbcStatusInfo>
+			<Arg> LBC_STATUS </Arg>
+		</UpdateLbcStatusInfo>
+		<UpdateOccupyInfo>
+			<Arg>	FLBC_OCCUPY_INFO	</Arg>
+		</UpdateOccupyInfo>
+		<UpdateDeclareInfo>
+			<Arg>	FLBC_DECLARE_INFO	</Arg>
+		</UpdateDeclareInfo>
+		<UpdateBeDeclaredInfo>
+			<Arg>	FLBC_DECLARE_INFO	</Arg>
+		</UpdateBeDeclaredInfo>
+		<NotifyDeclarerFight>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLBC_DECLARE_INFO	</Arg>
+		</NotifyDeclarerFight>
+		<NotifyOccupierFight>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLBC_DECLARE_INFO	</Arg>
+		</NotifyOccupierFight>
+	</ClientMethods>
+
+	<CellMethods>
+		<reqOpenLbcMapUI> <!--打开练兵场界面-->
+			<Exposed/>
+		</reqOpenLbcMapUI>
+		<reqGotoLbc> <!--前往练兵场-->
+			<Exposed/>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+		</reqGotoLbc>
+		<openLbcMapUICB>
+			<Arg>	PYTHON_DICT	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>
+			<Arg>	ARRAY <of> LBC_STATUS </of>	</Arg>
+		</openLbcMapUICB>
+		<reqSubmitOccupyCost>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</reqSubmitOccupyCost>
+		<gotoLbc>
+			<Arg>	LBC_ITEM	</Arg>
+		</gotoLbc>
+		<recvLbcFightResult>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	LBC_ITEM </Arg>
+		</recvLbcFightResult>
+		<occupyLbcCB>
+			<Arg>	BOOL	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT32	</Arg>
+		</occupyLbcCB>
+		<declareLbcCB>
+			<Arg> BOOL </Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg> FLBC_DECLARE_INFO </Arg>
+			<Arg> 	UNICODE </Arg>
+			<Arg> 	UINT8 </Arg>
+			<Arg> 	UINT8 </Arg>
+		</declareLbcCB>
+		<cancelDeclareCB>
+			<Arg> FLBC_DECLARE_INFO </Arg>
+		</cancelDeclareCB>
+		<beDeclared>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>   FLBC_DECLARE_INFO 	</Arg>
+		</beDeclared>
+		<beDeclaredCancel>
+			<Arg>   FLBC_DECLARE_INFO 	</Arg>
+		</beDeclaredCancel>
+		<enterLbcSpace>
+			<Arg> LBC_ITEM </Arg>
+		</enterLbcSpace>
+		<updateLbcStatus>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT8	</Arg>
+		</updateLbcStatus>
+		<giveUpAttackCB>
+			<Arg> FLBC_DECLARE_INFO </Arg>
+		</giveUpAttackCB>
+		<abandonLbcCB>
+		</abandonLbcCB>
+		<notifyOccupierFight>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg> 	FLBC_DECLARE_INFO </Arg>
+		</notifyOccupierFight>
+		<notifyDeclarerFight>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg> 	FLBC_DECLARE_INFO </Arg>
+		</notifyDeclarerFight>
+		<roleLbcLoginCB>
+			<Arg> LBC_ITEM </Arg>
+			<Arg> LBC_ITEM </Arg>
+		</roleLbcLoginCB>
+		<occupyLbcSucceedCB>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UINT32	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</occupyLbcSucceedCB>
+		<reqCancelDeclare>
+			<Exposed/>
+		</reqCancelDeclare>
+		<declarerGiveUpFight>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+		</declarerGiveUpFight>
+		<occupierGiveUpFight>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>
+			<Arg>	INT32	</Arg>
+		</occupierGiveUpFight>
+	</CellMethods>
+</root>

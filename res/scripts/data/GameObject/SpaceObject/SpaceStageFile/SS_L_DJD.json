@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入东极岛深处", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "4072.030029 -5429.573730 16559.564453:35", 
+                    "param2": "20000|10000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(4072.030029 -5429.573730 16559.564453)#L_DJD"
+                }
+            }, 
+            "title": "进入东极岛"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败东极岛敖云", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "20000036", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000036#L_DJD"
+                }
+            }, 
+            "title": "切磋试修为"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退东极岛水妖", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000029|20000030|20000038|20000835|20000836|20000031|20000034|20000052|20000032|20000033|20000090", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000029|20000030|20000038|20000835|20000836|20000031|20000034|20000052|20000032|20000033|20000090#L_DJD"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "寻找东极岛龙王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2310 -15660 17829.835938:30", 
+                    "param2": "20000|12000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(2310 -15660 17829.835938)#L_DJD"
+                }
+            }, 
+            "title": "寻到龙王处"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "成功获得辟魔珠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010002", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20000036#L_DJD"
+                }
+            }, 
+            "title": "借得宝珠归"
+        }
+    }, 
+    "describe": "仙道任务-东极岛-8级", 
+    "beginOnSpaceInit": 1, 
+    "name": "辟魔珠"
+}

@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_MKZ",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_MKZ",
+"NavmeshPath"	: "space\\L_QLZ3_NAVMESH",
+"PatrolRouteFile": "P_L_MKZ",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_XYM",
+	"Position"	: "52171.0 5800.0 17174.0",
+	"Direction"	: "0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_MKZ",
+	"eventFile":"SE_L_MKZ"
+	},
+"DomainData"	:{
+	}
+}

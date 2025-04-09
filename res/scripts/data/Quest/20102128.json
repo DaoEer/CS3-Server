@@ -1,0 +1,128 @@
+{
+    "20102128": {
+        "tasks": [
+            {
+                "navigateData": "(-1323.113770 -3732.336182 324.003662)#L_LYT_01", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "进入凌云塔"
+            }, 
+            {
+                "navigateData": "(-1323.113770 -3732.336182 324.003662)#L_LYT_01", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20009168", 
+                "id": 2, 
+                "name": "消灭冥皓"
+            }, 
+            {
+                "navigateData": "(-1323.113770 -3732.336182 324.003662)#L_LYT_02", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20009598", 
+                "id": 3, 
+                "name": "消灭镇塔火魔"
+            }, 
+            {
+                "navigateData": "(-1323.113770 -3732.336182 324.003662)#L_LYT_03", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "击败天尘子，打听出十金乌真身的下落"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102128, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|2|3"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102127"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "24455", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "963", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10817", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2023", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10000126#L_TQG", 
+        "taskLogDes": "@S{4}天尘子逃入了凌云塔中。请你火速追击，务必从他口中打听出十金乌的真身下落。|@S{4}天尘子逃入了凌云塔中。请你火速追击，务必从他口中打听出十金乌的真身下落。|@S{4}天尘子逃入了凌云塔中。请你火速追击，务必从他口中打听出十金乌的真身下落。|@S{4}天尘子逃入了凌云塔中。请你火速追击，务必从他口中打听出十金乌的真身下落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q046026", 
+        "nextQuest": "20102129", 
+        "taskCompleteFunctions": {}, 
+        "level": 39, 
+        "title": "获悉金乌下落（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

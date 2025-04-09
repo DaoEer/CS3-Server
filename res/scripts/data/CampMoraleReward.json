@@ -1,0 +1,56 @@
+[
+    {
+        "morale": 10000, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 0
+    }, 
+    {
+        "morale": 50000, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 0
+    }, 
+    {
+        "morale": 0, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 6
+    }, 
+    {
+        "morale": 100000, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 0
+    }, 
+    {
+        "morale": 200000, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 0
+    }, 
+    {
+        "morale": 500000, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 0
+    }, 
+    {
+        "morale": 0, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 7
+    }, 
+    {
+        "morale": 0, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 8
+    }, 
+    {
+        "morale": 0, 
+        "description": "", 
+        "rewardID": "", 
+        "title": 9
+    }
+]

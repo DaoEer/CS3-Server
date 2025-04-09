@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "在5分钟内解救10个灵魂", 
+            "entrys": {
+                "1": {
+                    "title": "已解救的灵魂", 
+                    "postfix": "", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "add", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "在5分钟内解救10个灵魂"
+        }
+    }, 
+    "name": "潜入妖境"
+}

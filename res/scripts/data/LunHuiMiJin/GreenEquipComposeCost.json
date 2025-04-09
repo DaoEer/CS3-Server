@@ -1,0 +1,5252 @@
+[
+    {
+        "bluePrint": 203031001, 
+        "material": {
+            "203020009": 10, 
+            "203020043": 4, 
+            "203020006": 20, 
+            "203020011": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101010059", 
+        "needLevel": 3, 
+        "money": 24000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203041001, 
+        "equipID": 101010059, 
+        "labelName": "武器", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031002, 
+        "material": {
+            "203020009": 12, 
+            "203020010": 6, 
+            "203020045": 1, 
+            "203020013": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101020059", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041002, 
+        "equipID": 101020059, 
+        "labelName": "头盔", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031003, 
+        "material": {
+            "203020009": 18, 
+            "203020010": 12, 
+            "203020045": 2, 
+            "203020013": 6
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101030059", 
+        "needLevel": 3, 
+        "money": 20000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041003, 
+        "equipID": 101030059, 
+        "labelName": "衣服", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031004, 
+        "material": {
+            "203020009": 12, 
+            "203020010": 8, 
+            "203020045": 2, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101040059", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041004, 
+        "equipID": 101040059, 
+        "labelName": "裤子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031005, 
+        "material": {
+            "203020009": 12, 
+            "203020010": 8, 
+            "203020045": 1, 
+            "203020013": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101050059", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041005, 
+        "equipID": 101050059, 
+        "labelName": "腰带", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031006, 
+        "material": {
+            "203020009": 4, 
+            "203020010": 2, 
+            "203020045": 1, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101060059", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041006, 
+        "equipID": 101060059, 
+        "labelName": "护腕", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031007, 
+        "material": {
+            "203020009": 10, 
+            "203020010": 2, 
+            "203020045": 1, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101070059", 
+        "needLevel": 3, 
+        "money": 10000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041007, 
+        "equipID": 101070059, 
+        "labelName": "手套", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031008, 
+        "material": {
+            "203020009": 6, 
+            "203020010": 2, 
+            "203020045": 1, 
+            "203020013": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101080059", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041008, 
+        "equipID": 101080059, 
+        "labelName": "鞋子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031009, 
+        "material": {
+            "203020009": 12, 
+            "203020043": 6, 
+            "203020006": 22, 
+            "203020011": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101010070", 
+        "needLevel": 3, 
+        "money": 30000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203041009, 
+        "equipID": 101010070, 
+        "labelName": "武器", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031010, 
+        "material": {
+            "203020009": 14, 
+            "203020010": 8, 
+            "203020045": 2, 
+            "203020013": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101020070", 
+        "needLevel": 3, 
+        "money": 24000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041010, 
+        "equipID": 101020070, 
+        "labelName": "头盔", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031011, 
+        "material": {
+            "203020009": 20, 
+            "203020010": 14, 
+            "203020045": 4, 
+            "203020013": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101030070", 
+        "needLevel": 3, 
+        "money": 26000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041011, 
+        "equipID": 101030070, 
+        "labelName": "衣服", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031012, 
+        "material": {
+            "203020009": 14, 
+            "203020010": 10, 
+            "203020045": 4, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101040070", 
+        "needLevel": 3, 
+        "money": 22000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041012, 
+        "equipID": 101040070, 
+        "labelName": "裤子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031013, 
+        "material": {
+            "203020009": 14, 
+            "203020010": 10, 
+            "203020045": 2, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101050070", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041013, 
+        "equipID": 101050070, 
+        "labelName": "腰带", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031014, 
+        "material": {
+            "203020009": 6, 
+            "203020010": 4, 
+            "203020045": 2, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101060070", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041014, 
+        "equipID": 101060070, 
+        "labelName": "护腕", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031015, 
+        "material": {
+            "203020009": 12, 
+            "203020010": 4, 
+            "203020045": 2, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101070070", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041015, 
+        "equipID": 101070070, 
+        "labelName": "手套", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031016, 
+        "material": {
+            "203020009": 8, 
+            "203020010": 4, 
+            "203020045": 2, 
+            "203020013": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101080070", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041016, 
+        "equipID": 101080070, 
+        "labelName": "鞋子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031017, 
+        "material": {
+            "203020025": 14, 
+            "203020043": 7, 
+            "203020020": 24, 
+            "203020023": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101010060", 
+        "needLevel": 4, 
+        "money": 48000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203041017, 
+        "equipID": 101010060, 
+        "labelName": "武器", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031018, 
+        "material": {
+            "203020024": 10, 
+            "203020027": 12, 
+            "203020045": 3, 
+            "203020023": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101020060", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041018, 
+        "equipID": 101020060, 
+        "labelName": "头盔", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031019, 
+        "material": {
+            "203020024": 16, 
+            "203020027": 10, 
+            "203020045": 5, 
+            "203020023": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101030060", 
+        "needLevel": 4, 
+        "money": 40000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041019, 
+        "equipID": 101030060, 
+        "labelName": "衣服", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031020, 
+        "material": {
+            "203020024": 12, 
+            "203020027": 16, 
+            "203020045": 5, 
+            "203020023": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101040060", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041020, 
+        "equipID": 101040060, 
+        "labelName": "裤子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031021, 
+        "material": {
+            "203020024": 12, 
+            "203020027": 14, 
+            "203020045": 3, 
+            "203020023": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101050060", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041021, 
+        "equipID": 101050060, 
+        "labelName": "腰带", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031022, 
+        "material": {
+            "203020024": 6, 
+            "203020027": 16, 
+            "203020045": 3, 
+            "203020023": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101060060", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041022, 
+        "equipID": 101060060, 
+        "labelName": "护腕", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031023, 
+        "material": {
+            "203020024": 6, 
+            "203020027": 16, 
+            "203020045": 3, 
+            "203020023": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101070060", 
+        "needLevel": 4, 
+        "money": 20000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041023, 
+        "equipID": 101070060, 
+        "labelName": "手套", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031024, 
+        "material": {
+            "203020024": 6, 
+            "203020027": 20, 
+            "203020045": 3, 
+            "203020023": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101080060", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041024, 
+        "equipID": 101080060, 
+        "labelName": "鞋子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031025, 
+        "material": {
+            "203020025": 16, 
+            "203020043": 9, 
+            "203020020": 26, 
+            "203020023": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101010071", 
+        "needLevel": 4, 
+        "money": 60000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203041025, 
+        "equipID": 101010071, 
+        "labelName": "武器", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031026, 
+        "material": {
+            "203020024": 12, 
+            "203020027": 14, 
+            "203020045": 5, 
+            "203020023": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101020071", 
+        "needLevel": 4, 
+        "money": 48000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041026, 
+        "equipID": 101020071, 
+        "labelName": "头盔", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031027, 
+        "material": {
+            "203020024": 18, 
+            "203020027": 12, 
+            "203020045": 7, 
+            "203020023": 24
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101030071", 
+        "needLevel": 4, 
+        "money": 52000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041027, 
+        "equipID": 101030071, 
+        "labelName": "衣服", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031028, 
+        "material": {
+            "203020024": 14, 
+            "203020027": 18, 
+            "203020045": 7, 
+            "203020023": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101040071", 
+        "needLevel": 4, 
+        "money": 44000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041028, 
+        "equipID": 101040071, 
+        "labelName": "裤子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031029, 
+        "material": {
+            "203020024": 14, 
+            "203020027": 16, 
+            "203020045": 5, 
+            "203020023": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101050071", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041029, 
+        "equipID": 101050071, 
+        "labelName": "腰带", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031030, 
+        "material": {
+            "203020024": 8, 
+            "203020027": 18, 
+            "203020045": 5, 
+            "203020023": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101060071", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041030, 
+        "equipID": 101060071, 
+        "labelName": "护腕", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031031, 
+        "material": {
+            "203020024": 8, 
+            "203020027": 18, 
+            "203020045": 5, 
+            "203020023": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101070071", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041031, 
+        "equipID": 101070071, 
+        "labelName": "手套", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031032, 
+        "material": {
+            "203020024": 8, 
+            "203020027": 22, 
+            "203020045": 5, 
+            "203020023": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101080071", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041032, 
+        "equipID": 101080071, 
+        "labelName": "鞋子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031033, 
+        "material": {
+            "203020034": 28, 
+            "203020043": 10, 
+            "203020037": 18, 
+            "203020039": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101010061", 
+        "needLevel": 5, 
+        "money": 96000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203041033, 
+        "equipID": 101010061, 
+        "labelName": "武器", 
+        "useTime": 360.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031034, 
+        "material": {
+            "203020041": 16, 
+            "203020045": 7, 
+            "203020038": 14, 
+            "203020037": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101020061", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041034, 
+        "equipID": 101020061, 
+        "labelName": "头盔", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031035, 
+        "material": {
+            "203020041": 14, 
+            "203020045": 9, 
+            "203020038": 20, 
+            "203020037": 26
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101030061", 
+        "needLevel": 5, 
+        "money": 80000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041035, 
+        "equipID": 101030061, 
+        "labelName": "衣服", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031036, 
+        "material": {
+            "203020041": 20, 
+            "203020045": 9, 
+            "203020038": 16, 
+            "203020037": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101040061", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041036, 
+        "equipID": 101040061, 
+        "labelName": "裤子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031037, 
+        "material": {
+            "203020041": 18, 
+            "203020045": 7, 
+            "203020038": 16, 
+            "203020037": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101050061", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041037, 
+        "equipID": 101050061, 
+        "labelName": "腰带", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031038, 
+        "material": {
+            "203020041": 20, 
+            "203020045": 7, 
+            "203020038": 10, 
+            "203020037": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101060061", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041038, 
+        "equipID": 101060061, 
+        "labelName": "护腕", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031039, 
+        "material": {
+            "203020041": 20, 
+            "203020045": 7, 
+            "203020038": 10, 
+            "203020037": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101070061", 
+        "needLevel": 5, 
+        "money": 40000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041039, 
+        "equipID": 101070061, 
+        "labelName": "手套", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031040, 
+        "material": {
+            "203020041": 24, 
+            "203020045": 7, 
+            "203020038": 10, 
+            "203020037": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101080061", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203041040, 
+        "equipID": 101080061, 
+        "labelName": "鞋子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031041, 
+        "material": {
+            "203020034": 30, 
+            "203020043": 12, 
+            "203020037": 20, 
+            "203020039": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101010072", 
+        "needLevel": 5, 
+        "money": 120000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203041041, 
+        "equipID": 101010072, 
+        "labelName": "武器", 
+        "useTime": 360.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031042, 
+        "material": {
+            "203020041": 18, 
+            "203020045": 8, 
+            "203020038": 16, 
+            "203020037": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101020072", 
+        "needLevel": 5, 
+        "money": 96000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041042, 
+        "equipID": 101020072, 
+        "labelName": "头盔", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031043, 
+        "material": {
+            "203020041": 16, 
+            "203020045": 10, 
+            "203020038": 22, 
+            "203020037": 28
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101030072", 
+        "needLevel": 5, 
+        "money": 104000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041043, 
+        "equipID": 101030072, 
+        "labelName": "衣服", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031044, 
+        "material": {
+            "203020041": 22, 
+            "203020045": 10, 
+            "203020038": 18, 
+            "203020037": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101040072", 
+        "needLevel": 5, 
+        "money": 88000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041044, 
+        "equipID": 101040072, 
+        "labelName": "裤子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031045, 
+        "material": {
+            "203020041": 20, 
+            "203020045": 9, 
+            "203020038": 18, 
+            "203020037": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101050072", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041045, 
+        "equipID": 101050072, 
+        "labelName": "腰带", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031046, 
+        "material": {
+            "203020041": 22, 
+            "203020045": 9, 
+            "203020038": 12, 
+            "203020037": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101060072", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041046, 
+        "equipID": 101060072, 
+        "labelName": "护腕", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031047, 
+        "material": {
+            "203020041": 22, 
+            "203020045": 9, 
+            "203020038": 12, 
+            "203020037": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101070072", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041047, 
+        "equipID": 101070072, 
+        "labelName": "手套", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203031048, 
+        "material": {
+            "203020041": 26, 
+            "203020045": 9, 
+            "203020038": 12, 
+            "203020037": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101080072", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203041048, 
+        "equipID": 101080072, 
+        "labelName": "鞋子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032001, 
+        "material": {
+            "203020009": 20, 
+            "203020043": 4, 
+            "203020006": 12, 
+            "203020011": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101010136", 
+        "needLevel": 3, 
+        "money": 24000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203042001, 
+        "equipID": 101010136, 
+        "labelName": "武器", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032002, 
+        "material": {
+            "203020008": 12, 
+            "203020045": 1, 
+            "203020014": 6, 
+            "203020007": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101020136", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042002, 
+        "equipID": 101020136, 
+        "labelName": "头盔", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032003, 
+        "material": {
+            "203020008": 18, 
+            "203020045": 2, 
+            "203020014": 12, 
+            "203020007": 6
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101030136", 
+        "needLevel": 3, 
+        "money": 20000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042003, 
+        "equipID": 101030136, 
+        "labelName": "衣服", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032004, 
+        "material": {
+            "203020008": 12, 
+            "203020045": 2, 
+            "203020014": 8, 
+            "203020007": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101040136", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042004, 
+        "equipID": 101040136, 
+        "labelName": "裤子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032005, 
+        "material": {
+            "203020008": 12, 
+            "203020045": 1, 
+            "203020014": 8, 
+            "203020007": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101050136", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042005, 
+        "equipID": 101050136, 
+        "labelName": "腰带", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032006, 
+        "material": {
+            "203020008": 4, 
+            "203020045": 1, 
+            "203020014": 8, 
+            "203020007": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101060136", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042006, 
+        "equipID": 101060136, 
+        "labelName": "护腕", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032007, 
+        "material": {
+            "203020008": 10, 
+            "203020045": 1, 
+            "203020014": 6, 
+            "203020007": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101070136", 
+        "needLevel": 3, 
+        "money": 10000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042007, 
+        "equipID": 101070136, 
+        "labelName": "手套", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032008, 
+        "material": {
+            "203020008": 6, 
+            "203020045": 1, 
+            "203020014": 4, 
+            "203020007": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101080136", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042008, 
+        "equipID": 101080136, 
+        "labelName": "鞋子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032009, 
+        "material": {
+            "203020011": 10, 
+            "203020043": 6, 
+            "203020006": 14, 
+            "203020023": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101010147", 
+        "needLevel": 3, 
+        "money": 30000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203042009, 
+        "equipID": 101010147, 
+        "labelName": "武器", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032010, 
+        "material": {
+            "203020014": 8, 
+            "203020045": 2, 
+            "203020022": 14, 
+            "203020007": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101020147", 
+        "needLevel": 3, 
+        "money": 24000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042010, 
+        "equipID": 101020147, 
+        "labelName": "头盔", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032011, 
+        "material": {
+            "203020014": 14, 
+            "203020045": 4, 
+            "203020022": 20, 
+            "203020007": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101030147", 
+        "needLevel": 3, 
+        "money": 26000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042011, 
+        "equipID": 101030147, 
+        "labelName": "衣服", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032012, 
+        "material": {
+            "203020014": 10, 
+            "203020045": 4, 
+            "203020022": 14, 
+            "203020007": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101040147", 
+        "needLevel": 3, 
+        "money": 22000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042012, 
+        "equipID": 101040147, 
+        "labelName": "裤子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032013, 
+        "material": {
+            "203020014": 10, 
+            "203020045": 2, 
+            "203020022": 14, 
+            "203020007": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101050147", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042013, 
+        "equipID": 101050147, 
+        "labelName": "腰带", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032014, 
+        "material": {
+            "203020014": 10, 
+            "203020045": 2, 
+            "203020022": 6, 
+            "203020007": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101060147", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042014, 
+        "equipID": 101060147, 
+        "labelName": "护腕", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032015, 
+        "material": {
+            "203020014": 8, 
+            "203020045": 2, 
+            "203020022": 12, 
+            "203020007": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101070147", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042015, 
+        "equipID": 101070147, 
+        "labelName": "手套", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032016, 
+        "material": {
+            "203020014": 6, 
+            "203020045": 2, 
+            "203020022": 8, 
+            "203020007": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101080147", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042016, 
+        "equipID": 101080147, 
+        "labelName": "鞋子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032017, 
+        "material": {
+            "203020025": 14, 
+            "203020043": 7, 
+            "203020020": 18, 
+            "203020037": 24
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101010137", 
+        "needLevel": 4, 
+        "money": 48000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203042017, 
+        "equipID": 101010137, 
+        "labelName": "武器", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032018, 
+        "material": {
+            "203020028": 12, 
+            "203020036": 18, 
+            "203020045": 3, 
+            "203020021": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101020137", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042018, 
+        "equipID": 101020137, 
+        "labelName": "头盔", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032019, 
+        "material": {
+            "203020028": 18, 
+            "203020036": 24, 
+            "203020045": 5, 
+            "203020021": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101030137", 
+        "needLevel": 4, 
+        "money": 40000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042019, 
+        "equipID": 101030137, 
+        "labelName": "衣服", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032020, 
+        "material": {
+            "203020028": 14, 
+            "203020036": 18, 
+            "203020045": 5, 
+            "203020021": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101040137", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042020, 
+        "equipID": 101040137, 
+        "labelName": "裤子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032021, 
+        "material": {
+            "203020028": 14, 
+            "203020036": 18, 
+            "203020045": 3, 
+            "203020021": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101050137", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042021, 
+        "equipID": 101050137, 
+        "labelName": "腰带", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032022, 
+        "material": {
+            "203020028": 14, 
+            "203020036": 10, 
+            "203020045": 3, 
+            "203020021": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101060137", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042022, 
+        "equipID": 101060137, 
+        "labelName": "护腕", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032023, 
+        "material": {
+            "203020028": 12, 
+            "203020036": 16, 
+            "203020045": 3, 
+            "203020021": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101070137", 
+        "needLevel": 4, 
+        "money": 20000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042023, 
+        "equipID": 101070137, 
+        "labelName": "手套", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032024, 
+        "material": {
+            "203020028": 10, 
+            "203020036": 12, 
+            "203020045": 3, 
+            "203020021": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101080137", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042024, 
+        "equipID": 101080137, 
+        "labelName": "鞋子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032025, 
+        "material": {
+            "203020025": 18, 
+            "203020043": 9, 
+            "203020020": 22, 
+            "203020037": 28
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101010148", 
+        "needLevel": 4, 
+        "money": 60000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203042025, 
+        "equipID": 101010148, 
+        "labelName": "武器", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032026, 
+        "material": {
+            "203020028": 16, 
+            "203020036": 22, 
+            "203020045": 5, 
+            "203020021": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101020148", 
+        "needLevel": 4, 
+        "money": 48000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042026, 
+        "equipID": 101020148, 
+        "labelName": "头盔", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032027, 
+        "material": {
+            "203020028": 22, 
+            "203020036": 28, 
+            "203020045": 7, 
+            "203020021": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101030148", 
+        "needLevel": 4, 
+        "money": 52000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042027, 
+        "equipID": 101030148, 
+        "labelName": "衣服", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032028, 
+        "material": {
+            "203020028": 18, 
+            "203020036": 22, 
+            "203020045": 7, 
+            "203020021": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101040148", 
+        "needLevel": 4, 
+        "money": 44000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042028, 
+        "equipID": 101040148, 
+        "labelName": "裤子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032029, 
+        "material": {
+            "203020028": 18, 
+            "203020036": 22, 
+            "203020045": 5, 
+            "203020021": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101050148", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042029, 
+        "equipID": 101050148, 
+        "labelName": "腰带", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032030, 
+        "material": {
+            "203020028": 18, 
+            "203020036": 14, 
+            "203020045": 5, 
+            "203020021": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101060148", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042030, 
+        "equipID": 101060148, 
+        "labelName": "护腕", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032031, 
+        "material": {
+            "203020028": 16, 
+            "203020036": 20, 
+            "203020045": 5, 
+            "203020021": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101070148", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042031, 
+        "equipID": 101070148, 
+        "labelName": "手套", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032032, 
+        "material": {
+            "203020028": 14, 
+            "203020036": 16, 
+            "203020045": 5, 
+            "203020021": 26
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101080148", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042032, 
+        "equipID": 101080148, 
+        "labelName": "鞋子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032033, 
+        "material": {
+            "203020051": 28, 
+            "203020034": 22, 
+            "203020043": 10, 
+            "203020039": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101010138", 
+        "needLevel": 5, 
+        "money": 96000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203042033, 
+        "equipID": 101010138, 
+        "labelName": "武器", 
+        "useTime": 360.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032034, 
+        "material": {
+            "203020042": 16, 
+            "203020050": 22, 
+            "203020035": 18, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101020138", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042034, 
+        "equipID": 101020138, 
+        "labelName": "头盔", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032035, 
+        "material": {
+            "203020042": 22, 
+            "203020050": 28, 
+            "203020035": 16, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101030138", 
+        "needLevel": 5, 
+        "money": 80000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042035, 
+        "equipID": 101030138, 
+        "labelName": "衣服", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032036, 
+        "material": {
+            "203020042": 18, 
+            "203020050": 22, 
+            "203020035": 22, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101040138", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042036, 
+        "equipID": 101040138, 
+        "labelName": "裤子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032037, 
+        "material": {
+            "203020042": 18, 
+            "203020050": 22, 
+            "203020035": 20, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101050138", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042037, 
+        "equipID": 101050138, 
+        "labelName": "腰带", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032038, 
+        "material": {
+            "203020042": 18, 
+            "203020050": 14, 
+            "203020035": 22, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101060138", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042038, 
+        "equipID": 101060138, 
+        "labelName": "护腕", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032039, 
+        "material": {
+            "203020042": 16, 
+            "203020050": 20, 
+            "203020035": 22, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101070138", 
+        "needLevel": 5, 
+        "money": 40000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042039, 
+        "equipID": 101070138, 
+        "labelName": "手套", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032040, 
+        "material": {
+            "203020042": 14, 
+            "203020050": 16, 
+            "203020035": 26, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101080138", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203042040, 
+        "equipID": 101080138, 
+        "labelName": "鞋子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032041, 
+        "material": {
+            "203020051": 32, 
+            "203020034": 26, 
+            "203020043": 12, 
+            "203020039": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101010149", 
+        "needLevel": 5, 
+        "money": 120000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203042041, 
+        "equipID": 101010149, 
+        "labelName": "武器", 
+        "useTime": 360.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032042, 
+        "material": {
+            "203020042": 20, 
+            "203020050": 26, 
+            "203020035": 22, 
+            "203020045": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101020149", 
+        "needLevel": 5, 
+        "money": 96000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042042, 
+        "equipID": 101020149, 
+        "labelName": "头盔", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032043, 
+        "material": {
+            "203020042": 26, 
+            "203020050": 32, 
+            "203020035": 20, 
+            "203020045": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101030149", 
+        "needLevel": 5, 
+        "money": 104000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042043, 
+        "equipID": 101030149, 
+        "labelName": "衣服", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032044, 
+        "material": {
+            "203020042": 22, 
+            "203020050": 26, 
+            "203020035": 26, 
+            "203020045": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101040149", 
+        "needLevel": 5, 
+        "money": 88000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042044, 
+        "equipID": 101040149, 
+        "labelName": "裤子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032045, 
+        "material": {
+            "203020042": 22, 
+            "203020050": 26, 
+            "203020035": 24, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101050149", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042045, 
+        "equipID": 101050149, 
+        "labelName": "腰带", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032046, 
+        "material": {
+            "203020042": 22, 
+            "203020050": 18, 
+            "203020035": 26, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101060149", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042046, 
+        "equipID": 101060149, 
+        "labelName": "护腕", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032047, 
+        "material": {
+            "203020042": 20, 
+            "203020050": 24, 
+            "203020035": 26, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101070149", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042047, 
+        "equipID": 101070149, 
+        "labelName": "手套", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203032048, 
+        "material": {
+            "203020042": 18, 
+            "203020050": 20, 
+            "203020035": 30, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101080149", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203042048, 
+        "equipID": 101080149, 
+        "labelName": "鞋子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033001, 
+        "material": {
+            "203020009": 20, 
+            "203020043": 4, 
+            "203020006": 12, 
+            "203020011": 5
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101010213", 
+        "needLevel": 3, 
+        "money": 24000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203043001, 
+        "equipID": 101010213, 
+        "labelName": "武器", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033002, 
+        "material": {
+            "203020008": 12, 
+            "203020045": 1, 
+            "203020014": 6, 
+            "203020013": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101020213", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043002, 
+        "equipID": 101020213, 
+        "labelName": "头盔", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033003, 
+        "material": {
+            "203020008": 18, 
+            "203020045": 2, 
+            "203020014": 12, 
+            "203020013": 6
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101030213", 
+        "needLevel": 3, 
+        "money": 20000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043003, 
+        "equipID": 101030213, 
+        "labelName": "衣服", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033004, 
+        "material": {
+            "203020008": 12, 
+            "203020045": 2, 
+            "203020014": 8, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101040213", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043004, 
+        "equipID": 101040213, 
+        "labelName": "裤子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033005, 
+        "material": {
+            "203020008": 12, 
+            "203020045": 1, 
+            "203020014": 8, 
+            "203020013": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101050213", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043005, 
+        "equipID": 101050213, 
+        "labelName": "腰带", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033006, 
+        "material": {
+            "203020008": 4, 
+            "203020045": 1, 
+            "203020014": 6, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101060213", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043006, 
+        "equipID": 101060213, 
+        "labelName": "护腕", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033007, 
+        "material": {
+            "203020008": 10, 
+            "203020045": 1, 
+            "203020014": 8, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101070213", 
+        "needLevel": 3, 
+        "money": 10000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043007, 
+        "equipID": 101070213, 
+        "labelName": "手套", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033008, 
+        "material": {
+            "203020008": 6, 
+            "203020045": 1, 
+            "203020014": 10, 
+            "203020013": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101080213", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043008, 
+        "equipID": 101080213, 
+        "labelName": "鞋子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033009, 
+        "material": {
+            "203020008": 14, 
+            "203020043": 6, 
+            "203020013": 10, 
+            "203020014": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101010224", 
+        "needLevel": 3, 
+        "money": 30000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203043009, 
+        "equipID": 101010224, 
+        "labelName": "武器", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033010, 
+        "material": {
+            "203020008": 20, 
+            "203020045": 2, 
+            "203020014": 8, 
+            "203020013": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101020224", 
+        "needLevel": 3, 
+        "money": 24000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043010, 
+        "equipID": 101020224, 
+        "labelName": "头盔", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033011, 
+        "material": {
+            "203020008": 14, 
+            "203020045": 4, 
+            "203020014": 14, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101030224", 
+        "needLevel": 3, 
+        "money": 26000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043011, 
+        "equipID": 101030224, 
+        "labelName": "衣服", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033012, 
+        "material": {
+            "203020008": 14, 
+            "203020045": 4, 
+            "203020014": 10, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101040224", 
+        "needLevel": 3, 
+        "money": 22000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043012, 
+        "equipID": 101040224, 
+        "labelName": "裤子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033013, 
+        "material": {
+            "203020008": 6, 
+            "203020045": 2, 
+            "203020014": 10, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101050224", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043013, 
+        "equipID": 101050224, 
+        "labelName": "腰带", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033014, 
+        "material": {
+            "203020008": 12, 
+            "203020045": 2, 
+            "203020014": 8, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101060224", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043014, 
+        "equipID": 101060224, 
+        "labelName": "护腕", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033015, 
+        "material": {
+            "203020008": 8, 
+            "203020045": 2, 
+            "203020014": 10, 
+            "203020013": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101070224", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043015, 
+        "equipID": 101070224, 
+        "labelName": "手套", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033016, 
+        "material": {
+            "203020008": 16, 
+            "203020045": 2, 
+            "203020014": 12, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101080224", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043016, 
+        "equipID": 101080224, 
+        "labelName": "鞋子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033017, 
+        "material": {
+            "203020025": 9, 
+            "203020043": 7, 
+            "203020020": 16, 
+            "203020023": 24
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101010214", 
+        "needLevel": 4, 
+        "money": 48000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203043017, 
+        "equipID": 101010214, 
+        "labelName": "武器", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033018, 
+        "material": {
+            "203020027": 12, 
+            "203020028": 10, 
+            "203020045": 3, 
+            "203020022": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101020214", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043018, 
+        "equipID": 101020214, 
+        "labelName": "头盔", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033019, 
+        "material": {
+            "203020027": 10, 
+            "203020028": 16, 
+            "203020045": 5, 
+            "203020022": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101030214", 
+        "needLevel": 4, 
+        "money": 40000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043019, 
+        "equipID": 101030214, 
+        "labelName": "衣服", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033020, 
+        "material": {
+            "203020027": 16, 
+            "203020028": 12, 
+            "203020045": 5, 
+            "203020022": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101040214", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043020, 
+        "equipID": 101040214, 
+        "labelName": "裤子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033021, 
+        "material": {
+            "203020027": 14, 
+            "203020028": 12, 
+            "203020045": 3, 
+            "203020022": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101050214", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043021, 
+        "equipID": 101050214, 
+        "labelName": "腰带", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033022, 
+        "material": {
+            "203020027": 16, 
+            "203020028": 10, 
+            "203020045": 3, 
+            "203020022": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101060214", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043022, 
+        "equipID": 101060214, 
+        "labelName": "护腕", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033023, 
+        "material": {
+            "203020027": 16, 
+            "203020028": 12, 
+            "203020045": 3, 
+            "203020022": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101070214", 
+        "needLevel": 4, 
+        "money": 20000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043023, 
+        "equipID": 101070214, 
+        "labelName": "手套", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033024, 
+        "material": {
+            "203020027": 20, 
+            "203020028": 14, 
+            "203020045": 3, 
+            "203020022": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101080214", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043024, 
+        "equipID": 101080214, 
+        "labelName": "鞋子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033025, 
+        "material": {
+            "203020043": 9, 
+            "203020028": 11, 
+            "203020022": 18, 
+            "203020027": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101010225", 
+        "needLevel": 4, 
+        "money": 60000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203043025, 
+        "equipID": 101010225, 
+        "labelName": "武器", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033026, 
+        "material": {
+            "203020027": 12, 
+            "203020028": 12, 
+            "203020045": 5, 
+            "203020022": 24
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101020225", 
+        "needLevel": 4, 
+        "money": 48000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043026, 
+        "equipID": 101020225, 
+        "labelName": "头盔", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033027, 
+        "material": {
+            "203020027": 18, 
+            "203020028": 18, 
+            "203020045": 7, 
+            "203020022": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101030225", 
+        "needLevel": 4, 
+        "money": 52000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043027, 
+        "equipID": 101030225, 
+        "labelName": "衣服", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033028, 
+        "material": {
+            "203020027": 16, 
+            "203020028": 14, 
+            "203020045": 7, 
+            "203020022": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101040225", 
+        "needLevel": 4, 
+        "money": 44000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043028, 
+        "equipID": 101040225, 
+        "labelName": "裤子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033029, 
+        "material": {
+            "203020027": 18, 
+            "203020028": 14, 
+            "203020045": 5, 
+            "203020022": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101050225", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043029, 
+        "equipID": 101050225, 
+        "labelName": "腰带", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033030, 
+        "material": {
+            "203020027": 18, 
+            "203020028": 12, 
+            "203020045": 5, 
+            "203020022": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101060225", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043030, 
+        "equipID": 101060225, 
+        "labelName": "护腕", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033031, 
+        "material": {
+            "203020027": 22, 
+            "203020028": 14, 
+            "203020045": 5, 
+            "203020022": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101070225", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043031, 
+        "equipID": 101070225, 
+        "labelName": "手套", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033032, 
+        "material": {
+            "203020027": 16, 
+            "203020028": 16, 
+            "203020045": 5, 
+            "203020022": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101080225", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043032, 
+        "equipID": 101080225, 
+        "labelName": "鞋子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033033, 
+        "material": {
+            "203020034": 20, 
+            "203020043": 10, 
+            "203020037": 28, 
+            "203020039": 13
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101010215", 
+        "needLevel": 5, 
+        "money": 96000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203043033, 
+        "equipID": 101010215, 
+        "labelName": "武器", 
+        "useTime": 360.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033034, 
+        "material": {
+            "203020041": 16, 
+            "203020042": 14, 
+            "203020036": 20, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101020215", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043034, 
+        "equipID": 101020215, 
+        "labelName": "头盔", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033035, 
+        "material": {
+            "203020041": 14, 
+            "203020042": 20, 
+            "203020036": 26, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101030215", 
+        "needLevel": 5, 
+        "money": 80000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043035, 
+        "equipID": 101030215, 
+        "labelName": "衣服", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033036, 
+        "material": {
+            "203020041": 20, 
+            "203020042": 16, 
+            "203020036": 20, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101040215", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043036, 
+        "equipID": 101040215, 
+        "labelName": "裤子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033037, 
+        "material": {
+            "203020041": 18, 
+            "203020042": 16, 
+            "203020036": 20, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101050215", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043037, 
+        "equipID": 101050215, 
+        "labelName": "腰带", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033038, 
+        "material": {
+            "203020041": 20, 
+            "203020042": 14, 
+            "203020036": 12, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101060215", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043038, 
+        "equipID": 101060215, 
+        "labelName": "护腕", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033039, 
+        "material": {
+            "203020041": 20, 
+            "203020042": 16, 
+            "203020036": 18, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101070215", 
+        "needLevel": 5, 
+        "money": 40000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043039, 
+        "equipID": 101070215, 
+        "labelName": "手套", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033040, 
+        "material": {
+            "203020041": 24, 
+            "203020042": 18, 
+            "203020036": 14, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101080215", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203043040, 
+        "equipID": 101080215, 
+        "labelName": "鞋子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033041, 
+        "material": {
+            "203020041": 18, 
+            "203020042": 15, 
+            "203020043": 12, 
+            "203020036": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101010226", 
+        "needLevel": 5, 
+        "money": 120000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203043041, 
+        "equipID": 101010226, 
+        "labelName": "武器", 
+        "useTime": 360.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033042, 
+        "material": {
+            "203020041": 16, 
+            "203020042": 16, 
+            "203020036": 28, 
+            "203020045": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101020226", 
+        "needLevel": 5, 
+        "money": 96000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043042, 
+        "equipID": 101020226, 
+        "labelName": "头盔", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033043, 
+        "material": {
+            "203020041": 22, 
+            "203020042": 22, 
+            "203020036": 22, 
+            "203020045": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101030226", 
+        "needLevel": 5, 
+        "money": 104000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043043, 
+        "equipID": 101030226, 
+        "labelName": "衣服", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033044, 
+        "material": {
+            "203020041": 20, 
+            "203020042": 18, 
+            "203020036": 22, 
+            "203020045": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101040226", 
+        "needLevel": 5, 
+        "money": 88000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043044, 
+        "equipID": 101040226, 
+        "labelName": "裤子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033045, 
+        "material": {
+            "203020041": 22, 
+            "203020042": 18, 
+            "203020036": 14, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101050226", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043045, 
+        "equipID": 101050226, 
+        "labelName": "腰带", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033046, 
+        "material": {
+            "203020041": 22, 
+            "203020042": 16, 
+            "203020036": 20, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101060226", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043046, 
+        "equipID": 101060226, 
+        "labelName": "护腕", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033047, 
+        "material": {
+            "203020041": 26, 
+            "203020042": 18, 
+            "203020036": 16, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101070226", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043047, 
+        "equipID": 101070226, 
+        "labelName": "手套", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203033048, 
+        "material": {
+            "203020041": 20, 
+            "203020042": 20, 
+            "203020036": 24, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101080226", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203043048, 
+        "equipID": 101080226, 
+        "labelName": "鞋子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034001, 
+        "material": {
+            "203020009": 12, 
+            "203020043": 4, 
+            "203020006": 16, 
+            "203020011": 5
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101010290", 
+        "needLevel": 3, 
+        "money": 24000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203044001, 
+        "equipID": 101010290, 
+        "labelName": "武器", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034002, 
+        "material": {
+            "203020007": 12, 
+            "203020012": 6, 
+            "203020045": 1, 
+            "203020013": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101020290", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044002, 
+        "equipID": 101020290, 
+        "labelName": "头盔", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034003, 
+        "material": {
+            "203020007": 18, 
+            "203020012": 12, 
+            "203020045": 2, 
+            "203020013": 6
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101030290", 
+        "needLevel": 3, 
+        "money": 20000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044003, 
+        "equipID": 101030290, 
+        "labelName": "衣服", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034004, 
+        "material": {
+            "203020007": 12, 
+            "203020012": 8, 
+            "203020045": 2, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101040290", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044004, 
+        "equipID": 101040290, 
+        "labelName": "裤子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034005, 
+        "material": {
+            "203020007": 12, 
+            "203020012": 8, 
+            "203020045": 1, 
+            "203020013": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101050290", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044005, 
+        "equipID": 101050290, 
+        "labelName": "腰带", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034006, 
+        "material": {
+            "203020007": 4, 
+            "203020012": 6, 
+            "203020045": 1, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101060290", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044006, 
+        "equipID": 101060290, 
+        "labelName": "护腕", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034007, 
+        "material": {
+            "203020007": 10, 
+            "203020012": 8, 
+            "203020045": 1, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101070290", 
+        "needLevel": 3, 
+        "money": 10000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044007, 
+        "equipID": 101070290, 
+        "labelName": "手套", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034008, 
+        "material": {
+            "203020007": 6, 
+            "203020012": 6, 
+            "203020045": 1, 
+            "203020013": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101080290", 
+        "needLevel": 3, 
+        "money": 12000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044008, 
+        "equipID": 101080290, 
+        "labelName": "鞋子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034009, 
+        "material": {
+            "203020043": 6, 
+            "203020012": 7, 
+            "203020013": 18, 
+            "203020007": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101010301", 
+        "needLevel": 3, 
+        "money": 30000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203044009, 
+        "equipID": 101010301, 
+        "labelName": "武器", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034010, 
+        "material": {
+            "203020007": 14, 
+            "203020012": 8, 
+            "203020045": 2, 
+            "203020013": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101020301", 
+        "needLevel": 3, 
+        "money": 24000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044010, 
+        "equipID": 101020301, 
+        "labelName": "头盔", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034011, 
+        "material": {
+            "203020007": 20, 
+            "203020012": 14, 
+            "203020045": 4, 
+            "203020013": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101030301", 
+        "needLevel": 3, 
+        "money": 26000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044011, 
+        "equipID": 101030301, 
+        "labelName": "衣服", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034012, 
+        "material": {
+            "203020007": 14, 
+            "203020012": 10, 
+            "203020045": 4, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101040301", 
+        "needLevel": 3, 
+        "money": 22000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044012, 
+        "equipID": 101040301, 
+        "labelName": "裤子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034013, 
+        "material": {
+            "203020007": 14, 
+            "203020012": 10, 
+            "203020045": 2, 
+            "203020013": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101050301", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044013, 
+        "equipID": 101050301, 
+        "labelName": "腰带", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034014, 
+        "material": {
+            "203020007": 6, 
+            "203020012": 8, 
+            "203020045": 2, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101060301", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044014, 
+        "equipID": 101060301, 
+        "labelName": "护腕", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034015, 
+        "material": {
+            "203020007": 12, 
+            "203020012": 10, 
+            "203020045": 2, 
+            "203020013": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101070301", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044015, 
+        "equipID": 101070301, 
+        "labelName": "手套", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034016, 
+        "material": {
+            "203020007": 8, 
+            "203020012": 8, 
+            "203020045": 2, 
+            "203020013": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101080301", 
+        "needLevel": 3, 
+        "money": 18000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044016, 
+        "equipID": 101080301, 
+        "labelName": "鞋子", 
+        "useTime": 120.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034017, 
+        "material": {
+            "203020025": 10, 
+            "203020043": 7, 
+            "203020020": 12, 
+            "203020023": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101010291", 
+        "needLevel": 4, 
+        "money": 48000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203044017, 
+        "equipID": 101010291, 
+        "labelName": "武器", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034018, 
+        "material": {
+            "203020026": 16, 
+            "203020027": 10, 
+            "203020045": 3, 
+            "203020021": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101020291", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044018, 
+        "equipID": 101020291, 
+        "labelName": "头盔", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034019, 
+        "material": {
+            "203020026": 12, 
+            "203020027": 16, 
+            "203020045": 5, 
+            "203020021": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101030291", 
+        "needLevel": 4, 
+        "money": 40000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044019, 
+        "equipID": 101030291, 
+        "labelName": "衣服", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034020, 
+        "material": {
+            "203020026": 12, 
+            "203020027": 14, 
+            "203020045": 5, 
+            "203020021": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101040291", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044020, 
+        "equipID": 101040291, 
+        "labelName": "裤子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034021, 
+        "material": {
+            "203020026": 10, 
+            "203020027": 16, 
+            "203020045": 3, 
+            "203020021": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101050291", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044021, 
+        "equipID": 101050291, 
+        "labelName": "腰带", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034022, 
+        "material": {
+            "203020026": 12, 
+            "203020027": 16, 
+            "203020045": 3, 
+            "203020021": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101060291", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044022, 
+        "equipID": 101060291, 
+        "labelName": "护腕", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034023, 
+        "material": {
+            "203020026": 10, 
+            "203020027": 20, 
+            "203020045": 3, 
+            "203020021": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101070291", 
+        "needLevel": 4, 
+        "money": 20000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044023, 
+        "equipID": 101070291, 
+        "labelName": "手套", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034024, 
+        "material": {
+            "203020026": 11, 
+            "203020027": 22, 
+            "203020045": 3, 
+            "203020021": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101080291", 
+        "needLevel": 4, 
+        "money": 24000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044024, 
+        "equipID": 101080291, 
+        "labelName": "鞋子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034025, 
+        "material": {
+            "203020026": 12, 
+            "203020043": 9, 
+            "203020021": 18, 
+            "203020027": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101010302", 
+        "needLevel": 4, 
+        "money": 60000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203044025, 
+        "equipID": 101010302, 
+        "labelName": "武器", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034026, 
+        "material": {
+            "203020026": 18, 
+            "203020027": 12, 
+            "203020045": 5, 
+            "203020021": 24
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101020302", 
+        "needLevel": 4, 
+        "money": 48000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044026, 
+        "equipID": 101020302, 
+        "labelName": "头盔", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034027, 
+        "material": {
+            "203020026": 14, 
+            "203020027": 18, 
+            "203020045": 7, 
+            "203020021": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101030302", 
+        "needLevel": 4, 
+        "money": 52000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044027, 
+        "equipID": 101030302, 
+        "labelName": "衣服", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034028, 
+        "material": {
+            "203020026": 14, 
+            "203020027": 16, 
+            "203020045": 7, 
+            "203020021": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101040302", 
+        "needLevel": 4, 
+        "money": 44000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044028, 
+        "equipID": 101040302, 
+        "labelName": "裤子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034029, 
+        "material": {
+            "203020026": 12, 
+            "203020027": 18, 
+            "203020045": 5, 
+            "203020021": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101050302", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044029, 
+        "equipID": 101050302, 
+        "labelName": "腰带", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034030, 
+        "material": {
+            "203020026": 14, 
+            "203020027": 18, 
+            "203020045": 5, 
+            "203020021": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101060302", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044030, 
+        "equipID": 101060302, 
+        "labelName": "护腕", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034031, 
+        "material": {
+            "203020026": 12, 
+            "203020027": 22, 
+            "203020045": 5, 
+            "203020021": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101070302", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044031, 
+        "equipID": 101070302, 
+        "labelName": "手套", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034032, 
+        "material": {
+            "203020026": 14, 
+            "203020027": 16, 
+            "203020045": 5, 
+            "203020021": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101080302", 
+        "needLevel": 4, 
+        "money": 36000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044032, 
+        "equipID": 101080302, 
+        "labelName": "鞋子", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034033, 
+        "material": {
+            "203020034": 14, 
+            "203020043": 10, 
+            "203020037": 26, 
+            "203020039": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101010292", 
+        "needLevel": 5, 
+        "money": 96000, 
+        "mainMaterialNum": 4, 
+        "partEquipID": 203044033, 
+        "equipID": 101010292, 
+        "labelName": "武器", 
+        "useTime": 360.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034034, 
+        "material": {
+            "203020040": 16, 
+            "203020041": 20, 
+            "203020035": 20, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101020292", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044034, 
+        "equipID": 101020292, 
+        "labelName": "头盔", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034035, 
+        "material": {
+            "203020040": 16, 
+            "203020041": 18, 
+            "203020035": 20, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101030292", 
+        "needLevel": 5, 
+        "money": 80000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044035, 
+        "equipID": 101030292, 
+        "labelName": "衣服", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034036, 
+        "material": {
+            "203020040": 14, 
+            "203020041": 20, 
+            "203020035": 12, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101040292", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044036, 
+        "equipID": 101040292, 
+        "labelName": "裤子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034037, 
+        "material": {
+            "203020040": 16, 
+            "203020041": 20, 
+            "203020035": 18, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101050292", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044037, 
+        "equipID": 101050292, 
+        "labelName": "腰带", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034038, 
+        "material": {
+            "203020040": 14, 
+            "203020041": 24, 
+            "203020035": 14, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101060292", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044038, 
+        "equipID": 101060292, 
+        "labelName": "护腕", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034039, 
+        "material": {
+            "203020040": 15, 
+            "203020041": 26, 
+            "203020035": 22, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101070292", 
+        "needLevel": 5, 
+        "money": 40000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044039, 
+        "equipID": 101070292, 
+        "labelName": "手套", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034040, 
+        "material": {
+            "203020040": 16, 
+            "203020041": 18, 
+            "203020035": 22, 
+            "203020045": 7
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101080292", 
+        "needLevel": 5, 
+        "money": 48000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203044040, 
+        "equipID": 101080292, 
+        "labelName": "鞋子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034041, 
+        "material": {
+            "203020035": 28, 
+            "203020041": 16, 
+            "203020043": 12, 
+            "203020040": 22
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101010303", 
+        "needLevel": 5, 
+        "money": 120000, 
+        "mainMaterialNum": 6, 
+        "partEquipID": 203044041, 
+        "equipID": 101010303, 
+        "labelName": "武器", 
+        "useTime": 360.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034042, 
+        "material": {
+            "203020040": 18, 
+            "203020041": 22, 
+            "203020035": 22, 
+            "203020045": 8
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101020303", 
+        "needLevel": 5, 
+        "money": 96000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044042, 
+        "equipID": 101020303, 
+        "labelName": "头盔", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034043, 
+        "material": {
+            "203020040": 18, 
+            "203020041": 20, 
+            "203020035": 22, 
+            "203020045": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101030303", 
+        "needLevel": 5, 
+        "money": 104000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044043, 
+        "equipID": 101030303, 
+        "labelName": "衣服", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034044, 
+        "material": {
+            "203020040": 16, 
+            "203020041": 22, 
+            "203020035": 14, 
+            "203020045": 10
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101040303", 
+        "needLevel": 5, 
+        "money": 88000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044044, 
+        "equipID": 101040303, 
+        "labelName": "裤子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034045, 
+        "material": {
+            "203020040": 18, 
+            "203020041": 22, 
+            "203020035": 20, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101050303", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044045, 
+        "equipID": 101050303, 
+        "labelName": "腰带", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034046, 
+        "material": {
+            "203020040": 16, 
+            "203020041": 26, 
+            "203020035": 16, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101060303", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044046, 
+        "equipID": 101060303, 
+        "labelName": "护腕", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034047, 
+        "material": {
+            "203020040": 18, 
+            "203020041": 20, 
+            "203020035": 24, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101070303", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044047, 
+        "equipID": 101070303, 
+        "labelName": "手套", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203034048, 
+        "material": {
+            "203020040": 24, 
+            "203020041": 18, 
+            "203020035": 30, 
+            "203020045": 9
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101080303", 
+        "needLevel": 5, 
+        "money": 72000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203044048, 
+        "equipID": 101080303, 
+        "labelName": "鞋子", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030001, 
+        "material": {
+            "203020009": 8, 
+            "203020011": 11, 
+            "203020044": 3, 
+            "203020012": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101090059", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040001, 
+        "equipID": 101090059, 
+        "labelName": "项链", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030002, 
+        "material": {
+            "203020009": 10, 
+            "203020011": 13, 
+            "203020044": 5, 
+            "203020012": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101090070", 
+        "needLevel": 3, 
+        "money": 22000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040002, 
+        "equipID": 101090070, 
+        "labelName": "项链", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030003, 
+        "material": {
+            "203020025": 15, 
+            "203020026": 20, 
+            "203020044": 6, 
+            "203020023": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101090060", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040003, 
+        "equipID": 101090060, 
+        "labelName": "项链", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030004, 
+        "material": {
+            "203020025": 17, 
+            "203020026": 22, 
+            "203020044": 8, 
+            "203020023": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101090071", 
+        "needLevel": 4, 
+        "money": 44000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040004, 
+        "equipID": 101090071, 
+        "labelName": "项链", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030005, 
+        "material": {
+            "203020040": 24, 
+            "203020044": 10, 
+            "203020037": 16, 
+            "203020039": 19
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101090061", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040005, 
+        "equipID": 101090061, 
+        "labelName": "项链", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030006, 
+        "material": {
+            "203020040": 26, 
+            "203020044": 12, 
+            "203020037": 18, 
+            "203020039": 21
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101090072", 
+        "needLevel": 5, 
+        "money": 88000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040006, 
+        "equipID": 101090072, 
+        "labelName": "项链", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030007, 
+        "material": {
+            "203020009": 12, 
+            "203020011": 11, 
+            "203020044": 3, 
+            "203020012": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101100059", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040007, 
+        "equipID": 101100059, 
+        "labelName": "戒指", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030008, 
+        "material": {
+            "203020009": 14, 
+            "203020011": 13, 
+            "203020044": 5, 
+            "203020012": 20
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101100070", 
+        "needLevel": 3, 
+        "money": 22000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040008, 
+        "equipID": 101100070, 
+        "labelName": "戒指", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030009, 
+        "material": {
+            "203020025": 15, 
+            "203020026": 22, 
+            "203020044": 6, 
+            "203020023": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101100060", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040009, 
+        "equipID": 101100060, 
+        "labelName": "戒指", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030010, 
+        "material": {
+            "203020025": 17, 
+            "203020026": 24, 
+            "203020044": 8, 
+            "203020023": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101100071", 
+        "needLevel": 4, 
+        "money": 44000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040010, 
+        "equipID": 101100071, 
+        "labelName": "戒指", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030011, 
+        "material": {
+            "203020040": 26, 
+            "203020044": 10, 
+            "203020037": 20, 
+            "203020039": 19
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101100061", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040011, 
+        "equipID": 101100061, 
+        "labelName": "戒指", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030012, 
+        "material": {
+            "203020040": 28, 
+            "203020044": 12, 
+            "203020037": 22, 
+            "203020039": 21
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101100072", 
+        "needLevel": 5, 
+        "money": 88000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040012, 
+        "equipID": 101100072, 
+        "labelName": "戒指", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030013, 
+        "material": {
+            "203020012": 12, 
+            "203020011": 18, 
+            "203020044": 3, 
+            "203020006": 12
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101100136", 
+        "needLevel": 3, 
+        "money": 16000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040013, 
+        "equipID": 101100136, 
+        "labelName": "戒指", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030014, 
+        "material": {
+            "203020012": 14, 
+            "203020011": 20, 
+            "203020044": 5, 
+            "203020006": 14
+        }, 
+        "mainMaterial": {
+            "0": 203020001, 
+            "1": 203020002, 
+            "2": 203020003, 
+            "3": 203020004, 
+            "4": 203020005
+        }, 
+        "Name": "101100147", 
+        "needLevel": 3, 
+        "money": 22000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040014, 
+        "equipID": 101100147, 
+        "labelName": "戒指", 
+        "useTime": 180.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030015, 
+        "material": {
+            "203020025": 22, 
+            "203020026": 16, 
+            "203020044": 6, 
+            "203020020": 16
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101100137", 
+        "needLevel": 4, 
+        "money": 32000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040015, 
+        "equipID": 101100137, 
+        "labelName": "戒指", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030016, 
+        "material": {
+            "203020025": 24, 
+            "203020026": 18, 
+            "203020044": 8, 
+            "203020020": 18
+        }, 
+        "mainMaterial": {
+            "0": 203020015, 
+            "1": 203020016, 
+            "2": 203020017, 
+            "3": 203020018, 
+            "4": 203020019
+        }, 
+        "Name": "101100148", 
+        "needLevel": 4, 
+        "money": 44000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040016, 
+        "equipID": 101100148, 
+        "labelName": "戒指", 
+        "useTime": 240.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030017, 
+        "material": {
+            "203020040": 20, 
+            "203020034": 20, 
+            "203020044": 10, 
+            "203020039": 26
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101100138", 
+        "needLevel": 5, 
+        "money": 64000, 
+        "mainMaterialNum": 2, 
+        "partEquipID": 203040017, 
+        "equipID": 101100138, 
+        "labelName": "戒指", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }, 
+    {
+        "bluePrint": 203030018, 
+        "material": {
+            "203020040": 22, 
+            "203020034": 22, 
+            "203020044": 12, 
+            "203020039": 28
+        }, 
+        "mainMaterial": {
+            "0": 203020029, 
+            "1": 203020030, 
+            "2": 203020031, 
+            "3": 203020032, 
+            "4": 203020033
+        }, 
+        "Name": "101100149", 
+        "needLevel": 5, 
+        "money": 88000, 
+        "mainMaterialNum": 3, 
+        "partEquipID": 203040018, 
+        "equipID": 101100149, 
+        "labelName": "戒指", 
+        "useTime": 300.0, 
+        "publicConsumeRate": 1.5
+    }
+]

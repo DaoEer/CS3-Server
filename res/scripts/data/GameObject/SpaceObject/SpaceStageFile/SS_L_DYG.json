@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追击天邪子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000303", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8330 3630 -1470)#L_DYG"
+                }
+            }, 
+            "title": "追击天邪子"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回昆仑宗", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-13670 6990.0 -1523.0:3", 
+                    "param2": "1523|-3523", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "30000870#L_DYG"
+                }
+            }, 
+            "title": "返回昆仑宗"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "地焱宫"
+}

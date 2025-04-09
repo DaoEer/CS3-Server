@@ -1,0 +1,114 @@
+{
+    "20102557": {
+        "tasks": [
+            {
+                "navigateData": "10000724#L_JX_02", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "魔化金乌"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "36", 
+                "id": 2, 
+                "name": "到达36级"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_JX_02_Planes102"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102557, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102556"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22976", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "995", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "11168", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1630", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102030035|102030036|102030037|102030038", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q041269|Q041270|Q041271", 
+        "finish_by": "10000062#L_MHD", 
+        "taskLogDes": "@S{4}准提道人开始布九九噬日大阵，魔化十金乌。此阵法会引发天地异象，仙道定会前来阻挠。请斗士和帝江为准提护法。|@S{4}将等级提升至36级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045738", 
+        "nextQuest": "20102596", 
+        "taskCompleteFunctions": {}, 
+        "level": 35, 
+        "title": "魔化金乌", 
+        "isAutoCommit": 1, 
+        "start_by": "10000724#L_JX_02", 
+        "isAutoAccept": 1
+    }
+}

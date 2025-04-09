@@ -1,0 +1,50 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<mark>
+			<Type>			STRING		</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default> ActivityCrondManager </Default>
+			<Identifier>	true		</Identifier>
+		</mark>		
+		
+		<tokenDict>
+			<Type>		DICT_STR_STR	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>			
+		</tokenDict>
+		
+		<logoutTime> <!-- 系统登出时间 -->
+			<Type>			DOUBLE		</Type>
+			<Flags>			BASE		</Flags>
+			<Default>       0           </Default>
+			<Persistent>	true		</Persistent>
+		</logoutTime>	
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+	
+	<BaseMethods>
+		<requestTodayActivitiesData>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</requestTodayActivitiesData>
+		
+		<requestUpdateTodayActivitiesData>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PY_LIST			</Arg>
+		</requestUpdateTodayActivitiesData>
+		
+		<requestWeekActivitiesData>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</requestWeekActivitiesData>
+	</BaseMethods>
+</root>
+

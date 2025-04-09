@@ -1,0 +1,49 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<signUp>
+			<Arg>	STRING	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>	
+		</signUp>
+		<join>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>	
+		</join>
+		<joinNext>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_DICT	</Arg>	
+		</joinNext>
+		<abandon>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	DBID	</Arg>
+		</abandon>
+		<onCompleteActivityStage>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLOAT	</Arg>
+		</onCompleteActivityStage>
+		<sendWoldMsg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</sendWoldMsg>
+	</BaseMethods>
+</root>

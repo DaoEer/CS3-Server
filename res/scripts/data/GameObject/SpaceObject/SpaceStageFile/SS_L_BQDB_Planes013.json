@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "净化圣像", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010084", 
+                    "type": "SStageTask_UseItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "净化圣象"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭六欲心魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005176", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005176#L_BQDB_Planes013"
+                }
+            }, 
+            "title": "消灭六欲心魔"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "净化圣像"
+}

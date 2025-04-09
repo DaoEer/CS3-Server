@@ -1,0 +1,105 @@
+{
+    "20101010": {
+        "tasks": [
+            {
+                "navigateData": "10000106#L_KLZ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "请教大师兄"
+            }, 
+            {
+                "navigateData": "10000107#L_KLZ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000107", 
+                "id": 2, 
+                "name": "与小道童对话"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101010, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "140", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "82", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "69", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "190302001", 
+                "script": "QuestRewardSkill"
+            }
+        ], 
+        "description": "Q010400|Q010401|Q010403", 
+        "finish_by": "10000106#L_KLZ", 
+        "taskLogDes": "@S{4}大师兄正在门中传法，请你去侧殿寻他。|@S{4}大师兄正在门中传法，请你去侧殿寻他。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q010410", 
+        "nextQuest": "20101013", 
+        "taskCompleteFunctions": {}, 
+        "level": 1, 
+        "title": "（废弃）请教大师兄", 
+        "isAutoCommit": 1, 
+        "start_by": "0", 
+        "isAutoAccept": 1
+    }
+}

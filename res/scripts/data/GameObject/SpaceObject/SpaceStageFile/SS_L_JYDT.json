@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭九焱妖兵", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002848|20002849|20002850", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002848|20002849|20002850#L_JYDT"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭九焱妖卫", 
+                    "reqVal": 5, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002856|20002857|20002858|20002859|20002860", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002856|20002857|20002858|20002859|20002860#L_JYDT"
+                }
+            }, 
+            "title": "深入洞天"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得生命之火", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "111", 
+                    "param2": "20010318", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(40939 44312 -17761)#L_JYDT"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追击火云兽", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "30000892#L_JYDT"
+                }
+            }, 
+            "title": "生命之火"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "九焱洞天"
+}

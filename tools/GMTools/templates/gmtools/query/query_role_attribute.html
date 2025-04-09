@@ -1,0 +1,100 @@
+{% extends "gmtools/query/query_base.html" %}
+{% load custom_filter %}
+
+
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">玩家面板属性信息查询</h2>
+	<h4 class="page-header">查询条件</h4>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/query/role_attribute/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class="row">
+					<div class="from-group col-sm-5">
+						<div class="col-sm-3 control-label">
+							<select name="queryType" class="queryType form-control" id="queryType">
+								<option value="roleName" class="c_roleName">玩家名字</option>
+							</select>
+						</div>
+						<div class="col-sm-1">
+							<th class="text-center">==</th>
+						</div>
+						<div class="col-sm-5">
+							<input name="queryText" type="text" class="form-control" id="queryText" value="{{ queryText }}" maxlength="30" />
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default">查 询</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<h4 class="sub-header" style = "margin:0.1px">基础属性</h4>
+	<div class="row" style = "margin:0.1px">
+		<p class="navbar-text">名字：{{ roleInfo.roleName }}</p>
+		<p class="navbar-text">状态：{{ roleInfo.state }}</p>
+		<p class="navbar-text">门派：{{ roleInfo.menpai }}</p>
+		<p class="navbar-text">等级：{{ roleInfo.level }}</p>
+		<p class="navbar-text">战力：{{ roleInfo.combatPower }}</p>
+		<p class="navbar-text">境界：{{ roleInfo.jingjie }}</p>
+		<p class="navbar-text">修为：{{ roleInfo.xiuwei }}</p>
+		<p class="navbar-text">杀气：{{ roleInfo.killingValue }}</p>
+		<p class="navbar-text">功勋：{{ roleInfo.credit }}</p>
+		<p class="navbar-text">潜能：{{ roleInfo.potential }}</p>
+	</div>
+	<h4 class="sub-header">角色属性</h4>
+	<h5 class="sub-header" style = "margin:0.1px">基础属性</h5>
+	<div class="row" style = "margin:0.1px">
+		<p class="navbar-text">根骨：{{ roleInfo.corporeity }}</p>
+		<p class="navbar-text">内力：{{ roleInfo.intellect }}</p>
+		<p class="navbar-text">洞察：{{ roleInfo.discern }}</p>
+		<p class="navbar-text">移速：{{ roleInfo.moveSpeed }}</p>
+		<p class="navbar-text">身法：{{ roleInfo.dexterity }}</p>
+		<p class="navbar-text">筋力：{{ roleInfo.strength }}</p>
+		<p class="navbar-text">气血：{{ roleInfo.HP_Max }}</p>
+		<p class="navbar-text">内息：{{ roleInfo.MP_Max }}</p>
+		<p class="navbar-text">罡气：{{ roleInfo.gangQiValue_Max }}</p>
+		<p class="navbar-text">体力：{{ roleInfo.tiLi }}</p>
+	</div>
+	<h5 class="sub-header" style = "margin:0.1px">攻击属性</h5>
+	<div class="row" style = "margin:0.1px">
+		<p class="navbar-text">外功攻击：{{ roleInfo.damage }}</p>
+		<p class="navbar-text">内功攻击：{{ roleInfo.magic_damage }}</p>
+		<p class="navbar-text">外功防御：{{ roleInfo.armor }}</p>
+		<p class="navbar-text">内功防御：{{ roleInfo.magic_armor }}</p>
+		<p class="navbar-text">罡气攻击：{{ roleInfo.gangQi_damagePoint }}</p>
+		<p class="navbar-text">罡气防御：{{ roleInfo.gangQi_armorPoint }}</p>
+	</div>
+	<h5 class="sub-header" style = "margin:0.1px">进阶属性</h5>
+	<div class="row" style = "margin:0.1px">
+		<p class="navbar-text">命中率：{{ roleInfo.hitrate }}</p>
+		<p class="navbar-text">会心：{{ roleInfo.criticalstrike }}</p>
+		<p class="navbar-text">招架：{{ roleInfo.parry }}</p>
+		<p class="navbar-text">闪避率：{{ roleInfo.dodgerate }}</p>
+		<p class="navbar-text">自愈率：{{ roleInfo.healingrate }}</p>
+	</div>
+	<h5 class="sub-header" style = "margin:0.1px">元素属性</h5>
+	<div class="row" style = "margin:0.1px">
+		<p class="navbar-text">冰攻：{{ roleInfo.bingGong }}</p>
+		<p class="navbar-text">冰抗：{{ roleInfo.bingKang }}</p>
+		<p class="navbar-text">雷攻：{{ roleInfo.leiGong }}</p>
+		<p class="navbar-text">雷抗：{{ roleInfo.leiKang }}</p>
+		<p class="navbar-text">火攻：{{ roleInfo.huoGong }}</p>
+		<p class="navbar-text">火抗：{{ roleInfo.huoKang }}</p>
+		<p class="navbar-text">玄攻：{{ roleInfo.xuanGong }}</p>
+		<p class="navbar-text">玄抗：{{ roleInfo.xuanKang }}</p>
+	</div>
+{% endblock %}

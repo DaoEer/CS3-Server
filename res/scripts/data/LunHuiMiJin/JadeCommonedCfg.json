@@ -1,0 +1,32 @@
+{
+    "1": {
+        "salaryInterval": 1, 
+        "money": 200000, 
+        "potential": 100000, 
+        "salary": 30000
+    }, 
+    "2": {
+        "salaryInterval": 1, 
+        "money": 500000, 
+        "potential": 250000, 
+        "salary": 45000
+    }, 
+    "3": {
+        "salaryInterval": 1, 
+        "money": 1250000, 
+        "potential": 625000, 
+        "salary": 67500
+    }, 
+    "4": {
+        "salaryInterval": 1, 
+        "money": 3125000, 
+        "potential": 1562500, 
+        "salary": 101250
+    }, 
+    "5": {
+        "salaryInterval": 1, 
+        "money": 7812500, 
+        "potential": 3906250, 
+        "salary": 151875
+    }
+}

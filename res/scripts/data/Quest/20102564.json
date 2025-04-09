@@ -1,0 +1,104 @@
+{
+    "20102564": {
+        "tasks": [
+            {
+                "navigateData": "10000415#L_YLG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "会合夕风"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002046"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3066"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102564, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102509|20102513|20102511|20102512"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17345", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "812", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9119", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1232", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045549|Q045550|Q045551|Q032688", 
+        "finish_by": "10000415#L_YLG", 
+        "taskLogDes": "@S{4}人类已在阪泉东部建立部族，族号——轩辕。他们受仙道庇护难以靠近。祖巫蓐收让你前往隐龙谷会合夕风一同收服兽王狴犴，借助其麾下妖族势力收服人族。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045557|Q045558", 
+        "nextQuest": "20102565", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "收服狴犴（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000413#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

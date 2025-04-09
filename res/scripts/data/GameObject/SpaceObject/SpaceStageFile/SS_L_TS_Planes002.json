@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败缥缈阁修士", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009109|20009110|20009111", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-7888.628906 827.811279 6441.360352)#L_TS_Planes002"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫尊", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009108", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(2520.000000 1190.000000 9104.157227)#L_TS_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "发现金乌踪迹", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(774.190430 3264.160400 8942.309570)#L_TS_Planes002"
+                }
+            }, 
+            "title": "找寻金乌"
+        }, 
+        "2": {
+            "comment": "红云老祖修为已达准圣境界，战斗属性得到大幅增强，请坚持住！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "在与红云的战斗中保持生存", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "迎战红云"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "汤山之战"
+}

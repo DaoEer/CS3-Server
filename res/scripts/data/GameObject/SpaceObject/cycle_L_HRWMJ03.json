@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "熔岩洞天",					
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainLoopQuest",
+"EntityScript"	: "SpaceCopyRingTask",
+"scriptID"	: "cycle_L_HRWMJ03",
+"NavmeshPath"	: "space\\L_RYSJ_NAVMESH",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_HRWMJ03",
+"PatrolRouteFile": "P_L_HRWMJ03",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",	
+	"Position"	: "5962.0 27561.0 11021.0", 
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"-6740 -13880 26810",
+	"enterDirection":"0 0 -80",
+	"stageFile":"SS_L_HRWMJ03",
+	"eventFile":"SE_L_HRWMJ03",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|4",
+	"reviveScriptID":"cycle_L_HRWMJ03",
+	"revivePosition":[-6740,-13880,26810],
+	"reviveDirection":[0,0,-80],
+	"monsterUseSpaceLevel":1,
+	"xiuXianQuestID":"80135046|80135042|80135044|80135047|80135048|80135051|80135052|80135056|80135057|80135045|80135050|80135055|80135049|80135059"
+	},
+"DomainData"	:{
+	}
+}

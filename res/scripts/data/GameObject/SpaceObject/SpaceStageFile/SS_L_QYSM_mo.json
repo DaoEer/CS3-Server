@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "清除亢阳星天兵", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013490|20013491|20013492|20013493|20013494|20013495|20013496|20013497|20013498", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-5063.2 -3592.4 2092.4)#L_QYSM_mo"
+                }
+            }, 
+            "title": "初踏七阳山脉"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "大战羲和望舒", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(19920.0 -5610.0 3210.0)#L_QYSM_mo"
+                }
+            }, 
+            "title": "七阳山脉之战"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败烈谷烈封", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013499|20013500", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4030.2 -7539.1 2733.9)#L_QYSM_mo"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败亢阳星天兵", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013501|20013502|20013503|20013504", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4030.2 -7539.1 2733.9)#L_QYSM_mo"
+                }
+            }, 
+            "title": "消灭拦路精英"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入玄阳殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(27600.0 -6070.0 3517.8)#L_QYSM_mo"
+                }
+            }, 
+            "title": "追击羲和"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "七阳山脉"
+}

@@ -1,0 +1,108 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "探索魔君残魂的踪迹", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "526710 220280 799.264465:10", 
+                    "param2": "1399|299", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20009663#L_BJXK"
+                }
+            }, 
+            "title": "小心前行"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭虚空暗卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009695|20009696", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009695|20009696#L_BJXK"
+                }
+            }, 
+            "title": "继续探查"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭石像妖灵", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009661|20009662", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009661|20009662#L_BJXK"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭虚空护法", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009689", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009689#L_BJXK"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭虚空法师", 
+                    "reqVal": 4, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009681|20009682|20009683|20009684", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009681|20009682|20009683|20009684#L_BJXK"
+                }
+            }, 
+            "title": "勇闯禁制"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭虚空守护神", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009697", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009697#L_BJXK"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "探查传送门", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "567060 177200 1185.367676:5", 
+                    "param2": "1685.367676|685", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20009698#L_BJXK"
+                }
+            }, 
+            "title": "魔君之怒"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "探查魔君残魂"
+}

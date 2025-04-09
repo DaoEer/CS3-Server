@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "消灭浩灵谷外围妖卫", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "尸傀教弟子", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005720|20005718|20005736|20005717", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "刘逸", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005741|20005742", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "灵谷诛妖"
+        }, 
+        "3": {
+            "comment": "闯过妖河重返山崖", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回陆地", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "8618.0 8775.0 -1000.0:8", 
+                    "param2": "500|-1200", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "横渡妖河"
+        }, 
+        "2": {
+            "comment": "通过吊桥深入谷中", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过吊桥", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-3142.0 4719.0 60.0:5", 
+                    "param2": "250|10", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入灵谷"
+        }, 
+        "4": {
+            "comment": "深入后山禁地消灭陆沧", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "陆沧", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005730", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "禁地之战"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "浩灵谷"
+}

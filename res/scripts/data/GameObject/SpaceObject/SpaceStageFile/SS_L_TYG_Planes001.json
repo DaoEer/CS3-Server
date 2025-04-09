@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "找到可疑的守卫，选中后使用戮神鞭进入拷问模式", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "拷问出六螭神车下落", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "200", 
+                    "param2": "20006959", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20006959#L_TYG_Planes001"
+                }
+            }, 
+            "title": "拷问六螭神车下落"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "太阳宫"
+}

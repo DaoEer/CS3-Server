@@ -1,0 +1,42 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<listenSpaceEvents>
+			<Type>		ARRAY_LISTEN_EVENT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</listenSpaceEvents>
+		<spaceEventLastSpace>
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</spaceEventLastSpace>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_triggerSpaceEventByClient>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	STRING			</Arg>
+		</CELL_triggerSpaceEventByClient>
+	</CellMethods>
+
+	<ClientMethods>
+		<CLIENT_AddListenSpaceEvents>
+			<Arg>	STRING		</Arg>	<!-- spaceScriptID -->
+			<Arg>	INT32		</Arg>	<!-- eventType -->
+			<Arg>	INT32		</Arg>	<!-- eventID -->
+			<Arg>	UNICODE		</Arg>	<!-- dataStream -->
+		</CLIENT_AddListenSpaceEvents>
+		<CLIENT_ClearListenSpaceEvents/>
+		<CLIENT_SpaceEventPlayAction>
+			<Arg>	ARRAY_STRING	</Arg>
+		</CLIENT_SpaceEventPlayAction>
+	</ClientMethods>
+</root>

@@ -1,0 +1,77 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onDropBoxRegisterRole>
+			<Arg> OBJECT_ID 		</Arg>
+			<Arg> DBID 				</Arg>
+			<Arg> UNICODE 			</Arg>
+			<Arg> BASE_ENTITYCALL 	</Arg>
+		</onDropBoxRegisterRole>
+		
+		<onRoleDestroy>
+			<Arg> ARRAY_OBJECT_ID 	</Arg>
+			<Arg> DBID 				</Arg>
+		</onRoleDestroy>
+		
+		<onReqDropBoxData>
+			<Arg> OBJECT_ID 		</Arg>
+			<Arg> DBID 				</Arg>
+			<Arg> CELL_ENTITYCALL 	</Arg>
+		</onReqDropBoxData>
+		
+		<onAddDropBox>
+			<Arg> CELL_ENTITYCALL 	</Arg>
+			<Arg> UINT8 			</Arg>
+			<Arg> UINT8 			</Arg>
+			<Arg> ARRAY_DBID 		</Arg>
+			<Arg> ITEMLIST 			</Arg>
+			<Arg>	UINT64			</Arg>
+		</onAddDropBox>
+		
+		<onDropBoxDestroy>
+			<Arg> OBJECT_ID 		</Arg>
+		</onDropBoxDestroy>
+		
+		<onReqRollRandomDropBox>
+			<Arg>	OBJECT_ID		</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg> CELL_ENTITYCALL 	</Arg>
+		</onReqRollRandomDropBox>
+		
+		<onReqAbandomRollRandomDropBox>
+			<Arg>	OBJECT_ID		</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg> CELL_ENTITYCALL 	</Arg>
+		</onReqAbandomRollRandomDropBox>
+		
+		<onReqAuctionDropBox>
+			<Arg>	OBJECT_ID		</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg> CELL_ENTITYCALL 	</Arg>
+		</onReqAuctionDropBox>
+		
+		<onReqAbandomAuctionDropBox>
+			<Arg>	OBJECT_ID		</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg> CELL_ENTITYCALL 	</Arg>
+		</onReqAbandomAuctionDropBox>
+		
+		<onReqAbandomAuctionAllDropBox>
+			<Arg> ARRAY_OBJECT_ID 	</Arg>
+			<Arg> DBID		 		</Arg>
+			<Arg> CELL_ENTITYCALL 	</Arg>
+		</onReqAbandomAuctionAllDropBox>
+	</BaseMethods>
+</root>

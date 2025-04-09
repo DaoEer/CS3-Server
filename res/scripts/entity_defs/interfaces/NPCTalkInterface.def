@@ -1,0 +1,24 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<talkWith>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</talkWith>
+	</CellMethods>
+
+	<ClientMethods>
+		<CLIENT_BubbleDialogue>
+			<Arg>		STRING		</Arg>
+		</CLIENT_BubbleDialogue>
+	</ClientMethods>
+</root>

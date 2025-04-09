@@ -1,0 +1,164 @@
+{
+    "20101234": {
+        "tasks": [
+            {
+                "navigateData": "20000654|20000655|20000656#L_FLS", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000654|20000655|20000656", 
+                "id": 1, 
+                "name": "消灭浮屠古寺门卫"
+            }, 
+            {
+                "navigateData": "30000093#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010044", 
+                "id": 2, 
+                "name": "获得灵髓金魄"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002057"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010069"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2014"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101234, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010044"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2|3|4"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101248"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010044"
+            }, 
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010069"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "14130", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1184", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "4574", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1035", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102080003|102080007|102080011|102080015", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q030979|Q030980|Q030981", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}创造人类还需以@F{fc=c8}灵髓金魄@D为他们构建筋骨，灵珠子让你前往浮屠古寺寻找燃灯道人，以七宝琉璃灯换取@F{fc=c8}灵髓金魄@D，并将其带回昆仑宗复命。|@S{4}创造人类还需以@F{fc=c8}灵髓金魄@D为他们构建筋骨，灵珠子让你前往浮屠古寺寻找燃灯道人，以七宝琉璃灯换取@F{fc=c8}灵髓金魄@D，并将其带回昆仑宗复命。|@S{4}创造人类还需以@F{fc=c8}灵髓金魄@D为他们构建筋骨，灵珠子让你前往浮屠古寺寻找燃灯道人，以七宝琉璃灯换取@F{fc=c8}灵髓金魄@D，并将其带回昆仑宗复命。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030357", 
+        "nextQuest": "20101250", 
+        "taskCompleteFunctions": {}, 
+        "level": 27, 
+        "title": "灵髓金魄", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

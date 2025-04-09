@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "肃清盘古神殿守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009925|20009926|20009927", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1420.0 1049.8 -186699.9)#L_PGSD_02"
+                }
+            }, 
+            "title": "初入盘古神殿"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "祖巫句芒开始祭鼎破阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-650.0 -13940.0 -185650.0)#L_PGSD_02"
+                }
+            }, 
+            "title": "协助句芒破阵"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭金莲道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009939", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1450.0 -12310.0 -185650.0)#L_PGSD_02"
+                }
+            }, 
+            "title": "消灭守将金莲"
+        }, 
+        "5": {
+            "comment": "祖巫句芒需要起鼎破阵，帮忙抵挡玉鼎真人。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "阻挡玉鼎真人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-1420.0 -11920.0 -185650.0)#L_PGSD_02"
+                }
+            }, 
+            "title": "阻挡玉鼎真人"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭玉虚宫援兵", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009949|20009950|20009951|20009952|20009953|20009954|20009955", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1420.0 -11920.0 -185650.0)#L_PGSD_02"
+                }
+            }, 
+            "title": "消灭赶来阻扰的援兵"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往盘古神殿内", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-1410.0 -15820.0 -185654.7)#L_PGSD_02"
+                }
+            }, 
+            "title": "前往盘古神殿内"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "突袭盘古神殿"
+}

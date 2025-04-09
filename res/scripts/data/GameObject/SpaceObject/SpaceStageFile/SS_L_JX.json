@@ -1,0 +1,186 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败摩诃殿守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006237|20006238|20006239", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12648.945313 9078.374023 190.847168)#L_JX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入碎石坡", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "12644.0 -8786.0 347.0:20", 
+                    "param2": "702|-300", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(12644.0 -8786.0 347.0)#L_JX"
+                }
+            }, 
+            "title": "前往碎石坡"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续深入", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3204.064209 -23333.953125 587.245117:20", 
+                    "param2": "742|-342", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(3204.064209 -23333.953125 587.245117)#L_JX"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过传送门前往冥风谷", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "-18004.904297 -24423.460938 573.165283:3", 
+                    "param2": "1146|146", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(2038.865723 -24239.541016 646.076660)#L_JX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫巫旬", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006717", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(3204.064209 -23333.953125 587.245117)#L_JX"
+                }
+            }, 
+            "title": "消灭大巫巫旬"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败越泽", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006246", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12447.0 -14375.0 202.99999999999997)#L_JX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败逍遥门卫兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006716|20006249|20006247|20006248|20006250", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(12447.0 -14375.0 202.99999999999997)#L_JX"
+                }
+            }, 
+            "title": "扫荡碎石坡"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败擎苍", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006726", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-14153.823242 -7857.503418 719.312500)#L_JX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败逍遥门伏兵", 
+                    "reqVal": 3, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006720|20006721|20006722", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-14153.823242 -7857.503418 719.312500)#L_JX"
+                }
+            }, 
+            "title": "血洗冥风谷"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败昊然", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006718", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-19464.0 -18920.0 629.0)#L_JX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入冥风谷", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "-14153.823242 -7857.503418 719.312500:20", 
+                    "param2": "1219|219", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-14153.823242 -7857.503418 719.312500)#L_JX"
+                }
+            }, 
+            "title": "前往冥风谷"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "抵达冥风谷最深处", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-11135.0 1798.0 882.0:20", 
+                    "param2": "1374|374", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-11135.0 1798.0 882.0)#L_JX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "迎战祖巫帝江", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "101", 
+                    "param2": "20006729", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20006729#L_JX"
+                }
+            }, 
+            "title": "阻止金乌魔化"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "救援十金乌"
+}

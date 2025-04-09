@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "根据信号位置，到达坐忘峰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-10370 -22570 17644:10", 
+                    "param2": "22644|12644", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-10370 -22570 17644)#L_JSC_Planes104"
+                }
+            }, 
+            "title": "驰援坐忘峰"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退来临的赤莲童子和玄机子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "7", 
+                    "param2": "20000118", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000709#L_JSC_Planes104"
+                }
+            }, 
+            "title": "击退来敌"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蓬莱阁弟子", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000197|20000198", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000117#L_JSC_Planes104"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭年值功曹", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000117", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000117#L_JSC_Planes104"
+                }
+            }, 
+            "title": "化解危局"
+        }
+    }, 
+    "describe": "1-10级魔道任务", 
+    "beginOnSpaceInit": 0, 
+    "name": "坐忘峰之战"
+}

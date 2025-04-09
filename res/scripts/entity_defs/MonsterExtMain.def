@@ -1,0 +1,27 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<partMonsterIDs>
+			<Type>			ARRAY_INT32			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>			[]				</Default>
+		</partMonsterIDs>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

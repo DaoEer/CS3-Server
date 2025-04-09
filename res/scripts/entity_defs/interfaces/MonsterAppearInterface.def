@@ -1,0 +1,59 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_MonsterAppearJump>			<!--怪物播放登场动作-->
+			<Arg>	ARRAY_STRING	</Arg>	<!--动作列表-->
+			<Arg>	STRING			</Arg> 	<!--光效ID-->
+			<Arg>	FLOAT		</Arg>	<!--重力加速度-->
+			<Arg>	FLOAT		</Arg>	<!--上升时间-->
+			<Arg>	FLOAT		</Arg>	<!--水平速度-->
+			<Arg>	POSITION	</Arg>	<!--目标点位置-->
+		</CLIENT_MonsterAppearJump>
+		<CLIENT_MonsterAppearJumpWithoutMove>		<!--怪物播放登场动作不带位移-->
+			<Arg>	ARRAY_STRING	</Arg>
+			<Arg>	STRING			</Arg> 	<!--光效ID-->
+			<Arg>	FLOAT	</Arg>
+		</CLIENT_MonsterAppearJumpWithoutMove>
+		<CLIENT_MonsterAppearLineToPoint>		
+			<Arg>	FLOAT	</Arg>
+			<Arg>	FLOAT	</Arg>		
+			<Arg>	FLOAT	</Arg>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	STRING	</Arg>
+		</CLIENT_MonsterAppearLineToPoint>
+		<MonsterAppearLineToPointOver/>
+		<CLIENT_MonsterAppearCurveMove>		
+		    <Arg>	ARRAY_STRING	</Arg>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	POSITION	</Arg>		
+			<Arg>	FLOAT		</Arg>
+			<Arg>	POSITION	</Arg>
+		</CLIENT_MonsterAppearCurveMove>
+		<CLIENT_MonsterJumpPointToPoint>		
+		    <Arg>	POSITION	</Arg>
+			<Arg>	POSITION		</Arg>	
+			<Arg>	FLOAT		</Arg>
+		</CLIENT_MonsterJumpPointToPoint>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_onMonsterAppearJumpEnd>		<!--怪物登场结束的回调-->
+			<Exposed/>
+		</CELL_onMonsterAppearJumpEnd>
+		<CELL_onMonsterAppearJumpWithoutMoveEnd>	<!--怪物不带位移登场结束的回调-->
+			<Exposed/>
+		</CELL_onMonsterAppearJumpWithoutMoveEnd>
+		<CELL_onMonsterAppearLineToPoint>
+			<Exposed/>
+		</CELL_onMonsterAppearLineToPoint>
+		<CELL_onMonsterJumpPointToPointEnd>
+			<Exposed/>
+		</CELL_onMonsterJumpPointToPointEnd>
+	</CellMethods>
+</root>

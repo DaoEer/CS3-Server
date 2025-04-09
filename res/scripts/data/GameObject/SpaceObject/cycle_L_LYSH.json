@@ -1,0 +1,42 @@
+﻿{
+"SpaceName"	: "灵域狩魂",
+"EntityType"	: "SpaceCopyLingYuShouHun",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyLingYuShouHun",
+"scriptID"	: "cycle_L_LYSH",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_LYSH",
+"NavmeshPath"	: "space\\L_LYSH_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 100.0,
+"SpaceHoldEffect"	:"140094011",
+"SpaceHoldEffect"	:"101010106",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMNL",
+	"Position"	: "75753.0 -96585.0 -13232.0",
+	"Direction"	: "0.0 0.0 -16.6"
+	},
+"SpaceData"	:{
+	"enterPosition":"-709.94928 6930.0156 -5439.968262",
+	"enterDirection":"0 0 276",
+	"eventFile":"SE_L_LYSH",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|3",
+	"monsterData":[
+		{"scriptID":["20005406"],"reward":[3,-5],"relation":1},
+		{"scriptID":["20005409"],"reward":[1,-5],"relation":0},
+		{"scriptID":["20005412"],"reward":[2,-5],"relation":0}
+		],
+	"playerDeadPunish":-5,
+	"reviveScriptID":"cycle_L_LYSH",
+	"revivePosition":[-709.94928,6930.0156,-5439.968262],
+	"reviveDirection":[0,0,276],
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0,
+	"logoutCloseTime":1,
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

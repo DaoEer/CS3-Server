@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopyStory",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_LYG",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_LYG",
+"NavmeshPath"	: "space\\L_JGDT_NAVMESH",
+"PatrolRouteFile": "P_L_LYG",
+"belongType"	: "1",
+"SpaceAoi"	: 200,
+"ExitSpace"	:{
+	"ScriptID"	: "L_ZLY",
+	"Position"	: "70908 122952 643",
+	"Direction"	: "0 0 105"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_LYG",
+	"eventFile":"SE_L_LYG"
+	},
+"DomainData"	:{
+	}
+}

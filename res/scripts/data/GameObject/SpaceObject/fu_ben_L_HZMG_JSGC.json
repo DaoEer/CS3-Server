@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "荒岛古城",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildCopy",
+"scriptID"	: "fu_ben_L_HZMG_JSGC",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_JSGC",
+"NavmeshPath"	: "space\\L_JSGC_NAVMESH",
+"PatrolRouteFile": "P_L_JSGC",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544002,
+	"spaceIntroduce":{"voiceID":"C001486|C001487"},
+	"enterPosition":"39602 -10684 3003",
+	"enterDirection":"0 0 170",
+	"stageFile":"SS_L_HZMG_JSGC",
+	"eventFile":"SE_L_HZMG_JSGC",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

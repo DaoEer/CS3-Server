@@ -1,0 +1,40 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<weakState>
+			<Type>			INT32		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</weakState>
+		<destroyTimeID>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</destroyTimeID>
+		<ownerIDList>
+			<Type>		ARRAY_INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</ownerIDList>
+		<probability>
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</probability>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

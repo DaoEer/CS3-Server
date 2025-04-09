@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "穿越石桥", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "23400.000000 1390.000000 13170.000000:12", 
+                    "param2": "15170|12170", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(23400.000000 1390.000000 13170.000000)#L_FMC_Planes102"
+                }
+            }, 
+            "title": "前行"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "突破凤鸣护法的阻拦", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "100", 
+                    "param2": "20003896", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20003896#L_FMC_Planes002"
+                }
+            }, 
+            "title": "破敌"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "拜见无极道祖"
+}

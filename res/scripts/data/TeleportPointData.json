@@ -1,0 +1,2438 @@
+[
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-86"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "1001", 
+        "IsOpen": 0, 
+        "DstName": "凤鸣城", 
+        "MoneyCost": 100, 
+        "Describe": "凤鸣城", 
+        "ScriptID": "L_FMC", 
+        "Position": {
+            "Y": "21543.0", 
+            "X": "23604.0", 
+            "Z": "12167.4"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000389"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-85"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "1002", 
+        "IsOpen": 0, 
+        "DstName": "锁灵塔", 
+        "MoneyCost": 100, 
+        "Describe": "飞来石", 
+        "ScriptID": "L_FLS", 
+        "Position": {
+            "Y": "-22735.455078", 
+            "X": "-9019", 
+            "Z": "3611.469238"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10000403"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-163"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2001", 
+        "IsOpen": 1, 
+        "DstName": "昆仑宗", 
+        "MoneyCost": 100, 
+        "Describe": "昆仑宗", 
+        "ScriptID": "L_KLZ", 
+        "Position": {
+            "Y": "-212775.0", 
+            "X": "-180226.0", 
+            "Z": "16037.0"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000384"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "76"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2002", 
+        "IsOpen": 1, 
+        "DstName": "玉虚宫", 
+        "MoneyCost": 100, 
+        "Describe": "玉虚宫", 
+        "ScriptID": "L_YXG", 
+        "Position": {
+            "Y": "-25060.0", 
+            "X": "4360.0", 
+            "Z": "-466.6"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000381"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-80"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2003", 
+        "IsOpen": 1, 
+        "DstName": "蓬莱阁", 
+        "MoneyCost": 100, 
+        "Describe": "蓬莱阁", 
+        "ScriptID": "L_PLG", 
+        "Position": {
+            "Y": "-631848.187500", 
+            "X": "-299107.406250", 
+            "Z": "55042.402344"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000382"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-150"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2004", 
+        "IsOpen": 1, 
+        "DstName": "太清宫", 
+        "MoneyCost": 100, 
+        "Describe": "太清宫", 
+        "ScriptID": "L_TQG", 
+        "Position": {
+            "Y": "1800.0", 
+            "X": "11510.0", 
+            "Z": "-1467.6"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000383"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-30"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2005", 
+        "IsOpen": 0, 
+        "DstName": "盘古洞天", 
+        "MoneyCost": 100, 
+        "Describe": "盘古洞天", 
+        "ScriptID": "L_YSC", 
+        "Position": {
+            "Y": "-8199.9", 
+            "X": "-70910.0", 
+            "Z": "13257.4"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000391"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "120"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2006", 
+        "IsOpen": 0, 
+        "DstName": "瑶光云岛", 
+        "MoneyCost": 100, 
+        "Describe": "盘古洞天", 
+        "ScriptID": "L_YSC", 
+        "Position": {
+            "Y": "3908.2", 
+            "X": "-35945.1", 
+            "Z": "12247.5"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000400"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-60"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2007", 
+        "IsOpen": 0, 
+        "DstName": "瑶光云岛", 
+        "MoneyCost": 100, 
+        "Describe": "盘古洞天", 
+        "ScriptID": "L_YSC", 
+        "Position": {
+            "Y": "16398.2", 
+            "X": "24244.8", 
+            "Z": "21830.5"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000405"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-140"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2008", 
+        "IsOpen": 0, 
+        "DstName": "皎月妖族", 
+        "MoneyCost": 100, 
+        "Describe": "凤鸣南麓", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-13429.9", 
+            "X": "186830.0", 
+            "Z": "-16855.2"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000390"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "138"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2009", 
+        "IsOpen": 0, 
+        "DstName": "青龙府", 
+        "MoneyCost": 100, 
+        "Describe": "凤鸣南麓", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-29270.0", 
+            "X": "43838.4", 
+            "Z": "-15132.9"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000743"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-180"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2010", 
+        "IsOpen": 0, 
+        "DstName": "天机谷", 
+        "MoneyCost": 100, 
+        "Describe": "凤鸣南麓", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "2250.0", 
+            "X": "49370.0", 
+            "Z": "-15225.7"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000404"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-90"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2011", 
+        "IsOpen": 0, 
+        "DstName": "玄鳄沼泽", 
+        "MoneyCost": 100, 
+        "Describe": "昆吾山脉", 
+        "ScriptID": "L_KWSM_1", 
+        "Position": {
+            "Y": "9100.0", 
+            "X": "-44712.3", 
+            "Z": "-15883.2"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000393"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-90"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2012", 
+        "IsOpen": 0, 
+        "DstName": "狐族领地", 
+        "MoneyCost": 100, 
+        "Describe": "昆吾山脉", 
+        "ScriptID": "L_KWSM_1", 
+        "Position": {
+            "Y": "-59877.0", 
+            "X": "-79670.0", 
+            "Z": "-6873.999999999999"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000746"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-134"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2013", 
+        "IsOpen": 0, 
+        "DstName": "灵土坡", 
+        "MoneyCost": 100, 
+        "Describe": "飞来石", 
+        "ScriptID": "L_FLS", 
+        "Position": {
+            "Y": "-41659.132813", 
+            "X": "31628.132813", 
+            "Z": "1490.140625"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10000402"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-115"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2014", 
+        "IsOpen": 0, 
+        "DstName": "浮屠古寺", 
+        "MoneyCost": 100, 
+        "Describe": "飞来石", 
+        "ScriptID": "L_FLS", 
+        "Position": {
+            "Y": "-7085.0", 
+            "X": "-48731.0", 
+            "Z": "1338.5"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10000748"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "63"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2015", 
+        "IsOpen": 0, 
+        "DstName": "昧水台", 
+        "MoneyCost": 100, 
+        "Describe": "瑶泽岛", 
+        "ScriptID": "L_YZD", 
+        "Position": {
+            "Y": "-27380.0", 
+            "X": "20210.0", 
+            "Z": "-172.8"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10000752"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2016", 
+        "IsOpen": 0, 
+        "DstName": "通天古道", 
+        "MoneyCost": 100, 
+        "Describe": "瑶泽岛", 
+        "ScriptID": "L_YZD", 
+        "Position": {
+            "Y": "39895.9", 
+            "X": "-6493.4", 
+            "Z": "2109.4"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10000396"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-45"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2017", 
+        "IsOpen": 0, 
+        "DstName": "阪泉东部", 
+        "MoneyCost": 100, 
+        "Describe": "阪泉东部", 
+        "ScriptID": "L_BQDB", 
+        "Position": {
+            "Y": "57640.0", 
+            "X": "45140.0", 
+            "Z": "881.4"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10000398"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "54"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2018", 
+        "IsOpen": 0, 
+        "DstName": "太寅道场", 
+        "MoneyCost": 100, 
+        "Describe": "盘古洞天", 
+        "ScriptID": "L_YSC", 
+        "Position": {
+            "Y": "-43705.0", 
+            "X": "-33103.0", 
+            "Z": "14193.0"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000754"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "180"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2019", 
+        "IsOpen": 0, 
+        "DstName": "天机谷禁地", 
+        "MoneyCost": 100, 
+        "Describe": "天机谷", 
+        "ScriptID": "L_TJGJD", 
+        "Position": {
+            "Y": "36179.0", 
+            "X": "48460.0", 
+            "Z": "-15928.3"
+        }, 
+        "LimitLevel": 14, 
+        "DstNPCID": "10001080"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "47"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "2020", 
+        "IsOpen": 0, 
+        "DstName": "上古秘境", 
+        "MoneyCost": 100, 
+        "Describe": "上古秘境", 
+        "ScriptID": "L_SGMJ", 
+        "Position": {
+            "Y": "-4203.0", 
+            "X": "8080.0", 
+            "Z": "-2189.0"
+        }, 
+        "LimitLevel": 15, 
+        "DstNPCID": "10001081"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-36"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3001", 
+        "IsOpen": 1, 
+        "DstName": "修罗殿", 
+        "MoneyCost": 100, 
+        "Describe": "修罗殿", 
+        "ScriptID": "L_XLD", 
+        "Position": {
+            "Y": "-4720.0", 
+            "X": "8570.0", 
+            "Z": "520.4"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000387"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "90"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3002", 
+        "IsOpen": 1, 
+        "DstName": "逍遥门", 
+        "MoneyCost": 100, 
+        "Describe": "逍遥门", 
+        "ScriptID": "L_XYM", 
+        "Position": {
+            "Y": "-11830.0", 
+            "X": "52010.0", 
+            "Z": "15913.2"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000388"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "172"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3003", 
+        "IsOpen": 1, 
+        "DstName": "缥缈阁", 
+        "MoneyCost": 100, 
+        "Describe": "缥缈阁", 
+        "ScriptID": "L_PMG", 
+        "Position": {
+            "Y": "-5610.1", 
+            "X": "-9571.1", 
+            "Z": "2138.7"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000385"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "90"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3004", 
+        "IsOpen": 1, 
+        "DstName": "摩诃殿", 
+        "MoneyCost": 100, 
+        "Describe": "摩诃殿", 
+        "ScriptID": "L_MHD", 
+        "Position": {
+            "Y": "-5010.1", 
+            "X": "52131.1", 
+            "Z": "16237.0"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000386"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-30"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3005", 
+        "IsOpen": 0, 
+        "DstName": "太虚洞天", 
+        "MoneyCost": 100, 
+        "Describe": "太虚洞天", 
+        "ScriptID": "L_JSC", 
+        "Position": {
+            "Y": "-8199.9", 
+            "X": "-70910.0", 
+            "Z": "13257.4"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000392"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "120"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3006", 
+        "IsOpen": 0, 
+        "DstName": "神机山", 
+        "MoneyCost": 100, 
+        "Describe": "太虚洞天", 
+        "ScriptID": "L_JSC", 
+        "Position": {
+            "Y": "3908.2", 
+            "X": "-35945.1", 
+            "Z": "12247.5"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000401"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-60"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3007", 
+        "IsOpen": 0, 
+        "DstName": "神机山", 
+        "MoneyCost": 100, 
+        "Describe": "太虚洞天", 
+        "ScriptID": "L_JSC", 
+        "Position": {
+            "Y": "16398.2", 
+            "X": "24244.8", 
+            "Z": "21830.5"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000406"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "40"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3008", 
+        "IsOpen": 0, 
+        "DstName": "飞凤府", 
+        "MoneyCost": 100, 
+        "Describe": "凤鸣南麓", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-78562.0", 
+            "X": "1339.0", 
+            "Z": "-17253.8"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000744"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "107"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3009", 
+        "IsOpen": 0, 
+        "DstName": "千妖万魔林", 
+        "MoneyCost": 100, 
+        "Describe": "凤鸣南麓", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "16178.0", 
+            "X": "102783.0", 
+            "Z": "-17273.0"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000745"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "76"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3010", 
+        "IsOpen": 0, 
+        "DstName": "星宿族", 
+        "MoneyCost": 100, 
+        "Describe": "万寿山", 
+        "ScriptID": "L_WSS", 
+        "Position": {
+            "Y": "57537.0", 
+            "X": "-90057.0", 
+            "Z": "-1310.0"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000394"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-150"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3011", 
+        "IsOpen": 0, 
+        "DstName": "五庄观", 
+        "MoneyCost": 100, 
+        "Describe": "万寿山", 
+        "ScriptID": "L_WSS", 
+        "Position": {
+            "Y": "41616.000000", 
+            "X": "-153391.000000", 
+            "Z": "8181.900391"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10000747"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-70"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3012", 
+        "IsOpen": 0, 
+        "DstName": "浮屠古寺", 
+        "MoneyCost": 100, 
+        "Describe": "飞来石", 
+        "ScriptID": "L_FLS", 
+        "Position": {
+            "Y": "-7085.0", 
+            "X": "-48731.0", 
+            "Z": "1338.5"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10000750"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-22"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3013", 
+        "IsOpen": 0, 
+        "DstName": "飞溅崖", 
+        "MoneyCost": 100, 
+        "Describe": "飞来石", 
+        "ScriptID": "L_FLS", 
+        "Position": {
+            "Y": "-33688", 
+            "X": "-37242", 
+            "Z": "-29.10791"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10000751"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-7"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3014", 
+        "IsOpen": 0, 
+        "DstName": "通天古道", 
+        "MoneyCost": 100, 
+        "Describe": "瑶泽岛", 
+        "ScriptID": "L_YZD", 
+        "Position": {
+            "Y": "59886.0", 
+            "X": "15806.0", 
+            "Z": "2373.0"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10000753"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "180"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3015", 
+        "IsOpen": 0, 
+        "DstName": "浑天营", 
+        "MoneyCost": 100, 
+        "Describe": "阪泉西部", 
+        "ScriptID": "L_BQXB", 
+        "Position": {
+            "Y": "18100.0", 
+            "X": "-35739.9", 
+            "Z": "57.1"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10000397"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "54"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3016", 
+        "IsOpen": 0, 
+        "DstName": "荒木道场", 
+        "MoneyCost": 100, 
+        "Describe": "太虚洞天", 
+        "ScriptID": "L_JSC", 
+        "Position": {
+            "Y": "-43705.0", 
+            "X": "-33103.0", 
+            "Z": "14193.0"
+        }, 
+        "LimitLevel": 0, 
+        "DstNPCID": "10000749"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "180"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3017", 
+        "IsOpen": 0, 
+        "DstName": "落霞谷禁地", 
+        "MoneyCost": 100, 
+        "Describe": "落霞谷", 
+        "ScriptID": "L_LXGJD", 
+        "Position": {
+            "Y": "36179.0", 
+            "X": "48460.0", 
+            "Z": "-15928.3"
+        }, 
+        "LimitLevel": 14, 
+        "DstNPCID": "10001082"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-120"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3018", 
+        "IsOpen": 0, 
+        "DstName": "上古秘境", 
+        "MoneyCost": 100, 
+        "Describe": "上古秘境", 
+        "ScriptID": "L_SGMJ", 
+        "Position": {
+            "Y": "21271.0", 
+            "X": "-9209.0", 
+            "Z": "-2749.0"
+        }, 
+        "LimitLevel": 14, 
+        "DstNPCID": "10001083"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-180"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3019", 
+        "IsOpen": 1, 
+        "DstName": "昆仑宗", 
+        "MoneyCost": 100, 
+        "Describe": "新版天宫——昆仑宗", 
+        "ScriptID": "L_KLZ_1", 
+        "Position": {
+            "Y": "-207040.125000", 
+            "X": "-192279.875000", 
+            "Z": "17882.242188"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001189"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-60"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3020", 
+        "IsOpen": 0, 
+        "DstName": "迎仙台", 
+        "MoneyCost": 100, 
+        "Describe": "盘古洞天——迎仙台", 
+        "ScriptID": "L_PGDT", 
+        "Position": {
+            "Y": "-9630.000000", 
+            "X": "-58410.000000", 
+            "Z": "12568.358398"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001193"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "30"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3021", 
+        "IsOpen": 0, 
+        "DstName": "流云岛", 
+        "MoneyCost": 100, 
+        "Describe": "盘古洞天——流云岛", 
+        "ScriptID": "L_PGDT", 
+        "Position": {
+            "Y": "-30540.000000", 
+            "X": "-47970.000000", 
+            "Z": "11939.321289"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001194"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-90"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3022", 
+        "IsOpen": 0, 
+        "DstName": "太寅道场", 
+        "MoneyCost": 100, 
+        "Describe": "盘古洞天——太寅道场", 
+        "ScriptID": "L_PGDT", 
+        "Position": {
+            "Y": "-38760.027344", 
+            "X": "-29250.007813", 
+            "Z": "14205.997070"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001195"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3023", 
+        "IsOpen": 0, 
+        "DstName": "试剑台", 
+        "MoneyCost": 100, 
+        "Describe": "盘古洞天——试剑台", 
+        "ScriptID": "L_PGDT", 
+        "Position": {
+            "Y": "-19864.978516", 
+            "X": "-7044.990723", 
+            "Z": "17603.544922"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001196"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-110"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3024", 
+        "IsOpen": 1, 
+        "DstName": "修罗殿", 
+        "MoneyCost": 100, 
+        "Describe": "新版魔道天宫——修罗殿", 
+        "ScriptID": "L_XLD_01", 
+        "Position": {
+            "Y": "-6110.0", 
+            "X": "-170.0", 
+            "Z": "1240.569458"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001197"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-60"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3025", 
+        "IsOpen": 0, 
+        "DstName": "接风台", 
+        "MoneyCost": 100, 
+        "Describe": "混沌洞天——接风台", 
+        "ScriptID": "L_HDDT", 
+        "Position": {
+            "Y": "-9659.908203", 
+            "X": "-58410.039063", 
+            "Z": "12437.783203"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001201"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "30"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3026", 
+        "IsOpen": 0, 
+        "DstName": "云涯岛", 
+        "MoneyCost": 100, 
+        "Describe": "混沌洞天——云涯岛", 
+        "ScriptID": "L_HDDT", 
+        "Position": {
+            "Y": "-30540.0", 
+            "X": "-47970.0", 
+            "Z": "11840.321289"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001202"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-90"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3027", 
+        "IsOpen": 0, 
+        "DstName": "玄古道场", 
+        "MoneyCost": 100, 
+        "Describe": "混沌洞天——玄古道场", 
+        "ScriptID": "L_HDDT", 
+        "Position": {
+            "Y": "-43705.0", 
+            "X": "-33103.0", 
+            "Z": "14090.458984"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001203"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3028", 
+        "IsOpen": 0, 
+        "DstName": "坐忘峰", 
+        "MoneyCost": 100, 
+        "Describe": "混沌洞天——坐忘峰", 
+        "ScriptID": "L_HDDT", 
+        "Position": {
+            "Y": "-19864.978516", 
+            "X": "-7044.990723", 
+            "Z": "17504.544922"
+        }, 
+        "LimitLevel": 1, 
+        "DstNPCID": "10001204"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-10"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3031", 
+        "IsOpen": 0, 
+        "DstName": "云岚峰", 
+        "MoneyCost": 100, 
+        "Describe": "阪泉东部--云岚峰", 
+        "ScriptID": "L_BQDB", 
+        "Position": {
+            "Y": "-22190.0", 
+            "X": "-32480.0", 
+            "Z": "5190.0"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001276"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-90"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3032", 
+        "IsOpen": 0, 
+        "DstName": "太阳宫", 
+        "MoneyCost": 100, 
+        "Describe": "太阳宫", 
+        "ScriptID": "L_TYG", 
+        "Position": {
+            "Y": "13199.988281", 
+            "X": "-1429.991577", 
+            "Z": "-187303.703125"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001277"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-210"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3033", 
+        "IsOpen": 0, 
+        "DstName": "汤山", 
+        "MoneyCost": 100, 
+        "Describe": "汤山", 
+        "ScriptID": "L_TS", 
+        "Position": {
+            "Y": "-24330.052734", 
+            "X": "11529.896484", 
+            "Z": "-584.535522"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001278"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "50"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3034", 
+        "IsOpen": 0, 
+        "DstName": "青麓原", 
+        "MoneyCost": 100, 
+        "Describe": "青麓原", 
+        "ScriptID": "L_ZLY", 
+        "Position": {
+            "Y": "53420.0", 
+            "X": "92430.0", 
+            "Z": "-720.178711"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001279"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-180"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3035", 
+        "IsOpen": 0, 
+        "DstName": "耀光阁", 
+        "MoneyCost": 100, 
+        "Describe": "耀光阁", 
+        "ScriptID": "L_YGG", 
+        "Position": {
+            "Y": "8540.0", 
+            "X": "7920.0", 
+            "Z": "2000.0"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001280"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "100"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3036", 
+        "IsOpen": 0, 
+        "DstName": "冥仙谷", 
+        "MoneyCost": 100, 
+        "Describe": "冥仙谷1", 
+        "ScriptID": "L_MXG", 
+        "Position": {
+            "Y": "-41590.0", 
+            "X": "24690.0", 
+            "Z": "168.054016"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001281"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-180"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3037", 
+        "IsOpen": 0, 
+        "DstName": "冥仙谷", 
+        "MoneyCost": 100, 
+        "Describe": "冥仙谷2", 
+        "ScriptID": "L_MXG", 
+        "Position": {
+            "Y": "-8010.058105", 
+            "X": "18830.082031", 
+            "Z": "-2187.654297"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001282"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "50"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3038", 
+        "IsOpen": 0, 
+        "DstName": "落日峰", 
+        "MoneyCost": 100, 
+        "Describe": "落日峰", 
+        "ScriptID": "L_TS", 
+        "Position": {
+            "Y": "3540.000000", 
+            "X": "15290.001953", 
+            "Z": "8234.664063"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001283"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "160"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3039", 
+        "IsOpen": 0, 
+        "DstName": "青麓原", 
+        "MoneyCost": 100, 
+        "Describe": "青麓原", 
+        "ScriptID": "L_ZLY", 
+        "Position": {
+            "Y": "103720.0", 
+            "X": "141020.0", 
+            "Z": "1465.0"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001284"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-50"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3040", 
+        "IsOpen": 0, 
+        "DstName": "青麓原", 
+        "MoneyCost": 100, 
+        "Describe": "青麓原", 
+        "ScriptID": "L_ZLY", 
+        "Position": {
+            "Y": "101868.0", 
+            "X": "9326.0", 
+            "Z": "3199.0"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001285"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3041", 
+        "IsOpen": 0, 
+        "DstName": "云麓阁", 
+        "MoneyCost": 100, 
+        "Describe": "云麓阁", 
+        "ScriptID": "L_FYP", 
+        "Position": {
+            "Y": "-51167.261719", 
+            "X": "-32242.283203", 
+            "Z": "1889.953857"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001288"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3042", 
+        "IsOpen": 0, 
+        "DstName": "荒火营", 
+        "MoneyCost": 100, 
+        "Describe": "荒火营", 
+        "ScriptID": "L_FYP", 
+        "Position": {
+            "Y": "-48542.339844", 
+            "X": "38047.871094", 
+            "Z": "5144.158203"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001289"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "12"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3043", 
+        "IsOpen": 0, 
+        "DstName": "有穷部落", 
+        "MoneyCost": 100, 
+        "Describe": "有穷部落", 
+        "ScriptID": "L_FYP", 
+        "Position": {
+            "Y": "-17389.722656", 
+            "X": "4242.275391", 
+            "Z": "2565.948975"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001290"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "90"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3044", 
+        "IsOpen": 0, 
+        "DstName": "天魔宫", 
+        "MoneyCost": 100, 
+        "Describe": "天魔宫", 
+        "ScriptID": "L_TMG", 
+        "Position": {
+            "Y": "-28926.490234", 
+            "X": "-379298.46875", 
+            "Z": "895013.125"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001291"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-170"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3045", 
+        "IsOpen": 0, 
+        "DstName": "五庄观后山", 
+        "MoneyCost": 100, 
+        "Describe": "万寿山", 
+        "ScriptID": "L_WSS", 
+        "Position": {
+            "Y": "32619.878906", 
+            "X": "-190661.828125", 
+            "Z": "12473.790039"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001298"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "100"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3046", 
+        "IsOpen": 0, 
+        "DstName": "星宿族祭坛", 
+        "MoneyCost": 100, 
+        "Describe": "星宿族祭坛", 
+        "ScriptID": "L_WSS", 
+        "Position": {
+            "Y": "89359.812500", 
+            "X": "-93899.960938", 
+            "Z": "2867.424561"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001299"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-90"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3047", 
+        "IsOpen": 0, 
+        "DstName": "星宿族后山", 
+        "MoneyCost": 100, 
+        "Describe": "星宿族后山", 
+        "ScriptID": "L_WSS", 
+        "Position": {
+            "Y": "77520.039063", 
+            "X": "-90069.992188", 
+            "Z": "-62.781494"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001300"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-140"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3048", 
+        "IsOpen": 0, 
+        "DstName": "昆吾山悬崖", 
+        "MoneyCost": 100, 
+        "Describe": "昆吾山悬崖", 
+        "ScriptID": "L_KWSM_1", 
+        "Position": {
+            "Y": "-87160.781250", 
+            "X": "-106370.000000", 
+            "Z": "-923.818359"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001301"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-170"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3049", 
+        "IsOpen": 0, 
+        "DstName": "昆吾山巅", 
+        "MoneyCost": 100, 
+        "Describe": "昆吾山巅", 
+        "ScriptID": "L_KWSM_1", 
+        "Position": {
+            "Y": "-92569.296875", 
+            "X": "-111500.289063", 
+            "Z": "6472.884277"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001302"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3050", 
+        "IsOpen": 0, 
+        "DstName": "飞凤府", 
+        "MoneyCost": 100, 
+        "Describe": "羽翎道场", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-104720.781250", 
+            "X": "22450.0", 
+            "Z": "-17248.507813"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001303"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-90"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3051", 
+        "IsOpen": 0, 
+        "DstName": "凶煞之地", 
+        "MoneyCost": 100, 
+        "Describe": "凶煞之地", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-70970.0", 
+            "X": "68060.0", 
+            "Z": "-17453.220703"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001304"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "70"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3052", 
+        "IsOpen": 0, 
+        "DstName": "天极道场", 
+        "MoneyCost": 100, 
+        "Describe": "天极道场", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-62370.785156", 
+            "X": "112520.0", 
+            "Z": "-17135.617188"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001305"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "70"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3053", 
+        "IsOpen": 0, 
+        "DstName": "冰封河", 
+        "MoneyCost": 100, 
+        "Describe": "冰封河", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-62370.785156", 
+            "X": "112520.0", 
+            "Z": "-17135.617188"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001324"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "197"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3054", 
+        "IsOpen": 0, 
+        "DstName": "鸿蒙崖", 
+        "MoneyCost": 100, 
+        "Describe": "鸿蒙崖", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "101966.007813", 
+            "X": "4570.442871", 
+            "Z": "1507.851929"
+        }, 
+        "LimitLevel": 40, 
+        "DstNPCID": "10001325"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-115"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3055", 
+        "IsOpen": 0, 
+        "DstName": "鸿蒙天", 
+        "MoneyCost": 100, 
+        "Describe": "鸿蒙天", 
+        "ScriptID": "L_HMT", 
+        "Position": {
+            "Y": "-297601.78125", 
+            "X": "328559.25", 
+            "Z": "6255.504883"
+        }, 
+        "LimitLevel": 40, 
+        "DstNPCID": "10001326"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "150"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3056", 
+        "IsOpen": 0, 
+        "DstName": "木星岐山", 
+        "MoneyCost": 100, 
+        "Describe": "木星岐山", 
+        "ScriptID": "L_QS", 
+        "Position": {
+            "Y": "-24350.0", 
+            "X": "11599.8", 
+            "Z": "-593.0"
+        }, 
+        "LimitLevel": 40, 
+        "DstNPCID": "10001327"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "90"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3057", 
+        "IsOpen": 0, 
+        "DstName": "紫霄宫", 
+        "MoneyCost": 100, 
+        "Describe": "紫霄宫", 
+        "ScriptID": "L_ZXG", 
+        "Position": {
+            "Y": "-14066.999999999998", 
+            "X": "-4162.0", 
+            "Z": "10451.0"
+        }, 
+        "LimitLevel": 40, 
+        "DstNPCID": "10001330"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "90"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3058", 
+        "IsOpen": 0, 
+        "DstName": "巨龙族", 
+        "MoneyCost": 100, 
+        "Describe": "飞云坡巨龙族", 
+        "ScriptID": "L_FYP", 
+        "Position": {
+            "Y": "-930.000183", 
+            "X": "29240.000000", 
+            "Z": "2390.087402"
+        }, 
+        "LimitLevel": 40, 
+        "DstNPCID": "10001346"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-70"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3059", 
+        "IsOpen": 0, 
+        "DstName": "蟠灵山", 
+        "MoneyCost": 100, 
+        "Describe": "蟠灵山风雷崖", 
+        "ScriptID": "L_PLS", 
+        "Position": {
+            "Y": "2452.1", 
+            "X": "-3235.5", 
+            "Z": "288.6"
+        }, 
+        "LimitLevel": 41, 
+        "DstNPCID": "10001355"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "180"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3060", 
+        "IsOpen": 0, 
+        "DstName": "风神宫", 
+        "MoneyCost": 100, 
+        "Describe": "风神宫", 
+        "ScriptID": "L_FSG_02", 
+        "Position": {
+            "Y": "8510.000000", 
+            "X": "6810.000000", 
+            "Z": "2050.000000"
+        }, 
+        "LimitLevel": 41, 
+        "DstNPCID": "10001358"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-20"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3061", 
+        "IsOpen": 0, 
+        "DstName": "彩蝶谷", 
+        "MoneyCost": 100, 
+        "Describe": "彩蝶谷", 
+        "ScriptID": "L_CDG", 
+        "Position": {
+            "Y": "21580.000000", 
+            "X": "-18160.000000", 
+            "Z": "-1680.000000"
+        }, 
+        "LimitLevel": 41, 
+        "DstNPCID": "10001359"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3062", 
+        "IsOpen": 0, 
+        "DstName": "荒兽谷", 
+        "MoneyCost": 100, 
+        "Describe": "荒兽谷", 
+        "ScriptID": "L_HSG", 
+        "Position": {
+            "Y": "-17290.000000", 
+            "X": "17560.000000", 
+            "Z": "-5203.582031"
+        }, 
+        "LimitLevel": 41, 
+        "DstNPCID": "10001360"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-50"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3063", 
+        "IsOpen": 0, 
+        "DstName": "冰封河", 
+        "MoneyCost": 100, 
+        "Describe": "冰封河", 
+        "ScriptID": "L_BFH", 
+        "Position": {
+            "Y": "19180.000000", 
+            "X": "12100.000000", 
+            "Z": "859.030273"
+        }, 
+        "LimitLevel": 41, 
+        "DstNPCID": "10001361"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-60"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3064", 
+        "IsOpen": 0, 
+        "DstName": "金星", 
+        "MoneyCost": 100, 
+        "Describe": "金星第1幕", 
+        "ScriptID": "L_JX_02", 
+        "Position": {
+            "Y": "14070.127930", 
+            "X": "10094.113281", 
+            "Z": "402.854492"
+        }, 
+        "LimitLevel": 35, 
+        "DstNPCID": "10001362"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "90"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3065", 
+        "IsOpen": 0, 
+        "DstName": "金星", 
+        "MoneyCost": 100, 
+        "Describe": "金星第2幕", 
+        "ScriptID": "L_JX_02", 
+        "Position": {
+            "Y": "3187.736816", 
+            "X": "-11077.419922", 
+            "Z": "1104.115234"
+        }, 
+        "LimitLevel": 35, 
+        "DstNPCID": "10001363"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-50"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3066", 
+        "IsOpen": 0, 
+        "DstName": "隐龙谷", 
+        "MoneyCost": 100, 
+        "Describe": "隐龙谷", 
+        "ScriptID": "L_YLG", 
+        "Position": {
+            "Y": "21453.830078", 
+            "X": "-4619.663086", 
+            "Z": "205.066208"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001363"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "80"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3067", 
+        "IsOpen": 0, 
+        "DstName": "亢阳星", 
+        "MoneyCost": 100, 
+        "Describe": "（仙）亢阳星起飞点", 
+        "ScriptID": "L_KYX_xian", 
+        "Position": {
+            "Y": "-4764.780273", 
+            "X": "44842.984375", 
+            "Z": "226.988083"
+        }, 
+        "LimitLevel": 43, 
+        "DstNPCID": "10001374"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3068", 
+        "IsOpen": 0, 
+        "DstName": "七阳山脉", 
+        "MoneyCost": 100, 
+        "Describe": "（仙）七阳山脉", 
+        "ScriptID": "L_QYSM_xian", 
+        "Position": {
+            "Y": "-5929.214355", 
+            "X": "-10080.417969", 
+            "Z": "1738.486816"
+        }, 
+        "LimitLevel": 43, 
+        "DstNPCID": "10001375"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-20"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3069", 
+        "IsOpen": 0, 
+        "DstName": "玄阳殿", 
+        "MoneyCost": 100, 
+        "Describe": "（仙）玄阳殿", 
+        "ScriptID": "L_XYD_xian", 
+        "Position": {
+            "Y": "-6010.000000", 
+            "X": "-10950.000000", 
+            "Z": "-815.395020"
+        }, 
+        "LimitLevel": 43, 
+        "DstNPCID": "10001376"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-85"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3070", 
+        "IsOpen": 0, 
+        "DstName": "魔雾幻境一", 
+        "MoneyCost": 100, 
+        "Describe": "魔雾幻境一", 
+        "ScriptID": "L_MWHJ_1", 
+        "Position": {
+            "Y": "679.467285", 
+            "X": "-757.938293", 
+            "Z": "1579.130371"
+        }, 
+        "LimitLevel": 43, 
+        "DstNPCID": "10001377"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3071", 
+        "IsOpen": 0, 
+        "DstName": "魔雾幻境二", 
+        "MoneyCost": 100, 
+        "Describe": "魔雾幻境二", 
+        "ScriptID": "L_MWHJ_2", 
+        "Position": {
+            "Y": "-22118.113281", 
+            "X": "-9219.416992", 
+            "Z": "1107.619873"
+        }, 
+        "LimitLevel": 43, 
+        "DstNPCID": "10001378"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "55"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3072", 
+        "IsOpen": 0, 
+        "DstName": "北冰河", 
+        "MoneyCost": 100, 
+        "Describe": "（仙）北冰河", 
+        "ScriptID": "L_BBH_xian", 
+        "Position": {
+            "Y": "24844.146484", 
+            "X": "-116.727417", 
+            "Z": "-6624.707520"
+        }, 
+        "LimitLevel": 43, 
+        "DstNPCID": "10001379"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-30"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3073", 
+        "IsOpen": 0, 
+        "DstName": "鬼魅之地", 
+        "MoneyCost": 100, 
+        "Describe": "鬼魅之地", 
+        "ScriptID": "L_GMZD", 
+        "Position": {
+            "Y": "-13379", 
+            "X": "-19289", 
+            "Z": "-1739"
+        }, 
+        "LimitLevel": 35, 
+        "DstNPCID": "10001381"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-130"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3074", 
+        "IsOpen": 0, 
+        "DstName": "万寿山", 
+        "MoneyCost": 100, 
+        "Describe": "挑战虎蛟", 
+        "ScriptID": "L_WSS", 
+        "Position": {
+            "Y": "80498.6", 
+            "X": "-124270.7", 
+            "Z": "2560.2"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001396"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-166"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3075", 
+        "IsOpen": 0, 
+        "DstName": "落霞谷", 
+        "MoneyCost": 100, 
+        "Describe": "火海秘境", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "2260.0", 
+            "X": "49468.0", 
+            "Z": "-15245.0"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001397"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "34"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3076", 
+        "IsOpen": 0, 
+        "DstName": "九州仙府", 
+        "MoneyCost": 100, 
+        "Describe": "破碎的八卦阵", 
+        "ScriptID": "L_FLS", 
+        "Position": {
+            "Y": "6119.0", 
+            "X": "42142.0", 
+            "Z": "213.0"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001398"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "59"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3077", 
+        "IsOpen": 0, 
+        "DstName": "凤鸣南麓", 
+        "MoneyCost": 100, 
+        "Describe": "逐风之路", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "91927.0", 
+            "X": "-32673.0", 
+            "Z": "2154.0"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001399"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "50"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3078", 
+        "IsOpen": 0, 
+        "DstName": "青龙府", 
+        "MoneyCost": 100, 
+        "Describe": "获取龙珠", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-46417.0", 
+            "X": "-8756.0", 
+            "Z": "-17753.0"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001400"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-83"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3079", 
+        "IsOpen": 0, 
+        "DstName": "凶煞之地", 
+        "MoneyCost": 100, 
+        "Describe": "灵域狩魂", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-85172.0", 
+            "X": "71510.0", 
+            "Z": "-14655.0"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001401"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "156"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3080", 
+        "IsOpen": 0, 
+        "DstName": "昆吾山巅", 
+        "MoneyCost": 100, 
+        "Describe": "雷域危机", 
+        "ScriptID": "L_KWSM_1", 
+        "Position": {
+            "Y": "-89806.0", 
+            "X": "-104282.0", 
+            "Z": "-1360.0"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001402"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "55"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3081", 
+        "IsOpen": 0, 
+        "DstName": "瑶泽岛", 
+        "MoneyCost": 100, 
+        "Describe": "收集法宝碎片", 
+        "ScriptID": "L_YZD", 
+        "Position": {
+            "Y": "-14846.0", 
+            "X": "5826.0", 
+            "Z": "-40"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001403"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-259"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3082", 
+        "IsOpen": 0, 
+        "DstName": "苍泽林地", 
+        "MoneyCost": 100, 
+        "Describe": "苍泽林地", 
+        "ScriptID": "L_BQXB", 
+        "Position": {
+            "Y": "87600.0", 
+            "X": "36770.0", 
+            "Z": "-259.0"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001463"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3083", 
+        "IsOpen": 0, 
+        "DstName": "翻天洞", 
+        "MoneyCost": 100, 
+        "Describe": "翻天洞", 
+        "ScriptID": "L_BQXB", 
+        "Position": {
+            "Y": "57400.0", 
+            "X": "28490.0", 
+            "Z": "849.6"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001464"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-165"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3084", 
+        "IsOpen": 0, 
+        "DstName": "青龙族", 
+        "MoneyCost": 100, 
+        "Describe": "青龙族", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "-40870.000000", 
+            "X": "49360.000000", 
+            "Z": "-16910.390625"
+        }, 
+        "LimitLevel": 13, 
+        "DstNPCID": "10001465"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "180"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3085", 
+        "IsOpen": 0, 
+        "DstName": "九州仙府", 
+        "MoneyCost": 100, 
+        "Describe": "九州仙府（任务用）", 
+        "ScriptID": "L_FLS", 
+        "Position": {
+            "Y": "-5868.064941", 
+            "X": "48060.734375", 
+            "Z": "481.778809"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001466"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "50"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3086", 
+        "IsOpen": 0, 
+        "DstName": "青月林", 
+        "MoneyCost": 100, 
+        "Describe": "青月林", 
+        "ScriptID": "L_FLS", 
+        "Position": {
+            "Y": "3706.722168", 
+            "X": "10862.299805", 
+            "Z": "472.966003"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001467"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "53"
+        }, 
+        "LimitCamp": 1, 
+        "Name": "3087", 
+        "IsOpen": 0, 
+        "DstName": "清水泊", 
+        "MoneyCost": 100, 
+        "Describe": "清水泊", 
+        "ScriptID": "L_BQDB", 
+        "Position": {
+            "Y": "-11609.419922", 
+            "X": "-26526.933594", 
+            "Z": "-858.375061"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001472"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "118"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3088", 
+        "IsOpen": 0, 
+        "DstName": "龙汐岛入岛口", 
+        "MoneyCost": 100, 
+        "Describe": "龙汐岛起点", 
+        "ScriptID": "L_LXD", 
+        "Position": {
+            "Y": "-25237", 
+            "X": "-948", 
+            "Z": "1071"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001473"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3089", 
+        "IsOpen": 0, 
+        "DstName": "龙汐岛", 
+        "MoneyCost": 100, 
+        "Describe": "龙汐岛boss点", 
+        "ScriptID": "L_LXD", 
+        "Position": {
+            "Y": "15893.754883", 
+            "X": "3504.013672", 
+            "Z": "498.672363"
+        }, 
+        "LimitLevel": 20, 
+        "DstNPCID": "10001474"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3090", 
+        "IsOpen": 0, 
+        "DstName": "轩辕部落外", 
+        "MoneyCost": 100, 
+        "Describe": "收服人族", 
+        "ScriptID": "L_BQDB", 
+        "Position": {
+            "Y": "39063.394531", 
+            "X": "-24175.724609", 
+            "Z": "-1135.217285"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001475"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "120"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3091", 
+        "IsOpen": 0, 
+        "DstName": "阪泉东部", 
+        "MoneyCost": 100, 
+        "Describe": "营救丹朱", 
+        "ScriptID": "L_BQDB", 
+        "Position": {
+            "Y": "-35994.089844", 
+            "X": "10821.494141", 
+            "Z": "1033.370239"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001476"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "190"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3092", 
+        "IsOpen": 0, 
+        "DstName": "玄阴秘境", 
+        "MoneyCost": 100, 
+        "Describe": "玄阴秘境", 
+        "ScriptID": "L_ZLY", 
+        "Position": {
+            "Y": "97106.328125", 
+            "X": "75258.554688", 
+            "Z": "3167.082764"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001477"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-130"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3093", 
+        "IsOpen": 0, 
+        "DstName": "天风寨", 
+        "MoneyCost": 100, 
+        "Describe": "天风寨", 
+        "ScriptID": "L_BQXB", 
+        "Position": {
+            "Y": "-4630.253418", 
+            "X": "13695.395508", 
+            "Z": "-2661.566895"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001478"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "0"
+        }, 
+        "LimitCamp": 0, 
+        "Name": "3094", 
+        "IsOpen": 0, 
+        "DstName": "阴风岗", 
+        "MoneyCost": 100, 
+        "Describe": "阴风岗", 
+        "ScriptID": "L_BQXB", 
+        "Position": {
+            "Y": "-32244.560547", 
+            "X": "-9639.169922", 
+            "Z": "-1746.281616"
+        }, 
+        "LimitLevel": 30, 
+        "DstNPCID": "10001479"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "-130"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3095", 
+        "IsOpen": 0, 
+        "DstName": "云麓阁外", 
+        "MoneyCost": 100, 
+        "Describe": "云麓阁外", 
+        "ScriptID": "L_FYP", 
+        "Position": {
+            "Y": "-17140.0", 
+            "X": "-26160.0", 
+            "Z": "718.3"
+        }, 
+        "LimitLevel": 38, 
+        "DstNPCID": "10001485"
+    }, 
+    {
+        "Direction": {
+            "Y": "0", 
+            "X": "0", 
+            "Z": "180"
+        }, 
+        "LimitCamp": 2, 
+        "Name": "3096", 
+        "IsOpen": 0, 
+        "DstName": "落霞谷口", 
+        "MoneyCost": 100, 
+        "Describe": "落霞谷口（任务用）", 
+        "ScriptID": "L_FMNL", 
+        "Position": {
+            "Y": "69112.3125", 
+            "X": "74638.281250", 
+            "Z": "-4387.322266"
+        }, 
+        "LimitLevel": 10, 
+        "DstNPCID": "10001592"
+    }
+]

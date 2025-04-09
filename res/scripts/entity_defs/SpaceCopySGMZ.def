@@ -1,0 +1,57 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<camp_stage>
+			<Type>	PYTHON_DICT 	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	{}		</Default>
+		</camp_stage>
+		<campStageStartTime>
+			<Type>	PYTHON_DICT 	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	{}		</Default>
+		</campStageStartTime>
+		<manMemberData>
+			<Type>	PYTHON_LIST 	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	[]		</Default>
+		</manMemberData>
+		<currentStageList>
+			<Type>	SPACE_STAGE_LIST	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</currentStageList>
+		<recordStageExp>
+			<Type>	PYTHON_DICT 	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	{}		</Default>
+		</recordStageExp>
+		<member>
+			<Type>	PYTHON_DICT 	</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Persistent>	false		</Persistent>
+			<Default>	{}		</Default>
+		</member>
+		<memberDatas>
+			<Type>	SGMZ_TEAM_DATAS	</Type>
+			<Flags>	CELL_PRIVATE		</Flags>
+		</memberDatas>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

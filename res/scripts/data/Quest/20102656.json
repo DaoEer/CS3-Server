@@ -1,0 +1,75 @@
+{
+    "20102656": {
+        "tasks": [
+            {
+                "navigateData": "10000621#L_TMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "-379240 -4560 896360", 
+                "param1": "L_TMG", 
+                "id": 1, 
+                "name": "回禀魔尊"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110010125"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102656, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "40"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102655"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q050590", 
+        "finish_by": "10000621#L_TMG", 
+        "taskLogDes": "", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050592", 
+        "nextQuest": "20102657", 
+        "taskCompleteFunctions": {}, 
+        "level": 40, 
+        "title": "回禀魔尊", 
+        "isAutoCommit": 0, 
+        "start_by": "10001077#L_FYP", 
+        "isAutoAccept": 0
+    }
+}

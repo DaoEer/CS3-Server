@@ -1,0 +1,45 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>	
+		<ownerID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</ownerID>
+		<owner>
+			<Type>		BASE_ENTITYCALL		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</owner>
+		<belongDBID>
+			<Type>		DBID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</belongDBID>
+		<menuList>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	[]			</Default>
+		</menuList>
+	</Properties>
+
+	<ClientMethods>
+		<AddMenuList>
+			<Arg>		ARRAY_INT32 		</Arg>
+		</AddMenuList>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

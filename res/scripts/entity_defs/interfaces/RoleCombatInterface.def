@@ -1,0 +1,297 @@
+<root>
+	<Interfaces>
+		<Interface> 	RoleStateInterface		</Interface>
+		<Interface> 	CombatInterface		</Interface>
+		<Interface> 	XiuweiInterface		</Interface>
+	</Interfaces>
+
+	<Properties>
+		<attrSkills>
+			<Type>			ARRAY_INT32			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>			[]				</Default>
+			<Persistent>		true			</Persistent>
+		</attrSkills>
+		<fightTimerID>		<!-- 战斗TimerID-->
+			<Type>		TIMER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</fightTimerID>
+		<fight_lastTime_record>		<!-- 战斗TimerID-->
+			<Type>		UINT32		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</fight_lastTime_record>
+		<fightFreeTimer>	<!-- 敌人列表为空，脱离战斗TimerID-->
+			<Type>		TIMER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</fightFreeTimer>
+		<totalEquipDamage>	<!--装备总磨损-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</totalEquipDamage>
+		<timeCallBack>
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>	false			</Persistent>
+		</timeCallBack>
+		<pkMode>		<!--pk模式-->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</pkMode>
+		<isLockPkMode>		<!--pk模式是否锁定-->
+			<Type>		BOOL			</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</isLockPkMode>
+		<spaceRelationRule>	<!--地图关系规则-->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</spaceRelationRule>
+		<areaRelationRule>	<!--区域关系规则-->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</areaRelationRule>
+		<killingValue>		<!--杀意值-->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</killingValue>
+		<kvReduceTimer>	<!--杀意值衰减Timer-->
+			<Type>		TIMER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</kvReduceTimer>
+		<kvDecayRate>	<!--杀意值衰减速率-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	1			</Default>
+			<Persistent>	false			</Persistent>
+		</kvDecayRate>
+		<combatPower>	<!--战斗力 需要计算排行榜-->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</combatPower>
+		<oldCombatPower>	<!--旧战斗力 做属性变化表现时需要-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</oldCombatPower>
+
+		<tempSpeed>				<!-- 临时速度最终 -->
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</tempSpeed>
+		<tempSpeed_base>			<!-- 临时速度  基础值-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</tempSpeed_base>
+		<tempSpeed_extra>			<!-- = 临时速度 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+		</tempSpeed_extra>
+		<tempSpeed_percent>		<!-- 临时速度 加成 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+		</tempSpeed_percent>
+		<tempSpeed_value>		<!-- 临时速度  加值-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+		</tempSpeed_value>
+		<isApplyWarn>		<!--是否保持警戒-->
+			<Type>		UINT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</isApplyWarn>
+		<applyWarnTimer>		<!--申请警戒timer-->
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</applyWarnTimer>
+		<isShowCombatPowerChange>		<!--是否提示战斗力变化-->
+			<Type>		BOOL				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		False				</Default>
+			<Persistent>	false			</Persistent>
+		</isShowCombatPowerChange>
+		<doubleHitTimes>		<!--连击次数-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</doubleHitTimes>
+		<doubleHitState>		<!--连击状态-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</doubleHitState>
+		<doubleHitTimer>		<!--连击timer-->
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</doubleHitTimer>
+		<beDoubleHitTimes>		<!--被连击次数-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</beDoubleHitTimes>
+		<beDoubleHitState>		<!--被连击状态-->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</beDoubleHitState>
+		<beDoubleHitTimer>		<!--被连击timer-->
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</beDoubleHitTimer>
+		<passiveSkillsBar>		<!-- 被动技能栏CST-8137 -->
+			<Type> PASSIVE_SKILL_BAR_DATAS	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</passiveSkillsBar>
+		<passiveSkillEffectIndex>		<!-- 当前打击timer -->
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</passiveSkillEffectIndex>
+	</Properties>
+
+	<CellMethods>
+		<!-- 由客户端请求：学习一个技能 -->
+		<requestSkillLearn>
+			<Exposed/>
+			<Arg>	STRING		</Arg>	<!-- 技能id -->
+			<Arg>	STRING		</Arg>	<!-- 导师id -->
+		</requestSkillLearn>
+
+		<!-- 由客户端请求：升级一个技能 -->
+		<requestSkillUpgrade>
+			<Exposed/>
+			<Arg>	INT32		</Arg>	<!-- 技能id列表 -->
+		</requestSkillUpgrade>
+		<requestSkillUpgradeMax>
+			<Exposed/>
+			<Arg>	INT32		</Arg>	<!-- 技能id列表 -->
+		</requestSkillUpgradeMax>	
+
+		<setSpaceRelationRule>
+			<Arg>	INT32		</Arg>
+		</setSpaceRelationRule>
+
+		<setAreaRelationRuleFC>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</setAreaRelationRuleFC>
+
+		<setPkModeFC>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</setPkModeFC>
+
+		<addKillingValue>
+			<Arg>	INT32		</Arg>
+		</addKillingValue>
+		
+		<requestUnlockPassiveSkillBar>	<!-- 解锁被动技能栏栏位 -->
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</requestUnlockPassiveSkillBar>
+		
+		<requestActivatePassiveSkill>	<!-- 激活被动技能 -->
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</requestActivatePassiveSkill>
+		
+		<requestCancelUnActivatePassiveSkill>	<!-- 取消被动技能放置 -->
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</requestCancelUnActivatePassiveSkill>
+		<requestPassiveSkillLearn>
+			<Exposed/>
+			<Arg>	INT32		</Arg>	<!-- 技能id -->
+		</requestPassiveSkillLearn>
+		<requestPassiveSkillUpgrade>
+			<Exposed/>
+			<Arg>	INT32		</Arg>	<!-- 技能id -->
+		</requestPassiveSkillUpgrade>
+	</CellMethods>
+
+	<ClientMethods>
+		<InitSkills>
+			<Arg>	ARRAY_INT32	</Arg>	<!-- skillID -->
+		</InitSkills>
+		<OnAddSkill>
+			<Arg>	SKILL_ID 	</Arg>	<!-- skillID -->
+		</OnAddSkill>
+		<OnRemoveSkill>
+			<Arg>	SKILL_ID 	</Arg>	<!-- skillID -->
+		</OnRemoveSkill>
+
+		<CLIENT_requestOpenSkillLearn>
+			<Arg>	INT32 		</Arg>	<!-- 导师id  -->
+		</CLIENT_requestOpenSkillLearn>
+		<ShowBuffExtraSkillBar>
+			<Arg>	STRING 		</Arg>	<!-- SkillIDStr  -->
+		</ShowBuffExtraSkillBar>
+		<CloseBuffExtraSkillBar/>
+		<ShowBuffExtraFaBaoSkillBar>
+			<Arg>	STRING 		</Arg>	<!-- SkillIDStr  -->
+		</ShowBuffExtraFaBaoSkillBar>
+		<CloseBuffExtraFaBaoSkillBar/>
+		<CLIENT_ShowCombatPowerChangeTips>     <!-- 战斗力变化提示-->
+			<Arg>	INT32 	</Arg>				 <!-- 现在的战斗力-->
+			<Arg>	INT32 	</Arg>				 <!-- 战斗力变化值-->
+		</CLIENT_ShowCombatPowerChangeTips>
+		<CLIENT_OnDoubleHit>
+			<Arg>	INT32 	</Arg>
+		</CLIENT_OnDoubleHit>
+		<!-- 玩家首次学习技能通知 -->
+		<CLIENT_FirstLearnSkillNotify>
+			<Arg>	INT32		</Arg>		<!-- 技能id -->
+		</CLIENT_FirstLearnSkillNotify>
+		<InitPassiveSkillBar>
+			<Arg> PASSIVE_SKILL_BAR_DATAS	</Arg>
+		</InitPassiveSkillBar>
+		<updatePassiveSkillBar>
+			<Arg> PASSIVE_SKILL_BAR_DATA	</Arg>
+		</updatePassiveSkillBar>
+		<CLIENT_SetForbidJumpSkillIDs>
+			<Arg> STRING	</Arg>
+		</CLIENT_SetForbidJumpSkillIDs>
+	</ClientMethods>
+</root>
+ 

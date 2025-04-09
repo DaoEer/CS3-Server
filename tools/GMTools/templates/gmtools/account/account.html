@@ -1,0 +1,39 @@
+{% extends "gmtools/base.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+    <link rel="stylesheet" type="text/css" media="all" href="/static/jscalendar-1.0/calendar-win2k-cold-1.css" title="win2k-cold-1"/>
+
+    <script type="text/javascript" src="/static/jscalendar-1.0/calendar.js"></script>
+    <script type="text/javascript" src="/static/jscalendar-1.0/lang/calendar-en.js"></script>
+    <script type="text/javascript" src="/static/jscalendar-1.0/calendar-setup.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="page-header">游戏账号管理</h2>
+            <table class="table table-striped table-condensed">
+                <tbody>
+                 <tr>
+                 <td>
+                    <div id = "navbar" class = "navbar-collapse collapse">
+                         <ul class="nav navbar-nav navbar-left">
+                            <li class="account_accountInfo"><a href="/gmtools/account/query_info">查看账号信息</a> </li>
+                            <li class="account_state_query"><a href="/gmtools/account/state/query">账号处理</a> </li>
+                            <li class="account_hosting"><a href="/gmtools/account/trusteeship/base">账号托管</a> </li>
+                         </ul>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block tail_js %}
+    <script>$(".m_account_manage").addClass("active");</script>
+
+{% endblock %}

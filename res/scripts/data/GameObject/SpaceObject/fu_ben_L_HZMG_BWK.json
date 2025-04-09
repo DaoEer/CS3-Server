@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "宝物库",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildDropBox",
+"scriptID"	: "fu_ben_L_HZMG_BWK",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_BWK",
+"NavmeshPath"	: "space\\L_BWK_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"teleportSkillID" : 121544006,
+	"spaceIntroduce":{"voiceID":"C000357"},
+	"enterPosition":"250 -30 70",
+	"enterDirection":"0 0 -180",
+	"stageFile":"SS_L_HZMG_BWK",
+	"eventFile":"SE_L_HZMG_BWK",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

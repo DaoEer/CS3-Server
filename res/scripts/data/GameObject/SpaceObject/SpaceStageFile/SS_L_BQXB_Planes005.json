@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭追兵", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005351|20005352", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1246.706543 -32091.527344 -2540.156250)#L_BQXB_Planes005"
+                }
+            }, 
+            "title": "解救姜吼"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "平定外患"
+}

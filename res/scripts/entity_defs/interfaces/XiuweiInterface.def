@@ -1,0 +1,43 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<xiuwei>
+			<Type>		INT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	1		</Default>
+			<Persistent>	true		</Persistent>
+		</xiuwei>
+		<xiuweiLevel>
+			<Type>		INT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</xiuweiLevel>
+		<jingjieLevel>
+			<Type>		INT32		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	0		</Default>
+			<Persistent>	false		</Persistent>
+		</jingjieLevel>
+		<kmg_xiuweiRate>
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+			<Default>	1.0		</Default>
+		</kmg_xiuweiRate>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<addXiuwei>
+			<Arg>	UINT32		</Arg> <!--值-->
+			<Arg>	UINT32		</Arg> <!--理由-->
+		</addXiuwei>
+	</CellMethods>
+</root>

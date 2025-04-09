@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭门口叛军", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004695|20004691", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(9305.827148 31308.361328 196.094727)#L_BQDB_Planes009"
+                }
+            }, 
+            "title": "消灭门口叛军"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救少典", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20004700", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20004700#L_BQDB_Planes009"
+                }
+            }, 
+            "title": "破除少典身上的封印"
+        }
+    }, 
+    "describe": "34级仙道", 
+    "beginOnSpaceInit": 1, 
+    "name": "反叛"
+}

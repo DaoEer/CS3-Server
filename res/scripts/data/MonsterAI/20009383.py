@@ -1,0 +1,258 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 1, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {
+            1: {
+                "name": "战斗", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "霸体", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction75", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "10000001"
+                            }
+                        ], 
+                        "EID": [
+                            29
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "10000001"
+                            }
+                        ], 
+                        "id": 29
+                    }, 
+                    {
+                        "comment": "呼叫同伴", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [
+                            28
+                        ], 
+                        "Conditions": [], 
+                        "id": 28
+                    }, 
+                    {
+                        "comment": "距离玩家超过5米开始追击", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction177", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "6"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition23", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "5"
+                            }
+                        ], 
+                        "id": 22
+                    }, 
+                    {
+                        "comment": "距离玩家2-5米靠近或游走", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction72", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "5", 
+                                "param2": "3", 
+                                "param1": "0.5"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition23", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "2"
+                            }, 
+                            {
+                                "script": "AICondition24", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "5"
+                            }
+                        ], 
+                        "id": 23
+                    }, 
+                    {
+                        "comment": "距离玩家小于2米攻击或者远离", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction71", 
+                                "param5": "2", 
+                                "param4": "120549001|120550001|120551001|120552001", 
+                                "param3": "5", 
+                                "param2": "3", 
+                                "param1": "0.6"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition24", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "2"
+                            }
+                        ], 
+                        "id": 24
+                    }
+                ], 
+                "eventsAI": {
+                    5: [
+                        {
+                            "comment": "攻击下一个目标", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction13", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": ""
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [], 
+                            "id": 17
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "0.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {
+            2: {
+                "name": "", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "79米玩家加入战斗", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction19", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "Role", 
+                                "param1": "19"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [], 
+                        "id": 27
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {
+            1: {
+                "name": "", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "霸体", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction75", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "10000001"
+                            }
+                        ], 
+                        "EID": [
+                            25
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "10000001"
+                            }
+                        ], 
+                        "id": 25
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }
+}

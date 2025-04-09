@@ -1,0 +1,37 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<pushTimer>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</pushTimer>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_OnRoleNearbyMonster>
+			<Arg>	INT32    </Arg>
+		</CLIENT_OnRoleNearbyMonster>
+	</ClientMethods>
+
+	<CellMethods>
+		<onRolePushComplete>
+			<Exposed/>
+		</onRolePushComplete>
+	</CellMethods>
+</root>
+

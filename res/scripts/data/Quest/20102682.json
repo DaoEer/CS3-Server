@@ -1,0 +1,59 @@
+{
+    "20102682": {
+        "tasks": [
+            {
+                "navigateData": "10000053#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "51551.6 9052.4 17175.0", 
+                "param1": "L_XYM", 
+                "id": 1, 
+                "name": "会合祖巫帝江"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002047"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102682, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102681"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q050881|Q050882|Q050883", 
+        "finish_by": "10000053#L_XYM", 
+        "taskLogDes": "@S{4}罗睺已命祖巫帝江暗中携带诛仙四剑前去消灭帝俊，请你前往逍遥门会合祖巫帝江，助他一臂之力。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050884|Q050886|Q050887", 
+        "nextQuest": "20102683", 
+        "taskCompleteFunctions": {}, 
+        "level": 43, 
+        "title": "会合祖巫帝江", 
+        "isAutoCommit": 1, 
+        "start_by": "10000621#L_TMG", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,268 @@
+<root>
+	<Properties>
+		<dropBoxIDList>  <!-- 自身参加竞拍/掷点的宝箱ID -->
+			<Type> 		ARRAY_OBJECT_ID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>		true		</Persistent>
+		</dropBoxIDList>
+		
+		<auctionData>
+			<Type> 		ARRAY_OBJECT_ID	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+		</auctionData>
+		
+		<curAuctionData>	<!-- 当前参与竞拍的物品uid -->
+			<Type> 		ARRAY_STRING	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	true		</Persistent>
+		</curAuctionData>
+		
+		<auctionHistoryData>	<!-- 竞拍历史数据 -->
+			<Type> 		AUCTION_HISTORY_DATA_LIST	</Type>
+			<Flags>		CELL_PUBLIC					</Flags>
+			<Persistent>		true				</Persistent>
+		</auctionHistoryData>
+	</Properties>
+
+	<ClientMethods>
+		<FPickup_GetItemInfoList>
+			<Arg>	OBJECT_ID		</Arg>
+			<Arg>		PICK_UP_ITEM_DATAS		</Arg>
+		</FPickup_GetItemInfoList>
+
+		<PickUp>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</PickUp>
+	
+		<FRollRandom>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>PICK_UP_ITEM_DATA</Arg>
+			<Arg>	INT32		</Arg>
+		</FRollRandom>
+
+		<receiverRollResult>	<!-- 返回掷骰子结果-->
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>	<!-- 物品uid-->
+			<Arg>	INT32		</Arg>	<!-- 物品ID-->	
+			<Arg>	INT32		</Arg>	<!-- 是否获得物品 1：是， 0：否-->
+			<Arg>	INT32		</Arg>	<!-- 拾取物品后宝箱剩余的该物品的数量-->
+		</receiverRollResult>
+		
+		<pickUpToMember>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>	<!-- 物品uid-->	
+			<Arg>	STRING		</Arg>	<!-- 拥有该物品奖励权的玩家ID列表-->
+		</pickUpToMember>
+		
+		<CLIENT_dropBoxMoveToPoint>	
+			<Arg>	OBJECT_ID	</Arg>
+		    <Arg>	POSITION	</Arg>
+			<Arg>	POSITION	</Arg>	
+			<Arg>	FLOAT		</Arg>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	FLOAT		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</CLIENT_dropBoxMoveToPoint>
+		
+		<recvDropBoxData>
+			<Arg>	OBJECT_ID					</Arg>
+			<Arg>	UINT8						</Arg>
+			<Arg>	UINT8						</Arg>
+			<Arg>	DICT_STR_STR_FOR_CLIENT		</Arg>
+			<Arg> ITEM_FOR_CLIENT_LIST			</Arg>
+		</recvDropBoxData>
+		
+		<recvDropBoxRalldomData>
+			<Arg>	OBJECT_ID			</Arg>
+			<Arg>	ROLLDOM_DATA_LIST	</Arg>
+			<Arg>	STRING				</Arg>
+		</recvDropBoxRalldomData>
+		
+		<recvDropBoxAuctionData>
+			<Arg>	OBJECT_ID			</Arg>
+			<Arg>	AUCTION_DATA_LIST	</Arg>
+			<Arg>	ARRAY_STRING		</Arg>
+			<Arg>	STRING				</Arg>
+		</recvDropBoxAuctionData>
+		
+		<onRollRandomDropBox>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</onRollRandomDropBox>
+		
+		<onRollRandomMaxDropBox>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</onRollRandomMaxDropBox>
+		
+		<onPickupItemToRole>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</onPickupItemToRole>
+		
+		<onPickUpDropBoxEnd>
+			<Arg>	OBJECT_ID	</Arg>
+		</onPickUpDropBoxEnd>
+		
+		<onAuctionDropBox>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</onAuctionDropBox>
+		
+		<onAbandomAuctionDropBox>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+		</onAbandomAuctionDropBox>
+		
+		<onDropBoxAuctionItemEnd>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>ARRAY_STRING	</Arg>
+			<Arg>	STRING		</Arg>
+		</onDropBoxAuctionItemEnd>
+		
+		<recvAuctionHistoryData>
+			<Arg>	AUCTION_HISTORY_DATA_LIST	</Arg>
+		</recvAuctionHistoryData>
+		
+		<updateAuctionHistoryData>
+			<Arg>	AUCTION_HISTORY_DATA	</Arg>
+		</updateAuctionHistoryData>
+		
+		<onStartAuction>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>ARRAY_STRING	</Arg>
+			<Arg>	STRING		</Arg>
+		</onStartAuction>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_reqSendItemInfoListToClient>	<!-- 发送掉落物品列表数据到客户端 -->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</CELL_reqSendItemInfoListToClient>
+
+		<CELL_reqPickUp>					<!-- 拾取物品请求 -->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</CELL_reqPickUp>
+
+		<CELL_pickUpToMember>				<!-- 队长将物品分配给队员-->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+		</CELL_pickUpToMember>
+
+		<CELL_rollRandom>				<!-- 掷骰子-->
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>	<!-- 物品uid-->
+		</CELL_rollRandom>
+
+		<CELL_abandonRoll>				<!-- 放弃参与掷骰子-->
+			<Exposed/>
+			<Arg>	OBJECT_ID 	</Arg>
+			<Arg>	UNICODE	  	</Arg>	<!-- 物品uid-->
+		</CELL_abandonRoll>
+
+		<CELL_autoPickUpDropBox>
+			<Exposed/>
+			<Arg>	ARRAY_INT32	</Arg>
+		</CELL_autoPickUpDropBox>
+		
+		<reqRollRandomDropBox>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</reqRollRandomDropBox>
+		
+		<reqAbandomRollRandomDropBox>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</reqAbandomRollRandomDropBox>
+		
+		<reqAuctionDropBox>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+		</reqAuctionDropBox>
+		
+		<reqAbandomAuctionDropBox>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</reqAbandomAuctionDropBox>
+		
+		<reqAbandomAuctionAllDropBox>
+			<Exposed/>
+			<Arg>	ARRAY_OBJECT_ID	</Arg>
+		</reqAbandomAuctionAllDropBox>
+		
+		<onPickupItemToRole>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	ITEM		</Arg>
+		</onPickupItemToRole>
+		
+		<onPickUpDropBoxEnd>
+			<Arg>	OBJECT_ID	</Arg>
+		</onPickUpDropBoxEnd>
+		
+		<onTurnBackLastAuctionRoleMoney>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</onTurnBackLastAuctionRoleMoney>
+		
+		<onReqAuctionDropBoxResult>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT64		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT8		</Arg>
+		</onReqAuctionDropBoxResult>
+		
+		<onReqAbandomAuctionDropBoxResult>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT8		</Arg>
+		</onReqAbandomAuctionDropBoxResult>
+		
+		<reqAuctionHistoryData>
+			<Exposed/>
+		</reqAuctionHistoryData>
+		
+		<onRecvAuctionData>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+		</onRecvAuctionData>
+	</CellMethods>
+</root>

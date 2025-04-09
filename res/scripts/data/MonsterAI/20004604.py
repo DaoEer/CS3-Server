@@ -1,0 +1,189 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "show": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 2, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {
+            1: {
+                "name": "通用战斗状态", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "GW2175技能随机", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction67", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "101344001|101345001"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [], 
+                        "id": 4
+                    }, 
+                    {
+                        "comment": "跟随玩家", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction69", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition33", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "0", 
+                                "param1": "20"
+                            }
+                        ], 
+                        "id": 63
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {
+            1: {
+                "name": "跟随玩家", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "跟随玩家", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction69", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition33", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "2", 
+                                "param1": "5"
+                            }
+                        ], 
+                        "id": 1
+                    }
+                ], 
+                "eventsAI": {
+                    9: [
+                        {
+                            "comment": "跳状态2", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction3", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "3"
+                                }
+                            ], 
+                            "EID": [
+                                61
+                            ], 
+                            "Conditions": [
+                                {
+                                    "script": "AICondition25", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "1", 
+                                    "param1": ""
+                                }
+                            ], 
+                            "id": 61
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "0.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }, 
+            3: {
+                "name": "移动到指定点", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "移动到指定点", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction1", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "1", 
+                                "param1": "11340.0 55889.980469 214.532227"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition18", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "2", 
+                                "param1": "11340.0 55889.980469 214.532227"
+                            }
+                        ], 
+                        "id": 62
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }
+}

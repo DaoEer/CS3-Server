@@ -1,0 +1,17 @@
+{
+    "TongPlunderShop": {
+        "15005": {
+            "itemID": 203010007, 
+            "pageIndex": 0, 
+            "price": {
+                "money": 10
+            }, 
+            "refreshType": 0, 
+            "paging": "手套", 
+            "buyLimit": -1, 
+            "id": "15005", 
+            "condition": {}, 
+            "isShared": 0
+        }
+    }
+}

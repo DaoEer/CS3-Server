@@ -1,0 +1,49 @@
+<root>
+	<Properties>
+		<chuanChengSkillsBar>		<!-- 传承技能装备栏 -->
+			<Type> CHUANCHENG_SKILL_BAR_DATAS	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	true			</Persistent>
+		</chuanChengSkillsBar>
+		<chuanChengUpgrade>	<!-- 传承技能升级数据 -->
+			<Type>			DICT_INT_INT		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>	true				</Persistent>
+		</chuanChengUpgrade>
+	</Properties>
+
+	<ClientMethods>
+		<UpdateChuanChengSkillBar>
+			<Arg> CHUANCHENG_SKILL_BAR_DATA	</Arg>
+		</UpdateChuanChengSkillBar>
+		<UpdateChaunChengExp>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</UpdateChaunChengExp>
+	</ClientMethods>
+
+	<CellMethods>
+		<requestUnlockChuanChengSkillBar>	<!-- 解锁传承技能装备栏位 -->
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</requestUnlockChuanChengSkillBar>
+		<requestFitChuanChengSkill>	<!-- 装上传承技能 -->
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</requestFitChuanChengSkill>
+		
+		<requestUnloadChuanChengSkill>	<!-- 卸下传承技能 -->
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</requestUnloadChuanChengSkill>
+		<requestChuanChengSkillUpgrade>
+			<Exposed/>
+			<Arg>	INT32		</Arg>	<!-- 技能id -->
+		</requestChuanChengSkillUpgrade>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

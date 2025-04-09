@@ -1,0 +1,12 @@
+<root>
+	<Interfaces>
+		<Interface> 	StateInterface		</Interface>
+	</Interfaces>
+	<CellMethods>
+		<CState_change>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</CState_change>
+	</CellMethods>
+</root>

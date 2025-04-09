@@ -1,0 +1,223 @@
+{
+    "41-48": {
+        "secondLunTwoLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040042", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "firstLunThreeLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040043", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "firstLunQuestID": 80135033, 
+        "thirdLunQuestID": 80135033, 
+        "secondLunOneLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040041", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "thirdLunThreeLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040043", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "thirdLunOneLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040041", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "secondLunThreeLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040043", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "firstLunTwoLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040042", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "quests": {
+            "1": [
+                80135064, 
+                80135028, 
+                80135025, 
+                80135007
+            ], 
+            "0": [], 
+            "3": [
+                80135049, 
+                80135059
+            ], 
+            "2": [
+                80135060, 
+                80135061, 
+                80135062, 
+                80135063
+            ]
+        }, 
+        "secondLunQuestID": 80135033, 
+        "levelSection": "41-48", 
+        "thirdLunTwoLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040042", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "firstLunOneLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040041", 
+                "script": "QuestRewardItem"
+            }
+        ]
+    }, 
+    "25-40": {
+        "secondLunTwoLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040042", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "firstLunThreeLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040043", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "firstLunQuestID": 80135033, 
+        "thirdLunQuestID": 80135033, 
+        "secondLunOneLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040041", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "thirdLunThreeLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040043", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "thirdLunOneLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040041", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "secondLunThreeLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040043", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "firstLunTwoLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040042", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "quests": {
+            "1": [
+                80135005, 
+                80135006, 
+                80135003, 
+                80135004, 
+                80135058
+            ], 
+            "0": [], 
+            "3": [
+                80135042, 
+                80135044, 
+                80135047, 
+                80135048, 
+                80135051, 
+                80135056, 
+                80135057, 
+                80135052, 
+                80135046, 
+                80135055, 
+                80135045, 
+                80135050, 
+                80135049, 
+                80135059, 
+                80135043
+            ], 
+            "2": []
+        }, 
+        "secondLunQuestID": 80135033, 
+        "levelSection": "25-40", 
+        "thirdLunTwoLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040042", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "firstLunOneLoopRewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040041", 
+                "script": "QuestRewardItem"
+            }
+        ]
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "20102020": {
+        "tasks": [
+            {
+                "navigateData": "30000238#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往蛇王岛，清剿蛇妖"
+            }, 
+            {
+                "navigateData": "(-61039.0 44411.0 -317.0)#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "7", 
+                "param2": "-61039.0 44411.0 -317.0", 
+                "param1": "L_BQDB", 
+                "id": 2, 
+                "name": "返回轩辕部落"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102020, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointClose", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3087"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102019"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "18202", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "725", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8144", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1380", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045061|Q045062|Q045063", 
+        "finish_by": "10000438#L_BQDB", 
+        "taskLogDes": "@S{4}蛇妖投毒是为吸食人族魂魄，医师药尘请你前往蛇王岛，剿灭蛇王以绝后患。|@S{4}返回轩辕部落。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045080", 
+        "nextQuest": "20102015|20102026|20102026|20102026", 
+        "taskCompleteFunctions": {}, 
+        "level": 32, 
+        "title": "蛇王岛", 
+        "isAutoCommit": 1, 
+        "start_by": "10000442#L_BQDB", 
+        "isAutoAccept": 1
+    }
+}

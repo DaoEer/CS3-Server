@@ -1,0 +1,195 @@
+{
+    "20101107": {
+        "tasks": [
+            {
+                "navigateData": "20001417|20001418|20001419|20001420|20001421|20001422#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20001417|20001418|20001419|20001420|20001421|20001422", 
+                "id": 1, 
+                "name": "消灭青龙族守卫"
+            }, 
+            {
+                "navigateData": "30000032#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "杀入青龙府"
+            }, 
+            {
+                "navigateData": "30000033#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 4, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 5, 
+                "name": "前往龙魂道场，制服蚩龙"
+            }, 
+            {
+                "navigateData": "10000173#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 5, 
+                "param3": "25", 
+                "param2": "23430 -15300 15417.1", 
+                "param1": "L_FMC", 
+                "id": 6, 
+                "name": "回禀无极道祖"
+            }, 
+            {
+                "navigateData": "20005216|20005217|20005218|20005219|20005220|20005221#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20005216|20005217|20005218|20005219|20005220|20005221", 
+                "id": 2, 
+                "name": "消灭青龙族精兵"
+            }, 
+            {
+                "navigateData": "20001436|20001437|20001438|20001439|20001440|20001441#L_FMNL", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20001436|20001437|20001438|20001439|20001440|20001441", 
+                "id": 4, 
+                "name": "消灭道场守卫"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11004100"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2009"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101107, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11004100"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101106"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11004100"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2980", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "644", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1046", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "375", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102060002|102060006|102060010|102060014", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}无极道祖让你前往凤鸣南麓的青龙府，降服青龙族长蚩龙，并将其押往凤鸣城，交由无极道祖处置。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101108", 
+        "taskCompleteFunctions": {
+            "6": [
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000061"
+                }
+            ]
+        }, 
+        "level": 12, 
+        "title": "（废弃）降服青龙氏族", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

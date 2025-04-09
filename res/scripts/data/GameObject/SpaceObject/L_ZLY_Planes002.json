@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlane",
+"scriptID"	: "L_ZLY_Planes002",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_ZLY_Planes002",
+"NavmeshPath"	: "space\\L_ZLY_Planes002_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_ZLY",
+	"Position"	: "70113.21 24306.78 -382.14",
+	"Direction"	: "0 0 -179.9"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_ZLY_Planes002",
+	"eventFile":"SE_L_ZLY_Planes002"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,279 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 1, 
+    "dead": {
+        "subStateDatas": {
+            1: {
+                "name": "死亡状态", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "向陷阱发送1", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction10", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "1", 
+                                "param2": "20001039", 
+                                "param1": "50"
+                            }
+                        ], 
+                        "EID": [
+                            2
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition8", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "id": 2
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {
+            1: {
+                "name": "战斗", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "呼叫同伴", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction15", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }, 
+                            {
+                                "script": "AIAction50", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "-222.428345 -29655.675781 14576.546875"
+                            }
+                        ], 
+                        "EID": [
+                            3
+                        ], 
+                        "Conditions": [], 
+                        "id": 3
+                    }, 
+                    {
+                        "comment": "gw1321近战普攻", 
+                        "odds": 0.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction67", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "100174001|100175001|100176001"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [], 
+                        "id": 4
+                    }, 
+                    {
+                        "comment": "每隔三秒，选择最高伤害为攻击目标", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction8", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [], 
+                        "id": 5
+                    }, 
+                    {
+                        "comment": "距离玩家超过5米开始追击", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction177", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "6"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition23", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "5"
+                            }
+                        ], 
+                        "id": 6
+                    }, 
+                    {
+                        "comment": "距离玩家2-5米靠近或游走", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction176", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "2.5"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition23", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "2"
+                            }, 
+                            {
+                                "script": "AICondition24", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "5"
+                            }
+                        ], 
+                        "id": 7
+                    }, 
+                    {
+                        "comment": "距离玩家小于2米攻击或者远离", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction175", 
+                                "param5": "", 
+                                "param4": "5", 
+                                "param3": "100174001|100175001|100176001", 
+                                "param2": "2.5", 
+                                "param1": "0.7"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition24", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "2"
+                            }
+                        ], 
+                        "id": 8
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {
+            1: {
+                "name": "自由", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "重置出生点", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction50", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "0.00  0.00  -159.99", 
+                                "param1": "-222.428345 -29655.675781 14576.546875"
+                            }, 
+                            {
+                                "script": "AIAction6", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }, 
+                            {
+                                "script": "AIAction53", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "EID": [
+                            1
+                        ], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition6", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ], 
+                        "id": 1
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }
+}

@@ -1,0 +1,128 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<groupDict>										<!--讨论组数据-->
+			<Type>				PYTHON_DICT		</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>			false			</Persistent>
+			<Default>			{}			</Default>
+		</groupDict>
+		<playerNameDict>									<!--玩家加入讨论组的数量-->
+			<Type>				PYTHON_DICT		</Type>
+			<Flags>				BASE			</Flags>
+			<Persistent>			false			</Persistent>
+			<Default>			{}			</Default>
+		</playerNameDict>
+	</Properties>
+
+	<BaseMethods>
+		<assignedRelationUID>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+		</assignedRelationUID>
+		<createGroup>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	BOOL			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	UINT8			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	INT32			</Arg>
+		</createGroup>
+		<invitedToGroup>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</invitedToGroup>
+		<replyForInvitedToGroup>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	UINT8			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	INT32			</Arg>
+		</replyForInvitedToGroup>
+		<requestEnterGroup>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	UINT8			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	INT32			</Arg>
+		</requestEnterGroup>
+		<requestEnterGroupByPassword>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	DBID			</Arg>
+			<Arg>	UINT8			</Arg>
+			<Arg>	UINT16			</Arg>
+			<Arg>	INT32			</Arg>
+		</requestEnterGroupByPassword>
+		<updateGroupInfo>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	BOOL			</Arg>
+			<Arg>	STRING			</Arg>
+		</updateGroupInfo>
+		<activeLeaveGroup>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</activeLeaveGroup>
+		<passiveLeaveGroup>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</passiveLeaveGroup>
+		<deleteGroup>
+			<Arg>	UINT32			</Arg>
+		</deleteGroup>
+		<onRoleGetCell>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UINT16			</Arg>
+		</onRoleGetCell>
+		<onRoleLoseCell>
+			<Arg>	UNICODE			</Arg>
+		</onRoleLoseCell>
+		<onGroupChat>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	CHAT_DATA		</Arg>
+		</onGroupChat>
+		<changeGroupLeater>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</changeGroupLeater>
+		<addGroupBlackList>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</addGroupBlackList>
+		<delGroupBlackList>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</delGroupBlackList>
+		<addEndTime>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+			<Arg>	UINT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	UINT8			</Arg>
+		</addEndTime>
+		<requestRandomGroup>
+			<Arg>	BASE_ENTITYCALL		</Arg>
+		</requestRandomGroup>
+	</BaseMethods>
+</root>

@@ -1,0 +1,49 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	
+	<Properties>
+		<zhenyanGroupID>		<!-- 真言组ID（包括真言、虚影、地板三个一致） -->
+			<Type>		INT8			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+		</zhenyanGroupID>
+	</Properties>
+
+	<ClientMethods>
+		<onStartOccupy/>
+		
+		<onEndOccupy>
+			<Arg>		INT8	</Arg>
+		</onEndOccupy>
+		
+		<onNotifyExplodeCountdown>		<!-- -1:取消预警   0：爆炸效果   >0：爆炸倒计时 -->
+			<Arg>		INT32	</Arg>
+		</onNotifyExplodeCountdown>
+		
+		<onExtinguishLight>		<!-- 熄灭部分已经点亮的点 -->
+			<Arg>		INT32	</Arg>
+		</onExtinguishLight>
+	</ClientMethods>
+
+	<CellMethods>
+		<onTreadZYXY>
+			<Exposed/>
+		</onTreadZYXY>
+		
+		<onTreadZYPoint>
+			<Exposed/>
+		</onTreadZYPoint>
+	</CellMethods>
+</root>
+

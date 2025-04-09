@@ -1,0 +1,30 @@
+﻿{
+"SpaceName"	: "雷狱危机",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "cycle_L_LYSL",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_LYSL",
+"NavmeshPath"	: "space\\L_LYSL_LY_NAVMESH",
+"PatrolRouteFile": "P_L_LYSL",
+"belongType"	: "1",
+"SpaceHoldEffect"	:"101010106",
+"ExitSpace"	:{
+	"ScriptID"	: "L_KWSM_1",
+	"Position"	: "-109171.0 -89652.0 -286.0",
+	"Direction"	: "0.0 0.0 -150.6"
+	},
+"SpaceData"	:{
+	"enterPosition":"-360 -2150 240",
+	"enterDirection":"0 0 0",
+	"statisticsFile":"ST_L_LYSL",
+	"eventFile":"SE_L_LYSL",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"logoutCloseTime":1,
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

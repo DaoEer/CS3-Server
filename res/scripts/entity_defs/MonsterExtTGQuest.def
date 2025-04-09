@@ -1,0 +1,39 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Implements>
+	</Implements>
+
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<basePlayerMB>
+			<Type>         BASE_ENTITYCALL		</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+		</basePlayerMB>
+		<battackID>
+			<Type>         INT32			</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+		</battackID>
+		<dstPos>
+			<Type>         POSITION			</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+		</dstPos>
+		<bBeginQuest>
+			<Type>         BOOL			</Type>
+			<Flags>        CELL_PUBLIC		</Flags>
+		</bBeginQuest>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

@@ -1,0 +1,40 @@
+﻿{
+"SpaceName"	: "真龙棋局",
+"EntityType"	: "SpaceCopyZhenLongQiJu",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyZhenLongQiJu",
+"scriptID"	: "fu_ben_L_ZLQJ",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_fu_ben_L_ZLQJ",
+"NavmeshPath"	: "space\\L_ZLQJ_02_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_ZLQJ",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544022,
+	"spaceIntroduce":{"voiceID":"C000064"},
+	"enterPosition":"-3512.0 -3409.0 555.0 ",
+	"enterDirection":"0 0 90",
+	"stageFile":"SS_fu_ben_L_ZLQJ",
+	"eventFile":"SE_fu_ben_L_ZLQJ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1,
+	"originPos":"34.066074|7.632542|-33.051727",
+	"unitLength":"4.15",
+	"blackID":"40000019",
+	"whiteID":"40000020",
+	"bossID":"20002485",
+	"effectID":"100129_1|100129",
+	"skillID":"120252001|120251001",
+	"refreshTime":5.0,
+	"refreshCountRates":"0.35|0.6|0.5"
+	},
+"DomainData"	:{
+	}
+}

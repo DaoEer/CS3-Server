@@ -1,0 +1,137 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "为陆压护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012725#L_HMT_Planes002"
+                }
+            }, 
+            "title": "为陆压护法"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天邪法师", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012732", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012731|20012732#L_HMT_Planes002"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天邪狼妖", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012731", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012731|20012732#L_HMT_Planes002"
+                }
+            }, 
+            "title": "灭上古魔物"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天邪虫妖", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012729|20012730", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012729|20012730#L_HMT_Planes002"
+                }
+            }, 
+            "title": "灭上古魔物"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天邪螳王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012735", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012735#L_HMT_Planes002"
+                }
+            }, 
+            "title": "灭上古魔物"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭天邪修士", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012733|20012734", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012733|20012734#L_HMT_Planes002"
+                }
+            }, 
+            "title": "灭上古魔物"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回紫霄宫", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012726#L_HMT_Planes002"
+                }
+            }, 
+            "title": "返回紫霄宫"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得封神榜", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010162", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20012725#L_HMT_Planes002"
+                }
+            }, 
+            "title": "取得封神榜"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "镇压魔物"
+}

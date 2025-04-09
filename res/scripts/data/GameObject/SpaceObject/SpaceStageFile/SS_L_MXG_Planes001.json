@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "寻找谛听的下落", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭缥缈阁侍从", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007687|20007688", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(21408.3 -31609.1 586.4)#L_MXG_Planes001"
+                }
+            }, 
+            "title": "探访冥仙谷"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭玄匡", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007691", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007691#L_MXG_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "营救听天兽", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007693", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007693#L_MXG_Planes001"
+                }
+            }, 
+            "title": "营救听天兽"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "冥仙谷"
+}

@@ -1,0 +1,98 @@
+{
+    "20101719": {
+        "tasks": [
+            {
+                "navigateData": "30000107#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "通过幻阵"
+            }, 
+            {
+                "navigateData": "10000293#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "9", 
+                "param2": "-68890 -42830 5433", 
+                "param1": "L_FLS", 
+                "id": 2, 
+                "name": "取得星辰之石"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101719, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101718"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12206", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "891", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1703", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030545|Q030546|Q032581|Q032582", 
+        "finish_by": "10000293#L_FLS", 
+        "taskLogDes": "@S{4}从燃灯道人处得知，想要换取@F{fc=c41}星辰之石@D，必须先通过他在浮屠古寺后院设下的幻阵。|@S{4}从燃灯道人处得知，想要换取@F{fc=c41}星辰之石@D，必须先通过他在浮屠古寺后院设下的幻阵。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q032591", 
+        "nextQuest": "20101747|20101748|20101747|20101747", 
+        "taskCompleteFunctions": {}, 
+        "level": 25, 
+        "title": "幻象考验", 
+        "isAutoCommit": 1, 
+        "start_by": "10000293#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

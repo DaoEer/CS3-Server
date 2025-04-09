@@ -1,0 +1,147 @@
+{
+    "20101144": {
+        "tasks": [
+            {
+                "navigateData": "(-18680.0 22488.0 348.0)#L_TJGJD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "20", 
+                "param2": "-18680.0 22488.0 348.0", 
+                "param1": "L_TJGJD", 
+                "id": 1, 
+                "name": "前往天机谷核心禁地"
+            }, 
+            {
+                "navigateData": "20000040|20000041#L_TJGJD", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000040|20000041", 
+                "id": 2, 
+                "name": "消灭太古护卫"
+            }, 
+            {
+                "navigateData": "20000045|20000046#L_TJGJD", 
+                "goal": 4, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000045|20000046", 
+                "id": 3, 
+                "name": "消灭太古护法"
+            }, 
+            {
+                "navigateData": "30000714#L_TJGJD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "深入天机谷禁地寻找盘古秘宝"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncTeleportSpace", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "0 0 33.0", 
+                "param2": "-18680.0 22488.0 348.0", 
+                "param1": "L_TJGJD"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101144, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101108"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6406", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "699", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1135", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "440", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102050002|102050005|102050008|102050011", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q021124", 
+        "finish_by": "10001078#L_TJGJD", 
+        "taskLogDes": "@S{4}虬云已将你送入天机谷禁地，请你深入禁地找寻盘古秘宝。|@S{4}虬云已将你送入天机谷禁地，请你深入禁地找寻盘古秘宝。|@S{4}虬云已将你送入天机谷禁地，请你深入禁地找寻盘古秘宝。|@S{4}此处有盘古大神座下的腾龙镇守，请你通过腾龙的考验。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q021141", 
+        "nextQuest": "20101109", 
+        "taskCompleteFunctions": {
+            "4": [
+                {
+                    "script": "QuestFuncSetTeleportPointOpen", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "2019"
+                }
+            ]
+        }, 
+        "level": 14, 
+        "title": "天机谷", 
+        "isAutoCommit": 1, 
+        "start_by": "10000452#L_FMNL", 
+        "isAutoAccept": 1
+    }
+}

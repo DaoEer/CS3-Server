@@ -1,0 +1,11 @@
+[
+    {
+        "NeedPotential": 10, 
+        "BlankJadeExp": 20, 
+        "CompleteJadeExp": 40, 
+        "Level": 10, 
+        "BrokenJadeExp": 10, 
+        "SkillJadeExp": 100, 
+        "Name": "1"
+    }
+]

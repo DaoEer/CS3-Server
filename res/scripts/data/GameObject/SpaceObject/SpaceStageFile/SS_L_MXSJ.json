@@ -1,0 +1,12 @@
+{
+    "stages": {
+        "1": {
+            "comment": "消灭魔象", 
+            "tasks": {}, 
+            "title": "魔象水晶"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "魔象水晶"
+}

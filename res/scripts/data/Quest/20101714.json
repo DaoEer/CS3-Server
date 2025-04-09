@@ -1,0 +1,114 @@
+{
+    "20101714": {
+        "tasks": [
+            {
+                "navigateData": "(40484.175781 43737.519531 -17905.177734)#L_SYX", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010054", 
+                "id": 1, 
+                "name": "消灭火麒麟，取得源生火焰"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002022"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101714, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010054"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101712|20101713"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010054"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13175", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "855", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1635", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "864", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030727|Q030728", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}祖巫帝江让你先行前往蛇炎星，扫清火焰洞窟的小妖，引出并击败火麒麟，取得@F{fc=c41}源生火焰@D。|@S{4}火麒麟已现身，请协助祖巫帝江一同将其击败，取得源生火焰。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101745|20101746|20101745|20101745", 
+        "taskCompleteFunctions": {}, 
+        "level": 24, 
+        "title": "消灭火麒麟", 
+        "isAutoCommit": 1, 
+        "start_by": "10000053#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

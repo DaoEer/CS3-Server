@@ -1,0 +1,50 @@
+{
+    "71100004": {
+        "tasks": [
+            {
+                "navigateData": "10001351#L_LHMJ_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "303020008", 
+                "id": 1, 
+                "name": "获得灵气罗盘"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "C001604|C001787"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 71100004, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [], 
+        "script": "QuestScriptQiYuan", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestQiYuan", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}水清清那拥有一个可以探索并寻找洞府福地的@F{fc=c4}灵气罗盘@D，快去找她领取吧！", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "71100005", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "轮回秘境（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

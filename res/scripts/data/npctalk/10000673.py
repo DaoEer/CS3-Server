@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "10000673": {
+        "talks": [
+            {
+                "msg": "Q017155", 
+                "keys": [
+                    {
+                        "type": 0, 
+                        "key": "cangku", 
+                        "title": "仓库"
+                    }
+                ], 
+                "functions": [], 
+                "key": "Talk", 
+                "visibles": []
+            }, 
+            {
+                "msg": "", 
+                "keys": [], 
+                "functions": [
+                    {
+                        "expenditures": [], 
+                        "conditions": [], 
+                        "actions": [
+                            {
+                                "key": "TAOpenStore", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": ""
+                            }
+                        ]
+                    }
+                ], 
+                "key": "cangku", 
+                "visibles": []
+            }
+        ], 
+        "npcID": "10000673"
+    }
+}

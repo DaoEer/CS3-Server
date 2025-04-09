@@ -1,0 +1,30 @@
+﻿{
+"SpaceName"	: "魔象水晶",
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyRingTaskChild",
+"scriptID"	: "cycle_L_MXSJ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_MXSJ",
+"NavmeshPath"	: "space\\L_MXSJ_NAVMESH",
+"PatrolRouteFile": "P_L_MXSJ",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"6870.0 -5920.0 490.0",
+	"enterDirection":"0 0 -80",
+	"statisticsFile":"ST_L_MXSJ",
+	"eventFile":"SE_L_MXSJ",
+	"monsterUseSpaceLevel":1,
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"monsterUseSpaceLevel":1
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,108 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营卫兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006614|20006620|20007462|20007454|20007452|20006608|20006604|20006602", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(37950.0 28110.0 610.0)#L_BQDB_Planes015"
+                }
+            }, 
+            "title": "围剿来敌"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击碎牢笼解救族人", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012342|20012343", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(52310.0 26580.0 940.0)#L_BQDB_Planes015"
+                }
+            }, 
+            "title": "解救族人"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "剿灭浑天营侍卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006631|20006649|20006645|20006647", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(50832.5 32023.7 941.4)#L_BQDB_Planes015"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败浑天营将领雷月", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006654", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006654#L_BQDB_Planes015#2"
+                }
+            }, 
+            "title": "深入营地"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭浑天营亲卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006664|20006666", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(48369.9 46826.2 944.7)#L_BQDB_Planes015"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "救下公孙族长", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012344", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(52300.0 54770.0 1407.1)#L_BQDB_Planes015"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败大巫巫修", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006698", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006698#L_BQDB_Planes015#2"
+                }
+            }, 
+            "title": "营救族长"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "魔道入侵"
+}

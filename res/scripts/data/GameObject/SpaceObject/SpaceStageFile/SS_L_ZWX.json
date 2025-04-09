@@ -1,0 +1,165 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭紫微星天兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012961|20012962", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012961|20012962#L_ZWX"
+                }
+            }, 
+            "title": "初登紫微星"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭紫微星护法及其弟子", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012969|20012970", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012969|20012970#L_ZWX"
+                }
+            }, 
+            "title": "激战大护法"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭紫微星暗卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012963|20012964|20012965|20012966|20012967|20012968", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012963|20012964|20012965|20012966|20012967|20012968#L_ZWX"
+                }
+            }, 
+            "title": "深入紫微星"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭紫微星枪兵", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012983", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012983|20012984#L_ZWX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭紫微星射手", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012984", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012983|20012984#L_ZWX"
+                }
+            }, 
+            "title": "深入紫极殿"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭紫微星巡逻守卫", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012972", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012972|20012977|20012978#L_ZWX"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭紫微星咒法", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012977|20012978", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012972|20012977|20012978#L_ZWX"
+                }
+            }, 
+            "title": "前往紫极殿"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与不动明王一起前往紫薇星极", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012991#L_ZWX"
+                }
+            }, 
+            "title": "前往紫薇星极"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败紫薇大帝，占领紫微星", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012986#L_ZWX"
+                }
+            }, 
+            "title": "占领紫微星"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退仙道援军", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012991#L_ZWX"
+                }
+            }, 
+            "title": "协助冥河老祖"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "紫微星"
+}

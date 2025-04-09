@@ -1,0 +1,73 @@
+<root>
+	<Properties>
+		<title>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	true			</Persistent>
+		</title>
+		<titles>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	true			</Persistent>
+		</titles>
+		<availableTitles>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Persistent>	False			</Persistent>
+		</availableTitles>
+		<titleLimitTime> <!--角色的称号时限-->
+			<Type>	TITLE_LIMIT_TIME_LIST	</Type>
+			<Flags>			OWN_CLIENT		</Flags>
+			<Persistent>		true			</Persistent>
+		</titleLimitTime>
+		<titleHoldEffectIndexs>
+			<Type>		ARRAY_INT32		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	False			</Persistent>
+		</titleHoldEffectIndexs>
+	</Properties>
+
+	<ClientMethods>
+		<!--称号-->
+		<CLIENT_OnTitleAdded>
+			<Arg>		INT32			</Arg>	<!-- titleID -->
+		</CLIENT_OnTitleAdded>
+		<CLIENT_OnTitleRemoved>
+			<Arg>		INT32			</Arg>	<!-- titleID -->
+		</CLIENT_OnTitleRemoved>
+		<CLIENT_OnSetTitleData>
+			<Arg>		INT32			</Arg>	<!-- titleID -->
+			<Arg>		STRING			</Arg>	<!-- propertiesStr -->
+			<Arg>		FLOAT			</Arg>	<!-- limitTime -->
+		</CLIENT_OnSetTitleData>
+		<CLIENT_OnSetAvailableTitleData>
+			<Arg>		INT32			</Arg>	<!-- titleID -->
+			<Arg>		STRING			</Arg>	<!-- propertiesStr -->
+			<Arg>		FLOAT			</Arg>	<!-- limitTime -->
+		</CLIENT_OnSetAvailableTitleData>
+	</ClientMethods>
+	<CellMethods>
+		<!--称号-->
+		<CELL_selectTitle> <!--玩家选择一个称号-->
+			<Exposed/>
+			<Arg>	INT32	</Arg>	<!--titleID-->
+		</CELL_selectTitle>
+
+		<addTitle>
+			<Arg>		INT32			</Arg>	<!-- titleID -->
+		</addTitle>
+
+		<removeTitle>
+			<Arg>		INT32			</Arg>	<!-- titleID -->
+		</removeTitle>
+	</CellMethods>
+	<BaseMethods>
+		<addTitle>
+			<Arg>		INT32			</Arg>	<!-- titleID -->
+		</addTitle>
+
+		<removeTitle>
+			<Arg>		INT32			</Arg>	<!-- titleID -->
+		</removeTitle>
+	</BaseMethods>
+</root>

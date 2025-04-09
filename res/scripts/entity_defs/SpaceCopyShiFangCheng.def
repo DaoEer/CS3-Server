@@ -1,0 +1,39 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<startTime>
+			<Type>		TIME	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</startTime>
+		<useStageIndex>
+			<Type>		INT32	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</useStageIndex>
+	</Properties>
+
+	<CellMethods>
+		<activityStart>
+			<Arg>	INT32		</Arg>
+		</activityStart>
+		<activityEnd/>
+		<destroyWall/>
+		<onReady/>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<activityStart>
+			<Arg>	INT32		</Arg>
+		</activityStart>
+		<activityEnd/>
+	</BaseMethods>
+</root>

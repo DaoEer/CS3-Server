@@ -1,0 +1,34 @@
+﻿{
+"SpaceName"	: "气运转盘",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildLuck",
+"scriptID"	: "fu_ben_L_HZMG_QYZP",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_fu_ben_L_QYZP",
+"NavmeshPath"	: "space\\L_HZMG_QYZP_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 10,
+	"spaceIntroduce":{"voiceID":"C000372"},
+	"enterPosition":"757.006287 1326.724121 -1107.869995",
+	"enterDirection":"0 0 -160",
+	"stageFile":"",
+	"eventFile":"",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+	"extraBuffBonus":"12154301|12154302",
+  	"LuckvoiceID":"C000382|C000383|C000384|C000385|C000587|C000588|C000386",
+            "monsterUseSpaceLevel": 1,
+            "delayTeleportTime":20,
+            "delayNotifyTime":12
+	},
+"DomainData"	:{
+	}
+}

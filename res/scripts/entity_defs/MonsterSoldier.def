@@ -1,0 +1,19 @@
+<root>
+	<Parent>
+		MonsterOptimize
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<!--<ClientName>		MonsterSoldier	</ClientName>-->
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

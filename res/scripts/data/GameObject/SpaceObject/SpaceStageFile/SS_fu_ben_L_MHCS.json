@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "帮助仙人整理问题，赢取奖励", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "答题考试"
+        }, 
+        "2": {
+            "comment": "在剩余时间内尽可能多的整理问题，赢得奖励", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "", 
+                    "reqVal": 0, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "答题考试"
+        }
+    }, 
+    "describe": "35级幻阵迷宫，修仙副本", 
+    "beginOnSpaceInit": 1, 
+    "name": "迷幻丛书"
+}

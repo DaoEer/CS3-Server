@@ -1,0 +1,241 @@
+{
+    "stages": {
+        "1": {
+            "comment": "领取并完成任务1", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往传送点一领取任务", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-33520.000000 10890.000000 18792.281250:20", 
+                    "param2": "24000|14000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-33520.000000 10890.000000 18792.281250)#cycle_L_HRWMJ02"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "完成任务1", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "CommitLoopQuest", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-33520.000000 10890.000000 18792.281250)#cycle_L_HRWMJ02"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入传送点一", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "21", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-33520.000000 10890.000000 18792.281250)#cycle_L_HRWMJ02"
+                }
+            }, 
+            "title": "第二环 任务1"
+        }, 
+        "3": {
+            "comment": "领取并完成任务3", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "借助旋风跳跃到达传送点三领取任务", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-10595.044922 -3858.012451 20025.814453:25", 
+                    "param2": "25000|15000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "完成任务3", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "CommitLoopQuest", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-10595.044922 -3858.012451 20025.814453)#cycle_L_HRWMJ02"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入传送点三", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "23", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-10595.044922 -3858.012451 20025.814453)#cycle_L_HRWMJ02"
+                }
+            }, 
+            "title": "第二环 任务3"
+        }, 
+        "2": {
+            "comment": "领取并完成任务2", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "借助旋风跳跃到达传送点二领取任务", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-14960.009766 15980.023438 25835.138672:25", 
+                    "param2": "31000|21000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "完成任务2", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "CommitLoopQuest", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-14960.009766 15980.023438 25835.138672)#cycle_L_HRWMJ02"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入传送点二", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "22", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-14960.009766 15980.023438 25835.138672)#cycle_L_HRWMJ02"
+                }
+            }, 
+            "title": "第二环 任务2"
+        }, 
+        "5": {
+            "comment": "领取并完成任务5", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "借助旋风跳跃到达传送点五领取任务", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "23280.033203 10400.241211 23785.777344:40", 
+                    "param2": "29000|19000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "完成任务5", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "CommitLoopQuest", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(23280.033203 10400.241211 23785.777344)#cycle_L_HRWMJ02"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入传送点五", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "25", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(23280.033203 10400.241211 23785.777344)#cycle_L_HRWMJ02"
+                }
+            }, 
+            "title": "第二环 任务5"
+        }, 
+        "4": {
+            "comment": "领取并完成任务4", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过跳跃小浮台到达传送点四领取任务", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "4220.000000 6470.000000 15951.660156:30", 
+                    "param2": "21000|11000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "完成任务4", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "CommitLoopQuest", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(4220.000000 6470.000000 15951.660156)#cycle_L_HRWMJ02"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入传送点四", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "24", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(4220.000000 6470.000000 15951.660156)#cycle_L_HRWMJ02"
+                }
+            }, 
+            "title": "第二环 任务4"
+        }, 
+        "6": {
+            "comment": "领取并完成任务6", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通过跳跃小浮台到达传送点六领取任务", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "33850.000000 -8510.000000 27670.000000:40", 
+                    "param2": "33000|23000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "完成任务6", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "CommitLoopQuest", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(33850.000000 -8510.000000 27670.000000)#cycle_L_HRWMJ02"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入传送点六", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "26", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(33850.000000 -8510.000000 27670.000000)#cycle_L_HRWMJ02"
+                }
+            }, 
+            "title": "第二环 任务6"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "神风仙境"
+}

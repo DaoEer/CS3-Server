@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "一路前进登顶炼狱塔", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭炼狱塔周边守卫", 
+                    "reqVal": 11, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003133|20003132|20003173|20012232|20012233|20012234|20003134", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "登上炼狱塔顶", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-9177 -3734 22234:5", 
+                    "param2": "23264|21714", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭炼狱塔精英守卫", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003138|20003139", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "熔岩炼狱塔"
+        }, 
+        "2": {
+            "comment": "在塔顶消灭魔修桀骜", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭桀骜", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003140", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "塔顶诛魔修"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "炼狱之塔"
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "Index": 1, 
+        "Multiple": 1.0, 
+        "Loop": 1
+    }, 
+    {
+        "Index": 2, 
+        "Multiple": 1.1000000238418579, 
+        "Loop": 1
+    }, 
+    {
+        "Index": 3, 
+        "Multiple": 1.2000000476837158, 
+        "Loop": 1
+    }, 
+    {
+        "Index": 1, 
+        "Multiple": 1.1000000238418579, 
+        "Loop": 2
+    }, 
+    {
+        "Index": 2, 
+        "Multiple": 1.2100000381469727, 
+        "Loop": 2
+    }, 
+    {
+        "Index": 3, 
+        "Multiple": 1.3200000524520874, 
+        "Loop": 2
+    }, 
+    {
+        "Index": 1, 
+        "Multiple": 1.2000000476837158, 
+        "Loop": 3
+    }, 
+    {
+        "Index": 2, 
+        "Multiple": 1.3200000524520874, 
+        "Loop": 3
+    }, 
+    {
+        "Index": 3, 
+        "Multiple": 1.440000057220459, 
+        "Loop": 3
+    }
+]

@@ -1,0 +1,83 @@
+<root>
+	<Interfaces>
+		<Interface>		TrapObject				</Interface>
+		<Interface>		TrapStateInterface		</Interface>
+		<Interface>		SkillInterface			</Interface>
+		<Interface>		EntityRelationTable		</Interface>
+	</Interfaces>
+
+	<!--<ClientName>	Trap	</ClientName>-->
+
+	<Properties>
+		<triggerRadius> <!-- 触发半径（球、圆柱体） -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</triggerRadius>
+		
+		<triggerDepth> <!-- 触发长度（矩形） -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</triggerDepth>
+		
+		<triggerWidth> <!-- 触发宽度（宽度） -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</triggerWidth>
+		
+		<triggerHeight> <!-- 触发高度（矩形、圆柱体） -->
+			<Type>			FLOAT				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</triggerHeight>
+		
+		<triggerShape> <!-- 触发形状 -->
+			<Type>			INT32				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</triggerShape>
+
+		<enterIDs>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Persistent>		false			</Persistent>
+		</enterIDs>
+
+		<enterActionRecd>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		[]			</Default>
+			<Persistent>		false			</Persistent>
+		</enterActionRecd>
+
+		<leaveActionRecd>
+			<Type>			ARRAY_INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		[]			</Default>
+			<Persistent>		false			</Persistent>
+		</leaveActionRecd>
+		<triggerPosition> <!-- 触发器位置 -->
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</triggerPosition>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_PlayDeadEffect>
+			<Arg>	STRING		</Arg>	<!--播放死亡特效-->
+		</CLIENT_PlayDeadEffect>
+		<CLIENT_DelayToAddTrap>
+			<Arg>	FLOAT		</Arg>	<!--延时添加陷阱-->
+		</CLIENT_DelayToAddTrap>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_onEnter>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!--进入陷阱的entityID-->
+		</CELL_onEnter>
+		
+		<CELL_onLeave>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!--离开陷阱的entityID-->
+		</CELL_onLeave>
+	</CellMethods>
+</root>
+

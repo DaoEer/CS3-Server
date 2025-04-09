@@ -1,0 +1,37 @@
+﻿{
+"SpaceName"	: "九字真言",
+"EntityType"	: "SpaceCopyTongJiuZiZhenYan",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyTongJiuZiZhenYan",
+"scriptID"	: "L_JZZY",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_JZZY",
+"NavmeshPath"	: "space\\L_JZZY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceHoldEffect"	:"101010106",
+"SpaceAoi"	: 150.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_BHLD",
+	"Position"	: "4058.0 -5510.0 212.0",
+	"Direction"	: "0.0 0.0 -1.71"
+},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"enterPosition":"-131.9 -4476.8 566.6",
+	"enterDirection":"0.0 0.0 80.0",
+	"stageFile"		:"SS_L_JZZY",
+	"eventFile"		:"SE_L_JZZY",
+	"monsterUseSpaceLevel":1,
+	"logoutCloseTime":1,
+	"bossID"		:"20012639",
+	"buffID"		:"14033401",
+	"reqLevel":20,
+	"doorData":[
+		{"scriptID":40000228, "position":"1287.0 -1969.0 562.0", "direction":"0 0 -55"},
+		{"scriptID":40000229, "position":"-666.0 -1474.0 562.0", "direction":"0 0 -55"}
+		      ]
+},
+"DomainData":{
+}
+}

@@ -1,0 +1,26 @@
+﻿{
+"SpaceName"	: "霜龙秘境",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_ZLMJ",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_fu_ben_L_ZLMJ",
+"NavmeshPath"	: "space\\L_ZLMJ_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_5",
+"SpaceData"	:{
+	"spaceLife"	: 120,
+	"spaceIntroduce":{"voiceID":"C001472|C001473"},
+	"enterPosition":"-14421 -21459 789",
+	"enterDirection":"0 0 90",
+	"stageFile":"SS_fu_ben_L_ZLMJ",
+	"eventFile":"SE_fu_ben_L_ZLMJ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

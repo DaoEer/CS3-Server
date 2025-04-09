@@ -1,0 +1,806 @@
+ <root>
+	<Properties>
+		<castingSkillID>	<!-- 当前施法技能 -->
+			<Type>		SKILL_ID			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</castingSkillID>
+		<receiverID>	<!-- 受术目标ID -->
+			<Type>		OBJECT_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</receiverID>
+		<usingItemUid>	<!-- 当前使用的物品 -->
+			<Type>		UINT64				</Type>
+			<Flags>		OWN_CLIENT			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</usingItemUid>
+		
+		<casterSkillEventList>
+			<Type>		CASTER_SKILL_EVENTS		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</casterSkillEventList>
+		<receiverSkillEventList>
+			<Type>		RECERIVER_SKILL_EVENTS		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</receiverSkillEventList>
+		<casterbuffEventList>
+			<Type>		CASTER_BUFF_EVENTS		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</casterbuffEventList>
+		<receiverbuffEventList>
+			<Type>		RECERIVER_BUFF_EVENTS		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</receiverbuffEventList>
+
+		<attrBuffs>
+			<Type>		BUFFS				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	true				</Persistent>
+		</attrBuffs>
+
+		<attrBuffsForClient>
+			<Type>		BUFF_CLIENT_DATA_LIST		</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Persistent>	false				</Persistent>
+		</attrBuffsForClient>
+
+		<attrCooldowns>
+			<Type>		ARRAY <of> COOLDOWN_DATA </of>	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	{}				</Default>
+			<Persistent>	true				</Persistent>
+		</attrCooldowns>
+
+		<holdEffectData>
+			<Type>		ARRAY<of> HOLD_EFFECT_DATA </of>	</Type>
+			<Flags>		CELL_PRIVATE				</Flags>
+			<Default>	[]					</Default>
+			<Persistent>	false					</Persistent>
+		</holdEffectData>
+
+		<buffHoldTickTimerID>
+			<Type>		TIMER_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0				</Default>
+			<Persistent>		false			</Persistent>
+		</buffHoldTickTimerID>
+		
+		<postureEffectIndex>
+			<Type>		INT16		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	-1				</Default>
+			<Persistent>		false			</Persistent>
+		</postureEffectIndex>
+
+		<skillHitTimerList>		<!-- 当前打击timer -->
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</skillHitTimerList>
+
+		<skillHitTimerDelay>		<!-- 打击迟缓时间-->
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0.0				</Default>
+			<Persistent>	false				</Persistent>
+		</skillHitTimerDelay>
+
+		<checkSkillCastErrorTimer>		<!-- 检测技能施法timer -->
+			<Type>		CONTROLLER_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</checkSkillCastErrorTimer>
+
+		<hitFlyTimer>		<!-- 击飞起身的timer -->
+			<Type>		CONTROLLER_ID			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false				</Persistent>
+		</hitFlyTimer>
+
+		<lastBuffIndex>
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</lastBuffIndex>
+
+		<lastHoldEffectIndex>
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</lastHoldEffectIndex>
+
+		<_isChangeModel>
+			<Type>		BOOL				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0				</Default>
+		</_isChangeModel>
+
+		<sparCDTime>
+			<Type>		TIME				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</sparCDTime>
+		<isInPending>
+			<Type>		INT32				</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Default>	1				</Default>
+			<Persistent>	false				</Persistent>
+		</isInPending>
+		<perSecondEventTimer>		<!--每秒触发事件timer-->
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+		</perSecondEventTimer>
+		<actionIndex>			<!-- 播放动作标识号 -->
+			<Type>			INT32				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1					</Default>
+		</actionIndex>	
+		<nextBuffEndTickValue>			<!--下一个buff结束的时间  -->
+			<Type>			SERVER_TIME			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</nextBuffEndTickValue>	
+		<cacheBuff>			<!-- 排序好的buff缓存 -->
+			<Type>			ARRAY<of> BUFF </of>			</Type>
+			<Flags>			CELL_PRIVATE					</Flags>
+			<Default>		[]								</Default>
+		</cacheBuff>
+		<removeBuffList>			<!-- 即将buff移除列表 -->
+			<Type>			ARRAY_INT32						</Type>
+			<Flags>			CELL_PRIVATE					</Flags>
+			<Default>		[]								</Default>
+		</removeBuffList>
+		<isInterruptSkill>			<!-- 技能中断标识 -->
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}					</Default>
+		</isInterruptSkill>
+		<isInterruptInstantSkill>			<!-- 瞬发技能中断标识 -->
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}					</Default>
+		</isInterruptInstantSkill>
+		<skillActionIndex>			<!-- 技能动作标识 -->
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		{}					</Default>
+		</skillActionIndex>
+		<flyPatrolEffectIndex>		<!-- 飞行路径持有效果index -->
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		{}				</Default>
+			<Persistent>	false			</Persistent>
+		</flyPatrolEffectIndex>
+	</Properties>
+
+	<ClientMethods>
+		<SkillInterrupted>
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		INT32				</Arg>	<!-- 中断原因 -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+		</SkillInterrupted>
+
+		<SetCastingSkill>
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+		</SetCastingSkill>
+    
+		<CastSkillToTarget>	<!-- 施法通知 -->
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		BOOL				</Arg>	<!-- 是不是瞬发技能 -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetIDs -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+		</CastSkillToTarget>
+		<CastSkillToPosition>	<!-- 施法通知 -->
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		BOOL				</Arg>	<!-- 是不是瞬发技能 -->
+			<Arg>		FLOAT				</Arg>	<!-- position.x -->
+			<Arg>		FLOAT				</Arg>	<!-- position.y -->
+			<Arg>		FLOAT				</Arg>	<!-- position.z -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+		</CastSkillToPosition>
+
+		<CastCSkillToTarget>	<!-- 客户端施法通知 -->
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		BOOL				</Arg>	<!-- 是不是瞬发技能 -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetIDs -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- proxyID -->
+		</CastCSkillToTarget>
+		<CastCSkillToPosition>	<!-- 客户端施法通知 -->
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		BOOL				</Arg>	<!-- 是不是瞬发技能 -->
+			<Arg>		FLOAT				</Arg>	<!-- position.x -->
+			<Arg>		FLOAT				</Arg>	<!-- position.y -->
+			<Arg>		FLOAT				</Arg>	<!-- position.z -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- proxyID -->
+		</CastCSkillToPosition>
+		
+		<intonateSpell>	<!-- 吟唱施法 -->
+			<Arg>		FLOAT				</Arg>	<!-- intonateTime -->
+			<Arg>		INT32				</Arg>	<!-- skillID -->
+		</intonateSpell>
+		<intonateSpellOver>	<!-- 吟唱结束 -->
+		</intonateSpellOver>
+
+		<PlayBuffEffect>
+			<Arg>		INT32				</Arg>	<!-- index -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		STRING				</Arg>	<!-- effectID -->
+			<Arg>		STRING				</Arg>	<!-- soundID -->
+		</PlayBuffEffect>
+		<BeHitPlayEffect>	<!-- 受击播放动作光效 -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetID -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->			
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		STRING				</Arg>	<!-- effectID -->
+			<Arg>		STRING				</Arg>	<!-- soundID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+		</BeHitPlayEffect>
+		<BeHitPlayEffectLocal>	<!-- 受击仅目标客户端播放动作光效 -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetID -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->			
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		STRING				</Arg>	<!-- effectID -->
+			<Arg>		STRING				</Arg>	<!-- soundID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+		</BeHitPlayEffectLocal>
+		<HoldEffectPlayEffect>
+			<Arg>		INT32				</Arg>	<!-- casterID -->
+			<Arg>		INT32				</Arg>	<!-- effectIndex -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		STRING				</Arg>	<!-- effectID -->
+			<Arg>		STRING				</Arg>	<!-- soundID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+		</HoldEffectPlayEffect>
+
+		<HoldEffectEndEffect>
+			<Arg>		INT32				</Arg>	<!-- effectIndex -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+		</HoldEffectEndEffect>
+
+		<BuffPlayLinkEffect>
+			<Arg>		INT32				</Arg>
+			<Arg>		INT32				</Arg>
+			<Arg>		STRING				</Arg>
+		</BuffPlayLinkEffect>
+		<BuffEndPlayLinkEffect>
+			<Arg>		INT32				</Arg>
+		</BuffEndPlayLinkEffect>
+
+		<ReceiveSkill>
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+			<Arg>		SKILL_ID			</Arg>	<!-- skillID -->
+			<Arg>		INT32				</Arg>	<!-- damageType -->
+			<Arg>		INT32				</Arg>	<!-- damage -->
+			<Arg>		BOOL				</Arg>	<!-- isCritical -->
+			<Arg>		BOOL				</Arg>	<!-- isParry -->
+		</ReceiveSkill>
+		<onDodgeSkillHit>
+			<Arg>		OBJECT_ID			</Arg>	<!-- casterID -->
+		</onDodgeSkillHit>
+		<SetCooldown>
+			<Arg>		ARRAY_STRING		</Arg>	<!-- cooldownID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- cooldownTime -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- persistTime -->
+		</SetCooldown>
+		<ClearCooldown>
+			<Arg>		BOOL		</Arg>
+		</ClearCooldown>
+		<FlyPatrol>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</FlyPatrol>
+		<StopCycleFlyPatrol>
+			<Arg>		STRING		</Arg>
+		</StopCycleFlyPatrol>
+		<PauseFlyPatrol/>
+		<ReviveFlyPatrol/>
+		<OnBeHitBackNew>	<!-- 新受击击退 -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.x -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.y -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.z -->
+			<Arg>		BUFF_ID				</Arg>	<!-- buffID -->
+			<Arg>		FLOAT				</Arg>	<!-- moveSpeed -->
+			<Arg>		STRING			</Arg>	<!-- actionID -->
+			<Arg>		FLOAT				</Arg>	<!-- actionBeginTime -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetID -->
+		</OnBeHitBackNew>
+		<OnEndHitBack>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		STRING			</Arg>
+		</OnEndHitBack>
+		<CLIENT_ControlledOnBeHitBack>	<!-- 受击击退 -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.x -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.y -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.z -->
+			<Arg>		FLOAT				</Arg>	<!-- moveSpeed -->
+			<Arg>		STRING				</Arg>	<!-- actionID -->
+			<Arg>		FLOAT				</Arg>	<!-- actionBeginTime -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetID -->
+		</CLIENT_ControlledOnBeHitBack>
+		<CLIENT_ControlledEndHitBack>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		STRING			</Arg>
+		</CLIENT_ControlledEndHitBack>
+		<OnPull>	<!-- 拉扯 -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.x -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.y -->
+			<Arg>		FLOAT				</Arg>	<!-- dest.z -->
+			<Arg>		FLOAT				</Arg>	<!-- moveTime -->
+			<Arg>		STRING				</Arg>	<!-- actionID -->
+			<Arg>		FLOAT				</Arg>	<!-- actionBeginTime -->
+			<Arg>		OBJECT_ID			</Arg>	<!-- targetID -->
+		</OnPull>
+		<EndPull>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		STRING				</Arg>
+		</EndPull>
+		<OnChargeToPosition>	<!-- 冲锋移动表现 -->
+			<Arg>		FLOAT				</Arg>	<!-- pos.x -->
+			<Arg>		FLOAT				</Arg>	<!-- pos.y -->
+			<Arg>		FLOAT				</Arg>	<!-- pos.z -->
+			<Arg>		FLOAT				</Arg>	<!-- moveSpeed -->
+		</OnChargeToPosition>
+		<onEndChargeToPosition>
+		</onEndChargeToPosition>
+		<ReplaceSkillBar>
+			<Arg>		STRING		</Arg>
+		</ReplaceSkillBar>
+		<RefreshReplaceSkillBar>
+			<Arg> 		INT32 			</Arg>
+		</RefreshReplaceSkillBar>
+		<OnReplaceSkillBarEnd>
+		</OnReplaceSkillBarEnd>
+		<AddReplaceSkillBar>
+			<Arg>		STRING		</Arg>
+		</AddReplaceSkillBar>
+		<SetAnimRateScale>
+			<Arg>		FLOAT		</Arg>		<!-- 设置动画播放速率 -->
+		</SetAnimRateScale>
+		<StartSkillHitSlow>
+			<Arg>		FLOAT		</Arg>		<!-- 动画播放速率 -->
+			<Arg>		FLOAT		</Arg>		<!-- 动画迟缓时间 -->
+			<Arg>		FLOAT		</Arg>		<!-- 打击迟缓时间 -->
+		</StartSkillHitSlow>
+		<StopSkillHitSlow>
+		</StopSkillHitSlow>
+		<OnChasePlayer>
+			<Arg>		FLOAT		</Arg>
+		</OnChasePlayer>
+		<OnStopMoving>
+		</OnStopMoving>
+		<OnBuffLayerChange>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnBuffLayerChange>
+
+		<onCasterSkillEnd>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		SKILL_ID	</Arg>
+		</onCasterSkillEnd>
+		<OnResetBuffEndTime>
+			<Arg>		INT32		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</OnResetBuffEndTime>
+		<intonateSparSpell>	<!-- 吟唱施法 -->
+			<Arg>		FLOAT				</Arg>	<!-- intonateTime -->
+			<Arg>		INT32				</Arg>	<!-- skillID -->
+		</intonateSparSpell>
+		<intonateSparSpellOver>	<!-- 吟唱结束 -->
+		</intonateSparSpellOver>
+		<OnBuffBulletBegin>
+			<Arg>		STRING		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT32		</Arg>
+		</OnBuffBulletBegin>
+		<OnBuffBulletEnd>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnBuffBulletEnd>
+		<OnRiseBegin>	<!-- 击飞空中 -->
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- actionID -->
+			<Arg>		ARRAY_STRING		</Arg>	<!-- beginTime -->
+			<Arg>		FLOAT				</Arg>	<!-- height -->
+			<Arg>		FLOAT				</Arg>	<!-- speed -->
+		</OnRiseBegin>
+		<OnRiseEnd>
+			<Arg>		INT32				</Arg>	<!-- actionIndex -->
+		</OnRiseEnd>
+		<OnBindBuffBulletBegin>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</OnBindBuffBulletBegin>
+		<OnBindBuffBulletEnd>
+			<Arg>		INT32		</Arg>
+		</OnBindBuffBulletEnd>
+		<OnBuffBulletMultipleBegin>
+			<Arg>		STRING	</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</OnBuffBulletMultipleBegin>
+		<OnBuffBulletMultipleEnd>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnBuffBulletMultipleEnd>
+		<PlayArtificeSpar>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</PlayArtificeSpar>
+		<StopArtificeSpar>
+			<Arg>		STRING		</Arg>
+		</StopArtificeSpar>
+		<DistortScene>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		STRING				</Arg>
+		</DistortScene>
+		<EndDistortScene>
+		</EndDistortScene>
+		<LXDistortScene>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+		</LXDistortScene>
+		<TeleportToDstPosition>
+			<Arg>		POSITION		</Arg>
+		</TeleportToDstPosition>
+		<AddShowBuffExtraTips>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+		</AddShowBuffExtraTips>
+		<RemoveBuffExtraTips>
+			<Arg>		INT32			</Arg>
+		</RemoveBuffExtraTips>
+		<SetCatchTargetId>
+			<Arg>		INT32			</Arg>
+		</SetCatchTargetId>
+		<BeCapture>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+		</BeCapture>
+		<BeReleased>
+			<Arg>		INT32			</Arg>
+		</BeReleased>
+		<SkillTurnToPos>
+			<Arg>		DIRECTION			</Arg>
+		</SkillTurnToPos>
+		<OnRage>
+			<Arg>		INT32				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+		</OnRage>
+		<EndRage>
+			<Arg>		INT32			</Arg>
+		</EndRage>
+		<OnMountCarrier>
+			<Arg>		STRING			</Arg>
+		</OnMountCarrier>
+		<OnDisMountCarrier/>
+		<Frozee/>
+		<Unfreeze/>
+		<StartTransparency> <!-- 开始透明改变 -->
+			<Arg>		FLOAT		</Arg> <!-- 透明淡入时间 -->
+			<Arg>		FLOAT		</Arg> <!-- 起始单位透明度 -->
+			<Arg>		FLOAT		</Arg> <!-- 目标单位透明度 -->
+		</StartTransparency>
+		<EndTransparency> <!-- 结束透明改变 -->
+			<Arg>		FLOAT		</Arg> <!-- 透明淡出时间 -->
+			<Arg>		FLOAT		</Arg> <!-- 目标单位透明度 -->
+			<Arg>		FLOAT		</Arg> <!-- 起始单位透明度 -->
+		</EndTransparency>
+		<StartHideCharacter> <!-- 开始隐身 -->
+			<Arg>		FLOAT		</Arg> <!-- 透明淡入时间 -->
+		</StartHideCharacter>
+		<EndHideCharacter> <!-- 结束隐身 -->
+			<Arg>		FLOAT		</Arg> <!-- 透明淡出时间 -->
+		</EndHideCharacter>
+
+		<PlayModleHighlight>
+			<Arg>		INT32			</Arg> <!-- CasterID -->
+		</PlayModleHighlight>
+		<OnShowIntonateBar>
+			<Arg>		OBJECT_ID	</Arg> <!-- CasterID -->
+			<Arg>		FLOAT		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnShowIntonateBar>
+		<OnHideIntonateBar>
+			<Arg>		OBJECT_ID	</Arg> <!-- CasterID -->
+		</OnHideIntonateBar>
+		<CLIENT_StartSubmerge/>
+		<CLIENT_EndSubmerge/>
+		<OnDissolve>
+			<Arg>		INT32		</Arg>		<!-- 目标ID -->
+			<Arg>		STRING	</Arg>		<!-- 消融的边缘颜色 -->
+			<Arg>		STRING	</Arg>		<!-- 消融的方向 -->
+			<Arg>		FLOAT		</Arg>		<!-- 消融的程度 -->
+			<Arg>		FLOAT		</Arg>		<!-- 到达消融的程度 -->
+			<Arg>		FLOAT		</Arg>		<!-- 消融时间 -->
+			<Arg>		FLOAT		</Arg>		<!-- 消融开始延时 -->
+		</OnDissolve>
+		<EndDissolve>
+			<Arg>		INT32		</Arg>		<!-- 目标ID -->
+			<Arg>		FLOAT		</Arg>		<!-- 消融的程度 -->
+			<Arg>		FLOAT		</Arg>		<!-- 到达消融的程度 -->
+			<Arg>		FLOAT		</Arg>		<!-- 恢复时间 -->
+		</EndDissolve>
+		<CLIENT_AutoRise>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</CLIENT_AutoRise>
+		<CLIENT_StopRise/>
+		<CLIENT_RotateCamera>
+			<Arg>		STRING		</Arg>
+			<Arg>		FLOAT		</Arg>
+		</CLIENT_RotateCamera>
+		<CLIENT_RoleChaseEntity>
+			<Arg>		INT32			</Arg> <!-- skillID -->
+			<Arg>		INT32			</Arg> <!-- TargetID -->
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_RoleChaseEntity>
+		<CLIENT_RoleChaseEntityEnd>
+		</CLIENT_RoleChaseEntityEnd>
+		<CLIENT_RoleChargePosition>
+			<Arg>		POSITION		</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_RoleChargePosition>		
+
+		<CLIENT_OnMountSlide>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		BOOL		</Arg>
+		</CLIENT_OnMountSlide>
+		<CLIENT_OnDismountSlide/>
+		<StartOverLookScene>
+			<Arg>		STRING				</Arg>
+			<Arg>		STRING				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+			<Arg>		FLOAT				</Arg>
+		</StartOverLookScene>
+		<EndOverLookScene>
+			<Arg>		FLOAT				</Arg>
+		</EndOverLookScene>
+		<CLIENT_ForcedJump>
+			<Arg>		FLOAT				</Arg>
+		</CLIENT_ForcedJump>
+		<EnterDark/>
+		<LeaveDark/>
+		<CLIENT_TurnOnLight>
+			<Arg>		FLOAT				</Arg>
+		</CLIENT_TurnOnLight>
+		<CLIENT_TurnOffLight/>
+
+		<CLIENT_OnMountStone>
+			<Arg>		OBJECT_ID			</Arg>
+			<Arg>		BOOL				</Arg>
+		</CLIENT_OnMountStone>
+		<CLIENT_OnDisMountStone>
+		</CLIENT_OnDisMountStone>
+
+		<CLIENT_StopFlyPatrol>
+			<Arg>		STRING		</Arg>
+		</CLIENT_StopFlyPatrol>
+		<IntensifySkill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</IntensifySkill>
+		<CancelIntensifySkill>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CancelIntensifySkill>
+
+		<OnCreateTrace>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnCreateTrace>
+		<OnFinishCreateTrace>
+			<Arg>		OBJECT_ID	</Arg>
+		</OnFinishCreateTrace>
+		<EnterToxicosis>	<!-- 进入中毒表现 -->
+		</EnterToxicosis>
+		<LeaveToxicosis>	<!-- 离开中毒表现 -->
+		</LeaveToxicosis>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<useSkillToEntityFC>
+			<Exposed/>
+			<Arg>	SKILL_ID	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</useSkillToEntityFC>
+		<useSkillToEntity>
+			<Arg>	SKILL_ID	</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</useSkillToEntity>
+		<useSkillToPositionFC>
+			<Exposed/>
+			<Arg>	SKILL_ID	</Arg>
+			<Arg>	POSITION	</Arg>
+		</useSkillToPositionFC>
+		<useSkillToPosition>
+			<Arg>	SKILL_ID	</Arg>
+			<Arg>	POSITION	</Arg>
+		</useSkillToPosition>
+		<receiveSkillHit>
+			<Arg>			OBJECT_ID		</Arg>		<!-- casterID -->
+			<Arg>			SKILL_ID		</Arg>		<!-- skillID -->
+			<Arg>			INT32			</Arg>		<!-- hitTime -->
+			<Arg>			INT32			</Arg>		<!-- index -->
+		</receiveSkillHit>
+		<receiveBuffHit>
+			<Arg>			OBJECT_ID		</Arg>		<!-- casterID -->
+			<Arg>			SKILL_ID		</Arg>		<!-- skillID -->
+			<Arg>			UNICODE			</Arg>		<!-- attrName -->
+			<Arg>			INT32			</Arg>		<!-- index -->
+		</receiveBuffHit>
+		<skill_onClientActorCreate>
+			<Exposed/>
+		</skill_onClientActorCreate>
+		<triggerSkillEvent>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	CHAT_PARMS_DATA	</Arg>
+		</triggerSkillEvent>
+		<triggerCasterBuffEvent>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	CHAT_PARMS_DATA	</Arg>
+		</triggerCasterBuffEvent>
+		<OnPlayerMoveChange>
+			<Exposed/>
+			<Arg>	INT32	</Arg>	<!-- MoveType -->
+			<Arg>	INT32	</Arg>	<!-- MoveState -->
+		</OnPlayerMoveChange>
+		<OnChasePlayerFinish>
+			<Exposed/>
+		</OnChasePlayerFinish>
+		<stackBuff>
+			<Arg>	INT32		</Arg>
+		</stackBuff>
+		<resetBuffEndTime>
+			<Arg>	INT32		</Arg>
+		</resetBuffEndTime>
+		<stopRefineSpar>
+			<Exposed/>
+		</stopRefineSpar>
+		<onBulletCollisionBegin>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</onBulletCollisionBegin>
+		<onBulletCollisionPosBegin>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	POSITION	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</onBulletCollisionPosBegin>
+		<onBulletCollisionArrive>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</onBulletCollisionArrive>
+		<onStopFlyPatrol>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</onStopFlyPatrol>
+		<onInitiaiveStopBuffEvent>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</onInitiaiveStopBuffEvent>
+		<onInitiaiveStopSkillEvent>
+			<Exposed/>
+		</onInitiaiveStopSkillEvent>
+		<receiveEffectSkill>
+			<Exposed/>	
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</receiveEffectSkill>
+		<onRoleChaseEntityOver>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</onRoleChaseEntityOver>
+		<OnChangeRoleJumpState>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</OnChangeRoleJumpState>
+		<onYCJMDrClickEvent>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</onYCJMDrClickEvent>
+		<addFlyPatrolEffectList>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</addFlyPatrolEffectList>
+		<removeFlyPatrolEffectList>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+		</removeFlyPatrolEffectList>
+		<OnSynHitBackPos>
+			<Exposed/>
+			<Arg>		BUFF_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+		</OnSynHitBackPos>
+	</CellMethods>
+</root>

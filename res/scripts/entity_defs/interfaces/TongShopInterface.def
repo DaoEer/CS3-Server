@@ -1,0 +1,16 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<addContribution>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+		</addContribution>
+		<subContribution>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</subContribution>
+	</BaseMethods>
+</root>

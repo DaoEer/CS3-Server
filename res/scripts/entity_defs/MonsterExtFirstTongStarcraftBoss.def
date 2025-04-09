@@ -1,0 +1,29 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<firstDamageEntityID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false				</Persistent>
+		</firstDamageEntityID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

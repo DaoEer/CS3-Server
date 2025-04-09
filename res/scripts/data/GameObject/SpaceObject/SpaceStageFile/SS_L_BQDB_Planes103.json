@@ -1,0 +1,142 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "潜入轩辕部落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "13890.0 31229.982422 265.720612:10", 
+                    "param2": "5300|-5300", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "13890.0 31229.982422 265.720612#L_BQDB_Planes103"
+                }
+            }, 
+            "title": "闯入敌营"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭凌雪护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005292", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005292#L_BQDB_Planes103"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭凌风护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005293", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005293#L_BQDB_Planes103"
+                }
+            }, 
+            "title": "消灭护法"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕守卫", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005284|20005285|20005287|20005289|20005291", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005284|20005285|20005287|20005289|20005291#L_BQDB_Planes103"
+                }
+            }, 
+            "title": "扫除障碍"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005295|20005296|20005297|20005298", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005295|20005296|20005297|20005298#L_BQDB_Planes103"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "到达营地北门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "37910.0 20930.0 612.271179:10", 
+                    "param2": "5612|-5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "37910.0 20930.0 612.271179#L_BQDB_Planes103"
+                }
+            }, 
+            "title": "抵达北门"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "行刺姬生长老", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "333", 
+                    "param2": "20005294", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005294#L_BQDB_Planes103"
+                }
+            }, 
+            "title": "行刺姬生"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守将赤灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005303", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005303#L_BQDB_Planes103"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救飞廉", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "333", 
+                    "param2": "20005302", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005302#L_BQDB_Planes103"
+                }
+            }, 
+            "title": "解救飞廉"
+        }
+    }, 
+    "describe": "34级魔道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "行刺姬生"
+}

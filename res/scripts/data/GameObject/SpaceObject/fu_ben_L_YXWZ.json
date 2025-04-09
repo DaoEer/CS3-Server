@@ -1,0 +1,89 @@
+﻿{
+"SpaceName"	: "英雄王座",
+"EntityType"	: "SpaceCopyYXLM",
+"DomainType"	: "SpaceDomainCopyCampRandomFit",
+"EntityScript"	: "SpaceCopyYXLM",
+"scriptID"	: "fu_ben_L_YXWZ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"spaceChildType":"SPACE_CHILD_TYPE_YXLM",
+"SpawnFile"	: "S_fu_ben_L_YXWZ",
+"NavmeshPath"	: "space\\L_YXWZ_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_YXWZ",
+"SpaceAoi"	: 500.0,
+"belongType"	: "0",
+"bunchSpaceScriptID" : "",
+"ForbidUseSkillIDs":[160000001,160001001,160002001,160003001,160004001,160005001,160006001,160007001,1600008001,160009001,160010001,160011001,160012001,160013001,160014001,160015001,160016001,160017001,160018001,160019001,160020001,160021001,160022001,160023001,160024001,160025001,160026001],
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 30,
+	"startLifeOnInit":0,
+	"spaceIntroduce":{"voiceID":"C001510|C001511|C001512"},
+	"stageFile":"",
+	"eventFile":"SE_fu_ben_L_YXWZ",
+	"forbidJumpSkillIDs":"240003001|240002001",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "10",
+	"enterPos":"-13140.0 10640.0 302.0|15830.0 -17630.0 302.0",
+	"enterDir":"0 0 -0|0 0 0",
+	"xianBuildingData":"20007990|20008001|20008002|20008003|20008277|20008278|20008279|20008295|20008296|20008297|20008313|20008314|20008315|20008322|20008323|20008324",
+	"moBuildingData":"20008000|20008009|20008010|20008011|20008286|20008287|20008288|20008304|20008305|20008306|20008322|20008323|20008324|20008340|20008341|20008342",
+	"specialXianRouteData":"1|2|3",
+	"specialMoRouteData":"4|5|6",
+	"specialXianDirData":"0 0 0|0 0 0|0 0 0",
+	"specialMoDirData":"0 0 0|0 0 0|0 0 0",
+	"xianBaseBuilding":"20007989",
+	"moBaseBuilding":"20007999",
+	"monsterUseSpaceLevel":1,
+	"spaceUseLevel":30,
+	"xianReviveSkillID":121201001,
+	"moReviveSkillID":121202001,
+	"delayCloseSpaceTime":60,
+	"initJade":300,
+	"jadeGetTime":3,
+	"jadeGetValue":3,
+	"showScriptID":"20008021|20008022",
+	"jadeScriptID":"20008027",
+	"attrScriptID":"20008029",
+	"showTime":10.0,
+	"jadeScriptIDRewardJade":1,
+	"jadeScriptIDRewardRadius":10.0,
+	"jadeScriptIDRewardJadeMultiple":1.5,
+	"attrScriptIDRewardBuff":12120024,
+	"killRewardExpUpper":99999,
+	"endWinRewardExp":{
+		"30-39" : 4161,
+		"40-49"	: 6057
+	},
+	"endFailRewardExp":{
+		"30-39" : 1189,
+		"40-49"	: 1731
+	},
+	"endWinMailID":{
+		"30-39" : "300901001",
+		"40-49"	: "300901003"
+	},
+	"endFailMailID":{
+		"30-39" : "300901002",
+		"40-49"	: "300901004"
+	},
+	"endWinOffLineMailID":{
+		"30-39" : "300901005",
+		"40-49"	: "300901007"
+	},
+	"endFailOffLineMailID":{
+		"30-39" : "300901006",
+		"40-49"	: "300901008"
+	},
+	"endWinFeats":1000,
+	"endFailFeats":200,
+	"endWinExploit":500,
+	"endFailExploit":100,
+     	"monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 交互地上的照妖镜将其拾取。@B• 影妖隐匿在虚空中，只有使用照妖镜照射令其完全现形，方能攻击消灭他。@B• 照妖镜的灵能耗尽时，可交互亮起光柱的聚灵鼎补充灵能。@B• 达到要求后，最终消灭的影妖越多获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "已消灭影妖数：", 
+                    "postfix": "", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "add", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "至少消灭2个影妖"
+        }
+    }, 
+    "name": "消灭影妖"
+}

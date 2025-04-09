@@ -1,0 +1,102 @@
+{
+    "stages": {
+        "1": {
+            "comment": "从四周的箱子中找出阵符", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败木傀守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003080|20003081", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003081#L_MKZ"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打开木傀寨门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(14038.0 -6545.0 -1138.0)#L_MKZ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得阵符", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010065", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(24807.0 1865.0 -1818.0)#L_MKZ"
+                }
+            }, 
+            "title": "进入木傀寨"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败木傀长老梓龙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003097", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003097#L_MKZ"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回逍遥门", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20000397#L_MKZ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得破界石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010064", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20003097#L_MKZ"
+                }
+            }, 
+            "title": "取得破界石"
+        }, 
+        "2": {
+            "comment": "小心避开追魂射线，寻找时机解除第二个禁制", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解除禁制", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入木傀寨"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "木傀寨"
+}

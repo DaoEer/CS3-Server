@@ -1,0 +1,37 @@
+[
+	{
+		"Name": "1",
+		"timeKey": 1,
+		"outLingNengAmount": 20,
+		"lingNengMaxAmount": 100000,
+		"lingQuanMaxHP": 50000
+	},
+	{
+		"Name": "2",
+		"timeKey": 1,
+		"outLingNengAmount": 22,
+		"lingNengMaxAmount": 120000,
+		"lingQuanMaxHP": 80000
+	},
+	{
+		"Name": "3",
+		"timeKey": 1,
+		"outLingNengAmount": 24,
+		"lingNengMaxAmount": 150000,
+		"lingQuanMaxHP": 130000
+	},
+	{
+		"Name": "4",
+		"timeKey": 1,
+		"outLingNengAmount": 26,
+		"lingNengMaxAmount": 180000,
+		"lingQuanMaxHP": 180000
+	},
+	{
+		"Name": "5",
+		"timeKey": 1,
+		"outLingNengAmount": 30,
+		"lingNengMaxAmount": 220000,
+		"lingQuanMaxHP": 250000
+	}
+]

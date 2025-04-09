@@ -1,0 +1,102 @@
+{% extends "gmtools/mail/mail_base.html" %}
+{% load custom_filter %}
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+			else if('{{success}}'){
+				layer.alert('{{success}}',{
+					title:"提示",
+					icon: 6,
+				});
+			}
+			if('{{target_type}}'&&'{{target_type}}' != 'target_specify')
+			{
+				document.getElementById('receiverDiv').style.display = "none";
+			}
+		}
+	</script>
+	<h2 class="page-header">发送邮件</h2>
+	<div class="row placeholders">
+		<form id = "reg-form" name="form-horizontal" method="post" action="/gmtools/mail/send/result">
+			{% csrf_token %}
+			<div class="form-group col-sm-8">
+				<div class="col-sm-2">
+					<label class="col-sm-12 control-label">发送对象</label>
+				</div>
+				<div class="col-sm-2">
+					<select name="send_target" class="send_target form-control " id="send_target"  onchange="changeTarget(this.value)">
+						<option value="target_specify" {% if target_type == 'target_specify' %} selected {% endif %} class="c_target_specify">指定玩家</option>
+						<option value="target_all" {% if target_type == 'target_all' %} selected {% endif %} class="c_target_all">所有玩家</option>
+						<option value="target_online" {% if target_type == 'target_online' %} selected {% endif %} class="c_target_online">所有在线玩家</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group col-sm-8" id="receiverDiv">
+				<div class="col-sm-2">
+					<label class="col-sm-12 control-label">接收玩家</label>
+				</div>
+				<div class="col-sm-10">
+					<textarea name="mail_role_infos" rows="5" class="form-control" id="id_mail_role_infos" placeholder="玩家名1|玩家名2...">{{mail_role_infos}}</textarea>
+				</div>
+			</div>
+			<div class="form-group col-sm-8">
+				<div class="col-sm-2">
+					<label class="col-sm-12 control-label" for="id_title">邮件标题</label>
+				</div>
+				<div class="col-sm-10">
+					<textarea name="mail_title" rows="1" maxlength="10" class="form-control" id="id_mail_title">{{mail_title}}</textarea>
+				</div>
+			</div>
+			<div class="form-group col-sm-8">
+				<div class="col-sm-2">
+					<label class="col-sm-12 control-label" for="id_content">邮件内容</label>
+				</div>
+				<div class="col-sm-10">
+					<textarea name="mail_content" rows="5" maxlength="255" class="form-control" id="id_mail_content">{{mail_content}}</textarea>
+				</div>
+			</div>
+			<div class="form-group col-sm-8">
+				<div class="col-sm-2">
+					<label class="col-sm-12 control-label" for="id_item">发送物品</label>
+				</div>
+				<div class="col-sm-10">
+					<textarea name="mail_item_infos" rows="5" maxlength="60" class="form-control" id="id_mail_item_infos" placeholder="物品ID1:数量1:绑定类型1|物品ID2:数量2:绑定类型2...，绑定类型：0不绑定，1绑定，不填使用配置绑定类型">{{mail_item_infos}}</textarea>
+				</div>
+			</div>
+			<div class="form-group col-sm-8">
+				<div class="col-sm-2">
+					<label class="col-sm-12 control-label" for="id_money">金钱数</label>
+				</div>
+				<div class="col-sm-10">
+					<textarea name="mail_money" rows="1" maxlength="60" class="form-control" id="id_mail_money">{{mail_money}}</textarea>
+				</div>
+			</div>
+			<div class="form-group col-sm-12">
+				<div class="col-sm-4 col-sm-offset-4 text-right">
+					<input type="submit" value="发送" class="btn btn-default">
+				</div>
+			</div>
+		</form>
+	</div>
+	<script>
+		function changeTarget(target)
+		{
+			if(target != "target_specify")
+			{
+				document.getElementById('receiverDiv').style.display = "none";
+			}
+			else
+			{
+				document.getElementById('receiverDiv').style.display = "block";
+			}
+		}
+	</script>
+{% endblock %}

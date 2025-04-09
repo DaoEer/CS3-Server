@@ -1,0 +1,58 @@
+<root>
+	<Properties>
+		<lbcTaskProcesses>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>	2			</Default>
+			<Persistent>	true			</Persistent>
+		</lbcTaskProcesses>
+	</Properties>
+
+	<ClientMethods>
+		<OpenLbcTaskUI>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</OpenLbcTaskUI>
+		<RoleMoveToLocation>
+			<Arg> 	ARRAY_POSITION 	</Arg>
+			<Arg> 	FLOAT	</Arg>
+			<Arg> 	FLOAT	</Arg>
+		</RoleMoveToLocation>
+		<StartRoleLbcTaskOperation>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		VECTOR3		</Arg>
+		</StartRoleLbcTaskOperation>
+		<EndRoleLbcTaskOperation/>
+		<ShowLbcStartTrainWnd/>
+		<ShowLbcTaskResult>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</ShowLbcTaskResult>
+		<LbcTaskCreateBody>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	POSITION	</Arg>
+		</LbcTaskCreateBody>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<acceptLbcTask>
+			<Exposed/>
+		</acceptLbcTask>
+		<lbcTaskStartPlay>
+			<Exposed/>
+		</lbcTaskStartPlay>
+		<roleMoveToLocationOver>
+			<Exposed/>
+		</roleMoveToLocationOver>
+	</CellMethods>
+
+</root>

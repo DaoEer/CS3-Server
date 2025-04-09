@@ -1,0 +1,52 @@
+<root>
+	<Properties>
+		<warDetailMgr>
+			<Type>			BHZBTONGWARDETAILMGR		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+		</warDetailMgr>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<updateBHZBWarDetailIntegralData>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</updateBHZBWarDetailIntegralData>
+		<updateBHZBWarDetailOccupyNumber>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+		</updateBHZBWarDetailOccupyNumber>
+		<updateBHZBWarDetailTeamData>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</updateBHZBWarDetailTeamData>
+		<removeBHZBWarDetailTeamData>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+		</removeBHZBWarDetailTeamData>
+		<updateBHZBWarDetailOccupyPointData>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</updateBHZBWarDetailOccupyPointData>
+		<removeBHZBWarrDetailOccupyPoint>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+		</removeBHZBWarrDetailOccupyPoint>
+		<addBHZBWarMsgData>
+			<Arg>	DBID		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</addBHZBWarMsgData>
+	</CellMethods>
+</root>

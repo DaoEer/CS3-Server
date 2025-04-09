@@ -1,0 +1,105 @@
+{
+    "20102139": {
+        "tasks": [
+            {
+                "navigateData": "(10652.0 18908.0 426.9)#L_DLDC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010109", 
+                "id": 1, 
+                "name": "获得重生之水"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002004"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102139, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102120"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "4"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010109"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "23525", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "925", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10387", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1918", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045358|Q045359|Q045360", 
+        "finish_by": "10000126#L_TQG", 
+        "taskLogDes": "@S{4}依映月宝典记载，需找寻两件蕴有强大生机的灵宝布置玄月涅槃大阵方能助夸父觉醒玄月神力。太上老君请你前往魔道灵都道场从大巫屏翳手中夺得@F{fc=c41}重生之水@D。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q045381", 
+        "nextQuest": "20102122", 
+        "taskCompleteFunctions": {}, 
+        "level": 38, 
+        "title": "重生之水", 
+        "isAutoCommit": 1, 
+        "start_by": "10000126#L_TQG", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "20102152": {
+        "tasks": [
+            {
+                "navigateData": "10001320#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001320", 
+                "id": 1, 
+                "name": "询问内门守卫"
+            }, 
+            {
+                "navigateData": "10001321#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001321", 
+                "id": 2, 
+                "name": "询问西门守卫"
+            }, 
+            {
+                "navigateData": "(-17428.435547 -18236.871094 1863.177734)#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "前往西北方向树林"
+            }, 
+            {
+                "navigateData": "(-25727.0 -18909.0 721.0)#L_FYP", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010121", 
+                "id": 4, 
+                "name": "找到武罗，夺回夸父魂珠"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102152, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010121"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102151"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010121"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "25398", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1277", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17402", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2134", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10001322#L_FYP", 
+        "taskLogDes": "@S{4}武罗长老盗走魂珠的嫌疑最大，请你询问有穷部落的守卫，获悉武罗的行踪。|@S{4}武罗长老盗走魂珠的嫌疑最大，请你询问有穷部落的守卫，获悉武罗的行踪。|@S{4}据守卫所言，武罗长老往西北面的树林寻药材去了，请你跟随路上的血迹找到武罗。|@S{4}武罗原来乃是魔道大巫巫真假扮，请你击败大巫巫真，取回夸父魂珠交给后羿。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050262|Q050264|Q050265|Q050267", 
+        "nextQuest": "20102153", 
+        "taskCompleteFunctions": {}, 
+        "level": 40, 
+        "title": "夺回魂珠", 
+        "isAutoCommit": 1, 
+        "start_by": "10001322#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

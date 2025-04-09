@@ -1,0 +1,115 @@
+<root>
+	<Properties>
+		<competeState>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</competeState>
+		<competeTargetID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</competeTargetID>
+		<competeFlagID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</competeFlagID>
+		<competeInviterID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</competeInviterID>
+		<readyStartCountDownTimerID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</readyStartCountDownTimerID>
+		<lastCountDownTimerID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</lastCountDownTimerID>
+		<roleCompeteTimeOutTimerID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</roleCompeteTimeOutTimerID>
+		<holdEffectUnyieldingIndex>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	-1			</Default>
+			<Persistent>	False			</Persistent>
+		</holdEffectUnyieldingIndex>
+		<competeCenterPos>
+			<Type>		POSITION		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	False			</Persistent>
+		</competeCenterPos>
+		<competeCheckTimerID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</competeCheckTimerID>
+		<leaveCompeteAreaTimer>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</leaveCompeteAreaTimer>
+		<leaveCompeteAreaTimerID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</leaveCompeteAreaTimerID>
+		<tempInviterID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	False			</Persistent>
+		</tempInviterID>
+	</Properties>
+
+
+	<ClientMethods>
+		<CLIENT_RoleCompeteBeInvited>
+			<Arg>		INT32		</Arg>
+		</CLIENT_RoleCompeteBeInvited>
+		<CLIENT_RoleCompeteStart>
+			<Arg>		INT32		</Arg>
+		</CLIENT_RoleCompeteStart>
+		<CLIENT_OnRoleCompeteEnd/>
+		<CLIENT_ShowCompeteCountDown>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowCompeteCountDown>
+		<CLIENT_CloseCompeteCountDown/>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_requestRoleCompete>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</CELL_requestRoleCompete>
+		<CELL_requestAgreeRoleCompete>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</CELL_requestAgreeRoleCompete>
+		<CELL_requestRefuseRoleCompete>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</CELL_requestRefuseRoleCompete>
+	</CellMethods>
+</root>

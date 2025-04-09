@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败木傀卫兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003040|20003041", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003040|20003041|20003045#L_SLT_05"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败刀锋长老梓虎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003045", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003040|20003041|20003045#L_SLT_05"
+                }
+            }, 
+            "title": "诛守卫灭魔将"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到通往第三层传送门", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-1310.0 4048.0 224.0:3", 
+                    "param2": "5000|-5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20003051#L_SLT_05"
+                }
+            }, 
+            "title": "前往第三层"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "锁灵塔第二层"
+}

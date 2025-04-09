@@ -1,0 +1,257 @@
+<root>
+	<Properties>
+		<couponItems>	<!-- 优惠劵 -->
+			<Type>	COUPON_ITEM_LIST	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</couponItems>
+		<xianshi>	<!-- 仙石 -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE_AND_CLIENT	</Flags>
+			<Default>	0				</Default>
+		</xianshi>
+		<lingshi>	<!-- 灵石 -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE_AND_CLIENT	</Flags>
+			<Default>	0				</Default>
+			<Persistent>	true		</Persistent>
+		</lingshi>
+		<xuanshi>	<!-- 玄石 -->
+			<Type>		INT32			</Type>
+			<Flags>		BASE_AND_CLIENT	</Flags>
+			<Default>	0				</Default>
+		</xuanshi>
+		
+		<xianshiForCell>	<!-- 仙石（cell条件判断使用，支付不能使用） -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</xianshiForCell>
+		<lingshiForCell>	<!-- 灵石（cell条件判断使用，支付不能使用） -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</lingshiForCell>
+		<xuanshiForCell>	<!-- 玄石（cell条件判断使用，支付不能使用） -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0				</Default>
+		</xuanshiForCell>
+	</Properties>
+
+	<ClientMethods>
+		<GetShopMallItemList>
+			<Arg>	STRING				</Arg>
+		</GetShopMallItemList>
+		<AddGivingGoodsDataRecord>
+			<Arg>	GIFT_GOODS_DATA		</Arg>
+		</AddGivingGoodsDataRecord>
+		<AddReceiveGoodsDataRecord>
+			<Arg>	GIFT_GOODS_DATA		</Arg>
+		</AddReceiveGoodsDataRecord>
+		<InitGoodsDataRecord>
+			<Arg>	GIFT_GOODS_DATAS	</Arg>
+		</InitGoodsDataRecord>
+		<DealReceiveGivingGoodsDataCB>
+			<Arg>	RECALL_GIFT_DATAS	</Arg>
+		</DealReceiveGivingGoodsDataCB>
+		<ChangeGivingGoodsDataCB>
+			<Arg>	RECALL_GIFT_DATA	</Arg>
+		</ChangeGivingGoodsDataCB>
+		<ClearGivingGoodsDataRecordCB>
+			<Arg>	ARRAY_STRING		</Arg>
+		</ClearGivingGoodsDataRecordCB>
+		<ClearReceiveGoodsDataRecordCB>
+			<Arg>	ARRAY_STRING		</Arg>
+		</ClearReceiveGoodsDataRecordCB>
+		<InitCouponItem>
+			<Arg>	COUPON_ITEM_LIST	</Arg>
+		</InitCouponItem>
+		<AddCouponItem>
+			<Arg>	COUPON_ITEM			</Arg>
+		</AddCouponItem>
+		<RemoveCouponItem>
+			<Arg>	STRING			</Arg>
+		</RemoveCouponItem>
+	</ClientMethods>
+
+	<CellMethods>
+		<!-- 接收物品 -->
+		<receiveShopMallGoods>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> BOOL  </Arg>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+			<Arg> DBID</Arg>
+		</receiveShopMallGoods>
+		<!-- 接收物品添加到背包 -->
+		<receiveItemToBag>
+			<Arg> ITEMLIST </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> STRING </Arg>
+		</receiveItemToBag>
+		<receiveGoodsDataItems>
+			<Arg> STRING </Arg>
+		</receiveGoodsDataItems>
+		<updateShiTou>	<!-- 更新属性 -->
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</updateShiTou>
+	</CellMethods>
+
+	<BaseMethods>
+		<!-- 请求获得商城物品 -->
+		<requestShopMallItemList>
+			<Exposed/>
+		</requestShopMallItemList>
+		<!-- 请求购买商品 -->
+		<requestBuyShopMallItem>
+			<Exposed/>
+			<Arg> BUY_SHOPMALL_ITEMDATAS </Arg>
+			<Arg> STRING </Arg>
+			<Arg> DBID	</Arg>
+		</requestBuyShopMallItem>
+		<!-- 请求购买商品的回调 -->
+		<requestBuyShopMallItemCB>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> BOOL  </Arg>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+			<Arg> DBID</Arg>
+		</requestBuyShopMallItemCB>
+		<!-- 接收商品的回调 -->
+		<receiveShopMallGoodsCB>
+			<Arg> STRING </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>	
+			<Arg> INT32 </Arg>	
+		</receiveShopMallGoodsCB>
+		
+		<!-- 赠送好友商品 -->
+		<GivingShopMallItemToPlayer>
+			<Exposed/>
+			<Arg> BUY_SHOPMALL_ITEMDATAS </Arg>
+			<Arg> DBID </Arg>
+		</GivingShopMallItemToPlayer>
+		<!-- 创建赠送的物品数据 -->
+		<createGivingGoodsData>
+			<Arg> DBID </Arg>
+			<Arg> STRING</Arg>
+		</createGivingGoodsData>
+		<!-- 同步赠送的物品数据 -->
+		<sharedToGivingGoodsData>
+			<Arg> STRING </Arg>
+			<Arg> GOODS_DATA</Arg>
+		</sharedToGivingGoodsData>
+		<!-- 同步接收的物品数据 -->
+		<sharedToReceiveGoodsData>
+			<Arg> STRING </Arg>
+			<Arg> GOODS_DATA</Arg>
+		</sharedToReceiveGoodsData>
+		<!-- 处理接收的物品数据的接口 -->
+		<dealReceiveGivingGoodsData>
+			<Exposed/>
+			<Arg> ARRAY_STRING </Arg>
+			<Arg> INT32 </Arg>
+		</dealReceiveGivingGoodsData>
+		<!-- 玩家主动撤回赠送物品数据的接口 -->
+		<withDrawGiveGoodsData>
+			<Exposed/>
+			<Arg> STRING </Arg>
+		</withDrawGiveGoodsData>
+		<!-- 添加到接收物品数据列表 -->
+		<addToReceiveGoodsData>
+			<Arg> GOODS_DATA</Arg>
+		</addToReceiveGoodsData>
+		<!-- 改变赠送的物品数据 -->
+		<changeGivingGoodsData>
+			<Arg> STRING </Arg>
+			<Arg> DOUBLE </Arg>
+			<Arg> INT32 </Arg>
+		</changeGivingGoodsData>
+
+		<withDrawChangeGivingGoodsData>
+			<Arg> STRING </Arg>
+			<Arg> DOUBLE </Arg>
+		</withDrawChangeGivingGoodsData>
+		<!-- 清除赠送的物品数据记录 -->
+		<clearGivingGoodsDataRecord>
+			<Exposed/>
+			<Arg> ARRAY_STRING </Arg>
+		</clearGivingGoodsDataRecord>
+   		<!-- 清除接收的物品数据记录 -->
+		<clearReceiveGoodsDataRecord>
+			<Exposed/>
+			<Arg> ARRAY_STRING </Arg>
+		</clearReceiveGoodsDataRecord>
+		<!-- 将赠送的物品数据取回到背包 -->
+		<takeBackGivingGoodsData>
+			<Exposed/>
+			<Arg> STRING </Arg>
+		</takeBackGivingGoodsData>
+		<getGoodsDataName>
+			<Arg> STRING </Arg>
+		</getGoodsDataName>
+		<getGoodsDataItemAmount>
+			<Arg> STRING </Arg>
+		</getGoodsDataItemAmount>
+		<getGoodsDataItemID>
+			<Arg> STRING </Arg>
+		</getGoodsDataItemID>
+
+		<setLingShi>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</setLingShi>
+		<setXianShi>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</setXianShi>
+		<setXuanShi>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</setXuanShi>
+
+		<addLingShi>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</addLingShi>
+		<addXianShi>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</addXianShi>
+		<addXuanShi>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+			<Arg> INT32 </Arg>
+		</addXuanShi>
+
+		<payShiTouFromCell>
+			<Arg> INT32 	</Arg>
+			<Arg> INT32 	</Arg>
+			<Arg> UNICODE 	</Arg>
+		</payShiTouFromCell>
+		<payXianShiFromCell>
+			<Arg> INT32 	</Arg>
+			<Arg> INT32 	</Arg>
+			<Arg> UNICODE 	</Arg>
+		</payXianShiFromCell>
+		<payLingShiFromCell>
+			<Arg> INT32 	</Arg>
+			<Arg> INT32 	</Arg>
+			<Arg> UNICODE 	</Arg>
+		</payLingShiFromCell>
+		<payXuanShiFromCell>
+			<Arg> INT32 	</Arg>
+			<Arg> INT32 	</Arg>
+			<Arg> UNICODE 	</Arg>
+		</payXuanShiFromCell>
+	</BaseMethods>
+</root>

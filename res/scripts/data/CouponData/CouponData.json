@@ -1,0 +1,29 @@
+{
+	"0":{
+		"couponId":"0",
+		"couponName":"",
+		"discount":6.5,
+		"timeLimit":3600,
+		"mallType":"0",
+		"itemType":1,
+		"subItemType":1
+	},
+	"1":{
+		"couponId":"1",
+		"couponName":"",
+		"discount":7.5,
+		"timeLimit":3600,
+		"mallType":"0",
+		"itemType":2,
+		"subItemType":1
+	},
+	"2":{
+		"couponId":"2",
+		"couponName":"",
+		"discount":8.5,
+		"timeLimit":3600,
+		"mallType":"0",
+		"itemType":3,
+		"subItemType":1
+	}
+}

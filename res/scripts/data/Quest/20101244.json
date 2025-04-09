@@ -1,0 +1,178 @@
+{
+    "20101244": {
+        "tasks": [
+            {
+                "navigateData": "20002329|20002330#L_YZD", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002329|20002330", 
+                "id": 1, 
+                "name": "消灭昧水台弟子"
+            }, 
+            {
+                "navigateData": "20002335|20002336#L_YZD", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002335|20002336", 
+                "id": 2, 
+                "name": "消灭昧水台先锋"
+            }, 
+            {
+                "navigateData": "30000072#L_YZD", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010031", 
+                "id": 3, 
+                "name": "夺取养魂木"
+            }, 
+            {
+                "navigateData": "20002333|20002334#L_YZD", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002333|20002334", 
+                "id": 5, 
+                "name": "消灭昧水台守卫"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 4, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "29", 
+                "id": 6, 
+                "name": "到达29级"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101244, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010031"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101216"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2|3|4"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010031"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "14916", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1233", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "4764", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1097", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q032254|Q032255|Q032256", 
+        "finish_by": "10000080#L_KLZ", 
+        "taskLogDes": "@S{4}@F{fc=c41}乾坤鼎@D已得，还需尽快取得@F{fc=c41}养魂木@D，方可让神鼎化为天地熔炉用以造人。灵珠子让你前往瑶泽岛的神木台找到@F{fc=c41}养魂木@D。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030449", 
+        "nextQuest": "20101237", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "Q010862"
+                }
+            ], 
+            "2": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "Q010862"
+                }
+            ]
+        }, 
+        "level": 28, 
+        "title": "养魂木（废弃）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000268#L_YZD", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "60120001": {
+        "tasks": [
+            {
+                "navigateData": "10000496#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000496", 
+                "id": 1, 
+                "name": "前往万寿山，与虎蛟对话"
+            }, 
+            {
+                "navigateData": "10000496#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "打败虎蛟"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "Cy000303"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3074"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 60120001, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [], 
+        "script": "QuestScriptTongDaily", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestTongDaily", 
+        "rewards": [], 
+        "description": "Cy000303", 
+        "finish_by": "10000618", 
+        "taskLogDes": "", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Cy000316", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncEnterPlane", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "L_WSS_Planes201"
+                }
+            ]
+        }, 
+        "level": 20, 
+        "title": "挑战虎蛟", 
+        "isAutoCommit": 1, 
+        "start_by": "10000618", 
+        "isAutoAccept": 1
+    }
+}

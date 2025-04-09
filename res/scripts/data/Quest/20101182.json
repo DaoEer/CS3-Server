@@ -1,0 +1,186 @@
+{
+    "20101182": {
+        "tasks": [
+            {
+                "navigateData": "(-109750.000000 -89790.000000 -287.939209)#L_KWSM_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往昆吾山脚下"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "攀登至昆吾山巅"
+            }, 
+            {
+                "navigateData": "20004747|20004748#L_KWSM_1", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20004747|20004748", 
+                "id": 3, 
+                "name": "消灭山顶的昆吾山灵妖"
+            }, 
+            {
+                "navigateData": "(-121440.00000000001 -92188.0 5912.0)#L_KWSM_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetItem", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "301010020", 
+                "id": 4, 
+                "name": "夺回山河社稷图"
+            }, 
+            {
+                "navigateData": "10001123#L_KLZ_1", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 4, 
+                "param3": "9", 
+                "param2": "-209419.99999999997 -207050.0 19051.0", 
+                "param1": "L_KLZ_1", 
+                "id": 5, 
+                "name": "回禀女娲"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3048"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101182, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101181"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010020"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "11605", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "810", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1346", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "586", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}你击败九尾妖狐，得知@F{fc=c41}山河社稷图@D已在天鹏妖王手中。请你赶至昆吾山巅，取回宝图。|@S{4}你击败九尾妖狐，得知@F{fc=c41}山河社稷图@D已在天鹏妖王手中。请你赶至昆吾山巅，取回宝图。|@S{4}你击败九尾妖狐，得知@F{fc=c41}山河社稷图@D已在天鹏妖王手中。请你赶至昆吾山巅，取回宝图。|@S{4}你击败九尾妖狐，得知@F{fc=c41}山河社稷图@D已在天鹏妖王手中。请你赶至昆吾山巅，取回宝图。|@S{4}返回昆仑宗将@F{fc=c41}山河社稷图@D交于女娲。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101183|20101184|20101187|20101188", 
+        "taskCompleteFunctions": {
+            "2": [
+                {
+                    "script": "QuestFuncSetTeleportPointOpen", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "3049"
+                }
+            ], 
+            "5": [
+                {
+                    "script": "QuestFuncRemoveItems", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "1", 
+                    "param1": "301010020"
+                }, 
+                {
+                    "script": "QuestFuncUseSkill", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "110000560"
+                }, 
+                {
+                    "script": "QuestFuncSetTeleportPointClose", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "3048|3049"
+                }
+            ]
+        }, 
+        "level": 18, 
+        "title": "神兽天鹏", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

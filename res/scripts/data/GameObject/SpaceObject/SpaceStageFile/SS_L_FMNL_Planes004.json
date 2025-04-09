@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "闯入青龙圣坛", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001427|20001428|20001423|20001424", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001427|20001428|20001423|20001424#L_FMNL_Planes004"
+                }
+            }, 
+            "title": "青龙府"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "打败苍虬", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20001429", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20001429#L_FMNL_Planes004"
+                }
+            }, 
+            "title": "青龙族长老"
+        }
+    }, 
+    "describe": "13级仙道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "降伏青龙氏族"
+}

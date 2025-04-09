@@ -1,0 +1,38 @@
+﻿{
+"SpaceName"	: "三相灵池",
+"EntityType"	: "SpaceCopyFenHuoJinNiu",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyFenHuoJinNiu",
+"scriptID"	: "cycle_L_FHJN",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_FHJN",
+"NavmeshPath"	: "space\\L_FHJN_NAVMESH",
+"PatrolRouteFile": "P_L_FHJN",
+"belongType"	: "1",
+"SpaceAoi"	: 150.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"1732 841 213",
+	"enterDirection":"0.0 0.0 -160",
+	"statisticsFile":"ST_L_FHJN",
+	"eventFile":"SE_L_FHJN",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "4|2|1",
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0,
+	"monsterUseSpaceLevel":1,
+	"taurusScriptID":"20012321",
+	"centerPos":"-3.071095 172.188629 365.222168",
+	"destPos":"2191.674316 10359.921875 161.456070",
+	"runSpeed":4,
+	"speedLimit":10,
+	"accSpeed":1,
+	"buffID":14030303
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "所有宝鼎只有一个开始发出金光，打乱顺序后请找出金光宝鼎", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "猜中3次正确的宝鼎", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "END", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "猜宝鼎"
+        }
+    }, 
+    "describe": "环任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "猜宝鼎"
+}

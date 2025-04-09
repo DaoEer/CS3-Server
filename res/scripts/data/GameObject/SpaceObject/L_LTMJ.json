@@ -1,0 +1,24 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_LTMJ",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_LTMJ",
+"NavmeshPath"	: "space\\L_SMZZ_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: 400.0,
+"ExitSpace"	:{
+	"ScriptID"	: "L_TQG",
+	"Position"	: "2920.0 -12430.0 624.0",
+	"Direction"	: "0.0 0.0 -147"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_LTMJ",
+	"eventFile":"SE_L_LTMJ"
+	},
+"DomainData"	:{
+	}
+}

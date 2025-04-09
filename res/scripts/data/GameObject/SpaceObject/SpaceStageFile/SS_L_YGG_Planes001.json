@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭逍遥门刺客", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007381", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007381#L_YGG_Planes001"
+                }
+            }, 
+            "title": "耀光阁遇急"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭大巫巫阎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007386", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007386#L_YGG_Planes001"
+                }
+            }, 
+            "title": "奋力斗巫阎"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭逍遥门斧卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007383", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007383#L_YGG_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭顾河", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007385", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007385#L_YGG_Planes001"
+                }
+            }, 
+            "title": "英勇灭敌袭"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "驰援耀光阁"
+}

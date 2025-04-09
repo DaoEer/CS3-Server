@@ -1,0 +1,51 @@
+﻿{
+"SpaceName"	: "藏书阁",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildAnswer",
+"scriptID"	: "fu_ben_L_HZMG_CSG",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_HZMG_CSG",
+"NavmeshPath"	: "space\\L_HZMG_CSG_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 10,
+	"spaceIntroduce":{"voiceID":"C000336"},
+	"enterPosition":"-106 111 133",
+	"enterDirection":"0 0 0",
+	"stageFile":"",
+	"eventFile":"",
+	"startAnswerTimeSec":50,
+	"countDownTimeSec":5,
+	"totalAnswerTimeSec":150,
+	"closeTimeSec":45,
+	"questionCount":10,
+	"extraPersonRate":0.1,
+	"perfectTeamReward":
+	{
+		"messageID":3243,
+		"spellboxID":"40000115",
+		"position":"520 111 133",
+		"direction":"0 0 0"
+	},
+	"goodTeamReward":
+	{
+		"messageID":3244,
+		"spellboxID":"40000114",
+		"position":"520 111 133",
+		"direction":"0 0 180"
+	},
+	"rewardPotential":"100|200|300|400|500|600|700|800|900|1000",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

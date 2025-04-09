@@ -1,0 +1,227 @@
+{
+    "stages": {
+        "11": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败族长", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(51800.0 -750.0 -13190.)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "击败族长"
+        }, 
+        "10": {
+            "comment": "跟随族长和吕河的脚步前往地玄宫", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入地玄宫", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "49560.0 -710.0 -13140.0:15", 
+                    "param2": "-8140|-18140", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(49560.0 -710.0 -13140.0)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "追击地玄宫"
+        }, 
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "跟随吕河前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "前往骨魔族"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "跟随吕河", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(1090.0 -1990.0 1670.0)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "继续前进"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败拦路的醉鬼吕葛", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013101", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(929.9 -2401.1 1790.7)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "击败吕葛"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败白虎", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013117", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(7674.5 -1498.1 2139.2)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "护山神兽"
+        }, 
+        "4": {
+            "comment": "按照吕河所述破除阵法(使用F键可以与石像交互)", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将玄武面向移到朝北", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "110", 
+                    "param2": "20013116", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(8489.5 -669.9 2150.6)#L_PLS_Planes101"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将朱雀面向移到朝南", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "112", 
+                    "param2": "20013118", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(6930.1 -669.9 2147.0)#L_PLS_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将白虎面向移到朝西", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "111", 
+                    "param2": "20013117", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(7674.5 -1498.1 2139.2)#L_PLS_Planes101"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将青龙面向移到朝东", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "113", 
+                    "param2": "20013119", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(7614.5 208.1 2139.3)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "蟠灵山阵法"
+        }, 
+        "7": {
+            "comment": "按F键与鹰交互", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "骑上飞云", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(11150.0 -570.0 2289.2)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "骑上飞云"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "走到吕河面前与其交谈", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(9110.0 -1160.0 2081.9)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "与吕河交谈"
+        }, 
+        "9": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败族长", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(41979.9 -200.0 6730.0)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "击败族长"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭骨灵殿守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013109|20013110", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(28580.0 -510.0 5730.0)#L_PLS_Planes101"
+                }
+            }, 
+            "title": "初踏骨灵殿"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "收服骨魔族"
+}

@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "清除拦路天极守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002716|20002717|20011815|20011814", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002716|20002717#L_FMNL_Planes104"
+                }
+            }, 
+            "title": "深入道场"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天极神君，夺回吞天珠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "954", 
+                    "param2": "20002722", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(115787 -39648.0 -16962.0)#L_FMNL_Planes104"
+                }
+            }, 
+            "title": "夺回宝物"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭巡逻天极守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002718|20002719", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002718|20002719#L_FMNL_Planes104"
+                }
+            }, 
+            "title": "一鼓作气"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天极神君，夺回吞天珠", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010041", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(118115.0 -27695.0 -17714.0)#L_FMNL_Planes104"
+                }
+            }, 
+            "title": "夺回宝物"
+        }
+    }, 
+    "describe": "魔道13级任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "吞天珠"
+}

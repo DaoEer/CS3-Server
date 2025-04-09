@@ -1,0 +1,43 @@
+{% extends "gmtools/base.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+    <link rel="stylesheet" type="text/css" media="all" href="/static/jscalendar-1.0/calendar-win2k-cold-1.css" title="win2k-cold-1"/>
+
+    <script type="text/javascript" src="/static/jscalendar-1.0/calendar.js"></script>
+    <script type="text/javascript" src="/static/jscalendar-1.0/lang/calendar-en.js"></script>
+    <script type="text/javascript" src="/static/jscalendar-1.0/calendar-setup.js"></script>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="page-header">游戏角色管理</h2>
+            <table class="table table-striped table-condensed">
+                <tbody>
+                 <tr>
+                 <td>
+                    <div id = "navbar" class = "navbar-collapse collapse">
+                         <ul class="nav navbar-nav navbar-left">
+                            <li class="role_kick"><a href="/gmtools/role/kick">踢人</a></li>
+                            <li class="role_chat"><a href="/gmtools/role/query_info">角色信息查询</a></li>
+                            <li class="role_chat"><a href="/gmtools/role/query_activity">角色活动参与查询</a></li>
+                            <li class="role_chat"><a href="/gmtools/role/query_coin">货币查询</a></li>
+                            <li class="role_chat"><a href="/gmtools/role/query_pet">幻兽查询</a></li>
+                            <li class="role_chat"><a href="/gmtools/role/query_item">道具查询</a></li>
+                            <li class="role_chat"><a href="/gmtools/role/trantorevivepos">拉到绑定复活点</a></li>
+                         </ul>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block tail_js %}
+    <script>$(".m_role_manage").addClass("active");</script>
+
+{% endblock %}

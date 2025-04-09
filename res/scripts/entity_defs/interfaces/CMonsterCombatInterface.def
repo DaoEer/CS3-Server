@@ -1,0 +1,28 @@
+<root>
+	<Interfaces>
+		<Interface> 		CMonsterStateInterface		</Interface>
+		<Interface> 		CombatInterface		</Interface>
+		<Interface>		CMonsterAIInterface		</Interface>
+		<Interface>		MonsterOwnerInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<firstBruise>	<!-- 状态：0 == 没有受击；1 == 已经受击；-->
+			<Type>			BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0		</Default>
+			<Persistent>	false		</Persistent>
+		</firstBruise>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+		<CLIENT_PlayDeadEffect>	<!-- 播放暴尸效果 -->
+		</CLIENT_PlayDeadEffect>
+		<PlayDeadMortuaryEffect>	<!-- 播放停尸效果 -->
+		</PlayDeadMortuaryEffect>
+	</ClientMethods>
+</root>
+ 

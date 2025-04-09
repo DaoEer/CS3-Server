@@ -1,0 +1,103 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭深渊恶鬼", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012101|20012102|20012103", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012101|20012102|20012103#L_FZSY"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭深渊怨灵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012106|20012107|20012108|20012109", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012106|20012107|20012108|20012109#L_FZSY"
+                }
+            }, 
+            "title": "初入深渊"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭深渊鬼王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012112", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20012112#L_FZSY"
+                }
+            }, 
+            "title": "激战鬼王"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到上古魔魂", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-18179.386719 -67259.671875 2264.150391:40", 
+                    "param2": "7264.150391|-3264.150391", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-18179.386719 -67259.671875 2264.150391)#L_FZSY"
+                }
+            }, 
+            "title": "寻找魔魂"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "上前取得魔化后的盘古幡器灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010156", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20012112#L_FZSY"
+                }
+            }, 
+            "title": "取得器灵"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "魔化盘古幡器灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20012112#L_FZSY"
+                }
+            }, 
+            "title": "魔化器灵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "魔化器灵"
+}

@@ -1,0 +1,104 @@
+{
+    "20102558": {
+        "tasks": [
+            {
+                "navigateData": "10000621#L_TMG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "-379240 -4560 896360", 
+                "param1": "L_TMG", 
+                "id": 1, 
+                "name": "觐见魔尊"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002008"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3044"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102558, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102632|20102601|20102602"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "14008", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "755", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8478", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041282|Q040392", 
+        "finish_by": "10000621#L_TMG", 
+        "taskLogDes": "@S{4}准提道人告知，十日天绝大阵消灭生灵无数，正合魔门寂灭之道。魔尊罗睺因此感应到混沌魔君一缕元神残魂所在，特命你前往天魔宫觐见。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041283|Q041383", 
+        "nextQuest": "20102559", 
+        "taskCompleteFunctions": {}, 
+        "level": 37, 
+        "title": "拜见魔尊", 
+        "isAutoCommit": 1, 
+        "start_by": "10000062#L_MHD", 
+        "isAutoAccept": 1
+    }
+}

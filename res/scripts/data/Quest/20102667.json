@@ -1,0 +1,96 @@
+{
+    "20102667": {
+        "tasks": [
+            {
+                "navigateData": "10001354#L_PLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "收服骨魔族"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_PLS_Planes101"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102667, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102666"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "23755", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1350", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22988", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050830|Q050831", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}祖巫句芒已收服了骨魔族大长老吕河，得知骨魔族归入魔道最大的阻碍便是族长吕逵。祖巫句芒决定出手牵制族长一脉的四大长老，命你随吕河闯入主峰的骨灵殿，降服族长吕逵。|@S{4}请你随吕河攻破蟠灵山主峰的护山大阵，进入骨灵殿。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102668", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "收服骨魔族（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "10001354#L_PLS", 
+        "isAutoAccept": 1
+    }
+}

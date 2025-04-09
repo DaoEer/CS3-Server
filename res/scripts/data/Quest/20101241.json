@@ -1,0 +1,87 @@
+{
+    "20101241": {
+        "tasks": [
+            {
+                "navigateData": "30000140#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往仙府宝库"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101241, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101240"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3889", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "885", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8837", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "715", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030382|Q030383", 
+        "finish_by": "10000361#L_FLS", 
+        "taskLogDes": "@S{4}无涯子让你前往仙府宝库找周阳长老取得@F{fc=c41}紫精魂@D，令他以@F{fc=c41}紫精魂@D将乾坤神水炼成@F{fc=c41}三光神水@D。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030395|Q030396", 
+        "nextQuest": "20101205", 
+        "taskCompleteFunctions": {}, 
+        "level": 21, 
+        "title": "仙府宝库", 
+        "isAutoCommit": 1, 
+        "start_by": "10000261#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

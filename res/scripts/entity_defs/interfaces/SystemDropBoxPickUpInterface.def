@@ -1,0 +1,101 @@
+<root>
+
+	<Properties>
+		<ownerDBIDs>  <!-- 参与分配的玩家DBID -->
+			<Type> 		ARRAY_DBID		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</ownerDBIDs>
+		
+		<isCanOpen>  <!-- 宝箱是否可打开 -->
+			<Type>			BOOL			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		FALSE			</Default>
+		</isCanOpen>
+		
+		<allocationItems>  <!-- 已分配的物品 -->
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		{}					</Default>
+		</allocationItems>
+		
+		<freeAllocationItems>  <!-- 自由拾取的物品 -->
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		{}					</Default>
+		</freeAllocationItems>
+		
+		<notAllocationItems>  <!-- 未分配的物品 -->
+			<Type>			PYTHON_DICT			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+			<Default>		{}					</Default>
+		</notAllocationItems>
+		
+		<allocation>  <!-- 拾取模式-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</allocation>
+		
+		<dropRemainTime>	<!-- 宝箱销毁倒计时 -->
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			180			</Default>
+			<Persistent>		false		</Persistent>
+		</dropRemainTime>
+	</Properties>
+
+	<ClientMethods>
+		<onOpenDropbox>
+		</onOpenDropbox>
+		
+		<recvDropBoxData>
+			<Arg> DICT_STR_STR_FOR_CLIENT	</Arg>
+			<Arg> ITEM_FOR_CLIENT_LIST		</Arg>
+		</recvDropBoxData>
+		
+		<recvDropBoxNoAllocationData>
+			<Arg> ARRAY_UNICODE				</Arg>
+			<Arg> ITEM_FOR_CLIENT_LIST		</Arg>
+			<Arg> ITEM_FOR_CLIENT_LIST		</Arg>
+		</recvDropBoxNoAllocationData>
+		
+		<onPickUp>
+			<Arg> STRING </Arg>
+			<Arg> STRING </Arg>
+		</onPickUp>
+		
+		<onUpdateDropBoxModelVisible>
+		</onUpdateDropBoxModelVisible>
+		
+		<updateFreeAllocationItem>
+			<Arg> ITEM_FOR_CLIENT 	</Arg>
+		</updateFreeAllocationItem>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<reqDropBoxData>
+			<Exposed/>
+		</reqDropBoxData>
+		
+		<reqPickUp>
+			<Exposed/>
+			<Arg> ARRAY_STRING </Arg>
+		</reqPickUp>
+		
+		<reqPickUpToMember>
+			<Exposed/>
+			<Arg> STRING </Arg>
+			<Arg> DBID </Arg>
+		</reqPickUpToMember>
+		
+		<onPickUpDropBoxEnd/>
+		
+		<onPickUpToRoleByMgr>
+			<Arg> STRING </Arg>
+			<Arg> DBID </Arg>
+		</onPickUpToRoleByMgr>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,27 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	<BaseMethods>
+		<onAccountLogin>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</onAccountLogin>
+		<onAccountLogout>
+			<Arg>	STRING	</Arg>
+		</onAccountLogout>
+		<setRoleAdult>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+		</setRoleAdult>
+		
+		<setRoleOnlineTime>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+		</setRoleOnlineTime>
+		<setRoleOfflineTime>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+		</setRoleOfflineTime>
+	</BaseMethods>
+</root>

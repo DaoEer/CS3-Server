@@ -1,0 +1,198 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄冰虚影妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011010|20011012|20011017|20011019|20011021", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-5730.000000 -9270.000000 -1002.343750)#L_BHD_1"
+                }
+            }, 
+            "title": "初入冰火玄境"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到冰河妖主", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "4925 12430|4265 17100|7195 19220|10565 18030|11705 16110|9485 12040", 
+                    "param2": "5961|-4039", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20001510#L_BHD_1"
+                }
+            }, 
+            "title": "深入冰火玄境"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄冰魅影妖", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011022|20011023", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-2565.773193 6072.809082 -585.141602)#L_BHD_1"
+                }
+            }, 
+            "title": "扫清障碍"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤炎妖兵", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011028", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(28251.0 18156.0 781.0)#L_BHD_1"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤炎暗魂卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011031", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(28251.0 18156.0 781.0)#L_BHD_1"
+                }
+            }, 
+            "title": "深入太古火窟"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败冰河妖主", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001510", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001510#L_BHD_1"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜索冰河妖主尸体，取得冰河之水", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010021", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "冰河妖主"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤炎离魂卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011041", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(47802.0 -7634.0 1873.0)#L_BHD_1"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤炎暗魂卫", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011044", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(47802.0 -7634.0 1873.0)#L_BHD_1"
+                }
+            }, 
+            "title": "清除余孽"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤炎噬魂卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011036", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(44267.0 5855.0 1460.0)#L_BHD_1"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤炎暗魂卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011040", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(44267.0 5855.0 1460.0)#L_BHD_1"
+                }
+            }, 
+            "title": "斩妖除魔"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太古炎魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002047", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002047#L_BHD_1"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "搜索太古炎魔尸体，获得太古天火", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010022", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入寻宝"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "重炼宝图"
+}

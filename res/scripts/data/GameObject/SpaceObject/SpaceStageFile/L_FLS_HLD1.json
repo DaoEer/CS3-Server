@@ -1,0 +1,23 @@
+{
+	"stages":{
+		"1":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"title":"完成欢乐鼎挑战",
+					"reqVal":1,
+					"param3":"1",
+					"param2":"20003152",
+					"param1":"AI",
+					"type":"SStageTask_conditionChange"
+				}
+				
+			},
+			"title":"欢乐鼎"
+		}
+		
+	},
+	"describe":"",
+	"beginOnSpaceInit":1,
+	"name":"欢乐鼎"
+}

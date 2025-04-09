@@ -1,0 +1,146 @@
+{
+    "20101122": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskMountPet", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001", 
+                "id": 1, 
+                "name": "骑乘赤炎狼"
+            }, 
+            {
+                "navigateData": "10000317#L_PLG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 2, 
+                "param3": "10", 
+                "param2": "-299040.0 -644170.0 56700.796875", 
+                "param1": "L_PLG", 
+                "id": 2, 
+                "name": "向师尊复命"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskConjurePet", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001", 
+                "id": 3, 
+                "name": "召唤赤炎狼出战"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "204010001"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101122, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101023"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "204010001"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "617", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "118", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "148", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "316", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10000317#L_PLG", 
+        "taskLogDes": "@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。|@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。|@S{4}师尊让你前往幻兽童子处学习驭兽之法，学成后向师尊复命。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q011040", 
+        "nextQuest": "20101125", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "Q011039"
+                }
+            ]
+        }, 
+        "level": 10, 
+        "title": "（废弃）幻兽顽皮", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

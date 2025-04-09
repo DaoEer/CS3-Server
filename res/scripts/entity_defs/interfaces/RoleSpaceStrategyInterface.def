@@ -1,0 +1,42 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+		<CLIENT_StartSpaceStrategy>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+		</CLIENT_StartSpaceStrategy>
+		<CLIENT_EndSpaceStrategy>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</CLIENT_EndSpaceStrategy>
+		<CLIENT_ReceiveCompleteSpaceStrategy>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING		</Arg>
+		</CLIENT_ReceiveCompleteSpaceStrategy>
+		<CLIENT_ReceiveOpenSpaceStrategy>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING		</Arg>
+		</CLIENT_ReceiveOpenSpaceStrategy>
+		<CLIENT_OnUpdateStrategyValue>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</CLIENT_OnUpdateStrategyValue>
+		<CLIENT_OnUpdateRewardValue>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</CLIENT_OnUpdateRewardValue>
+	</ClientMethods>
+</root>

@@ -1,0 +1,46 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭神殿守卫", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012172|20012173|20012174|20012175", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(10926.6 52630.0 2306.6)#L_YZD_Planes103"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭玄封", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012179", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(31366.0 58010.0 2238.0)#L_YZD_Planes103"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭神殿精锐", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20012176|20012177|20012178", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(19492.0 60199.0 2290.6)#L_YZD_Planes103"
+                }
+            }, 
+            "title": "消灭山脚的神殿守卫"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵源神殿"
+}

@@ -1,0 +1,140 @@
+{
+    "20102594": {
+        "tasks": [
+            {
+                "navigateData": "20006757|20006758#L_ZLY", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006757|20006758", 
+                "id": 1, 
+                "name": "消灭玄火小妖"
+            }, 
+            {
+                "navigateData": "20006761|20006762#L_ZLY", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006761|20006762", 
+                "id": 2, 
+                "name": "消灭玄火蛮妖"
+            }, 
+            {
+                "navigateData": "30000391#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "抓捕九阳神火兽"
+            }, 
+            {
+                "navigateData": "40000144#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "骑乘九阳神火兽"
+            }, 
+            {
+                "navigateData": "10000658#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 4, 
+                "param3": "9", 
+                "param2": "69746.0 95202.0 3140.0", 
+                "param1": "L_ZLY", 
+                "id": 5, 
+                "name": "带回九阳神火兽"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102594, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11014103"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102593"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "21324", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "955", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10725", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1542", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041819|Q041412", 
+        "finish_by": "10000658#L_ZLY", 
+        "taskLogDes": "@S{4}昊阳坡有一只九阳神火兽，其周身神火乃是十金乌最爱之食。蓐收让你速去将其抓来，用以引诱十金乌！|@S{4}昊阳坡有一只九阳神火兽，其周身神火乃是十金乌最爱之食。蓐收让你速去将其抓来，用以引诱十金乌！|@S{4}昊阳坡有一只九阳神火兽，其周身神火乃是十金乌最爱之食。蓐收让你速去将其抓来，用以引诱十金乌！|@S{4}昊阳坡有一只九阳神火兽，其周身神火乃是十金乌最爱之食。蓐收让你速去将其抓来，用以引诱十金乌！|@S{4}昊阳坡有一只九阳神火兽，其周身神火乃是十金乌最爱之食。蓐收让你速去将其抓来，用以引诱十金乌！|@S{4}昊阳坡有一只九阳神火兽，其周身神火乃是十金乌最爱之食。蓐收让你速去将其抓来，用以引诱十金乌！", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041833", 
+        "nextQuest": "20102595|20102595|20102603|20102633", 
+        "taskCompleteFunctions": {}, 
+        "level": 34, 
+        "title": "九阳神火兽", 
+        "isAutoCommit": 1, 
+        "start_by": "10000658#L_ZLY", 
+        "isAutoAccept": 1
+    }
+}

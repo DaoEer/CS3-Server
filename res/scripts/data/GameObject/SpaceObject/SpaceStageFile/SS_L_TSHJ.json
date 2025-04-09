@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "深入天书幻境", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-4575.561523 2578.718750 14598.164063:25", 
+                    "param2": "20000|10000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-4575.561523 2578.718750 14598.164063)#L_TSHJ"
+                }
+            }, 
+            "title": "探索此幻境"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭石像天兵", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000042|20000043|20000044|20000053|20000054|20000055", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000042|20000043|20000044|20000053|20000054|20000055#L_TSHJ"
+                }
+            }, 
+            "title": "通关破石像"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭太古灵卫", 
+                    "reqVal": 16, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000041|20000046|20000040|20000272|20000271|20000051|20000056", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000041|20000046|20000040|20000272|20000271|20000051|20000056#L_TSHJ"
+                }
+            }, 
+            "title": "血战复前行"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "战胜太古心魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "222", 
+                    "param2": "", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000045|20000045|20003793|20003794#L_TSHJ"
+                }
+            }, 
+            "title": "奋力诛心魔"
+        }
+    }, 
+    "describe": "仙道任务-天书幻境-9级", 
+    "beginOnSpaceInit": 1, 
+    "name": "天书幻境"
+}

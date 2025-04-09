@@ -1,0 +1,131 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前去探查", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-5259.8 -1420.4 14571.9:10", 
+                    "param2": "19572|9572", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-5259.8 -1420.4 14571.9)#L_TSHJ_1"
+                }
+            }, 
+            "title": "初入幻境"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-3245.0 -15444.0 15417.0:25", 
+                    "param2": "20417|10417", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-3245.0 -15444.0 15417.0)#L_TSHJ_1"
+                }
+            }, 
+            "title": "深入幻境"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭前方的石像天兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008117|20008118", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008117|20008118#L_TSHJ_1"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭后方的石像天兵", 
+                    "reqVal": 8, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008119|20008120", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20008119|20008120#L_TSHJ_1"
+                }
+            }, 
+            "title": "石像天兵"
+        }, 
+        "5": {
+            "comment": "太古心魔已逃入建筑物内，请将其找出。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到太古心魔，并将其击败", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "追击心魔"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败太古心魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20008111#L_TSHJ_1"
+                }
+            }, 
+            "title": "太古心魔"
+        }, 
+        "6": {
+            "comment": "太古心魔的气息似乎在南面建筑出现，请速去寻找", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往南面的建筑", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-81738.0 -52882.0 18144.0:5", 
+                    "param2": "23144.0|13144.0", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-81738.0 -52882.0 18144.0)#L_TSHJ_1"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入建筑内，找到心魔并将其击败。", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "追击心魔"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 0, 
+    "name": "天书幻境"
+}

@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "云岚仙峰",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildCopy",
+"scriptID"	: "fu_ben_L_HZMG_YLXF",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_fu_ben_L_YLXF_FB",
+"NavmeshPath"	: "space\\L_YLXF_FB_NAVMESH",
+"PatrolRouteFile": "P_fu_ben_L_YLXF_FB",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544011,
+	"spaceIntroduce":{"voiceID":"C001456|C001457"},
+	"enterPosition":"10572.515625 17782.623047 1107.61792",
+	"enterDirection":"0 0 -84.000061",
+	"stageFile":"SS_fu_ben_L_HZMG_YLXF",
+	"eventFile":"SE_fu_ben_L_HZMG_YLXF",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

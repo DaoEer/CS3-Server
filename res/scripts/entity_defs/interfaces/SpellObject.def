@@ -1,0 +1,23 @@
+<root>
+	<Interfaces>
+		<Interface> 	NPCBaseObject	</Interface>
+		<Interface> 	SkillInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<spaceNotifyTempData>
+			<Type>		PYTHON_DICT		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		{}			</Default>
+		</spaceNotifyTempData>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

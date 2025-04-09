@@ -1,0 +1,91 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通知冰卫守阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-5687.0 -15724.0 2539.0)#L_FYP_Planes006"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通知雷卫守阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-9515.0 -15608.000000000002 2221.0)#L_FYP_Planes006"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "通知火卫守阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-12000.0 -18670.0 2225.0)#L_FYP_Planes006"
+                }
+            }, 
+            "title": "云幕大阵"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败祝融", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "迎战祝融"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "击败再次来犯的魔道", 
+                    "reqVal": 27, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009815|20009816|20009817|20009818|20009819|20009820|20009821|20009822|20009823|20009824|20009825|20009826", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回阵旁", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "-10750.000000 -19940.000000 2221.093994:2", 
+                    "param2": "2721|1721", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-10750.000000 -19940.000000 2221.093994)#L_FYP_Planes006"
+                }
+            }, 
+            "title": "阻挡魔道"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "炼化魂珠"
+}

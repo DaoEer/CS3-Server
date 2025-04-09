@@ -1,0 +1,28 @@
+<root>
+	<Parent>		MovingPlatform		</Parent>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<driverID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+		</driverID>
+		<passengerIDList>
+			<Type>		ARRAY_OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Default>		0				</Default>
+		</passengerIDList>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

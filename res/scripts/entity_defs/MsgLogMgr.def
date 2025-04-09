@@ -1,0 +1,29 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<onlineMacs>
+			<Type>		ARRAY_STRING			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	[]				</Default>
+			<Persistent>	false		</Persistent>
+		</onlineMacs>
+		<onlineRoleNum>
+			<Type>		INT32			</Type>
+			<Flags>		BASE			</Flags>
+			<Default>	0				</Default>
+			<Persistent>	false		</Persistent>
+		</onlineRoleNum>
+	</Properties>
+
+	<BaseMethods>
+		<onRoleLogin>
+			<Arg>	STRING	</Arg>
+		</onRoleLogin>
+		<onRoleLogoff>
+			<Arg>	STRING	</Arg>
+		</onRoleLogoff>
+	</BaseMethods>
+</root>

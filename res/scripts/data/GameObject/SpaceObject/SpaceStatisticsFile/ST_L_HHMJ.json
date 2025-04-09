@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 利用轻功穿越火海，小心被火墙追上。@B• 火灵投出的火球会造成眩晕，小心躲避。@B• 踏上金属球，它会带你前进，注意顺着它滚动的规律走动。@B• 抵达终点，取得先天灵火，最终消耗的时间越短奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "抵达终点，取得灵火", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "301", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "深入秘境，取得灵火"
+        }
+    }, 
+    "name": "火海秘境"
+}

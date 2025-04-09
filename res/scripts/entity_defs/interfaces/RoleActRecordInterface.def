@@ -1,0 +1,34 @@
+<root>
+	<Properties>
+		<publicActRecord>
+			<Type>		ARRAY_PUBLIC_ACT_RECORD	</Type>
+			<Flags>		CELL_PUBLIC				</Flags>
+			<Persistent>	true					</Persistent>
+		</publicActRecord>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+	<CellMethods>
+		<addPublicActRecord>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</addPublicActRecord>
+		<removePublicActRecord>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</removePublicActRecord>
+		<updatePublicActRecord>
+			<Arg>	INT32			</Arg>
+			<Arg>	PYTHON			</Arg>
+			<Arg>	PYTHON			</Arg>
+		</updatePublicActRecord>
+	</CellMethods>
+</root>

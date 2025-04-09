@@ -1,0 +1,154 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭巨神卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008992|20008993", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(1090 12634 1159)#L_JSD"
+                }
+            }, 
+            "title": "闯入巨神殿"
+        }, 
+        "3": {
+            "comment": "消灭护法，破除第一道禁制", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭四大护法", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20008994|20008995|20008996|20008997", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(1150.000000 3720.000000 1520.000000)#L_JSD"
+                }
+            }, 
+            "title": "第一道禁制"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "第一道禁制", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1150.000000 3720.000000 1520.000000:3", 
+                    "param2": "5520|-3480", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(1150.000000 3720.000000 1520.000000)#L_JSD"
+                }
+            }, 
+            "title": "第一道禁制"
+        }, 
+        "5": {
+            "comment": "破坏阵柱，破除第二道禁制", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏阵柱", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009005|20009006", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(1146.0 -10508.0 2365.0)#L_JSD"
+                }
+            }, 
+            "title": "第二道禁制"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "第二道禁制", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1130 -7739 1960:5", 
+                    "param2": "6370|-1630", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(1146.0 -10508.0 2365.0)#L_JSD"
+                }
+            }, 
+            "title": "第二道禁制"
+        }, 
+        "7": {
+            "comment": "破坏阵眼，拿到破阵令牌。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获取令牌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010111", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(1129.806885 -22156.166016 1540.244385)"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "使用破阵令破除禁制", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "40000320#L_JSD"
+                }
+            }, 
+            "title": "第三道禁制"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "第三道禁制", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1129.806885 -22156.166016 1540.244385:6", 
+                    "param2": "5540|-2460", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(1129.806885 -22156.166016 1540.244385)#L_JSD"
+                }
+            }, 
+            "title": "第三道禁制"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与广成子决战", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "999", 
+                    "param2": "20009002", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(1089.0 -42483.0 3128.0)#L_JSD"
+                }
+            }, 
+            "title": "决战巨神殿"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "攻打巨神殿"
+}

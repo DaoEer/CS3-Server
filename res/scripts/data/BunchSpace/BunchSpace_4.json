@@ -1,0 +1,48 @@
+{
+"SpaceName"	: "35潜能",
+"EntityType"	: "",
+"DomainType"	: "BunchSpaceDomainBase",
+"BunchScript"	: "BunchSpaceBase",
+"scriptID"	: "BunchSpace_4",
+"bunchType"	: "SPACE_BUNCH_TYPE_POTENTAIL",
+"belongType"	: "1|2",
+"strategyID"	: "20_25_level",
+"ChildSpace":{
+	"1":{
+			"spaceList":["fu_ben_L_LYZT"],
+			"doorsPos":"34143 5610 5858|34143 6190 5858|34143 6740 5858",
+			"doorsDir":"0 0 0|0 0 0|0 0 0",
+			"isBig":0,
+			"createDoorDelay":5,
+			"createDoorNotifyInfo":{
+						}
+		},
+	"2":{
+			"spaceList":["fu_ben_L_QFGT"],
+			"doorsPos":"34143 5610 5858|34143 6190 5858|34143 6740 5858",
+			"doorsDir":"0 0 0|0 0 0|0 0 0",
+			"isBig":0,
+			"createDoorDelay":5,
+			"createDoorNotifyInfo":{
+						}
+		},
+	"3":{
+			"spaceList":["fu_ben_L_WFSZ"],
+			"doorsPos":"34143 5610 5858|34143 6190 5858|34143 6740 5858",
+			"doorsDir":"0 0 0|0 0 0|0 0 0",
+			"isBig":0,
+			"createDoorDelay":5,
+			"createDoorNotifyInfo":{
+						}
+		},
+	"4":{
+			"spaceList":["fu_ben_L_XYHY"],
+			"doorsPos":"34143 5610 5858|34143 6190 5858|34143 6740 5858",
+			"doorsDir":"0 0 0|0 0 0|0 0 0",
+			"isBig":1,
+			"createDoorDelay":5,
+			"createDoorNotifyInfo":{
+						}
+		}
+	}
+}

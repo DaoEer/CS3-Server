@@ -1,0 +1,88 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Parent>
+		NPC
+	</Parent>
+	<Interfaces>
+		<Interface>	NPCAmbulantInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<integralAmount>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</integralAmount>
+		<potentialAmount>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</potentialAmount>
+		<equipItem>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</equipItem>
+		<materialItem>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</materialItem>
+		<_isOneEffect>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</_isOneEffect>
+		<_isOneSound>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</_isOneSound>
+		<_lifeTimer>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</_lifeTimer>
+		<_floorTimer>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</_floorTimer>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_fuDaiStartMove>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	STRING	</Arg>
+		</CLIENT_fuDaiStartMove>
+		<CLIENT_OnPlayFloorEffect>
+			<Arg>	STRING	</Arg>
+		</CLIENT_OnPlayFloorEffect>
+		<NotifyIntegralAmount>
+			<Arg>	INT32	</Arg>
+		</NotifyIntegralAmount>
+	</ClientMethods>
+
+	<CellMethods>
+		<onFuDaiCollisionBegin>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</onFuDaiCollisionBegin>
+		<onFuDaiCollisionPlayer>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</onFuDaiCollisionPlayer>
+	</CellMethods>
+</root>

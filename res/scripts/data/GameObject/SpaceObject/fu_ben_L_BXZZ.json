@@ -1,0 +1,45 @@
+﻿{
+"SpaceName"	: "冰雪之战",
+"EntityType"	: "SpaceCopyFrozenFight",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyFrozenFight",
+"scriptID"	: "fu_ben_L_BXZZ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_fu_ben_L_BXZZ",
+"NavmeshPath"	: "space\\L_BXZZ_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"SpaceAoi"	: "60",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"startLifeOnInit": 0,
+	"spaceLife"	: 30,
+	"spaceIntroduce":{"voiceID":"C000401"},
+	"xianEnterPos":"24999 20160 -4209",
+	"xianEnterDir":"0 0 180",
+	"moEnterPos":"-23688 -27569 -1069",
+	"moEnterDir":"0 0 10",
+	"stageFile":"SS_fu_ben_L_BXZZ",
+	"eventFile":"SE_fu_ben_L_BXZZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "6",
+	"revivePosInfo" 	:{
+		                "xianBornInfo":{"camp":1, "pos":"27560 17620 -4360", "dir":"0 0 130"},
+	                    "moBornInfo":{"camp":2, "pos":"-27170 -26000 -1140", "dir":"0 0 -50"},
+	                    "40000173":{"camp":1, "pos":"3559 5310 -6179", "dir":"0 0 0"},
+	                    "40000174":{"camp":2, "pos":"2370 -10499 -4969", "dir":"0 0 -150"},
+	                    "40000175":{"camp":0, "pos":"-10349 2369 -5999","dir":"0 0 -50"}
+	                },
+	"initCampPoint":100,
+	"pointInfo":{"player":-1,"tower":-20,"iceCrystals":1,"time":[10,-1]},
+	"towerInfo":{"40000171":{"camp":1, "status":0}, "40000172":{"camp":2, "status":0}},
+	"iceCrystalsItemID":302010007,
+	"iceCrystalsSpBoxID":40000176
+	},
+"DomainData"	:{
+	}
+}

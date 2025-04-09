@@ -1,0 +1,114 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭夺魄妖灵", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006980", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006980#L_YGD"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭夺魄剑灵", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006979", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006979#L_YGD"
+                }
+            }, 
+            "title": "初入云光洞"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭夺魄法灵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006987", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006987#L_YGD"
+                }
+            }, 
+            "title": "深入云光洞"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败紫霞", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20006986#L_YGD"
+                }
+            }, 
+            "title": "击败紫霞"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回云岚峰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "30000400#L_YGD"
+                }
+            }, 
+            "title": "返回云岚峰"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败青霞", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(25484.0 -16065.0 154.0)#L_YGD"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得阴阳灯芯", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010099", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(25484.0 -16065.0 154.0)#L_YGD"
+                }
+            }, 
+            "title": "取得阴阳灯芯"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "云光洞"
+}

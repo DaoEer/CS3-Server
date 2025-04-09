@@ -1,0 +1,166 @@
+<root>
+	<Properties>
+		<collectionItems> <!-- 收购 -->
+			<Type>    	STALLITEMS 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>		false		</Persistent>
+		</collectionItems>
+		<stallSellItems> <!-- 出售 -->
+			<Type>   	 STALLITEMS 		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>		false		</Persistent>
+		</stallSellItems>
+		<stallName>	<!-- 摆摊名称 -->
+			<Type>   	 UNICODE		 </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>		false		</Persistent>
+		</stallName>
+		<stallPoint> <!-- 摆摊点-->
+			<Type>		STRING			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>	
+		</stallPoint>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_OnFindStallPoint> <!-- 寻路到摆摊点-->
+			<Arg>  STRING 	</Arg>
+			<Arg>  STRING 	</Arg>
+		</CLIENT_OnFindStallPoint>
+
+		<CLIENT_OnReceiveOtherStallItems> <!-- 接收对方的摆摊物品数据-->
+			<Arg>  OBJECT_ID</Arg>
+			<Arg>  UNICODE </Arg>
+			<Arg>  BUY_AND_SELL_DATAS </Arg>
+		</CLIENT_OnReceiveOtherStallItems>
+		<CLIENT_UpdateStallItem>   <!-- 更新摆摊物品-->
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  TEMP_ITEM_DATA </Arg>
+		</CLIENT_UpdateStallItem>
+		<CLIENT_StallItemSuccessToClient> <!-- 对方购买或出让物品成功回调-->
+			<Arg>  INT32 </Arg>
+			<Arg>  BUY_ITEM_RECORD_DATA </Arg>
+		</CLIENT_StallItemSuccessToClient>
+		<CLIENT_AddStallRecord>	<!-- 增加摆摊记录-->
+			<Arg>  INT32 </Arg>
+			<Arg>  TEMP_SELL_RECORD_DATA </Arg>
+		</CLIENT_AddStallRecord>
+		<CLIENT_OnRequestStallItems> <!-- 获得上次未完成的物品-->
+			<Arg>  UNICODE </Arg>
+			<Arg>  ON_REQUEST_STALL_ITEMS_DATAS </Arg>
+		</CLIENT_OnRequestStallItems>
+		<CLIENT_AddCollectionItemSuccessCB>
+			<Arg>  TEMP_ITEM_DATA </Arg>
+		</CLIENT_AddCollectionItemSuccessCB>
+		<CLIENT_UpdateStallCollectionItemCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  TEMP_ITEM_DATA </Arg>
+		</CLIENT_UpdateStallCollectionItemCB>
+		<CLIENT_RemoveStallCollectionItemCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CLIENT_RemoveStallCollectionItemCB>
+		<CLIENT_AddStallSellItemSuccessCB>
+			<Arg>  TEMP_ITEM_DATA </Arg>
+		</CLIENT_AddStallSellItemSuccessCB>
+		<CLIENT_UpdateStallSellItemCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  TEMP_ITEM_DATA </Arg>
+		</CLIENT_UpdateStallSellItemCB>
+		<CLIENT_RemoveStallSellItemCB>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CLIENT_RemoveStallSellItemCB>
+		<CLIENT_StallSuccessCB>
+			<Arg>  INT32 </Arg>
+		</CLIENT_StallSuccessCB>
+		<CLIENT_UpdateOtherStallItems> <!-- 刷新对方的摆摊物品数据-->
+			<Arg>  OBJECT_ID</Arg>
+			<Arg>  BUY_AND_SELL_DATAS </Arg>
+		</CLIENT_UpdateOtherStallItems>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_findStallPoint>	<!-- 查找摆摊点-->
+			<Exposed/>
+		</CELL_findStallPoint>
+		<CELL_startStall> <!-- 开始摆摊-->
+			<Exposed/>
+			<!--Arg>  STALLITEMS </Arg-->
+			<!--Arg>  STALLITEMS </Arg-->
+			<Arg>  UNICODE </Arg>
+		</CELL_startStall>
+		<CELL_onNavigateStallFinish>	<!-- 到达摆摊点-->
+			<Exposed/>
+		</CELL_onNavigateStallFinish>
+		<CELL_cancelStall>	<!-- 取消摆摊-->
+			<Exposed/>
+		</CELL_cancelStall>
+		<CELL_endStall>	<!-- 结束摆摊-->
+			<Exposed/>
+		</CELL_endStall>
+		<CELL_openRoleStall> <!-- 打开对方摊位-->
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+		</CELL_openRoleStall>
+		<CELL_buyStallItem> <!-- 购买物品-->
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CELL_buyStallItem>
+		<CELL_sellStallItem> <!-- 出让物品-->
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CELL_sellStallItem>
+		<CELL_addStallCollectionItem>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CELL_addStallCollectionItem>
+		<CELL_updateStallCollectionItem>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CELL_updateStallCollectionItem>
+		<CELL_removeStallCollectionItem>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CELL_removeStallCollectionItem>
+		<CELL_requestStallItems>
+			<Exposed/>
+		</CELL_requestStallItems>
+		<CELL_addStallSellItem>
+			<Exposed/>
+			<Arg>  STRING </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CELL_addStallSellItem>
+		<CELL_updateStallSellItem>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CELL_updateStallSellItem>
+		<CELL_removeStallSellItem>
+			<Exposed/>
+			<Arg>  INT32 </Arg>
+			<Arg>  INT32 </Arg>
+		</CELL_removeStallSellItem>
+	</CellMethods>
+</root>

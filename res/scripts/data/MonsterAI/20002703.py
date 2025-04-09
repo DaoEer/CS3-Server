@@ -1,0 +1,88 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 1, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {
+            1: {
+                "name": "坐忘峰之战喊话陷阱1", 
+                "tickTimer": 0.5, 
+                "statesAI": [], 
+                "eventsAI": {
+                    12: [
+                        {
+                            "comment": "有玩家，小怪喊话，玩家回话（新版）\\n凶煞灵妖：又来一个送死的！乖乖成为饕餮大王的盘中餐吧！\\n玩家：饕餮何在？叫它出来见我！", 
+                            "odds": 1.0, 
+                            "Actions": [
+                                {
+                                    "script": "AIAction109", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "Q022653|Q022654"
+                                }, 
+                                {
+                                    "script": "AIAction119", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "20101667"
+                                }
+                            ], 
+                            "EID": [], 
+                            "Conditions": [
+                                {
+                                    "script": "AICondition44", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "Role"
+                                }, 
+                                {
+                                    "script": "AICondition49", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "3", 
+                                    "param1": "20101667"
+                                }, 
+                                {
+                                    "script": "AICondition45", 
+                                    "param5": "", 
+                                    "param4": "", 
+                                    "param3": "", 
+                                    "param2": "", 
+                                    "param1": "20101667"
+                                }
+                            ], 
+                            "id": 9
+                        }
+                    ]
+                }, 
+                "initiativeAreaXZ": "6.000000", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }
+}

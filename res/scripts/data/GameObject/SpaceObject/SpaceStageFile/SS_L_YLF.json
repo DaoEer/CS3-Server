@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "躲避路上的怪物，找到阎龙谷深处的大巫阎龙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败大巫阎龙", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005050", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005050#L_YLF"
+                }
+            }, 
+            "title": "获得八部浮屠"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "返回昆仑宗", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "5980.0 -24410.0 3045.0:3", 
+                    "param2": "8045.0|-3045.0", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(5980.0 -24410.0 3045.0)#L_YLF"
+                }
+            }, 
+            "title": "返回昆仑宗"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "炼制圣像（二）"
+}

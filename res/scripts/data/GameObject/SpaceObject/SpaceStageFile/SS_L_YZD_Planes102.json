@@ -1,0 +1,119 @@
+{
+    "stages": {
+        "1": {
+            "comment": "没想到仙道率先一步找到神殿，消灭他们！", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭山脚的神殿巡视", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003190|20003191|20003192", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(34555.0 67903.5 3931.1)#L_YZD_Planes102"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭山腰的神殿卫士", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003197|20003198|20003199|20003200", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(35436.6 71375.9 5002.8)#L_YZD_Planes102"
+                }
+            }, 
+            "title": "灵源山脚"
+        }, 
+        "3": {
+            "comment": "阵法初成，尚未稳定，需尽快击破。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁冰火风雷四根阵柱", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003947|20003948|20003949|20003950", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003947|20003948|20003949|20003950#L_YZD_Planes102"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭玉虚宫三将", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003967|20003968|20003969", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003967|20003968|20003969#L_YZD_Planes102"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守卫阵柱的玉虚弟子", 
+                    "reqVal": 24, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003959|20003960|20003961|20003962|20003963|20003964|20003965|20003966", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003959|20003960|20003961|20003962|20003963|20003964|20003965|20003966#L_YZD_Planes102"
+                }
+            }, 
+            "title": "四方结界大阵"
+        }, 
+        "2": {
+            "comment": "这石阶尽头灵气充裕，想必神殿就在前方。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败守护神殿的玄鸿、玄奎", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003944|20003945", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(41617.1 68906.8 6090.9)#L_YZD_Planes102"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "沿着石阶进入神殿", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "42758.898438 62061.0625|46872.976563 64437.347656|48394.878906 63985.640625|42370.082031 60610.226563", 
+                    "param2": "12956|2956", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(45081.156250 63010.078125 7984.716797)#L_YZD_Planes102"
+                }
+            }, 
+            "title": "灵源石阶"
+        }, 
+        "4": {
+            "comment": "此人修为甚高，需小心应付。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天河道人，夺取神殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003970", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(47690.0 58240.0 7985.3)#L_YZD_Planes102"
+                }
+            }, 
+            "title": "天河道人"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵源神殿"
+}

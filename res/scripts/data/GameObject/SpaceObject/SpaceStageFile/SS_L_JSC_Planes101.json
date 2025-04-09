@@ -1,0 +1,35 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "蓬莱阁弟子", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000172|20000173|20000174|20000175", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000172|20000173|20000174|20000175#L_JSC_Planes101"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "救援玄冥子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2", 
+                    "param2": "20000167", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000167#L_JSC_Planes101"
+                }
+            }, 
+            "title": "救援玄冥子"
+        }
+    }, 
+    "describe": "1-10级魔道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "下界试炼"
+}

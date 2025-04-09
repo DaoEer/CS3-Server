@@ -1,0 +1,30 @@
+﻿{
+"SpaceName"	: "天之幻境",
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyRingTaskChild",
+"scriptID"	: "L_TZHJ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_TZHJ",
+"SpaceAoi"	: 100.0,
+"NavmeshPath"	: "space\\L_TZHJ_NAVMESH",
+"PatrolRouteFile": "P_L_TZHJ",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"enterPosition":"-5955.0 -229.0 -4790.0",
+	"enterDirection":"0.0 0.0 90.0",
+	"reviveType"	: "4|2|1",
+	"stageFile":"",
+	"eventFile":"SE_L_TZHJ",
+	"statisticsFile":"ST_L_TZHJ",
+	"monsterUseSpaceLevel":1,
+	"doorData":[]
+	},
+"DomainData"	:{
+	}
+}

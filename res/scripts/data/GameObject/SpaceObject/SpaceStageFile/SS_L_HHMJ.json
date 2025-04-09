@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "小心炽热的岩浆和火球伤害", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "跳跃石台，探索秘境", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "2600.310547 34488.281250 1290.328247:10", 
+                    "param2": "6290|290", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(2600.310547 34488.281250 1290.328247)#cycle_L_HHMJ"
+                }
+            }, 
+            "title": "初探秘境"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "穿越浮石，抵达终点", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "301", 
+                    "param2": "30000209", 
+                    "param1": "Trap", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入秘境"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "火海秘境"
+}

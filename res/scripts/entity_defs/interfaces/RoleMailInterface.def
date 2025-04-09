@@ -1,0 +1,84 @@
+<root>
+	<Properties>
+		<recordReceiverNames>
+			<Type>			ARRAY_UNICODE	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>		true		</Persistent>
+		</recordReceiverNames>
+	</Properties>
+	<ClientMethods>
+		<ReceiveMail>
+			<Arg>  MAIL_DATA  </Arg>
+		</ReceiveMail>
+		<OnMailDeleted>
+			<Arg>  ARRAY_INT32    </Arg>
+		</OnMailDeleted>
+		<ReceiveAllMail>
+			<Arg>  ARRAY_UNICODE    </Arg>
+			<Arg>  MAIL_DATA_LIST    </Arg>
+		</ReceiveAllMail>
+		<CLIENT_ExtractMailSuccess>
+			<Arg>  STRING    </Arg>
+		</CLIENT_ExtractMailSuccess>
+		<CLIENT_OpenMailWindow/>
+		<CLIENT_AddRecordReceiveName>
+			<Arg>  UNICODE    </Arg>
+		</CLIENT_AddRecordReceiveName>
+		<CLIENT_RemoveRecordReceiveName>
+			<Arg>  UNICODE    </Arg>
+		</CLIENT_RemoveRecordReceiveName>
+		<OnMailSendSuccess/>
+	</ClientMethods>
+	<BaseMethods>
+		<BASE_mail_send>
+			<Exposed/>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  UNICODE  </Arg>
+		</BASE_mail_send>
+		<mail_newNotify>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  INT64  </Arg>
+		</mail_newNotify>
+		<extractOneMail>
+			<Arg>  UINT64  </Arg>
+		</extractOneMail>
+		<mail_delete>
+			<Exposed/>
+			<Arg>  ARRAY_INT32    </Arg>
+		</mail_delete>
+		<extractMailState>
+			<Arg>  UINT64  </Arg>
+			<Arg>  BOOL  </Arg>
+		</extractMailState>
+		<BASE_readedMailNotify>
+			<Exposed/>
+			<Arg>  STRING    </Arg>
+		</BASE_readedMailNotify>
+		<BASE_timeToDelMail>
+			<Exposed/>
+			<Arg>  STRING    </Arg>
+		</BASE_timeToDelMail>
+		<addRecordReceiveName>
+			<Arg>  UNICODE    </Arg>
+		</addRecordReceiveName>
+	</BaseMethods>
+	<CellMethods>
+		<mail_send>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  UNICODE  </Arg>
+			<Arg>  BASE_ENTITYCALL    </Arg>
+		</mail_send>
+		<CELL_extractMail>
+			<Exposed/>
+			<Arg> ARRAY_STRING </Arg>
+		</CELL_extractMail>
+		<extractMailCB>
+			<Arg>  UINT64  </Arg>
+			<Arg>  INT64  </Arg>
+			<Arg>  ITEMLIST    </Arg>
+			<Arg>  INT64  </Arg>
+		</extractMailCB>
+	</CellMethods>
+</root>

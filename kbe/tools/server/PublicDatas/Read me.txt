@@ -1,0 +1,38 @@
+1、这是一个提供简单的redis数据的存取接口；
+2、关于redis服务器的安装和配置，参考：redis install.docx 文档；
+3、启动这个工具，需要安装python，django，以及python redis(目录上有);
+4、需要暴露这个工具的的对外端口号，端口在linx/win对应run_server里面的配置；
+5、配置redis，修改（PublicDatas\ModelRedis.py）文件里面对应的ip，端口和密码数据等配置即可；
+6、启动只需要运行：linx/win对应run_server.sh/run_server.bat.
+
+
+工具目前只是用于推荐服务器的使用，后期估计还会用于其它的拓展。
+
+
+示例：
+目前以运行的ip地址为：127.0.0.1，运行端口为:8000为如下使用做示例：
+
+可以通过 http://127.0.0.1:8000/index，查看系统是否正常
+
+设置redis服务器的一个key的值
+http://127.0.0.1:8000/set/?key=键&value=值
+
+获取redis服务器的一个key的值
+http://127.0.0.1:8000/get/?key=键
+
+删除redis服务器的一个key的值
+http://127.0.0.1:8000/delete/?key=键
+
+设置一个hash对象的对应key值
+http://127.0.0.1:8000/hset/?hash=hash对象名&key=键&value=值
+
+获取一个hash对象的对应key值
+http://127.0.0.1:8000/hget/?hash=hash对象名&key=键
+
+删除一个hash对象的对应key值
+http://127.0.0.1:8000/hdel/?hash=hash对象名&key=键
+
+获取一个hash对象的所有数据
+http://127.0.0.1:8000/hgetall/?hash=hash对象名
+
+删除一个hash对象和删除redis服务器的一个key的值方法一样

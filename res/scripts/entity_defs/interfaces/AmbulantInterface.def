@@ -1,0 +1,21 @@
+<root>
+	<Properties>
+		<moveSpeed>			<!-- 移动速度 -->
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			3.0			</Default>
+		</moveSpeed>
+		<movingType>
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</movingType>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

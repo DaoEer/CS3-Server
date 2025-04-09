@@ -1,0 +1,32 @@
+<root>
+	<Properties>
+		<exp>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	True			</Persistent>
+		</exp>
+		<level>
+			<Type>		INT16		</Type>
+			<Flags>		ALL_CLIENTS	</Flags>
+			<Default>	1			</Default>
+			<Persistent>	true			</Persistent>
+		</level>
+		<lastUpTime>
+			<Type>		SERVER_TIME		</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+			<Default>	0			</Default>
+			<Persistent>	true			</Persistent>
+		</lastUpTime>
+	</Properties>
+
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

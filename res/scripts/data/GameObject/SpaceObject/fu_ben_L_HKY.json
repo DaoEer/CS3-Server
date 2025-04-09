@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "火奎崖",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "fu_ben_L_HKY",
+"spaceType"	: "SPACE_TYPE_CHUAN_CHENG",
+"SpawnFile"	: "S_L_HKY",
+"NavmeshPath"	: "space\\L_HKY_02_NAVMESH",
+"PatrolRouteFile": "P_L_HKY",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 60,
+	"spaceIntroduce":{"voiceID":"C000008"},
+	"enterPosition":"45160.0 -14050.0 2070.0",
+	"enterDirection":"0 0 51",
+	"stageFile":"SS_L_HKY",
+	"eventFile":"SE_L_HKY",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1 
+	},
+"DomainData"	:{
+	}
+}

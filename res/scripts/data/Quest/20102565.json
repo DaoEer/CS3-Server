@@ -1,0 +1,107 @@
+{
+    "20102565": {
+        "tasks": [
+            {
+                "navigateData": "10000415#L_YLG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "收服狴犴"
+            }, 
+            {
+                "navigateData": "10000413#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "9", 
+                "param2": "-46420.0 18090.0 1432.0", 
+                "param1": "L_BQXB", 
+                "id": 2, 
+                "name": "回禀蓐收"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncEnterPlane", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "L_YLG_Planes102"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102565, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102564"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17345", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "812", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9119", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1232", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041521|Q041522|Q045560", 
+        "finish_by": "10000413#L_BQXB", 
+        "taskLogDes": "@S{4}和夕风一同深入隐龙谷，降服兽王狴犴，并将其带回浑天营复命。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041535|Q041537|Q045571|Q045572", 
+        "nextQuest": "20102566", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "收服狴犴（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000415#L_YLG", 
+        "isAutoAccept": 1
+    }
+}

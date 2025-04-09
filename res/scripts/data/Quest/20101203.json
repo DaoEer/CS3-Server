@@ -1,0 +1,149 @@
+{
+    "20101203": {
+        "tasks": [
+            {
+                "navigateData": "(6361.470703 -13765.618164 2014.215332)#L_TLDC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往天罗道场，取得九天息壤"
+            }, 
+            {
+                "navigateData": "10000269#L_FLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 1, 
+                "param3": "9", 
+                "param2": "19806.0 -32358.9 -134.0", 
+                "param1": "L_FLS", 
+                "id": 2, 
+                "name": "离开天罗道场，与灵珠子汇合"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002017"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010039"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101203, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1|1", 
+                "param1": "301010038|301010039"
+            }, 
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11003602"
+            }
+        ], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101239"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1|1", 
+                "param1": "301010038|301010039"
+            }, 
+            {
+                "script": "QuestFuncRemoveBuffer", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "11003602"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9044", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "878", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1459", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "670", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q030279|Q032083", 
+        "finish_by": "10000269#L_FLS", 
+        "taskLogDes": "@S{4}灵珠子让你使用变身符潜入天罗道场夺回九天息壤。|@S{4}灵珠子让你使用变身符潜入天罗道场夺回九天息壤。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q030294", 
+        "nextQuest": "20101204|20101232|20101232|20101232", 
+        "taskCompleteFunctions": {}, 
+        "level": 20, 
+        "title": "智取九天息壤", 
+        "isAutoCommit": 1, 
+        "start_by": "10000269#L_FLS", 
+        "isAutoAccept": 1
+    }
+}

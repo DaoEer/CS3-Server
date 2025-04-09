@@ -1,0 +1,63 @@
+<root>
+	<Properties>
+		<isOnCrossService> <!-- 是否处于跨服状态 --> 
+			<Type>		BOOL		</Type>
+			<Flags>	BASE		</Flags>
+			<Default>	false		</Default>
+			<Persistent>	false		</Persistent>
+		</isOnCrossService>
+		<isCrossServiceLogon> <!-- 是否是从其他服务器跨服过来登录 --> 
+			<Type>		BOOL		</Type>
+			<Flags>	BASE		</Flags>
+			<Default>	false		</Default>
+			<Persistent>	true		</Persistent>
+		</isCrossServiceLogon>
+		<prevServerkey> <!-- 跨服前所在服务器的serverkey --> 
+			<Type>		STRING			</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</prevServerkey>
+		<followedServerkey> <!-- 跨服后所在服务器的serverkey --> 
+			<Type>		STRING		</Type>
+			<Flags>	BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</followedServerkey>
+	</Properties>
+	<BaseMethods>
+		<requestCrossService>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</requestCrossService>
+		<onRequestCrossServiceResult>
+			<Arg>		STRING		</Arg>
+		</onRequestCrossServiceResult>
+		<requestReturnServer>
+			<Exposed/>
+		</requestReturnServer>
+		<onRequestReturnServerResult>
+			<Arg>		STRING		</Arg>
+		</onRequestReturnServerResult>
+		<startCrossService>
+			<Exposed/>
+		</startCrossService>
+		<startReturnServer>
+			<Exposed/>
+		</startReturnServer>
+		<clientOnCrossServiceOver>
+		</clientOnCrossServiceOver>
+	</BaseMethods>
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+		<OnRoleReEnterWorld>
+		</OnRoleReEnterWorld>
+		<CLIENT_OnRequestCrossServiceResult>
+			<Arg>		STRING 		</Arg>
+		</CLIENT_OnRequestCrossServiceResult>
+		<CLIENT_OnRequestReturnServerResult>
+			<Arg>		STRING 		</Arg>
+		</CLIENT_OnRequestReturnServerResult>
+	</ClientMethods>
+</root>

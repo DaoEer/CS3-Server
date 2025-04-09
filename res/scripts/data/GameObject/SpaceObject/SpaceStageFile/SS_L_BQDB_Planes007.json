@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭被魔化的族人", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004682|20004683|20004684", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8300.000000 54080.785156 -1136.810791)#L_BQDB_Planes007"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭南魁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004685", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004685#L_BQDB_Planes007"
+                }
+            }, 
+            "title": "消灭南魁"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救帝虹", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20004686", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20004686#L_BQDB_Planes007"
+                }
+            }, 
+            "title": "破除帝虹身上的封印"
+        }
+    }, 
+    "describe": "34级仙道", 
+    "beginOnSpaceInit": 1, 
+    "name": "魔道邪信"
+}

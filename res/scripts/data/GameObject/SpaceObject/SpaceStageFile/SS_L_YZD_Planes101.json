@@ -1,0 +1,109 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "为鲲鹏护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "49430 55270 7974:20", 
+                    "param2": "13000|3000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20002607#L_YZD_Planes101"
+                }
+            }, 
+            "title": "升坛作法"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭来袭的玉虚宫先锋和弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002612|20002613|20002614|20002615", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002612|20002613|20002614|20002615#L_YZD_Planes101"
+                }
+            }, 
+            "title": "击退敌袭（二）"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭来袭的玉虚宫弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010312|20010313|20010314", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010312|20010313|20010314#L_YZD_Planes101"
+                }
+            }, 
+            "title": "击退敌袭（一）"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "与祖巫帝江一起抵抗广成子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "4", 
+                    "param2": "20002616", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002616#L_YZD_Planes101"
+                }
+            }, 
+            "title": "强敌广成子"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭来袭的玉虚宫长老和弟子", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20010315|20010316|20010317", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20010315|20010316|20010317#L_YZD_Planes101"
+                }
+            }, 
+            "title": "击退敌袭（三）"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "为鲲鹏护法，击退仙道敌众", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "5", 
+                    "param2": "20002616", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002616#L_YZD_Planes101"
+                }
+            }, 
+            "title": "魔鼎大成"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "炼制魔鼎"
+}

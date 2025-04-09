@@ -1,0 +1,492 @@
+<root>
+	<Properties>
+		<!--isNoticeRelation>
+			<Type>		BOOL		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	1			</Default>
+			<Persistent>true		</Persistent>
+		</isNoticeRelation-->
+		<relationCatalogName>
+			<!-- 关系 分组名 -->
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</relationCatalogName>
+		<relationCatalog>
+			<!-- 关系 分组 -->
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true		</Persistent>
+		</relationCatalog>
+		<blackDbidList>
+			<!-- cell上的黑名单 -->
+			<Type>		ARRAY_DBID		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		[]		</Default>
+			<Persistent>	false		</Persistent>
+		</blackDbidList>
+	</Properties>
+
+	<ClientMethods>
+		<relation_initRelationCatalog>
+			<Arg>	RELATION_CATALOG_DATA		</Arg>
+		</relation_initRelationCatalog>
+		<relation_addRelationCatalog>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_addRelationCatalog>
+		<relation_delRelationCatalog>
+			<Arg>	INT32		</Arg>
+		</relation_delRelationCatalog>
+
+		<relation_sendRelationData>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_sendRelationData>
+		<relation_onNoticePlayerLogin>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+		</relation_onNoticePlayerLogin>
+		<relation_onNoticePlayerLogout>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_onNoticePlayerLogout>
+
+		<relation_requestPlayerInfo>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</relation_requestPlayerInfo>
+		<relation_addFriendRelation>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_addFriendRelation>
+		<relation_removeFriend>
+			<Arg>	STRING		</Arg>
+		</relation_removeFriend>
+
+		<relation_addFoeRelation>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_addFoeRelation>
+		<relation_removeFoe>
+			<Arg>	UNICODE		</Arg>
+		</relation_removeFoe>
+
+		<relation_addBlacklistRelation>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_addBlacklistRelation>
+		<relation_removeBlackList>
+			<Arg>	UNICODE		</Arg>
+		</relation_removeBlackList>
+
+		<relation_addRecentContacts>
+			<Arg>	STRING		</Arg>
+		</relation_addRecentContacts>
+		<relation_addRecentContactsDatas>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_addRecentContactsDatas>
+		<relation_removeRecentContacts>
+			<Arg>	UNICODE		</Arg>
+		</relation_removeRecentContacts>
+		
+		<relation_receiverGroup>				<!--讨论组 -->
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	ARRAY_STRING	</Arg>
+		</relation_receiverGroup>
+		<relation_updateGroupInfo>					
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_updateGroupInfo>
+		<relation_receiverGroupInfo>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	BOOL		</Arg>
+		</relation_receiverGroupInfo>
+		<relation_onNoticePlayerOnLine>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+		</relation_onNoticePlayerOnLine>
+		<relation_onPlayerOffLine>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_onPlayerOffLine>
+		<relation_onPlayerRemoveGroup>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_onPlayerRemoveGroup>
+		<relation_onDelectGroup>
+			<Arg>	UNICODE		</Arg>
+		</relation_onDelectGroup>
+		<relation_changeGroupLeater>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_changeGroupLeater>
+		<relation_addEndTime>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	CLIENT_TIME	</Arg>
+		</relation_addEndTime>
+		<relation_addGroupBlackList>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_addGroupBlackList>
+		<relation_delGroupBlackList>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_delGroupBlackList>
+		<relation_recommendGroup>
+			<Arg>	UNICODE		</Arg>
+		</relation_recommendGroup>
+		<OpenGroupPassWordWidget>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</OpenGroupPassWordWidget>
+		<OnSetRelationNotice>
+			<Arg>	INT32		</Arg>
+		</OnSetRelationNotice>
+		<OnInitRelationDataCompleted/>
+		<coverInvitedToFriend>
+			<Arg>	UNICODE		</Arg>
+		</coverInvitedToFriend>
+		
+		<relation_moveToOtherCatalog>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</relation_moveToOtherCatalog>
+
+		<ReceiveInviteToFriend>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</ReceiveInviteToFriend>
+	</ClientMethods>
+	
+	<BaseMethods>
+		<onPlayerLogout>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</onPlayerLogout>
+		<onNotifyRoleLogin>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UINT32		</Arg>
+		</onNotifyRoleLogin>
+
+		<setRelationNotice>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</setRelationNotice>
+		<addRelationCatalog>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</addRelationCatalog>
+		<delRelationCatalog>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</delRelationCatalog>
+		<renameRelationCatalog>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</renameRelationCatalog>
+		<moveRelationItemToCatalog>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+		</moveRelationItemToCatalog>
+		<setRelationRemarkName>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</setRelationRemarkName>
+
+		<requestPlayerInfo>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</requestPlayerInfo>
+		<remoteRequestRoleInfo>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</remoteRequestRoleInfo>
+		<addFriend>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</addFriend>
+		<beInvitedToFriend>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</beInvitedToFriend>
+		<addFriendReplyTrue>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</addFriendReplyTrue>	
+		<addFriendSuccess>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</addFriendSuccess>
+		<removeFriend>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</removeFriend>
+		<dstRemoveFriend>
+			<Arg>	UINT32		</Arg>
+		</dstRemoveFriend>
+		<getFriendNameBuyPlayerDBID>
+			<Arg>	DBID		</Arg>
+		</getFriendNameBuyPlayerDBID>
+
+		<addFoe>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</addFoe>
+		<addFoeReply>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</addFoeReply>
+		<removeFoe>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</removeFoe>
+
+		<addBlacklist>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</addBlacklist>
+		<addBlacklistReply>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</addBlacklistReply>
+		<removeBlacklist>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</removeBlacklist>
+
+		<addRecentContacts>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+		</addRecentContacts>
+
+		<addRecentContactsReply>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UINT8		</Arg>
+			<Arg>	UINT16		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	OBJECT_NAME	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</addRecentContactsReply>
+		<removeRecentContacts>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</removeRecentContacts>
+		<removeAllRecentContacts>
+			<Exposed/>
+		</removeAllRecentContacts>
+		
+		<createGroup>
+			<Exposed/>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</createGroup>
+		<deleteGroup>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</deleteGroup>
+		<invitedToGroup>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</invitedToGroup>
+		<beInvitedToGroup>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UINT32		</Arg>
+		</beInvitedToGroup>
+		<requestEnterGroup>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+		</requestEnterGroup>
+		<requestEnterGroupByPassword>
+			<Exposed/>
+			<Arg>	STRING		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</requestEnterGroupByPassword>
+		<updateGroupInfo>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	UNICODE			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+		</updateGroupInfo>
+		<activeLeaveGroup>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</activeLeaveGroup>
+		<passiveLeaveGroup>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</passiveLeaveGroup>
+		<changeGroupLeater>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</changeGroupLeater>
+		<addGroupBlackList>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</addGroupBlackList>
+		<delGroupBlackList>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</delGroupBlackList>
+		<addEndTime>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</addEndTime>
+		<addEndTimeSuccess>
+			<Arg>	UINT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</addEndTimeSuccess>
+		<onFriendChat>
+			<Arg>	CHAT_DATA	</Arg>
+		</onFriendChat>
+		<onFriendChatCB>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	CHAT_DATA	</Arg>
+			<Arg>	UNICODE		</Arg>
+		</onFriendChatCB>
+		<onWhisperChat>
+			<Arg>	CHAT_DATA	</Arg>
+		</onWhisperChat>
+
+		<addTargetRelation>
+			<Arg>	INT32		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+		</addTargetRelation>
+		<removeTargetRelation>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</removeTargetRelation>
+		<replyInvitedToFriend>
+			<Exposed/>
+			<Arg>	BOOL		</Arg>
+			<Arg>	UNICODE		</Arg>
+		</replyInvitedToFriend>
+	</BaseMethods>
+
+	<CellMethods>
+		<addFoeRequest>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</addFoeRequest>
+		<addRecentContactsRequest>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</addRecentContactsRequest>
+		<addBlacklistRequest>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</addBlacklistRequest>
+		<addEndTimePayMoney>
+			<Arg>	INT32		</Arg>
+			<Arg>	UINT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</addEndTimePayMoney>
+		<updateBlacklist>
+			<Arg> ARRAY_DBID </Arg>
+		</updateBlacklist>
+	</CellMethods>
+</root>

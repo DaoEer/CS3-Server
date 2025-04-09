@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败铁拳魔卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000941|20000942", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000941#L_FLS_Planes004"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败铁拳魔将拓雷", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000943", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000943#L_FLS_Planes004"
+                }
+            }, 
+            "title": "奋勇斗魔将"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入锁灵塔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-19701.964844 -9424.851563 8698.283203:10", 
+                    "param2": "13698|3698", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-19701.964844 -9424.851563 8698.283203)#L_FLS_Planes004"
+                }
+            }, 
+            "title": "进入锁灵塔"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "锁灵塔外"
+}

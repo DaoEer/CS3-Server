@@ -1,0 +1,126 @@
+{
+    "20101109": {
+        "tasks": [
+            {
+                "navigateData": "(8466.0 -3770.0000000000005 -2240.0)#L_SGMJ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "进入上古秘境"
+            }, 
+            {
+                "navigateData": "20002086|20002083#L_SGMJ", 
+                "goal": 3, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20002086|20002083", 
+                "id": 2, 
+                "name": "消灭上古守卫"
+            }, 
+            {
+                "navigateData": "30000034#L_SGMJ", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "找到盘古秘宝"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110291002"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2020"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101109, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101144"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3546", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "728", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1182", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "474", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q021143", 
+        "finish_by": "10000060#L_SGMJ", 
+        "taskLogDes": "@S{4}通过青龙的考验之后，青龙指引你前往上古秘境接受盘古传承。请你通过上古秘境的试炼，得到盘古传承。|@S{4}通过青龙的考验之后，青龙指引你前往上古秘境接受盘古传承。请你通过上古秘境的试炼，得到盘古传承。|@S{4}通过青龙的考验之后，青龙指引你前往上古秘境接受盘古传承。请你通过上古秘境的试炼，得到盘古传承。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020298", 
+        "nextQuest": "20101110|20101130|20101131|20101132", 
+        "taskCompleteFunctions": {}, 
+        "level": 15, 
+        "title": "上古秘境", 
+        "isAutoCommit": 1, 
+        "start_by": "10001078#L_TJGJD", 
+        "isAutoAccept": 1
+    }
+}

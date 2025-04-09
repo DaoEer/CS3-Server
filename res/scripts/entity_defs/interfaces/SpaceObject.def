@@ -1,0 +1,135 @@
+<root>
+	<Interfaces>
+		<Interface> 	HasCellOjbect	</Interface>
+		<Interface> 	SpawnInterface	</Interface>
+		<Interface> 	GroupSpawnInterface	</Interface>
+		<Interface> 	SpaceEffectInterface	</Interface>
+	</Interfaces>
+	<Properties>
+		<cid>
+			<Type>		UINT64				</Type>
+			<Flags>		BASE				</Flags>
+		</cid>
+		<scriptID>
+			<Type>		SCRIPT_ID			</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Persistent>	false				</Persistent>
+		</scriptID>
+		<spaceNumber>
+			<Type>		SPACE_NUMBER			</Type>
+			<Flags>		CELL_PUBLIC			</Flags>
+			<Persistent>	false				</Persistent>
+		</spaceNumber>
+		<_spaceRoles>
+			<Type>		ARRAY <of> BASE_ENTITYCALL </of>	</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</_spaceRoles>
+		<createArgs>
+			<Type>		PYTHON_DICT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</createArgs>
+		<belongType>
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</belongType>
+		<spaceKey>
+			<Type>		STRING				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Persistent>	false				</Persistent>
+		</spaceKey>
+		<entityRecord>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</entityRecord>
+		<entityMailBoxRecord>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	{}		</Default>
+		</entityMailBoxRecord>
+		<monsterUseSpaceLevel>
+			<Type>		BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	0		</Default>
+		</monsterUseSpaceLevel>
+		<areaFlags>
+			<Type>		INT32				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	65535		</Default>
+			<Persistent>	false				</Persistent>			
+		</areaFlags>
+		<spaceHPModifyRatio>
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0.0		</Default>
+			<Persistent>	false				</Persistent>	
+		</spaceHPModifyRatio>
+		<spaceDamageModifyRatio>
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0.0		</Default>
+			<Persistent>	false				</Persistent>	
+		</spaceDamageModifyRatio>
+		<spaceMgrMB>
+			<Type>	BASE_ENTITYCALL		</Type>
+			<Flags>		BASE			</Flags>	
+		</spaceMgrMB>
+		<_readyEnterRoles>
+			<Type>	ARRAY_BASE_ENTITYCALL	</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>	[]		</Default>
+		</_readyEnterRoles>
+	</Properties>
+
+	<BaseMethods>
+		<registerLogonPlayer>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+		</registerLogonPlayer>
+		<teleportEntity>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+		</teleportEntity>
+		<globalWorld>
+			<Arg>	INT32	</Arg> <!-- 参数 -->
+			<Arg>	UNICODE	</Arg> <!-- 参数 -->
+		</globalWorld>
+	</BaseMethods>
+
+	<CellMethods>
+		<teleportEntity>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+			<Arg>		PYTHON_DICT		</Arg>
+		</teleportEntity>
+		<closeSpace/>
+		<onMonsterDie>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT8		</Arg>
+			<Arg>	INT16		</Arg>
+		</onMonsterDie>
+		<onTriggerBox>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+		</onTriggerBox>
+		<onNPCObjectDestroy>
+			<Arg>	OBJECT_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT8		</Arg>
+		</onNPCObjectDestroy>
+		<onSpaceDataChange>
+			<Arg>	SPACE_ID	</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+		</onSpaceDataChange>
+		<onCreateWorldBoss/>
+		<onCountDpwnRefreshTime/>
+		<onSpaceInitLoadOver/>
+	</CellMethods>
+</root>

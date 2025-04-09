@@ -1,0 +1,162 @@
+<root>
+	<Properties>
+		<testint8>
+			<Type>		INT8				</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	25					</Default>
+			<Persistent>	false			</Persistent>
+		</testint8>
+		<testint16>
+			<Type>		INT16				</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	1000					</Default>
+			<Persistent>	false			</Persistent>
+		</testint16>
+		<testint32>
+			<Type>		INT32				</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	2464454					</Default>
+			<Persistent>	false			</Persistent>
+		</testint32>
+		<testuint8>
+			<Type>		UINT8				</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	170					</Default>
+			<Persistent>	false			</Persistent>
+		</testuint8>
+		<testuint16>
+			<Type>		UINT16				</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>		33768				</Default>
+			<Persistent>	false			</Persistent>
+		</testuint16>
+		<testuint32>
+			<Type>		UINT32				</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	2247640093					</Default>
+			<Persistent>	false			</Persistent>
+		</testuint32>
+		<testfloat>
+			<Type>		FLOAT				</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	59.541				</Default>
+			<Persistent>	false			</Persistent>
+		</testfloat>
+		<testdouble>
+			<Type>		DOUBLE				</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	59.541688752				</Default>
+			<Persistent>	false			</Persistent>
+		</testdouble>
+		<teststring>
+			<Type>		STRING		</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	htrytewrtwe				</Default>
+			<Persistent>	false			</Persistent>
+		</teststring>
+		<testunicode>
+			<Type>		UNICODE		</Type>
+			<Flags>		OWN_CLIENT		</Flags>
+			<Default>	ytrytry				</Default>
+			<Persistent>	false			</Persistent>
+		</testunicode>
+	</Properties>
+
+
+	<ClientMethods>
+		<TestCellCommon1>
+			<Arg>			INT32		</Arg>
+			<Arg>			FLOAT		</Arg>
+			<Arg>			STRING	</Arg>
+		</TestCellCommon1>       
+		<TestCellCommon2>
+			<Arg>			ARRAY_INT32		</Arg>
+		</TestCellCommon2>      
+		<TestCellCommon3>
+			<Arg>			ARRAY_FLOAT		</Arg>
+		</TestCellCommon3>      
+		<TestCellCommon4>
+			<Arg>			ARRAY_STRING		</Arg>
+		</TestCellCommon4>        
+		<testJson1>
+			<Arg>			STRING		</Arg>
+		</testJson1> 
+		<testJson2>
+			<Arg>			STRING		</Arg>
+		</testJson2>           
+		<testCellCpp1>
+			<Arg>			INT32		</Arg>
+			<Arg>			FLOAT		</Arg>
+			<Arg>			STRING	</Arg>
+		</testCellCpp1> 
+		<testCellCpp2>
+			<Arg>			ARRAY_INT32		</Arg>
+		</testCellCpp2> 
+		<testCellCpp3>
+			<Arg>			ARRAY_FLOAT		</Arg>
+		</testCellCpp3> 
+		<testCellCpp4>
+			<Arg>			ARRAY_STRING		</Arg>
+		</testCellCpp4>
+		<testCellCpp5>
+			<Arg Name="spaceStage">			SPACE_STAGE		</Arg>
+		</testCellCpp5>
+		<testJsonCpp1>
+			<Arg>			STRING		</Arg>
+		</testJsonCpp1> 
+		<testJsonCpp2>
+			<Arg>			STRING		</Arg>
+		</testJsonCpp2> 	
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<testStringListBP>
+			<Exposed/>
+			<Arg>			ARRAY_STRING		</Arg>
+		</testStringListBP>
+		<testCommonBP>
+			<Exposed/>
+			<Arg>			STRING		</Arg>
+			<Arg>			STRING		</Arg>
+			<Arg>			STRING		</Arg>
+		</testCommonBP>
+		<testClientCall1>
+			<Exposed/>
+			<Arg>			INT32		</Arg>
+			<Arg>			FLOAT		</Arg>
+			<Arg>			STRING		</Arg>
+			<Arg>			ARRAY_STRING		</Arg>
+		</testClientCall1>
+		<testIntList>
+			<Exposed/>
+			<Arg>			ARRAY_INT32		</Arg>
+		</testIntList>
+		<testFloatList>
+			<Exposed/>
+			<Arg>			ARRAY_FLOAT		</Arg>
+		</testFloatList>
+		<testDoubleList>
+			<Exposed/>
+			<Arg>			ARRAY_DOUBLE		</Arg>
+		</testDoubleList>
+		<testStringList>
+			<Exposed/>
+			<Arg>			ARRAY_STRING		</Arg>+
+		</testStringList>
+		<testComplex>
+			<Exposed/>
+			<Arg>			INT32		</Arg>
+			<Arg>			FLOAT		</Arg>
+			<Arg>			STRING		</Arg>
+			<Arg>			TESTITEM	</Arg>
+		</testComplex>
+		<testComplex1>
+			<Exposed/>
+			<Arg>			INT32		</Arg>
+			<Arg>			TESTITEMS	</Arg>
+		</testComplex1>
+	</CellMethods>
+</root>

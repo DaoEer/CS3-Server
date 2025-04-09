@@ -1,0 +1,78 @@
+{
+    "20102193": {
+        "tasks": [
+            {
+                "navigateData": "(96438.140625 171632.000000 -5319.985352)#L_FMYS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往飞魔岭"
+            }, 
+            {
+                "navigateData": "(96438.140625 171632.000000 -5319.985352)#L_FMYS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 2, 
+                "name": "攻打飞魔要塞"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002002"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102193, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102191|20102192"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q051210|Q051211|Q051212|Q051213|Q051214", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}元始天尊命你协助太一前去攻打飞魔岭救回帝俊元神。|@S{4}此处乃是飞魔要塞，请你协助太一先行攻下此要塞。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102194", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "攻打飞魔岭（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000000#L_YXG", 
+        "isAutoAccept": 1
+    }
+}

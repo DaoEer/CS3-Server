@@ -1,0 +1,21 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "L_TMG",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "S_L_TMG",
+"NavmeshPath"	: "space\\L_TMG_NAVMESH",
+"PatrolRouteFile": "P_L_TMG",
+"belongType"	: "0",
+"RoleRelationRule": "ROLE_RELATION_RULE_PEACE",
+"RoleIsCanCompete":1,
+"SpaceData"	:{
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|1"
+	},
+"DomainData"	:{
+	}
+}

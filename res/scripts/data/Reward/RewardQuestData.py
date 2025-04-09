@@ -1,0 +1,137 @@
+# -*- coding: utf-8 -*-
+datas = [{
+	'questid':'20101107','rate':0.20000000298,'scriptid':'20001436','amount':1,'type':'item','goodsid':'301010019',
+},
+{
+	'questid':'20101107','rate':0.20000000298,'scriptid':'20001437','amount':1,'type':'item','goodsid':'301010019',
+},
+{
+	'questid':'20101107','rate':0.20000000298,'scriptid':'20001438','amount':1,'type':'item','goodsid':'301010019',
+},
+{
+	'questid':'20101107','rate':0.20000000298,'scriptid':'20001439','amount':1,'type':'item','goodsid':'301010019',
+},
+{
+	'questid':'20101107','rate':0.20000000298,'scriptid':'20001440','amount':1,'type':'item','goodsid':'301010019',
+},
+{
+	'questid':'20101107','rate':0.20000000298,'scriptid':'20001441','amount':1,'type':'item','goodsid':'301010019',
+},
+{
+	'questid':'20101642','rate':0.20000000298,'scriptid':'20002790','amount':1,'type':'item','goodsid':'301010058',
+},
+{
+	'questid':'20101642','rate':0.20000000298,'scriptid':'20002791','amount':1,'type':'item','goodsid':'301010058',
+},
+{
+	'questid':'20101642','rate':0.20000000298,'scriptid':'20002792','amount':1,'type':'item','goodsid':'301010058',
+},
+{
+	'questid':'20101642','rate':0.20000000298,'scriptid':'20002793','amount':1,'type':'item','goodsid':'301010058',
+},
+{
+	'questid':'20101642','rate':0.20000000298,'scriptid':'20002794','amount':1,'type':'item','goodsid':'301010058',
+},
+{
+	'questid':'20101642','rate':0.20000000298,'scriptid':'20002795','amount':1,'type':'item','goodsid':'301010058',
+},
+{
+	'questid':'80135034','rate':0.20000000298,'scriptid':'20003283','amount':1,'type':'item','goodsid':'301010060',
+},
+{
+	'questid':'80135035','rate':0.20000000298,'scriptid':'20003283','amount':1,'type':'item','goodsid':'301010060',
+},
+{
+	'questid':'80135009','rate':0.20000000298,'scriptid':'20003284','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135009','rate':0.20000000298,'scriptid':'20003288','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135009','rate':0.20000000298,'scriptid':'20003292','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135010','rate':0.20000000298,'scriptid':'20003284','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135010','rate':0.20000000298,'scriptid':'20003288','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135010','rate':0.20000000298,'scriptid':'20003292','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135011','rate':0.20000000298,'scriptid':'20003284','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135011','rate':0.20000000298,'scriptid':'20003288','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135011','rate':0.20000000298,'scriptid':'20003292','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135012','rate':0.20000000298,'scriptid':'20003284','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135012','rate':0.20000000298,'scriptid':'20003288','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135012','rate':0.20000000298,'scriptid':'20003292','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135013','rate':0.20000000298,'scriptid':'20003284','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135013','rate':0.20000000298,'scriptid':'20003288','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135013','rate':0.20000000298,'scriptid':'20003292','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135014','rate':0.20000000298,'scriptid':'20003284','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135014','rate':0.20000000298,'scriptid':'20003288','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135014','rate':0.20000000298,'scriptid':'20003292','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135015','rate':0.20000000298,'scriptid':'20003284','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135015','rate':0.20000000298,'scriptid':'20003288','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135015','rate':0.20000000298,'scriptid':'20003292','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135016','rate':0.20000000298,'scriptid':'20003284','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135016','rate':0.20000000298,'scriptid':'20003288','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'80135016','rate':0.20000000298,'scriptid':'20003292','amount':1,'type':'item','goodsid':'301010061',
+},
+{
+	'questid':'20102018','rate':0.20000000298,'scriptid':'20004452','amount':1,'type':'item','goodsid':'301010072',
+},
+{
+	'questid':'20102018','rate':0.20000000298,'scriptid':'20004453','amount':1,'type':'item','goodsid':'301010072',
+},
+{
+	'questid':'20102018','rate':0.20000000298,'scriptid':'20004454','amount':1,'type':'item','goodsid':'301010072',
+},
+{
+	'questid':'20102018','rate':0.20000000298,'scriptid':'20004456','amount':1,'type':'item','goodsid':'301010072',
+},
+{
+	'questid':'20102018','rate':0.20000000298,'scriptid':'20004459','amount':1,'type':'item','goodsid':'301010072',
+},
+{
+	'questid':'20102018','rate':0.20000000298,'scriptid':'20004460','amount':1,'type':'item','goodsid':'301010072',
+},
+{
+	'questid':'20102018','rate':1.0,'scriptid':'20004461','amount':1,'type':'item','goodsid':'301010071',
+},
+]

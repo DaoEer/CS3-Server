@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "族人开始撤离", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "gogogo", 
+                    "param2": "20005325", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "开始撤离"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭守将青霜", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005319", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005319#L_BQDB_Planes106"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭玄光道人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005320", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005320#L_BQDB_Planes106"
+                }
+            }, 
+            "title": "最终决战"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭拦路守卫", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005313|20005314|20005315|20005316|20005317|20005318", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005313|20005314|20005315|20005316|20005317|20005318#L_BQDB_Planes106"
+                }
+            }, 
+            "title": "扫除障碍"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "族人成功撤离", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005326", 
+                    "type": "SStageTask_NPCObjectDestroy", 
+                    "navigateData": "20005326#L_BQDB_Planes106"
+                }
+            }, 
+            "title": "成功撤离"
+        }
+    }, 
+    "describe": "魔道34级主线", 
+    "beginOnSpaceInit": 1, 
+    "name": "突破封锁"
+}

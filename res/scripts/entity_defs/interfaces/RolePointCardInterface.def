@@ -1,0 +1,53 @@
+<root>
+	<Properties>
+	</Properties>
+	
+	<BaseMethods>
+		<sellPointCard>
+			<Arg>		STRING		</Arg>		<!-- 卡号 -->
+			<Arg>		STRING		</Arg>		<!-- 密码 -->
+			<Arg>		STRING		</Arg>		<!-- 服务器名字 -->
+			<Arg>		INT32		</Arg>		<!-- 价格 -->
+		</sellPointCard>
+		<buyPointCard>
+			<Arg>		STRING		</Arg>		<!-- 卡号 -->
+			<Arg>		UINT32		</Arg>		<!-- 金钱 -->
+		</buyPointCard>
+		<queryPointCards>
+			<Exposed/>
+			<Arg>		UINT32		</Arg>		<!-- page -->
+		</queryPointCards>
+	</BaseMethods>
+	
+	<CellMethods>
+		<sellPointCard>
+			<Exposed/>
+			<Arg>		STRING		</Arg>		<!-- 卡号 -->
+			<Arg>		STRING		</Arg>		<!-- 密码 -->
+			<Arg>		STRING		</Arg>		<!-- 服务器名字 -->
+			<Arg>		INT32		</Arg>		<!-- 价格 -->
+		</sellPointCard>
+		<onSellPointCard/>
+		<buyPointCard>
+			<Exposed/>
+			<Arg>		STRING		</Arg>		<!-- 卡号 -->
+		</buyPointCard>
+		<onBuyPointCard>
+			<Arg>		INT32		</Arg>		<!-- 价格 -->
+		</onBuyPointCard>
+	</CellMethods>
+
+	<ClientMethods>
+		<onBuyPointCardInterface/>
+		<onSellPointCardInterface/>
+		<onAddPointCard>
+			<Arg>		POINTCARDINFO		</Arg>
+		</onAddPointCard>
+		<removePointCard>
+			<Arg>		STRING		</Arg>
+		</removePointCard>
+		<onReceivePointCard>
+			<Arg>		POINTCARDINFO		</Arg>
+		</onReceivePointCard>
+	</ClientMethods>
+</root>

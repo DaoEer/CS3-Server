@@ -1,0 +1,24 @@
+<root>
+	<Properties>
+		<entersOnAddProximity>
+			<Type>		DICT_INT_INT_LIST	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</entersOnAddProximity>
+		<proximityInfo>
+			<Type>		DICT_INT_INT_LIST	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</proximityInfo>
+		<shapeProximityTimers>
+			<Type>		DICT_INT_INT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</shapeProximityTimers>
+		<shapeProximityEnters>
+			<Type>		DICT_INT_INT_LIST	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</shapeProximityEnters>
+		<shapeProximityInners>
+			<Type>		DICT_INT_INT_LIST	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</shapeProximityInners>
+	</Properties>
+</root>

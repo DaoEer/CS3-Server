@@ -1,0 +1,129 @@
+{
+    "20102024": {
+        "tasks": [
+            {
+                "navigateData": "20004532|20004533#L_BQXB", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20004532|20004533", 
+                "id": 1, 
+                "name": "消灭浑天营弟子"
+            }, 
+            {
+                "navigateData": "(-15927.2 74497.5 1542)#L_BQXB", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20004535|20006003", 
+                "id": 2, 
+                "name": "消灭浑天营守卫"
+            }, 
+            {
+                "navigateData": "(-31282.4 75012.8 3166.1)#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20004536", 
+                "id": 3, 
+                "name": "击败阴风长老"
+            }, 
+            {
+                "navigateData": "30000255#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "探寻族人下落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3083"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102024, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102023"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "16532", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "669", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "7510", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1232", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045109|Q045110|Q032688", 
+        "finish_by": "10000466#L_BQXB", 
+        "taskLogDes": "@S{4}九天玄女怀疑翻天兽掳人之事背后有魔道作梗。让你前往御风坡探查魔道踪迹。|@S{4}九天玄女怀疑翻天兽掳人之事背后有魔道作梗。让你前往御风坡探查魔道踪迹。|@S{4}九天玄女怀疑翻天兽掳人之事背后有魔道作梗。让你前往御风坡探查魔道踪迹。|@S{4}九天玄女怀疑翻天兽掳人之事背后有魔道作梗。让你前往御风坡探查魔道踪迹。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q040200|Q040201", 
+        "nextQuest": "20102025", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "轩辕族人的下落", 
+        "isAutoCommit": 1, 
+        "start_by": "10000455#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

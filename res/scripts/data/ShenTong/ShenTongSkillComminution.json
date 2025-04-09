@@ -1,0 +1,18 @@
+[
+    {
+        "NeedPotential": 1, 
+        "Name": "1", 
+        "NextSKillID": 140116002, 
+        "NeedExp": 100, 
+        "NeedMoney": 1, 
+        "SkillID": 140116001
+    }, 
+    {
+        "NeedPotential": 1, 
+        "Name": "2", 
+        "NextSKillID": 140116003, 
+        "NeedExp": 200, 
+        "NeedMoney": 1, 
+        "SkillID": 140116002
+    }
+]

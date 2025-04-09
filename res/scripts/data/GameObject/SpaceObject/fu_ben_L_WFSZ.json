@@ -1,0 +1,31 @@
+﻿{
+"SpaceName"	: "灵岩洞府",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildCopy",
+"scriptID"	: "fu_ben_L_WFSZ",
+"spaceType"	: "SPACE_TYPE_POTENTIAL",
+"SpawnFile"	: "S_L_WFSZ",
+"NavmeshPath"	: "space\\L_WFSZ_NAVMESH",
+"PatrolRouteFile": "P_L_WFSZ",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 15,
+	"teleportSkillID" : 121544007,
+	"spaceIntroduce":{"voiceID":"C001483|C001484|C001485"},
+	"enterPosition":"-39105 -4015 -1524",
+	"enterDirection":"0 0 45",
+	"stageFile":"SS_L_WFSZ",
+	"eventFile":"SE_L_WFSZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "神秘刺客出现抢夺冥蛇果，将他们尽数消灭。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭刺客", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002838|20002839", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "消灭抢宝刺客"
+        }
+    }, 
+    "describe": "魔道环任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "送宝凤鸣"
+}

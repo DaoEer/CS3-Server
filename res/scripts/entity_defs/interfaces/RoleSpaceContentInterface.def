@@ -1,0 +1,1146 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<restoreEnergyTimerID>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</restoreEnergyTimerID>
+		<expendEnergyTimerID>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</expendEnergyTimerID>
+		<reduceLingEnergyTimerID>
+			<Type>		TIMER_ID			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</reduceLingEnergyTimerID>
+		<sparHunTingIntegral>
+			<!-- 晶石狩猎场机缘副本中时的积分，退出机缘副本后再累加到sparHunTingTotalIntegral并至为0 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</sparHunTingIntegral>
+		<sparHunTingTotalIntegral>
+			<!-- 晶石狩猎场总积分，不包括玩家正在机缘副本中时，在机缘副本所获得的的积分 -->
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</sparHunTingTotalIntegral>
+		<qianNengData>	<!-- 潜能副本数据 -->
+			<Type>		PY_DICT			</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Persistent>	true		</Persistent>
+		</qianNengData>
+		<vehicleId>				<!-- 玩家载具entityID -->
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+		</vehicleId>
+		<parachutingState>
+			<Type>			UINT8		</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+		</parachutingState>
+	</Properties>
+
+	<ClientMethods>
+		<EnterFishState>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</EnterFishState>
+		<ShowFishScore>
+			<Arg>	INT32	</Arg>
+		</ShowFishScore>
+		<ZhenLongQiJu_OnBossHPChange>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</ZhenLongQiJu_OnBossHPChange>
+		<ZhenLongQiJu_OnBossStateChange>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>       STRING			</Arg>
+		</ZhenLongQiJu_OnBossStateChange>
+		<ZhenLongQiJu_StopBossStateChange>
+		</ZhenLongQiJu_StopBossStateChange>
+		<ZhenLongQiju_ClearData>
+		</ZhenLongQiju_ClearData>
+		<OnAddShield>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</OnAddShield>
+		<OnRemoveShield>
+		</OnRemoveShield>
+		<OnShieldChanged>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</OnShieldChanged>
+		<OnMountHeHua>
+			<Arg>		INT32			</Arg>
+		</OnMountHeHua>
+		<ShowCircleHPPercentBar>
+			<Arg>		BOOL			</Arg>        <!-- 0:关闭 1:开启 -->
+			<Arg>		INT32			</Arg>        <!-- 血量百分比  -->
+		</ShowCircleHPPercentBar>
+		<DismountHeHua/>
+		<MoveToTargetPosition>
+			<Arg>		POSITION			</Arg>
+		</MoveToTargetPosition>
+		<CLIENT_MagicMazeAnswerQuestionEnd>
+			<Arg>		UNICODE			</Arg>
+		</CLIENT_MagicMazeAnswerQuestionEnd>
+		<CLIENT_ReceiveQuestion>
+			<Arg>		INT32			</Arg>
+			<Arg>		UNICODE			</Arg>
+			<Arg>		UNICODE			</Arg>
+		</CLIENT_ReceiveQuestion>
+		<CLIENT_ReceiveQuestionState>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+		</CLIENT_ReceiveQuestionState>
+		<CreateExtraItemBar>
+			<Arg>		INT32			</Arg>
+			<Arg>		ARRAY_STRING	</Arg>
+		</CreateExtraItemBar>
+		<RemoveExtralItemBar/>
+		<CLIENT_MagicMazeDestinyResult>
+			<Arg>		INT32			</Arg>
+		</CLIENT_MagicMazeDestinyResult>
+		<CLIENT_MagicMazeLuckResult>
+			<Arg>		INT32			</Arg>
+		</CLIENT_MagicMazeLuckResult>
+		<UpdateEnergyBar>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+		</UpdateEnergyBar>
+		<ShowEnergyMessage>
+			<Arg>		BOOL			</Arg>
+		</ShowEnergyMessage>
+		<ShowFaBaoCollectSuccMsg>
+			<Arg>			STRING		</Arg>
+		</ShowFaBaoCollectSuccMsg>
+		<CLIENT_StartMagicMazeQuest>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_StartMagicMazeQuest>
+		<ShowEnterFengQiMsg/>
+		<OnOpenAddSpeedExpendEnergy/>
+		<OnCloseAddSpeedExpendEnergy/>
+		<CLIENT_CreateDestinyZhuanPan/>
+		<CLIENT_CreateLuckZhuanPan/>
+		<ShowHPProgressBar>
+			<Arg>			BOOL		</Arg>
+			<Arg>			INT32		</Arg>
+			<Arg>			INT32		</Arg>
+		</ShowHPProgressBar>
+		<NotifyClinetQTEResult>
+			<Arg>			BOOL		</Arg>
+		</NotifyClinetQTEResult>
+		<OtherShowQTE/>
+		<CreateFish>
+			<Arg>			INT32		</Arg>
+			<Arg>			FLOAT		</Arg>
+			<Arg>			FLOAT		</Arg>
+			<Arg>			FLOAT		</Arg>
+			<Arg>			FLOAT		</Arg>
+		</CreateFish>
+		<CLIENT_NotifyClientRecoveryStatus/>
+		<CLIENT_NotifyClientTortureResult/>
+		<CLIENT_onContinueTorture/>
+		<NotifyClinetRotat>
+			<Arg>			INT32		</Arg>
+			<Arg>			FLOAT		</Arg>
+		</NotifyClinetRotat>
+		<CLIENT_notifyCameraMove/>
+		<ChangeTerrainByBOSS/>
+		<CLIENT_onStartTorureNotice/>
+		<OnAbsorbSoulLayerLevelChanged>
+			<Arg>	INT32 	</Arg>
+		</OnAbsorbSoulLayerLevelChanged>
+		<CLIENT_NotifyClientStopEffect>
+			<Arg>	STRING			</Arg>
+		</CLIENT_NotifyClientStopEffect>
+		<CLIENT_OnPremierHPChanged>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_OnPremierHPChanged>
+		<CLIENT_onProblemDescription>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_onProblemDescription>
+		<CLIENT_onCalculateResults>
+			<Arg>		INT32			</Arg>
+		</CLIENT_onCalculateResults>
+		<SpaceZSGGossipComplete/>
+		<CopyRemainTimeAndName>
+			<Arg>		INT32		</Arg>
+			<Arg>		SCRIPT_ID	</Arg>
+		</CopyRemainTimeAndName>
+		<CLIENT_SetPausedSpaceVoice>
+			<Arg>		ARRAY_STRING	</Arg>
+			<Arg>		ARRAY_STRING	</Arg>
+			<Arg>			BOOL		</Arg>
+			<Arg>			BOOL		</Arg>
+		</CLIENT_SetPausedSpaceVoice>
+		<CLIENT_RideCopyGlede>
+			<Arg>		STRING		</Arg>
+		</CLIENT_RideCopyGlede>
+		<CLIENT_DismountCopyGlede>
+		</CLIENT_DismountCopyGlede>
+		<CLIENT_NotifyHealthDisplayScreen>
+		</CLIENT_NotifyHealthDisplayScreen>
+		<CLIENT_NotifyStartCountdown>
+		</CLIENT_NotifyStartCountdown>
+		<CLIENT_NotifyStopCountdown>
+		</CLIENT_NotifyStopCountdown>
+		<ClIENT_DisplayLocationAndColor>
+			<Arg>		POSITION	 	</Arg>
+			<Arg>		INT32	 		</Arg>
+		</ClIENT_DisplayLocationAndColor>
+		<ClIENT_ClearLocationAndColor>
+		</ClIENT_ClearLocationAndColor>
+		<CLIENT_OnEnterAimingThrowMode>
+			<Arg>		INT32	 		</Arg>
+		</CLIENT_OnEnterAimingThrowMode>
+		<CLIENT_OnLeaveAimingThrowMode>
+		</CLIENT_OnLeaveAimingThrowMode>
+		<CLIENT_MatrixMazeResult>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</CLIENT_MatrixMazeResult>
+		<CLIENT_OpenMonsterMirror>
+			<Arg>		FLOAT	 	</Arg>
+			<Arg>		FLOAT	 	</Arg>
+		</CLIENT_OpenMonsterMirror>
+		<CLIENT_CloseMonsterMirror/>
+		<CLIENT_ShowLingEnergyBar>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</CLIENT_ShowLingEnergyBar>
+		<CLIENT_UpdateLingEnergyBar>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+			<Arg>		INT32	 	</Arg>
+		</CLIENT_UpdateLingEnergyBar>
+		<CLIENT_HideLingEnergyBar/>
+		<CLIENT_NotifyCrystalPlayLight>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_NotifyCrystalPlayLight>
+		<CLIENT_NotifyCrystalStopPlayLight/>
+		<CLIENT_NotifyStartRebound>
+			<Arg>		INT32			</Arg>
+		</CLIENT_NotifyStartRebound>
+		<CLIENT_refreshSpiritCrystal>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</CLIENT_refreshSpiritCrystal>
+		<CLIENT_dropSpiritCrystal>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_dropSpiritCrystal>
+		<CLIENT_NotifyAccordToCount>
+			<Arg>		INT32			</Arg>
+		</CLIENT_NotifyAccordToCount>
+		<CLIENT_NotifyMonsterToCount>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_NotifyMonsterToCount>
+		<CLIENT_InitializeCrystalCount>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_InitializeCrystalCount>
+		<CLIENT_NotifyPlayerAddCount>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+		</CLIENT_NotifyPlayerAddCount>
+		<CLIENT_OnLeaveJSDFSpace>
+		</CLIENT_OnLeaveJSDFSpace>
+		<CLIENT_NotifyMonsterAddCount>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		BOOL			</Arg>
+		</CLIENT_NotifyMonsterAddCount>
+		<CLIENT_NotifyPlayerPopCrystal>
+			<Arg>		INT32			</Arg>
+		</CLIENT_NotifyPlayerPopCrystal>
+		<CLIENT_NotifyMonsterPopCrystal>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		FLOAT	 	</Arg>
+			<Arg>		FLOAT	 	</Arg>
+		</CLIENT_NotifyMonsterPopCrystal>
+		<CLIENT_ShowFuDaiReward>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowFuDaiReward>
+		<CLIENT_ShowCurrGotGoldAmount>
+           <Arg>  INT32  </Arg>
+        </CLIENT_ShowCurrGotGoldAmount>
+		<CLIENT_ShowJinZhiYuTingRandomEvent>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_ShowJinZhiYuTingRandomEvent>
+		<CLIENT_ShowJinZhiYuTingRewards>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_ShowJinZhiYuTingRewards>
+		<Client_CreateFloor>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</Client_CreateFloor>
+		<Client_AddFloor>
+			<Arg>		INT32			</Arg>
+		</Client_AddFloor>
+		<Client_RemoveFloor>
+			<Arg>		INT32			</Arg>
+		</Client_RemoveFloor>
+		<CLIENT_OnRotationAngleRange>
+			<Arg>		POSITION	 	</Arg>
+			<Arg>		FLOAT	 		</Arg>
+		</CLIENT_OnRotationAngleRange>
+		<CLIENT_ProgressDisplayInterface/>
+		<CLIENT_NotifyMirrorObject>
+			<Arg>	INT32			</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</CLIENT_NotifyMirrorObject>
+		<CLIENT_ShowStopDestroyFloorTime>
+			<Arg>		FLOAT	 	</Arg>
+		</CLIENT_ShowStopDestroyFloorTime>
+		<CLIENT_OnShowJZYTStageTips>
+			<Arg>		INT32			</Arg>
+		</CLIENT_OnShowJZYTStageTips>
+		<CLIENT_ShowPLMJCarrierUI/>
+		<CLIENT_ActivePLMJCarrierUI/>
+		<CLIENT_HidePLMJCarrierUI/>
+		<CLIENT_ShowBloodPercentBar>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ShowBloodPercentBar>
+		<CLIENT_ShowLuckExtraReward>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ShowLuckExtraReward>
+		<CLIENT_DisplayProblemDescription>
+			<Arg>		STRING		</Arg>
+		</CLIENT_DisplayProblemDescription>
+		<CloseProblemDescription>
+		</CloseProblemDescription>
+		<CLIENT_NotifyNextRiotTime>
+			<Arg>		STRING			</Arg>
+		</CLIENT_NotifyNextRiotTime>
+		<CLIENT_NotifyNextExplosionTime>
+			<Arg>		STRING			</Arg>
+		</CLIENT_NotifyNextExplosionTime>
+		<CLIENT_NotifyStopNextExplosionTime>
+		</CLIENT_NotifyStopNextExplosionTime>
+		<CLIENT_StartFog>
+			<Arg>		OBJECT_ID	</Arg> <!-- 目标ID -->
+			<Arg>		STRING		</Arg> <!-- 迷雾颜色 -->
+			<Arg>		STRING		</Arg> <!-- 整个体积雾的雾气浓度系数 -->
+			<Arg>		STRING		</Arg> <!-- 体积雾内部遮罩的半径 -->
+			<Arg>		STRING		</Arg> <!-- 遮罩内部雾气浓度 -->
+			<Arg>		STRING		</Arg> <!-- 遮罩外部雾气浓度 -->
+			<Arg>		FLOAT		</Arg> <!-- 淡入时间 -->
+		</CLIENT_StartFog>
+		<CLIENT_EndFog>
+		</CLIENT_EndFog>
+		<CLIENT_UpdateMYJXEnergyBar>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_UpdateMYJXEnergyBar>
+		<CLIENT_HideMYJXEnergyBar/>
+		<CLIENT_ShowMYJXJumpBtn/>
+		<CLIENT_HideMYJXJumpBtn/>
+		<CLIENT_JumpToDstPos>
+			<Arg>		POSITION			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_JumpToDstPos>
+		<CLIENT_ShowJinZhiYuTingMonster>
+		</CLIENT_ShowJinZhiYuTingMonster>
+		<StopShowJinZhiYuTingMonster>
+		</StopShowJinZhiYuTingMonster>
+		<CLIENT_ShowJSZZPlaneWall>
+			<Arg>		SCRIPT_ID			</Arg>
+			<Arg>		ARRAY_POSITION			</Arg>
+		</CLIENT_ShowJSZZPlaneWall>
+		<CLIENT_showJSZZFirstTaskData>
+			<Arg>		SCRIPT_ID			</Arg>
+			<Arg>		POSITION			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_showJSZZFirstTaskData>
+		<CLIENT_showJSZZSecondTaskData>
+			<Arg>		POSITION			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_showJSZZSecondTaskData>
+		<CLIENT_AddJSZZCircleArea>
+			<Arg>		SCRIPT_ID			</Arg>
+			<Arg>		POSITION			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_AddJSZZCircleArea>
+		<CLIENT_ClearJSZZCircleArea/>
+		<CLIENT_ShowJSZZAcceptWin>
+			<Arg>		ARRAY_INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		STRING			</Arg>
+		</CLIENT_ShowJSZZAcceptWin>
+		<CLIENT_NotifyClientSecondTaskCanSearch/>
+		<CLIENT_ChangeJSZZSearchBtn>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</CLIENT_ChangeJSZZSearchBtn>
+		<CLIENT_ShowJSZZCurStageRemainTime>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ShowJSZZCurStageRemainTime>
+		<CLIENT_ShowNextRefreshMonsterTime>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ShowNextRefreshMonsterTime>
+		<CLIENT_showJSZZQuestTime>
+			<Arg>		STRING			</Arg>
+		</CLIENT_showJSZZQuestTime>
+		<ShowJSZZGrowthDegree>
+			<Arg>		INT32			</Arg>
+		</ShowJSZZGrowthDegree>
+		<ShowJSZZSettlement>
+			<Arg>		INT32			</Arg>
+		</ShowJSZZSettlement>
+		<ShowJSZZPlantWin>
+			<Arg>		POSITION			</Arg>
+		</ShowJSZZPlantWin>
+		<ShowJSZZProtectWin>
+			<Arg>		ARRAY_INT32			</Arg>
+		</ShowJSZZProtectWin>
+		<ShowMonsterCircleHPPercentBar>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		UNICODE			</Arg>
+		</ShowMonsterCircleHPPercentBar>
+
+		<CLIENT_OnMatchMXSJResult>
+			<Arg>		INT8			</Arg>
+		</CLIENT_OnMatchMXSJResult>
+		<CLIENT_NotifyDisplayItemIcon>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_NotifyDisplayItemIcon>
+		<OnArrowCrossoverEffect>
+		</OnArrowCrossoverEffect>
+		<CLIENT_ShowJSCSCountDownUI>
+			<Arg>		STRING		</Arg>
+		</CLIENT_ShowJSCSCountDownUI>
+		<CLIENT_ShowJSCSTipsUI>
+		</CLIENT_ShowJSCSTipsUI>
+		<StopDisplayItemIcon>
+		</StopDisplayItemIcon>
+		<InitRefreshCiku>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</InitRefreshCiku>
+		<InitRefreshNormalCiku>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+		</InitRefreshNormalCiku>
+		<OnEnterAimingMode/>
+		<OnLeaveAimingMode/>
+		<StartSendOutGhostGas>
+			<Arg>		INT32			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		INT32			</Arg>
+		</StartSendOutGhostGas>
+		<ShowLoopQuestSpaceFailure>
+			<Arg>			STRING		</Arg>
+		</ShowLoopQuestSpaceFailure>
+		<OnStartReckonByTime>
+			<Arg>		STRING		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</OnStartReckonByTime>
+		<ShowLoopQuestResult>
+			<Arg>		INT32		</Arg>
+		</ShowLoopQuestResult>
+		<CLIENT_beginLLBZ>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</CLIENT_beginLLBZ>
+		<CLIENT_startLingQiLock>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_startLingQiLock>
+		<CLIENT_startLingHuanJue>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_startLingHuanJue>
+		<CLIENT_ShowLLBZRewards>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowLLBZRewards>
+		<CLIENT_LLBZShowAllDiffcult>
+			<Arg>		STRING		</Arg>
+		</CLIENT_LLBZShowAllDiffcult>
+		<CLIENT_ShowSpaceCopyFailedUI>
+		</CLIENT_ShowSpaceCopyFailedUI>
+		<ModifySwitchHomingSpellAtt>
+		</ModifySwitchHomingSpellAtt>
+		<OnEnterRidingStoneMode>
+		</OnEnterRidingStoneMode>
+		<OnLeaveRidingStoneMode>
+		</OnLeaveRidingStoneMode>
+		<EnterControlXianZhou>
+			<Arg>		INT32		</Arg>
+		</EnterControlXianZhou>
+		<LeaveControlXianZhou>
+		</LeaveControlXianZhou>
+		<AddYCJMDSkillBars>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</AddYCJMDSkillBars>
+		<RemoveYCJMDSkillBars>
+			<Arg>		ARRAY_INT32		</Arg>
+		</RemoveYCJMDSkillBars>
+		<OnEnterYCJMDShowSkillBar/>
+		<OnLeaveYCJMDHideSkillBar/>
+		<CLIENT_SetCopyGameWeapon>
+			<Arg>		INT32		</Arg>
+		</CLIENT_SetCopyGameWeapon>
+		<ShowFHJNSpecialWidget>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</ShowFHJNSpecialWidget>
+		<HideFHJNSpecialWidget/>
+		<UpdateFHJNSpecialWidget>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</UpdateFHJNSpecialWidget>
+		<StartFallTZHJFabao>
+			<Arg>		ARRAY_STRING	</Arg>
+		</StartFallTZHJFabao>
+		<StopFallTZHJFabao>
+		</StopFallTZHJFabao>
+		<OnLXQLeaveAimingMode>
+		</OnLXQLeaveAimingMode>
+		<OnLXQEnterAimingMode>
+		</OnLXQEnterAimingMode>
+		<NotifyLXQDisplayScreen>
+		</NotifyLXQDisplayScreen>
+		<NotifyLXQCloseScreen>
+		</NotifyLXQCloseScreen>
+		<OnCampYCJMDBoardBoat>
+			<Arg>		INT32		</Arg>
+			<Arg>		POSITION	</Arg>
+		</OnCampYCJMDBoardBoat>
+		<ShowCampYCJMDPopulationUI>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</ShowCampYCJMDPopulationUI>
+		<showCampYCJMDPosition>
+			<Arg>		INT32		</Arg>
+			<Arg>		POSITION	</Arg>
+		</showCampYCJMDPosition>
+		<ShowSameCampYCJMDPos>
+			<Arg>		INT32		</Arg>
+			<Arg>		POSITION	</Arg>
+		</ShowSameCampYCJMDPos>
+		<HideCampYCJMDPosition>
+		</HideCampYCJMDPosition>
+		<OnPlayerLeaveYCJMD>
+			<Arg>		INT32		</Arg>
+		</OnPlayerLeaveYCJMD>
+		<showCampYCJMDBoxPosition>
+			<Arg>		POSITION	</Arg>
+		</showCampYCJMDBoxPosition>
+		<showCampYCJMDReikiCircle>
+			<Arg>		POSITION	</Arg>
+			<Arg>		INT32		</Arg>
+		</showCampYCJMDReikiCircle>
+		<CLIENT_OnOpenBarracksArmyWin>
+			<Arg>		ARRAY_ARMY_DATA	</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_OnOpenBarracksArmyWin>
+		<OnShowCampYCJMDCountdown>
+			<Arg>		STRING		</Arg>
+		</OnShowCampYCJMDCountdown>
+		<CleanCampYCJMDIcon>
+			<Arg>		STRING		</Arg>
+		</CleanCampYCJMDIcon>
+		<OnCampYCJMDLeaveBoat>
+		</OnCampYCJMDLeaveBoat>
+		<OnCampYCJMDLeaveSkyDiving>
+		</OnCampYCJMDLeaveSkyDiving>
+		<OnCampYCJMDBoatArrive>
+		</OnCampYCJMDBoatArrive>
+		<CLIENT_UpdateGCZMemberDataToOtherClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</CLIENT_UpdateGCZMemberDataToOtherClient>
+		<CLIENT_ReceiveGCZOtherMemberData>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		UNICODE		</Arg>
+		</CLIENT_ReceiveGCZOtherMemberData>
+		<CLIENT_UpdateGCZKillEnemyDataToClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateGCZKillEnemyDataToClient>
+		<CLIENT_UpdateGCZKillSoldierDataToClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateGCZKillSoldierDataToClient>
+		<CLIENT_UpdateGCZDeadDataToClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateGCZDeadDataToClient>
+		<CLIENT_UpdateGCZAssistsDataToClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateGCZAssistsDataToClient>
+		<CLIENT_UpdateGCZTotalExploitDataToClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateGCZTotalExploitDataToClient>
+		<CLIENT_UpdateGCZMemberDataToOtherClientOnLogin>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateGCZMemberDataToOtherClientOnLogin>
+		<CLIENT_UpDateGCZMemberSoldierDeadNumToClient>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpDateGCZMemberSoldierDeadNumToClient>
+		<CLIENT_ShowBattleFlagProgressBar>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowBattleFlagProgressBar>
+		<CLIENT_UpdateBattleFlagProgressBar>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_UpdateBattleFlagProgressBar>
+		<CLIENT_OnOccupyBelongTypeChanged>
+			<Arg>		INT32		</Arg>
+		</CLIENT_OnOccupyBelongTypeChanged>
+		<CLIENT_HideBattleFlagProgressBar>
+			<Arg>		INT32		</Arg>
+		</CLIENT_HideBattleFlagProgressBar>
+		<CLIENT_ShowGCZSettlementWnd>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ShowGCZSettlementWnd>
+		<OnNotifyJZZYRuDaoBuff>
+			<Arg>		BOOL		</Arg>
+		</OnNotifyJZZYRuDaoBuff>
+		<CLIENT_ChangeReadyToClimbLadder>
+			<Arg>		INT32		</Arg>
+		</CLIENT_ChangeReadyToClimbLadder>
+		<onNotifyJZZYBuffTime>
+			<Arg>		INT32		</Arg>
+		</onNotifyJZZYBuffTime>
+		<onExtinguishLight>
+			<Arg>		INT32		</Arg>
+		</onExtinguishLight>
+		<CLIENT_OnLeaveGCZ>
+		</CLIENT_OnLeaveGCZ>
+		<SetIsFirstEnterCopy>
+			<Arg>		BOOL		</Arg>
+		</SetIsFirstEnterCopy>
+		<ShowShootYCJMDLNUI>
+			<Arg>		BOOL		</Arg>
+		</ShowShootYCJMDLNUI>
+		<SetYCJMDBulletSlotMax>
+			<Arg>		INT32		</Arg>
+		</SetYCJMDBulletSlotMax>
+		<CLIENT_AddTrainingGroundMember>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		UINT8		</Arg>
+		</CLIENT_AddTrainingGroundMember>
+		<CLIENT_updateLBCDeadData>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		UINT8		</Arg>
+		</CLIENT_updateLBCDeadData>
+		<CLIENT_updateLBCKillData>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		UINT8		</Arg>
+		</CLIENT_updateLBCKillData>
+		<CLIENT_updateLBCKillMTData>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		UINT16		</Arg>
+		</CLIENT_updateLBCKillMTData>
+		<CLIENT_updateLBCLoseSDData>
+			<Arg>		OBJECT_ID	</Arg>
+			<Arg>		UINT16		</Arg>
+		</CLIENT_updateLBCLoseSDData>
+		<CLIENT_OnLBCSpaceResult>
+			<Arg>		UINT16		</Arg>
+			<Arg>		BOOL		</Arg>
+			<Arg>		INT32		</Arg>
+		</CLIENT_OnLBCSpaceResult>
+		<CLIENT_notifyProbeTimes>
+			<Arg>		INT32		</Arg>
+		</CLIENT_notifyProbeTimes>
+		<CLIENT_OnEnterTrainSoldierGround>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		VECTOR3		</Arg>
+		</CLIENT_OnEnterTrainSoldierGround>
+		<CLIENT_OnLeaveTrainSoldierGround>
+		</CLIENT_OnLeaveTrainSoldierGround>
+		<ShowFireCowAngerUI>
+			<Arg>	INT32		</Arg>
+		</ShowFireCowAngerUI>
+		<ShowTongSpaceSettlementWin>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	STRING		</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</ShowTongSpaceSettlementWin>
+		<OnOpenWindow>	<!-- gm使用，客户端要加的 -->
+			<Arg>	UNICODE		</Arg>
+			<Arg>	INT32		</Arg>
+		</OnOpenWindow>
+		<CollectedXLC>
+			<Arg>	INT32	</Arg>
+		</CollectedXLC>
+		<OnEnterEquipBuild>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	STRING	</Arg>
+		</OnEnterEquipBuild>
+		<CLIENT_OnMountVehicle>
+			<Arg>	OBJECT_ID	</Arg>	<!-- 载具ID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- 司机ID -->
+			<Arg>	STRING	</Arg>	<!-- 插槽名称 -->
+			<Arg>	STRING	</Arg>	<!-- 玩家骑乘对应的载体编号ID  -->
+			<Arg>	BOOL		</Arg>	<!-- 玩家自己是否能控制客户端移动 -->
+		</CLIENT_OnMountVehicle>
+		<CLIENT_OnDismountVehicle>
+			<Arg>	OBJECT_ID	</Arg>	<!-- 载具ID -->
+		</CLIENT_OnDismountVehicle>
+		<CLIENT_OnJiYuanSpaceJieSuan>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UINT8	</Arg>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	UINT8	</Arg>
+		</CLIENT_OnJiYuanSpaceJieSuan>
+		<CLIENT_ShowTongPlunderSettlementWnd>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	SPACE_COPY_TONG_PLUNDER_MEMBER_DATA	</Arg>
+		</CLIENT_ShowTongPlunderSettlementWnd>
+		<CLIENT_TongPlunderSoldierDead>
+			<Arg>	INT32	</Arg>
+		</CLIENT_TongPlunderSoldierDead>
+		<CLIENT_ShowWXHJAttrUI>
+			<Arg>		BOOL			</Arg>        <!-- 0:关闭 1:开启 -->
+		</CLIENT_ShowWXHJAttrUI>
+		<CLIENT_WXHJChangeAttr>
+			<Arg>	INT32	</Arg>
+		</CLIENT_WXHJChangeAttr>
+		<CLIENT_NotifyXTBLStopShow/>
+		<CLIENT_ShowJSSLCJiYuanJieSuanWnd>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+			<Arg>		INT32			</Arg>
+		</CLIENT_ShowJSSLCJiYuanJieSuanWnd>
+		<CLIENT_PlayEffect>
+			<Arg>	UNICODE	</Arg>
+		</CLIENT_PlayEffect>
+		<CLIENT_PlaySound>
+			<Arg>	UNICODE	</Arg>
+		</CLIENT_PlaySound>
+		<CreateTempEquipBar>
+			<Arg>	DICT_INT_INT	</Arg>
+		</CreateTempEquipBar>
+		<RemoveTempEquipBar/>
+		<OnStartYCJMDSkyFlyModel>
+			<Arg>		STRING		</Arg>
+		</OnStartYCJMDSkyFlyModel>
+		<SetIsEnabledQuickBar>
+			<Arg>	UINT8	</Arg>
+		</SetIsEnabledQuickBar>
+		<ShowZYJJReward>
+			<Arg>	ZYJJ_REWARD_DATA	</Arg>
+		</ShowZYJJReward>
+		<ShowYCJMDFinalUI/>
+	</ClientMethods>
+
+	<CellMethods>
+		<StartHLDRound>
+			<Exposed/>
+		</StartHLDRound>
+		<throwFishRod>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</throwFishRod>
+		<catchFishCheck>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</catchFishCheck>
+		<transformShield>
+			<Exposed/>
+		</transformShield>
+		<dismountHeHua>
+			<Exposed/>
+		</dismountHeHua>
+		<checkCoord/>
+		<move>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</move>
+		<CELL_onMagicMazeEndFly>
+			<Exposed/>
+		</CELL_onMagicMazeEndFly>
+		<CELL_onMagicMazeNodeFly>
+			<Exposed/>
+		</CELL_onMagicMazeNodeFly>
+		<CELL_playerAnswer>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+		</CELL_playerAnswer>
+		<CELL_selectNextQuestion>
+			<Exposed/>
+		</CELL_selectNextQuestion>
+		<openAddSpeedExpendEnergy>
+			<Exposed/>
+		</openAddSpeedExpendEnergy>
+		<closeAddSpeedExpendEnergy>
+			<Exposed/>
+		</closeAddSpeedExpendEnergy>
+		<CELL_receiveFireDamage>
+			<Exposed/>		
+		</CELL_receiveFireDamage>
+		<CELL_receiveFireDamageEnd>
+			<Exposed/>		
+		</CELL_receiveFireDamageEnd>
+		<CELL_destroyLinkTrap>
+			<Exposed/>		
+			<Arg>	STRING	</Arg>
+		</CELL_destroyLinkTrap>
+		<CELL_enterThunderArea>
+			<Exposed/>		
+		</CELL_enterThunderArea>
+		<onMovingPlatformTriggerBegin>
+			<Exposed/>		
+			<Arg>	STRING	</Arg>
+		</onMovingPlatformTriggerBegin>
+		<CELL_onMovingPlatformTriggerStart>
+			<Exposed/>		
+			<Arg>	STRING	</Arg>
+		</CELL_onMovingPlatformTriggerStart>
+		<CELL_randomMagicMazeZhuanPan>
+			<Exposed/>
+		</CELL_randomMagicMazeZhuanPan>
+
+		<onPlayeTrampleLotus>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</onPlayeTrampleLotus>
+		<onFishHitPlayer>
+			<Exposed/>
+		</onFishHitPlayer>
+		<CELL_onTortureNotice>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</CELL_onTortureNotice>
+		<CELL_onEncounteredInDead>
+			<Exposed/>
+		</CELL_onEncounteredInDead>
+		<CELL_onCameraEndMove>
+			<Exposed/>
+		</CELL_onCameraEndMove>
+		<CELL_onMoveStartTorureNotice>
+			<Exposed/>
+		</CELL_onMoveStartTorureNotice>
+		<CELL_onMoveEndTorureNotice>
+			<Exposed/>
+		</CELL_onMoveEndTorureNotice>
+		<onPlayerTouchLaser>
+			<Exposed/>
+		</onPlayerTouchLaser>
+		<onPlayerBeHammer>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</onPlayerBeHammer>
+		<CELL_onPlayerMetSandman>
+			<Exposed/>
+		</CELL_onPlayerMetSandman>
+		<CELL_FireWallCallBack>
+			<Exposed/>
+		</CELL_FireWallCallBack>
+		<onArmorLockBroke>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</onArmorLockBroke>
+		<CELL_onRoleDismountCopyGlede>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</CELL_onRoleDismountCopyGlede>
+		<CELL_onInterruptBlowDGSZ>
+			<Exposed/>
+		</CELL_onInterruptBlowDGSZ>
+		<CELL_onSpiritCrystalHitPlayer>
+			<Exposed/>
+		</CELL_onSpiritCrystalHitPlayer>
+		<CELL_onCrystalHitMonster>
+			<Exposed/>
+		</CELL_onCrystalHitMonster>
+		<CELL_onPlayerTouchCrystal>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_onPlayerTouchCrystal>
+		<CELL_onMonsterTouchCrystal>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_onMonsterTouchCrystal>
+		<CELL_onSpiritCrystalPos>
+			<Exposed/>
+			<Arg>	POSITION		</Arg>
+		</CELL_onSpiritCrystalPos>
+		<CELL_onLocationBrushStrange>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	POSITION		</Arg>
+		</CELL_onLocationBrushStrange>
+		<CELL_onRemoveSpiritCrystalPos>
+			<Exposed/>
+			<Arg>	POSITION		</Arg>
+		</CELL_onRemoveSpiritCrystalPos>
+		<CELL_openMonsterMirror>
+			<Exposed/>
+		</CELL_openMonsterMirror>
+		<CELL_closeMonsterMirror>
+			<Exposed/>
+		</CELL_closeMonsterMirror>
+		<CELL_MonsterListInMonsterMirror>
+			<Exposed/>
+			<Arg>	ARRAY_INT32		</Arg>
+		</CELL_MonsterListInMonsterMirror>
+		<CELL_MonsterOutMonsterMirror>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_MonsterOutMonsterMirror>
+		<CELL_onRemoveSpiritCrystalNum>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_onRemoveSpiritCrystalNum>
+		<FirstFloorPosition>
+			<Exposed/>
+			<Arg>		POSITION			</Arg>
+			<Arg>		FLOAT			</Arg>
+			<Arg>		FLOAT			</Arg>
+		</FirstFloorPosition>
+		<CELL_floorStartFalling>
+			<Exposed/>
+		</CELL_floorStartFalling>
+		<CELL_onStoneInSunShone>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_onStoneInSunShone>
+		<CELL_onStoneOutSunShone>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_onStoneOutSunShone>
+		<CELL_roleMountCarrier>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</CELL_roleMountCarrier>
+		<CELL_MYJXPressJumBtn>
+			<Exposed/>
+		</CELL_MYJXPressJumBtn>
+		<CELL_ReplyAcceptJSZZQuest>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+		</CELL_ReplyAcceptJSZZQuest>
+		<CELL_ClickJSZZSearch>
+			<Exposed/>
+		</CELL_ClickJSZZSearch>
+		<CELL_ClickJSZZPlant>
+			<Exposed/>
+		</CELL_ClickJSZZPlant>
+		<clickJSZZSearchBtn>
+			<Exposed/>
+		</clickJSZZSearchBtn>
+		<clickJSZZPlantBtn>
+			<Exposed/>
+		</clickJSZZPlantBtn>
+		<CELL_NotifyDropDownCiku>
+			<Exposed/>
+		</CELL_NotifyDropDownCiku>
+		<CELL_HitRightCiku>
+			<Exposed/>
+			<Arg>		POSITION	</Arg>
+		</CELL_HitRightCiku>
+		<CELL_HitErrorCiku>
+			<Exposed/>
+			<Arg>		POSITION	</Arg>
+		</CELL_HitErrorCiku>
+		<notifyNextLevel>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</notifyNextLevel>
+		<CELL_OnPlaySpaceIntroduceVoice>
+			<Exposed/>
+		</CELL_OnPlaySpaceIntroduceVoice>
+		<onCompleteQTENotyfy>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</onCompleteQTENotyfy>
+		<onNotyfyCloseSpace>
+			<Exposed/>
+			<Arg>	INT32	</Arg>
+		</onNotyfyCloseSpace>
+		<onClickSignOutSpace>
+			<Exposed/>
+		</onClickSignOutSpace>
+		<CELL_onUseItemLLBZ>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</CELL_onUseItemLLBZ>
+		<CELL_onLingQiLock>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</CELL_onLingQiLock>
+		<CELL_onLingHuanJue>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	INT32	</Arg>
+		</CELL_onLingHuanJue>
+		<CELL_onLLBZGameComplete>
+			<Exposed/>
+		</CELL_onLLBZGameComplete>
+		<onNotifyPreloadSpace>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+		</onNotifyPreloadSpace>
+		<onNotifyLoadingSpace>
+			<Arg>		STRING		</Arg>
+		</onNotifyLoadingSpace>
+		<addYCJMDSkillBarData>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</addYCJMDSkillBarData>
+		<exchangeYCJMDSkillBarData>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</exchangeYCJMDSkillBarData>
+		<removeYCJMDSkillBarData>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</removeYCJMDSkillBarData>
+		<inPosRefreshFabao>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		POSITION	</Arg>
+			<Arg>		INT32		</Arg>
+		</inPosRefreshFabao>
+		<lXQIsHit>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</lXQIsHit>
+		<LXQEnterAimingMode>
+		</LXQEnterAimingMode>
+		<LXQLeaveAimingMode>
+		</LXQLeaveAimingMode>
+		<JHBIsCatch>
+			<Exposed/>
+			<Arg>		BOOL		</Arg>
+		</JHBIsCatch>
+		<onCampYCJMDPlayerPressKeyF>
+			<Exposed/>
+		</onCampYCJMDPlayerPressKeyF>
+		<onCampYCJMDLeaveSkyDiving>
+			<Exposed/>
+		</onCampYCJMDLeaveSkyDiving>
+		<callArmyToWar>
+			<Exposed/>
+			<Arg>		INT32		</Arg>
+		</callArmyToWar>
+		<createApparatus>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		POSITION	</Arg>
+			<Arg>		DIRECTION	</Arg>
+			<Arg>		STRING		</Arg>
+		</createApparatus>
+		<CELL_mountVehicle>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- 载具ID -->
+		</CELL_mountVehicle>
+		<CELL_dismountVehicle>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- 载具ID -->
+		</CELL_dismountVehicle>
+		<CELL_reqVehicleData>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- 目标玩家ID -->
+			<Arg>	OBJECT_ID	</Arg>	<!-- 载具ID -->
+		</CELL_reqVehicleData>
+		<CELL_inviteMountVehicle>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- 目标玩家ID -->
+		</CELL_inviteMountVehicle>
+		<CELL_applyMountVehicle>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>	<!-- 目标玩家ID -->
+		</CELL_applyMountVehicle>
+		<CELL_notifyMediaStartPlay>
+			<Exposed/>
+			<Arg>	UNICODE	</Arg>
+		</CELL_notifyMediaStartPlay>
+		<changeParachutingState>
+			<Exposed/>
+			<Arg>	UINT8	</Arg>
+		</changeParachutingState>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

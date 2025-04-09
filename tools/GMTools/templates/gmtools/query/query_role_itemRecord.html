@@ -1,0 +1,105 @@
+{% extends "gmtools/query/query_base.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+	<script src="/static/laydate/laydate.js"></script> 
+{% endblock %}
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header" style = "border-bottom: 2px solid black">物品记录查询</h2>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/query/role_itemRecord/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class="row">
+					<h4 class="form-group col-sm-1" style="line-height:14px;margin-left:15px;">角色名称：</h4>
+					<div class="from-group col-sm-2" style="margin-left:-45px;">
+						<div class="col-sm-12">
+							<input name="roleName" type="text" class="form-control" value="{{roleName}}" maxlength="7" placeholder="请输入角色名称"/>
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default">查 询</button>
+					</div>
+				</div>
+			</div>
+		</form>
+		<p style = "margin:0.1px;text-indent: 1em;text-align:left;font-size:16px;">1.道具获得/消耗记录（近三个月内）</p>
+		<div class="row col-sm-16 control-label"  style = "margin:0.1px;"> 
+			<div class="row col-sm-10 control-label" style = "margin:0.1px;">
+				<table class="table table-striped table-condensed" border="1" style="margin-left:5px;margin-top:5px;font-family:宋体;color:black;font-size:12px;">
+					<thead>
+						<tr>
+							<th class="text-center">角色名</th>
+							<th class="text-center">道具名字</th>
+							<th class="text-center">道具ID</th>
+							<th class="text-center">数量</th>
+							<th class="text-center">操作类型</th>
+							<th class="text-center">操作时间</th>
+							<th class="text-center">获得/消耗途径</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for itemRecord in itemRecords %}
+							<tr>
+								<td>{{ itemRecord.roleName }}</td>
+								<td>{{ itemRecord.itemName }}</td>
+								<td>{{ itemRecord.itemID }}</td>
+								<td>{{ itemRecord.itemAmount }}</td>
+								<td>{{ itemRecord.optType }}</td>
+								<td>{{ itemRecord.optTime }}</td>
+								<td>{{ itemRecord.optReason }}</td>
+							</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<p style = "margin:0.1px;text-indent: 1em;text-align:left;font-size:16px;">2.货币获得/消耗记录（近三个月内）</p>
+		<div class="row col-sm-16 control-label"  style = "margin:0.1px;">
+			<div class="row col-sm-10 control-label">
+					<table class="table table-striped table-condensed" style="margin-left:20px;margin-top:5px;font-family:'宋体';color:black;font-size:12px;" border="1">
+						<thead>
+							<tr>
+								<th class="text-center">角色名</th>
+								<th class="text-center">货币种类</th>
+								<th class="text-center">变更前</th>
+								<th class="text-center">变更后</th>
+								<th class="text-center">变化值</th>
+								<th class="text-center">变更原因</th>
+								<th class="text-center">变更时间</th>
+							</tr>
+						</thead>
+						<tbody>
+						{% for coinRecord in coinRecords %}
+							<tr>
+								<td>{{ coinRecord.roleName }}</td>
+								<td>{{ coinRecord.coinType }}</td>
+								<td>{{ coinRecord.oldValue }}</td>
+								<td>{{ coinRecord.newValue }}</td>
+								<td>{{ coinRecord.changeNum }}</td>
+								<td>{{ coinRecord.reason }}</td>
+								<td>{{ coinRecord.updateTime }}</td>
+							</tr>
+						{% endfor %}
+						</tbody>
+					</table>
+			</div>
+		</div>
+	</div>
+{% endblock %}
+
+{% block tail_js %}
+	<script>$(".m_query").addClass("active");</script>
+{% endblock %}

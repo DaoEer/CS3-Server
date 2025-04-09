@@ -1,0 +1,149 @@
+{
+    "20101643": {
+        "tasks": [
+            {
+                "navigateData": "20000350|20000351#L_WSS", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000350|20000351", 
+                "id": 1, 
+                "name": "消灭氐宿小妖"
+            }, 
+            {
+                "navigateData": "20000346|20000347#L_WSS", 
+                "goal": 7, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20000346|20000347", 
+                "id": 2, 
+                "name": "消灭角宿小妖"
+            }, 
+            {
+                "navigateData": "20005230|20005231#L_WSS", 
+                "goal": 8, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20005230|20005231", 
+                "id": 3, 
+                "name": "消灭亢宿小妖"
+            }, 
+            {
+                "navigateData": "20005228|20005229#L_WSS", 
+                "goal": 8, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 4, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20005228|20005229", 
+                "id": 4, 
+                "name": "消灭房宿小妖"
+            }, 
+            {
+                "navigateData": "30000085#L_WSS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 5, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 5, 
+                "name": "闯入七星祭坛"
+            }, 
+            {
+                "navigateData": "20010305|20010306#L_WSS", 
+                "goal": 6, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20010305|20010306", 
+                "id": 6, 
+                "name": "消灭星宿小妖"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101643, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101637"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "3900", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "694", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1128", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "510", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1020700002|102070005|102070008|102070011", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q020748|Q020749|Q020750", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}请你深入星宿族七星祭坛，拿下星宿族长，打听出@F{fc=c41}混元星斗图@D的下落。|@S{4}请你深入星宿族七星祭坛，拿下星宿族长，打听出@F{fc=c41}混元星斗图@D的下落。|@S{4}请你深入星宿族七星祭坛，拿下星宿族长，打听出@F{fc=c41}混元星斗图@D的下落。|@S{4}请你深入星宿族七星祭坛，拿下星宿族长，打听出@F{fc=c41}混元星斗图@D的下落。|@S{4}请你深入星宿族七星祭坛，拿下星宿族长，打听出@F{fc=c41}混元星斗图@D的下落。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101644", 
+        "taskCompleteFunctions": {}, 
+        "level": 16, 
+        "title": "（废弃）星宿氏族（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

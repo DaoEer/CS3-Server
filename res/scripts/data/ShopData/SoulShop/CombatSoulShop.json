@@ -1,0 +1,362 @@
+{
+    "302020021": {
+        "BuyPrice": 100, 
+        "Type": "内功", 
+        "BuffID": 12120101, 
+        "NextItemID": 302020022, 
+        "Tip": "+20% 内功攻击力和治疗成效", 
+        "SellPrice": 60, 
+        "PreItemID": 0
+    }, 
+    "302020022": {
+        "BuyPrice": 100, 
+        "Type": "内功", 
+        "BuffID": 12120102, 
+        "NextItemID": 302020023, 
+        "Tip": "+40% 内功攻击力和治疗成效", 
+        "SellPrice": 120, 
+        "PreItemID": 302020021
+    }, 
+    "302020023": {
+        "BuyPrice": 100, 
+        "Type": "内功", 
+        "BuffID": 12120103, 
+        "NextItemID": 302020024, 
+        "Tip": "+60% 内功攻击力和治疗成效", 
+        "SellPrice": 180, 
+        "PreItemID": 302020022
+    }, 
+    "302020024": {
+        "BuyPrice": 100, 
+        "Type": "内功", 
+        "BuffID": 12120104, 
+        "NextItemID": 302020025, 
+        "Tip": "+80% 内功攻击力和治疗成效", 
+        "SellPrice": 240, 
+        "PreItemID": 302020023
+    }, 
+    "302020025": {
+        "BuyPrice": 100, 
+        "Type": "内功", 
+        "BuffID": 12120105, 
+        "NextItemID": 0, 
+        "Tip": "+100% 内功攻击力和治疗成效", 
+        "SellPrice": 300, 
+        "PreItemID": 302020024
+    }, 
+    "302020041": {
+        "BuyPrice": 100, 
+        "Type": "暴击", 
+        "BuffID": 12120201, 
+        "NextItemID": 302020042, 
+        "Tip": "+20% 暴击率", 
+        "SellPrice": 60, 
+        "PreItemID": 0
+    }, 
+    "302020002": {
+        "BuyPrice": 100, 
+        "Type": "外功", 
+        "BuffID": 12120002, 
+        "NextItemID": 302020003, 
+        "Tip": "+40% 外功攻击力", 
+        "SellPrice": 120, 
+        "PreItemID": 302020001
+    }, 
+    "302020003": {
+        "BuyPrice": 100, 
+        "Type": "外功", 
+        "BuffID": 12120003, 
+        "NextItemID": 302020004, 
+        "Tip": "+60% 外功攻击力", 
+        "SellPrice": 180, 
+        "PreItemID": 302020002
+    }, 
+    "302020001": {
+        "BuyPrice": 100, 
+        "Type": "外功", 
+        "BuffID": 12120001, 
+        "NextItemID": 302020002, 
+        "Tip": "+20% 外功攻击力", 
+        "SellPrice": 60, 
+        "PreItemID": 0
+    }, 
+    "302020044": {
+        "BuyPrice": 100, 
+        "Type": "暴击", 
+        "BuffID": 12120204, 
+        "NextItemID": 302020045, 
+        "Tip": "+80% 暴击率", 
+        "SellPrice": 240, 
+        "PreItemID": 302020043
+    }, 
+    "302020004": {
+        "BuyPrice": 100, 
+        "Type": "外功", 
+        "BuffID": 12120004, 
+        "NextItemID": 302020005, 
+        "Tip": "+80% 外功攻击力", 
+        "SellPrice": 240, 
+        "PreItemID": 302020003
+    }, 
+    "302020005": {
+        "BuyPrice": 100, 
+        "Type": "外功", 
+        "BuffID": 12120005, 
+        "NextItemID": 0, 
+        "Tip": "+100% 外功攻击力", 
+        "SellPrice": 300, 
+        "PreItemID": 302020004
+    }, 
+    "302020045": {
+        "BuyPrice": 100, 
+        "Type": "暴击", 
+        "BuffID": 12120205, 
+        "NextItemID": 0, 
+        "Tip": "+100% 暴击率", 
+        "SellPrice": 300, 
+        "PreItemID": 302020044
+    }, 
+    "302020042": {
+        "BuyPrice": 100, 
+        "Type": "暴击", 
+        "BuffID": 12120202, 
+        "NextItemID": 302020043, 
+        "Tip": "+40% 暴击率", 
+        "SellPrice": 120, 
+        "PreItemID": 302020041
+    }, 
+    "302020043": {
+        "BuyPrice": 100, 
+        "Type": "暴击", 
+        "BuffID": 12120203, 
+        "NextItemID": 302020044, 
+        "Tip": "+60% 暴击率", 
+        "SellPrice": 180, 
+        "PreItemID": 302020042
+    }, 
+    "302020103": {
+        "BuyPrice": 300, 
+        "Type": "生命/外功", 
+        "BuffID": 12120503, 
+        "NextItemID": 302020104, 
+        "Tip": "+60% 生命值和外功攻击力", 
+        "SellPrice": 540, 
+        "PreItemID": 302020102
+    }, 
+    "302020102": {
+        "BuyPrice": 300, 
+        "Type": "生命/外功", 
+        "BuffID": 12120502, 
+        "NextItemID": 302020103, 
+        "Tip": "+40% 生命值和外功攻击力", 
+        "SellPrice": 360, 
+        "PreItemID": 302020101
+    }, 
+    "302020101": {
+        "BuyPrice": 300, 
+        "Type": "生命/外功", 
+        "BuffID": 12120501, 
+        "NextItemID": 302020102, 
+        "Tip": "+20% 生命值和外功攻击力", 
+        "SellPrice": 180, 
+        "PreItemID": 0
+    }, 
+    "302020105": {
+        "BuyPrice": 300, 
+        "Type": "生命/外功", 
+        "BuffID": 12120505, 
+        "NextItemID": 0, 
+        "Tip": "+100% 生命值和外功攻击力", 
+        "SellPrice": 900, 
+        "PreItemID": 302020104
+    }, 
+    "302020104": {
+        "BuyPrice": 300, 
+        "Type": "生命/外功", 
+        "BuffID": 12120504, 
+        "NextItemID": 302020105, 
+        "Tip": "+80% 生命值和外功攻击力", 
+        "SellPrice": 720, 
+        "PreItemID": 302020103
+    }, 
+    "302020125": {
+        "BuyPrice": 300, 
+        "Type": "生命/内功", 
+        "BuffID": 12120605, 
+        "NextItemID": 0, 
+        "Tip": "+100% 生命值和内功攻击力、治疗成效", 
+        "SellPrice": 900, 
+        "PreItemID": 302020124
+    }, 
+    "302020124": {
+        "BuyPrice": 300, 
+        "Type": "生命/内功", 
+        "BuffID": 12120604, 
+        "NextItemID": 302020125, 
+        "Tip": "+80% 生命值和内功攻击力、治疗成效", 
+        "SellPrice": 720, 
+        "PreItemID": 302020123
+    }, 
+    "302020121": {
+        "BuyPrice": 300, 
+        "Type": "生命/内功", 
+        "BuffID": 12120601, 
+        "NextItemID": 302020122, 
+        "Tip": "+20% 生命值和内功攻击力、治疗成效", 
+        "SellPrice": 180, 
+        "PreItemID": 0
+    }, 
+    "302020123": {
+        "BuyPrice": 300, 
+        "Type": "生命/内功", 
+        "BuffID": 12120603, 
+        "NextItemID": 302020124, 
+        "Tip": "+60% 生命值和内功攻击力、治疗成效", 
+        "SellPrice": 540, 
+        "PreItemID": 302020122
+    }, 
+    "302020122": {
+        "BuyPrice": 300, 
+        "Type": "生命/内功", 
+        "BuffID": 12120602, 
+        "NextItemID": 302020123, 
+        "Tip": "+40% 生命值和内功攻击力、治疗成效", 
+        "SellPrice": 360, 
+        "PreItemID": 302020121
+    }, 
+    "302020145": {
+        "BuyPrice": 300, 
+        "Type": "生命/内防", 
+        "BuffID": 12120705, 
+        "NextItemID": 0, 
+        "Tip": "+100% 生命值和内功防御", 
+        "SellPrice": 900, 
+        "PreItemID": 302020144
+    }, 
+    "302020144": {
+        "BuyPrice": 300, 
+        "Type": "生命/内防", 
+        "BuffID": 12120704, 
+        "NextItemID": 302020145, 
+        "Tip": "+80% 生命值和内功防御", 
+        "SellPrice": 720, 
+        "PreItemID": 302020143
+    }, 
+    "302020143": {
+        "BuyPrice": 300, 
+        "Type": "生命/内防", 
+        "BuffID": 12120703, 
+        "NextItemID": 302020144, 
+        "Tip": "+60% 生命值和内功防御", 
+        "SellPrice": 540, 
+        "PreItemID": 302020142
+    }, 
+    "302020142": {
+        "BuyPrice": 300, 
+        "Type": "生命/内防", 
+        "BuffID": 12120702, 
+        "NextItemID": 302020143, 
+        "Tip": "+40% 生命值和内功防御", 
+        "SellPrice": 360, 
+        "PreItemID": 302020141
+    }, 
+    "302020141": {
+        "BuyPrice": 300, 
+        "Type": "生命/内防", 
+        "BuffID": 12120701, 
+        "NextItemID": 302020142, 
+        "Tip": "+20% 生命值和内功防御", 
+        "SellPrice": 180, 
+        "PreItemID": 0
+    }, 
+    "302020082": {
+        "BuyPrice": 300, 
+        "Type": "生命/外防", 
+        "BuffID": 12120402, 
+        "NextItemID": 302020083, 
+        "Tip": "+40% 生命值和外功防御", 
+        "SellPrice": 360, 
+        "PreItemID": 302020081
+    }, 
+    "302020083": {
+        "BuyPrice": 300, 
+        "Type": "生命/外防", 
+        "BuffID": 12120403, 
+        "NextItemID": 302020084, 
+        "Tip": "+60% 生命值和外功防御", 
+        "SellPrice": 540, 
+        "PreItemID": 302020082
+    }, 
+    "302020081": {
+        "BuyPrice": 300, 
+        "Type": "生命/外防", 
+        "BuffID": 12120401, 
+        "NextItemID": 302020082, 
+        "Tip": "+20% 生命值和外功防御", 
+        "SellPrice": 180, 
+        "PreItemID": 0
+    }, 
+    "302020084": {
+        "BuyPrice": 300, 
+        "Type": "生命/外防", 
+        "BuffID": 12120404, 
+        "NextItemID": 302020085, 
+        "Tip": "+80% 生命值和外功防御", 
+        "SellPrice": 720, 
+        "PreItemID": 302020083
+    }, 
+    "302020085": {
+        "BuyPrice": 300, 
+        "Type": "生命/外防", 
+        "BuffID": 12120405, 
+        "NextItemID": 0, 
+        "Tip": "+100% 生命值和外功防御", 
+        "SellPrice": 900, 
+        "PreItemID": 302020084
+    }, 
+    "302020064": {
+        "BuyPrice": 100, 
+        "Type": "生命", 
+        "BuffID": 12120304, 
+        "NextItemID": 302020065, 
+        "Tip": "+80% 生命值", 
+        "SellPrice": 240, 
+        "PreItemID": 302020063
+    }, 
+    "302020065": {
+        "BuyPrice": 100, 
+        "Type": "生命", 
+        "BuffID": 12120305, 
+        "NextItemID": 0, 
+        "Tip": "+100% 生命值", 
+        "SellPrice": 300, 
+        "PreItemID": 302020064
+    }, 
+    "302020061": {
+        "BuyPrice": 100, 
+        "Type": "生命", 
+        "BuffID": 12120301, 
+        "NextItemID": 302020062, 
+        "Tip": "+20% 生命值", 
+        "SellPrice": 60, 
+        "PreItemID": 0
+    }, 
+    "302020062": {
+        "BuyPrice": 100, 
+        "Type": "生命", 
+        "BuffID": 12120302, 
+        "NextItemID": 302020063, 
+        "Tip": "+40% 生命值", 
+        "SellPrice": 120, 
+        "PreItemID": 302020061
+    }, 
+    "302020063": {
+        "BuyPrice": 100, 
+        "Type": "生命", 
+        "BuffID": 12120303, 
+        "NextItemID": 302020064, 
+        "Tip": "+60% 生命值", 
+        "SellPrice": 180, 
+        "PreItemID": 302020062
+    }
+}

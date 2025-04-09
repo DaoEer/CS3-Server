@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败东方凌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20000005#L_YSC_Planes002"
+                }
+            }, 
+            "title": "寻找下落"
+        }, 
+        "3": {
+            "comment": "东方凌已无处可逃，速将其消灭，夺取解药", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败东方凌，夺取解药", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010106", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20002645#L_YSC_Planes002"
+                }
+            }, 
+            "title": "穷追不舍"
+        }, 
+        "2": {
+            "comment": "东方凌已逃入其中的某个房间中，速将其找出。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "从房间中找出东方凌", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-48816.0 -14902.0 11518.0)#L_YSC_Planes002"
+                }
+            }, 
+            "title": "乘胜追击"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "赶回抱朴子身边", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-53553.3 -41845.6 13803.6:5", 
+                    "param2": "18800|8800", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-53553.3 -41845.6 13803.6)#L_YSC_Planes002"
+                }
+            }, 
+            "title": "回归解毒"
+        }
+    }, 
+    "describe": "仙道4级", 
+    "beginOnSpaceInit": 1, 
+    "name": "营救抱朴子"
+}

@@ -1,0 +1,25 @@
+﻿{
+"EntityType"	: "SpaceMultiLine",
+"DomainType"	: "SpaceDomainMultiLine",
+"EntityScript"	: "SpaceMultiLine",
+"scriptID"	: "L_HLSY_LOOP",
+"spaceType"	: "SPACE_TYPE_MULTILINE",
+"SpawnFile"	: "S_L_HLSY_LOOP",
+"NavmeshPath"	: "space\\L_HLSY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "0",
+"RoleIsCanCompete":1,
+"ExitSpace"	:{
+	"ScriptID"	: "L_HLSY_LOOP",
+	"Position"	: "-14200.0 -14610.0 400.0",
+	"Direction"	: "0 0 40"
+	},
+"SpaceData"	:{
+	"maxLine":50,
+	"maxPlayerAmount":150,
+	"triggerLinePlayerAmount":50,
+	"reviveType"	: "0|1"
+	},
+"DomainData"	:{
+	}
+}

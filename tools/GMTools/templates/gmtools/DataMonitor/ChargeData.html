@@ -1,0 +1,157 @@
+{% extends "gmtools/DataMonitor/DataMonitorBase.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+	<script src="/static/laydate/laydate.js"></script> 
+{% endblock %}
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">玩家充值查询</h2>
+	<h4 class="page-header">汇总查询</h4>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/datamonitor/chargedata/totalquery/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class="row">
+					<div style="width:100px;float:left;margin: 1px -5px 0px 15px">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">查询时间:</label>
+					</div>
+					<div style="width:500px;">
+						<div style="width:130px;float:left;">
+							<input type="text" name="startDate" style="width:125px" class="form-control" id="id_start_date" placeholder="默认为开服时间" readonly="readonly" value="{{ totalChargeQueryInfo.startDate }}"/>
+						</div>
+						<div style="width:15px;float:left;">
+							<label style="width:10px; margin: 5px 5px 0px 0px">-</label>
+						</div>
+						<div style="width:150px;float:left;">
+							<input type="text" name="endDate" style="width:125px" class="form-control" id="id_end_date" placeholder="默认为当前时间" readonly="readonly" value="{{ totalChargeQueryInfo.endDate }}"/>
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default">查 询</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="row" style = "font-size: 15px; margin: -30px 0px 0px 0px">
+		<p class="navbar-text">总充值：{{ totalChargeInfo.totalChargeValue }}</p>
+	</div>
+	<div class="row" style = "font-size: 15px; margin: 0px 0px 0px 0px">
+		<p class="navbar-text">最高单笔充值：{{ totalChargeInfo.singleHighestValue }}</p>
+	</div>
+	<div class="row" style = "font-size: 15px; margin: 0px 0px 0px 0px">
+		<p class="navbar-text">最高单人累计充值：{{ totalChargeInfo.sumHighestValue }}</p>
+		<p class="navbar-text" style = "margin: 15px 0px 0px 80px">账号名：{{ totalChargeInfo.accountName }}</p>
+	</div>
+	<h4 class="sub-header"></h4>
+	<h4 class="sub-header">订单查询</h4>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/datamonitor/chargedata/ordersquery/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="row" style = "margin: 5px 0px 0px 0px">
+				<div style = "font-size: 14px; margin: -10px 0px 0px 0px">
+					<label class="navbar-text">查询方式:</label>
+				</div>
+				<div id = "checkboxDiv" style = "margin: 5px 0px 0px 0px; float:left">
+					<input type="checkbox" name="accountQuery" value="1" style = "zoom:112%;vertical-align:middle;margin:auto;height:20px;" {% if orderQueryInfo.accountQuery == 1 %}checked{% endif %} /><font size = "3">账号查询</font>
+					<input type="checkbox" name="totalChargeQuery" value="1" style = "margin: 0px 0px 0px 10px;zoom:112%;vertical-align:middle;height:20px;" {% if orderQueryInfo.totalChargeQuery == 1 %}checked{% endif %} /><font size = "3">总充值查询</font>
+					<input type="checkbox" name="singleChargeQuery" value="1" style = "margin: 0px 0px 0px 10px;zoom:112%;vertical-align:middle;height:20px;" {% if orderQueryInfo.singleChargeQuery == 1 %}checked{% endif %} /><font size = "3">单笔充值查询</font>
+				</div>
+			</div>
+			<div class="from-group" style="width: 1000px; float:left;margin: 10px 0px 0px -6px">
+				<div class="row">
+					<div style="width:80px;float:left;margin: 1px -5px 0px 20px">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">账号名:</label>
+					</div>
+					<div style="margin: 0px 0px 0px -20px;">
+						<div style="width:150px;float:left;">
+							<input name="accountName" type="text" class="form-control" id="id_accountName" value="{{ orderQueryInfo.accountName }}" maxlength="30" />
+						</div>
+					</div>
+					<div style="float:left;margin: 0px 0px 0px 20px">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">总充值超过:</label>
+					</div>
+					<div style="margin: 0px 0px 0px -20px;">
+						<div style="width:150px;float:left;">
+							<input name="totalChargeValue" type="text" class="form-control" id="id_totalChargeValue" value="{{ orderQueryInfo.totalChargeValue }}" maxlength="30" />
+						</div>
+					</div>
+					<div style="float:left;margin: 0px 0px 0px 20px">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">单笔充值超过:</label>
+					</div>
+					<div style="margin: 0px 0px 0px 0px;">
+						<div style="width:150px;float:left;margin: 0px 0px 0px 10px">
+							<input name="singleChargeValue" type="text" class="form-control" id="id_singleChargeValue" value="{{ orderQueryInfo.singleChargeValue }}" maxlength="30" />
+						</div>
+					</div>
+					<div class="form-group col-sm-1;margin: 0px 0px 0px 20px;">
+						<button type="submit" class="btn btn-default">查 询</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="table-responsive" style="margin: 0px 0px 0px 4px;">
+		<table class="table-striped table-condensed" border="1">
+			<thead>
+				<tr>
+					<th width="200px">订单号</th>
+					<th width="200px">充值账号</th>
+					<th width="200px">充值金额</th>
+					<th width="200px">充值方式</th>
+					<th width="200px">充值时间</th>
+					<th width="200px">账户当前余额</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for data in orderQueryDatas %}
+					<tr>
+						<td>{{ data.0 }}</td>
+						<td>{{ data.1 }}</td>
+						<td>{{ data.2 }}</td>
+						<td>{{ data.3 }}</td>
+						<td>{{ data.4 }}</td>
+						<td>{{ data.5 }}</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+{% endblock %}
+{% block tail_js %}
+	<script>$(".m_datamonitor").addClass("active");</script>
+	<script>
+		laydate.render({
+			elem: '#id_start_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_end_date', //指定元素
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(function(){
+				$("#checkboxDiv").find(":checkbox").each(function(){
+					$(this).click(function(){
+						if($(this).is(':checked')){ 
+							$(this).attr('checked',true).siblings().attr('checked',false);
+						}else{
+							$(this).attr('checked',false).siblings().attr('checked',false);
+						}
+					});
+				});
+			});
+		});
+	</script>
+{% endblock %}

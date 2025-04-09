@@ -1,0 +1,61 @@
+{
+    "71100005": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestUseCommitItem", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "303020008", 
+                "id": 1, 
+                "name": "使用灵气罗盘"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncPlaySound", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "C001788"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 71100005, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [], 
+        "script": "QuestScriptQiYuan", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestQiYuan", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}使用灵气罗盘，即可开始探索洞府福地的踪迹！", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {
+            "1": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "C001789"
+                }
+            ]
+        }, 
+        "level": 30, 
+        "title": "寻找洞府福地", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

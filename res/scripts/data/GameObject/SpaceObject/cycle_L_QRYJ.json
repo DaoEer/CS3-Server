@@ -1,0 +1,33 @@
+﻿{
+"SpaceName"	: "妖宫",
+"EntityType"	: "SpaceCopyRingTask",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyRingTaskChild",
+"scriptID"	: "cycle_L_QRYJ",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_YJ",
+"NavmeshPath"	: "space\\L_YJ_NAVMESH",
+"PatrolRouteFile": "P_L_YJ",
+"SpaceAoi"	: 200.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "6139 26797 11021",
+	"Direction"	: "0.0 0.0 100"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"enterPosition":"-1145.0 9100.0 1009.693665",
+	"enterDirection":"0 0 -90",
+	"stageFile":"SS_L_YJ",
+	"statisticsFile":"",
+	"eventFile":"SE_L_QRYJ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0
+	},
+"DomainData"	:{
+
+	}
+}

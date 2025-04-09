@@ -1,0 +1,25 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<tokenDict>  <!-- 令牌 -->
+			<Type>		DICT_STR_STR	</Type>
+			<Flags>			BASE		</Flags>
+			<Persistent>	true		</Persistent>			
+		</tokenDict>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+	
+	<CellMethods>
+		<fixedTimeUpdate>
+			<Arg>			UINT8		</Arg>
+			<Arg>			UNICODE		</Arg>
+		</fixedTimeUpdate>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>

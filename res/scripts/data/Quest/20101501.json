@@ -1,0 +1,66 @@
+{
+    "20101501": {
+        "tasks": [
+            {
+                "navigateData": "10000030#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskLearnSkill", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "200007001", 
+                "id": 1, 
+                "name": "学习“暗影星河”"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101501, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101500"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q010710|Q010875", 
+        "finish_by": "10000030#L_XYM", 
+        "taskLogDes": "@S{4}大师兄陆飞羽想要传授你门派核心功法，请你前往大师兄处学习@F{fc=c3}暗影星河@D。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q010713", 
+        "nextQuest": "20101502", 
+        "taskCompleteFunctions": {}, 
+        "level": 2, 
+        "title": "学习魔功", 
+        "isAutoCommit": 1, 
+        "start_by": "10000030#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

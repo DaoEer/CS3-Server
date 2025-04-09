@@ -1,0 +1,75 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "制服拦路者", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004675|20004674", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-8908.419922 54310.789063 -1135.156006)#L_BQDB_Planes005"
+                }
+            }, 
+            "title": "制服拦路者"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "扫清拦路者", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004675|20004674", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-13460.790039 40001.578125 -698.804932)#L_BQDB_Planes005"
+                }
+            }, 
+            "title": "扫清拦路者"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击溃拦路者", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004676|20004675", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-267.395142 42525.750000 -1356.754395)#L_BQDB_Planes005"
+                }
+            }, 
+            "title": "击溃拦路者"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蛮角", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004677", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004677#L_BQDB_Planes005"
+                }
+            }, 
+            "title": "消灭蛮角"
+        }
+    }, 
+    "describe": "34级仙道", 
+    "beginOnSpaceInit": 1, 
+    "name": "叛乱"
+}

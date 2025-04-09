@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败星宿小妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011721|20011722|20011723", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-89095.695313 61623.128906 -1328.437500)#L_WSS_Planes001"
+                }
+            }, 
+            "title": "星宿阁"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玉衡长老", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011720", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-80870.000000 67040.000000 -1058.874512)#L_WSS_Planes001"
+                }
+            }, 
+            "title": "宝物下落"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "沿路深入", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-83666.062500 64802.984375 -1039.968262)#L_WSS_Planes001"
+                }
+            }, 
+            "title": "深入星宿阁"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "星宿阁"
+}

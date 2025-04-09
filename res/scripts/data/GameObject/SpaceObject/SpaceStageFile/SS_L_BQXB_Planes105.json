@@ -1,0 +1,131 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "将紫晶魔像带给祖巫蓐收", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "274", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20006411#L_BQXB_Planes105"
+                }
+            }, 
+            "title": "禀报蓐收"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭东门的昆仑宗先锋将", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006479", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006479#L_BQXB_Planes105"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭昆仑宗东军", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006480|20006485|20006483|20006482|20006484", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006480|20006485|20006483|20006482|20006484#L_BQXB_Planes105"
+                }
+            }, 
+            "title": "东门告急"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭来犯的昆仑宗先锋", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006460|20006461|20006457|20006458", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006460|20006461|20006457|20006458#L_BQXB_Planes105"
+                }
+            }, 
+            "title": "守护魔像"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭昆仑宗先锋凌战", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006515", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006515#L_BQXB_Planes105"
+                }
+            }, 
+            "title": "仙道再犯"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭西门的昆仑宗先锋将", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006503", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006503#L_BQXB_Planes105"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 1, 
+                    "title": "消灭昆仑宗西军", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006504|20006507|20006508|20006506|20006509", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006504|20006507|20006508|20006506|20006509#L_BQXB_Planes105"
+                }
+            }, 
+            "title": "支援西门"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "大战赤脚大仙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "20006525", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-42746.0 -20410.0 -484.0)#L_BQXB_Planes105"
+                }
+            }, 
+            "title": "赤脚大仙"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "竖立魔像"
+}

@@ -1,0 +1,80 @@
+{
+    "20102196": {
+        "tasks": [
+            {
+                "navigateData": "(11703.221680 11131.483398 5492.903320)#L_FMF_xian", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往飞魔峰"
+            }, 
+            {
+                "navigateData": "(11703.221680 11131.483398 5492.903320)#L_FMF_xian", 
+                "goal": 10, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20014812|20014813|20014814|20014815", 
+                "id": 2, 
+                "name": "击败飞魔峰守卫"
+            }, 
+            {
+                "navigateData": "(11703.221680 11131.483398 5492.903320)#L_FMF_xian", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "协助太一作战"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102196, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102195"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}灵泉已封印，快前往飞魔峰支援太一。|@S{4}请消灭飞魔峰的魔道守卫。|@S{4}请你牵制魔傀助太一破解魔王殿入口结界。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102198|20102197|20102198|20102198", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "攻打飞魔岭（四）", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

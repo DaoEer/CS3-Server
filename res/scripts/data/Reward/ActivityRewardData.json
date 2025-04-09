@@ -1,0 +1,166 @@
+{
+    "fu_ben_YZFQ_03": [
+        {
+            "mailID": "300202001", 
+            "minRank": 1, 
+            "maxRank": 1
+        }, 
+        {
+            "mailID": "300202002", 
+            "minRank": 2, 
+            "maxRank": 2
+        }, 
+        {
+            "mailID": "300202003", 
+            "minRank": 3, 
+            "maxRank": 3
+        }, 
+        {
+            "mailID": "300202004", 
+            "minRank": 4, 
+            "maxRank": 4
+        }, 
+        {
+            "mailID": "300202005", 
+            "minRank": 5, 
+            "maxRank": 5
+        }, 
+        {
+            "mailID": "300202006", 
+            "minRank": 6, 
+            "maxRank": 6
+        }, 
+        {
+            "mailID": "300202007", 
+            "minRank": 7, 
+            "maxRank": 7
+        }, 
+        {
+            "mailID": "300202008", 
+            "minRank": 8, 
+            "maxRank": 8
+        }, 
+        {
+            "mailID": "300202009", 
+            "minRank": 9, 
+            "maxRank": 9
+        }, 
+        {
+            "mailID": "300202010", 
+            "minRank": 10, 
+            "maxRank": 10
+        }, 
+        {
+            "mailID": "300202011", 
+            "minRank": 11, 
+            "maxRank": 11
+        }, 
+        {
+            "mailID": "300202012", 
+            "minRank": 12, 
+            "maxRank": 12
+        }, 
+        {
+            "mailID": "300202013", 
+            "minRank": 13, 
+            "maxRank": 13
+        }, 
+        {
+            "mailID": "300202014", 
+            "minRank": 14, 
+            "maxRank": 14
+        }, 
+        {
+            "mailID": "300202015", 
+            "minRank": 15, 
+            "maxRank": 15
+        }, 
+        {
+            "mailID": "300201016", 
+            "minRank": 16, 
+            "maxRank": 30
+        }
+    ], 
+    "fu_ben_YZFQ_02": [
+        {
+            "mailID": "300201001", 
+            "minRank": 1, 
+            "maxRank": 1
+        }, 
+        {
+            "mailID": "300201002", 
+            "minRank": 2, 
+            "maxRank": 2
+        }, 
+        {
+            "mailID": "300201003", 
+            "minRank": 3, 
+            "maxRank": 3
+        }, 
+        {
+            "mailID": "300201004", 
+            "minRank": 4, 
+            "maxRank": 4
+        }, 
+        {
+            "mailID": "300201005", 
+            "minRank": 5, 
+            "maxRank": 5
+        }, 
+        {
+            "mailID": "300201006", 
+            "minRank": 6, 
+            "maxRank": 6
+        }, 
+        {
+            "mailID": "300201007", 
+            "minRank": 7, 
+            "maxRank": 7
+        }, 
+        {
+            "mailID": "300201008", 
+            "minRank": 8, 
+            "maxRank": 8
+        }, 
+        {
+            "mailID": "300201009", 
+            "minRank": 9, 
+            "maxRank": 9
+        }, 
+        {
+            "mailID": "300201010", 
+            "minRank": 10, 
+            "maxRank": 10
+        }, 
+        {
+            "mailID": "300201011", 
+            "minRank": 11, 
+            "maxRank": 11
+        }, 
+        {
+            "mailID": "300201012", 
+            "minRank": 12, 
+            "maxRank": 12
+        }, 
+        {
+            "mailID": "300201013", 
+            "minRank": 13, 
+            "maxRank": 13
+        }, 
+        {
+            "mailID": "300201014", 
+            "minRank": 14, 
+            "maxRank": 14
+        }, 
+        {
+            "mailID": "300201015", 
+            "minRank": 15, 
+            "maxRank": 15
+        }, 
+        {
+            "mailID": "300201016", 
+            "minRank": 16, 
+            "maxRank": 30
+        }
+    ]
+}

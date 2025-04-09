@@ -1,0 +1,52 @@
+[
+    {
+        "Name": "1", 
+        "level": 1, 
+        "successRate": 60, 
+        "highConsumeRate": 95, 
+        "df_SumSuccessRate": 0, 
+        "xf_SumSuccessRate": 0, 
+        "gjdf_SumSuccessRate": 0, 
+        "publicConsumeRate": 150
+    }, 
+    {
+        "Name": "2", 
+        "level": 2, 
+        "successRate": 65, 
+        "highConsumeRate": 90, 
+        "df_SumSuccessRate": 0, 
+        "xf_SumSuccessRate": 0, 
+        "gjdf_SumSuccessRate": 0, 
+        "publicConsumeRate": 140
+    }, 
+    {
+        "Name": "3", 
+        "level": 3, 
+        "successRate": 70, 
+        "highConsumeRate": 85, 
+        "df_SumSuccessRate": 8, 
+        "xf_SumSuccessRate": 0, 
+        "gjdf_SumSuccessRate": 23, 
+        "publicConsumeRate": 130
+    }, 
+    {
+        "Name": "4", 
+        "level": 4, 
+        "successRate": 75, 
+        "highConsumeRate": 80, 
+        "df_SumSuccessRate": 9, 
+        "xf_SumSuccessRate": 0, 
+        "gjdf_SumSuccessRate": 27, 
+        "publicConsumeRate": 120
+    }, 
+    {
+        "Name": "5", 
+        "level": 5, 
+        "successRate": 80, 
+        "highConsumeRate": 75, 
+        "df_SumSuccessRate": 10, 
+        "xf_SumSuccessRate": 0, 
+        "gjdf_SumSuccessRate": 30, 
+        "publicConsumeRate": 110
+    }
+]

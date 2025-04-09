@@ -1,0 +1,26 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_JXY_01",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_JXY_01",
+"NavmeshPath"	: "space\\L_JXY_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_XYM",
+	"Position"	: "52152 9248 17434",
+	"Direction"	: "0 0 87.66"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+             "clientShowSpaceLife" : 1,
+             "startLifeOnInit" : 1,
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_JXY_01",
+	"eventFile":"SE_L_JXY_01"
+	},
+"DomainData"	:{
+	}
+}

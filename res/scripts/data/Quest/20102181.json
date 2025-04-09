@@ -1,0 +1,96 @@
+{
+    "20102181": {
+        "tasks": [
+            {
+                "navigateData": "10000000#L_YXG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "15", 
+                "param2": "-4020 -15569 1953", 
+                "param1": "L_YXG", 
+                "id": 1, 
+                "name": "前往玉虚宫"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002157"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102181, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102179"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "19123", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "969", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "13210", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2372", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050098|Q050099|Q040042", 
+        "finish_by": "10000000#L_YXG", 
+        "taskLogDes": "@S{4}想要发挥封神榜的神通，必须寻得一颗生命原力极强的星球布置封神台用以立榜。鸿钧命你前往玉虚宫，请元始天尊着手立榜之事。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050102", 
+        "nextQuest": "20102182", 
+        "taskCompleteFunctions": {}, 
+        "level": 42, 
+        "title": "前往玉虚", 
+        "isAutoCommit": 1, 
+        "start_by": "10001308#L_ZXG", 
+        "isAutoAccept": 1
+    }
+}

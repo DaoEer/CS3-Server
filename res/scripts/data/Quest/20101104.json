@@ -1,0 +1,140 @@
+{
+    "20101104": {
+        "tasks": [
+            {
+                "navigateData": "(186860.0 -13350.0 -16759.9)#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "3", 
+                "param2": "186860.0 -13350.0 -16759.9", 
+                "param1": "L_FMNL", 
+                "id": 1, 
+                "name": "前往望月坡"
+            }, 
+            {
+                "navigateData": "20001879|20001881|20001882#L_FMNL", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20001879|20001881|20001882", 
+                "id": 2, 
+                "name": "消灭拦路的皎月元妖"
+            }, 
+            {
+                "navigateData": "30000045#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 4, 
+                "name": "寻找哮天犬的下落"
+            }, 
+            {
+                "navigateData": "30000046#L_FMNL", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 4, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 5, 
+                "name": "降服哮天犬"
+            }, 
+            {
+                "navigateData": "20001883|20001884#L_FMNL", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20001883|20001884", 
+                "id": 3, 
+                "name": "消灭拦路的皎月妖兽"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2008"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101104, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101139"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1874", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "619", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1005", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "345", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "10000185#L_FMNL", 
+        "taskLogDes": "@S{4}玉鼎真人让你前往凤鸣南麓的望月坡收服皎月族的神兽哮天犬。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020057|Q020058", 
+        "nextQuest": "20101105", 
+        "taskCompleteFunctions": {}, 
+        "level": 11, 
+        "title": "哮天犬", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

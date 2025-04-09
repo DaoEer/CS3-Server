@@ -1,0 +1,24 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+	<endReviveTime>			
+		<Type>			CLIENT_TIME			</Type>
+		<Flags>			ALL_CLIENTS		</Flags>
+		<Default>		0.0				</Default>
+	</endReviveTime>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_DisplayCounodwn>	
+			<Arg>			CLIENT_TIME			</Arg>
+		</CLIENT_DisplayCounodwn>
+	</ClientMethods>
+	
+	<CellMethods>
+	</CellMethods>
+</root>

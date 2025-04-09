@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "临渊试炼",
+"EntityType"	: "SpaceCopyLindenSnatch",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyLindenSnatch",
+"scriptID"	: "cycle_L_PTZ",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_cycle_L_PTZ",
+"NavmeshPath"	: "space\\L_LYSL_01_NAVMESH",
+"PatrolRouteFile": "P_L_fu_ben_LYSL",
+"SpaceAoi"	: 100.0,
+"belongType"	: "1|4",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "6139 26797 11021",
+	"Direction"	: "0.0 0.0 100"
+	},
+"SpaceData"	:{
+	"enterPosition":"-974.4 2900.73 2115.13",
+	"enterDirection":"0 0 -60",
+	"stageFile":"SS_cycle_L_PTZ",
+	"eventFile":"SE_cycle_L_PTZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+   	"monsterUseSpaceLevel": 1,
+	"coordinates":"570 -3890 5501|-7150 -4120 6003.414|-7870 1110 4878.3|5790 2740 5142.3|4480 6730 4319",
+	"XTDLScriptIDList":"10001335|20012879|20012879|20012879|20012879"
+	},
+"DomainData"	:{
+	}
+}

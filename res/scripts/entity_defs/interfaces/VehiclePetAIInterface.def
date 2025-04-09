@@ -1,0 +1,51 @@
+<root>
+	<Properties>
+		<AICurrentState>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+		</AICurrentState>
+		<AIPetCommand>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</AIPetCommand>
+		<AITickCBID>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+		</AITickCBID>
+		<AIAttackTargetID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</AIAttackTargetID>
+		<AIAttackUseSkill>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</AIAttackUseSkill>
+		<petSpellIndex>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</petSpellIndex>
+		<AIOwnerSetTargetID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</AIOwnerSetTargetID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<AIOwnerChangeState>
+			<Arg>		UINT8	</Arg>
+		</AIOwnerChangeState>
+		<AIOwnerAttack>
+			<Arg>		SKILL_ID	</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</AIOwnerAttack>
+	</CellMethods>
+</root>

@@ -1,0 +1,187 @@
+{
+    "stages": {
+        "1": {
+            "comment": "击败寒冰湖中的妖兵，并且进入临滨山。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天阴宗弟子", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003572|20003577|20003578", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入临滨山", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-20080 -2059.993 1891.4042:35", 
+                    "param2": "3891|-1891", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "穿越寒冰湖"
+        }, 
+        "3": {
+            "comment": "击败冰灵之体—慕容苍", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败冰灵之体", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003250", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败冰灵之体"
+        }, 
+        "2": {
+            "comment": "躲避沿途机关，进入临滨山顶。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入临滨山顶", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-14969 -20949 7967:20", 
+                    "param2": "9967|5967", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天阴宗弟子", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003249|20003257", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "进入临滨山顶"
+        }, 
+        "5": {
+            "comment": "找到火灵之体—慕容苍", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到火灵之体", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "27423 -13152 -5689:30", 
+                    "param2": "-1689|-8689", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天阴宗弟子", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003573|20003254", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "找到火灵之体"
+        }, 
+        "4": {
+            "comment": "进入炎火山", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入炎火山", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "17602 -17254 -5188:15", 
+                    "param2": "-2157|-7157", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "进入炎火山"
+        }, 
+        "7": {
+            "comment": "进入冰火洞，找到慕容苍", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入冰火洞，找到慕容苍", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "18126 2026 -7524:20", 
+                    "param2": "-5524|-9524", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天阴宗弟子", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003254|20003251", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "进入冰火洞"
+        }, 
+        "6": {
+            "comment": "击败火灵之体—慕容苍", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败火灵之体", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003261", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "击败火灵之体"
+        }, 
+        "8": {
+            "comment": "击败慕容苍", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败慕容苍", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003262", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "慕容苍"
+        }
+    }, 
+    "describe": "37级传承副本冰火灵脉", 
+    "beginOnSpaceInit": 1, 
+    "name": "冰火灵脉"
+}

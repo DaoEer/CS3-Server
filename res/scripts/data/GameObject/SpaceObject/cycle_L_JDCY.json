@@ -1,0 +1,33 @@
+{
+"SpaceName"	: "禁地采药",
+"EntityType"	: "SpaceCopyJDCY",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyJDCY",
+"scriptID"	: "cycle_L_JDCY",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_JDCY",
+"NavmeshPath"	: "space\\L_JDCY_NAVMESH",
+"PatrolRouteFile": "P_L_JDCY",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"enterPosition":"632.9480591 -2176.5297852 152.0129395",
+	"enterDirection":"0 0 0",
+	"spaceLife"	: 5,
+	"LXCSrciptID":"40000860",
+	"LXCPosition":"-2444.090332 975.7689209 640.651062|-1633.6599121 -645.0021362 640.651062|-3254.2687988 -3073.0876465 640.651062|2546.7270508 -3073.0876465 640.651062|4167.5844727 -2263.9265137 640.651062|2546.7270508 1784.2808838 640.651062",
+	"stageFile":"",
+	"revivePosition":[-2444.090332,-1454.1634521,240.6557312],
+	"eventFile":"SE_L_JDCY",
+	"statisticsFile":"",
+	"monsterUseSpaceLevel":1,
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2"
+	},
+"DomainData"	:{
+	}
+}

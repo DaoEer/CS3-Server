@@ -1,0 +1,97 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭九幽小妖", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011440|20011442|20011447|20011449|20011451", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-5627.0 -10176.0 -1024.0)#L_BHD_2"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭九幽冰妖", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20011452|20011453|20011445", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-2283.217773 6198.585449 -595.929199)#L_BHD_2"
+                }
+            }, 
+            "title": "九幽冥河"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败焚天火灵，夺得至宝", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002668", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002668#L_BHD_2"
+                }
+            }, 
+            "title": "火灵至宝"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败九幽妖主，获得至宝", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002648", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002648#L_BHD_2"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "获得至宝冥河之水", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "11043.0 15937.0 504.0", 
+                    "param2": "5000|-5000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20002648#L_BHD_2"
+                }
+            }, 
+            "title": "九幽至宝"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "为鲲鹏护法，重炼宝图", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002676", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002668#L_BHD_2"
+                }
+            }, 
+            "title": "重炼宝图"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "重炼宝图"
+}

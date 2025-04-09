@@ -1,0 +1,24 @@
+<root>
+	<Properties>
+		<tongRecords>
+			<Type>		PYTHON		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	[]		</Default>
+			<Persistent>	true		</Persistent>
+		</tongRecords>
+		<tongStoreRecords>
+			<Type>		PYTHON		</Type>
+			<Flags>		BASE		</Flags>
+			<Default>	[]		</Default>
+			<Persistent>	true		</Persistent>
+		</tongStoreRecords>
+	</Properties>
+	<BaseMethods>
+		<requestTongEvent>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</requestTongEvent>
+		<requestTongStoreEvent>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</requestTongStoreEvent>
+	</BaseMethods>
+</root>

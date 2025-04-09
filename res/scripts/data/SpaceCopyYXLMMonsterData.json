@@ -1,0 +1,1492 @@
+{
+    "20008288": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008289": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008284": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008285": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008286": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008287": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008280": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008281": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008282": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008283": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20007986": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20007987": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20007984": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20007985": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20007982": {
+        "1": {
+            "expRewardToKillerMonster": 45, 
+            "expRewardToAssistMonster": 23, 
+            "maxExp": 300, 
+            "expRewardToAssistPlayer": 15, 
+            "expRewardToKillerPlayer": 29, 
+            "rewardJadeToKillerPlayer": 15, 
+            "rewardJadeToAssistPlayer": 8
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 135, 
+            "expRewardToAssistMonster": 68, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 43, 
+            "expRewardToKillerPlayer": 86, 
+            "rewardJadeToKillerPlayer": 45, 
+            "rewardJadeToAssistPlayer": 23
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 90, 
+            "expRewardToAssistMonster": 45, 
+            "maxExp": 500, 
+            "expRewardToAssistPlayer": 29, 
+            "expRewardToKillerPlayer": 57, 
+            "rewardJadeToKillerPlayer": 30, 
+            "rewardJadeToAssistPlayer": 15
+        }
+    }, 
+    "20007983": {
+        "1": {
+            "expRewardToKillerMonster": 180, 
+            "expRewardToAssistMonster": 90, 
+            "maxExp": 600, 
+            "expRewardToAssistPlayer": 57, 
+            "expRewardToKillerPlayer": 114, 
+            "rewardJadeToKillerPlayer": 60, 
+            "rewardJadeToAssistPlayer": 30
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 540, 
+            "expRewardToAssistMonster": 270, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 171, 
+            "expRewardToKillerPlayer": 342, 
+            "rewardJadeToKillerPlayer": 180, 
+            "rewardJadeToAssistPlayer": 90
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 360, 
+            "expRewardToAssistMonster": 180, 
+            "maxExp": 800, 
+            "expRewardToAssistPlayer": 114, 
+            "expRewardToKillerPlayer": 228, 
+            "rewardJadeToKillerPlayer": 120, 
+            "rewardJadeToAssistPlayer": 60
+        }
+    }, 
+    "20007981": {
+        "1": {
+            "expRewardToKillerMonster": 60, 
+            "expRewardToAssistMonster": 30, 
+            "maxExp": 300, 
+            "expRewardToAssistPlayer": 19, 
+            "expRewardToKillerPlayer": 38, 
+            "rewardJadeToKillerPlayer": 20, 
+            "rewardJadeToAssistPlayer": 10
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 180, 
+            "expRewardToAssistMonster": 90, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 57, 
+            "expRewardToKillerPlayer": 114, 
+            "rewardJadeToKillerPlayer": 60, 
+            "rewardJadeToAssistPlayer": 30
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 120, 
+            "expRewardToAssistMonster": 60, 
+            "maxExp": 500, 
+            "expRewardToAssistPlayer": 38, 
+            "expRewardToKillerPlayer": 76, 
+            "rewardJadeToKillerPlayer": 40, 
+            "rewardJadeToAssistPlayer": 20
+        }
+    }, 
+    "20007988": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20008299": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008298": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008297": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008296": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008295": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008294": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008293": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008292": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008291": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008290": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008020": {
+        "1": {
+            "expRewardToKillerMonster": 750, 
+            "expRewardToAssistMonster": 375, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 238, 
+            "expRewardToKillerPlayer": 475, 
+            "rewardJadeToKillerPlayer": 250, 
+            "rewardJadeToAssistPlayer": 125
+        }
+    }, 
+    "20008021": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20008022": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20008025": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008026": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008027": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008028": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008029": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008033": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008032": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008031": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008030": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008036": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008035": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20008034": {
+        "1": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }
+    }, 
+    "20007998": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20008330": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20007991": {
+        "1": {
+            "expRewardToKillerMonster": 60, 
+            "expRewardToAssistMonster": 30, 
+            "maxExp": 300, 
+            "expRewardToAssistPlayer": 19, 
+            "expRewardToKillerPlayer": 38, 
+            "rewardJadeToKillerPlayer": 20, 
+            "rewardJadeToAssistPlayer": 10
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 180, 
+            "expRewardToAssistMonster": 90, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 57, 
+            "expRewardToKillerPlayer": 114, 
+            "rewardJadeToKillerPlayer": 60, 
+            "rewardJadeToAssistPlayer": 30
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 120, 
+            "expRewardToAssistMonster": 60, 
+            "maxExp": 500, 
+            "expRewardToAssistPlayer": 38, 
+            "expRewardToKillerPlayer": 76, 
+            "rewardJadeToKillerPlayer": 40, 
+            "rewardJadeToAssistPlayer": 20
+        }
+    }, 
+    "20007990": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20007993": {
+        "1": {
+            "expRewardToKillerMonster": 180, 
+            "expRewardToAssistMonster": 90, 
+            "maxExp": 600, 
+            "expRewardToAssistPlayer": 57, 
+            "expRewardToKillerPlayer": 114, 
+            "rewardJadeToKillerPlayer": 60, 
+            "rewardJadeToAssistPlayer": 30
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 540, 
+            "expRewardToAssistMonster": 270, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 171, 
+            "expRewardToKillerPlayer": 342, 
+            "rewardJadeToKillerPlayer": 180, 
+            "rewardJadeToAssistPlayer": 90
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 360, 
+            "expRewardToAssistMonster": 180, 
+            "maxExp": 800, 
+            "expRewardToAssistPlayer": 114, 
+            "expRewardToKillerPlayer": 228, 
+            "rewardJadeToKillerPlayer": 120, 
+            "rewardJadeToAssistPlayer": 60
+        }
+    }, 
+    "20007992": {
+        "1": {
+            "expRewardToKillerMonster": 45, 
+            "expRewardToAssistMonster": 23, 
+            "maxExp": 300, 
+            "expRewardToAssistPlayer": 15, 
+            "expRewardToKillerPlayer": 29, 
+            "rewardJadeToKillerPlayer": 15, 
+            "rewardJadeToAssistPlayer": 8
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 135, 
+            "expRewardToAssistMonster": 68, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 43, 
+            "expRewardToKillerPlayer": 86, 
+            "rewardJadeToKillerPlayer": 45, 
+            "rewardJadeToAssistPlayer": 23
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 90, 
+            "expRewardToAssistMonster": 45, 
+            "maxExp": 500, 
+            "expRewardToAssistPlayer": 29, 
+            "expRewardToKillerPlayer": 57, 
+            "rewardJadeToKillerPlayer": 30, 
+            "rewardJadeToAssistPlayer": 15
+        }
+    }, 
+    "20007995": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20007994": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20007997": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20007996": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }, 
+        "3": {
+            "expRewardToKillerMonster": 900, 
+            "expRewardToAssistMonster": 450, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 285, 
+            "expRewardToKillerPlayer": 570, 
+            "rewardJadeToKillerPlayer": 300, 
+            "rewardJadeToAssistPlayer": 150
+        }, 
+        "2": {
+            "expRewardToKillerMonster": 600, 
+            "expRewardToAssistMonster": 300, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 190, 
+            "expRewardToKillerPlayer": 380, 
+            "rewardJadeToKillerPlayer": 200, 
+            "rewardJadeToAssistPlayer": 100
+        }
+    }, 
+    "20008006": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008007": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008004": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008005": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008002": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008003": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008000": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008001": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008008": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008009": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008327": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008326": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008325": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008324": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008323": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008322": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008321": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008320": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008329": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008328": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008019": {
+        "1": {
+            "expRewardToKillerMonster": 450, 
+            "expRewardToAssistMonster": 225, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 143, 
+            "expRewardToKillerPlayer": 285, 
+            "rewardJadeToKillerPlayer": 150, 
+            "rewardJadeToAssistPlayer": 75
+        }
+    }, 
+    "20008018": {
+        "1": {
+            "expRewardToKillerMonster": 90, 
+            "expRewardToAssistMonster": 45, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 29, 
+            "expRewardToKillerPlayer": 57, 
+            "rewardJadeToKillerPlayer": 30, 
+            "rewardJadeToAssistPlayer": 15
+        }
+    }, 
+    "20008011": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008010": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008013": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008012": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008015": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008014": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008017": {
+        "1": {
+            "expRewardToKillerMonster": 60, 
+            "expRewardToAssistMonster": 30, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 19, 
+            "expRewardToKillerPlayer": 38, 
+            "rewardJadeToKillerPlayer": 20, 
+            "rewardJadeToAssistPlayer": 10
+        }
+    }, 
+    "20008016": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008318": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008319": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008312": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008313": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008310": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008311": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008316": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008317": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008314": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008315": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008309": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008308": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008305": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008304": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008307": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008306": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008301": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008300": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008303": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008302": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008277": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008279": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }, 
+    "20008278": {
+        "1": {
+            "expRewardToKillerMonster": 300, 
+            "expRewardToAssistMonster": 150, 
+            "maxExp": -1, 
+            "expRewardToAssistPlayer": 95, 
+            "expRewardToKillerPlayer": 190, 
+            "rewardJadeToKillerPlayer": 100, 
+            "rewardJadeToAssistPlayer": 50
+        }
+    }
+}

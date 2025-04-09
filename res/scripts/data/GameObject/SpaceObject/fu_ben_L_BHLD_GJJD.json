@@ -1,0 +1,52 @@
+﻿{
+"SpaceName"	: "帮会掠夺战（高级据点）",
+"EntityType"	: "SpaceCopyTongPlunder",
+"DomainType"	: "SpaceDomainCopyTongPlunder",
+"EntityScript"	: "SpaceCopyTongPlunder",
+"scriptID"	: "fu_ben_L_BHLD_GJJD",
+"spaceType"	: "SPACE_TYPE_COPY",
+"spaceChildType":"SPACE_TYPE_CHILD_TONG_PLUNDER",
+"SpawnFile"	: "fu_ben_L_BHLD_GJJD",
+"NavmeshPath"	: "space\\L_BHZYZ_CZJQB_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceAoi"	: 200.0,
+"belongType"	: "3",
+"EnfityRelationMode":"RelationGCZ",
+"RoleRelationRule":"ROLE_RELATION_RULE_BLONG_SIDE",
+"ExitSpace"	:{
+	"ScriptID"	: "L_BHLD",
+	"Position"	: "-11569 -215 213",
+	"Direction"	: "0.0 0.0 0.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"spaceIntroduce":{"voiceID":""},
+	"eventFile":"SE_fu_ben_L_BHLD_GJJD",
+	"attackStageFile":"SS_fu_ben_L_BHLD_GJJD",
+	"protectStageFile":"SS_fu_ben_L_BHLD_GJJD_protect",
+	"clientUseCharacterMovment" : 1,
+	"isCanOpenBarracks" : 0,
+	"disableAssistJump":1,
+	"reviveType": "21",
+	"attackEnterPos":"-42743.8 -33442.6 1325.1|0 0 0",
+	"protectEnterPos":"7430 -15660 1830|0 0 0",
+	"attackRevivePos":"-42743.8 -33442.6 1325.1|0 0 0",
+	"protectRevivePos":"34930 6720 620|0 0 0",
+	"belongAttackScriptIDs":"20014193|20014194|20014195|30001111",
+	"belongProtectScriptIDs":"20014197|20014198|20014199|20014200|30001106|30001107|30001108|30001109|30001110",
+	"plunderBoxScriptIDs":"40001005",
+	"reviveRadius":5.0,
+	"reviveTime":30,
+	"autoReviveTime":40,
+	"delayCloseTime":300,
+	"forbidJumpSkillIDs":"240003001|240002001",
+	"maxReviveNum":5,
+	"leaveTongSpaceData": {
+		"ScriptID"	: "L_BHLD",
+		"Position"	: "-11569 -215 213",
+		"Direction"	: "0.0 0.0 0.0"
+	}
+	},
+"DomainData"	:{
+	}
+}

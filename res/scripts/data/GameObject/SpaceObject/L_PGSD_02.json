@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_PGSD_02",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_PGSD_02",
+"NavmeshPath"	: "space\\L_PGSD_02_NAVMESH",
+"PatrolRouteFile": "P_L_PGSD_02",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_TMG",
+	"Position"	: "-379310.0 -10809.9 895790.0",
+	"Direction"	: "0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_PGSD_02",
+	"eventFile":"SE_L_PGSD_02"
+	},
+"DomainData"	:{
+	}
+}

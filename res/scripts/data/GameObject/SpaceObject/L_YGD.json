@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_YGD",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_YGD",
+"NavmeshPath"	: "space\\L_TGLX_NAVMESH",
+"PatrolRouteFile": "P_L_YGD",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_BQDB",
+	"Position"	: "-17946 -22852 7291",
+	"Direction"	: "0 0 -179.33"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_YGD",
+	"eventFile":"SE_L_YGD"
+	},
+"DomainData"	:{
+	}
+}

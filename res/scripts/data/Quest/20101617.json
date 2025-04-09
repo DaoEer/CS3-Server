@@ -1,0 +1,96 @@
+{
+    "20101617": {
+        "tasks": [
+            {
+                "navigateData": "10000219#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "15", 
+                "param2": "6230.0 16540.0 11031.0", 
+                "param1": "L_FMC", 
+                "id": 1, 
+                "name": "与帮会管理员肖业谈话"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002018"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101617, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101616"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "617", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "295", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "148", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "316", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020544|Q020545|Q020546", 
+        "finish_by": "10000219#L_FMC", 
+        "taskLogDes": "@S{4}祖巫祝融已派出人手打探@F{fc=c41}魔君秘宝@D的线索，让你乘此空隙拜访凤鸣城内的奇人异士，请你先去凤鸣城西南方向的的功能区，拜访帮会管理员肖业。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020325", 
+        "nextQuest": "20101618", 
+        "taskCompleteFunctions": {}, 
+        "level": 10, 
+        "title": "游历凤鸣城（二）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000235#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 乘骑法宝御风梭，触碰空中的灵气便可将其收集。@B• 技能“乘风诀”可短暂提升飞行高度。@B• 技能“穿云诀”可瞬间向前冲刺。@B• 谷底有致命瘴气，请保持飞行高度。@B• 红色灵气可强化“穿云诀”，冲刺能摧毁浮石。@B• 蓝色灵气可重置“穿云诀”的冷却时间。@B• 达到要求后，最终收集的灵气越多奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "获得灵气数：", 
+                    "postfix": "", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "add", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }, 
+                "2": {
+                    "title": "抵达终点", 
+                    "postfix": "1", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "end", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "抵达终点，至少收集15份灵气。"
+        }
+    }, 
+    "name": "穿越峡谷"
+}

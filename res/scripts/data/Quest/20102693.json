@@ -1,0 +1,50 @@
+{
+    "20102693": {
+        "tasks": [
+            {
+                "navigateData": "(-10870.0 5970.0 520.0)#L_MWD_mo", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "支援祖巫帝江"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102693, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102692"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "", 
+        "finish_by": "10000621#L_TMG", 
+        "taskLogDes": "@S{4}请协助祖巫帝江布置诛仙剑阵。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q059583|Q059585|Q059587", 
+        "nextQuest": "20102694", 
+        "taskCompleteFunctions": {}, 
+        "level": 44, 
+        "title": "魔王殿之战", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

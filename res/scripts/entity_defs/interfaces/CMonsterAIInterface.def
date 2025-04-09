@@ -1,0 +1,22 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+	<Properties>
+		<cMonsterAIState>
+			<Type>		UINT8			</Type>
+			<Flags> 	ALL_CLIENTS 	</Flags>
+		</cMonsterAIState>
+	</Properties>
+	<CellMethods>
+		<CAI_RemoveEnemy>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</CAI_RemoveEnemy>
+		<CAI_AddEnemy>
+			<Exposed/>
+			<Arg>	OBJECT_ID	</Arg>
+		</CAI_AddEnemy>
+	</CellMethods>
+	<ClientMethods>
+	</ClientMethods>
+</root>

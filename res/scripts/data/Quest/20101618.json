@@ -1,0 +1,87 @@
+{
+    "20101618": {
+        "tasks": [
+            {
+                "navigateData": "10000221#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "15", 
+                "param2": "24880.0 14930.0 12747.0", 
+                "param1": "L_FMC", 
+                "id": 1, 
+                "name": "与凤鸣广场的莫何交谈"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20101618, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101617"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "617", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "295", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "148", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "316", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q020330", 
+        "finish_by": "10000221#L_FMC", 
+        "taskLogDes": "@S{4}肖业让你前往凤鸣广场找到莫何，在莫何处绑定复活点。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q020331|Q020332", 
+        "nextQuest": "20101619", 
+        "taskCompleteFunctions": {}, 
+        "level": 10, 
+        "title": "游历凤鸣城（三）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000219#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,52 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Parent>
+		Monster
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<touchCount>
+			<Type>			INT32		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</touchCount>
+		<endMoveing>
+			<Type>			BOOL		</Type>
+			<Flags>		CELL_PRIVATE	</Flags>
+			<Default>		0			</Default>
+			<Persistent>	false		</Persistent>
+		</endMoveing>
+		<redCount>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</redCount>
+		<yellowCount>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</yellowCount>
+		<blueCount>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>			0			</Default>
+			<Persistent>		false		</Persistent>
+		</blueCount>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

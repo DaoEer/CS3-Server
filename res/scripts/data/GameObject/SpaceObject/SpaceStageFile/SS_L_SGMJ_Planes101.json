@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭上古石像", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003600|20003601", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003600|20003601#L_SGMJ_Planes101"
+                }
+            }, 
+            "title": "石像考验"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败九阴古魔，通关秘境试炼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "95", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20002375#L_SGMJ_Planes101"
+                }
+            }, 
+            "title": "秘境试炼"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败巨灵魔像", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003603", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003603#L_SGMJ_Planes101"
+                }
+            }, 
+            "title": "巨灵魔像"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "上古秘境"
+}

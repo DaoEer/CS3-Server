@@ -1,0 +1,293 @@
+# -*- coding: utf-8 -*-
+Datas = {
+	1:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(-79.54279785,2.34956238,-9.70032471,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(-76.34279785,26.546127929999997,-15.00032471,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-70.24279785,40.74612793,-23.60032471,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-62.142797849999994,49.546127930000004,-32.60032471,),
+		},
+		5:{
+			'isSingle':1,'stayTime':0.0,'position':(-52.642797849999994,45.046127930000004,-42.40032227,),
+		},
+		
+	},
+	2:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(-114.1,3.2,-74.5,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(-102.0,44.1,-71.6,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-86.9,64.5,-71.6,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-79.0,55.4,-71.4,),
+		},
+		
+	},
+	3:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(-96.6,1.9,-132.8,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(-88.4,40.7,-125.3,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-65.3,65.6,-105.8,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-52.66641602,55.14266112999999,-95.99861328000001,),
+		},
+		
+	},
+	4:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(-69.7,0.6,-155.5,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(-60.4,44.1,-154.4,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-44.4,75.6,-151.3,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-34.4,65.8,-150.2,),
+		},
+		
+	},
+	5:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(5.4,1.9,-168.7,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(-5.9,48.7,-167.5,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-16.3,75.0,-166.4,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-29.3,84.1,-163.8,),
+		},
+		5:{
+			'isSingle':1,'stayTime':0.0,'position':(-36.5,70.0,-162.5,),
+		},
+		
+	},
+	6:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(-83.0,2.0,-196.0,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(-76.2,36.6,-191.1,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-60.3,70.2,-184.0,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-48.7,85.4,-179.2,),
+		},
+		5:{
+			'isSingle':1,'stayTime':0.0,'position':(-39.6,76.2,-180.0,),
+		},
+		
+	},
+	7:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(32.1,3.0,-288.3,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(32.0,39.9,-276.0,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(32.0,78.6,-259.9,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(32.0,98.2,-243.1,),
+		},
+		5:{
+			'isSingle':1,'stayTime':0.0,'position':(33.8,89.0,-234.7,),
+		},
+		
+	},
+	8:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-22.06049805,80.00648438,-221.14664063,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(18.53950317,82.50648438,-232.24664063,),
+		},
+		
+	},
+	9:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(29.4,83.4,-218.8,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(9.7,97.7,-168.8,),
+		},
+		
+	},
+	10:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-4.7836908,98.33452148,-143.04799805000002,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(-29.58369141,116.23452148,-115.54799805,),
+		},
+		
+	},
+	11:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-51.34394531,52.99070801,-102.93020508,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(-90.00825194999999,68.21087891,-130.68930663999998,),
+		},
+		
+	},
+	12:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(65.0,3.4,-142.0,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(44.0,60.5,-146.3,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(26.8,95.6,-149.5,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(12.7,115.0,-153.7,),
+		},
+		5:{
+			'isSingle':1,'stayTime':0.0,'position':(2.9,104.0,-155.6,),
+		},
+		
+	},
+	13:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-93.01691406,78.8562793,-130.73140625,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(-93.01691406,52.66455078,-130.83140625,),
+		},
+		
+	},
+	14:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-105.76244141,55.781904299999994,-90.70694336000001,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(-105.06244140999999,55.97889648,-111.80694336,),
+		},
+		
+	},
+	15:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(-71.45171875,1.2726416,77.80691406,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(-59.05171875,24.3726416,77.00691406,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-39.05171875,42.1726416,77.00691406,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-23.95171875,26.7726416,77.00691406,),
+		},
+		
+	},
+	16:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(15.2,1.8,50.3,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(4.1,25.4,52.1,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-12.6,41.7,52.1,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-24.1,27.2,52.1,),
+		},
+		
+	},
+	17:{
+		1:{
+			'isSingle':1,'stayTime':0.0,'position':(-71.6,2.2,29.1,),
+		},
+		2:{
+			'isSingle':1,'stayTime':0.0,'position':(-57.5,32.2,28.4,),
+		},
+		3:{
+			'isSingle':1,'stayTime':0.0,'position':(-37.5,46.6,28.4,),
+		},
+		4:{
+			'isSingle':1,'stayTime':0.0,'position':(-23.9,28.3,28.1,),
+		},
+		
+	},
+	18:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-44.921713870000005,35.21627197,-48.79542969,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(-80.34138672,34.9572876,-62.43130371,),
+		},
+		
+	},
+	19:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-92.8,56.3,-68.0,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(-92.8,36.6,-68.0,),
+		},
+		
+	},
+	20:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-105.0,78.0,-124.1,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(-105.0,57.5,-124.0,),
+		},
+		
+	},
+	21:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(-27.0,119.2105957,-104.4,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(-23.55022461,119.24692383,-88.35767578000001,),
+		},
+		
+	},
+	22:{
+		1:{
+			'isSingle':0,'stayTime':3.0,'position':(1.8,142.4,-73.6,),
+		},
+		2:{
+			'isSingle':0,'stayTime':3.0,'position':(1.8,177.4,-74.0,),
+		},
+		
+	},
+	23:{
+		1:{
+			'isSingle':0,'stayTime':0.0,'position':(-26.2,123.2,-101.3,),
+		},
+		2:{
+			'isSingle':0,'stayTime':0.0,'position':(-24.1,123.2,-88.5,),
+		},
+		
+	},
+	
+}
+

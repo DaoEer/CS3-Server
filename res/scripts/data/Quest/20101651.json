@@ -1,0 +1,167 @@
+{
+    "20101651": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskConjurePet", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001", 
+                "id": 1, 
+                "name": "召唤赤炎狼出战"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskMountPet", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10001", 
+                "id": 2, 
+                "name": "按“G”键骑乘赤炎狼"
+            }, 
+            {
+                "navigateData": "(52200.0 4568.0 17174.0)#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 2, 
+                "param3": "4", 
+                "param2": "52200.0 4568.0 17174.0", 
+                "param1": "L_XYM", 
+                "id": 3, 
+                "name": "骑乘赤炎狼在殿前四处走走"
+            }, 
+            {
+                "navigateData": "10000029#L_XYM", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000029", 
+                "id": 4, 
+                "name": "向师尊复命"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "204010001"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20101651, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20101647"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "204010001"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1599", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "109", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "121", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "316", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}幻兽童子将幻兽赠与你，并且传你驭兽之法，请你稍加练习，将其掌握。|@S{4}幻兽童子将幻兽赠与你，并且传你驭兽之法，请你稍加练习，将其掌握。|@S{4}幻兽童子将幻兽赠与你，并且传你驭兽之法，请你稍加练习，将其掌握。|@S{4}你已掌握御兽之法，请回禀师尊。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20101655", 
+        "taskCompleteFunctions": {
+            "3": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "Q022032"
+                }
+            ], 
+            "2": [
+                {
+                    "script": "QuestFuncPlaySound", 
+                    "param5": "", 
+                    "param4": "", 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "Q022030"
+                }
+            ]
+        }, 
+        "level": 10, 
+        "title": "幻兽顽皮", 
+        "isAutoCommit": 1, 
+        "start_by": "", 
+        "isAutoAccept": 1
+    }
+}

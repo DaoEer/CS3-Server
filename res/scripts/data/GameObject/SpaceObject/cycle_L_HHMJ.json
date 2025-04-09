@@ -1,0 +1,33 @@
+{
+"SpaceName"	: "火海秘境",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "cycle_L_HHMJ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_HHMJ",
+"NavmeshPath"	: "space\\L_HHMJ_NAVMESH",
+"PatrolRouteFile": "P_L_HHMJ",
+"SpaceHoldEffect"	:"999001013",
+"belongType"	: "1",
+"SpaceAoi"	: 500.0,
+"SpaceHoldEffect"	:"101010106",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMNL",
+	"Position"	: "46567.0 1485.0 -15143.0",
+	"Direction"	: "0.0 0.0 -81.9"
+	},
+"SpaceData"	:{
+	"enterPosition":"5110.000000 47380.000000 2320.000000",
+	"enterDirection":"0 0 140",
+	"statisticsFile":"ST_L_HHMJ",
+	"eventFile":"SE_L_HHMJ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"logoutCloseTime":1,
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0
+	},
+"DomainData"	:{
+	}
+}

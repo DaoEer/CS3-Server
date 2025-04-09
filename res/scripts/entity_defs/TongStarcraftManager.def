@@ -1,0 +1,88 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<xianPassFirstTongList>
+			<Type>			ARRAY_DBID		</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		[]				</Default>
+			<Persistent>		true		</Persistent>
+		</xianPassFirstTongList>
+		<moPassFirstTongList>
+			<Type>			ARRAY_DBID		</Type>
+			<Flags>			BASE			</Flags>
+			<Default>		[]				</Default>
+			<Persistent>		true		</Persistent>
+		</moPassFirstTongList>
+	</Properties>
+
+	<BaseMethods>
+		<tongStarcraft_firstSignUp>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST	</Arg>
+		</tongStarcraft_firstSignUp>
+		<tongStarcraft_firstQuerySignUp>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</tongStarcraft_firstQuerySignUp>
+		<tongStarcraft_gotoFirstStarcraft>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</tongStarcraft_gotoFirstStarcraft>
+		<starcraft_onPassFirstStarcraft>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+		</starcraft_onPassFirstStarcraft>
+		<tongStarcraft_queryPassFirstTongStarcraft>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</tongStarcraft_queryPassFirstTongStarcraft>
+		<openSecondTongStarcraftGroup>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</openSecondTongStarcraftGroup>
+		<tongStarcraft_SecondSignUp>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST	</Arg>
+		</tongStarcraft_SecondSignUp>
+		<tongStarcraft_gotoSecondStarcraft>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</tongStarcraft_gotoSecondStarcraft>
+		<onThirdTongStarcraftEnd>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	INT32	</Arg>
+		</onThirdTongStarcraftEnd>
+		<tongStarcraft_ThirdSignUp>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</tongStarcraft_ThirdSignUp>
+		<tongStarcraft_gotoThirdStarcraft>
+			<Arg>	INT32	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>		SCRIPT_ID		</Arg>
+			<Arg>		POSITION		</Arg>
+			<Arg>		DIRECTION		</Arg>
+			<Arg> ARRAY_BASE_ENTITYCALL </Arg>
+		</tongStarcraft_gotoThirdStarcraft>
+	</BaseMethods>
+</root>

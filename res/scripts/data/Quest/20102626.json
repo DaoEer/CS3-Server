@@ -1,0 +1,120 @@
+{
+    "20102626": {
+        "tasks": [
+            {
+                "navigateData": "(524475.0 222761.0 798.0)#L_BJXK", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "前往北极虚空探查魔君残魂"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002047"
+            }, 
+            {
+                "script": "QuestFuncAddItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010094"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102626, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102560"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [
+            {
+                "script": "QuestFuncRemoveItems", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "1", 
+                "param1": "301010094"
+            }
+        ], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "20012", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1079", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12112", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "3", 
+                "param3": "", 
+                "description": "一星 · 龙力转魂丹", 
+                "param1": "202030003", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q041378|Q042749|Q041302|Q040042", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}魔君残魂经亿万年演化，已失去意识，化为古魔帝枭。如今他就躲藏于北极虚空的一处秘境之中。罗睺让你速去将其击败，以天罗幡收取残魂！", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102573", 
+        "taskCompleteFunctions": {}, 
+        "level": 37, 
+        "title": "探查魔君残魂", 
+        "isAutoCommit": 1, 
+        "start_by": "10000621#L_TMG", 
+        "isAutoAccept": 1
+    }
+}

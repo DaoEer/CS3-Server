@@ -1,0 +1,148 @@
+{
+    "20102574": {
+        "tasks": [
+            {
+                "navigateData": "20006386|20006387#L_BQDB", 
+                "goal": 4, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006386|20006387", 
+                "id": 1, 
+                "name": "消灭轩辕族护法"
+            }, 
+            {
+                "navigateData": "20006389#L_BQDB", 
+                "goal": 2, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006389", 
+                "id": 2, 
+                "name": "消灭轩辕族守卫"
+            }, 
+            {
+                "navigateData": "20006390#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006390", 
+                "id": 3, 
+                "name": "消灭纪安"
+            }, 
+            {
+                "navigateData": "20006392|20006393#L_BQDB", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006392|20006393", 
+                "id": 4, 
+                "name": "消灭轩辕族弟子"
+            }, 
+            {
+                "navigateData": "30000387#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 3, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 5, 
+                "name": "追踪丹朱的下落"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002043"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3091"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102574, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102544"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "34509", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "917", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "10298", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1459", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q041628|Q041629|Q045622|Q045623|Q041631", 
+        "finish_by": "10000471#L_BQXB", 
+        "taskLogDes": "@S{4}姜吼急忙来报，轩辕族伙同仙道大举进犯，丹朱族长已被押往阪泉东部去了。请你速赶往阪泉东部拦截他们。|@S{4}姜吼急忙来报，轩辕族伙同仙道大举进犯，丹朱族长已被押往阪泉东部去了。请你速赶往阪泉东部拦截他们。|@S{4}姜吼急忙来报，轩辕族伙同仙道大举进犯，丹朱族长已被押往阪泉东部去了。请你速赶往阪泉东部拦截他们。|@S{4}姜吼急忙来报，轩辕族伙同仙道大举进犯，丹朱族长已被押往阪泉东部去了。请你速赶往阪泉东部拦截他们。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041647|Q041649", 
+        "nextQuest": "20102575|20102576|20102575|20102575", 
+        "taskCompleteFunctions": {}, 
+        "level": 33, 
+        "title": "营救丹朱", 
+        "isAutoCommit": 1, 
+        "start_by": "10000476#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}

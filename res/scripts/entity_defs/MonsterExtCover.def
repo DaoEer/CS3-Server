@@ -1,0 +1,40 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Implements>
+	</Implements>
+
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<ownerID>
+			<Type>		OBJECT_ID		</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</ownerID>
+		<belongDBID>
+			<Type>		DBID			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</belongDBID>
+		<receiveDamageTime>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Default>	0			</Default>
+		</receiveDamageTime>
+	</Properties>
+
+	<ClientMethods>
+		<NoticeChallengerEnter>
+		</NoticeChallengerEnter>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

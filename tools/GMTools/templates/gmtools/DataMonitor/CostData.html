@@ -1,0 +1,199 @@
+{% extends "gmtools/DataMonitor/DataMonitorBase.html" %}
+{% load custom_filter %}
+
+{% block head_js %}
+	<script src="/static/laydate/laydate.js"></script> 
+{% endblock %}
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<h2 class="page-header">玩家消费查询</h2>
+	<h4 class="page-header">汇总查询</h4>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/datamonitor/costdata/totalquery/">{% csrf_token %}
+			<input type="hidden" name="send_flag" id="hiddenField" value="1">
+			<div class="from-group">
+				<div class="row">
+					<div style="width:100px;float:left;margin: 1px -5px 0px 15px">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">查询时间:</label>
+					</div>
+					<div style="width:500px;">
+						<div style="width:130px;float:left;">
+							<input type="text" name="startDate" style="width:125px" class="form-control" id="id_start_date" placeholder="默认为开服时间" readonly="readonly" value="{{ totalCostQueryInfo.startDate }}"/>
+						</div>
+						<div style="width:15px;float:left;">
+							<label style="width:10px; margin: 5px 5px 0px 0px">-</label>
+						</div>
+						<div style="width:150px;float:left;">
+							<input type="text" name="endDate" style="width:125px" class="form-control" id="id_end_date" placeholder="默认为当前时间" readonly="readonly" value="{{ totalCostQueryInfo.endDate }}"/>
+						</div>
+					</div>
+					<div class="form-group col-sm-1">
+						<button type="submit" class="btn btn-default">查 询</button>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="table-responsive" style="margin: 0px 0px 0px 4px;">
+		<table class="table-striped table-condensed" border="1">
+			<thead>
+				<tr>
+					<th width="100px">货币类型</th>
+					<th width="100px">总消费</th>
+					<th width="100px">最大消费</th>
+					<th width="100px">消费人数</th>
+					<th width="100px">消费人次</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>仙石</td>
+					<td>{{ totalCostInfo.xianshiTotalCost }}</td>
+					<td>{{ totalCostInfo.xianshiMaxCost }}</td>
+					<td>{{ totalCostInfo.xianshiCostNumber }}</td>
+					<td>{{ totalCostInfo.xianshiCostTimes }}</td>
+				</tr>
+				<tr>
+					<td>灵石</td>
+					<td>{{ totalCostInfo.lingshiTotalCost }}</td>
+					<td>{{ totalCostInfo.lingshiMaxCost }}</td>
+					<td>{{ totalCostInfo.lingshiCostNumber }}</td>
+					<td>{{ totalCostInfo.lingshiCostTimes }}</td>
+				</tr>
+				<tr>
+					<td>玄石</td>
+					<td>{{ totalCostInfo.xuanshiTotalCost }}</td>
+					<td>{{ totalCostInfo.xuanshiMaxCost }}</td>
+					<td>{{ totalCostInfo.xuanshiCostNumber }}</td>
+					<td>{{ totalCostInfo.xuanshiCostTimes }}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<h4 class="sub-header"></h4>
+	<h4 class="sub-header">详细查询</h4>
+	<div class="row placeholders">
+		<form name="form-horizontal" method="post" action="/gmtools/datamonitor/costdata/singlequery/">{% csrf_token %}
+			<div class="row" style = "margin: 5px 0px 0px 0px">
+				<div style = "font-size: 14px; margin: -10px 0px 0px 0px">
+					<label class="navbar-text">查询方式:</label>
+				</div>
+				<div id = "checkboxDiv" style = "margin: 5px 0px 0px 0px; float:left">
+					<input type="checkbox" name="playerQuery" value="account" style = "zoom:112%;vertical-align:middle;margin:auto;height:20px;" {% if singleQueryInfo.accountQuery == 1 %}checked{% endif %} /><font size = "3">账号查询</font>
+					<input type="checkbox" name="playerQuery" value="role" style = "margin: 0px 0px 0px 10px;zoom:112%;vertical-align:middle;height:20px;" {% if singleQueryInfo.roleQuery == 1 %}checked{% endif %} /><font size = "3">角色查询</font>
+				</div>
+			</div>
+			<div class="row" style = "margin: 0px 0px 0px 0px">
+				<div style = "font-size: 14px; margin: -10px 0px 0px 0px">
+					<label class="navbar-text">查询货币:</label>
+				</div>
+				<div id = "checkbox" style = "margin: 5px 0px 0px 0px; float:left">
+					<input type="checkbox" name="xianshiQuery" value="1" style = "zoom:112%;vertical-align:middle;margin:auto;height:20px" {% if singleQueryInfo.xianshiQuery == 1 %}checked{% endif %} /><font size = "3">仙石</font>
+					<input type="checkbox" name="lingshiQuery" value="1" style = "margin: 0px 0px 0px 10px;zoom:112%;%;vertical-align:middle;height:20px" {% if singleQueryInfo.lingshiQuery == 1 %}checked{% endif %} /><font size = "3">灵石</font>
+					<input type="checkbox" name="xuanshiQuery" value="1" style = "margin: 0px 0px 0px 10px;zoom:112%;%;vertical-align:middle;height:20px" {% if singleQueryInfo.xuanshiQuery == 1 %}checked{% endif %} /><font size = "3">玄石</font>
+				</div>
+			</div>
+			<div class="from-group" style="width: 1000px; float:left;margin: 10px 0px 0px -6px">
+				<div class="row">
+					<div style="width:100px;float:left;margin: 1px -5px 0px 17px">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">查询时间:</label>
+					</div>
+					<div style="width:500px;">
+						<div style="width:130px;float:left;">
+							<input type="text" name="singleStartDate" style="width:125px" class="form-control" id="id_single_start_date" placeholder="默认为开服时间" readonly="readonly" value="{{ singleQueryInfo.startDate }}"/>
+						</div>
+						<div style="width:15px;float:left;">
+							<label style="width:10px; margin: 5px 5px 0px 0px">-</label>
+						</div>
+						<div style="width:150px;float:left;">
+							<input type="text" name="singleEndDate" style="width:125px" class="form-control" id="id_single_end_date" placeholder="默认为当前时间" readonly="readonly" value="{{ singleQueryInfo.endDate }}"/>
+						</div>
+					</div>
+					<div style="width:100px;float:left;margin: 1px -5px 0px 0px">
+						<label style="width:100px;margin-top:5px;margin-bottom:20px;">账号(角色)名:</label>
+					</div>
+					<div>
+						<div style="width:150px;float:left;margin: 0px 0px 0px 10px">
+							<input name="queryText" type="text" class="form-control" id="id_queryText" value="{{ singleQueryInfo.queryText }}" maxlength="30" />
+						</div>
+					</div>
+					<div class="form-group col-sm-1;margin: 0px 0px 0px 0px;">
+						<div style="width:150px;float:left;">
+							<button type="submit" class="btn btn-default">查 询</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<div class="table-responsive" style="margin: 0px 0px 0px 4px;">
+		<table class="table-striped table-condensed" border="1">
+			<thead>
+				<tr>
+					<th width="150px">账号名</th>
+					<th width="150px">角色名</th>
+					<th width="150px">消费货币类型</th>
+					<th width="150px">消费金额</th>
+					<th width="150px">消费后余额</th>
+					<th width="160px">消费方式</th>
+					<th width="160px">消费时间</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for data in singleQueryDatas %}
+					<tr>
+						<td>{{ data.0 }}</td>
+						<td>{{ data.1 }}</td>
+						<td>{{ data.2 }}</td>
+						<td>{{ data.3 }}</td>
+						<td>{{ data.4 }}</td>
+						<td>{{ data.5 }}</td>
+						<td>{{ data.6 }}</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+{% endblock %}
+{% block tail_js %}
+	<script>$(".m_datamonitor").addClass("active");</script>
+	<script>
+		laydate.render({
+			elem: '#id_start_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_end_date', //指定元素
+		});
+		laydate.render({
+			elem: '#id_single_start_date' //指定元素
+		});
+		laydate.render({
+			elem: '#id_single_end_date', //指定元素
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(function(){
+				$("#checkboxDiv").find(":checkbox").each(function(){
+					$(this).click(function(){
+						if($(this).is(':checked')){ 
+							$(this).attr('checked',true).siblings().attr('checked',false);
+						}else{
+							$(this).attr('checked',false).siblings().attr('checked',false);
+						}
+					});
+				});
+			});
+		});
+	</script>
+{% endblock %}

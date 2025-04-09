@@ -1,0 +1,29 @@
+{
+"SpaceName"	: "虚空探宝",
+"EntityType"	: "SpaceCopyXKTB",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyXKTB",
+"scriptID"	: "cycle_L_XKTB",
+"spaceType"	: "SPACE_TYPE_JSSLC_CHANCE_COPY",
+"SpawnFile"	: "S_L_XKTB",
+"NavmeshPath"	: "space\\L_WZGHZ_01_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"enterPosition":"-2200.000000 -1500.000000 680.000000",
+	"enterDirection":"0 0 0",
+	"stageFile":"",
+	"eventFile":"SE_L_XKTB",
+	"statisticsFile":"",
+	"monsterUseSpaceLevel":1,
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5"
+	},
+"DomainData"	:{
+	}
+}

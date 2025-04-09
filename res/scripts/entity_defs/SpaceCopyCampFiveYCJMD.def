@@ -1,0 +1,87 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<memberDatas>
+			<Type>		CAMP_YCJMD_KDS_LIST	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</memberDatas>
+		<originCenterPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</originCenterPos>
+		<endCenterPos>
+			<Type>		POSITION	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</endCenterPos>
+		<originRadius>
+			<Type>		FLOAT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</originRadius>
+		<endRadius>
+			<Type>		FLOAT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</endRadius>
+		<reduceAreaTimer>
+			<Type>		TIMER_ID	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</reduceAreaTimer>
+		<checkAreaTimer>
+			<Type>		TIMER_ID	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</checkAreaTimer>
+		<startReduceTime>
+			<Type>		FLOAT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</startReduceTime>
+		<totalUseTime>
+			<Type>		FLOAT				</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Persistent>	false			</Persistent>
+		</totalUseTime>
+		<hasBeKill>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		false			</Default>
+			<Persistent>	false			</Persistent>
+		</hasBeKill>
+		<showPosTimer>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</showPosTimer>
+		<endShowPosTimer>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE	</Flags>
+			<Default>		0				</Default>
+			<Persistent>	false			</Persistent>
+		</endShowPosTimer>
+		<birthInfos>
+			<Type>			PYTHON_LIST			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		[]				</Default>
+		</birthInfos>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<activityEnd/>
+	</BaseMethods>
+</root>

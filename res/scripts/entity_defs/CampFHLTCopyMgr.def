@@ -1,0 +1,33 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		
+	</Properties>
+
+	<BaseMethods>
+		<signUp>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</signUp>
+		<onActiveStart/>
+		<onActiveEnd/>
+		<cancelMatching>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</cancelMatching>
+		<beginEnterFHLT>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+		</beginEnterFHLT>
+		<fhlt_onPlayerLoginOff>
+			<Arg>	CELL_ENTITYCALL	</Arg>
+			<Arg>	INT32		</Arg>
+			<Arg>	INT32		</Arg>
+		</fhlt_onPlayerLoginOff>
+	</BaseMethods>
+</root>

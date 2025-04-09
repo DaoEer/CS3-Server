@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "摧毁城墙防守，攻上城门楼", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "占领城门楼", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3001", 
+                    "param2": "30000989", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "攻破城门"
+        }, 
+        "2": {
+            "comment": "突破帅府防御，攻占大本营", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "占领帅府", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "3003", 
+                    "param2": "30001003", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "额外目标：21分钟内通关副本", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "jingsu", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "攻占帅府"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "攻城战副本流程"
+}

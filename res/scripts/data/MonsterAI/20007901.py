@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+Datas = {
+    "reset": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "FSM": 1, 
+    "dead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "fight": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }, 
+    "free": {
+        "subStateDatas": {
+            2: {
+                "name": "子弹烈火箭", 
+                "tickTimer": 0.5, 
+                "statesAI": [
+                    {
+                        "comment": "计时", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "kaishi"
+                            }
+                        ], 
+                        "EID": [
+                            3
+                        ], 
+                        "Conditions": [], 
+                        "id": 3
+                    }, 
+                    {
+                        "comment": "烈火箭", 
+                        "odds": 1.0, 
+                        "Actions": [
+                            {
+                                "script": "AIAction75", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "12101901"
+                            }, 
+                            {
+                                "script": "AIAction18", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "kaishi"
+                            }, 
+                            {
+                                "script": "AIAction17", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "", 
+                                "param1": "kaishi"
+                            }
+                        ], 
+                        "EID": [], 
+                        "Conditions": [
+                            {
+                                "script": "AICondition12", 
+                                "param5": "", 
+                                "param4": "", 
+                                "param3": "", 
+                                "param2": "4", 
+                                "param1": "kaishi"
+                            }
+                        ], 
+                        "id": 4
+                    }
+                ], 
+                "eventsAI": {}, 
+                "initiativeAreaXZ": "0.0", 
+                "subHoldEffectIDs": [], 
+                "initiativeTrapType": 0, 
+                "initiativeTrapShape": 2
+            }
+        }, 
+        "groupHoldEffectIDs": []
+    }, 
+    "pead": {
+        "subStateDatas": {}, 
+        "groupHoldEffectIDs": []
+    }
+}

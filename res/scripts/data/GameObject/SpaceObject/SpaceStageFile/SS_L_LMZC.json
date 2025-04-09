@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "消灭脉灵可占领灵脉，占领灵脉可获得灵能点数。@B{1}双方阵营可相互攻击夺取灵能。@B{1}夺取对方阵营中的宝葫拉回营地，可获得大量灵能点数。@B{1}占领阴阳灵塔，可监测被对方偷取的宝葫位置。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "参与击杀一次脉灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006563", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "灵脉战场"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "灵脉战场"
+}

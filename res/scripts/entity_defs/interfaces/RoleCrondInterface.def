@@ -1,0 +1,85 @@
+<root>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<crondRemindDatas>
+			<Type>		PY_DICT		</Type>
+			<Flags>		BASE		</Flags>
+			<Persistent>	true	</Persistent>
+		</crondRemindDatas>
+	</Properties>
+
+	<ClientMethods>
+		<receiveCrondRemindData>
+			<Arg>	REMIND_CROND_DATAS	</Arg>
+		</receiveCrondRemindData>
+		
+		<receiveCrondRemind>
+			<Arg>		UNICODE		</Arg>
+			<Arg>		UINT8		</Arg>
+		</receiveCrondRemind>
+		
+		<recviveTodayActivitiesData>
+			<Arg>	ACTIVITIES_DATA	</Arg>
+		</recviveTodayActivitiesData>
+		
+		<recviveUpdateTodayActivitiesData>
+			<Arg>	ACTIVITIES_DATA	</Arg>
+		</recviveUpdateTodayActivitiesData>
+		
+		<receiveWeekActivitiesData>
+			<Arg> ARRAY <of> ACTIVITIES_DATA </of> 	</Arg>
+			<Arg>			UINT8			   		</Arg>
+		</receiveWeekActivitiesData>
+		
+		<recvActivityTimesData>
+			<Arg>		STRING		</Arg>
+		</recvActivityTimesData>
+		
+		<updateActivityTimesData>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+		</updateActivityTimesData>
+	</ClientMethods>
+
+	<BaseMethods>
+		<requestSetCrondRemind>
+			<Exposed/>
+			<Arg>		STRING		</Arg>
+			<Arg>		UINT8		</Arg>
+		</requestSetCrondRemind>
+		
+		<requestCrondRemindData>
+			<Exposed/>
+		</requestCrondRemindData>
+		
+		<requestTodayActivitiesData>
+			<Exposed/>
+		</requestTodayActivitiesData>
+		
+		<requestWeekActivitiesData>
+			<Exposed/>
+		</requestWeekActivitiesData>
+		
+		<recviveTodayActivitiesData>
+			<Arg>	ACTIVITIES_DATA	</Arg>
+			<Arg>	PY_DICT			</Arg>
+			<Arg>	UNICODE			</Arg>
+		</recviveTodayActivitiesData>
+		
+		<recviveUpdateTodayActivitiesData>
+			<Arg>	ACTIVITIES_DATA	</Arg>
+			<Arg>	PY_DICT			</Arg>
+		</recviveUpdateTodayActivitiesData>
+		
+		<receiveWeekActivitiesData>
+			<Arg> ARRAY <of> ACTIVITIES_DATA </of>	</Arg>
+			<Arg>	UNICODE							</Arg>
+		</receiveWeekActivitiesData>
+	</BaseMethods>
+	
+	<CellMethods>
+		<getActivityTimes/>
+	</CellMethods>
+</root>

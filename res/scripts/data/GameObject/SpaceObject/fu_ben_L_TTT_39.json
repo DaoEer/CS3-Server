@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "38通天塔",
+"EntityType"	: "SpaceCopyTongTianDa",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyTongTianDa",
+"scriptID"	: "fu_ben_L_TTT_39",
+"spaceType"	: "SPACE_TYPE_TONG_TIAN_TA",
+"SpawnFile"	: "fu_ben_L_TTT_39",
+"NavmeshPath"	: "space\\L_LHMJ_TTT01_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"SpaceAoi"	: "100",
+"ExitSpace"	:{
+	"ScriptID"	: "L_LHMJ_1",
+	"Position"	: "-27840 27580 491",
+	"Direction"	: "0 0 42"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"spaceIntroduce":{"voiceID":""},
+	"enterPosition":"1179 8771 1297",
+	"enterDirection":"0 0 -90",
+	"stageFile":"SS_fu_ben_L_TTT_39",
+	"eventFile":"SE_fu_ben_TTT_39",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "monsterUseSpaceLevel": 0
+	},
+"DomainData"	:{
+	}
+}

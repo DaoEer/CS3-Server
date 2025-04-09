@@ -1,0 +1,161 @@
+# -*- coding: utf-8 -*-
+Datas = {
+	0:{
+		'properties':{
+			
+		},
+		'group':1,'scriptID':'20014761','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141593980040025,),'position':(54.32126953,2.96670654,-83.33411133,),'EntityType':'SpawnPointGroup',
+	},
+	1:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':2,'scriptID':'20014765','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.0925042037266093,),'position':(59.219672849999995,2.98885559,-12.8857251,),'EntityType':'SpawnPointGroup',
+	},
+	2:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':3,'scriptID':'20014769','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,4.712392174337221,),'position':(108.59369140999999,3.14521118,23.190603030000002,),
+		'EntityType':'SpawnPointGroup',
+	},
+	3:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':4,'scriptID':'20014773','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141591850738337,),'position':(168.496875,6.21040894,66.55838379,),'EntityType':'SpawnPointGroup',
+	},
+	4:{
+		'properties':{
+			
+		},
+		'group':1,'scriptID':'20014761','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141593980040025,),'position':(63.85570801,2.96670654,-83.10146484,),'EntityType':'SpawnPointGroup',
+	},
+	5:{
+		'properties':{
+			
+		},
+		'group':1,'scriptID':'20014762','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141593980040025,),'position':(59.68986328,2.98885773,-83.07987305,),'EntityType':'SpawnPointGroup',
+	},
+	6:{
+		'properties':{
+			
+		},
+		'group':1,'scriptID':'20014763','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141593980040025,),'position':(57.06436523,2.98885864,-77.77143554999999,),'EntityType':'SpawnPointGroup',
+	},
+	7:{
+		'properties':{
+			
+		},
+		'group':1,'scriptID':'20014764','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141593980040025,),'position':(61.91397949,2.98885864,-78.27143554999999,),'EntityType':'SpawnPointGroup',
+	},
+	8:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':2,'scriptID':'20014766','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.0925042037266093,),'position':(53.469492190000004,2.96670349,-13.273148189999999,),
+		'EntityType':'SpawnPointGroup',
+	},
+	9:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':2,'scriptID':'20014766','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.0925042037266093,),'position':(65.09311523000001,2.96670349,-13.273148189999999,),
+		'EntityType':'SpawnPointGroup',
+	},
+	10:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':2,'scriptID':'20014767','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.0925042037266093,),'position':(62.92431152,3.0599231,-8.69804688,),'EntityType':'SpawnPointGroup',
+	},
+	11:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':2,'scriptID':'20014768','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.0925042037266093,),'position':(56.70575195000001,3.0599231,-8.69804688,),'EntityType':'SpawnPointGroup',
+	},
+	12:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':3,'scriptID':'20014770','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,4.712392174337221,),'position':(110.40358398000001,3.09366669,26.66100342,),'EntityType':'SpawnPointGroup',
+	},
+	13:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':3,'scriptID':'20014771','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,4.712392174337221,),'position':(110.79274414,3.06686096,18.997821039999998,),'EntityType':'SpawnPointGroup',
+	},
+	14:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':3,'scriptID':'20014771','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,4.712392174337221,),'position':(113.73981445,3.1650061,20.60169189,),'EntityType':'SpawnPointGroup',
+	},
+	15:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':3,'scriptID':'20014772','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,4.712392174337221,),'position':(113.65326171999999,3.16407288,25.657053219999998,),
+		'EntityType':'SpawnPointGroup',
+	},
+	16:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':4,'scriptID':'20014774','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141591850738337,),'position':(171.98869141,6.2814764400000005,62.575126950000005,),
+		'EntityType':'SpawnPointGroup',
+	},
+	17:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':4,'scriptID':'20014775','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141591850738337,),'position':(165.99605469,6.2814764400000005,62.23945313,),'EntityType':'SpawnPointGroup',
+	},
+	18:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':4,'scriptID':'20014776','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141591850738337,),'position':(173.53076172000002,6.18825684,66.8259375,),'EntityType':'SpawnPointGroup',
+	},
+	19:{
+		'isDarkEntity':1,'properties':{
+			'randomWalkRange':3,
+		},
+		'group':4,'scriptID':'20014776','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,3.141591850738337,),'position':(164.29453125,6.18825684,66.36974608999999,),'EntityType':'SpawnPointGroup',
+	},
+	20:{
+		'lineNumber':0,'direction':(0.0,0.0,0.0,),'properties':{
+			
+		},
+		'position':(169.53671875,8.72104309,159.50176758,),'scriptID':'20014779','delaySpawn':0,'EntityType':'SpawnPointNormal',
+	},
+	21:{
+		'lineNumber':0,'direction':(0.0,0.0,0.0,),'properties':{
+			
+		},
+		'position':(157.32577148000001,5.7690832499999996,146.85271484,),'scriptID':'20014780','delaySpawn':0,'EntityType':'SpawnPointNormal',
+	},
+	22:{
+		'isDarkEntity':1,'properties':{
+			
+		},
+		'group':5,'scriptID':'20014778','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,-5.006918614912952,),'position':(164.67994141,6.522447509999999,142.96669921999998,),
+		'EntityType':'SpawnPointGroup',
+	},
+	23:{
+		'lineNumber':0,'direction':(0.0,0.0,0.0,),'properties':{
+			
+		},
+		'position':(181.16503906000003,5.7690832499999996,146.85271484,),'scriptID':'20014780','delaySpawn':0,'EntityType':'SpawnPointNormal',
+	},
+	24:{
+		'isDarkEntity':1,'properties':{
+			
+		},
+		'group':5,'scriptID':'20014777','delaySpawn':0,'lineNumber':0,'direction':(0.0,0.0,-1.9198627182458308,),'position':(172.49990234,6.52377502,142.600625,),'EntityType':'SpawnPointGroup',
+	},
+	
+}
+

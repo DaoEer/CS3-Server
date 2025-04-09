@@ -1,0 +1,24 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Properties>
+		<completeQTENum>
+			<Type>		DICT_INT_INT	</Type>
+			<Flags>		CELL_PUBLIC		</Flags>
+			<Persistent>	false		</Persistent>
+		</completeQTENum>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

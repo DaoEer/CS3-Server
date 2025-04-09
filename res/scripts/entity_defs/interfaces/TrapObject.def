@@ -1,0 +1,22 @@
+<root>
+	<Interfaces>
+		<Interface> 	NPCBaseObject           </Interface>
+	</Interfaces>
+
+	<Properties>
+		<trapType>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1				</Default>
+		</trapType>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

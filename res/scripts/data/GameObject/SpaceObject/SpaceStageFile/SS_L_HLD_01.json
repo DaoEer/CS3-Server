@@ -1,0 +1,58 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击退拦路火妖", 
+                    "reqVal": 21, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000130|20000131|20000128|20000132|20000133|20000135|20000136|20000137", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "勇闯火灵岛"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "借得三昧神火", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010004", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "三昧神火"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到烈瞳", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-5998 -5451|-1623 -5451|-1623 -8861|-5998 -9101", 
+                    "param2": "20000|10000", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "深入火灵岛"
+        }
+    }, 
+    "describe": "1-10级魔道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "三昧神火"
+}

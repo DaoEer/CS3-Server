@@ -1,0 +1,126 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭寒冰守卫", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006050|20006186", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006050|20006186#L_JYHD"
+                }
+            }, 
+            "title": "暗藏危机"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "大战万幽古魔", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "555", 
+                    "param2": "20007293", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20006050|20006186#L_JYHD"
+                }
+            }, 
+            "title": "万幽古魔"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭冰心魔女", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005909|20005910", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006050|20006186#L_JYHD"
+                }
+            }, 
+            "title": "冰心魔女"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭万幽古魔伏月", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006049", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006049#L_JYHD"
+                }
+            }, 
+            "title": "寻找古魔"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭幽都妖卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005895|20005896|20005897|20005898|20005899", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005895|20005896|20005897|20005898|20005899#L_JYHD"
+                }
+            }, 
+            "title": "深入寒洞"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往九煞阴河", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "20006363#L_JYHD"
+                }
+            }, 
+            "title": "阴河之砂"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "夺取幽都玄金", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010091", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "40000773#L_JYHD"
+                }
+            }, 
+            "title": "幽都玄金"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "炼制天罗幡（一）"
+}

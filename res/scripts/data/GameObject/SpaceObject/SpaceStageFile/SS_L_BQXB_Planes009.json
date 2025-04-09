@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族先锋", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005365|20005366|20005367|20005368", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(8764.310547 6104.063965 -2661.566895)#L_BQXB_Planes009"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭风烈", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005375", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20005375#L_BQXB_Planes009"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族卫兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005371|20005372", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1690.0 5910 -2661)#L_BQXB_Planes009"
+                }
+            }, 
+            "title": "消灭轩辕族来袭者"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "解救恶来", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "1", 
+                    "param2": "20005392", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20005392#L_BQXB_Planes009"
+                }
+            }, 
+            "title": "解救恶来"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "兵临城下"
+}

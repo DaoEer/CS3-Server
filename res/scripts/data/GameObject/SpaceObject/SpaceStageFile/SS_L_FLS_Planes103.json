@@ -1,0 +1,63 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败赤枪护卫", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003027|20003028", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003027|20003028#L_FLS_Planes103"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败梓潜", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003029", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003029#L_FLS_Planes103"
+                }
+            }, 
+            "title": "击败挡道的持枪护法"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待帝江前辈使用破界石破除锁灵塔的禁制", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-18866.0 -11820.0 8273.0)#L_FLS_Planes103"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入锁灵塔", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "-19704.0 -9714.0 8711.0:3", 
+                    "param2": "9211|8211", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-19704.0 -9714.0 8711.0)#L_FLS_Planes103"
+                }
+            }, 
+            "title": "破除禁制进入锁灵塔"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "锁灵塔前"
+}

@@ -1,0 +1,41 @@
+﻿{
+"SpaceName"	: "天命转盘",
+"EntityType"	: "SpaceCopyMagicMaze",
+"DomainType"	: "SpaceDomainCopyMagicMazeChild",
+"EntityScript"	: "SpaceCopyMagicMazeChildDestiny",
+"scriptID"	: "fu_ben_L_HZMG_TMZP",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_fu_ben_L_TMZP",
+"NavmeshPath"	: "space\\L_TMZP_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1|2",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 10,
+	"spaceIntroduce":{"voiceID":"C000371"},
+	"enterPosition":"420000.125 210758.84375 5522.84668",
+	"enterDirection":"0 0 -20",
+	"stageFile":"",
+	"eventFile":"",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4",
+	"fuben":"fu_ben_L_TCDL|fu_ben_L_TCDL",
+       	"qiyu":"fu_ben_L_TCDL|fu_ben_L_LCZ",
+       	"baoxiang":"fu_ben_L_TCDL|fu_ben_L_TCDL",
+  	"wenda":"fu_ben_L_TCDL|fu_ben_L_TCDL",
+  	"shangcibang":"C000373|C000374|C000375",
+	"xiacibang":"C000376|C000377|C000378",
+	"xuanwu":"C000379|C000380",
+	"wenhao":"C000381",
+            "monsterUseSpaceLevel": 1,
+            "delayTeleportTime":20,
+            "delayNotifyTime":12
+
+	},
+"DomainData"	:{
+	}
+}

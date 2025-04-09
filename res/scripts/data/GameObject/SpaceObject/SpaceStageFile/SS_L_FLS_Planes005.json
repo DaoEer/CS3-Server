@@ -1,0 +1,97 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败道魁", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000300", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000300#L_FLS_Planes005"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得“尊灵”", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010027", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "取得“尊灵”"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败天邪子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "wan", 
+                    "param2": "20000302", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20000302#L_FLS_Planes005"
+                }
+            }, 
+            "title": "取得“爱灵、缘灵”"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败无心", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000301", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000301#L_FLS_Planes005"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得“友灵”", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010028", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "取得“友灵”"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "追击天邪子", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-27250.023438 -67780.242188 14161.251953)#L_FLS_Planes005"
+                }
+            }, 
+            "title": "追击天邪子"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "飞溅崖"
+}

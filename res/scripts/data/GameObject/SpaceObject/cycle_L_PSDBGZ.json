@@ -1,0 +1,31 @@
+{
+"SpaceName"	: "破碎的八卦阵",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "cycle_L_PSDBGZ",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "S_L_PSDBGZ",
+"NavmeshPath"	: "space\\L_PSDBGZ_NAVMESH",
+"PatrolRouteFile": "",
+"SpaceHoldEffect"	:"999001013",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FLS",
+	"Position"	: "42678.0 13212.0 -94.0",
+	"Direction"	: "0.0 0.0 111.1"
+	},
+"SpaceData"	:{
+	"enterPosition":"5110.000000 47380.000000 2320.000000",
+	"enterDirection":"0 0 140",
+	"statisticsFile":"ST_L_PSDBGZ",
+	"eventFile":"SE_L_PSDBGZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "1|2",
+	"logoutCloseTime":1,
+	"clientShowSpaceLife" : 1,
+	"startLifeOnInit" : 0
+	},
+"DomainData"	:{
+	}
+}

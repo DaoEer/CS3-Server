@@ -1,0 +1,29 @@
+﻿{
+"SpaceName"	: "副本名字",
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopy",
+"scriptID"	: "SpaceCopy_1",
+"spaceType"	: "SPACE_TYPE_COPY",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_YXG_NAVMESH",
+"PatrolRouteFile": "L_YXG_PATROL",
+"belongType"	: "1|2",
+"bunchSpaceScriptID" : "BunchSpace_1",
+"ExitSpace"	:{
+	"ScriptID"	: "",
+	"Position"	: "",
+	"Direction"	: ""
+	},
+"SpaceData"	:{
+	"spaceLife"	: 10,
+	"spaceIntroduce":{"voiceID":"Q010361"},
+	"enterPosition":"-563 -4908 16114",
+	"enterDirection":"0 0 0",
+	"eventFile":"spaceEvent_1",
+	"stageFile":"spaceStage_1",
+	"reviveType"	: "0|"
+	},
+"DomainData"	:{
+	}
+}

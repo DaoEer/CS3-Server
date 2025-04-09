@@ -1,0 +1,69 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败缥缈阁剑侍", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009095|20009096|20009097", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(6132.453125 -23976.144531 105.956909)#L_TS_Planes001"
+                }
+            }, 
+            "title": "只身入汤山"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败阴生", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009094", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "营救之路"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "沿路扫清缥缈阁伏兵", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009101|20009102|20009103", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-3556.804443 -24666.322266 2581.098389)#L_TS_Planes001"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往汤山之巅", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "-10215.944336 -14368.080078 4047.344238:50", 
+                    "param2": "4547|3547", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-10215.944336 -14368.080078 4047.344238)#L_TS_Planes001"
+                }
+            }, 
+            "title": "重重包围"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "勇闯汤山"
+}

@@ -1,0 +1,58 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	
+	<Properties>
+		<levelRank>
+			<Type>		LEVEL_RANK_DICT		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</levelRank>
+		<moneyRank>
+			<Type>		MONEY_RANK_DICT		</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</moneyRank>
+		<combatRank>
+			<Type>		COMBAT_RANK_DICT	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</combatRank>
+		<weaponRank>
+			<Type>		WEAPON_COMBAT_DICT	</Type>
+			<Flags>		BASE			</Flags>
+			<Persistent>	true			</Persistent>
+		</weaponRank>
+	</Properties>
+	<BaseMethods>
+		<updatePlayerLevelRank>
+			<Arg>		LEVEL_RANK	</Arg>
+			<Arg>		BOOL		</Arg>
+		</updatePlayerLevelRank>
+		<updatePlayerMoneyRank>
+			<Arg>		MONEY_RANK	</Arg>
+			<Arg>		BOOL		</Arg>
+		</updatePlayerMoneyRank>
+		<updatePlayerCombatRank>
+			<Arg>		LEVEL_RANK	</Arg>
+			<Arg>		BOOL		</Arg>
+		</updatePlayerCombatRank>
+		<updatePlayerWeaponCombatRank>
+			<Arg>		WEAPON_COMBAT_RANK</Arg>
+			<Arg>		BOOL		</Arg>
+		</updatePlayerWeaponCombatRank>
+
+		<openGameRank>
+			<Arg>		CELL_ENTITYCALL	</Arg>
+			<Arg>		DBID		</Arg>
+			<Arg>		OBJECT_ID	</Arg>
+		</openGameRank>
+		<requestGameRankFirstTime>
+			<Arg>		BASE_ENTITYCALL	</Arg>
+			<Arg>		DBID		</Arg>
+			<Arg>		UINT8		</Arg>
+			<Arg>		UINT8		</Arg>
+		</requestGameRankFirstTime>
+	</BaseMethods>
+</root>

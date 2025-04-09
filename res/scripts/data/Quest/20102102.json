@@ -1,0 +1,96 @@
+{
+    "20102102": {
+        "tasks": [
+            {
+                "navigateData": "(-13624.0 -23294.0 6761.0)#L_BQDB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "10", 
+                "param2": "2920.467773 -12410.938477 622.807983", 
+                "param1": "L_TQG", 
+                "id": 1, 
+                "name": "展开风雨苍穹"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002078"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102102, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102138"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "15190", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "597", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "6705", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1721", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q042173|Q045288", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}请跟随帝俊一同前去阪泉东部的云岚峰顶，让风雨苍穹化作苍穹天幕遮挡太阳真火。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102103", 
+        "taskCompleteFunctions": {}, 
+        "level": 36, 
+        "title": "危机暂解", 
+        "isAutoCommit": 1, 
+        "start_by": "10000716#L_YGG", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,189 @@
+<root>
+	<Properties>
+		<gangQi_qiDuanOverTimerID>	<!--气短恢复timerID-->
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiDuanOverTimerID>
+
+		<gangQi_reviveTimerID>		<!--罡气自愈tick-->
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_reviveTimerID>
+
+		<gangQiState>			<!--罡气状态-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		4			</Default>
+		</gangQiState>
+
+		<gangQiValue>			<!--罡气值-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</gangQiValue>
+
+		<gangQiValuePercent>			<!--罡气值百分比-->
+			<Type>			FLOAT				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0					</Default>
+		</gangQiValuePercent>
+
+		<gangQiValue_Max>		<!--罡气最大值-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</gangQiValue_Max>
+
+		<gangQiValue_Max_base>		<!-- = 罡气最大值 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQiValue_Max_base>
+
+		<gangQiValue_Max_extra>		<!-- = 罡气最大值 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQiValue_Max_extra>
+
+		<gangQiValue_Max_percent>	<!-- = 罡气最大值 加成百分比-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQiValue_Max_percent>
+
+		<gangQiValue_Max_value>		<!-- = 罡气最大值 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQiValue_Max_value>
+
+		<gangQi_damagePoint>		<!--罡气攻击点-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0			</Default>
+		</gangQi_damagePoint>
+
+		<gangQi_damagePoint_base>	<!-- = 罡气攻击点 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_damagePoint_base>
+
+		<gangQi_damagePoint_extra>	<!-- = 罡气攻击点 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_damagePoint_extra>
+
+		<gangQi_damagePoint_percent>	<!-- = 罡气攻击点 加成百分比-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_damagePoint_percent>
+
+		<gangQi_damagePoint_value>	<!-- = 罡气攻击点 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_damagePoint_value>
+		
+		<gangQi_armorPoint>		<!--罡气防御点-->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0			</Default>
+		</gangQi_armorPoint>
+
+		<gangQi_armorPoint_base>	<!-- = 罡气防御点 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_armorPoint_base>
+
+		<gangQi_armorPoint_extra>	<!-- = 罡气防御点 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_armorPoint_extra>
+
+		<gangQi_armorPoint_percent>	<!-- = 罡气防御点 加成百分比-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_armorPoint_percent>
+
+		<gangQi_armorPoint_value>	<!-- = 罡气防御点 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_armorPoint_value>
+		
+		<gangQi_qiJieRevive>		<!--气竭自愈率-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+		</gangQi_qiJieRevive>
+
+		<gangQi_qiJieRevive_base>	<!-- = 气竭自愈率 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiJieRevive_base>
+
+		<gangQi_qiJieRevive_extra>	<!-- = 气竭自愈率 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiJieRevive_extra>
+
+		<gangQi_qiJieRevive_percent>	<!-- = 气竭自愈率 加成百分比-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiJieRevive_percent>
+
+		<gangQi_qiJieRevive_value>	<!-- = 气竭自愈率 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiJieRevive_value>
+
+		<gangQi_qiJieProgress>	<!-- = 气竭进度值 -->
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiJieProgress>
+		
+		<gangQi_qiYingRevive>		<!--气盈自愈率-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+		</gangQi_qiYingRevive>
+
+		<gangQi_qiYingRevive_base>	<!-- = 气盈自愈率 基础值-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiYingRevive_base>
+
+		<gangQi_qiYingRevive_extra>	<!-- = 气盈自愈率 额外 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiYingRevive_extra>
+
+		<gangQi_qiYingRevive_percent>	<!-- = 气盈自愈率 加成百分比-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiYingRevive_percent>
+
+		<gangQi_qiYingRevive_value>	<!-- = 气盈自愈率 加值 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</gangQi_qiYingRevive_value>
+	</Properties>
+</root>

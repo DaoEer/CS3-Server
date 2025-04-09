@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStoryExit",
+"scriptID"	: "L_XHL",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_XHL",
+"NavmeshPath"	: "space\\L_HKY_02_NAVMESH",
+"PatrolRouteFile": "P_L_XHL",
+"belongType"	: "1",
+"SpaceCopyStoryExit"	:{
+	"ScriptID"	: "L_KLZ_1|L_KLZ_1|L_KLZ_1|L_KLZ_1|L_XYM|L_XYM|L_XYM|L_XYM",
+	"Position"	: "-207797 -207064 19062|-207797 -207064 19062|-207797 -207064 19062|-207797 -207064 19062|52172.0 -2209.0 16577.0|52172.0 -2209.0 16577.0|52172.0 -2209.0 16577.0|52172.0 -2209.0 16577.0",
+	"Direction"	: "0 0 -176|0 0 -176|0 0 -176|0 0 -176|0 0 90|0 0 90|0 0 90|0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_XHL",
+	"eventFile":"SE_L_XHL"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 保持跟随法宝碎片移动，使进度条充满，便可将其收集。@B• 点击加速按钮可提升移动速度，但会持续消耗能量，可随时点击按钮关闭。@B• 收集场景中的能量球可补充能量。@B• 达到要求后，最终收集的法宝碎片越多获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "收集的法宝碎片数：", 
+                    "postfix": "个", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "add", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "至少收集2个法宝碎片"
+        }
+    }, 
+    "name": "收集法宝碎片"
+}

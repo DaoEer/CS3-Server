@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭蛮霜", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20006747", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20006747#L_ZLY_Planes007"
+                }
+            }, 
+            "title": "进入玄冰洞"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭寒渊，夺取千年冰魄", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010097", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "20006748#L_ZLY_Planes007"
+                }
+            }, 
+            "title": "玄冰洞内部"
+        }
+    }, 
+    "describe": "千年冰魄", 
+    "beginOnSpaceInit": 1, 
+    "name": "玄冰洞"
+}

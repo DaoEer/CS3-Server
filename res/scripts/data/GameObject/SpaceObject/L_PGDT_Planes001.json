@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpacePlane",
+"DomainType"	: "SpaceDomainPlane",
+"EntityScript"	: "SpacePlaneExt",
+"scriptID"	: "L_PGDT_Planes001",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"SpawnFile"	: "S_L_PGDT_Planes001",
+"NavmeshPath"	: "space\\L_PGDT_Planes001_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpacePlaneExt"	:{
+	"ScriptID"	: "L_KLZ_1|L_YXG|L_PLG|L_TQG",
+	"Position"	: "-192279.875000 -207040.125000 17882.242188|-1770.0 -16230.000000000002 1963.0|-299055.0 -639559.0 56090.0|2940.0 -12398.0 653.0",
+	"Direction"	: "0 0 -180|0 0 160|0 0 -90|0 0 -140"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_PGDT_Planes001",
+	"eventFile":"SE_L_PGDT_Planes001"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,111 @@
+{
+    "20102563": {
+        "tasks": [
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "38", 
+                "id": 1, 
+                "name": "到达38级"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002007"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3042"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102563, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102561"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "37640", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "755", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "8478", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1817", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102010006|102010013|102010020|102010027", 
+                "script": "QuestRewardItemByProfession"
+            }
+        ], 
+        "description": "Q041388|Q040042", 
+        "finish_by": "10001007#L_FYP", 
+        "taskLogDes": "@S{4}适才接引道人收到消息，仙道正在找寻有穷部落的首领夸父，想借助夸父之力夺回十金乌。接引让你前去飞云坡荒火营找祖巫玄冥，和他一同除掉夸父以绝后患！", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041390", 
+        "nextQuest": "20102613", 
+        "taskCompleteFunctions": {}, 
+        "level": 37, 
+        "title": "前往飞云坡", 
+        "isAutoCommit": 1, 
+        "start_by": "10000341#L_PMG", 
+        "isAutoAccept": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_XMS",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_XMS",
+"NavmeshPath"	: "space\\L_XMS_NAVMESH",
+"PatrolRouteFile": "P_L_XMS",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_PLS",
+	"Position"	: "53180.660156 -717.113281 -13260.373047",
+	"Direction"	: "0 0 0"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_XMS",
+	"eventFile":"SE_L_XMS"
+	},
+"DomainData"	:{
+	}
+}

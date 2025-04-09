@@ -1,0 +1,42 @@
+<root>
+	<Interfaces>
+		<Interface> 	StateInterface		</Interface>
+	</Interfaces>
+	<Properties>
+		<jumpShowState>
+			<Type>		UINT8				</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Persistent>	false			</Persistent>
+		</jumpShowState>
+		<climbLadderState>
+			<Type>		INT32				</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Persistent>	false			</Persistent>
+		</climbLadderState>
+		<ladderPosOffset>
+			<Type>		FLOAT				</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+			<Persistent>	false			</Persistent>
+		</ladderPosOffset>
+	</Properties>
+	<CellMethods>
+		<ChangeRoleJumpState>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+			<Arg>	BOOL		</Arg>
+		</ChangeRoleJumpState>
+		<ChangeClimbLadderState>
+			<Exposed/>
+			<Arg>	INT32		</Arg>
+		</ChangeClimbLadderState>
+		<UpdateClimbLadderActionStepPos>
+			<Exposed/>
+			<Arg>	FLOAT		</Arg>
+		</UpdateClimbLadderActionStepPos>
+	</CellMethods>
+	<ClientMethods>
+		<OnRepJumpState >
+			<Arg>	INT32		</Arg>
+		</OnRepJumpState >
+	</ClientMethods>
+</root>

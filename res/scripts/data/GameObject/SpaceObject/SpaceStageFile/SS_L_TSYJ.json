@@ -1,0 +1,108 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败土怪", 
+                    "reqVal": 7, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003005|20003006", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003005|20003006#L_TSYJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "穿过地刺陷阱", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "-5969.2988 5371.16113 690.146484:20", 
+                    "param2": "1200|200", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-5969.2988 5371.16113 690.146484)#L_TSYJ"
+                }
+            }, 
+            "title": "深入土神遗迹"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "突破巨石阵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-1121.0 -4928.0 1264.0)#L_TSYJ"
+                }
+            }, 
+            "title": "突破巨石禁制"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败土怪精英", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20000399", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20000399#L_TSYJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败土怪", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003013|20003014|20003011|20003012|20003015", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003013|20003014|20003011|20003012|20003015#L_TSYJ"
+                }
+            }, 
+            "title": "危机暗藏深处"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败土灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003009", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20003009#L_TSYJ"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "回逍遥门复命", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(5988.0 -24532.0 2947.0)#L_TSYJ"
+                }
+            }, 
+            "title": "击败遗迹护者"
+        }
+    }, 
+    "describe": "20001873", 
+    "beginOnSpaceInit": 1, 
+    "name": "土神遗迹"
+}

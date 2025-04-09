@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "支援夕风，击败来敌", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20004014|20004015|20004016|20004017", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20004014|20004015|20004016|20004017#L_BQXB_Planes101"
+                }
+            }, 
+            "title": "会合夕风"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "收服狴犴(一)"
+}

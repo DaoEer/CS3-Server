@@ -1,0 +1,96 @@
+{
+    "20102659": {
+        "tasks": [
+            {
+                "navigateData": "(17600.0 -17290.0 -5210.0)#L_WLS", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "取得丙火、坎水精华"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002007"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102659, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102657|20102658"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "23755", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1350", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "22988", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2250", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050749|Q050750|Q042233", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}据@F{fc=c41}八部天书@D所示，布置五行灌灵阵需集齐五行精魄。接引道人命你前往五元山，击败先天五行之灵，取来丙火，坎水，庚金，甲木，艮土精魄。|@S{4}你来到了五元山火灵谷，恰逢先天水灵和火灵正在比武，请你击败他们取得@F{fc=c41}丙火@D和@F{fc=c41}坎水精魄@D。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102660|20102660|20102661|20102660", 
+        "taskCompleteFunctions": {}, 
+        "level": 41, 
+        "title": "五元山（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000105#L_XLD", 
+        "isAutoAccept": 1
+    }
+}

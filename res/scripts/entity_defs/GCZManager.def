@@ -1,0 +1,68 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+		<joinGCZMemDatas>
+			<Type>			PYTHON_DICT	</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		{}				</Default>
+			<Persistent>		true				</Persistent>
+		</joinGCZMemDatas>
+	</Properties>
+
+	<BaseMethods>
+		<openJoinGCZWin>
+			<Arg>	ARRAY_INT32	</Arg>
+			<Arg>	ARRAY_STRING	</Arg>
+			<Arg>	ARRAY_INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	INT32	</Arg>
+		</openJoinGCZWin>
+		<signUpGCZ>
+			<Arg>	INT32	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+			<Arg>	STRING	</Arg>
+		</signUpGCZ>
+		<gcz_onCreateTeam>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</gcz_onCreateTeam>
+		<onGCZMemberJoin>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</onGCZMemberJoin>
+		<gcz_MatchTeamChange>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</gcz_MatchTeamChange>
+		<gcz_cancelMatch>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+		</gcz_cancelMatch>
+		<enterGCZ>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+		</enterGCZ>
+		<gcz_memberLoginOff>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</gcz_memberLoginOff>
+		<joinGCZMatchPerson>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+			<Arg>	INT32	</Arg>
+		</joinGCZMatchPerson>
+		<joinGCZMahchTeam>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	PYTHON_LIST	</Arg>
+			<Arg>	INT32	</Arg>
+		</joinGCZMahchTeam>
+		<reStartToMathGCZ>
+			<Arg>	BASE_ENTITYCALL	</Arg>
+			<Arg>	DBID	</Arg>
+		</reStartToMathGCZ>
+	</BaseMethods>
+</root>

@@ -1,0 +1,73 @@
+<root>
+	<Interfaces>
+		<Interface>	CMonsterObject	</Interface>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<controlEntityID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</controlEntityID>
+		<wanderRange>
+			<Type>				FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			5.0			</Default>
+		</wanderRange>
+		<category>
+			<Type>		UINT8		</Type>
+			<Flags>		ALL_CLIENTS </Flags>
+		</category>
+		<index>
+			<Type>				INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			1			</Default>
+		</index>
+		<soldierType>
+			<Type>				UINT8		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+		</soldierType>
+		<startFallingHeight>
+			<Type>		FLOAT			</Type>
+			<Flags>		CELL_PRIVATE			</Flags>
+			<Default>	0.0			</Default>
+			<Persistent>	false			</Persistent>
+		</startFallingHeight>
+		<leaveTopOffset>
+			<Type>				FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0.0			</Default>
+		</leaveTopOffset>
+	</Properties>
+
+	<CellMethods>
+		<CELL_onSetControlledBy>
+			<Exposed/>
+		</CELL_onSetControlledBy>
+		<RPC_ChangePosture>
+			<Exposed/>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+			<Arg>	STRING	</Arg>
+		</RPC_ChangePosture>
+		<notifyMonsterEndFallLand>
+			<Exposed/>
+		</notifyMonsterEndFallLand>
+	</CellMethods>
+	
+	<ClientMethods>
+		<RandomMove>
+			<Arg>	FLOAT	</Arg>
+		</RandomMove>
+		<ChaseActor>
+			<Arg>	INT32	</Arg>
+		</ChaseActor>
+	</ClientMethods>
+</root>
+

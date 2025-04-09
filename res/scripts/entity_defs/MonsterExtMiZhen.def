@@ -1,0 +1,42 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<robotName>
+			<Type>		UNICODE			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	false		</Persistent>
+		</robotName>
+		<robotLevel>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	false		</Persistent>
+		</robotLevel>
+		<robotCamp>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	false		</Persistent>
+		</robotCamp>
+		<occupation>
+			<Type>		STRING			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Persistent>	false		</Persistent>
+		</occupation>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

@@ -1,0 +1,126 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Interfaces>
+		<Interface>	SpellObject			</Interface>
+	</Interfaces>
+
+	<Properties>
+		<createTime>
+			<Type>			TIME			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+			<Persistent>		false			</Persistent>
+		</createTime>
+		<isCoolDowning>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		False			</Default>
+		</isCoolDowning>
+		<isDestroyHide>
+			<Type>			BOOL			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		False			</Default>
+		</isDestroyHide>
+		<minGossipDis>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0			</Default>
+		</minGossipDis>
+		<maxGossipDis>
+			<Type>			FLOAT			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0.0			</Default>
+		</maxGossipDis>
+		<intonateTime>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0.0			</Default>
+		</intonateTime>
+		<intonateEffect>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+		</intonateEffect>
+		<intonateAction>
+			<Type>			STRING			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		0			</Default>
+		</intonateAction>
+		<lifeTime>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+		</lifeTime>
+		<destroyTime>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+		</destroyTime>
+		<lifeTimerID>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</lifeTimerID>
+		<reviveTime>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+		</reviveTime>
+		<cooldownTime>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0.0			</Default>
+		</cooldownTime>
+		<listenEvents>
+			<Type>			INT64			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		0			</Default>
+		</listenEvents>
+		<curSorName>
+			<Type>			STRING			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</curSorName>
+		<IsCanInteract> <!-- 是否能交互 -->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		1			</Default>
+		</IsCanInteract>
+		<onlifeTimeUseSkill>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+		</onlifeTimeUseSkill>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_RefreshBoxStatus/>
+		<CLIENT_SetBoxStatus>
+			<Arg>			INT32			</Arg>
+			<Arg> 			STRING			</Arg>
+			<Arg> 			FLOAT			</Arg>
+			<Arg> 			STRING			</Arg>
+		</CLIENT_SetBoxStatus>
+		<CLIENT_SpellBoxInterrupted/>
+		<CLIENT_OnHoldRadiusFog>
+			<Arg> 			STRING			</Arg>
+			<Arg> 			FLOAT			</Arg>
+			<Arg> 			FLOAT			</Arg>
+			<Arg> 			FLOAT			</Arg>
+			<Arg> 			FLOAT			</Arg>
+		</CLIENT_OnHoldRadiusFog>
+	</ClientMethods>
+
+	<CellMethods>
+		<onPlayerIntonateOver>
+			<Arg>			OBJECT_ID		</Arg>
+		</onPlayerIntonateOver>
+		<setInteract>
+			<Arg>	INT32	</Arg>
+		</setInteract>
+	</CellMethods>
+</root>

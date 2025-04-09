@@ -1,0 +1,40 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<ammo>
+			<Type>		INT32			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			</Default>
+		</ammo>
+		<cdEndTime>
+			<Type>		FLOAT		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0.0			</Default>
+		</cdEndTime>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_OnOperationCanister>
+			<Arg>	FLOAT	</Arg>
+			<Arg>	INT32		</Arg>
+		</CLIENT_OnOperationCanister>
+	</ClientMethods>
+
+	<CellMethods>
+		<CELL_operationCanister>
+			<Exposed/>
+		</CELL_operationCanister>
+	</CellMethods>
+</root>
+

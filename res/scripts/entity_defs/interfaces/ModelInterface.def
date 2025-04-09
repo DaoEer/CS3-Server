@@ -1,0 +1,152 @@
+<root>
+	<Properties>
+		<headModel>
+			<!-- 头部模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS					</Flags>
+			<Persistent>		false					</Persistent>
+		</headModel>
+		<cloakModel>
+			<!-- 披风模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</cloakModel>
+		<bodyModel>
+			<!-- 上身模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</bodyModel>
+		<hairModel>
+			<!-- 头发模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</hairModel>
+		<adornModel>
+			<!-- 头饰模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</adornModel>
+		<suitsModel>
+			<!-- 套装模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</suitsModel>
+		<hatModel>
+			<!-- 帽子模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</hatModel>
+		<coatModel>
+			<!-- 上衣模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</coatModel>
+		<wristModel>
+			<!-- 护腕模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</wristModel>
+		<handModel>
+			<!-- 手套模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</handModel>
+		<waistModel>
+			<!-- 腰带模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</waistModel>
+		<pantsModel>
+			<!-- 裤子模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</pantsModel>
+		<shoesModel>
+			<!-- 鞋子模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</shoesModel>
+		<necklaceModel>
+			<!-- 项链模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</necklaceModel>
+		<lringModel>
+			<!-- 左手戒指模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</lringModel>
+		<rringModel>
+			<!-- 右手戒指模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>
+		</rringModel>
+		<weaponModel>
+			<!-- 武器模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>			
+		</weaponModel>
+		<skeletalWeaponModel>
+			<!-- 骨架武器模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>			
+		</skeletalWeaponModel>
+		<fabaoModel>
+			<!-- 法宝模型 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		false				</Persistent>			
+		</fabaoModel>
+		<headAdornModel>
+			<!-- 头饰 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>			
+		</headAdornModel>
+		<faceAdornModel>
+			<!-- 面饰 -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>			
+		</faceAdornModel>
+		<backAdornModel>
+			<!-- 背饰  -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>			
+		</backAdornModel>
+		<waistAdornModel>
+			<!-- 腰饰  -->
+			<Type>				STRING			</Type>
+			<Flags>				ALL_CLIENTS		</Flags>
+			<Persistent>		true				</Persistent>			
+		</waistAdornModel>
+	</Properties>
+
+	<ClientMethods>
+
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

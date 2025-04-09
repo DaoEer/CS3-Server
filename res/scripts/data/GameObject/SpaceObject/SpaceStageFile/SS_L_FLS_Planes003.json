@@ -1,0 +1,41 @@
+{
+    "stages": {
+        "1": {
+            "comment": "酿造神水引来了周围的山精水怪，请速速消灭他们。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "为周阳长老护法", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002252", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1537.0 10799.0 2358.0)#L_FLS_Planes003"
+                }
+            }, 
+            "title": "消灭来敌"
+        }, 
+        "2": {
+            "comment": "来犯之敌已消灭，速速上前收取神水", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "从周阳长老处取得三光神水", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010035", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(-3006.0 10555.0 2493.0)#L_FLS_Planes003"
+                }
+            }, 
+            "title": "获得神水"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "酿造神水"
+}

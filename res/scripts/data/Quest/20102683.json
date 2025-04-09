@@ -1,0 +1,59 @@
+{
+    "20102683": {
+        "tasks": [
+            {
+                "navigateData": "(44842.984375 -4764.780273 226.988083)#L_KYX_mo", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "去赤岩岗为大军开路"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002022"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102683, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102682"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [], 
+        "description": "Q050888|Q050889", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}请你驾驭飞鸢法器消灭赤岩岗外围的仙道守备力量，为大军开路。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102684", 
+        "taskCompleteFunctions": {}, 
+        "level": 43, 
+        "title": "攻打亢阳星（一）", 
+        "isAutoCommit": 1, 
+        "start_by": "10000053#L_XYM", 
+        "isAutoAccept": 1
+    }
+}

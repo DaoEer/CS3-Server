@@ -1,0 +1,154 @@
+{
+    "stages": {
+        "1": {
+            "comment": "等待不动明王发号施令", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待出征", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "等待出征"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "继续前进", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "5010.0 -9050.0 2020.0:17", 
+                    "param2": "7020|-2980", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(5010.0 -9050.0 2020.0)#L_DJT"
+                }
+            }, 
+            "title": "前往探查"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败东极天弟子", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014678|20014679|20014680|20014681|20014682|20014683", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-537.8 -15807.23 869.7)#L_DJT"
+                }
+            }, 
+            "title": "扫除守卫"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "躲避电网继续深入", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "躲避禁制"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败陆阳", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014684", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4910.0 -9490.0 2020.0)"
+                }
+            }, 
+            "title": "击败陆阳"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败两仪灯灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "886", 
+                    "param2": "20014694", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "(-1180.0 18920.0 3070.0)#L_DJT"
+                }
+            }, 
+            "title": "大破东极天"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击落雷兜", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014685|20014686|20014687|20014688", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1199.7 4710.4 2074.3)#L_DJT"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "破坏阵眼", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014696", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-1199.7 4710.4 2074.3)#L_DJT"
+                }
+            }, 
+            "title": "破除禁制"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往飞魔岭", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-1188.1 23278.1 3059.7)#L_DJT"
+                }
+            }, 
+            "title": "支援帝江"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "攻打东极天"
+}

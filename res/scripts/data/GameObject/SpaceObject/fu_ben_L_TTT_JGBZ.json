@@ -1,0 +1,32 @@
+{
+"SpaceName"	: "龙王仙藏",
+"EntityType"	: "SpaceCopyDongTianFuDi",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyDongTianFuDi",
+"scriptID"	: "fu_ben_L_TTT_JGBZ",
+"spaceType"	: "SPACE_TYPE_JSSLC_CHANCE_COPY",
+"NavmeshPath"	: "space\\L_CBK_NAVMESH",
+"SpawnFile"	: "",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"SpaceAoi"	: "100",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "346 21827 10865",
+	"Direction"	: "0.0 0.0 107.0"
+	},
+"SpaceData"	:{
+	"spaceLife"	: 5,
+	"spaceIntroduce":{"voiceID":"C001985|C001986"},
+	"enterPosition":"25404 24408 182",
+	"enterDirection":"0 0 138.5",
+	"stageFile":"SS_fu_ben_L_TTT_JGBZ",
+	"eventFile":"SE_fu_ben_L_TTT_JGBZ",
+	"clientUseCharacterMovment" : 0,
+	"reviveType"	: "0|4|5",
+        "rewards": "2:180:15000:C001887|1:300:10800:C001886",
+        "monsterUseSpaceLevel": 1
+	},
+"DomainData"	:{
+	}
+}

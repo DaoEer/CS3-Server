@@ -1,0 +1,68 @@
+{
+	"stages":{
+		"1":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"title":"消灭冰河小妖",
+					"reqVal":14,
+					"param3":"",
+					"param2":"",
+					"param1":"20001493|20001494|20001495|20001496|20001497|20001498|20001499|20001500|20001501|20001502",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"杀入九天冰河"
+		},
+		"3":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"title":"找到冰河之水",
+					"reqVal":1,
+					"param3":"4925 12430|4265 17100|7195 19220|10565 18030|11705 16110|9485 12040",
+					"param2":"5961|-4039",
+					"param1":"2",
+					"type":"SStageTask_enterArea"
+				}
+				
+			},
+			"title":"找到冰河之水"
+		},
+		"2":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"title":"击杀拦路的冰河灵妖",
+					"reqVal":1,
+					"param3":"",
+					"param2":"",
+					"param1":"20001503",
+					"type":"SStageTask_killMonster"
+				}
+				
+			},
+			"title":"前往冰河深处"
+		},
+		"4":{
+			"comment":"",
+			"tasks":{
+				"1":{
+					"title":"击杀冰河妖主，取得冰河之水",
+					"reqVal":1,
+					"param3":"",
+					"param2":"",
+					"param1":"301010021",
+					"type":"SStageTask_getItem"
+				}
+				
+			},
+			"title":"冰河妖主"
+		}
+		
+	},
+	"describe":"",
+	"beginOnSpaceInit":1,
+	"name":"九天冰河"
+}

@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_DJT",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_DJT",
+"NavmeshPath"	: "space\\L_DJT_NAVMESH",
+"PatrolRouteFile": "P_L_DJT",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_PMG",
+	"Position"	: "-18979.0 -16208.000000000002 3990.0",
+	"Direction"	: "0.0 0.0 -108"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_DJT",
+	"eventFile":"SE_L_DJT"
+	},
+"DomainData"	:{
+	}
+}

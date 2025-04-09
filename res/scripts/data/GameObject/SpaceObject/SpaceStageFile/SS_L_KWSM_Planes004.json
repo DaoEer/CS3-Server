@@ -1,0 +1,35 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入洞穴", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "-86495.960938 -100445.960938 -3506.299805:10", 
+                    "param2": "3948|-7948", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(-92469.0 -100093.0 -3078.0)#L_KWSM_Planes004"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "降服九尾妖狐", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "1", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-92469.226563 -100093.109375 -3079.812500)#L_KWSM_Planes004"
+                }
+            }, 
+            "title": "勇闯青丘洞主府"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "青丘洞主府"
+}

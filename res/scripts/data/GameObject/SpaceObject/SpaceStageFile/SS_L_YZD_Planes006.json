@@ -1,0 +1,91 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败昧水台士兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002333|20002334", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002333|20002334#L_YZD_Planes006"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败昧水先锋", 
+                    "reqVal": 6, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002335|20002336", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002335|20002336#L_YZD_Planes006"
+                }
+            }, 
+            "title": "寻找养魂木"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败红莲魔女", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002331", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002331#L_YZD_Planes006"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "灵珠子收取养魂木", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "夺取养魂木"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败青甲督军腾月", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002339", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002339|20002341#L_YZD_Planes006"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败昧水台弟子", 
+                    "reqVal": 4, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20002343", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20002339|20002341#L_YZD_Planes006"
+                }
+            }, 
+            "title": "排除万难"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "养魂木"
+}

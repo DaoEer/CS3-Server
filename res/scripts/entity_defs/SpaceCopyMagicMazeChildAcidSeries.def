@@ -1,0 +1,31 @@
+<root>
+	<Parent>
+		SpaceCopyMagicMaze
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<playerQuestionAnswer>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	{}			</Default>
+			<Persistent>	false			</Persistent>
+		</playerQuestionAnswer>
+		<playerMetSandmanDict>
+			<Type>		PYTHON_DICT	</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	{}			</Default>
+			<Persistent>	false			</Persistent>
+		</playerMetSandmanDict>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

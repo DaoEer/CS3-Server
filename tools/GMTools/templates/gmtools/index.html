@@ -1,0 +1,25 @@
+﻿{% extends "gmtools/base.html" %}
+{% load custom_filter %}
+
+{% block content %}
+	<script>
+		window.onload = function()
+		{
+			if('{{error}}'){
+				layer.alert('{{error}}',{
+					title:"提示",
+					icon: 5,
+				});
+			}
+		}
+	</script>
+	<div class="query-background text-center"><img src="/static/images/index_bg.png" draggable="false"></div>
+{% endblock %}
+
+{% block tail_js %}
+<script> 
+
+</script>
+<script></script>
+
+{% endblock %}

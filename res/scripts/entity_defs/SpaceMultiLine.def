@@ -1,0 +1,25 @@
+<root>
+	<Interfaces>
+		<Interface> SpaceObject	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+		<setMaxLineNumber>
+			<Arg>	INT32		</Arg>
+		</setMaxLineNumber>
+		
+		<onSendChatMessageFromBase>
+			<Arg>	DBID		</Arg>
+			<Arg>	CHAT_DATA	</Arg> <!-- 聊天数据 -->
+		</onSendChatMessageFromBase>
+	</CellMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

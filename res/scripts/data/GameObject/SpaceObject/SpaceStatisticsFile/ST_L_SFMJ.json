@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "打开浮岛上的宝箱，收集神风残卷", 
+            "entrys": {
+                "1": {
+                    "title": "收集神风残卷", 
+                    "postfix": "个", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "add", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "5分钟内至少收集3本神风残卷"
+        }
+    }, 
+    "name": "神风秘境"
+}

@@ -1,0 +1,94 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	<Parent>
+		NPC
+	</Parent>
+
+	<Properties>
+		<lineNumber>
+			<Type>		INT32		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</lineNumber>
+		<index>
+			<Type>		INT32		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</index>
+		<occupyPlayerDBID>
+			<Type>		DBID		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</occupyPlayerDBID>
+		<occupyPlayerName>
+			<Type>		UNICODE		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</occupyPlayerName>
+		<occupyPlayerProfession>
+			<Type>		INT32		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</occupyPlayerProfession>
+		<declareWarState>
+			<Type>		UINT8		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	1			    </Default>
+		</declareWarState>
+		<declareWarTime>
+			<Type>		SERVER_TIME		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</declareWarTime>
+		<declarePlayerName>
+			<Type>		UNICODE		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</declarePlayerName>
+		<declarePlayerDBID>
+			<Type>		DBID		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</declarePlayerDBID>
+		<declarePlayerProfession>
+			<Type>		INT32		        </Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			    </Default>
+		</declarePlayerProfession>
+		<fightEndTime>
+			<Type>		STRING		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</fightEndTime>
+		<notifyID>
+			<Type>		INT32		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+			<Default>	0			    </Default>
+		</notifyID>
+		<trainGroundType>
+			<Type>		UINT8		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	1			    </Default>
+		</trainGroundType>
+		<notifyFightTime>
+			<Type>		STRING		</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+		</notifyFightTime>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_CreateTrainSoldierGroundArea>
+			<Arg> STRING </Arg>
+			<Arg> UINT8 </Arg>
+		</CLIENT_CreateTrainSoldierGroundArea>
+	</ClientMethods>
+
+	<CellMethods>
+		<clearDeclareWarData>
+     	</clearDeclareWarData>
+     	<setDclareWarState>
+     		 <Arg> INT32 </Arg>
+     	</setDclareWarState>
+	</CellMethods>
+</root>

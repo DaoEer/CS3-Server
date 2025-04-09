@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "从皎月妖王处获知哮天犬下落", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "100", 
+                    "param2": "20001887", 
+                    "param1": "AI", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20001887#L_FMNL_Planes001"
+                }
+            }, 
+            "title": "打探消息"
+        }
+    }, 
+    "describe": "10-12级魔道", 
+    "beginOnSpaceInit": 1, 
+    "name": "望月坡"
+}

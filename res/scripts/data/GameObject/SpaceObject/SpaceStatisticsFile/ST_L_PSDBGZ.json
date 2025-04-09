@@ -1,0 +1,23 @@
+{
+    "statistics": {
+        "1": {
+            "comment": "• 使用控灵石，获得控灵石技能。@B• 踩上要操控的八卦阵碎片，使用技能“控制石板”进入控制状态，使用方向键控制碎片移动拼接到正确位置。@B• 拼接顺序错误会导致某些碎片无法拼接，请注意！@B• 中间的传送阵可传送到周边的随机平台上。@B• 最终复原八卦阵消耗的时间越短获得的奖励越丰厚。", 
+            "entrys": {
+                "1": {
+                    "title": "已复原的部位数：", 
+                    "postfix": "6", 
+                    "value": 0, 
+                    "param4": "0", 
+                    "param3": "notice", 
+                    "param2": "", 
+                    "param1": "", 
+                    "progress": "0", 
+                    "type": "SStatisticsEntry_conditionChange"
+                }
+            }, 
+            "questID": 0, 
+            "title": "复原八卦阵"
+        }
+    }, 
+    "name": "破碎的八卦阵"
+}

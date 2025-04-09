@@ -1,0 +1,208 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "同蓐收交谈", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "6960.9 54983.7 303.9:5", 
+                    "param2": "2000|-2000", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "20007449#L_BQDB_Planes018"
+                }
+            }, 
+            "title": "同蓐收交谈"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族卫兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007082|20007083", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(17452.8 45277.6 603.9)#L_BQDB_Planes018"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族监兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007085", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16088.2 39013.8 615.1)#L_BQDB_Planes018"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族侍卫", 
+                    "reqVal": 12, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007086|20007087", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16168.9 42983.5 615.2)#L_BQDB_Planes018"
+                }
+            }, 
+            "title": "穿过中院"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟仙兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007076|20007077", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16205.69 57307.7 199.9)#L_BQDB_Planes018"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟卫兵", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007079", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16106.7 49687.3 199.9)#L_BQDB_Planes018"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族巡逻兵", 
+                    "reqVal": 8, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007080|20007081", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16118.2 53032.8 200.0)#L_BQDB_Planes018"
+                }
+            }, 
+            "title": "攻破右侧院"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族侍卫", 
+                    "reqVal": 20, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007094|20007095", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(20815.1 28940.1 374.2)#L_BQDB_Planes018"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族灵卫", 
+                    "reqVal": 9, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007099|20007098", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(29310.7 27099.9 368.7)#L_BQDB_Planes018"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族侍从", 
+                    "reqVal": 9, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007097|20007096", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(29109.3 29972.0 368.7)#L_BQDB_Planes018"
+                }, 
+                "4": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭轩辕族监兵", 
+                    "reqVal": 2, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007084", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(20815.1 28940.1 374.2)#L_BQDB_Planes018"
+                }
+            }, 
+            "title": "攻入中侧院"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟守卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007088|20007089", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16030.2 35090.5 200.0)#L_BQDB_Planes018"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟l铁卫", 
+                    "reqVal": 18, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007092|20007093", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16039.3 27959.9 199.9)#L_BQDB_Planes018"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭正气盟l灵卫", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007090|20007091", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(16092.0 31692.6 199.9)#L_BQDB_Planes018"
+                }
+            }, 
+            "title": "攻破左侧院"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭玉华真人", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20007100", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20007100#L_BQDB_Planes018"
+                }
+            }, 
+            "title": "消灭玉华真人"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "调虎离山"
+}

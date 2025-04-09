@@ -1,0 +1,1542 @@
+[
+    {
+        "Name": "1", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 31
+    }, 
+    {
+        "Name": "2", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 31
+    }, 
+    {
+        "Name": "3", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 31
+    }, 
+    {
+        "Name": "4", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 31
+    }, 
+    {
+        "Name": "5", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 31
+    }, 
+    {
+        "Name": "6", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 31
+    }, 
+    {
+        "Name": "7", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 31
+    }, 
+    {
+        "Name": "8", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 31
+    }, 
+    {
+        "Name": "9", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 20
+    }, 
+    {
+        "Name": "10", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 20
+    }, 
+    {
+        "Name": "11", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 20
+    }, 
+    {
+        "Name": "12", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 20
+    }, 
+    {
+        "Name": "13", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 20
+    }, 
+    {
+        "Name": "14", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 20
+    }, 
+    {
+        "Name": "15", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 20
+    }, 
+    {
+        "Name": "16", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 20
+    }, 
+    {
+        "Name": "17", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 21
+    }, 
+    {
+        "Name": "18", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 21
+    }, 
+    {
+        "Name": "19", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 21
+    }, 
+    {
+        "Name": "20", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 21
+    }, 
+    {
+        "Name": "21", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 21
+    }, 
+    {
+        "Name": "22", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 21
+    }, 
+    {
+        "Name": "23", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 21
+    }, 
+    {
+        "Name": "24", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 21
+    }, 
+    {
+        "Name": "25", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 25
+    }, 
+    {
+        "Name": "26", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 25
+    }, 
+    {
+        "Name": "27", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 25
+    }, 
+    {
+        "Name": "28", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 25
+    }, 
+    {
+        "Name": "29", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 25
+    }, 
+    {
+        "Name": "30", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 25
+    }, 
+    {
+        "Name": "31", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 25
+    }, 
+    {
+        "Name": "32", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 25
+    }, 
+    {
+        "Name": "33", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 24
+    }, 
+    {
+        "Name": "34", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 24
+    }, 
+    {
+        "Name": "35", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 24
+    }, 
+    {
+        "Name": "36", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 24
+    }, 
+    {
+        "Name": "37", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 24
+    }, 
+    {
+        "Name": "38", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 24
+    }, 
+    {
+        "Name": "39", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 24
+    }, 
+    {
+        "Name": "40", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 24
+    }, 
+    {
+        "Name": "41", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 22
+    }, 
+    {
+        "Name": "42", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 22
+    }, 
+    {
+        "Name": "43", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 22
+    }, 
+    {
+        "Name": "44", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 22
+    }, 
+    {
+        "Name": "45", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 22
+    }, 
+    {
+        "Name": "46", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 22
+    }, 
+    {
+        "Name": "47", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 22
+    }, 
+    {
+        "Name": "48", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 22
+    }, 
+    {
+        "Name": "49", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 23
+    }, 
+    {
+        "Name": "50", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 23
+    }, 
+    {
+        "Name": "51", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 23
+    }, 
+    {
+        "Name": "52", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 23
+    }, 
+    {
+        "Name": "53", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 23
+    }, 
+    {
+        "Name": "54", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 23
+    }, 
+    {
+        "Name": "55", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 23
+    }, 
+    {
+        "Name": "56", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 23
+    }, 
+    {
+        "Name": "57", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 26
+    }, 
+    {
+        "Name": "58", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 26
+    }, 
+    {
+        "Name": "59", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 26
+    }, 
+    {
+        "Name": "60", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 26
+    }, 
+    {
+        "Name": "61", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 1, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 26
+    }, 
+    {
+        "Name": "62", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30003, 
+            30009, 
+            30013
+        ], 
+        "Class": 2, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 26
+    }, 
+    {
+        "Name": "63", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "NeedPropertys2": [
+            30005, 
+            30002, 
+            30008, 
+            30012, 
+            30004
+        ], 
+        "Class": 3, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 26
+    }, 
+    {
+        "Name": "64", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30003, 
+            30009, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30003, 
+            30024, 
+            30001, 
+            30006, 
+            30007
+        ], 
+        "Class": 4, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 26
+    }, 
+    {
+        "Name": "65", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 0, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 27
+    }, 
+    {
+        "Name": "66", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 0, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 27
+    }, 
+    {
+        "Name": "67", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 0, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 28
+    }, 
+    {
+        "Name": "68", 
+        "MinMaxLv": "30-39", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 0, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 28
+    }, 
+    {
+        "Name": "69", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 0, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 28
+    }, 
+    {
+        "Name": "70", 
+        "MinMaxLv": "40-49", 
+        "NeedPropertys1": [
+            30002, 
+            30008, 
+            30012, 
+            30004, 
+            30001
+        ], 
+        "NeedPropertys2": [
+            30001, 
+            30006, 
+            30008, 
+            30010, 
+            30011
+        ], 
+        "Class": 0, 
+        "UpperPercent": 80, 
+        "NeedStar": 5, 
+        "ModelPart": 28
+    }
+]

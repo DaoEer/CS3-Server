@@ -1,0 +1,109 @@
+{
+    "20102068": {
+        "tasks": [
+            {
+                "navigateData": "20006196|20006197|20006198#L_ZLY", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006196|20006197|20006198", 
+                "id": 1, 
+                "name": "击败火狐伏兵"
+            }, 
+            {
+                "navigateData": "(117019.0 86523.0 2263.0)#L_ZLY", 
+                "goal": 5, 
+                "TaskClass": "QuestTaskKillMonster", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20006199|20006200|20006201", 
+                "id": 2, 
+                "name": "击败火狐小妖"
+            }, 
+            {
+                "navigateData": "(105008.406250 85212.382813 3583.316895)#L_ZLY", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 2, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 3, 
+                "name": "降服火狐首领"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 20102068, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102067"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "20806", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "819", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9198", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1630", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q045150|Q045151", 
+        "finish_by": "", 
+        "taskLogDes": "@S{4}望舒追着九阳神火兽到达此处后，神火兽便隐匿了自己的气息。眼下只知道他最后出没之处就是前方的火狐领地。请勇士先去降服火狐领地的妖族，打探出九阳神火兽的下落！|@S{4}望舒追着九阳神火兽到达此处后，神火兽便隐匿了自己的气息。眼下只知道他最后出没之处就是前方的火狐领地。请勇士先去降服火狐领地的妖族，打探出九阳神火兽的下落！|@S{4}望舒追着九阳神火兽到达此处后，神火兽便隐匿了自己的气息。眼下只知道他最后出没之处就是前方的火狐领地。请勇士先去降服火狐领地的妖族，打探出九阳神火兽的下落！", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "20102069", 
+        "taskCompleteFunctions": {}, 
+        "level": 35, 
+        "title": "追查火狐族", 
+        "isAutoCommit": 1, 
+        "start_by": "10000627#L_ZLY", 
+        "isAutoAccept": 1
+    }
+}

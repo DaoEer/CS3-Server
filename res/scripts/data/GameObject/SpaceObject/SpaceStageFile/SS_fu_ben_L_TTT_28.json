@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击杀蛮奴与他的手下", 
+                    "reqVal": 3, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20013338|20013339|20013340", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "30级试炼层"
+        }
+    }, 
+    "describe": "通天塔副本30级试炼层", 
+    "beginOnSpaceInit": 1, 
+    "name": "通天塔30级试炼层"
+}

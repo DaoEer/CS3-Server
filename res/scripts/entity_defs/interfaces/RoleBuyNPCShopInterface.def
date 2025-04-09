@@ -1,0 +1,264 @@
+<root>
+	<Properties>
+		<shopID>
+			<Type>			STRING				</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</shopID>
+
+		<ShopNPCID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			CELL_PUBLIC			</Flags>
+		</ShopNPCID>
+
+		<buyBack>
+			<Type>			ITEMLIST			</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>		true				</Persistent>
+		</buyBack>
+
+		<!--highBuyBack>
+			<Type>			HIGH_BUY_BACK_LIST		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Persistent>		true				</Persistent>
+		</highBuyBack-->
+
+		<jade> <!-- 魂玉-->
+			<Type>			INT32				</Type>
+			<Flags>			OWN_CLIENT			</Flags>
+			<Default>		0				</Default>
+			<Persistent>		false				</Persistent>
+		</jade>
+		<isLockTongShop>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		false				</Default>
+			<Persistent>		false				</Persistent>
+		</isLockTongShop>
+		<tongPlunderShopSellStart>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE			</Flags>
+			<Default>		false				</Default>
+			<Persistent>		false				</Persistent>
+		</tongPlunderShopSellStart>
+	</Properties>
+
+	<ClientMethods>
+		<!-- 取得回购物品列表 -->
+		<CLIENT_OnInitBuyBackItemList>
+			<Arg>	BUY_BACK_ITEM_DATAS			</Arg>	<!-- 回购物品列表 dataStream -->
+		</CLIENT_OnInitBuyBackItemList>
+
+		<!-- 查找NPC售卖物品 -->
+		<CLIENT_InitNPCShopItemList>
+			<Arg>	INT32			</Arg>	<!-- NPCID -->
+			<Arg>	STRING			</Arg>	<!-- shopID -->
+			<Arg>	NPCSHOP_ITEM_LIST	</Arg>	<!-- 物品list -->
+		</CLIENT_InitNPCShopItemList>
+		<CLIENT_InitNPCShopItemListByDiscount>
+			<Arg>	INT32			</Arg>	<!-- NPCID -->
+			<Arg>	STRING			</Arg>	<!-- shopID -->
+			<Arg>	NPCSHOP_ITEM_LIST	</Arg>	<!-- 物品list -->
+			<Arg>	FLOAT			</Arg>
+		</CLIENT_InitNPCShopItemListByDiscount>
+
+		<!-- 增加回购物品 -->
+		<CLIENT_OnRequestSellItem>
+			<Arg>	BUY_BACK_ITEM_DATA			</Arg>
+		</CLIENT_OnRequestSellItem>
+		<OnRequestBuyBackItem>
+			<Arg>	SIMPLE_ITEM_DICT			</Arg>
+		</OnRequestBuyBackItem>
+
+		<!-- 增加高级回购物品 -->
+		<addHighBuyBackItem>
+			<Arg>	STRING			</Arg>
+		</addHighBuyBackItem>
+
+		<subHighBuyBackItem>
+			<Arg>	STRING			</Arg>
+		</subHighBuyBackItem>
+		<CLIENT_OnSuccessBuyShopItem>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</CLIENT_OnSuccessBuyShopItem>
+
+		<!-- 帮会商店物品 -->
+		<CLIENT_OnRequestTongShop>
+			<Arg>	INT32			</Arg>	<!-- NPCID -->
+			<Arg>	STRING			</Arg>	<!-- shopID -->
+			<Arg>	STRING			</Arg>	<!-- 物品list -->
+		</CLIENT_OnRequestTongShop>
+
+		<CLIENT_OnRequestBuyBackItem>
+			<Arg>	STRING			</Arg>
+		</CLIENT_OnRequestBuyBackItem>
+
+		<CLIENT_OpenTraviaShop>
+			<Arg>	INT32			</Arg>	<!-- NPCID -->
+			<Arg>	GUARD_SOUL_DATAS	</Arg>
+			<Arg>	PAGODA_SOUL_DATAS 	</Arg>
+			<Arg>	DRUP_SOUL_DATAS		</Arg>
+		</CLIENT_OpenTraviaShop>
+		<CLIENT_OnRequestBuyCombatSoulItem>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</CLIENT_OnRequestBuyCombatSoulItem>
+		<CLIENT_OnRequestSellCombatSoulItem>
+			<Arg>	STRING			</Arg>
+		</CLIENT_OnRequestSellCombatSoulItem>
+		<CLIENT_OnRequestBuyGuardSoul>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+		</CLIENT_OnRequestBuyGuardSoul>
+		<CLIENT_OnRequestUpdatePagodaSoul>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</CLIENT_OnRequestUpdatePagodaSoul>
+		<CLIENT_openLMNeuralShop>
+			<Arg>	INT32			</Arg>
+			<Arg>	ARRAY_STRING		</Arg>
+			<Arg>	ARRAY_INT32		</Arg>
+			<Arg>	INT32			</Arg>
+		</CLIENT_openLMNeuralShop>
+		<CLIENT_OnBuyNeuralGuard>
+			<Arg>	STRING			</Arg>
+		</CLIENT_OnBuyNeuralGuard>
+		<CLIENT_LockTongShop/>
+		<CLIENT_UnLockTongShop/>
+		<OnTongPlunderShopSellStart>
+			<Arg>	TONG_PLUNDER_SHOP_DATAS		</Arg>
+			<Arg>	STRING		</Arg>
+		</OnTongPlunderShopSellStart>
+		<CLIENT_TongPlunderShopSellEnd/>
+		<OnTongPlunderShopItemBuySuccess>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</OnTongPlunderShopItemBuySuccess>
+		<onNotifyRandomItemSellEndTime>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</onNotifyRandomItemSellEndTime>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onRequestShopLimitItemList>
+			<Arg>	STRING			</Arg>
+			<Arg>	NPCSHOP_ITEM_LIST	</Arg>
+		</onRequestShopLimitItemList>
+
+		<requestBuyNPCShopItem>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</requestBuyNPCShopItem>
+		<onBuyLimintItem>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</onBuyLimintItem>
+
+		<requestSellItem>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</requestSellItem>
+
+		<requestBuyBackItem>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</requestBuyBackItem>
+
+		<requestBuyBackHighItem>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</requestBuyBackHighItem>
+		
+		<requestReturnItem>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</requestReturnItem>
+
+		<requestRepairOneEquip>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+		</requestRepairOneEquip>
+		<requestRepairAllEquip>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+		</requestRepairAllEquip>
+
+		<requestTongShopItemList>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+			<Arg>	STRING			</Arg>
+		</requestTongShopItemList>
+		<tongShopItemListCallBack>
+			<Arg>	STRING			</Arg>
+			<Arg>	NPCSHOP_ITEM_LIST	</Arg>
+		</tongShopItemListCallBack>
+
+		<CELL_requestBuyCombatSoulItem>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+		</CELL_requestBuyCombatSoulItem>
+		<CELL_requestSellCombatSoulItem>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+		</CELL_requestSellCombatSoulItem>
+		<CELL_requestBuyGuardSoul>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</CELL_requestBuyGuardSoul>
+		<CELL_requestUpdatePagodaSoul>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</CELL_requestUpdatePagodaSoul>
+		<CELL_requestSellDrugSoulItem>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</CELL_requestSellDrugSoulItem>
+		<CELL_requestBuyDrugSoulItem>
+			<Exposed/>
+			<Arg>	INT32			</Arg>
+		</CELL_requestBuyDrugSoulItem>
+		<CELL_requestBuyNeuralGuard>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+		</CELL_requestBuyNeuralGuard>
+		<lockTongShop/>
+		<unLockTongShop/>
+		<onTongPlunderShopSellStart>
+			<Arg>	TONG_PLUNDER_SHOP_DATAS		</Arg>
+			<Arg>	STRING			</Arg>
+		</onTongPlunderShopSellStart>
+		<onTongPlunderShopSellEnd/>
+		<requestBuyTongPlunderShopItem>
+			<Exposed/>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</requestBuyTongPlunderShopItem>
+		<requestBuyTongPlunderShopItemCB>
+			<Arg>	STRING			</Arg>
+			<Arg>	INT32			</Arg>
+			<Arg>	INT32			</Arg>
+		</requestBuyTongPlunderShopItemCB>
+	</CellMethods>
+</root>

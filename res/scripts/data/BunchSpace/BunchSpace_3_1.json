@@ -1,0 +1,24 @@
+{
+							"SpaceName"	: "22级单人经验副本",
+							"EntityType"	: "",
+							"DomainType"	: "BunchSpaceDomainBase",
+							"BunchScript"	: "BunchSpaceBase",
+							"scriptID"	: "BunchSpace_3_1",
+							"bunchType"	: "SPACE_BUNCH_TYPE_CHUANCHENG",
+							"belongType"	: "1|2",
+							"strategyID"	: "30_chuan_cheng",
+							"ChildSpace":{
+	"1":{
+			"spaceList":["fu_ben_L_LZG_1"],
+			"doorsPos":"5100 4719 -16029|5100 2929 -16029|4220 3819 -16029|5990 3819 -16029|5990 3819 -16029",
+			"doorsDir":"0 0 0|0 0 0|0 0 0|0 0 0|0 0 0",
+			"isBig":1,
+			"createDoorDelay":5,
+			"createDoorNotifyInfo":{
+							"1":""
+
+						}
+               }
+	},
+							"failureOutNotify":""
+}

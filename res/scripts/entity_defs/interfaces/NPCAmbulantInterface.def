@@ -1,0 +1,129 @@
+<root>
+	<Interfaces>
+		<Interface>		AmbulantInterface	</Interface>
+		<Interface> 	MoveJumpInterface 		</Interface>
+	</Interfaces>
+	<Properties>
+		<moveScriptID>
+			<Type>			UINT16		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</moveScriptID>
+		<circleChaseAngle>
+			<Type>			FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</circleChaseAngle>
+		<circleChaseDistance>
+			<Type>			FLOAT		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>			0			</Default>
+		</circleChaseDistance>
+		<patrolList>	<!--刷新点配置巡逻路线-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+		</patrolList>
+		<moveControlID>
+			<Type>			UINT64	</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+		</moveControlID>
+		<isUpdateSpeed>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			True			</Default>
+		</isUpdateSpeed>
+		<moveTimerID>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+		</moveTimerID>
+		<gobackTimer>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+		</gobackTimer>
+		<moveDormancyTimerID>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+		</moveDormancyTimerID>
+		<patrolRoute>	<!--当前巡逻路线-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+		</patrolRoute>
+		<patrolPathNode>	<!--默认巡逻路线的开始点-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			1			</Default>
+		</patrolPathNode>
+		<patrolMoveMode>	<!--默认巡逻路线的移动方式-->
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			1			</Default>
+		</patrolMoveMode>
+		<patrolAccSpeed>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0.0			</Default>
+			<Persistent>			false			</Persistent>
+		</patrolAccSpeed>
+		<lastPatrolAccTime>
+			<Type>			INT32			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>
+		</lastPatrolAccTime>
+		<wanderCallBackID>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>
+		</wanderCallBackID>
+		<moveSpeedExtra>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>
+		</moveSpeedExtra>
+		<patrolMoveSpeedMax>
+			<Type>			FLOAT			</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>
+		</patrolMoveSpeedMax>
+		<canJumpMove>
+			<Type>			BOOL				</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		false 				</Default>
+		</canJumpMove>
+		<moveJumpEndID>
+			<Type>			TIMER_ID		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>
+		</moveJumpEndID>
+		<isJumping>
+			<Type>			BOOL		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>			0			</Default>
+			<Persistent>			false			</Persistent>
+		</isJumping>
+	</Properties>
+
+	<ClientMethods>
+		<CLIENT_RemoveChasePosInfo/>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<CELL_updateMoveTargetPosFromClient>
+			<Exposed/>
+			<Arg>			STRING			</Arg>
+		</CELL_updateMoveTargetPosFromClient>
+	</CellMethods>
+</root>

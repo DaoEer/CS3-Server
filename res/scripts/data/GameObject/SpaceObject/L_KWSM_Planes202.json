@@ -1,0 +1,25 @@
+﻿{
+"EntityType"	: "SpacePlaneJSZZ",
+"DomainType"	: "SpaceDomainPlaneJSZZ",
+"EntityScript"	: "SpacePlaneJSZZ",
+"scriptID"	: "L_KWSM_Planes202",
+"spaceType"	: "SPACE_TYPE_PLANE",
+"spaceChildType":"SPACE_CHILD_TYPE_JSZZ",
+"SpawnFile"	: "",
+"NavmeshPath"	: "space\\L_FMYW_DOWN3_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FMC",
+	"Position"	: "5962.0 27561.0 11021.0",
+	"Direction"	: "0.0 0.0 87.08"
+	},
+"SpaceData"	:{
+	"reviveType"	: "12",
+	"stageFile":"",
+	"eventFile":"SE_L_JSZZ",
+	"treeScriptID":"20010901"
+	},
+"DomainData"	:{
+	}
+}

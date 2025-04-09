@@ -1,0 +1,97 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭道场守卫", 
+                    "reqVal": 17, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001442|20001443|20001444|20001445|20001446|20001447|20001448|20001449|20001450", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001448#L_FMNL_Planes005"
+                }
+            }, 
+            "title": "前往龙魂道场"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "进入内殿", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "11170 -35639|11170 -28049|3510 -28049|3510 -35639", 
+                    "param2": "-11655|-21655", 
+                    "param1": "2", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(7875.476563 -31885.626953 -16652.103516)#L_FMNL_Planes005"
+                }
+            }, 
+            "title": "寻找蚩龙"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁第一座灵柱", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001455", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001455#L_FMNL_Planes005"
+                }, 
+                "3": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁第三座灵柱", 
+                    "reqVal": 1, 
+                    "priority": 2, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001465", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001465#L_FMNL_Planes005"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "摧毁第二座灵柱", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20001460", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20001460#L_FMNL_Planes005"
+                }
+            }, 
+            "title": "破坏灵力结界"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "打败蚩龙", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "12345", 
+                    "param2": "59", 
+                    "param1": "STORY", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": "20001466#L__FMNL_Planes005"
+                }
+            }, 
+            "title": "制服蚩龙"
+        }
+    }, 
+    "describe": "13级仙道任务", 
+    "beginOnSpaceInit": 1, 
+    "name": "制服蚩龙"
+}

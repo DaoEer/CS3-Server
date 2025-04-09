@@ -1,0 +1,34 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<ownerID>
+			<Type>			OBJECT_ID			</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+			<Persistent>		false				</Persistent>
+		</ownerID>
+		<onWaterArea>
+			<Type>		INT32			</Type>
+			<Flags>		ALL_CLIENTS		</Flags>
+			<Default>	0			</Default>
+			<Persistent>	false			</Persistent>
+		</onWaterArea>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

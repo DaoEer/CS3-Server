@@ -1,0 +1,31 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+		<Interface>	ModelInterface	</Interface>
+	</Interfaces>
+
+	<!--<ClientName>		Monster	</ClientName>-->
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<ownerID>
+			<Type>			OBJECT_ID		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Persistent>		0			</Persistent>
+		</ownerID>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

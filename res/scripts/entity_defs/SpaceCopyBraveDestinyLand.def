@@ -1,0 +1,28 @@
+<root>
+	<Parent>
+		SpaceCopy
+	</Parent>
+	<Implements>
+	</Implements>
+
+	<Properties>
+		<birthInfos>
+			<Type>			PYTHON_LIST			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+			<Default>		[]				</Default>
+		</birthInfos>
+		<membersMgr>
+			<Type>			SPACE_COPY_YCJMD_MEMBER_MGR			</Type>
+			<Flags>			CELL_PUBLIC		</Flags>
+		</membersMgr>
+	</Properties>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

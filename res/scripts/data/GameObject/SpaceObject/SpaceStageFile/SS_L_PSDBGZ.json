@@ -1,0 +1,24 @@
+{
+    "stages": {
+        "1": {
+            "comment": "控制碎片，修复阵法", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "已复原数量", 
+                    "reqVal": 6, 
+                    "priority": 0, 
+                    "param3": "notice", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "复原八卦阵"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "破碎的八卦阵"
+}

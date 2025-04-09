@@ -1,0 +1,22 @@
+<root>
+	<Properties>	
+		<actForbid>
+			<Type>			UINT32			</Type>
+			<Flags>			ALL_CLIENTS	</Flags>
+			<Default>		0			</Default>
+		</actForbid>	
+		<actCounter>
+			<Type>			ARRAY_INT8		</Type>
+			<Flags>			CELL_PRIVATE			</Flags>			
+		</actCounter>
+	</Properties>
+	
+	<CellMethods>
+		<actCounterInc>
+			<Arg>			UINT32		</Arg>		<!-- state -->
+		</actCounterInc>
+		<actCounterDec>
+			<Arg>			UINT32		</Arg>		<!-- state -->
+		</actCounterDec>
+	</CellMethods>
+</root>

@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭邪月幽冥", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009785|20009786|20009787", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009785|20009786|20009787#L_YMG"
+                }
+            }, 
+            "title": "初至幽冥谷"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭青炎幽冥", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009799", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009799#L_YMG"
+                }
+            }, 
+            "title": "幽冥谷深处"
+        }, 
+        "2": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭离魂幽冥", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009795|20009796", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009795|20009796#L_YMG"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭虹光幽冥", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009797|20009798", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009797|20009798#L_YMG"
+                }
+            }, 
+            "title": "闯入幽冥谷"
+        }, 
+        "4": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭冥谷魂王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20009800", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "20009800#L_YMG"
+                }
+            }, 
+            "title": "冥谷魂王现"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "幽冥谷"
+}

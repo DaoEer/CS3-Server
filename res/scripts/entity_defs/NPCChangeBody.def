@@ -1,0 +1,24 @@
+<root>
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+	
+	<ClientName>		NPC	</ClientName>
+
+	<Interfaces>
+		<Interface>	NPCObject		</Interface>
+		<Interface>	NPCTalkInterface	</Interface>
+		<Interface>	NPCQuestInterface	</Interface>
+	</Interfaces>
+
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

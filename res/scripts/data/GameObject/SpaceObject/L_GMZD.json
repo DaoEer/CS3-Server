@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_GMZD",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_GMZD",
+"NavmeshPath"	: "space\\L_FST_01_NAVMESH",
+"SpaceAoi"	: 500.0,
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_MHD",
+	"Position"	: "52140 6670 17290",
+	"Direction"	: "0 0 90"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_GMZD",
+	"eventFile":"SE_L_GMZD"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,171 @@
+{
+    "stages": {
+        "1": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "等待不动明王指示", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "沿岭山道"
+        }, 
+        "3": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭火鹰", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014737|20014738", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-6861.5 14463.1 6142.1)#L_YLSD"
+                }
+            }, 
+            "title": "清除火鹰"
+        }, 
+        "2": {
+            "comment": "选中阵眼使用冰息灵珠熄灭火焰", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "熄灭阵眼", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014741", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-14390.1 17175.0 4597.2)#L_YLSD"
+                }
+            }, 
+            "title": "破坏阵眼"
+        }, 
+        "5": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "消灭火鹰", 
+                    "reqVal": 5, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014739|20014740", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-4719.1 3265.6 7522.6)#L_YLSD"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "使用冰息灵珠破坏阵眼", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014743", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-2238.3 -5505.8 9106.8)#L_YLSD"
+                }
+            }, 
+            "title": "清除障碍"
+        }, 
+        "4": {
+            "comment": "使用跳跃避开火浪，摧毁阵眼晶石", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "使用冰息灵珠破坏晶石", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014742", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(-4400.7 6672.5 7027.4)#L_YLSD"
+                }
+            }, 
+            "title": "躲避火浪"
+        }, 
+        "7": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "跟随不动明王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "跟随不动明王"
+        }, 
+        "6": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "对话不动明王", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(-2238.3 -5505.8 9106.8)#L_YLSD"
+                }
+            }, 
+            "title": "对话不动明王"
+        }, 
+        "9": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "前往飞魔峰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_CustomTask", 
+                    "navigateData": "(10157.6 -17339.2 10420.1)#L_YLSD"
+                }
+            }, 
+            "title": "前往飞魔峰"
+        }, 
+        "8": {
+            "comment": "", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败玄火神鹰", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20014745", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(4810.0 -9870.0 9880.0)#L_YLSD"
+                }
+            }, 
+            "title": "玄火神鹰"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "驰援飞魔岭（二）"
+}

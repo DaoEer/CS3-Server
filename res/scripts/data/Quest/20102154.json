@@ -1,0 +1,104 @@
+{
+    "20102154": {
+        "tasks": [
+            {
+                "navigateData": "10000126#L_TQG", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskGetTo", 
+                "priority": 0, 
+                "param3": "9", 
+                "param2": "1390.0 -13680.000000000002 626.0", 
+                "param1": "L_TQG", 
+                "id": 1, 
+                "name": "回禀太上老君"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002158"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102154, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102153"
+            }, 
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1"
+            }, 
+            {
+                "script": "QuestRequirementProfession", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "1|2|3"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "17779", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "894", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "12181", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "2134", 
+                "script": "QuestRewardMoney"
+            }
+        ], 
+        "description": "Q050295|Q050296|Q050297|Q050298", 
+        "finish_by": "10000126#L_TQG", 
+        "taskLogDes": "@S{4}广成子让你带后羿前往太清宫，向太上老君请教解除十日同出之法。", 
+        "canAbandon": 1, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q050300|Q050304", 
+        "nextQuest": "20102156", 
+        "taskCompleteFunctions": {}, 
+        "level": 40, 
+        "title": "回禀老君", 
+        "isAutoCommit": 1, 
+        "start_by": "10001322#L_FYP", 
+        "isAutoAccept": 1
+    }
+}

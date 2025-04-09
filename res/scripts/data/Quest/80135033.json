@@ -1,0 +1,58 @@
+{
+    "80135033": {
+        "tasks": [
+            {
+                "navigateData": "10000277#L_FMC", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskTalkWithNPC", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "10000277", 
+                "id": 1, 
+                "name": "找海云帆领取奖励"
+            }
+        ], 
+        "acceptedFunctions": [], 
+        "unFinishTaskDes": "", 
+        "id": 80135033, 
+        "isAutoQuest": 1, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementLevel", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "25"
+            }
+        ], 
+        "script": "QuestScriptLoopExt", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestLoop", 
+        "rewards": [
+            {
+                "param2": "1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "205040044", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Cy000093", 
+        "finish_by": "", 
+        "taskLogDes": "", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "", 
+        "nextQuest": "", 
+        "taskCompleteFunctions": {}, 
+        "level": 25, 
+        "title": "领取奖励", 
+        "isAutoCommit": 1, 
+        "start_by": "10000277#L_FMC", 
+        "isAutoAccept": 1
+    }
+}

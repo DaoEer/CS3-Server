@@ -1,0 +1,129 @@
+<root>
+	<Interfaces>
+		<Interface>	MgrPersistentObject	</Interface>
+	</Interfaces>
+	
+	<Properties>
+	</Properties>
+	<BaseMethods>
+		<onChildSpaceSuccess>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</onChildSpaceSuccess>
+		<onChildSpaceFailure>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</onChildSpaceFailure>
+		<onChildSpacePlayerDie>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		OBJECT_ID		</Arg>
+			<Arg>		BASE_ENTITYCALL		</Arg>
+			<Arg>		STRING		</Arg>
+		</onChildSpacePlayerDie>
+		<onChildSpaceCreate>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		BASE_ENTITYCALL	</Arg>
+			<Arg>		STRING		</Arg>
+		</onChildSpaceCreate>
+		<onSpaceDelete>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		BOOL		</Arg>
+			<Arg>		STRING		</Arg>
+		</onSpaceDelete>
+		<onChildSpacePlayerDead>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</onChildSpacePlayerDead>
+		<onMainSpaceCreate>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		BASE_ENTITYCALL	</Arg>
+			<Arg>		STRING		</Arg>
+		</onMainSpaceCreate>
+		<gotoMagicMazeSpace>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING	</Arg>
+			<Arg>		PYTHON_DICT	</Arg>
+		</gotoMagicMazeSpace>
+		<gotoMagicMazeChildSpace>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING	</Arg>
+			<Arg>		PYTHON_DICT	</Arg>
+		</gotoMagicMazeChildSpace>
+		<gotoMagicMazeParentSpace>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING	</Arg>
+			<Arg>		PYTHON_DICT	</Arg>
+		</gotoMagicMazeParentSpace>
+		<gotoMagicMazeExtraSpace>
+			<Arg>		INT32		</Arg>
+			<Arg>		BASE_ENTITYCALL	</Arg>
+			<Arg>		PYTHON_DICT	</Arg>
+			<Arg>		STRING		</Arg>
+		</gotoMagicMazeExtraSpace>
+		<setSpaceProgress>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</setSpaceProgress>
+		<setSpaceInParent>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		BOOL		</Arg>
+			<Arg>		STRING		</Arg>
+		</setSpaceInParent>
+		<setSpaceExtraDice>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		BOOL		</Arg>
+		</setSpaceExtraDice>
+		<setSpaceExtraReward>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		FLOAT		</Arg>
+			<Arg>		STRING		</Arg>
+		</setSpaceExtraReward>
+		<setCopyIsComplet>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		BOOL		</Arg>
+			<Arg>		STRING		</Arg>
+		</setCopyIsComplet>
+		<deregister>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		STRING		</Arg>
+		</deregister>
+		<setSpaceExtraBuffBonus>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</setSpaceExtraBuffBonus>
+		<setNextLevelLoading>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+			<Arg>		BASE_ENTITYCALL	</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		INT32		</Arg>
+			<Arg>		STRING		</Arg>
+		</setNextLevelLoading>
+		<gmClear/>
+	</BaseMethods>
+</root>

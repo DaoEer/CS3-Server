@@ -1,0 +1,86 @@
+{
+    "stages": {
+        "1": {
+            "comment": "使用伪装衣，避免与道场守卫战斗", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "找到盘古幡", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "6342.576172 -12637.810547 2030.351563:15", 
+                    "param2": "7030|-2970", 
+                    "param1": "1", 
+                    "type": "SStageTask_enterArea", 
+                    "navigateData": "(6361.470703 -13765.618164 2014.215332)#L_QYDC"
+                }
+            }, 
+            "title": "潜入"
+        }, 
+        "3": {
+            "comment": "趁此机会，快去上前取得宝物", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "取得盘古幡器灵", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "301010056", 
+                    "type": "SStageTask_getItem", 
+                    "navigateData": "(6361.470703 -13765.618164 2014.215332)#L_QYDC"
+                }
+            }, 
+            "title": "取宝"
+        }, 
+        "2": {
+            "comment": "消灭守卫盘古幡的仙道弟子", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败凌玄", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003185", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(6361.470703 -13765.618164 2014.215332)#L_QYDC"
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "击败青玄道人", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20003188", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": "(6361.470703 -13765.618164 2014.215332)#L_QYDC"
+                }
+            }, 
+            "title": "临危"
+        }, 
+        "4": {
+            "comment": "消灭追击而来的青云弟子，携带盘古幡器灵，离开青云道场", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "全身而退", 
+                    "reqVal": 10, 
+                    "priority": 0, 
+                    "param3": "", 
+                    "param2": "", 
+                    "param1": "20005926|20005921|20005922|20005923|20005924|20005925|20003176|20003177|20003178|20003179|20003180|20003181|20003182|20003183|20003184", 
+                    "type": "SStageTask_killMonster", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "离开"
+        }
+    }, 
+    "describe": "", 
+    "beginOnSpaceInit": 1, 
+    "name": "青云道场"
+}

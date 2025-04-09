@@ -1,0 +1,52 @@
+{
+    "stages": {
+        "1": {
+            "comment": "避开魂妖和光牢，开启灵龛解救魂魄。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "开启外围灵龛", 
+                    "reqVal": 3, 
+                    "priority": 0, 
+                    "param3": "lk0", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }, 
+                "2": {
+                    "isShowByProgressbar": 0, 
+                    "title": "开启妖境中心的灵龛", 
+                    "reqVal": 1, 
+                    "priority": 1, 
+                    "param3": "jr", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "打开外围的灵龛"
+        }, 
+        "2": {
+            "comment": "利用暴怒魔像的冲撞和镇妖雷击杀护灵魂妖，使魔像破碎。", 
+            "tasks": {
+                "1": {
+                    "isShowByProgressbar": 0, 
+                    "title": "开启真魂灵龛", 
+                    "reqVal": 1, 
+                    "priority": 0, 
+                    "param3": "lk4", 
+                    "param2": "", 
+                    "param1": "", 
+                    "type": "SStageTask_conditionChange", 
+                    "navigateData": ""
+                }
+            }, 
+            "title": "破坏暴怒魔像，开启真魂灵龛"
+        }
+    }, 
+    "describe": "数名修士被妖魂杀害，将魂魄以秘术封入灵龛炼制妖丹。经几番探查，终于寻得妖宫所在之处。现命你潜入妖境，释放遇难修士的魂魄。", 
+    "beginOnSpaceInit": 1, 
+    "name": "潜入妖境"
+}

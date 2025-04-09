@@ -1,0 +1,23 @@
+﻿{
+"EntityType"	: "SpaceCopy",
+"DomainType"	: "SpaceDomainCopy",
+"EntityScript"	: "SpaceCopyStory",
+"scriptID"	: "L_XLFZ_DEC",
+"spaceType"	: "SPACE_TYPE_STORY_COPY",
+"SpawnFile"	: "S_L_XLFZ_DEC",
+"NavmeshPath"	: "space\\L_XLFZ_DEC_NAVMESH",
+"PatrolRouteFile": "",
+"belongType"	: "1",
+"ExitSpace"	:{
+	"ScriptID"	: "L_FLS",
+	"Position"	: "-65650.0 -42798.0 5341.0",
+	"Direction"	: "0.0 0.0 175.32"
+	},
+"SpaceData"	:{
+	"reviveType"	: "1|2",
+	"stageFile":"SS_L_XLFZ_DEC",
+	"eventFile":"SE_L_XLFZ_DEC"
+	},
+"DomainData"	:{
+	}
+}

@@ -1,0 +1,47 @@
+<root>
+	<Parent>
+		Monster
+	</Parent>
+	<Interfaces>
+	</Interfaces>
+
+	<Volatile>
+		<position/>
+		<yaw/>
+		<pitch> 20 </pitch>
+	</Volatile>
+
+	<Properties>
+		<exp>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</exp>
+		<levelYXLM>
+			<Type>			INT32		</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1			</Default>
+			<Persistent>		false			</Persistent>
+		</levelYXLM>
+		<number>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</number>
+		<way>
+			<Type>			INT32		</Type>
+			<Flags>			CELL_PRIVATE		</Flags>
+			<Default>		0			</Default>
+			<Persistent>		false			</Persistent>
+		</way>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>
+

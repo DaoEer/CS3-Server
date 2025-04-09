@@ -1,0 +1,129 @@
+{
+    "20102566": {
+        "tasks": [
+            {
+                "navigateData": "10000413#L_BQXB", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskEventTrigger", 
+                "priority": 0, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "", 
+                "id": 1, 
+                "name": "收服人族"
+            }, 
+            {
+                "navigateData": "", 
+                "goal": 1, 
+                "TaskClass": "QuestTaskPlayerLevel", 
+                "priority": 1, 
+                "param3": "", 
+                "param2": "", 
+                "param1": "31", 
+                "id": 2, 
+                "name": "到达31级"
+            }
+        ], 
+        "acceptedFunctions": [
+            {
+                "script": "QuestFuncUseSkill", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "110002046"
+            }, 
+            {
+                "script": "QuestFuncSetTeleportPointOpen", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "3090"
+            }
+        ], 
+        "unFinishTaskDes": "", 
+        "id": 20102566, 
+        "isAutoQuest": 0, 
+        "committedFunctions": [], 
+        "requirements": [
+            {
+                "script": "QuestRequirementCamp", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "2"
+            }, 
+            {
+                "script": "QuestRequirementMissionCompleted", 
+                "param5": "", 
+                "param4": "", 
+                "param3": "", 
+                "param2": "", 
+                "param1": "20102565"
+            }
+        ], 
+        "script": "QuestScriptMainline", 
+        "canShare": 0, 
+        "abandonFunctions": [], 
+        "QuestClass": "QuestNormal", 
+        "rewards": [
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "20644", 
+                "script": "QuestRewardExp"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "812", 
+                "script": "QuestRewardPotential"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "9119", 
+                "script": "QuestRewardXiuwei"
+            }, 
+            {
+                "param2": "", 
+                "param3": "", 
+                "description": "", 
+                "param1": "1232", 
+                "script": "QuestRewardMoney"
+            }, 
+            {
+                "param2": "1|1|1|1", 
+                "param3": "", 
+                "description": "", 
+                "param1": "102040004|102040009|102040014|102040019", 
+                "script": "QuestRewardItemByProfession"
+            }, 
+            {
+                "param2": "3", 
+                "param3": "", 
+                "description": "一星 · 混元三金丹", 
+                "param1": "202030002", 
+                "script": "QuestRewardItem"
+            }
+        ], 
+        "description": "Q045573|Q032688|Q045574", 
+        "finish_by": "10000413#L_BQXB", 
+        "taskLogDes": "@S{4}跟随兽王狴犴的妖族大军一同攻打轩辕部落。|@S{4}将等级提升至31级。", 
+        "canAbandon": 0, 
+        "taskCompleteRewards": {}, 
+        "finishTaskDes": "Q041553", 
+        "nextQuest": "20102569|20102568|20102569|20102569", 
+        "taskCompleteFunctions": {}, 
+        "level": 30, 
+        "title": "收服人族", 
+        "isAutoCommit": 1, 
+        "start_by": "10000413#L_BQXB", 
+        "isAutoAccept": 1
+    }
+}
