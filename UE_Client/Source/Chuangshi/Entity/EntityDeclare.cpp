@@ -1,0 +1,278 @@
+
+#include "EntityDeclare.h"
+#include "KBEngine.h"
+#include "Entity/Account/Account.h"
+#include "Entity/Role/CS3Role.h"
+#include "Entity/Role/CS3PlayRole.h"
+#include "Entity/Monster/Monster.h"
+#include "Entity/NPC/NPC.h"
+#include "Entity/DropBox/DropBox.h"
+#include "Entity/SpellBox/SpellBox.h"
+#include "Entity/SpellBox/SpellBoxSpecial.h"
+#include "Entity/SpellBox/SpellBoxAdvanced.h"
+#include "Entity/Trap/Trap.h"
+#include "Entity/Trap/MoveTrap.h"
+#include "Entity/Trap/TrapSymbolJade.h"
+#include "Entity/Trap/TrapClusterAlert.h"
+#include "Entity/Trap/SpaceDoor.h"
+#include "Entity/NPC/MovingPlatform.h"
+#include "Entity/Monster/MonsterExtCall.h"
+#include "Entity/Monster/MonsterExtXinMo.h"
+#include "Entity/Monster/MonsterBuilding.h"
+#include "Entity/Monster/MonsterExtMachine.h"
+#include "Entity/Monster/MonsterExtQuest.h"
+#include "Entity/VehiclePet/VehiclePet.h"
+#include "Entity/GhostReceiver/GhostReceiver.h"
+#include "Entity/NPC/NPCChangeBody.h"
+#include "Entity/Monster/MonsterExtShareHP.h"
+#include "Entity/TeleportStone/TeleportStone.h"
+#include "Entity/NPC/NPCExtMove.h"
+#include "Entity/NPC/NPCGinsengFruit.h"
+#include "Entity/Monster/MonsterExtClick.h"
+#include "Entity/Monster/MonsterExtModel.h"
+#include "Entity/Trap/MoveTrapByTrigger.h"
+#include "Entity/Monster/MonsterExtClickAndModel.h"
+#include "Entity/NPC/MovingPlatformTrigger.h"
+#include "Entity/NPC/MovingPlatformShade.h"
+#include "Entity/NPC/MovingPlatformLotus.h"
+#include "Entity/Monster/MonsterExtLightWall.h"
+#include "Entity/Monster/MonsterExtDemonGuard.h"
+#include "Entity/Monster/TongNagual.h"
+#include "Entity/Monster/MonsterExtChartlet.h"
+#include "Entity/Monster/MonsterExtRevive.h"
+#include "Entity/NPC/TongNPC.h"
+#include "Entity/Monster/MonsterExtTiShen.h"
+#include "Entity/Monster/MonsterExtLingMai.h"
+#include "Entity/Monster/MonsterExtJiuZiZhenYan.h"
+#include "Entity/Monster/MonsterExtJZZYDB.h"
+#include "Entity/Monster/MonsterExtJZZYXY.h"
+#include "Entity/NPC/NPCSoulShop.h"
+#include "Entity/NPC/NPCSoulShopLBCPVP.h"	
+#include "Entity/NPC/NPCNeuralShop.h"
+#include "Entity/NPC/NPCTorture.h"
+#include "Entity/NPC/NPCExtCompose.h"
+#include "Entity/Monster/MonsterExtYXLMTower.h"
+#include "Entity/Monster/MonsterExtSYJZ.h"
+#include "Entity/Monster/MonsterExtChase.h"
+#include "Entity/Monster/MonsterTorture.h"
+#include "Entity/SpellBox/MoveSpellBox.h"
+#include "Entity/Monster/MonsterExtImpact.h"
+#include "Entity/SpellBox/SpellBoxHit.h"
+#include "Entity/SpellBox/SpellBoxDoor.h"
+#include "Entity/Monster/MonsterExtRotat.h"
+#include "Entity/NPC/MovingPlatformRotator.h"
+#include "Entity/SpellBox/MultiAreaSpellBox.h"
+#include "Entity/Monster/MonsterExtArmorLock.h"
+#include "Entity/Trap/PushTrap.h"
+#include "Entity/Monster/MonsterExtYXLMSoldier.h"
+#include "Entity/NPC/NPCDropFuDai.h"
+#include "Entity/Monster/MonsterExtHasCreator.h"
+#include "Entity/SpellBox/SpellBoxHasCreator.h"
+#include "Entity/Monster/MonsterExtJingShiDongKu.h"
+#include "Entity/Monster/MonsterExtFenHuoJinNiu.h"
+#include "Entity/Monster/MonsterClientBase.h"
+#include "Entity/Monster/MonsterExtJump.h"
+#include "Entity/Monster/MonsterExtXuanTianBaoLu.h"
+#include "Entity/SpellBox/SpellBoxXTBL.h"
+#include "Entity/SpellBox/SpellBoxPet.h"
+#include "Entity/SpellBox/SpellBoxCollect.h"
+#include "Entity/Monster/MonsterExtPLMJSpar.h"
+#include "Entity/Trap/TrapMYJX.h"
+#include "Entity/Monster/MonsterExtShowTopCountDown.h"
+#include "Entity/Monster/MonsterExtInteractive.h"
+#include "Entity/NPC/MovingPlatformRamp.h"
+#include "Entity/Monster/MonsterExtWXHJ.h"
+#include "Entity/Monster/MonsterExtRefreshTime.h"
+#include "Entity/Monster/MonsterExtRareBoss.h"
+#include "Entity/Monster/MonsterExtFirstTongStarcraftBoss.h"
+#include "Entity/Monster/MonsterExtSFMJ.h"
+#include "Entity/Monster/MonsterExtQQRYJ.h"
+#include "Entity/Monster/MonsterExtYCJMDBoss.h"
+#include "Entity/Monster/MonsterExtSGMZ.h"
+#include "Entity/Monster/MonsterExtMiZhen.h"
+#include "Entity/Monster/MonsterExtCanPush.h"
+#include "Entity/Monster/MonsterExtCover.h"
+#include "Entity/NPC/MovingPlatformShips.h"
+#include "Entity/Monster/CMonster.h"
+#include "Entity/Monster/MonsterExtBattery.h"
+#include "Entity/Monster/MonsterExtBatteryRocket.h"
+#include "Entity/SpellBox/SpellBoxPickItem.h"
+#include "Entity/Monster/MonsterFollowRole.h"
+#include "Entity/Monster/MonsterExtSpecialVision.h"
+#include "Entity/Monster/MonsterLunHuiMiJin.h"
+#include "Entity/Monster/MonsterExtRHB.h"
+#include "Entity/Monster/MonsterExtAttackCityLadder.h"
+#include "Entity/Monster/MonsterExtCanister.h"
+#include "Entity/Monster/MonsterExtAerialLadder.h"
+#include "Entity/Trap/TrapBattleFlag.h"
+#include "Entity/Trap/TrapBarracks.h"
+#include "Entity/Monster/MonsterOptimize.h"
+#include "Entity/Monster/MonsterCommander.h"
+#include "Entity/Monster/MonsterSoldier.h"
+#include "Entity/Monster/MonsterExtCollisionCar.h"
+#include "Entity/Monster/MonsterJuMa.h"
+#include "Entity/Monster/MonsterExtTGQuest.h"
+#include "Entity/NPC/NPCExtCaveHouse.h"
+#include "Monster/MonsterGhostEye.h"
+#include "Entity/Monster/MonsterExtXKTB.h"
+#include "Entity/NPC/NPCTrainSoldierGround.h"
+#include "Entity/Monster/MonsterExtMenu.h"
+#include "Entity/SpellBox/SpellBoxLingTian.h"
+#include "Entity/NPC/NPCSeniorTrainSoldierGround.h"
+#include "Entity/NPC/NPCExtPoint.h"
+#include "Monster/MonsterExtClickAndInteractive.h"
+#include "Monster/MonsterExtCircleEffect.h"
+#include "Monster/MonsterExtFireCow.h"
+#include "Monster/MonsterExtJDCY.h"
+#include "NPC/NPCHasLifetime.h"
+#include "NPC/NPCExtBHZBHomeBarrack.h"
+#include "Monster/MonsterExtMain.h"
+#include "Monster/MonsterExtPart.h"
+#include "NPC/NPCExtMysteriousShop.h"
+#include "NPC/MovingPlatformVehicle.h"
+#include "Entity/Monster/MonsterExtFenShen.h"
+#include "Entity/SpellBox/SpellBoxPlunderBox.h"
+#include "Entity/Monster/MonsterExtDisposable.h"
+#include "Entity/DropBox/TongDropBox.h"
+#include "Entity/DropBox/TeamDropBox.h"
+
+void EntityDeclare()
+{
+	//PROXIES type
+	PROXIES_DECLARE(TEXT("Account"), Account);
+	PROXIES_DECLARE(TEXT("Role"), CS3PlayRole);
+	
+	ENTITY_DECLARE(TEXT("Role"), CS3Role);
+	ENTITY_DECLARE(TEXT("Monster"), Monster);
+	ENTITY_DECLARE(TEXT("NPC"), NPC);
+	ENTITY_DECLARE(TEXT("DropBox"), DropBox);
+	ENTITY_DECLARE(TEXT("SpellBox"), SpellBox);
+	ENTITY_DECLARE(TEXT("SpellBoxSpecial"), SpellBoxSpecial);
+	ENTITY_DECLARE(TEXT("SpellBoxAdvanced"), SpellBoxAdvanced);
+	ENTITY_DECLARE(TEXT("Trap"), Trap);
+	ENTITY_DECLARE(TEXT("TrapClusterAlert"), TrapClusterAlert);
+	ENTITY_DECLARE(TEXT("MoveTrap"), MoveTrap);
+	ENTITY_DECLARE(TEXT("TrapSymbolJade"), TrapSymbolJade);
+	ENTITY_DECLARE(TEXT("MovingPlatform"), MovingPlatform);
+	ENTITY_DECLARE(TEXT("MonsterExtCall"), MonsterExtCall);
+	ENTITY_DECLARE(TEXT("MonsterExtQuest"), MonsterExtQuest);
+	ENTITY_DECLARE(TEXT("MonsterExtXinMo"), MonsterExtXinMo);
+	ENTITY_DECLARE(TEXT("VehiclePet"), VehiclePet);
+	ENTITY_DECLARE(TEXT("MonsterBuilding"), MonsterBuilding);
+	ENTITY_DECLARE(TEXT("MonsterExtMachine"), MonsterExtMachine);
+	ENTITY_DECLARE(TEXT("GameObject"), GameObject);
+	ENTITY_DECLARE(TEXT("GhostReceiver"), GhostReceiver);
+	ENTITY_DECLARE(TEXT("NPCChangeBody"), NPCChangeBody);
+	ENTITY_DECLARE(TEXT("MonsterExtShareHP"), MonsterExtShareHP);
+	ENTITY_DECLARE(TEXT("TeleportStone"), TeleportStone);
+	ENTITY_DECLARE(TEXT("NPCExtMove"), NPCExtMove);
+	ENTITY_DECLARE(TEXT("NPCGinsengFruit"), NPCGinsengFruit);
+	ENTITY_DECLARE(TEXT("MonsterExtClick"), MonsterExtClick);
+	ENTITY_DECLARE(TEXT("MonsterExtModel"), MonsterExtModel);
+	ENTITY_DECLARE(TEXT("MoveTrapByTrigger"), MoveTrapByTrigger);
+	ENTITY_DECLARE(TEXT("MonsterExtClickAndModel"), MonsterExtClickAndModel);
+	ENTITY_DECLARE(TEXT("SpaceDoor"), SpaceDoor);
+	ENTITY_DECLARE(TEXT("MovingPlatformTrigger"), MovingPlatformTrigger);
+	ENTITY_DECLARE(TEXT("MovingPlatformShade"), MovingPlatformShade);
+	ENTITY_DECLARE(TEXT("MovingPlatformLotus"), MovingPlatformLotus);
+	ENTITY_DECLARE(TEXT("MonsterExtLightWall"), MonsterExtLightWall);
+	ENTITY_DECLARE(TEXT("MonsterExtDemonGuard"), MonsterExtDemonGuard);
+	ENTITY_DECLARE(TEXT("MonsterExtSpecialVision"), MonsterExtSpecialVision);
+	ENTITY_DECLARE(TEXT("TongNagual"), TongNagual);
+	ENTITY_DECLARE(TEXT("MonsterExtChartlet"), MonsterExtChartlet);
+	ENTITY_DECLARE(TEXT("MonsterExtRevive"), MonsterExtRevive);
+	ENTITY_DECLARE(TEXT("TongNPC"), TongNPC);
+	ENTITY_DECLARE(TEXT("NPCTorture"), NPCTorture);
+	ENTITY_DECLARE(TEXT("MonsterExtTiShen"), MonsterExtTiShen);
+	ENTITY_DECLARE(TEXT("MonsterExtLingMai"), MonsterExtLingMai);
+	ENTITY_DECLARE(TEXT("MonsterExtJiuZiZhenYan"), MonsterExtJiuZiZhenYan);
+	ENTITY_DECLARE(TEXT("MonsterExtJZZYDB"), MonsterExtJZZYDB);
+	ENTITY_DECLARE(TEXT("MonsterExtJZZYXY"), MonsterExtJZZYXY);
+	ENTITY_DECLARE(TEXT("NPCSoulShop"), NPCSoulShop);
+	ENTITY_DECLARE(TEXT("NPCSoulShopLBCPVP"), NPCSoulShopLBCPVP);
+	ENTITY_DECLARE(TEXT("NPCNeuralShop"), NPCNeuralShop);
+	ENTITY_DECLARE(TEXT("MonsterExtYXLMTower"), MonsterExtYXLMTower);
+	ENTITY_DECLARE(TEXT("MonsterExtSYJZ"), MonsterExtSYJZ);
+	ENTITY_DECLARE(TEXT("MonsterExtChase"), MonsterExtChase);
+	ENTITY_DECLARE(TEXT("MonsterTorture"), MonsterTorture);
+	ENTITY_DECLARE(TEXT("MoveSpellBox"), MoveSpellBox);
+	ENTITY_DECLARE(TEXT("MonsterExtImpact"), MonsterExtImpact);
+	ENTITY_DECLARE(TEXT("SpellBoxHit"), SpellBoxHit);
+	ENTITY_DECLARE(TEXT("SpellBoxDoor"), SpellBoxDoor);
+	ENTITY_DECLARE(TEXT("MonsterExtRotat"), MonsterExtRotat);
+	ENTITY_DECLARE(TEXT("MovingPlatformRotator"), MovingPlatformRotator);
+	ENTITY_DECLARE(TEXT("MultiAreaSpellBox"), MultiAreaSpellBox);
+	ENTITY_DECLARE(TEXT("MonsterExtArmorLock"), MonsterExtArmorLock);
+	ENTITY_DECLARE(TEXT("PushTrap"), PushTrap);
+	ENTITY_DECLARE(TEXT("MonsterExtYXLMSoldier"), MonsterExtYXLMSoldier);
+	ENTITY_DECLARE(TEXT("NPCDropFuDai"), NPCDropFuDai);
+	ENTITY_DECLARE(TEXT("MonsterExtHasCreator"), MonsterExtHasCreator);
+	ENTITY_DECLARE(TEXT("SpellBoxHasCreator"), SpellBoxHasCreator);
+	ENTITY_DECLARE(TEXT("MonsterExtJingShiDongKu"), MonsterExtJingShiDongKu);
+	ENTITY_DECLARE(TEXT("MonsterExtFenHuoJinNiu"), MonsterExtFenHuoJinNiu);
+	ENTITY_DECLARE(TEXT("MonsterClientBase"), MonsterClientBase);
+	ENTITY_DECLARE(TEXT("MonsterExtJump"), MonsterExtJump);
+	ENTITY_DECLARE(TEXT("MonsterExtXuanTianBaoLu"), MonsterExtXuanTianBaoLu);
+	ENTITY_DECLARE(TEXT("SpellBoxXTBL"), SpellBoxXTBL);
+	ENTITY_DECLARE(TEXT("SpellBoxPet"), SpellBoxPet);
+	ENTITY_DECLARE(TEXT("SpellBoxCollect"), SpellBoxCollect);
+	ENTITY_DECLARE(TEXT("MonsterExtPLMJSpar"), MonsterExtPLMJSpar);
+	ENTITY_DECLARE(TEXT("TrapMYJX"), TrapMYJX);
+	ENTITY_DECLARE(TEXT("MonsterExtShowTopCountDown"), MonsterExtShowTopCountDown);
+	ENTITY_DECLARE(TEXT("MonsterExtInteractive"), MonsterExtInteractive);
+	ENTITY_DECLARE(TEXT("MovingPlatformRamp"), MovingPlatformRamp);
+	ENTITY_DECLARE(TEXT("MonsterExtWXHJ"), MonsterExtWXHJ);
+	ENTITY_DECLARE(TEXT("MonsterExtRefreshTime"), MonsterExtRefreshTime);
+	ENTITY_DECLARE(TEXT("MonsterExtRareBoss"), MonsterExtRareBoss);
+	ENTITY_DECLARE(TEXT("MonsterExtFirstTongStarcraftBoss"), MonsterExtFirstTongStarcraftBoss);
+	ENTITY_DECLARE(TEXT("MonsterExtSFMJ"), MonsterExtSFMJ);
+	ENTITY_DECLARE(TEXT("MonsterExtQQRYJ"), MonsterExtQQRYJ);
+	ENTITY_DECLARE(TEXT("MonsterExtYCJMDBoss"), MonsterExtYCJMDBoss);
+	ENTITY_DECLARE(TEXT("MonsterExtSGMZ"), MonsterExtSGMZ);
+	ENTITY_DECLARE(TEXT("MonsterExtMiZhen"), MonsterExtMiZhen);
+	ENTITY_DECLARE(TEXT("MonsterExtCanPush"), MonsterExtCanPush);
+	ENTITY_DECLARE(TEXT("MovingPlatformShips"), MovingPlatformShips);
+	ENTITY_DECLARE(TEXT("CMonster"), CMonster);
+	ENTITY_DECLARE(TEXT("MonsterExtBattery"), MonsterExtBattery);
+	ENTITY_DECLARE(TEXT("MonsterExtBatteryRocket"), MonsterExtBatteryRocket);
+	ENTITY_DECLARE(TEXT("SpellBoxPickItem"), SpellBoxPickItem);
+	ENTITY_DECLARE(TEXT("MonsterFollowRole"), MonsterFollowRole);
+	ENTITY_DECLARE(TEXT("MonsterLunHuiMiJin"), MonsterLunHuiMiJin);
+	ENTITY_DECLARE(TEXT("MonsterExtRHB"), MonsterExtRHB);
+	ENTITY_DECLARE(TEXT("MonsterExtAttackCityLadder"), MonsterExtAttackCityLadder);
+	ENTITY_DECLARE(TEXT("MonsterExtCanister"), MonsterExtCanister);
+	ENTITY_DECLARE(TEXT("MonsterExtAerialLadder"), MonsterExtAerialLadder);
+	ENTITY_DECLARE(TEXT("TrapBattleFlag"), TrapBattleFlag);
+	ENTITY_DECLARE(TEXT("TrapBarracks"), TrapBarracks);
+	ENTITY_DECLARE(TEXT("MonsterOptimize"), MonsterOptimize);
+	ENTITY_DECLARE(TEXT("MonsterCommander"), MonsterCommander);
+	ENTITY_DECLARE(TEXT("MonsterSoldier"), MonsterSoldier);
+	ENTITY_DECLARE(TEXT("MonsterExtCollisionCar"), MonsterExtCollisionCar);
+	ENTITY_DECLARE(TEXT("MonsterJuMa"), MonsterJuMa);
+	ENTITY_DECLARE(TEXT("NPCExtCaveHouse"), NPCExtCaveHouse);
+	ENTITY_DECLARE(TEXT("MonsterGhostEye"), MonsterGhostEye);
+	ENTITY_DECLARE(TEXT("MonsterExtXKTB"), MonsterExtXKTB);
+	ENTITY_DECLARE(TEXT("MonsterExtTGQuest"), MonsterExtTGQuest);
+	ENTITY_DECLARE(TEXT("MonsterExtCover"), MonsterExtCover);
+	ENTITY_DECLARE(TEXT("NPCTrainSoldierGround"), NPCTrainSoldierGround);
+	ENTITY_DECLARE(TEXT("MonsterExtMenu"), MonsterExtMenu);
+	ENTITY_DECLARE(TEXT("SpellBoxLingTian"), SpellBoxLingTian);
+	ENTITY_DECLARE(TEXT("NPCSeniorTrainSoldierGround"), NPCSeniorTrainSoldierGround);
+	ENTITY_DECLARE(TEXT("NPCExtPoint"), NPCExtPoint);
+	ENTITY_DECLARE(TEXT("MonsterExtClickAndInteractive"), MonsterExtClickAndInteractive);
+	ENTITY_DECLARE(TEXT("MonsterExtCircleEffect"), MonsterExtCircleEffect);
+	ENTITY_DECLARE(TEXT("MonsterExtFireCow"), MonsterExtFireCow);
+	ENTITY_DECLARE(TEXT("NPCExtCompose"), NPCExtCompose);
+	ENTITY_DECLARE(TEXT("MonsterExtJDCY"), MonsterExtJDCY);
+	ENTITY_DECLARE(TEXT("NPCHasLifetime"), NPCHasLifetime);
+	ENTITY_DECLARE(TEXT("NPCExtBHZBHomeBarrack"), NPCExtBHZBHomeBarrack);
+	ENTITY_DECLARE(TEXT("MonsterExtMain"), MonsterExtMain);
+	ENTITY_DECLARE(TEXT("MonsterExtPart"), MonsterExtPart);
+	ENTITY_DECLARE(TEXT("NPCExtMysteriousShop"), NPCExtMysteriousShop);
+	ENTITY_DECLARE(TEXT("MovingPlatformVehicle"), MovingPlatformVehicle);
+	ENTITY_DECLARE(TEXT("MonsterExtFenShen"), MonsterExtFenShen);
+	ENTITY_DECLARE(TEXT("SpellBoxPlunderBox"), SpellBoxPlunderBox);
+	ENTITY_DECLARE(TEXT("MonsterExtDisposable"), MonsterExtDisposable);
+	ENTITY_DECLARE(TEXT("TongDropBox"), TongDropBox);
+	ENTITY_DECLARE(TEXT("TeamDropBox"), TeamDropBox);
+}

@@ -1,0 +1,30 @@
+#include "JumpTwoMoveUpState.h"
+#include "Actor/Player/PlayerCharacter.h"
+#include "Component/Role/JumpComponent.h"
+#include "GameData/GameDeFine.h"
+
+JumpTwoMoveUpState::JumpTwoMoveUpState()
+{
+
+}
+
+JumpTwoMoveUpState::~JumpTwoMoveUpState()
+{
+
+}
+
+void JumpTwoMoveUpState::Enter()
+{
+	APlayerCharacter* CurrentPlayerCharacter = Cast<APlayerCharacter>(CurrentEntity->Actor());
+	if (CurrentPlayerCharacter && CurrentPlayerCharacter->JumpComponent)
+	{
+		CurrentPlayerCharacter->JumpComponent->UpdateJumpState(JUMP_SHOW_STATE::JUMP_SHOW_STATE_TWO_MJUMP);
+
+		FName ActionId = "JumpStart_Step2";
+		CurrentPlayerCharacter->PlayAction(ActionId);
+	}
+}
+
+void JumpTwoMoveUpState::Exit()
+{
+}

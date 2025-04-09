@@ -1,0 +1,36 @@
+﻿// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "Interface/Monster/MonsterInterface.h"
+#include "MonsterExtChartletInterface.generated.h"
+
+/*
+* 文件名称：MonsterExtChartletInterface.h
+* 功能说明：
+* 文件作者：zhutianyang
+* 目前维护：zhutianyang
+* 创建时间：2018-03-20
+*/
+
+UCLASS(BlueprintType)
+class CHUANGSHI_API UMonsterExtChartletInterface : public UMonsterInterface
+{
+	GENERATED_BODY()
+	typedef UMonsterInterface Supper;
+	CS3_DECLARE_INTERFACE_MAP()
+public:
+	UMonsterExtChartletInterface();
+	~UMonsterExtChartletInterface();
+	static FString GetName() { return TEXT("GameObjectInterface"); } //获取接口名字
+	static FString GetClassPath() { return TEXT("Class'/Script/Chuangshi.MonsterExtChartletInterface'"); } //获取蓝图对象路径
+
+public:
+	UFUNCTION(BlueprintNativeEvent, Category = "cs3|Entity")
+		void onDisappearChartlet(const int& type);//画卷消失
+	UFUNCTION(BlueprintNativeEvent, Category = "cs3|Entity")
+		void onDisplayChartlet();//画卷显示
+	virtual void InitBlueCB() override;
+
+
+};

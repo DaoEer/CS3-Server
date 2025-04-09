@@ -1,0 +1,15 @@
+#include "TongNPCInterface.h"
+
+CS3_BEGIN_INTERFACE_METHOD_MAP(UTongNPCInterface, Supper)
+CS3_END_INTERFACE_METHOD_MAP()
+
+CS3_BEGIN_INTERFACE_PROPERTY_MAP(UTongNPCInterface, Supper)
+CS3_END_INTERFACE_PROPERTY_MAP()
+
+UTongNPCInterface::UTongNPCInterface()
+{
+}
+
+UTongNPCInterface::~UTongNPCInterface()
+{
+}

@@ -1,0 +1,33 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "KBEngine.h"
+#include "Entity/NPC/NPC.h"
+#include "CS3Base/InterfaceDef.h"
+
+/*
+* 文件名称：NPCGinsengFruit.h
+* 功能说明：
+* 文件作者：yikun
+* 目前维护：yikun
+* 创建时间：2017-09-27
+*/
+
+/**
+* 详情请见JIRA：CST-2150 人参果
+* 副本已废弃
+*/
+class CHUANGSHI_API NPCGinsengFruit : public NPC
+{
+	KBE_DECLARE_ENTITY_MAP();
+
+	typedef NPC Supper;
+	DEF_INTERFACE_CONTENT()
+public:
+	NPCGinsengFruit();
+	~NPCGinsengFruit();
+	
+protected:
+	virtual UClass* GetEntityModelClassAsset() override;///< 获取Entity模型
+};
